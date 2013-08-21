@@ -8,12 +8,9 @@
 	<title>EHR Style Guide | Interactive Table</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="./assets/css/layout.css">
-	<link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="./assets/css/layout-2.css">
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 	<script src="./assets/js/main.js" type="text/javascript"></script>
-	
-
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -24,177 +21,189 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
-<section class="wrapper">
-	<div class="container">
-		<div class="med_list_page">
-			<div class="view">
-				<div class="list_title_bar cf">
-					<div class="prod_options">
-						<span class="show_closed_one show_closed">Show history</span><!--toggle2-->
-					</div>
-				</div>
-				
-				<div class="med_list">
-					<table class="main_table" id="product_table" cellpadding="0px" cellspacing="0px">
-						<thead>
-							<tr>
-								<td><!--type--></td>
-								<td>Name</td>
-								<td>Dose</td>
-								<td>Sig</td>
-								<td>Quantity</td>
-								<td>Refills</td>
-								<td>Prescribed</td>
-								<td>Provider</td>
-								<td>Condition</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type fn"></div></td>
-								<td>aspirin</td>
-								<td>81 mg</td>
-								<td>1 tablet daily</td>
-								<td>75</td>
-								<td>3</td>
-								<td>16 Oct 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type ux"></div></td>
-								<td>chlorthalidone</td>
-								<td>25 mg</td>
-								<td>1 tablet daily</td>
-								<td>90</td>
-								<td>2</td>
-								<td>16 Oct 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type ld"></div></td>
-								<td>citalopram</td>
-								<td>20 mg</td>
-								<td>1 tablet daily</td>
-								<td>30</td>
-								<td>0</td>
-								<td>30 Sept 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type fn"></div></td>
-								<td>Lantus</td>
-								<td></td>
-								<td>40 units at bedtime</td>
-								<td>1200 units</td>
-								<td>0</td>
-								<td>20 Sept 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type fn"></div></td>
-								<td>lisinopril</td>
-								<td>20 mg</td>
-								<td>1 tablet daily</td>
-								<td>30</td>
-								<td>0</td>
-								<td>10 Aug 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type fn"></div></td>
-								<td>metformin</td>
-								<td>1000 mg</td>
-								<td>1 tablet daily</td>
-								<td>30</td>
-								<td>0</td>
-								<td>30 July 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type ux"></div></td>
-								<td>metoprolol</td>
-								<td>XL 50 mg</td>
-								<td>1 tablet daily</td>
-								<td>30</td>
-								<td>0</td>
-								<td>18 July 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<!--toggle2 this-->
-							<tr class="to_cycle closed_one">
-								<td class="type"><div class="test_type ux"></div></td>
-								<td>naproxen</td>
-								<td>500 mg</td>
-								<td>1 tablet 2 times a day</td>
-								<td>30</td>
-								<td>0</td>
-								<td>30 June 2012</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type sc"></div></td>
-								<td>omeprazole</td>
-								<td>20 mg</td>
-								<td>1 tablet daily</td>
-								<td>75</td>
-								<td>3</td>
-								<td>11 July 2013</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type lc"></div></td>
-								<td>pravastatin</td>
-								<td>40 mg</td>
-								<td>1 tablet daily</td>
-								<td>48</td>
-								<td>2</td>
-								<td>7 Aug 2013</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type ld"></div></td>
-								<td>tazodone</td>
-								<td>50 mg</td>
-								<td>3 tablets at bedtime</td>
-								<td>160</td>
-								<td>2</td>
-								<td>21 June 2013</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="to_cycle">
-								<td class="type"><div class="test_type sc"></div></td>
-								<td>warfarin</td>
-								<td>5 mg</td>
-								<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
-								<td>45</td>
-								<td>3</td>
-								<td>16 July 2013</td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+	<section class="container">
+		<div class="med_table_opt">
+			<div id="search">
+				<label for="filter">Filter</label> <input type="text" name="filter" value="" id="filter" />
 			</div>
-			
+			<span class="show_closed">Show history</span>
 		</div>
-	</div><!-- container -->
-</section>
+		
+		<table class="main_table med_table">
+			<thead>
+				<tr>
+					<th>Type</th>
+					<th>Name</th> <!--brand/generic-->
+					<th>Dose</th> <!--dose form-->
+					<th>Sig</th> <!--total daily dose-->
+					<th>Quantity</th>
+					<th>Refills</th> <!--therapeutic range-->
+					<th><!--Date -->Prescribed</th> <!-- end date--><!--duration -->
+					<!--<th>when refills due</th>-->
+					<th><!--Ordering -->Provider</th>
+					<th><!--Associated -->Condition</th>
+					<!--<th>Ins. Cov. Tier</th>-->
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>aspirin</td>
+					<td><span class="num">81</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>75</td>
+					<td>3</td>
+					<td>16 Oct 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>chlorthalidone</td>
+					<td><span class="num">25</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>90</td>
+					<td>2</td>
+					<td>16 Oct 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>citalopram</td>
+					<td><span class="num">20</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>30</td>
+					<td>0</td>
+					<td>30 Sept 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type injection"></div></td>
+					<td>Lantus</td>
+					<td><span class="num"></span></td>
+					<td>40 units at bedtime</td>
+					<td>1200 units</td>
+					<td>0</td>
+					<td>20 Sept 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type liquid"></div></td>
+					<td>lisinopril</td>
+					<td><span class="num">20</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>30</td>
+					<td>0</td>
+					<td>10 Aug 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>metformin</td>
+					<td><span class="num">1000</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>30</td>
+					<td>0</td>
+					<td>30 July 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type capsule"></div></td>
+					<td>metoprolol</td>
+					<td><span class="num">XL 50</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>30</td>
+					<td>0</td>
+					<td>18 July 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>naproxen</td>
+					<td><span class="num">500</span> mg</td>
+					<td>1 tablet 2 times a day</td>
+					<td>30</td>
+					<td>0</td>
+					<td>30 June 2012</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type tablet"></div></td>
+					<td>omeprazole</td>
+					<td><span class="num">20</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>75</td>
+					<td>3</td>
+					<td>11 July 2013</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type cupcake"></div></td>
+					<td>pravastatin</td>
+					<td><span class="num">40</span> mg</td>
+					<td>1 tablet daily</td>
+					<td>48</td>
+					<td>2</td>
+					<td>7 Aug 2013</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type capsule"></div></td>
+					<td>tazodone</td>
+					<td><span class="num">50</span> mg</td>
+					<td>3 tablets at bedtime</td>
+					<td>160</td>
+					<td>2</td>
+					<td>21 June 2013</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr class="closed">
+					<td class="type"><div class="med_type cupcake"></div></td>
+					<td>warfarin</td>
+					<td><span class="num">5</span> mg</td>
+					<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
+					<td>45</td>
+					<td>3</td>
+					<td>16 July 2013</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+			</tbody>
+		</table>
+	</section>
 </body>
 </html>

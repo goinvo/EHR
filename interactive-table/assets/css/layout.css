@@ -99,7 +99,7 @@ table.main_table thead{
 	font-size: 12px;
 	color: #989898;
 }
-table.main_table thead tr td{
+table.main_table thead tr th{
 	/*padding: 8px 8px 6px 8px;*/
 	padding: 5px 8px 4px 8px;
 	border-left: 1px solid #fff;
@@ -109,14 +109,13 @@ table.main_table thead tr td{
 	-webkit-box-shadow: inset 0 -10px 1px -10px #fff;
 	box-shadow:         inset 0 -10px 1px -10px #fff;
 	text-shadow: 1px 1px 0px #fff;
+	font-weight: normal;
+	text-align: left;
 }
-table.main_table thead tr.current_active td {
-	padding: 8px 8px 6px 8px;
-}
-table.main_table thead tr td:last-child{
+table.main_table thead tr th:last-child{
 	border-right: none;
 }
-table.main_table thead tr td:hover{
+table.main_table thead tr th:hover{
 	color: #4d4d4d;
 }
 table.main_table tbody tr {
@@ -136,7 +135,7 @@ table.main_table tbody tr.current_active td {
 table.main_table tbody tr td:first-child {
 	padding-left: 16px;
 }
-table.main_table tbody tr:nth-child(even) {
+table.main_table tbody tr td.odd {
 	background: #f8f8f8;
 }
 .active_to td {
@@ -156,17 +155,22 @@ table.main_table tbody tr td.messages {
 	padding-right: 14px;
 	padding-left: 2px;
 }
-table.main_table tbody tr td.type .test_type{
+table.main_table tbody tr td.type .med_type{
 	display:block;
 	width:15px;
 	height:15px;
 }
-.test_type.fn {background: url('../images/fn.gif'); background-repeat:no-repeat;}
-.test_type.sc  {background: url('../images/sc.gif') no-repeat;}
-.test_type.ld  {background: url('../images/ld.gif') no-repeat;}
-.type .test_type.lc {background: url('../images/lc.gif') no-repeat;}
-.type .test_type.ux {background: url('../images/ux.gif') no-repeat;}
+.med_type.liquid {background: url('../images/liquid.gif'); background-repeat:no-repeat;}
+.med_type.injection  {background: url('../images/injection.gif') no-repeat;}
+.med_type.tablet  {background: url('../images/tablet.gif') no-repeat;}
+.type .med_type.cupcake {background: url('../images/cupcake.gif') no-repeat;}
+.type .med_type.capsule {background: url('../images/capsule.gif') no-repeat;}
 
+.num{
+	width: 30px;
+	display: inline-block;
+	text-align: right;
+}
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,
@@ -211,60 +215,13 @@ table.main_table tbody tr td.type .test_type{
 }
 
 /* #Page Styles */
-/*medication list*/
-.view{
-	margin-left: -16px;
-	margin-bottom: 30px;
-}
-.view h1.prod_title {
-	margin-left: 16px;
-	margin-right: 16px;
-}
-.view .list_title_bar{
-	margin-left:-16px;
-	padding: 2px 0 7px 16px;
-	display: block;
-	height: 30px;
-}
-.view .list_title_bar input[name="edit"]{
-	vertical-align: top;
-	margin-top: 6px;
-}
-.list_title_bar h1, .list_title_bar input, .list_title_bar span, .list_title_bar div {
-	display: inline;
-}
-.list_title_bar span{
-	font-size: 12px;
-}
-.list_title_bar .prod_options{
-	float: right;
-	margin-right: 16px;
-	margin-top: -5px;
-}
-.med_list {
-	overflow-x: hidden;
-}
-.med_list table.version_table, 
-.to_cycle.closed_one, 
-.to_cycle.closed_two, 
-.to_cycle.closed_three, 
-.to_cycle.closed_four{
+.med_table .closed {
 	display: none;
 }
-.show_closed,
-#version_table_one tr,
-#version_table_two tr,
-#version_table_three tr,
-#version_table_four tr{
+.show_closed {
 	cursor: pointer;
-}
-
-.show_closed{
 	color: #0082b2;
 	padding-right: 8px;
-}
-.med_list h1{
-	margin-left: 16px;
 }
 .med_list table.current_version tbody tr.current_active{
 	display: block;
@@ -319,59 +276,13 @@ table.main_table.off tbody tr.to_pv.current{
 	color: #4d4d4d;
 	padding: 0;
 }
-table.main_table tbody tr td  ul.cycle_amount li{
-	display: inline-block;
-	/*display: inline;*/
-	padding: 11px 10px 10px 10px;
-	margin: -11px 0px -9px 0px;
-	text-align: right;
-	width: 15px;
+#search {
+	display: none;
 }
-table.main_table tbody tr td  ul.cycle_amount li:first-child{
-	text-align: right;
-}
-ul.cycle_amount{
-	margin-left: 0;
-	padding-left: 0;
-	display: inline;
-}
-ul.cycle_amount li:nth-child(even) {
-	background: #f8f8f8;
-	z-index: -3;
-}
-
-/*cycle*/
-.title_container{
-	margin-top: 67px;
-	margin-bottom: 10px;
-}
-.title_container input{
-	vertical-align: top;
-	margin-top: 6px;
-	margin-right:4px;
-}
-.cycle table.main_table {
-	margin-left: -16px;
-	margin-right: 0px;
-}
-table.main_table tbody tr.resolved td  {
-	color: #b5b5b5;
-}
-table.main_table tbody tr.resolved.active_to td {
-	color:#0082b2;
-}
-h1.cycle_title{
-	display: inline;
-	margin-right: 16px;
-}
-.main_table tbody tr td h1{
-	width: 550px;
-	/*margin-left: -92px;*/
-	margin-left: -72px;
-}
-.main_table thead tr td input{
-	margin-left: 7px;
-}
-.main_table tbody tr td input{
-	margin-left: 0px;
-}
+th.sortable {  
+    color: #666;  
+    cursor: pointer;  
+    text-decoration: underline;  
+}  
+th.sortable:hover { color: black; }  
+th.sorted-asc, th.sorted-desc  { color: black; } 
