@@ -23,25 +23,25 @@
 <body>
 	<section class="container">
 		<div class="med_table_opt">
-			<div id="search">
+			<span class="show_closed">Hide history</span>
+			<span id="search">
 				<label for="filter">Filter</label> <input type="text" name="filter" value="" id="filter" />
-			</div>
-			<span class="show_closed">Show history</span>
+			</span>
 		</div>
 		
 		<table class="main_table med_table">
 			<thead>
 				<tr>
-					<th>Type</th>
-					<th>Name</th> <!--brand/generic-->
-					<th>Dose</th> <!--dose form-->
-					<th>Sig</th> <!--total daily dose-->
-					<th>Quantity</th>
-					<th>Refills</th> <!--therapeutic range-->
-					<th><!--Date -->Prescribed</th> <!-- end date--><!--duration -->
+					<th>Type <span class="arrow"></span></th>
+					<th class="sorted-asc">Name <span class="arrow"></span></th> <!--brand/generic-->
+					<th>Dose <span class="arrow"></span></th> <!--dose form-->
+					<th>Sig <span class="arrow"></span></th> <!--total daily dose-->
+					<th>Quantity <span class="arrow"></span></th>
+					<th>Refills <span class="arrow"></span></th> <!--therapeutic range-->
+					<th><!--Date -->Prescribed <span class="arrow"></span></th> <!-- end date--><!--duration -->
 					<!--<th>when refills due</th>-->
-					<th><!--Ordering -->Provider</th>
-					<th><!--Associated -->Condition</th>
+					<th><!--Ordering -->Provider <span class="arrow"></span></th>
+					<th><!--Associated -->Condition <span class="arrow"></span></th>
 					<!--<th>Ins. Cov. Tier</th>-->
 				</tr>
 			</thead>

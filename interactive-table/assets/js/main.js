@@ -9,6 +9,7 @@ $(document).ready(function(){
 	});
 	
 	//history toggle
+	$('.closed').show();
 	$(".show_closed").click(function(){
 		if($(this).html()=='Show history'){
 			$(this).html('Hide history');

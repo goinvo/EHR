@@ -1,15 +1,12 @@
-/* #Site Styles */
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);*/
-/*@fontface 'Open Sans', 'Open Sans Light', 'Open Sans Bold'*/
-
+@import url('../fonts/stylesheet.css');
+/* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
 body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	line-height: 1;
 	background: #fff;
-	font-family: 'Open Sans', 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #4d4d4d;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -52,23 +49,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #181818;
-	font-family: 'Open Sans', 'OpenSansLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 300; }
+	font-family: 'OpenSansLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 h1 { font-size: 24px; margin-bottom: 62px;line-height: 30px;
 	}
 h2 { font-size: 18px; line-height: 40px; margin-bottom: 10px; }
 h3 { font-size: 14px;}
-h4 {font-size: 18px; font-weight: 600;
-font-family: 'Open Sans', 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h4 {font-size: 18px;
+font-family: 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1.title{ margin-top: 42px;}
-h1 a{ font-weight: 300; font-family: 'Open Sans', 'OpenSansLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+h1 a{ 'OpenSansLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 p { margin: 0 0 20px 0; }
 hr { border: solid #e5e5e5; border-width: 1px 0 0; margin: 10px 0 30px; height: 0; }
 
+b {font-family: 'OpenSansBold';}
 a, a:visited { color: #0082b2; text-decoration: none; outline: 0; 
-	font-family: 'Open Sans', 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a:hover, a:focus { color: #4d4d4d; }
 
@@ -279,10 +276,25 @@ table.main_table.off tbody tr.to_pv.current{
 #search {
 	display: none;
 }
-th.sortable {  
-    color: #666;  
-    cursor: pointer;  
-    text-decoration: underline;  
+th.sortable { 
+    cursor: pointer;
 }  
 th.sortable:hover { color: black; }  
-th.sorted-asc, th.sorted-desc  { color: black; } 
+th.sorted-asc, th.sorted-desc  { 
+	color: #000; 
+	font-family: 'OpenSansBold';
+} 
+th .arrow{
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 7px;
+	width: 10px;
+	float: right;
+	margin-top:2px;
+}
+th.sorted-asc .arrow {
+	background: url('../images/down_arrow.png');
+}
+th.sorted-desc .arrow {
+	background: url('../images/up_arrow.png');
+}
