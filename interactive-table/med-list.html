@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>EHR Style Guide | Interactive Table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="./assets/css/layout.css">
+	<link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+<body>
+<section class="wrapper">
+	<div class="container">
+		<div class="med_list_page">
+			<div class="view">
+				<div class="list_title_bar cf">
+					<div class="prod_options">
+						<span class="show_closed_one show_closed">Show history</span><!--toggle2-->
+					</div>
+				</div>
+				
+				<div class="med_list">
+					<table class="main_table" id="product_table" cellpadding="0px" cellspacing="0px">
+						<thead>
+							<tr>
+								<td><!--type--></td>
+								<td>Name</td>
+								<td>Dose</td>
+								<td>Sig</td>
+								<td>Quantity</td>
+								<td>Refills</td>
+								<td>Prescribed</td>
+								<td>Provider</td>
+								<td>Condition</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type fn"></div></td>
+								<td>aspirin</td>
+								<td>81 mg</td>
+								<td>1 tablet daily</td>
+								<td>75</td>
+								<td>3</td>
+								<td>16 Oct 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type ux"></div></td>
+								<td>chlorthalidone</td>
+								<td>25 mg</td>
+								<td>1 tablet daily</td>
+								<td>90</td>
+								<td>2</td>
+								<td>16 Oct 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type ld"></div></td>
+								<td>citalopram</td>
+								<td>20 mg</td>
+								<td>1 tablet daily</td>
+								<td>30</td>
+								<td>0</td>
+								<td>30 Sept 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type fn"></div></td>
+								<td>Lantus</td>
+								<td></td>
+								<td>40 units at bedtime</td>
+								<td>1200 units</td>
+								<td>0</td>
+								<td>20 Sept 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type fn"></div></td>
+								<td>lisinopril</td>
+								<td>20 mg</td>
+								<td>1 tablet daily</td>
+								<td>30</td>
+								<td>0</td>
+								<td>10 Aug 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type fn"></div></td>
+								<td>metformin</td>
+								<td>1000 mg</td>
+								<td>1 tablet daily</td>
+								<td>30</td>
+								<td>0</td>
+								<td>30 July 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type ux"></div></td>
+								<td>metoprolol</td>
+								<td>XL 50 mg</td>
+								<td>1 tablet daily</td>
+								<td>30</td>
+								<td>0</td>
+								<td>18 July 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--toggle2 this-->
+							<tr class="to_cycle closed_one">
+								<td class="type"><div class="test_type ux"></div></td>
+								<td>naproxen</td>
+								<td>500 mg</td>
+								<td>1 tablet 2 times a day</td>
+								<td>30</td>
+								<td>0</td>
+								<td>30 June 2012</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type sc"></div></td>
+								<td>omeprazole</td>
+								<td>20 mg</td>
+								<td>1 tablet daily</td>
+								<td>75</td>
+								<td>3</td>
+								<td>11 July 2013</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type lc"></div></td>
+								<td>pravastatin</td>
+								<td>40 mg</td>
+								<td>1 tablet daily</td>
+								<td>48</td>
+								<td>2</td>
+								<td>7 Aug 2013</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type ld"></div></td>
+								<td>tazodone</td>
+								<td>50 mg</td>
+								<td>3 tablets at bedtime</td>
+								<td>160</td>
+								<td>2</td>
+								<td>21 June 2013</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="to_cycle">
+								<td class="type"><div class="test_type sc"></div></td>
+								<td>warfarin</td>
+								<td>5 mg</td>
+								<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
+								<td>45</td>
+								<td>3</td>
+								<td>16 July 2013</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+	</div><!-- container -->
+</section>
+</body>
+</html>
