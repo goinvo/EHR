@@ -84,6 +84,7 @@ $(document).ready(function(){
 		$(this).addClass('sortable').click(function(){
 			//get column that was clicked and use it to sort with
 			var findSortKey = function($cell) {
+				console.log ($cell.find('.sort-key').text().toUpperCase());
 				return $cell.find('.sort-key').text().toUpperCase() + ' ' + $cell.text().toUpperCase();
 			};
 			var sortDirection = $(this).is('.sorted-asc') ? -1 : 1;

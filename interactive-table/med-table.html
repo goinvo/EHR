@@ -22,181 +22,195 @@
 </head>
 <body>
 	<section class="container">
-		<div class="med_table_opt">
-			<span class="show_closed">Hide history</span>
-			<span id="search">
-				<label for="filter">Filter</label> <input type="text" name="filter" value="" id="filter" />
+		<div class="sixteen columns">
+		<div class="med_table_opt cf">
+			<span class="show_closed fleft">Hide history</span>
+			<span id="search" class="fright">
+				<label for="filter">Search</label> <input type="text" name="filter" value="" id="filter" />
 			</span>
 		</div>
 		
 		<table class="main_table med_table">
 			<thead>
 				<tr>
-					<th>Type <span class="arrow"></span></th>
-					<th class="sorted-asc">Name <span class="arrow"></span></th> <!--brand/generic-->
-					<th>Dose <span class="arrow"></span></th> <!--dose form-->
-					<th>Sig <span class="arrow"></span></th> <!--total daily dose-->
-					<th>Quantity <span class="arrow"></span></th>
-					<th>Refills <span class="arrow"></span></th> <!--therapeutic range-->
-					<th><!--Date -->Prescribed <span class="arrow"></span></th> <!-- end date--><!--duration -->
-					<!--<th>when refills due</th>-->
-					<th><!--Ordering -->Provider <span class="arrow"></span></th>
-					<th><!--Associated -->Condition <span class="arrow"></span></th>
-					<!--<th>Ins. Cov. Tier</th>-->
+					<th><span class="col-head">Type <span class="arrow"></span></span></th>
+					<th class="sorted-asc"><span class="col-head">Name <span class="arrow"></span></span></th> <!--brand/generic-->
+					<th><span class="col-head">Dose <span class="arrow"></span></span></th> <!--dose form-->
+					<th><span class="col-head">Sig <span class="arrow"></span></span></th> <!--total daily dose-->
+					<th><span class="col-head">Quantity <span class="arrow"></span></span></th>
+					<th><span class="col-head">Refills <span class="arrow"></span></span></th> <!--therapeutic range-->
+					<th><span class="col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
+					<!--<th><span class="col-head">when refills due</span></th>-->
+					<th><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
+					<th><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
+					<!--<th><span class="col-head">Ins. Cov. Tier</span></th>-->
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>aspirin</td>
-					<td><span class="num">81</span> mg</td>
+					<td><span class="sort-key">0081</span><span class="num">81</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>75</td>
+					<td><span class="sort-key">0075</span><span class="num">75</span></td>
 					<td>3</td>
-					<td>16 Oct 2012</td>
+					<td><span class="sort-key">20121016</span><span class="sm_num">16</span> Oct 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>chlorthalidone</td>
-					<td><span class="num">25</span> mg</td>
+					<td><span class="sort-key">0025</span><span class="num">25</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>90</td>
+					<td><span class="sort-key">0090</span><span class="num">90</span></td>
 					<td>2</td>
-					<td>16 Oct 2012</td>
+					<td><span class="sort-key">20121016</span><span class="sm_num">16</span> Oct 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>citalopram</td>
-					<td><span class="num">20</span> mg</td>
+					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>30</td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td>30 Sept 2012</td>
+					<td><span class="sort-key">20120930</span><span class="sm_num">30</span> Sept 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type injection"></div></td>
+					<td class="type"><div class="med_type injection"><span class="sort-key">Injection</span></div></td>
 					<td>Lantus</td>
-					<td><span class="num"></span></td>
-					<td>40 units at bedtime</td>
-					<td>1200 units</td>
+					<td><span class="sort-key">0040</span><span class="num">40</span> units</td>
+					<td>1 injection at bedtime</td>
+					<td><span class="sort-key">1200</span><span class="num">1200</span> units</td>
 					<td>0</td>
-					<td>20 Sept 2012</td>
+					<td><span class="sort-key">20120920</span><span class="sm_num">20</span> Sept 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type liquid"></div></td>
+					<td class="type"><div class="med_type liquid"><span class="sort-key">Liquid</span></div></td>
 					<td>lisinopril</td>
-					<td><span class="num">20</span> mg</td>
+					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>30</td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td>10 Aug 2012</td>
+					<td><span class="sort-key">20120810</span><span class="sm_num">10</span> Aug 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>metformin</td>
-					<td><span class="num">1000</span> mg</td>
+					<td><span class="sort-key">1000</span><span class="num">1000</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>30</td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td>30 July 2012</td>
+					<td><span class="sort-key">20120730</span><span class="sm_num">30</span> July 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type capsule"></div></td>
+					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
 					<td>metoprolol</td>
-					<td><span class="num">XL 50</span> mg</td>
+					<td><span class="sort-key">0050</span><span class="num">XL 50</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>30</td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td>18 July 2012</td>
+					<td><span class="sort-key">20120718</span><span class="sm_num">18</span> July 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>naproxen</td>
-					<td><span class="num">500</span> mg</td>
+					<td><span class="sort-key">0500</span><span class="num">500</span> mg</td>
 					<td>1 tablet 2 times a day</td>
-					<td>30</td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td>30 June 2012</td>
+					<td><span class="sort-key">20120630</span><span class="sm_num">30</span> June 2012</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"></div></td>
+					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>omeprazole</td>
-					<td><span class="num">20</span> mg</td>
+					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>75</td>
+					<td><span class="sort-key">0075</span><span class="num">75</span></td>
 					<td>3</td>
-					<td>11 July 2013</td>
+					<td><span class="sort-key">20130711</span><span class="sm_num">11</span> July 2013</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type cupcake"></div></td>
+					<td class="type"><div class="med_type capsule"><span class="sort-key">capsule</span></div></td>
 					<td>pravastatin</td>
-					<td><span class="num">40</span> mg</td>
+					<td><span class="sort-key">0040</span><span class="num">40</span> mg</td>
 					<td>1 tablet daily</td>
-					<td>48</td>
+					<td><span class="sort-key">0048</span><span class="num">48</span></td>
 					<td>2</td>
-					<td>7 Aug 2013</td>
+					<td><span class="sort-key">20130807</span><span class="sm_num">7</span> Aug 2013</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type capsule"></div></td>
+					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
 					<td>tazodone</td>
-					<td><span class="num">50</span> mg</td>
+					<td><span class="sort-key">0050</span><span class="num">50</span> mg</td>
 					<td>3 tablets at bedtime</td>
-					<td>160</td>
+					<td><span class="sort-key">0160</span><span class="num">160</span></td>
 					<td>2</td>
-					<td>21 June 2013</td>
+					<td><span class="sort-key">20130721</span><span class="sm_num">21</span> June 2013</td>
+					<!--<td>when refills due</td>-->
+					<td><!--Provider--></td>
+					<td><!--Condition--></td>
+					<!--<td>Ins. Cov. Tier</td>-->
+				</tr>
+				<tr>
+					<td class="type"><div class="med_type inhaler"><span class="sort-key">Inhaler</span></div></td>
+					<td>Ventolin</td>
+					<td><span class="sort-key">0005</span><span class="num">5</span> mg</td>
+					<td>1 puff as needed</td>
+					<td><span class="sort-key">0140</span><span class="num">140</span></td>
+					<td>3</td>
+					<td><span class="sort-key">20130716</span><span class="sm_num">16</span> July 2013</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type cupcake"></div></td>
+					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
 					<td>warfarin</td>
-					<td><span class="num">5</span> mg</td>
+					<td><span class="sort-key">0005</span><span class="num">5</span> mg</td>
 					<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
-					<td>45</td>
+					<td><span class="sort-key">0045</span><span class="num">45</span></td>
 					<td>3</td>
-					<td>16 July 2013</td>
+					<td><span class="sort-key">20130716</span><span class="sm_num">16</span> July 2013</td>
 					<!--<td>when refills due</td>-->
 					<td><!--Provider--></td>
 					<td><!--Condition--></td>
@@ -204,6 +218,7 @@
 				</tr>
 			</tbody>
 		</table>
+		</div>
 	</section>
 </body>
 </html>
