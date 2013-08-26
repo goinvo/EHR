@@ -11,6 +11,8 @@
 	<link rel="stylesheet" href="./assets/css/layout.css">
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script src="./assets/js/checkboxes.js" type="text/javascript"></script>
+	<script src="./assets/js/dropdowns.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -24,22 +26,50 @@
 	<section class="container">
 		<div class="sixteen columns">
 		<div class="med_table_opt cf">
-			<span class="show_closed fleft">Hide history</span>
-			<span id="search" class="fright">
-				<label for="filter">Search</label> <input type="text" name="filter" value="" id="filter" />
+			<div class="button dropdown" id="type_drop">
+				<div class="active_dropdown_area">
+					<div class="active_item_name">
+					<span>5 Types</span>
+					<input type="hidden" value="Types" disabled="disabled" /></div>
+					<div class="active_item_arrow"></div>
+				</div>
+				<div class="expanding_dropdown_area">
+					<div class="filter" id="type_filter">
+						<h6><input type="checkbox" id="selectAllTypes"/>
+							<span class="check_label">All Med Types</span></h6>
+							<ul>
+								<li><input type="checkbox" class="type" name="type" value="1"/>
+									<span class="check_label">Capsule</span></li>
+								<li><input type="checkbox" class="type" name="type" value="2"/>
+									<span class="check_label">Inhaler</span></li>
+								<li><input type="checkbox" class="type" name="type" value="3"/>
+									<span class="check_label">Injection</span></li>
+								<li><input type="checkbox" class="type" name="type" value="4"/>
+									<span class="check_label">Liquid</span></li>
+								<li><input type="checkbox" class="type" name="type" value="5"/>
+									<span class="check_label">Tablet</span></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<span class="show_closed fright">Hide history</span>
+			<span id="search" class="fright cf">
+				<label for="filter"></label> <input type="text" name="filter" value="" id="filter" />
 			</span>
 		</div>
 		
 		<table class="main_table med_table">
 			<thead>
 				<tr>
-					<th><span class="col-head">Type <span class="arrow"></span></span></th>
-					<th class="sorted-asc"><span class="col-head">Name <span class="arrow"></span></span></th> <!--brand/generic-->
-					<th><span class="col-head">Dose <span class="arrow"></span></span></th> <!--dose form-->
-					<th><span class="col-head">Sig <span class="arrow"></span></span></th> <!--total daily dose-->
-					<th><span class="col-head">Quantity <span class="arrow"></span></span></th>
-					<th><span class="col-head">Refills <span class="arrow"></span></span></th> <!--therapeutic range-->
-					<th><span class="col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
+					<th><span class="type col-head">Type <span class="arrow"></span></span></th>
+					<th class="name sorted-asc"><span class="col-head">Name <span class="arrow"></span></span></th> <!--brand/generic-->
+					<th><span class="dose col-head">Dose <span class="arrow"></span></span></th> <!--dose form-->
+					<th><span class="sig col-head">Sig <span class="arrow"></span></span></th> <!--total daily dose-->
+					<th><span class="quant col-head">Quantity <span class="arrow"></span></span></th>
+					<th><span class="refills col-head">Refills <span class="arrow"></span></span></th> <!--therapeutic range-->
+					<th><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
 					<!--<th><span class="col-head">when refills due</span></th>-->
 					<th><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
 					<th><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>

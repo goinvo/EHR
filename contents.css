@@ -83,21 +83,27 @@ ul{
 .updates ul#datelist {
 	margin: 0px 0px 0px 32px;
 }
-.updates ul#datelist li a, a#lastdate{
+.updates ul#datelist li a, a#lastdate {
 	color: #4d4d4d;
 }
-#lastupdate{
+#lastupdate {
 	padding: 0px 0px 10px 0px;
 	border-bottom: solid 1px #ddd;
 	margin-left: 0;
 }
-.old{
+.old {
 	border-top: solid 1px #ededed;
 	color: #b5b5b5;
 	font-size: 10px;
 	padding-top: 10px;
 }
-
+.old .update { 
+	display: block;
+	padding-bottom: 10px;
+}
+.old .update p:first-child { 
+	color: #4d4d4d;
+}
 /* #Base 960 Grid
 ================================================== */
 
