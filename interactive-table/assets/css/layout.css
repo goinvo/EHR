@@ -269,7 +269,7 @@
 	width: 28px;
 	display: inline-block;
 	height: 30px;
-	background: url('../images/dropdown_arrow.svg') no-repeat;
+	background: url('../images/dropdown_arrow.png') no-repeat;
 	background-position: center center;
 	position: absolute;
 	top: 0;
@@ -628,7 +628,7 @@ table.main_table thead{
 }
 table.main_table thead tr th{
 	/*padding: 8px 8px 6px 8px;*/
-	padding: 5px 8px 4px 8px;
+	padding: 5px 8px 4px 10px;
 	border-left: 1px solid #fff;
 	border-right: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8;
@@ -642,7 +642,7 @@ table.main_table thead tr th{
 table.main_table thead tr th:last-child{
 	border-right: none;
 }
-table.main_table thead tr th:hover{
+table.main_table thead tr th.sort-col:hover{
 	color: #4d4d4d;
 }
 table.main_table tbody tr {
@@ -673,26 +673,6 @@ table.main_table tbody tr td.odd {
 	cursor:pointer;
 	z-index: 1;
 }
-table.main_table tbody tr td.messages {
-	background-image: url('../images/message.png');
-	background-repeat: no-repeat;
-	height:10px;
-	width: 18px;
-	background-position: right center;
-	padding-right: 14px;
-	padding-left: 2px;
-}
-table.main_table tbody tr td.type .med_type{
-	display:block;
-	width:15px;
-	height:15px;
-}
-.med_type.liquid {background: url('../images/liquid.svg'); background-repeat:no-repeat;}
-.med_type.injection  {background: url('../images/injection.svg') no-repeat;}
-.med_type.tablet  {background: url('../images/tablet.svg') no-repeat;}
-.type .med_type.inhaler {background: url('../images/inhaler.svg') no-repeat;}
-.type .med_type.capsule {background: url('../images/capsule.svg') no-repeat;}
-
 .num{
 	width: 30px;
 	display: inline-block;
@@ -776,7 +756,7 @@ table.main_table.off tbody tr.to_pv.current{
 	display: none;
 }
 #search label {
-	background: url('../images/search.svg') no-repeat;
+	background: url('../images/search.png') no-repeat;
 	position: absolute;
 	right: 0;
 	margin: 8px 102px 0 0;
@@ -813,10 +793,10 @@ th .arrow{
 	margin-left: 3px;
 }
 th.sorted-asc .arrow {
-	background: url('../images/dropdown_arrow.svg') no-repeat;
+	background: url('../images/dropdown_arrow.png') no-repeat;
 }
 th.sorted-desc .arrow {
-	background: url('../images/up_arrow.svg') no-repeat;
+	background: url('../images/up_arrow.png') no-repeat;
 }
 
 	/* #Tablet (Portrait) Note: Design for a width of 768px */

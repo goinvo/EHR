@@ -25,18 +25,18 @@
 <body>
 	<section class="container">
 		<div class="sixteen columns">
-		<div class="med_table_opt cf">
+		<!--<div class="med_table_opt cf">
 			<div class="button dropdown" id="type_drop">
 				<div class="active_dropdown_area">
 					<div class="active_item_name">
-					<span>5 Types</span>
+					<span>9 Conditions</span>
 					<input type="hidden" value="Types" disabled="disabled" /></div>
 					<div class="active_item_arrow"></div>
 				</div>
 				<div class="expanding_dropdown_area">
 					<div class="filter" id="type_filter">
 						<h6><input type="checkbox" id="selectAllTypes"/>
-							<span class="check_label">All Med Types</span></h6>
+							<span class="check_label">All Conditions</span></h6>
 							<ul>
 								<li><input type="checkbox" class="type" name="type" value="1"/>
 									<span class="check_label">Capsule</span></li>
@@ -58,192 +58,192 @@
 			<span id="search" class="fright cf">
 				<label for="filter"></label> <input type="text" name="filter" value="" id="filter" />
 			</span>
-		</div>
+		</div>-->
 		
 		<table class="main_table med_table">
 			<thead>
 				<tr>
-					<th><span class="type col-head">Type <span class="arrow"></span></span></th>
-					<th class="name sorted-asc"><span class="col-head">Name <span class="arrow"></span></span></th> <!--brand/generic-->
+					<th class="name sorted-asc sortable "><span class="col-head">Generic <span class="arrow"></span></span></th> <!--generic-->
+					<th class="brand sortable"><span class="col-head">Brand <span class="arrow"></span></span></th> <!--brand-->
 					<th><span class="dose col-head">Dose <span class="arrow"></span></span></th> <!--dose form-->
-					<th><span class="sig col-head">Sig <span class="arrow"></span></span></th> <!--total daily dose-->
+					<th class="sortable"><span class="sig col-head">Sig (Frequency)<span class="arrow"></span></span></th> <!--total daily dose-->
 					<th><span class="quant col-head">Quantity <span class="arrow"></span></span></th>
 					<th><span class="refills col-head">Refills <span class="arrow"></span></span></th> <!--therapeutic range-->
-					<th><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
+					<th class="sortable"><span class="renewDue col-head">Renewal Due <span class="arrow"></span></span></th>
+					<th class="sortable"><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
 					<!--<th><span class="col-head">when refills due</span></th>-->
-					<th><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
-					<th><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
+					<th class="sortable"><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
+					<th class="condition sortable"><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
 					<!--<th><span class="col-head">Ins. Cov. Tier</span></th>-->
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
-					<td>aspirin</td>
+					<td>acetylsalicylic acid</td>
+					<td>Aspirin</td><!-- Ecotrin, Fasprin -->
 					<td><span class="sort-key">0081</span><span class="num">81</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0075</span><span class="num">75</span></td>
 					<td>3</td>
-					<td><span class="sort-key">20121016</span><span class="sm_num">16</span> Oct 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Cardiovascular disease</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>chlorthalidone</td>
+					<td></td><!--Thalitone-->
 					<td><span class="sort-key">0025</span><span class="num">25</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0090</span><span class="num">90</span></td>
 					<td>2</td>
-					<td><span class="sort-key">20121016</span><span class="sm_num">16</span> Oct 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Sudha Nahar MD</td>
+					<td class="condition">Hypertension</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>citalopram</td>
+					<td>Celexa</td>
 					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td><span class="sort-key">20120930</span><span class="sm_num">30</span> Sept 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120930</span>30.Sept.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Depression</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type injection"><span class="sort-key">Injection</span></div></td>
+					<td>insulin glargine</td>
 					<td>Lantus</td>
 					<td><span class="sort-key">0040</span><span class="num">40</span> units</td>
 					<td>1 injection at bedtime</td>
 					<td><span class="sort-key">1200</span><span class="num">1200</span> units</td>
 					<td>0</td>
-					<td><span class="sort-key">20120920</span><span class="sm_num">20</span> Sept 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120920</span>20.Sept.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Diabetes</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type liquid"><span class="sort-key">Liquid</span></div></td>
 					<td>lisinopril</td>
+					<td></td><!--Zestril, Prinivil-->
 					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td><span class="sort-key">20120810</span><span class="sm_num">10</span> Aug 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120810</span>10.Aug.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Hypertension</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>metformin</td>
+					<td></td><!--Glumetza, Fortamet, Riomet, Glucophage-->
 					<td><span class="sort-key">1000</span><span class="num">1000</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td><span class="sort-key">20120730</span><span class="sm_num">30</span> July 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120730</span>30.July.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Diabetes</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
 					<td>metoprolol</td>
+					<td></td><!--Lopressor, Toprol-xl-->
 					<td><span class="sort-key">0050</span><span class="num">XL 50</span> mg</td>
 					<td>1 tablet daily</td>
 					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td><span class="sort-key">20120718</span><span class="sm_num">18</span> July 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120718</span>18.July.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Hypertension</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>naproxen</td>
+					<td>Aleve</td> <!--Naprelan, Aleve, Naprosyn, Anaprox-->
 					<td><span class="sort-key">0500</span><span class="num">500</span> mg</td>
 					<td>1 tablet 2 times a day</td>
 					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>0</td>
-					<td><span class="sort-key">20120630</span><span class="sm_num">30</span> June 2012</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20120630</span>30.June.2012</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Walter R Lucas MD</td>
+					<td class="condition">Rheumatoid arthritis</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type tablet"><span class="sort-key">Tablet</span></div></td>
 					<td>omeprazole</td>
+					<td></td><!-- Prilosec, Omesec-->
 					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
 					<td>1 tablet daily</td>
-					<td><span class="sort-key">0075</span><span class="num">75</span></td>
+					<td><span class="sort-key">0090</span><span class="num">90</span></td>
 					<td>3</td>
-					<td><span class="sort-key">20130711</span><span class="sm_num">11</span> July 2013</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20130711</span>11.July.2013</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Sudha Nahar MD</td>
+					<td class="condition">Gastroesophageal reflux disease</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr>
-					<td class="type"><div class="med_type capsule"><span class="sort-key">capsule</span></div></td>
 					<td>pravastatin</td>
+					<td></td><!--Pravachol-->
 					<td><span class="sort-key">0040</span><span class="num">40</span> mg</td>
 					<td>1 tablet daily</td>
-					<td><span class="sort-key">0048</span><span class="num">48</span></td>
+					<td><span class="sort-key">0030</span><span class="num">30</span></td>
 					<td>2</td>
-					<td><span class="sort-key">20130807</span><span class="sm_num">7</span> Aug 2013</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20130807</span>7.Aug.2013</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Sudha Nahar MD</td>
+					<td class="condition">High Cholesterol</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
-					<td>tazodone</td>
+					<td>trazodone</td>
+					<td></td><!--Oleptro-->
 					<td><span class="sort-key">0050</span><span class="num">50</span> mg</td>
 					<td>3 tablets at bedtime</td>
-					<td><span class="sort-key">0160</span><span class="num">160</span></td>
+					<td><span class="sort-key">0060</span><span class="num">60</span></td>
 					<td>2</td>
-					<td><span class="sort-key">20130721</span><span class="sm_num">21</span> June 2013</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20130721</span>21.June.2013</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td class="type"><div class="med_type inhaler"><span class="sort-key">Inhaler</span></div></td>
-					<td>Ventolin</td>
-					<td><span class="sort-key">0005</span><span class="num">5</span> mg</td>
-					<td>1 puff as needed</td>
-					<td><span class="sort-key">0140</span><span class="num">140</span></td>
-					<td>3</td>
-					<td><span class="sort-key">20130716</span><span class="sm_num">16</span> July 2013</td>
-					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Sudha Nahar MD</td>
+					<td class="condition">Depression</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 				<tr class="closed">
-					<td class="type"><div class="med_type capsule"><span class="sort-key">Capsule</span></div></td>
 					<td>warfarin</td>
+					<td></td><!--coumadin, jantoven-->
 					<td><span class="sort-key">0005</span><span class="num">5</span> mg</td>
 					<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
 					<td><span class="sort-key">0045</span><span class="num">45</span></td>
 					<td>3</td>
-					<td><span class="sort-key">20130716</span><span class="sm_num">16</span> July 2013</td>
+					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
+					<td><span class="sort-key">20130716</span>16.July.2013</td>
 					<!--<td>when refills due</td>-->
-					<td><!--Provider--></td>
-					<td><!--Condition--></td>
+					<td>Sudha Nahar MD</td>
+					<td class="condition">Thrombosis</td>
 					<!--<td>Ins. Cov. Tier</td>-->
 				</tr>
 			</tbody>
