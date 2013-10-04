@@ -697,7 +697,6 @@ table.main_table tbody tr td.odd {
 	cursor: pointer;
 	color: #0082b2;
 	padding: 10px;
-	
 }
 .med_list table.current_version tbody tr.current_active{
 	display: block;
@@ -752,14 +751,17 @@ table.main_table.off tbody tr.to_pv.current{
 	color: #4d4d4d;
 	padding: 0;
 }
+section {
+	margin-top: 20px;
+}
 #search {
 	display: none;
+	margin-left: 12px;
 }
 #search label {
 	background: url('../images/search.png') no-repeat;
 	position: absolute;
-	right: 0;
-	margin: 8px 102px 0 0;
+	margin: 8px 0 0 195px;
 	display: block;
 	height: 15px;
 	width: 15px;
@@ -779,10 +781,13 @@ th.sortable:hover { color: black; }
 th.sorted-asc, th.sorted-desc  { 
 	color: #000; 
 	font-family: 'OpenSansBold';
-} 
-th .col-head{
-	padding-right: 10px;
 }
+th.sortable .col-head { padding-right: 10px; }
+th.sortable.renewDue { min-width: 95px; }
+th.sortable.prescribed { min-width: 80px; }
+th.sortable.condition { min-width: 80px; }
+th.sortable.brand{ min-width: 55px;}
+th.sig{ min-width: 87px;}
 th .arrow{
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -798,7 +803,15 @@ th.sorted-asc .arrow {
 th.sorted-desc .arrow {
 	background: url('../images/up_arrow.png') no-repeat;
 }
-
+tr td.dose .num{
+	margin-left: -15px;
+}
+tr td.provider{
+	min-width: 75px;
+}
+tr td.dose{
+	min-width: 40px;
+}
 	/* #Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/*.container  { width: 768px; }*/

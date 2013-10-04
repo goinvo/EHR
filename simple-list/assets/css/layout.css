@@ -63,7 +63,7 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h3 { font-size: 14px; line-height: 21px; font-family: Helvetica, Arial, sans-serif;}
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
@@ -132,7 +132,6 @@
 		display: inline-block;
 		font-size: 12px;
 		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-weight: 400;
 		text-decoration: none;
 		text-shadow: 0 1px rgba(255, 255, 255, .75);
 		cursor: pointer; 
@@ -235,15 +234,207 @@
 		padding-left: 3px;
 	}*/
 
+	/*#Dropdown Buttons 
+==================================================*/
+/*Uses button styles*/
+.active_dropdown_area{
+	cursor: pointer;
+	width: 60px;
+	margin-left: 8px;
+	
+}
+#type_drop .active_dropdown_area{
+	width: 140px;
+}
+.dropdown{
+	font-family: 'Open Sans', 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+	overflow: hidden;
+}
+.down_dropped{
+	overflow: visible;
+}
+.dropdown .active_item_name{
+	display: block;
+	cursor: pointer;
+	font-size:12px;
+	display: block;
+	font-family: Helvetica, Arial;
+	color:#4d4d4d;
+	text-shadow: 1px 1px rgba(255,255,255,1);
+	font-family: 'Open Sans', 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.dropdown .active_item_arrow{
+	width: 28px;
+	display: inline-block;
+	height: 30px;
+	background-image: url('../images/dropdown_arrow.svg') no-repeat;
+	background-size: 10px 7px;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: solid red 1px;
+}
+.dropdown .expanding_dropdown_area{
+	position: absolute;
+	top:35px;
+	width: 125px;
+	background: #fdfdfd;
+	border-radius: 3px;
+	line-height: 30px;
+	border: 1px solid #e5e5e5;
+	margin-left: -1px;
+	-moz-box-shadow:    0px 2px 3px 0px rgba(150,150,150,.3);
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(150,150,150,.3);
+	box-shadow:         0px 2px 3px 0px rgba(150,150,150,.3);
+}
+.dropdown.down_dropped{
+}
+#type_drop .expanding_dropdown_area{
+	width: 172px;
+}
+.dropdown .expanding_dropdown_area .arrow {
+	background: url("../images/light_arrow_up.png");
+	background-repeat: no-repeat;
+	display: block;
+	height:9px;
+	width:14px;
+}
+.dropdown .expanding_dropdown_area .dropdown_opt{
+	display: block;
+	cursor: pointer;
+	position: relative;
+	transition: 	 	all 0.15s linear;
+	-moz-transition: 	all 0.15s linear; /* Firefox 4 */
+	-webkit-transition: all 0.15s linear; /* Safari and Chrome */
+	-o-transition: 		all 0.15s linear; /* Opera */
+	z-index: 100000;
+}
+.dropdown .expanding_dropdown_area ul li input[type="checkbox"] {
+	margin-left: 26px;
+}
+.dropdown .expanding_dropdown_area .dropdown_opt input{
+	border: none;
+	background-color: transparent;
+	cursor: default;
+	margin-bottom: 0px;
+	padding-left: 7px;
+}
+.dropdown .expanding_dropdown_area .dropdown_opt:last-child{
+	border-bottom: none;
+}
+.dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even){
+	background:#fdfdfd;
+}
+.dropdown .expanding_dropdown_area .dropdown_opt:hover, 
+.dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even):hover{
+	z-index: 100001;
+	background-color: #eee;
+}
+.filter .dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even){
+	background:#fdfdfd;
+}
+.filter .dropdown .expanding_dropdown_area .dropdown_opt:hover, 
+.filter .dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even):hover{
+	z-index: 100001;
+	background-color: #fdfdfd;
+}
+.dropdown_head{
+	border-bottom: solid 1px #e1e1e1;
+	background: #f5f5f5;
+}
+.dropdown_head input{
+	border: none;
+	color: #b5b5b5;
+	border-radius: 3px;
+	-moz-box-shadow: 0px -1px 1px 0 #d6d6d6;
+	-webkit-box-shadow: 0px -1px 1px 0 #d6d6d6;
+	box-shadow: 0px -1px 1px 0 #d6d6d6;
+	height: 22px;
+	line-height: 22px;
+	margin: 8px 0 8px 8px;
+	padding: 0 8px 0 8px;
+}
+
+.dropdown.disabled,
+.button.disabled,
+button.disabled,
+input[type="submit"].disabled,
+input[type="reset"].disabled,
+input[type="button"].disabled {
+	cursor: default;
+	color: #b5b5b5;
+	border: solid #e2e2e2 1px;
+	background: #fafafa;
+}
+.dropdown.disabled:hover,
+.button.disabled:hover,
+button.disabled:hover,
+input[type="submit"].disabled:hover,
+input[type="reset"].disabled:hover,
+input[type="button"].disabled:hover {
+	cursor: default;
+	color: #b5b5b5;
+	border: solid #e2e2e2 1px;
+	background: #fafafa;
+	box-shadow: none;
+}
+.dropdown.disabled .active_item_arrow{
+	background-image:  url(../images/light_drop_arrow.png);
+}
+.dropdown.disabled .active_dropdown_area{
+	cursor: default;
+}
+.dropdown.disabled .active_item_name{
+	cursor: default;
+	color: #b5b5b5;
+}
+#types_drop .dropdown_head input{
+	width: 140px;
+}
+.expanding_dropdown_area{
+	background: #fdfdfd;
+}
+.expanding_dropdown_area .enviro_container {
+	width: 204px;
+}
+.expanding_dropdown_area .fright{
+	border-left: #e4e4e4 solid 1px;
+}
+.expanding_dropdown_area h3{
+	border-bottom: #e4e4e4 solid 1px;
+	padding-left: 8px;
+	margin-top: 10px;
+}
+.expanding_dropdown_area .eviro_amount {
+	font-weight: bold;
+	width: 20px;
+	margin-right: 8px;
+	display: inline-block;
+	text-align: right;
+}
+.expanding_dropdown_area ul li{
+	list-style: none;
+}
+.expanding_dropdown_area ul{
+	margin-left: -35px;
+}
+.expanding_dropdown_area ul li ul{
+	margin-left: -18px;
+}
+.expanding_dropdown_area .environ_container{
+	margin-left: 8px;
+}
 
 /* #Forms */
 	form { margin-bottom: 20px; }
-	fieldset { margin-bottom: 20px; }
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea,
-	select {
+	 fieldset { margin-bottom: 20px; }
+	 input[type="text"],
+	 input[type="password"],
+	 input[type="email"],
+	 textarea,
+	 select {
 		border: 1px solid #ccc;
 		padding: 6px 4px;
 		outline: none;
@@ -260,9 +451,9 @@
 		background: #fff; }
 	select { padding: 0; }
 	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	textarea:focus {
+	 input[type="password"]:focus,
+	 input[type="email"]:focus,
+	 textarea:focus {
 		border: 1px solid #aaa;
 		color: #444;
 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);

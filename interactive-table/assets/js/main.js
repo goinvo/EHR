@@ -9,12 +9,14 @@ $(document).ready(function(){
 	});
 	
 	//history toggle
-	$('.closed').show();
+	
 	$(".show_closed").click(function(){
-		if($(this).html()=='Show history'){
-			$(this).html('Hide history');
-		}else{
+		if($(this).html()=='Hide history'){
 			$(this).html('Show history');
+			$('.closed').show();
+		}else{
+			$(this).html('Hide history');
+			altRows('tr:odd td', 'odd');
 		}
 		$("tr.closed").fadeToggle('medium');
 	}); 

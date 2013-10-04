@@ -23,8 +23,8 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
-	<section class="container">
-		<div class="sixteen columns">
+	<section>
+		<div>
 		<!--<div class="med_table_opt cf">
 			<div class="button dropdown" id="type_drop">
 				<div class="active_dropdown_area">
@@ -41,7 +41,7 @@
 								<li><input type="checkbox" class="type" name="type" value="1"/>
 									<span class="check_label">Capsule</span></li>
 								<li><input type="checkbox" class="type" name="type" value="2"/>
-									<span class="check_label">Inhaler</span></li>
+]]]]									<span class="check_label">Inhaler</span></li>
 								<li><input type="checkbox" class="type" name="type" value="3"/>
 									<span class="check_label">Injection</span></li>
 								<li><input type="checkbox" class="type" name="type" value="4"/>
@@ -51,204 +51,188 @@
 							</ul>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			
 			
-			<span class="show_closed fright">Hide history</span>
-			<span id="search" class="fright cf">
+			<span class="show_closed fright">Show history</span>
+			<span id="search" class="fleft cf">
 				<label for="filter"></label> <input type="text" name="filter" value="" id="filter" />
 			</span>
-		</div>-->
-		
-		<table class="main_table med_table">
-			<thead>
-				<tr>
-					<th class="name sorted-asc sortable "><span class="col-head">Generic <span class="arrow"></span></span></th> <!--generic-->
-					<th class="brand sortable"><span class="col-head">Brand <span class="arrow"></span></span></th> <!--brand-->
-					<th><span class="dose col-head">Dose <span class="arrow"></span></span></th> <!--dose form-->
-					<th class="sortable"><span class="sig col-head">Sig (Frequency)<span class="arrow"></span></span></th> <!--total daily dose-->
-					<th><span class="quant col-head">Quantity <span class="arrow"></span></span></th>
-					<th><span class="refills col-head">Refills <span class="arrow"></span></span></th> <!--therapeutic range-->
-					<th class="sortable"><span class="renewDue col-head">Renewal Due <span class="arrow"></span></span></th>
-					<th class="sortable"><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
-					<!--<th><span class="col-head">when refills due</span></th>-->
-					<th class="sortable"><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
-					<th class="condition sortable"><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
-					<!--<th><span class="col-head">Ins. Cov. Tier</span></th>-->
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>acetylsalicylic acid</td>
-					<td>Aspirin</td><!-- Ecotrin, Fasprin -->
-					<td><span class="sort-key">0081</span><span class="num">81</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0075</span><span class="num">75</span></td>
-					<td>3</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Cardiovascular disease</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td>chlorthalidone</td>
-					<td></td><!--Thalitone-->
-					<td><span class="sort-key">0025</span><span class="num">25</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0090</span><span class="num">90</span></td>
-					<td>2</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Sudha Nahar MD</td>
-					<td class="condition">Hypertension</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>citalopram</td>
-					<td>Celexa</td>
-					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120930</span>30.Sept.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Depression</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>insulin glargine</td>
-					<td>Lantus</td>
-					<td><span class="sort-key">0040</span><span class="num">40</span> units</td>
-					<td>1 injection at bedtime</td>
-					<td><span class="sort-key">1200</span><span class="num">1200</span> units</td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120920</span>20.Sept.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Diabetes</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>lisinopril</td>
-					<td></td><!--Zestril, Prinivil-->
-					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120810</span>10.Aug.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Hypertension</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>metformin</td>
-					<td></td><!--Glumetza, Fortamet, Riomet, Glucophage-->
-					<td><span class="sort-key">1000</span><span class="num">1000</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120730</span>30.July.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Diabetes</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td>metoprolol</td>
-					<td></td><!--Lopressor, Toprol-xl-->
-					<td><span class="sort-key">0050</span><span class="num">XL 50</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120718</span>18.July.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Hypertension</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td>naproxen</td>
-					<td>Aleve</td> <!--Naprelan, Aleve, Naprosyn, Anaprox-->
-					<td><span class="sort-key">0500</span><span class="num">500</span> mg</td>
-					<td>1 tablet 2 times a day</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>0</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20120630</span>30.June.2012</td>
-					<!--<td>when refills due</td>-->
-					<td>Walter R Lucas MD</td>
-					<td class="condition">Rheumatoid arthritis</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td>omeprazole</td>
-					<td></td><!-- Prilosec, Omesec-->
-					<td><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0090</span><span class="num">90</span></td>
-					<td>3</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20130711</span>11.July.2013</td>
-					<!--<td>when refills due</td>-->
-					<td>Sudha Nahar MD</td>
-					<td class="condition">Gastroesophageal reflux disease</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr>
-					<td>pravastatin</td>
-					<td></td><!--Pravachol-->
-					<td><span class="sort-key">0040</span><span class="num">40</span> mg</td>
-					<td>1 tablet daily</td>
-					<td><span class="sort-key">0030</span><span class="num">30</span></td>
-					<td>2</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20130807</span>7.Aug.2013</td>
-					<!--<td>when refills due</td>-->
-					<td>Sudha Nahar MD</td>
-					<td class="condition">High Cholesterol</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>trazodone</td>
-					<td></td><!--Oleptro-->
-					<td><span class="sort-key">0050</span><span class="num">50</span> mg</td>
-					<td>3 tablets at bedtime</td>
-					<td><span class="sort-key">0060</span><span class="num">60</span></td>
-					<td>2</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20130721</span>21.June.2013</td>
-					<!--<td>when refills due</td>-->
-					<td>Sudha Nahar MD</td>
-					<td class="condition">Depression</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-				<tr class="closed">
-					<td>warfarin</td>
-					<td></td><!--coumadin, jantoven-->
-					<td><span class="sort-key">0005</span><span class="num">5</span> mg</td>
-					<td>1 tablet daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
-					<td><span class="sort-key">0045</span><span class="num">45</span></td>
-					<td>3</td>
-					<td><span class="sort-key">20121016</span>16.Oct.2012</td>
-					<td><span class="sort-key">20130716</span>16.July.2013</td>
-					<!--<td>when refills due</td>-->
-					<td>Sudha Nahar MD</td>
-					<td class="condition">Thrombosis</td>
-					<!--<td>Ins. Cov. Tier</td>-->
-				</tr>
-			</tbody>
-		</table>
 		</div>
 	</section>
+		
+			<table class="main_table med_table">
+				<thead>
+					<tr>
+						<th class="name sorted-asc sortable "><span class="col-head">Generic <span class="arrow"></span></span></th> <!--generic-->
+						<th class="sortable brand"><span class="col-head">Brand <span class="arrow"></span></span></th> <!--brand-->
+						<th><span class="col-head">Dose</span></th> <!--dose form-->
+						<th class="sig"><span class="sig col-head">Sig (Frequency)</span></th> <!--total daily dose-->
+						<th><span class="quant col-head">Quantity </span></th>
+						<th><span class="refills col-head">Refills </span></th> <!--therapeutic range-->
+						<th class="sortable renewDue"><span class="renewDue col-head">Renewal Due <span class="arrow"></span></span></th>
+						<!--<th><span class="col-head">when refills due</span></th>-->
+						<th class="sortable prescribed"><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
+						<th class="sortable"><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
+						<th class="sortable condition"><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
+						<!--<th><span class="col-head">Ins. Cov. Tier</span></th>-->
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="closed">
+						<!----><td class="generic">aspirin</td>
+						<td class="brand"></td><!-- Ecotrin, Fasprin -->
+						<td class="dose"><span class="sort-key">0081</span><span class="num">81</span> mg</td>
+						<td class="sig">1 daily</td>
+						<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>
+						<td class="refills"></td>
+						<td class="renewDue"><span class="sort-key">00000000</span></td>
+						<td class="prescribed"><span class="sort-key">00000000</span></td>
+						<td class="provider">OTC</td>
+						<td class="condition">Diabetes</td>
+					</tr>
+					<tr>
+						<!----><td class="generic">chlorthalidone</td>
+						<td class="brand"></td><!--Thalitone-->
+						<td class="dose"><span class="sort-key">0025</span><span class="num">25</span> mg</td>
+						<td class="sig">1 daily</td>
+						<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td class="refills">2</td>
+						<td class="renewDue"><span class="sort-key">20140704</span>4.Jul.2014</td>
+						<td class="prescribed"><span class="sort-key">20070901</span>1.Sept.2007</td>
+						<td class="provider">Belden MD</td>
+						<td class="condition">High BP</td>
+						<!--<td>Ins. Cov. Tier</td>-->
+					</tr>
+					<tr>
+						<!----><td class="generic">citalopram</td>
+						<td class="brand"></td>
+						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
+						<td class="sig">1 daily</td>
+						<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td class="refills">4</td>
+						<td class="renewDue"><span class="sort-key">20130704</span>4.Jul.2013</td>
+						<td class="prescribed"><span class="sort-key">20100304</span>4.Mar.2010</td>
+						<td class="provider">Shoyinka MD</td>
+						<td class="condition">Depression</td>
+					</tr>
+					<tr>
+						<!----><td class="generic">insulin glargine</td>
+						<td class="brand">Lantus</td>
+						<td class="dose"><span class="sort-key">0028</span><span class="num">28</span> u</td>
+						<td>28 units at bedtime</td>
+						<td><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td>12</td>
+						<td><span class="sort-key">20131019</span>19.Oct.2013</td>
+						<td><span class="sort-key">20121019</span>19.Oct.2012</td>
+						<td class="provider">Brietzke MD</td>
+						<td class="condition">Diabetes</td>
+					</tr>
+					<tr>
+						<!----><td class="generic">lisinopril</td>
+						<td class="brand"></td><!--Zestril, Prinivil-->
+						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
+						<td>once daily</td>
+						<td><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td>3</td>
+						<td><span class="sort-key">20140214</span>14.Feb.2014</td>
+						<td><span class="sort-key">20120810</span>10.Aug.2012</td>
+						<td class="provider">Belden MD</td>
+						<td class="condition">Hypertension</td>
+					</tr>
+					<tr>
+						<!----><td class="generic">metformin</td>
+						<td class="brand"></td><!--Glumetza, Fortamet, Riomet, Glucophage-->
+						<td class="dose"><span class="sort-key">1000</span><span class="num">1000</span> mg</td>
+						<td>1 twice daily</td>
+						<td><span class="sort-key">0180</span><span class="num">180</span></td>
+						<td>4</td>
+						<td><span class="sort-key">20131019</span>19.Oct.2013</td>
+						<td><span class="sort-key">20121019</span>19.Oct.2012</td>
+						<td class="provider">Brietzke MD</td>
+						<td class="condition">Diabetes</td>
+					</tr>
+					<tr class="closed">
+						<!----><td class="generic">metoprolol XL</td>
+						<td class="brand">Toprol XL</td><!--Lopressor, Toprol-xl-->
+						<td class="dose"><span class="sort-key">0050</span><span class="num">XL 50</span> mg</td>
+						<td>1 daily</td>
+						<td><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td>0</td>
+						<td><span class="sort-key">00000000</span></td>
+						<td><span class="sort-key">20120714</span>14.Jul.2012</td>
+						<td class="provider">Belden MD</td>
+						<td class="condition">Hypertension</td>
+						<!--<td>Ins. Cov. Tier</td>-->
+					</tr>
+					<tr class="closed">
+						<td class="generic">naproxen</td>
+						<td class="brand">Aleve</td> <!--Naprelan, Aleve, Naprosyn, Anaprox-->
+						<td class="dose"><span class="sort-key">0500</span><span class="num">500</span> mg</td>
+						<td>1 tablet 2 times a day</td>
+						<td><span class="sort-key">0000</span><span class="num"></span></td>
+						<td></td>
+						<td><span class="sort-key">00000000</span></td>
+						<td><span class="sort-key">00000000</span></td>
+						<!--<td>when refills due</td>-->
+						<td>OTC</td>
+						<td class="condition">Rheumatoid arthritis</td>
+						<!--<td>Ins. Cov. Tier</td>-->
+					</tr>
+					<tr>
+						<!----><td class="generic">omeprazole</td>
+						<td class="brand"></td><!-- Prilosec, Omesec-->
+						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
+						<td>1 daily</td>
+						<td><span class="sort-key">0000</span><span class="num"></span></td>
+						<td></td>
+						<td><span class="sort-key">00000000</span></td>
+						<td><span class="sort-key">00000000</span></td>
+						<td>OTC</td>
+						<td class="condition">GERD</td>
+					</tr>
+					<tr class="closed">
+						<!----><td class="generic">pravastatin</td>
+						<td class="brand"></td><!--Pravachol-->
+						<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> mg</td>
+						<td>1 daily</td>
+						<td><span class="sort-key">0090</span><span class="num">90</span></td>
+						<td>0</td>
+						<td><span class="sort-key">00000000</span></td>
+						<td><span class="sort-key">20120704</span>4.Jul.2012</td>
+						<td class="provider">Brietzke MD</td>
+						<td class="condition">High Cholesterol</td>
+						<!--<td>Ins. Cov. Tier</td>-->
+					</tr>
+					<tr class="closed">
+						<!----><td class="generic">trazodone</td>
+						<td class="brand"></td><!--Oleptro-->
+						<td class="dose"><span class="sort-key">0050</span><span class="num">50</span> mg</td>
+						<td>2 at bedtime</td>
+						<td><span class="sort-key">0180</span><span class="num">180</span></td>
+						<td>0</td>
+						<td><span class="sort-key">00000000</span></td>
+						<td><span class="sort-key">20120721</span>21.Jul.2012</td>
+						<td class="provider">Shoyinka MD</td>
+						<td class="condition">Insomnia</td>
+					</tr>
+					<tr>
+						<!----><td class="generic">warfarin</td>
+						<td class="brand"></td><!--coumadin, jantoven-->
+						<td class="dose"><span class="sort-key">0005</span><span class="num">5</span> mg</td>
+						<td>1 daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
+						<td><span class="sort-key">0180</span><span class="num">180</span></td>
+						<td>12</td>
+						<td><span class="sort-key">20140214</span>14.Feb.2014</td>
+						<td><span class="sort-key">20130214</span>14.Feb.2013</td>
+						<!--<td>when refills due</td>-->
+						<td class="provider">Belden MD</td>
+						<td class="condition">Prevent stroke</td>
+						<!--<td>Ins. Cov. Tier</td>-->
+					</tr>
+				</tbody>
+			</table>
+		
+	
 </body>
 </html>
