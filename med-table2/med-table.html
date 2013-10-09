@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>EHR Style Guide | Interactive Table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="./assets/css/layout.css">
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script src="./assets/js/checkboxes.js" type="text/javascript"></script>
+	<script src="./assets/js/dropdowns.js" type="text/javascript"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+
+<body>
+	<section id="top">
+		<div id="title">
+			<span class="list_name">Medications</span><br/>
+			<span class="updated">Last updated 1 week ago</span>
+		</div>
+		<div id="filters">
+			<ul>
+				<li class="filter current active"><a href="#">current</a></li>
+				<li class="filter all"><a href="#">all</a></li>
+				<li class="filter danger"><a href="#">dangerous</a></li>
+				<li class="filter critical"><a href="#">critical to core diagnosis</a></li>
+				<li class="filter effect"><a href="#">most side effects</a></li>
+			</ul>
+		</div>
+		<div id="actions">
+			<ul>
+				<li class="action view"><a href="#">timeline</a></li>
+				<li class="action export"><a href="#">export</a></li>
+			</ul>
+		</div>
+		
+		<!--<span class="show_closed fright">Show history</span>-->
+		<div id="search" class="fright cf">
+			<label for="filter"></label> <input type="text" name="filter" value="" id="filter" />
+		</div>
+	</section>
+		
+	<table class="main_table med_table">
+		<thead>
+			<tr>
+				<th class="name sorted-asc sortable "><span class="col-head">Medication <span class="arrow"></span></span></th>
+				<th class="brand sortable"><span class="col-head">Brand <span class="arrow"></span></span></th>
+				<th class="dose"><span class="col-head">Dose</span></th>
+				<th class="sig"><span class="col-head">Frequency</span></th>
+				<!--<th class="quant"><span class="col-head">Quantity </span></th>-->
+				<th class="refills"><span class="col-head">Refills </span></th>
+				<th class="prescribed sortable"><span class="col-head">Prescribed <span class="arrow"></span></span></th>
+				<th class="timeline"><span class="col-head">2011 2012 2013 2014</span></th>
+				<th class="renewDue sortable"><span class="col-head">Renew by <span class="arrow"></span></span></th>
+				<th class="getWell"><span class="col-head">Get well by <span class="arrow"></span></span></th>
+				<th class="condition sortable"><span class="col-head">Condition <span class="arrow"></span></span></th>
+				<th class="provider sortable"><span class="col-head">Provider <span class="arrow"></span></span></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="name">aspirin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0081</span><span class="high yes">High</span> <span class="num">81</span> <span class="units">mg</span></td>
+				<td class="sig">1 daily</td>
+				<td class="refills"></td>
+				<td class="prescribed"><span class="sort-key">00000000</span></td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="condition">Diabetes</td>
+				<td class="provider">OTC</td>
+			</tr>
+			<tr>
+				<td class="name">albuterol HFA</td>
+				<td class="brand">ProAir HFA</td>
+				<td class="dose"><span class="sort-key">0081</span><span class="high yes">High</span> <span class="num">81</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day prn</span></td>
+				<td class="refills sm_num">12</td>
+				<td class="prescribed"><span class="sort-key">20100112</span>12.Jan.2010</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131122</span>22.Nov.2013</td>
+				<td class="getWell"><span class="sort-key">20140415</span>15.Apr.2014</td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">beclomethasone HFA</td>
+				<td class="brand">QVAR HFA</td>
+				<td class="dose"><span class="sort-key">0040</span><span class="high"></span> <span class="num">40</span> <span class="units"></span></td>
+				<td class="sig"><span class="sm_num">2</span> <span class="per">/day prn</span></td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="refills">12</td>
+				<td class="prescribed"><span class="sort-key">20110219</span>19.Feb.2011</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130919</span>19.Sept.2013</td>
+				<td class="getWell"><span class="sort-key">20140219</span>19.Feb.2014</td>
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">carvedilol</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0025</span><span class="high yes">High</span> <span class="num">25</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">2</span> <span class="per">/day prn</span></td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="refills">12</td>
+				<td class="prescribed"><span class="sort-key">20100712</span>12.Jul.2010</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20140102</span>2.Jan.2014</td>
+				<td class="getWell"><span class="sort-key">20140102</span>2.Jan.2014</td>
+				<td class="condition">Heart attack</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">chlorthalidone</td>
+				<td class="brand"></td><!--Thalitone-->
+				<td class="dose"><span class="sort-key">0025</span><span class="high yes">High</span> <span class="num">25</span> <span class="units">mg</span></td>
+				<td class="sig">1 daily</td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills">2</td>
+				<td class="prescribed"><span class="sort-key">20070901</span>1.Sept.2007</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20140704</span>4.Jul.2014</td>
+				<td class="getWell"><span class="sort-key">20140704</span>4.Jul.2014</td>
+				<td class="condition">High BP</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">citalopram</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0020</span><span class="high"></span> <span class="num">20</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills">4</td>
+				<td class="prescribed"><span class="sort-key">20091123</span>23.Nov.2009</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131122</span>22.Nov.2013</td>
+				<td class="getWell"><span class="sort-key">20130704</span>4.Jul.2013</td>
+				<td class="condition">Depression</td>
+				<td class="provider">Shoyinka MD</td>
+			</tr>
+			<tr>
+				<td class="name">gabapentin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0300</span><span class="high"></span> <span class="num">300</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">2</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>-->
+				<td class="refills">3</td>
+				<td class="prescribed"><span class="sort-key">20120419</span>19.Apr.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131122</span>22.Nov.2013</td>
+				<td class="getWell"><span class="sort-key">20131122</span>22.Nov.2013</td>
+				<td class="condition">neuropathic pain</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">insulin glargine</td>
+				<td class="brand">Lantus</td>
+				<td class="dose"><span class="sort-key">0028</span><span class="high"></span> <span class="num">28</span> <span class="units">u</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills">12</td>
+				<td class="prescribed"><span class="sort-key">20121119</span>19.Nov.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130919</span>19.Sep.2013</td>
+				<td class="getWell"><span class="sort-key"></span></td>
+				<td class="condition">Diabetes</td>
+				<td class="provider">Brietzke MD</td>
+			</tr>
+			<tr class="closed">
+				<td class="name">lisinopril</td>
+				<td class="brand"></td><!--Zestril, Prinivil-->
+				<td class="dose"><span class="sort-key">0020</span><span class="high"></span> <span class="num">20</span> <span class="units">mg</span></td>
+				<td class="sig">once daily</td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills">3</td>
+				<td class="prescribed"><span class="sort-key">20120810</span>10.Aug.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20140214</span>14.Feb.2014</td>
+				<td class="getWell"><span class="sort-key">20140214</span>14.Feb.2014</td>
+				<td class="condition">Hypertension</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">losartan</td>
+				<td class="brand"></td><!--Zestril, Prinivil-->
+				<td class="dose"><span class="sort-key">0100</span><span class="high yes">High</span> <span class="num">100</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills">3</td>
+				<td class="prescribed"><span class="sort-key">20120102</span>2.Jan.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131028</span>28.Oct.2013</td>
+				<td class="getWell"><span class="sort-key">20131028</span>28.Oct.2013</td>
+				<td class="condition">High blood pressure</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">metformin</td>
+				<td class="brand"></td><!--Glumetza, Fortamet, Riomet, Glucophage-->
+				<td class="dose"><span class="sort-key">1000</span><span class="high yes">High</span> <span class="num">1000</span> <span class="units">mg</span></td>
+				<td class="sig">1 twice daily</td>
+				<!--<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>-->
+				<td class="refills">4</td>
+				<td class="prescribed"><span class="sort-key">20121019</span>19.Oct.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131019</span>19.Oct.2013</td>
+				<td class="getWell"><span class="sort-key">20131019</span>19.Oct.2013</td>
+				<td class="condition">Diabetes</td>
+				<td class="provider">Brietzke MD</td>
+			</tr>
+			<tr class="closed">
+				<td class="name">metoprolol XL</td>
+				<td class="brand">Toprol XL</td><!--Lopressor, Toprol-xl-->
+				<td class="dose"><span class="sort-key">0050</span><span class="high"></span> <span class="num">50</span> <span class="units">mg</span></td>
+				<td class="sig">1 daily</td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills"></td>
+				<td class="prescribed"><span class="sort-key">20120714</span>14.Jul.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Hypertension</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">naproxen</td>
+				<td class="brand">Aleve</td> <!--Naprelan, Aleve, Naprosyn, Anaprox-->
+				<td class="dose"><span class="sort-key">0500</span><span class="high yes">High</span> <span class="num">500</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">2</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">00000000</span></td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Rheumatoid arthritis</td>
+				<td>OTC</td>
+			</tr>
+			<tr>
+				<td class="name">nitroglycerin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0001</span><span class="high"></span> <span class="num">0.4</span> <span class="units">mg prn</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0025</span><span class="num">25</span></td>-->
+				<td class="refills sm_num">12</td>
+				<td class="prescribed"><span class="sort-key">20120704</span>4.Jul.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130704</span>4.Jul.2013</td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Angina</td>
+				<td>Belden, MD</td>
+			</tr>
+			<tr>
+				<td class="name">omeprazole</td>
+				<td class="brand"></td><!-- Prilosec, Omesec-->
+				<td class="dose"><span class="sort-key">0040</span><span class="high yes">High</span> <span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig">1 daily</td>
+				<!--<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>-->
+				<td class="refills"></td>
+				<td class="prescribed"><span class="sort-key">00000000</span></td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">GERD</td>
+				<td class="provider">OTC</td>
+			</tr>
+			<tr class="closed">
+				<td class="name">pravastatin</td>
+				<td class="brand"></td><!--Pravachol-->
+				<td class="dose"><span class="sort-key">0040</span><span class="high"></span> <span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig">1 daily</td>
+				<!--<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>-->
+				<td class="refills"></td>
+				<td class="prescribed"><span class="sort-key">20120704</span>4.Jul.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">High Cholesterol</td>
+				<td class="provider">Brietzke MD</td>
+			</tr>
+			<tr>
+				<td class="name">prednisone</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0040</span><span class="high"></span> <span class="num">40</span> <span class="units">prn</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">20100912</span>12.Sept.2010</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130919</span>19.Sept.2013</td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">simvastatin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0040</span><span class="high yes">High</span> <span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">20100319</span>19.Mar.2010</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130930</span>30.Sept.2013</td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">High cholesterol</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">terbinafine</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0250</span><span class="high yes">High</span> <span class="num">250</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">20130730</span>30.Jul.2013</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20131019</span>19.Oct.2013</td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Onychomycosis</td>
+				<td class="provider">Foote MD</td>
+			</tr>
+			<tr class="closed">
+				<td class="name">trazodone</td>
+				<td class="brand"></td><!--Oleptro-->
+				<td class="dose"><span class="sort-key">0050</span><span class="high"></span> <span class="num">50</span> <span class="units">mg</span></td>
+				<td class="sig">2 at bedtime</td>
+				<!--<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">20120721</span>21.Jul.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">00000000</span></td>
+				<td class="getWell"><span class="sort-key">00000000</span></td>
+				<td class="condition">Insomnia</td>
+				<td class="provider">Shoyinka MD</td>
+			</tr>
+			<tr class="closed">
+				<td class="name">warfarin</td>
+				<td class="brand"></td><!--coumadin, jantoven-->
+				<td class="dose"><span class="sort-key">0005</span><span class="high"></span> <span class="num">5</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day MWF</span><span class="sm_num">1.5</span> <span class="per">/day SuTuThSa</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="refills sm_num">12</td>
+				<td class="prescribed"><span class="sort-key">20130214</span>14.Feb.2013</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20140214</span>14.Feb.2014</td>
+				<td class="getWell"><span class="sort-key">20140214</span>14.Feb.2014</td>
+				<td class="condition">Prevent stroke</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+			<tr>
+				<td class="name">zolpidem</td>
+				<td class="brand"></td><!--coumadin, jantoven-->
+				<td class="dose"><span class="sort-key">0005</span><span class="high"></span> <span class="num">5</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span> <span class="per">/day</span></td>
+				<!--<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>-->
+				<td class="refills">0</td>
+				<td class="prescribed"><span class="sort-key">20120315</span>15.Mar.2012</td>
+				<td class="timeline"></td>
+				<td class="renewDue"><span class="sort-key">20130922</span>22.Sept.2013</td>
+				<td class="getWell"><span class="sort-key">20130922</span>22.Sept.2013</td>
+				<td class="condition">Insomnia</td>
+				<td class="provider">Belden MD</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
