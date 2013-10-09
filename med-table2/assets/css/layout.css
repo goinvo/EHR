@@ -627,7 +627,7 @@ table.main_table thead{
 	margin: 12px 18px 0px -6px;
 }
 table.main_table thead tr th{
-	padding: 5px 8px 4px 10px;
+	padding: 5px 0 4px 0px;
 	font-weight: normal;
 	text-align: left;
 }
@@ -643,13 +643,8 @@ table.main_table tbody tr {
 	/*background: #fff;*/
 }
 table.main_table tbody tr td {
-	padding: 5px 8px 7px 10px;
+	padding: 5px 0 7px 0;
 	/*padding: 11px 8px 9px 10px*/;
-}
-table.main_table tbody tr.to_cycle td,
-table.main_table tbody tr.to_pv td,
-table.main_table tbody tr.current_active td {
-	padding: 11px 8px 9px 10px;
 }
 table.main_table tbody tr td:first-child {
 	padding-left: 16px;
@@ -668,8 +663,6 @@ table.main_table tbody tr td:first-child {
 	width: 18px;
 	display: inline-block;
 	text-align: right;
-	margin-right: 2px;
-	border: solid red 1px;
 }
 
 /* #Page Styles */
@@ -679,41 +672,6 @@ table.main_table tbody tr td:first-child {
 .sort-key {
 	display: none;
 }
-.med_list table.current_version tbody tr.current_active{
-	display: block;
-	background: #e8e8e8;
-	color: #4d4d4d;
-	height: 24px;
-	line-height: 4px;
-	padding-bottom: 1px;
-	margin-bottom: 1px;
-	cursor: pointer;
-}
-.pv_dropdown{
-	background: url('../images/down_arrow.png');
-	background-repeat: no-repeat;
-	height: 7px;
-	width: 10px;
-	display: inline-block;
-}
-.pv_pullup{
-	background: url('../images/light_up_arrow.png');
-	background-repeat: no-repeat;
-	height: 7px;
-	width: 10px;
-	display: inline-block;
-}
-table.main_table.off thead tr, 
-table.main_table.off tbody tr.to_pv {
-	display: none;
-}
-table.main_table.off tbody tr.to_pv.current{
-	display: block;
-	background: #e8e8e8;
-	color: #4d4d4d;
-	padding: 0;
-}
-
 th.sortable { 
     cursor: pointer;
 }  
@@ -741,35 +699,113 @@ th.sorted-asc .arrow {
 th.sorted-desc .arrow {
 	background: url('../images/up_arrow.png') no-repeat;
 }
-tr td.dose .num{
-	margin-left: -15px;
-}
 tr td.provider{
-	min-width: 75px;
+	min-width: 87px;
 }
 tr td.dose{
-	min-width: 40px;
+	min-width: 80px;
 }
-thead tr th.dose .col-head{
-	padding-left: 40px;
+tbody tr td.doseMax .block{
+	width: 10px;
+	height: 10px;
+	display: block;
 }
-tbody tr td .high{
-	width: 25px;
-	display: inline-block;
-	margin: 0 15px 0 0;
-	padding: 1px 4px 2px 3px;
+tbody tr td.doseMax .max{
+	background: rgba(47,47,47,1);
 }
-tbody tr td .high.yes{
-	text-transform: uppercase;
-	border-radius: 2px;
-	color: #424242;
-	background: #ff8270;
-	font-size: 10px;
-	font-family: 'OpenSansBold';
+tbody tr td.doseMax .least{
+	/*background: rgba(47,47,47,.1);*/
+	background: rgba(224,224,224,.5);
+}
+tbody tr td.doseMax .low{
+	/*background: rgba(47,47,47,.25);*/
+	background: rgba(204,204,204,.5);
+}
+tbody tr td.doseMax .mid{
+	/*background: rgba(47,47,47,.5);*/
+	background: rgba(140,140,140,.3);
+}
+tbody tr td.doseMax .overmax{
+	background: #c30000;
 }
 tbody tr td .units, tbody tr td .per, tbody tr td.refills {
 	color:#929292;
 }
+tbody tr td .units, tbody tr td .per {
+	font-size: 10pt;
+}
+tbody tr.closed td {
+	color: #929292;
+}
+thead tr th ul{
+	margin-bottom: 0;
+}
+thead tr th ul li{
+	display: inline;
+	line-height: 12px;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+thead tr th ul li:first-child{
+	margin-left: 0px;
+}
+thead tr th.timeline{
+	min-width:140px;
+}
+tbody tr td.timeline .bar {
+	border-radius: 7px;
+	height: 7px;
+	max-width: 107px;
+}
+tbody tr td.timeline .bar .max, 
+tbody tr td.timeline .bar .least,
+tbody tr td.timeline .bar .low, 
+tbody tr td.timeline .bar .mid, 
+tbody tr td.timeline .bar .overmax {
+	display: inline-block;
+	height: 7px;
+}
+tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
+	background: rgba(47,47,47,1);
+}
+tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
+	/*background: rgba(47,47,47,.1);*/
+	background: rgba(224,224,224,.5);
+}
+tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
+	/*background: rgba(47,47,47,.25);*/
+	background: rgba(204,204,204,.35);
+}
+tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
+	/*background: rgba(47,47,47,.5);*/
+	background: rgba(140,140,140,.3);
+}
+tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
+	background: rgba(195,0,0,.5);
+}
+tbody tr td.timeline #qvar.bar { width:102px; margin-left:5px; }
+tbody tr td.timeline #carvedilol.bar .mid{width:12px;}
+tbody tr td.timeline #carvedilol.bar .max{width:95px; margin-left: -4px;}
+tbody tr td.timeline #citalopram.bar .max{width:12px;}
+tbody tr td.timeline #citalopram.bar .mid{width:95px; margin-left: -4px;}
+tbody tr td.timeline #gabapentin.bar .least {width: 14px; margin-left:50px;}
+tbody tr td.timeline #gabapentin.bar .low {width: 14px; margin-left: -4px;}
+tbody tr td.timeline #gabapentin.bar .mid {width:29px; margin-left: -4px;}
+tbody tr td.timeline #lisinopril.bar .mid {width: 10px; margin-left: 15px;}
+tbody tr td.timeline #lisinopril.bar .max {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #losartan.bar .mid {width:45px; margin-left:36px;}
+tbody tr td.timeline #losartan.bar .max { width:26px; margin-left: -4px;}
+tbody tr td.timeline #omeprazole.bar .max {width:29px; margin-left: 52px; border-radius: 7px;}
+tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: rgba(47,47,47,1); display: inline-block; height: 7px; border-radius: 7px;}
+tbody tr td.timeline #simvastatin.bar .overmax{width:28px;}
+tbody tr td.timeline #simvastatin.bar .max{width: 79px; margin-left: -5px;}
+tbody tr td.timeline #terbinafine.bar { width:5px; margin-left:102px;}
+tbody tr td.timeline #trazodone.bar .least {width: 10px;}
+tbody tr td.timeline #trazodone.bar .low {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #trazodone.bar .mid {width: 11px; margin-left: -4px;}
+tbody tr td.timeline #trazodone.bar .low2 {width: 10px; margin-left: -4px; background: rgba(47,47,47,.25); display: inline-block; height: 7px;}
+tbody tr td.timeline #warfarin.bar { width: 21px; margin-left:10px;}
+tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
 
 #top div {
 	display: inline-block;
