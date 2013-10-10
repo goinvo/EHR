@@ -73,6 +73,16 @@ $(document).ready(function(){
 	
 /* Filtering and Sorting
 	========================== */
+	$('td.condition, td.provider').click(function(){
+		if($(this).hasClass('active')){
+			$('#filter').val('').keyup();
+			$(this).removeClass('active');
+		}else if(!$(this).hasClass('active')){
+			$('#filter').val($(this).html()).keyup().focus();
+			$(this).addClass('active');
+		}
+	});
+	
 	altRows('tr:odd td', 'odd');
 	
 	//default each row to visible
@@ -161,9 +171,9 @@ $(document).ready(function(){
 //filter
 	function filter(selector, query) {  
 		query =   $.trim(query); //trim white space  
-		query = query.replace(/ /gi, '|'); //add OR for regex query  
+		//query = query.replace(/ /gi, '|'); //add OR for regex query  
 	  
-		$(selector).each(function() {  
+		$(selector).each(function() { 		
 			($(this).text().search(new RegExp(query, "i")) < 0) ? $(this).hide().removeClass('visible') : $(this).show().addClass('visible');  
 		});  
 	}

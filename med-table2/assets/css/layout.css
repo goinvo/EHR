@@ -672,11 +672,10 @@ table.main_table tbody tr td:first-child {
 .sort-key {
 	display: none;
 }
-th.sortable { 
-    cursor: pointer;
-}  
-th.sortable:hover { /*color: #fff;*/ }  
-th.sorted-asc, th.sorted-desc  { 
+th.sortable:hover,
+td.condition:hover,
+td.provider:hover { text-decoration: underline; cursor: pointer; }  
+th.sorted-asc, th.sorted-desc { 
 	font-family: 'OpenSansBold';
 }
 th.sortable .col-head { padding-right: 10px; }
