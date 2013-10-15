@@ -8,23 +8,21 @@ $(document).ready(function(){
 		}
 	});
 	
-	//history toggle
-	
-	/*$(".show_closed").click(function(){
-		if($(this).html()=='Hide history'){
-			$(this).html('Show history');
-			$('.closed').show();
+	$(".brandToggle").click(function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
 		}else{
-			$(this).html('current');
-			altRows('tr:odd td', 'odd');
+			$(this).addClass('active');
 		}
-		$("tr.closed").fadeToggle('medium');
-	}); */
+		$(".brand").fadeToggle('medium');
+	}); 
+	
 	$(".current").click(function(){
 		if($(this).hasClass('active')){
 			$("tr.closed").hide();
 		}else{
 			$(this).addClass('active');
+			$(".todaybar").removeClass('grow');
 			$(".all").removeClass('active');
 			$("tr.closed").hide();
 		}
@@ -33,8 +31,10 @@ $(document).ready(function(){
 	$(".all").click(function(){
 		if($(this).hasClass('active')){
 			$("tr.closed").show();
+			$(".todaybar").addClass('grow');
 		}else{
 			$(this).addClass('active');
+			$(".todaybar").addClass('grow');
 			$(".current").removeClass('active');
 			$("tr.closed").show();
 		}
@@ -45,6 +45,7 @@ $(document).ready(function(){
 	$(".to_issue").hover(function(){
 		if($(this).hasClass('active_to')){
 			$(this).removeClass('active_to');
+			
 		}else{
 			$(this).addClass('active_to');
 		}
@@ -80,6 +81,8 @@ $(document).ready(function(){
 		}else if(!$(this).hasClass('active')){
 			$('#filter').val($(this).html()).keyup().focus();
 			$(this).addClass('active');
+			$('.all').addClass('active');
+			$(".current").removeClass('active');
 		}
 	});
 	
@@ -115,7 +118,7 @@ $(document).ready(function(){
 		//addClass .sortable and start click bind
 		//to allow certain columns to be sortable, remove the addClass(), change the selector to target thead th.sortable, or whatever you want to make the class
 		//$('thead th.sortable').click(function(){
-		if($(this).hasClass('sortable')){
+		if($(this).hasClass('sortable')){ 
 			$(this).click(function(){
 				//get column that was clicked and use it to sort with
 				var findSortKey = function($cell) {

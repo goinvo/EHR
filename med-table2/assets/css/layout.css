@@ -654,6 +654,9 @@ table.main_table tbody tr td:first-child {
 	cursor:pointer;
 	z-index: 1;
 }
+tr.active_to{
+	background: #6a6a6a;
+}
 .num{
 	width: 30px;
 	display: inline-block;
@@ -736,6 +739,9 @@ tbody tr td .units, tbody tr td .per {
 tbody tr.closed td {
 	color: #929292;
 }
+tbody tr td.date{
+	min-width:86px;
+}
 thead tr th ul{
 	margin-bottom: 0;
 }
@@ -754,7 +760,7 @@ thead tr th.timeline{
 tbody tr td.timeline .bar {
 	border-radius: 7px;
 	height: 7px;
-	max-width: 107px;
+	background: rgba(140,140,140,.25);
 }
 tbody tr td.timeline .bar .max, 
 tbody tr td.timeline .bar .least,
@@ -764,24 +770,25 @@ tbody tr td.timeline .bar .overmax {
 	display: inline-block;
 	height: 7px;
 }
-tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
+/*tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
 	background: rgba(47,47,47,1);
 }
 tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
-	/*background: rgba(47,47,47,.1);*/
+	/*background: rgba(47,47,47,.1);*
 	background: rgba(224,224,224,.5);
 }
 tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
-	/*background: rgba(47,47,47,.25);*/
+	/*background: rgba(47,47,47,.25);*
 	background: rgba(204,204,204,.35);
 }
 tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
-	/*background: rgba(47,47,47,.5);*/
+	/*background: rgba(47,47,47,.5);*
 	background: rgba(140,140,140,.3);
 }
 tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
 	background: rgba(195,0,0,.5);
 }
+
 tbody tr td.timeline #qvar.bar { width:102px; margin-left:5px; }
 tbody tr td.timeline #carvedilol.bar .mid{width:12px;}
 tbody tr td.timeline #carvedilol.bar .max{width:95px; margin-left: -4px;}
@@ -802,10 +809,84 @@ tbody tr td.timeline #terbinafine.bar { width:5px; margin-left:102px;}
 tbody tr td.timeline #trazodone.bar .least {width: 10px;}
 tbody tr td.timeline #trazodone.bar .low {width: 10px; margin-left: -4px;}
 tbody tr td.timeline #trazodone.bar .mid {width: 11px; margin-left: -4px;}
-tbody tr td.timeline #trazodone.bar .low2 {width: 10px; margin-left: -4px; background: rgba(47,47,47,.25); display: inline-block; height: 7px;}
+tbody tr td.timeline #trazodone.bar .low2 {width: 10px; margin-left: -4px; background: rgba(204,204,204,.35); display: inline-block; height: 7px;}
 tbody tr td.timeline #warfarin.bar { width: 21px; margin-left:10px;}
 tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
-
+*/
+tbody tr td .month {
+	width: 25px;
+	text-align: center;
+	display: inline-block;
+}
+tbody tr td .year {
+	text-align: left;
+	width: 30px;
+	display: inline-block;
+}
+tbody tr td.timeline .bar .down,
+tbody tr td.timeline .bar .up {
+	width:7px;
+	height:7px;
+	display: inline-block;
+	position: absolute;
+}
+tbody tr td.timeline .bar .up{
+	background: url('../images/change_arrow_up.png') no-repeat;
+}
+tbody tr td.timeline .bar .down{
+	background: url('../images/change_arrow_down.png') no-repeat;
+}
+tbody tr td.timeline #omeprazole.bar {
+	background: none;
+}
+tbody tr td.timeline #albuterol.bar {width: 106px;}
+tbody tr td.timeline #aspirin.bar {width: 100px;}
+tbody tr td.timeline #qvar.bar { width:95px; margin-left:5px; }
+tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
+tbody tr td.timeline #bupropion.bar .mid { margin-left:2px;}
+tbody tr td.timeline #carvedilol.bar {width: 116px;}
+tbody tr td.timeline #carvedilol.bar .max{margin-left: 11px;}
+tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
+tbody tr td.timeline #citalopram.bar {width: 143px;}
+tbody tr td.timeline #citalopram.bar .mid{margin-left: 8px;}
+tbody tr td.timeline #esomeprazole.bar {width: 22px; margin-left:19px;}
+tbody tr td.timeline #gabapentin.bar {width: 58px; margin-left:48px;}
+tbody tr td.timeline #gabapentin.bar .low {margin-left: 12px;}
+tbody tr td.timeline #gabapentin.bar .mid {margin-left: 21px; }
+tbody tr td.timeline #insulin.bar {width: 31px; margin-left: 69px;}
+tbody tr td.timeline #lisinopril.bar  {width: 19px; margin-left: 26px;}
+tbody tr td.timeline #lisinopril.bar .max {margin-left: 7px;}
+tbody tr td.timeline #losartan.bar {width:59px; margin-left:42px;}
+tbody tr td.timeline #losartan.bar .max { margin-left:30px;}
+tbody tr td.timeline #metformin.bar {width: 100px;}
+tbody tr td.timeline #naproxen.bar {width: 100px;}
+tbody tr td.timeline #nitroglycerin.bar {width: 37px; margin-left:56px;}
+tbody tr td.timeline #omeprazole.bar .max {width:26px; margin-left: 51px; border-radius: 7px; background: rgba(140,140,140,.25);}
+tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: rgba(140,140,140,.25); display: inline-block; height: 7px; border-radius: 7px;}
+tbody tr td.timeline #prednisone.bar {width: 100px;}
+tbody tr td.timeline #simvastatin.bar {width: 101px;}
+tbody tr td.timeline #simvastatin.bar .max{margin-left: 24px;}
+tbody tr td.timeline #terbinafine.bar { width:8px; margin-left:96px;}
+tbody tr td.timeline #trazodone.bar  {width: 40px; margin-left:5px; }
+tbody tr td.timeline #trazodone.bar .low {margin-left: 6px;}
+tbody tr td.timeline #trazodone.bar .mid {margin-left: 16px;}
+tbody tr td.timeline #trazodone.bar .low2 {margin-left: 26px; }
+tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
+tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
+thead tr th ul li .todaybar {
+	width: 1px;
+	height: 48%;
+	background: #929292;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+thead tr th ul li .todaybar.grow {
+	height: 610px;
+}
+thead tr th.brand, tbody tr td.brand {
+	display: none;
+}
 #top div {
 	display: inline-block;
 }
@@ -864,6 +945,28 @@ section {
 	opacity: 1;
 	background-color: #fff;
 }
+tr.condAngina.grouped td { background: #6a6a6a; }
+tr.condAsthma.grouped td {}
+tr.condDepression.grouped td { background: #6a6a6a; }
+tr.condDiabetes.grouped td {}
+tr.condGERD.grouped td { background: #6a6a6a; }
+tr.condHighBP.grouped td {}
+tr.condCholesterol.grouped td { background: #6a6a6a; }
+tr.condHyperlip.grouped td {}
+tr.condHypertension.grouped td { background: #6a6a6a; }
+tr.condInsomnia.grouped td {}
+tr.condPain.grouped td { background: #6a6a6a; }
+tr.condOnychom.grouped td {}
+tr.condStroke.grouped td { background: #6a6a6a; }
+tr.condArthritis.grouped td {}
+tr.condSmoke.grouped td { background: #6a6a6a; }
+
+tr.provBelden.grouped td {background: #6a6a6a;}
+tr.provBrietzke.grouped td {}
+tr.provFoote.grouped td {background: #6a6a6a;}
+tr.provOTC.grouped td {}
+tr.provShoyinka.grouped td {background: #6a6a6a;}
+
 	/* #Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/*.container  { width: 768px; }*/
