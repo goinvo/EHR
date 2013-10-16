@@ -8,30 +8,30 @@
 *  http://www.opensource.org/licenses/mit-license.php
 *  6/20/2012 */
 
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Base 960 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
-    #Clearing
-	#Site Styles
+/* Table of Contents
+  =============================
+	Reset & Basics
+	Typography
+	Links
+	Lists
+	Forms
+	Base 960 Grid
+		Tablet (Portrait)
+		Mobile (Portrait)
+		Mobile (Landscape)
+    Clearing
+	Site Styles
+		.main_table / .med_table
 		#header #footer
 		.nav
 		.main table
-	#Page Styles
+	Page Styles
 		.med_list
-	#Site/Page Media Queries 
+	Site/Page Media Queries 
+  =============================
 */
 
-/* #Reset & Basics */
+/*Reset & Basics*/
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -55,7 +55,7 @@
 		-webkit-text-size-adjust: 100%;
 	}
 
-/* #Typography */
+/*Typography*/
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
 		font-weight: normal; 
@@ -82,12 +82,12 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-/* #Links */
+/*Links*/
 	a, a:visited { color: #929292; text-decoration: none; outline: 0; }
 	a:hover, a:focus { color: #4d4d4d; }
 	p a, p a:visited { line-height: inherit; }
 
-/* #Lists */
+/*Lists*/
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -101,320 +101,7 @@
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
-/* #Images */
-	img.scale-with-grid {
-		max-width: 100%;
-		height: auto; 
-	}
-
-
-/* #Buttons */
-	/*<input type="button" name="activate" value="Activate" class="button" onclick="" />
-		<div class="button">Activate</div>*/
-	.button, button, 
-	input[type="submit"], 
-	input[type="reset"], 
-	input[type="button"] {
-		background: #fdfdfd; /* Old browsers */
-			background: -moz-linear-gradient(top, #fdfdfd 0%, #f0f0f0 89%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(89%,#f0f0f0)); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* IE10+ */
-			background: linear-gradient(to bottom, #fdfdfd 0%,#f0f0f0 89%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
-		border: 1px solid #c5c5c5;
-		border-top: 1px solid #ccc;
-		border-left: 1px solid #ccc;
-		border-radius: 3px;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
-		color: #4d4d4d;
-		display: inline-block;
-		font-size: 12px;
-		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		text-decoration: none;
-		text-shadow: 0 1px rgba(255, 255, 255, .75);
-		cursor: pointer; 
-		height:30px;
-		line-height: 28px;
-	}
-
-	.button:hover, 
-	button:hover, 
-	input[type="submit"]:hover, 
-	input[type="reset"]:hover, 
-	input[type="button"]:hover {
-		border: solid 1px #92a8be;
-		box-shadow: inset 0px -1px 1px rgba(255,255,255,0.6), 0px 0px 8px rgba(10,67,220,0.2);
-		transition: 	 	all 0.15s;
-		-moz-transition: 	all 0.15s; /* Firefox 4 */
-		-webkit-transition: all 0.15s; /* Safari and Chrome */
-		-o-transition: 		all 0.15s; /* Opera */
-	}
-
-	.button:active,
-	button:active,
-	input[type="submit"]:active,
-	input[type="reset"]:active,
-	input[type="button"]:active {
-		border: 1px solid #666;
-		background: #ccc; /* Old browsers */
-		background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
-		background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
-		background: #ccc -webkit-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Chrome10+,Safari5.1+ */
-		background: #ccc -o-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Opera11.10+ */
-		background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
-		background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */ 
-	}
-	div.button{
-		line-height: 29px;
-		height:28px;
-		padding: 0 8px 0 8px;
-	}
-
-	.button.full-width,
-	button.full-width,
-	input[type="submit"].full-width,
-	input[type="reset"].full-width,
-	input[type="button"].full-width {
-		width: 100%;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		text-align: center; 
-	}
-	/* Fix for odd Mozilla border & padding issues */
-	button::-moz-focus-inner,
-	input::-moz-focus-inner {
-		border: 0;
-		padding: 0;
-	}
-	/*<div class="button blue"><span class="check"></span>Check-in</div>*/
-	.blue{
-		border: 1px solid #306b9c;
-		background: #599cd3; /* Old browsers */
-		background: -moz-linear-gradient(top, #599cd3 0%, #206096 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#599cd3), color-stop(100%,#206096)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, #599cd3 0%,#206096 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, #599cd3 0%,#206096 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, #599cd3 0%,#206096 100%); /* IE10+ */
-		background: linear-gradient(to bottom, #599cd3 0%,#206096 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#599cd3', endColorstr='#206096',GradientType=0 ); /* IE6-9 */
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-		color: #fff;
-		font-family: Helvetica, Arial, sans-serif;
-		font-weight: bold;
-		text-shadow: 0 1px 1px rgba(17, 99, 126, 1);
-		padding: 9px;
-		-moz-box-shadow:    inset 0 0 1px rgba(255,255,255,1);
-		-webkit-box-shadow: inset 0 0 1px rgba(255,255,255,1);
-		box-shadow:         inset 0 0 1px rgba(255,255,255,1);
-	}
-	.blue:hover,
-	button:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	input[type="button"]:hover {
-		border: 1px solid #306b9c;
-		box-shadow: inset 0px -1px 1px rgba(48,107,156,1);
-		transition: 	 	all 0.15s;
-		-moz-transition: 	all 0.15s; /* Firefox 4 */
-		-webkit-transition: all 0.15s; /* Safari and Chrome */
-		-o-transition: 		all 0.15s; /* Opera */
-	  /*border-top: 1px solid #aaa;
-	  border-left: 1px solid #aaa;*/
-	}
-	/*.check{
-		background: url('../images/check.png');
-		background-repeat: no-repeat;
-		height: 11px;
-		width: 13px;
-		display: inline-block;
-		padding-left: 3px;
-	}*/
-
-	
-/*#Dropdown Buttons 
-==================================================*/
-/*Uses button styles*/
-.active_dropdown_area{
-	cursor: pointer;
-	width: 60px;
-}
-#type_drop .active_dropdown_area{
-	width: 125px;
-}
-.dropdown{
-	font-family: 'Open Sans', 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	position: relative;
-	overflow: hidden;
-}
-.down_dropped{
-	overflow: visible;
-}
-.dropdown .active_item_name{
-	display: block;
-	cursor: pointer;
-	font-size:12px;
-	display: block;
-	font-family: Helvetica, Arial;
-	color:#4d4d4d;
-	text-shadow: 1px 1px rgba(255,255,255,1);
-	font-family: 'Open Sans', 'OpenSansBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.dropdown .active_item_arrow{
-	width: 28px;
-	display: inline-block;
-	height: 30px;
-	background: url('../images/dropdown_arrow.png') no-repeat;
-	background-position: center center;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-.dropdown .expanding_dropdown_area{
-	position: absolute;
-	top:28px;
-	width: 100px;
-	background: #fdfdfd;
-	border-radius: 3px;
-	line-height: 30px;
-	border: 1px solid #e5e5e5;
-	margin-left: -9px;
-	-moz-box-shadow:    0px 2px 3px 0px rgba(150,150,150,.3);
-	-webkit-box-shadow: 0px 2px 3px 0px rgba(150,150,150,.3);
-	box-shadow:         0px 2px 3px 0px rgba(150,150,150,.3);
-}
-.dropdown.down_dropped{
-}
-#type_drop .expanding_dropdown_area{
-	width: 150px;
-}
-.dropdown .expanding_dropdown_area .arrow {
-	background: url("../images/light_arrow_up.png");
-	background-repeat: no-repeat;
-	display: block;
-	height:9px;
-	width:14px;
-}
-.dropdown .expanding_dropdown_area .dropdown_opt{
-	display: block;
-	cursor: pointer;
-	position: relative;
-	transition: 	 	all 0.15s linear;
-	-moz-transition: 	all 0.15s linear; /* Firefox 4 */
-	-webkit-transition: all 0.15s linear; /* Safari and Chrome */
-	-o-transition: 		all 0.15s linear; /* Opera */
-	z-index: 100000;
-}
-.dropdown .expanding_dropdown_area .dropdown_opt input{
-	border: none;
-	background-color: transparent;
-	cursor: default;
-	margin-bottom: 0px;
-	padding-left: 7px;
-}
-.dropdown .expanding_dropdown_area input[type="checkbox"] {
-	vertical-align: bottom;
-	margin-bottom: 2px;
-}
-.dropdown .expanding_dropdown_area .dropdown_opt:last-child{
-	border-bottom: none;
-}
-.dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even){
-	background:#fdfdfd;
-}
-.dropdown .expanding_dropdown_area .dropdown_opt:hover, 
-.dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even):hover{
-	z-index: 100001;
-	background-color: #eee;
-}
-.filter .dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even){
-	background:#fdfdfd;
-}
-.filter .dropdown .expanding_dropdown_area .dropdown_opt:hover, 
-.filter .dropdown .expanding_dropdown_area .dropdown_opt:nth-child(even):hover{
-	z-index: 100001;
-	background-color: #fdfdfd;
-}
-.dropdown_head{
-	border-bottom: solid 1px #e1e1e1;
-	background: #f5f5f5;
-}
-.dropdown_head input{
-	border: none;
-	color: #b5b5b5;
-	border-radius: 3px;
-	-moz-box-shadow: 0px -1px 1px 0 #d6d6d6;
-	-webkit-box-shadow: 0px -1px 1px 0 #d6d6d6;
-	box-shadow: 0px -1px 1px 0 #d6d6d6;
-	height: 22px;
-	line-height: 22px;
-	margin: 8px 0 8px 8px;
-	padding: 0 8px 0 8px;
-}
-.dropdown.disabled,
-.button.disabled,
-button.disabled,
-input[type="submit"].disabled,
-input[type="reset"].disabled,
-input[type="button"].disabled {
-	cursor: default;
-	color: #b5b5b5;
-	border: solid #e2e2e2 1px;
-	background: #fafafa;
-}
-.dropdown.disabled:hover,
-.button.disabled:hover,
-button.disabled:hover,
-input[type="submit"].disabled:hover,
-input[type="reset"].disabled:hover,
-input[type="button"].disabled:hover {
-	cursor: default;
-	color: #b5b5b5;
-	border: solid #e2e2e2 1px;
-	background: #fafafa;
-	box-shadow: none;
-}
-.dropdown.disabled .active_item_arrow{
-	background-image:  url(../images/light_drop_arrow.png);
-}
-.dropdown.disabled .active_dropdown_area{
-	cursor: default;
-}
-.dropdown.disabled .active_item_name{
-	cursor: default;
-	color: #b5b5b5;
-}
-#types_drop .dropdown_head input{
-	width: 140px;
-}
-.expanding_dropdown_area{
-	background: #fdfdfd;
-}
-.expanding_dropdown_area .fright{
-	border-left: #e4e4e4 solid 1px;
-}
-.expanding_dropdown_area h6{
-	border-bottom: #e4e4e4 solid 1px;
-	padding: 10px 6px 8px 6px;
-}
-.expanding_dropdown_area ul li{
-	list-style: none;
-}
-.expanding_dropdown_area ul{
-	padding-top:10px;
-	margin-left: 6px;
-	border-top: solid 1px #fff;
-}
-.expanding_dropdown_area ul li ul{
-	margin-left: -18px;
-}
-
-/* #Forms */
+/*Forms*/
 	form { margin-bottom: 20px; }
 	fieldset { margin-bottom: 20px; }
 	input[type="text"],
@@ -458,18 +145,18 @@ input[type="button"].disabled:hover {
 		font-size: 13px;
 		color: #444; }
 
-/* #Base 960 Grid
+/*Base 960 Grid
 ================================================== */
 .container { position: relative; width: 1080px; margin: 0 auto; padding: 0; margin-top: 20px;}
 .container .column,
 .container .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row { margin-bottom: 20px; }
 
-/* Nested Column Classes */
+/*Nested Column Classes */
 .column.alpha, .columns.alpha { margin-left: 0; }
 .column.omega, .columns.omega { margin-right: 0; }
 
-/* Base Grid */
+/*Base Grid */
 .container .one.column,
 .container .one.columns { width: 40px;  }
 .container .two.columns { width: 100px; }
@@ -491,7 +178,7 @@ input[type="button"].disabled:hover {
 .container .one-third.column { width: 348px; }
 .container .two-thirds.column { width: 692px; }
 
-/* #Tablet (Portrait) Note: Design for a width of 768px */
+/*Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.container                                  { width: 768px; }
 	.container .column,
@@ -521,7 +208,7 @@ input[type="button"].disabled:hover {
 	.container .one-third.column                { width: 236px; }
 	.container .two-thirds.column               { width: 492px; }
 }
-/*  #Mobile (Portrait) Note: Design for a width of 320px */
+/*Mobile (Portrait) Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
 	.container { width: 300px; }
 	.container .columns,
@@ -547,7 +234,7 @@ input[type="button"].disabled:hover {
 	.container .one-third.column,
 	.container .two-thirds.column  { width: 300px; }
 }
-/* #Mobile (Landscape) Note: Design for a width of 480px */
+/*Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.container { width: 420px; }
 	.container .columns,
@@ -574,7 +261,7 @@ input[type="button"].disabled:hover {
 	.container .two-thirds.column { width: 420px; }
 }
 
-/* #Clearing */
+/*Clearing */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before, .clearfix:after,
 .row:before, .row:after {
@@ -602,11 +289,12 @@ input[type="button"].disabled:hover {
 	float: left;
 	margin: 0 auto;
 }
-/* For modern browsers */
+/*For modern browsers */
 .cf:before, .cf:after { content:""; display:block; }
 .cf:after { clear:both; }
 
-/*main table*/
+/*Site Styles*/
+/*.main_table / .med_table*/
 table.main_table{
 	margin: 0;
 	padding: 0;
@@ -638,7 +326,7 @@ table.main_table thead tr th.sort-col:hover{
 	color: #fff;
 }
 table.main_table tbody tr {
-	font-size: 14px;
+	font-size: 12px;
 	color: #fff;
 	/*background: #fff;*/
 }
@@ -650,12 +338,12 @@ table.main_table tbody tr td:first-child {
 	padding-left: 16px;
 }
 .active_to td {
-	background: #6a6a6a;
+	background: #5e5e5e;
 	cursor:pointer;
 	z-index: 1;
 }
 tr.active_to{
-	background: #6a6a6a;
+	background: #5e5e5e;
 }
 .num{
 	width: 30px;
@@ -668,19 +356,18 @@ tr.active_to{
 	text-align: right;
 }
 
-/* #Page Styles */
-.med_table .closed {
-	display: none;
-}
-.sort-key {
-	display: none;
-}
-th.sortable:hover,
-td.condition:hover,
-td.provider:hover { text-decoration: underline; cursor: pointer; }  
-th.sorted-asc, th.sorted-desc { 
-	font-family: 'OpenSansBold';
-}
+/*When sorting, like-rows will appear grouped*/
+/*Note: should ideally be applied in JS, so as to run through loop dynamically*/
+/*Does not account for current state, highlights according to all medications*/
+.group2, .group4, .group6, .group7, .group8, .group10, .group12, .group14, .group16{ 
+	background: #505050; }
+
+/*Page Styles */
+.med_table .closed { display: none; }
+.sort-key { display: none; }
+th.sortable:hover, td.condition:hover, td.provider:hover { 
+	text-decoration: underline; cursor: pointer; }  
+th.sorted-asc, th.sorted-desc { font-family: 'OpenSansBold'; }
 th.sortable .col-head { padding-right: 10px; }
 th.sortable.renewDue { min-width: 95px; }
 th.sortable.prescribed { min-width: 80px; }
@@ -695,72 +382,27 @@ th .arrow{
 	margin-bottom:-2px;
 	margin-left: 3px;
 }
-th.sorted-asc .arrow {
-	background: url('../images/down_arrow.png') no-repeat;
-}
-th.sorted-desc .arrow {
-	background: url('../images/up_arrow.png') no-repeat;
-}
-tr td.provider{
-	min-width: 87px;
-}
-tr td.dose{
-	min-width: 80px;
-}
-tbody tr td.doseMax .block{
-	width: 10px;
-	height: 10px;
-	display: block;
-}
-tbody tr td.doseMax .max{
-	background: rgba(47,47,47,1);
-}
-tbody tr td.doseMax .least{
-	/*background: rgba(47,47,47,.1);*/
-	background: rgba(224,224,224,.5);
-}
-tbody tr td.doseMax .low{
-	/*background: rgba(47,47,47,.25);*/
-	background: rgba(204,204,204,.5);
-}
-tbody tr td.doseMax .mid{
-	/*background: rgba(47,47,47,.5);*/
-	background: rgba(140,140,140,.3);
-}
-tbody tr td.doseMax .overmax{
-	background: #c30000;
-}
-tbody tr td .units, tbody tr td .per, tbody tr td.refills {
-	color:#929292;
-}
-tbody tr td .units, tbody tr td .per {
-	font-size: 10pt;
-}
-tbody tr.closed td {
-	color: #929292;
-}
-tbody tr td.date{
-	min-width:86px;
-}
-thead tr th ul{
-	margin-bottom: 0;
-}
+th.sorted-asc .arrow { background: url('../images/down_arrow.png') no-repeat; }
+th.sorted-desc .arrow { background: url('../images/up_arrow.png') no-repeat; }
+tr td.provider{ min-width: 87px; }
+tr td.dose{ min-width: 80px; }
+tbody tr td .units, tbody tr td .per, tbody tr td.refills { color:#929292; }
+tbody tr td .units, tbody tr td .per { font-size: 10pt; }
+tbody tr.closed td { color: #929292; }
+tbody tr td.date{ min-width:86px; }
+thead tr th ul{ margin-bottom: 0; }
 thead tr th ul li{
 	display: inline;
 	line-height: 12px;
 	margin-bottom: 0;
 	margin-left: 10px;
 }
-thead tr th ul li:first-child{
-	margin-left: 0px;
-}
-thead tr th.timeline{
-	min-width:140px;
-}
+thead tr th ul li:first-child{ margin-left: 0px; }
+thead tr th.timeline{ min-width:140px; }
 tbody tr td.timeline .bar {
 	border-radius: 7px;
 	height: 7px;
-	background: rgba(140,140,140,.25);
+	/*background: rgba(140,140,140,.25);*/
 }
 tbody tr td.timeline .bar .max, 
 tbody tr td.timeline .bar .least,
@@ -770,49 +412,60 @@ tbody tr td.timeline .bar .overmax {
 	display: inline-block;
 	height: 7px;
 }
-/*tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
-	background: rgba(47,47,47,1);
-}
+tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
+	background: #333333; }
 tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
-	/*background: rgba(47,47,47,.1);*
-	background: rgba(224,224,224,.5);
-}
+	background: rgba(224,224,224,.75) }
 tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
-	/*background: rgba(47,47,47,.25);*
-	background: rgba(204,204,204,.35);
-}
+	background: #808080; }
 tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
-	/*background: rgba(47,47,47,.5);*
-	background: rgba(140,140,140,.3);
-}
+	background: #545454; }
 tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
-	background: rgba(195,0,0,.5);
+	background: #a03333; 
 }
-
-tbody tr td.timeline #qvar.bar { width:102px; margin-left:5px; }
-tbody tr td.timeline #carvedilol.bar .mid{width:12px;}
-tbody tr td.timeline #carvedilol.bar .max{width:95px; margin-left: -4px;}
-tbody tr td.timeline #citalopram.bar .max{width:12px;}
-tbody tr td.timeline #citalopram.bar .mid{width:95px; margin-left: -4px;}
-tbody tr td.timeline #gabapentin.bar .least {width: 14px; margin-left:50px;}
-tbody tr td.timeline #gabapentin.bar .low {width: 14px; margin-left: -4px;}
-tbody tr td.timeline #gabapentin.bar .mid {width:29px; margin-left: -4px;}
-tbody tr td.timeline #lisinopril.bar .mid {width: 10px; margin-left: 15px;}
-tbody tr td.timeline #lisinopril.bar .max {width: 10px; margin-left: -4px;}
-tbody tr td.timeline #losartan.bar .mid {width:45px; margin-left:36px;}
-tbody tr td.timeline #losartan.bar .max { width:26px; margin-left: -4px;}
+tbody tr td.timeline #albuterol.bar {width: 106px;}
+tbody tr td.timeline #aspirin.bar {width: 100px;}
+tbody tr td.timeline #qvar.bar { width:95px; margin-left:5px; }
+tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
+tbody tr td.timeline #bupropion.bar .low { width:5px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #bupropion.bar .mid { width: 10px; margin-left:-4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #carvedilol.bar {width: 116px;}
+tbody tr td.timeline #carvedilol.bar .mid{width:14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #carvedilol.bar .max{width:102px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
+tbody tr td.timeline #citalopram.bar {width: 143px;}
+tbody tr td.timeline #citalopram.bar .max{width:11px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #citalopram.bar .mid{width:132px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #esomeprazole.bar {width: 22px; margin-left:19px;}
+tbody tr td.timeline #gabapentin.bar {width: 58px; margin-left:48px;}
+tbody tr td.timeline #gabapentin.bar .least {width: 14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #gabapentin.bar .low {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #gabapentin.bar .mid {width:34px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #insulin.bar {width: 31px; margin-left: 69px;}
+tbody tr td.timeline #lisinopril.bar  {width: 19px; margin-left: 26px;}
+tbody tr td.timeline #lisinopril.bar .mid {width: 10px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #lisinopril.bar .max {width: 9px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #losartan.bar {width:59px; margin-left:42px;}
+tbody tr td.timeline #losartan.bar .mid {width:33px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #losartan.bar .max { width:26px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #metformin.bar {width: 100px;}
+tbody tr td.timeline #naproxen.bar {width: 100px;}
+tbody tr td.timeline #nitroglycerin.bar {width: 37px; margin-left:56px;}
 tbody tr td.timeline #omeprazole.bar .max {width:29px; margin-left: 52px; border-radius: 7px;}
-tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: rgba(47,47,47,1); display: inline-block; height: 7px; border-radius: 7px;}
-tbody tr td.timeline #simvastatin.bar .overmax{width:28px;}
-tbody tr td.timeline #simvastatin.bar .max{width: 79px; margin-left: -5px;}
-tbody tr td.timeline #terbinafine.bar { width:5px; margin-left:102px;}
-tbody tr td.timeline #trazodone.bar .least {width: 10px;}
+tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: #333333; display: inline-block; height: 7px; border-radius: 7px;}
+tbody tr td.timeline #prednisone.bar {width: 100px;}
+tbody tr td.timeline #simvastatin.bar {width: 102px;}
+tbody tr td.timeline #simvastatin.bar .overmax{width:27px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #simvastatin.bar .max{width: 75px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #terbinafine.bar { width:8px; margin-left:96px;}
+tbody tr td.timeline #trazodone.bar  {width: 40px; margin-left:5px; }
+tbody tr td.timeline #trazodone.bar .least {width: 8px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
 tbody tr td.timeline #trazodone.bar .low {width: 10px; margin-left: -4px;}
-tbody tr td.timeline #trazodone.bar .mid {width: 11px; margin-left: -4px;}
-tbody tr td.timeline #trazodone.bar .low2 {width: 10px; margin-left: -4px; background: rgba(204,204,204,.35); display: inline-block; height: 7px;}
-tbody tr td.timeline #warfarin.bar { width: 21px; margin-left:10px;}
+tbody tr td.timeline #trazodone.bar .mid {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #trazodone.bar .low2 {width: 12px; margin-left: -4px; background: #808080; display: inline-block; height: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
 tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
-*/
+
 tbody tr td .month {
 	width: 25px;
 	text-align: center;
@@ -823,7 +476,7 @@ tbody tr td .year {
 	width: 30px;
 	display: inline-block;
 }
-tbody tr td.timeline .bar .down,
+/*tbody tr td.timeline .bar .down,
 tbody tr td.timeline .bar .up {
 	width:7px;
 	height:7px;
@@ -873,23 +526,18 @@ tbody tr td.timeline #trazodone.bar .mid {margin-left: 16px;}
 tbody tr td.timeline #trazodone.bar .low2 {margin-left: 26px; }
 tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
 tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
+*/
 thead tr th ul li .todaybar {
 	width: 1px;
 	height: 48%;
-	background: #929292;
+	background: #717171;
 	position: absolute;
 	margin-left: 100px;
 	margin-top: 10px;
 }
-thead tr th ul li .todaybar.grow {
-	height: 610px;
-}
-thead tr th.brand, tbody tr td.brand {
-	display: none;
-}
-#top div {
-	display: inline-block;
-}
+thead tr th.brand, tbody tr td.brand, thead tr th.sideEffects, tbody tr td.sideEffects {
+	display: none; }
+#top div { display: inline-block; }
 #top #title .list_name {
 	text-transform: uppercase;
 	font-size: 21px;
@@ -898,11 +546,10 @@ thead tr th.brand, tbody tr td.brand {
 	font-size: 14px;
 	color: #929292;
 	font-family: 'OpenSansItalic';
-	
 }
 #top #actions, #top #filters {
 	vertical-align: top;
-	margin: 3px 0 0 15px;
+	margin: 3px 15px 0 35px;
 }
 #top ul li {
 	display: inline;
@@ -910,21 +557,18 @@ thead tr th.brand, tbody tr td.brand {
 	padding: 2px 7px 3px 7px;
 	margin: 0 5px 0 5px;
 }
-#top ul li a{
-	color: #ebebeb;
-}
-#top ul li a:hover{
-	color: #fff;
-}
+#top ul li a{ color: #ebebeb; }
+#top ul li a:hover{ color: #fff; }
 #top ul li.active {
 	color: #fff;
 	background: #7b7364;
 	border-radius:5px;
 }
-
-section {
-	margin: 20px 15px 10px 15px;
+#actions .export a, #actions .export a:hover {
+	color: #929292;
+	cursor: default;
 }
+section {	margin: 20px 15px 10px 15px; }
 #search {
 	display: none;
 	margin-left: 12px;
@@ -945,40 +589,16 @@ section {
 	opacity: 1;
 	background-color: #fff;
 }
-tr.condAngina.grouped td { background: #6a6a6a; }
-tr.condAsthma.grouped td {}
-tr.condDepression.grouped td { background: #6a6a6a; }
-tr.condDiabetes.grouped td {}
-tr.condGERD.grouped td { background: #6a6a6a; }
-tr.condHighBP.grouped td {}
-tr.condCholesterol.grouped td { background: #6a6a6a; }
-tr.condHyperlip.grouped td {}
-tr.condHypertension.grouped td { background: #6a6a6a; }
-tr.condInsomnia.grouped td {}
-tr.condPain.grouped td { background: #6a6a6a; }
-tr.condOnychom.grouped td {}
-tr.condStroke.grouped td { background: #6a6a6a; }
-tr.condArthritis.grouped td {}
-tr.condSmoke.grouped td { background: #6a6a6a; }
-
-tr.provBelden.grouped td {background: #6a6a6a;}
-tr.provBrietzke.grouped td {}
-tr.provFoote.grouped td {background: #6a6a6a;}
-tr.provOTC.grouped td {}
-tr.provShoyinka.grouped td {background: #6a6a6a;}
 
 	/* #Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/*.container  { width: 768px; }*/
-
 }
 	/*  #Mobile (Portrait) Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
 	/*.container { width: 300px; }*/
-
 }
 	/* #Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	/*.container { width: 420px; }*/
-
 }
