@@ -1,64 +1,104 @@
 $(document).ready(function(){
-	//open med
+	//to eventually open med
+	//click a row to highlight
 	$("tbody tr").click(function(){
-		if($(this).hasClass('active_to')){
+		$("tbody tr").each(function(){
 			$(this).removeClass('active_to');
-		}else{
-			$(this).addClass('active_to');
-		}
+		});
+		$(this).addClass('active_to');
 	});
 	
-	//history toggle
-	
-	$(".show_closed").click(function(){
-		if($(this).html()=='Hide history'){
-			$(this).html('Show history');
-			$('.closed').show();
-		}else{
-			$(this).html('Hide history');
-			altRows('tr:odd td', 'odd');
-		}
-		$("tr.closed").fadeToggle('medium');
-	}); 
-	
-	$(".to_issue").hover(function(){
-		if($(this).hasClass('active_to')){
-			$(this).removeClass('active_to');
-		}else{
-			$(this).addClass('active_to');
-		}
-	});
-	
-	$(".to_pv").hover(function(){
-		if($(this).hasClass('active_to')){
-			$(this).removeClass('active_to');
-		}else{
-			$(this).addClass('active_to');
-		}
-	});
-	/*$('.to_pv').click(function(){
-		window.location.href = './version.php';
-	});*/
-	
-	/*version toggles*/
-	$("#current_version_one tr.current_active").click(function(){
-		$("#version_table_one").show();
-		$("#table_slide_one").slideToggle('slow');
+		/*drawer toggles*/
+	//House additional details and information in drawers that show up
+		//when a row is selected
+	/*$("#current_med_one tr.current_active").click(function(){
+		$("#med_detail_one").show();
+		$("#detail_slide_one").slideToggle('slow');
 		$(this).hide();
 	});
-	$('#version_table_one tr').click(function(){
-		$("#current_version_one tr.current_active").slideToggle('slow').parents().eq(3).find("#table_slide_one").slideToggle(500);
+	$('#med_detail_one tr').click(function(){
+		$("#current_med_one tr.current_active").slideToggle('slow').parents().eq(3).find("#detail_slide_one").slideToggle(500);
+	});*/
+	
+	//turn brand column on and off
+	$(".brandToggle").click(function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
+			$(".brand").hide();
+		}else{
+			$(this).addClass('active');
+			$(".brand").show();
+		}
+	}); 
+	
+	//show only current medications
+	$(".current").click(function(){
+		//if a filter was just run, clear the filter
+		$('#filter').val('').keyup();
+		$('tr.active_to td.active').removeClass('active');
+		$('tr.active_to').removeClass('active_to');
+
+		$(this).addClass('active');
+		$(".all").removeClass('active');
+		//hide inactive medications
+		$("tr.closed").hide();
+
+		//when the list changes height, change the height of the today 
+			//marker in the mini timeline
+		$('.todaybar').css('height', $('.main_table').height() - 27);
+	}); 
+
+	//show all medications
+	$(".all").click(function(){
+		//if a filter was just run, clear the filter
+		$('#filter').val('').keyup();
+		$('tr.active_to td.active').removeClass('active');
+		$('tr.active_to').removeClass('active_to');
+	
+		$(this).addClass('active');
+		$(".current").removeClass('active');
+		//show inactive medications
+		$("tr.closed").show();
+
+		//when the list changes height, change the height of the today 
+			//marker in the mini timeline
+		$('.todaybar').css('height', $('.main_table').height() - 27);
 	});
+	
+
 	
 /* Filtering and Sorting
 	========================== */
-	altRows('tr:odd td', 'odd');
+	//click on a condition or provider to filter
+	//when filtering, all related meds are shown, whether you 
+		//were in current or all state
+	//not sophisticated enough to tell whether you were in 
+		//current/all to start, so when the filter is cleared,
+		//defaults to all, but SHOULD tell what state you were
+		//in and return to that state (not enough resources)
+	$('td.condition, td.provider').click(function(){
+		if($(this).hasClass('active')){
+			$('#filter').val('').keyup();
+			$(this).removeClass('active');
+		}else if(!$(this).hasClass('active')){
+			$('#filter').val($(this).html()).keyup().focus();
+			$(this).addClass('active');
+			$(".all").addClass('active');
+			$(".current").removeClass('active');
+		}
+	});
+	//when filtering, adjust the height of the today marker in 
+		//the mini timeline
+	$('.todaybar').css('height', $('.main_table').height() - 27);
+	
+	//shade alternate rows by applying odd class
+	//altRows('tr:odd td', 'odd');
 	
 	//default each row to visible
 	$('tbody tr').addClass('visible');
 	
 	//overrides CSS display:none property
-	//so only users w/ JS will see the filter box
+		//so only users w/ JS will see the filter box
 	$('#search').show();
 	
 	//fire the function every time a key is released
@@ -71,21 +111,32 @@ $(document).ready(function(){
 			//we want each row to be visible because if nothing
 			//is entered then all rows are matched.
 			$('tbody tr').removeClass('visible').show().addClass('visible');
-		} else { //if there is text, lets filter
+		} else { //if there is text, let's filter
 			filter('tbody tr', $(this).val());
 		}
 		//reapply altRows
-		$('.visible td').removeClass('odd');
-		altRows('.visible:odd td', 'odd');
+		//$('.visible td').removeClass('odd');
+		//altRows('.visible:odd td', 'odd');
+		
+		//adjust height of today marker in mini timeline
+		$('.todaybar').css('height', $('.main_table').height() - 27);
 	});
+	
+	//when not sorting by cols with data-sort attr, remove 
+		//classes applied to visually define groups
+	function removeGroups(){
+		for(var i=0; i <= $('tr').length;i++){
+			$('tr').removeClass('group'+i);
+		}
+	}
 
 	//grab all header rows  
 	$('thead th').each(function(column) {
 		//addClass .sortable and start click bind
-		//to allow certain columns to be sortable, remove the addClass(), change the selector to target thead th.sortable, or whatever you want to make the class
-		//$('thead th.sortable').click(function(){
-		if($(this).hasClass('sortable')){
+			//allows certain columns to be sortable
+		if($(this).hasClass('sortable')){ 
 			$(this).click(function(){
+				removeGroups();			
 				//get column that was clicked and use it to sort with
 				var findSortKey = function($cell) {
 					console.log ($cell.find('.sort-key').text().toUpperCase());
@@ -124,25 +175,42 @@ $(document).ready(function(){
 					.filter(':nth-child(' + (column + 1) + ')')
 					.addClass('sorted');
 					
-				$('.visible td').removeClass('odd');
-				altRows('.visible:even td', 'odd');
+				//$('.visible td').removeClass('odd');
+				//altRows('.visible:even td', 'odd');
+
+				//when sorting by cols with data-sort attr, add 
+					//classes to visually define groups, when
+					//sorting again, clear the prev value and 
+					//redefine groups, if there are groups, if not
+					//clear groups
+				var sortAttr = $(this).attr('data-sort');
+				var oldVal = '';
+				var sortCount = 0;
+				
+				$('tr td.'+sortAttr).each(function(){
+					if(oldVal != $(this).text()){
+						sortCount++;
+					}
+					$(this).parent().addClass('group'+sortCount);
+					oldVal = $(this).text();
+				});
 			});
 		}
 	});
 });
 
 
-//used to apply alternating row styles
-	function altRows(selector, className) {  
+	//used to apply alternating row styles
+	/*function altRows(selector, className) {  
 		$(selector).removeClass(className).addClass(className);  
-	}
+	}*/
 	
-//filter
+//filter: lazy search
 	function filter(selector, query) {  
 		query =   $.trim(query); //trim white space  
-		query = query.replace(/ /gi, '|'); //add OR for regex query  
+		//query = query.replace(/ /gi, '|'); //add OR for regex query (translates space ' ' as OR, so removed)
 	  
-		$(selector).each(function() {  
+		$(selector).each(function() { 		
 			($(this).text().search(new RegExp(query, "i")) < 0) ? $(this).hide().removeClass('visible') : $(this).show().addClass('visible');  
 		});  
 	}

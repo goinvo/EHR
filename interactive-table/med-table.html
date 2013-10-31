@@ -9,10 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" href="./assets/css/layout.css">
-	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="./assets/js/jquery-1.7.2.min.js"></script>
 	<script src="./assets/js/main.js" type="text/javascript"></script>
-	<script src="./assets/js/checkboxes.js" type="text/javascript"></script>
-	<script src="./assets/js/dropdowns.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -22,217 +20,526 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
+
 <body>
-	<section>
-		<div>
-		<!--<div class="med_table_opt cf">
-			<div class="button dropdown" id="type_drop">
-				<div class="active_dropdown_area">
-					<div class="active_item_name">
-					<span>9 Conditions</span>
-					<input type="hidden" value="Types" disabled="disabled" /></div>
-					<div class="active_item_arrow"></div>
-				</div>
-				<div class="expanding_dropdown_area">
-					<div class="filter" id="type_filter">
-						<h6><input type="checkbox" id="selectAllTypes"/>
-							<span class="check_label">All Conditions</span></h6>
-							<ul>
-								<li><input type="checkbox" class="type" name="type" value="1"/>
-									<span class="check_label">Capsule</span></li>
-								<li><input type="checkbox" class="type" name="type" value="2"/>
-]]]]									<span class="check_label">Inhaler</span></li>
-								<li><input type="checkbox" class="type" name="type" value="3"/>
-									<span class="check_label">Injection</span></li>
-								<li><input type="checkbox" class="type" name="type" value="4"/>
-									<span class="check_label">Liquid</span></li>
-								<li><input type="checkbox" class="type" name="type" value="5"/>
-									<span class="check_label">Tablet</span></li>
-							</ul>
-					</div>
-				</div>
-			</div>-->
-			
-			
-			<span class="show_closed fright">Show history</span>
-			<span id="search" class="fleft cf">
-				<label for="filter"></label> <input type="text" name="filter" value="" id="filter" />
-			</span>
+	<section id="top">
+		<div id="title">
+			<span class="list_name">Medications</span><br/>
+			<span class="updated">Last updated 1 week ago</span>
+		</div>
+		<div id="filters">
+			<ul>
+				<li class="filter current active"><a href="#">current (16)</a></li>
+				<li class="filter all"><a href="#">all (23)</a></li>
+				
+			</ul>
+		</div>
+		<div id="actions">
+			<ul>
+				<li class="action brandToggle"><a href="#">show brand</a></li>
+				<li class="action view"><a href="../timeline/timeline_v9.1.html">timeline</a></li>
+				<li class="action export"><a href="#">export</a></li>
+			</ul>
+		</div>
+		
+		<!--<span class="show_closed fright">Show history</span>-->
+		<div id="search" class="fright cf">
+			<label for="filter"></label> <input type="text" name="filter" value="" id="filter" placeholder="" />
 		</div>
 	</section>
 		
-			<table class="main_table med_table">
-				<thead>
-					<tr>
-						<th class="name sorted-asc sortable "><span class="col-head">Generic <span class="arrow"></span></span></th> <!--generic-->
-						<th class="sortable brand"><span class="col-head">Brand <span class="arrow"></span></span></th> <!--brand-->
-						<th><span class="col-head">Dose</span></th> <!--dose form-->
-						<th class="sig"><span class="sig col-head">Sig (Frequency)</span></th> <!--total daily dose-->
-						<th><span class="quant col-head">Quantity </span></th>
-						<th><span class="refills col-head">Refills </span></th> <!--therapeutic range-->
-						<th class="sortable renewDue"><span class="renewDue col-head">Renewal Due <span class="arrow"></span></span></th>
-						<!--<th><span class="col-head">when refills due</span></th>-->
-						<th class="sortable prescribed"><span class="prescribed col-head"><!--Date -->Prescribed <span class="arrow"></span></span></th> <!-- end date--><!--duration -->
-						<th class="sortable"><span class="col-head"><!--Ordering -->Provider <span class="arrow"></span></span></th>
-						<th class="sortable condition"><span class="col-head"><!--Associated -->Condition <span class="arrow"></span></span></th>
-						<!--<th><span class="col-head">Ins. Cov. Tier</span></th>-->
+	<table class="main_table med_table">
+		<thead>
+			<tr>
+				<th class="name sorted-asc sortable "><span class="col-head">Medication <span class="arrow"></span></span></th>
+				<th class="brand sortable"><span class="col-head">Brand <span class="arrow"></span></span></th>
+				<!--<th class="doseMax"><span class="col-head">Dose Max?</span></th>-->
+				<th class="dose"><span class="col-head">Dose</span></th>
+				<th class="sig"><span class="col-head">Frequency</span></th>
+				<th class="quant"><span class="col-head">Quantity </span></th>
+				<th class="refills"><span class="col-head">Refills </span></th>
+				<th class="condition sortable" data-sort="condition"><span class="col-head">Condition <span class="arrow"></span></span></th>
+				<th class="provider sortable" data-sort="provider"><span class="col-head">Provider <span class="arrow"></span></span></th>
+				<th class="prescribed sortable"><span class="col-head">Prescribed <span class="arrow"></span></span></th>
+				<th class="timeline"><span class="col-head">
+					<ul>
+						<li>2011</li>
+						<li>2012</li>
+						<li>2013<div class="todaybar"></div></li>
+						<li>2014</li>
+					</ul>
+				</span></th>
+				<th class="renewDue sortable" data-sort="renewDue"><span class="col-head">Renew by <span class="arrow"></span></span></th>
+				<!--<th class="getWell date"><span class="col-head">Get well by <span class="arrow"></span></span></th>-->
+				<th class="sideEffects"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="parent" id="albuterol-parent">
+				<td class="name">albuterol HFA</td>
+				<td class="brand">ProAir HFA</td>
+				<td class="dose"><span class="sort-key">0081</span><span class="num">12</span> <span class="units">u</span></td>
+				<td class="sig"><span class="sm_num"></span><span class="per">prn</span></td>
+				<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>
+				<td class="refills sm_num">12</td>
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20100112</span><span class="sm_num">12</span> <span class="month">Jan</span> <span class="year">2010</span></td>
+				<td class="timeline"><div id="albuterol" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20131122</span><span class="sm_num">22</span> <span class="month">Nov</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20140415</span><span class="sm_num">15</span> <span class="month">Apr</span> 2014</td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swelling of hands, swelling of mouth, swelling of throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, chest pain, shortness of breath, dry mouth, increased thirst, muscle cramps, nausea, vomiting shakiness, trembling, tremors, fast pulse, racing heartbeat, fast heartbeat, pounding heartbeat, uneven heartbeat, cough, hives, swelling, rash, redness of the skin, lightheadedness, fainting, seizuresm skin rash, trouble sleeping</td>
+			</tr>
+			<!--<tr class="cf child" id="albuterol-child">
+				<td class="details">Hello, albuterol...</td>
+			</tr>-->
+			<tr class="parent" id="aspirin-parent">
+				<td class="name">aspirin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0081</span> <span class="num">81</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>
+				<td class="sm_num refills"></td>
+				<td class="condition">Diabetes</td>
+				<td class="provider">OTC</td>
+				<!--<td class="prescribed date"><span class="sort-key">20070512</span><span class="sm_num">12</span> <span class="month">May</span> <span class="year">2007</span></td>-->
+				<td class="prescribed date"><span class="sort-key">99999999</span></td>
+				<td class="timeline"><div id="aspirin" class="bar max"></div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">severe stomach pain, bloody vomit, vomit that looks like coffee grounds, blood in urine, blood in stool, skin rash, hives, intense itching, swelling of the face, swollen face, swollen eyelids, ringing in ears, severe dizziness, drowsiness, wheezing, upset stomach, heartburn</td>
+			</tr>
+			<!--<tr class="cf child" id="aspirin-child">
+				<td class="details">Hello, aspirin...</td>
+			</tr>-->
+			<tr class="closed parent" id="atorvastatin-parent">
+				<td class="name">atorvastatin</td>
+				<td class="brand">Lipitor</td>
+				<td class="dose"><span class="sort-key">0040</span> <span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills"></td>
+				<td class="condition">Hyperlipidemia</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20080625</span><span class="sm_num">25</span> <span class="month">Jun</span> <span class="year">2008</span></td>
+				<td class="timeline"></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swelling of hands, swelling of mouth, swelling of throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, change in how often you urinate, painful urination, dark urine, pale stolls, muscle pain, muscle tenderness, muscle weakness, nausea, vomiting, loss of appetite, pain in upper stomach, fever, tiredness, fatigue, weakness, yellow skin, yellow eyes, confusion, memory problems, diarrhea, muscle spasms, joint pain, arm pain, leg pain, stuffy nose, runny nose</td>
+			</tr>
+			<!--<tr class="cf child" id="atorvastatin-child">
+				<td class="details">Hello, atorvastatin...</td>
+			</tr>-->
+			<tr class="parent" id="qvar-parent">
+				<td class="name">beclomethasone HFA</td>
+				<td class="brand">QVAR HFA</td>
+				<!--<td class="doseMax"><span class="sort-key">8</span><span class="block mid"></span></td>-->
+				<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> <span class="units">u</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d prn</span></td>
+				<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>
+				<td class="sm_num refills">12</td>
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20110219</span><span class="sm_num">19</span> <span class="month">Feb</span> <span class="year">2011</span></td>
+				<td class="timeline"><div id="qvar" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20140219</span><span class="sm_num">19</span> <span class="month">Feb</span> <span class="year">2014</td>-->
+				<td class="sideEffects">dry throat, dry mouth, irritated throat, cough, difficult speech, painful speech, skin rash, increased trouble breathing, white spots in mouth, sores in mouth, swelling in face, swollen face, swollen lower legs, swelling in lower legs, swollen ankles, swelling in ankles, vision problems, persistent cold, infection, muscle weakness</td>
+			</tr>
+			<!--<tr class="cf child" id="qvar-child">
+				<td class="details">Hello, QVAR...</td>
+			</tr>-->
+			<tr class="closed parent" id="bupropion-parent">
+				<td class="name">bupropion</td>
+				<td class="brand">Lipitor</td>
+				<td class="dose"><span class="sort-key">0150</span> <span class="num">150</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0060</span><span class="num">60</span></td>
+				<td class="sm_num refills"></td>
+			
+				<td class="condition">Tobacco Use</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20120419</span><span class="sm_num">19</span> <span class="month">Apr</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="bupropion" class="bar">
+					<div class="low"></div>
+					<div class="mid up"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, blistered skin, peeling skin, red skin rash, chest pain, fast heartbeat, slow heartbeat, uneven heartbeat, lightheadedness, fainting, muscle pain, joint pain, fever with rash, restlessness, irritability, nervousness, anxiety, trouble sleeping, seizures, tremors, severe agitations, confusion, thoughts of hurting oneself, unusual thoughts, severe headache, change in how often you urinate, dry mouth, vomiting, constipation, diarrhea, gas, stomach pain, sore throat, weight gain, weight loss</td>
+			</tr>
+			<!--<tr class="cf child" id="bupropion-child">
+				<td class="details">Hello, bupropion...</td>
+			</tr>-->
+			<tr class="parent" id="carvedilol-parent">
+				<td class="name">carvedilol</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0025</span><span class="num">25</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="sm_num refills">3</td>
+				<td class="condition">Hypertension</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20100712</span><span class="sm_num">12</span> <span class="month">Jul</span> <span class="year">2010</span></td>
+				<td class="timeline"><div id="carvedilol" class="bar">
+					<div class="mid"></div>
+					<div class="max up"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">20140220</span><span class="sm_num">20</span> <span class="month">Feb</span> <span class="year">2014</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20140102</span><span class="sm_num">2</span> <span class="month">Jan</span> <span class="year">2014</td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, change in how often you urinate, chest pain, confusion, weakness, shortness of breath, numbness in hands, numbness in feet, numbness in lips, tingling in hands, tingling in feet, tingling in lips, fast heartbeat, slow heartbeat, uneven heartbeat, increased hunger, increased thirst, lightheadedness, dizziness, fainting, sudden weight gain, swelling in ankles, swelling in feet, bleeding, bruising, wheezing, change in vision, diarrhea, nausea, vomiting, dry eyes, headache, joint pain, muscle pain, trouble having sex, tiredness, weakness</td>
+			</tr>
+			<!--<tr class="cf child" id="carvedilol-child">
+				<td class="details">Hello, carvedilol...</td>
+			</tr>-->
+			<tr class="parent" id="chlorthalidone-parent">
+				<td class="name">chlorthalidone</td>
+				<td class="brand"></td>
+				<!--<td class="doseMax"><span class="sort-key">16</span><span class="block max"></span></td>-->
+				<td class="dose"><span class="sort-key">0025</span><span class="num">25</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">2</td>
+				<td class="condition">High BP</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20060919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2006</span></td>
+				<td class="timeline"><div id="chlorthalidone" class="bar max"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20140704</span><span class="sm_num">4</span> <span class="month">Jul</span> <span class="year">2014</td>-->
+				<td class="sideEffects">gout, high blood sugar, dissiness, lightheadedness, headache, fatigue, nausea, vomiting, abdominal pain, constipation, stomach pain, tiredness</td>
+			</tr>
+			<!--<tr class="cf child" id="chlorthalidone-child">
+				<td class="details">Hello, chlorthalidone...</td>
+			</tr>-->
+			<tr class="parent" id="citalopram-parent">
+				<td class="name">citalopram</td>
+				<td class="brand"></td>
+				<!--<td class="doseMax"><span class="sort-key">8</span><span class="block mid"></span></td>-->
+				<td class="dose"><span class="sort-key">0020</span><span class="high"></span> <span class="num">20</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">4</td>
+				<td class="condition">Depression</td>
+				<td class="provider">Shoyinka MD</td>
+				<td class="prescribed date"><span class="sort-key">20091123</span><span class="sm_num">23</span> <span class="month">Nov</span> <span class="year">2009</span></td>
+				<td class="timeline"><div id="citalopram" class="bar">
+					<div class="max"></div>
+					<div class="mid down"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">20131122</span><span class="sm_num">22</span> <span class="month">Nov</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">20130704</span><span class="sm_num">4</span> <span class="month">Jul</span> <span class="year">2013</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, aggression, anxiety, anger, hostility, chest pain, fast heartbeat, pounding heartbeat, uneven heartbeat, headache, trouble concentrating, memory problems, weakness, unsteadiness, lightheadedness, dizziness, fainting, trouble sleeping, increased energy, racing thoughts, severe confusion, sweating, nausea, vomiting, diarrhea, unusual behaviour, thoughts of hurting yourself or others, bleeding, bruising, dry mouth, problems with sex, sleepiness, drowsiness, loss of appetite, weight loss</td>
+			</tr>
+			<!--<tr class="cf child" id="citalopram-child">
+				<td class="details">Hello, citalopram...</td>
+			</tr>-->
+			<tr class="closed parent" id="esomeprazole-parent">
+				<td class="name">esomeprazole</td>
+				<td class="brand">Nexium</td>
+				<td class="dose"><span class="sort-key">0040</span><span class="high"></span> <span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">3</td>
+				<td class="condition">GERD</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20111024</span><span class="sm_num">24</span> <span class="month">Oct</span> <span class="year">2010</span></td>
+				<td class="timeline"><div id="esomeprazole" class="bar max">
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, blistered skin, peeling of skin, red skin rash, bloody stool, black stool, tarry stool, fast heartbeat, slow heartbeat, pounding heartbeat, uneven heartbeat, nausea, vomiting, seizures, tiredness, fatigue, weakness, muscle spasms, muscle cramps, confusion, mental changes, severe diarrhea, stomach pain, abdominal pain, fever, dry mouth, fast breathing, shallow breathing, headache, constipation, gas</td>
+			</tr>
+			<!--<tr class="cf child" id="esomeprazole-child">
+				<td class="details">Hello, esomeprazole...</td>
+			</tr>-->
+			<tr class="parent" id="gabapentin-parent">
+				<td class="name">gabapentin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0600</span><span class="num">600</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per"> bid</span></td>
+				<td class="quantity"><span class="sort-key">0060</span><span class="num">60</span></td>
+				<td class="sm_num refills">11</td>
+				<td class="condition">neuropathic pain</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20120419</span><span class="sm_num">19</span> <span class="month">Apr</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="gabapentin" class="bar">
+					<div class="least"></div>
+					<div class="low up"></div>
+					<div class="mid up"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">20131122</span><span class="sm_num">22</span> <span class="month">Nov</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">20131122</span><span class="sm_num">22</span> <span class="month">Nov</span> <span class="year">2013</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, behaviour problems, hostility, restlessness, trouble concentrating, moodiness, blistered skin, pelling skin, red skin rash, blood in urine, back pain, side pain, climsiness, problems with coordination, shakiness, tremors, <!--depression, -->thoughts of hurting yourself, extreme tiredness, fatigue, fever, cough, exhaustion, sneezing, sore throat, stuffy nose, body aches, rapid weight gain, swelling in ankles, swelling in feet, swollen lymph glands, tender lymph glands, uncontrolled eye movements, bleeding, bruising, yellow skin, yellow eyes, dizziness, headache, sleepiness, drowsiness, weakness</td>
+			</tr>
+			<!--<tr class="cf child" id="gabapentin-child">
+				<td class="details">Hello, gabapentin...</td>
+			</tr>-->
+			<tr class="parent" id="insulin-parent">
+				<td class="name">insulin glargine</td>
+				<td class="brand">Lantus</td>
+				<td class="dose"><span class="sort-key">0028</span><span class="num">28</span> <span class="units">u</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">11</td>
+				<td class="condition">Diabetes</td>
+				<td class="provider">Brietzke MD</td>
+				<td class="prescribed date"><span class="sort-key">20121119</span><span class="sm_num">19</span> <span class="month">Nov</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="insulin" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key"></span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, anxiety, confusion, restlessness, mood change, mental change, blurred vision, change in vision, fast heartbeat, pounding heartbeat, irregular heartbeat, increased sweating, problems with walking, slurred speech, tingling in your hands, tingling in your feet, tingling in your lips, tingling your tongue, tremors, nightmares, trouble sleeping, redness of skin at injectiong point, pain of skin at injectiong point, itching of skin at injectiong point, burning of skin at injectiong point, swelling of skin at injectiong point, lump under skin at injectiong point, rash</td>
+			</tr>
+			<!--<tr class="cf child" id="insulin-child">
+				<td class="details">Hello, insulin...</td>
+			</tr>-->
+			<tr class="closed parent" id="lisinopril-parent">
+				<td class="name">lisinopril</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">3</td>
+				<td class="condition">Hypertension</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20110926</span><span class="sm_num">26</span> <span class="month">Sep</span> <span class="year">2011</span></td>
+				<td class="timeline"><div id="lisinopril" class="bar">
+					<div class="mid"></div>
+					<div class="max up"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, change in how often you urinate, confusion, weakness, numbness in hands, numbness in feet, numbness in lips, tingling in hands, tingling in feet, tingling in lips, dark colored urine, pale stools, nausea, vomiting, loss of appetite, pain in upper stomach, tellow skin, yellow eyes, fast heartbeat, slow heartbeat, pounding heartbeat, uneven heartbeat, fever, chills, sore throat, body ahces, lightheadedness, dizziness, fainting, dry cough, headache</td>
+			</tr>
+			<!--<tr class="cf child" id="lisinopril-child">
+				<td class="details">Hello, lisinopril...</td>
+			</tr>-->
+			<tr class="parent" id="losartan-parent">
+				<td class="name">losartan</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0100</span><span class="num">100</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
+				<td class="sm_num refills">3</td>
+				<td class="condition">High BP</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20120305</span><span class="sm_num">5</span> <span class="month">Mar</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="losartan" class="bar">
+					<div class="mid"></div>
+					<div class="max up"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">20131028</span><span class="sm_num">28</span> <span class="month">Oct</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20131028</span><span class="sm_num">28</span> <span class="month">Oct</span> <span class="year">2013</td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, change in how often you urinate, chest pain, confusion, body wekness, shortness of breath, numbness in hands, numbness in feet, numbness in lips, tingling in hands, tingling in feet, tingling in lips, fast heartbeat, slow heartbeat, uneven heartbeat, rapid weight gain, swelling in ankles, swelling in feet, diarrhea, dry cough, stuffy nose, runny nose, sore throat</td>
+			</tr>
+			<!--<tr class="cf child" id="losartan-child">
+				<td class="details">Hello, losartan...</td>
+			</tr>-->
+			<tr class="parent" id="metformin-parent">
+				<td class="name">metformin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">1000</span><span class="num">1000</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per"> bid</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="sm_num refills">3</td>
+				<td class="condition">Diabetes</td>
+				<td class="provider">Brietzke MD</td>
+				<td class="prescribed date"><span class="sort-key">20080304</span><span class="sm_num">4</span> <span class="month">Mar</span> <span class="year">2008</span></td>
+				<td class="timeline"><div id="metformin" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20131019</span><span class="sm_num">19</span> <span class="month">Oct</span> <span class="year">2013</td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, chest discomfort, slow heartbeat, uneven heartbeat, dry mouth, increased thirst, decrease in urination, extreme weakness, tiredness, fatigue, confusion, fever, chills, lightheadedness, dizziness, fainting, rapid breathing, nausea, vomiting, muscle pain, muscle weakness, diarrhea, gas, indigestion, stomach pain, abdominal pain, headache, metallic taste in mouth</td>
+				
+				<!--<td><table>
+					<tr class="cf child" id="metformin-child">
+						<td class="details">Hello, metformin...</td>
 					</tr>
-				</thead>
-				<tbody>
-					<tr class="closed">
-						<!----><td class="generic">aspirin</td>
-						<td class="brand"></td><!-- Ecotrin, Fasprin -->
-						<td class="dose"><span class="sort-key">0081</span><span class="num">81</span> mg</td>
-						<td class="sig">1 daily</td>
-						<td class="quantity"><span class="sort-key">0000</span><span class="num"></span></td>
-						<td class="refills"></td>
-						<td class="renewDue"><span class="sort-key">00000000</span></td>
-						<td class="prescribed"><span class="sort-key">00000000</span></td>
-						<td class="provider">OTC</td>
-						<td class="condition">Diabetes</td>
-					</tr>
-					<tr>
-						<!----><td class="generic">chlorthalidone</td>
-						<td class="brand"></td><!--Thalitone-->
-						<td class="dose"><span class="sort-key">0025</span><span class="num">25</span> mg</td>
-						<td class="sig">1 daily</td>
-						<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td class="refills">2</td>
-						<td class="renewDue"><span class="sort-key">20140704</span>4.Jul.2014</td>
-						<td class="prescribed"><span class="sort-key">20070901</span>1.Sept.2007</td>
-						<td class="provider">Belden MD</td>
-						<td class="condition">High BP</td>
-						<!--<td>Ins. Cov. Tier</td>-->
-					</tr>
-					<tr>
-						<!----><td class="generic">citalopram</td>
-						<td class="brand"></td>
-						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-						<td class="sig">1 daily</td>
-						<td class="quantity"><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td class="refills">4</td>
-						<td class="renewDue"><span class="sort-key">20130704</span>4.Jul.2013</td>
-						<td class="prescribed"><span class="sort-key">20100304</span>4.Mar.2010</td>
-						<td class="provider">Shoyinka MD</td>
-						<td class="condition">Depression</td>
-					</tr>
-					<tr>
-						<!----><td class="generic">insulin glargine</td>
-						<td class="brand">Lantus</td>
-						<td class="dose"><span class="sort-key">0028</span><span class="num">28</span> u</td>
-						<td>28 units at bedtime</td>
-						<td><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td>12</td>
-						<td><span class="sort-key">20131019</span>19.Oct.2013</td>
-						<td><span class="sort-key">20121019</span>19.Oct.2012</td>
-						<td class="provider">Brietzke MD</td>
-						<td class="condition">Diabetes</td>
-					</tr>
-					<tr>
-						<!----><td class="generic">lisinopril</td>
-						<td class="brand"></td><!--Zestril, Prinivil-->
-						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-						<td>once daily</td>
-						<td><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td>3</td>
-						<td><span class="sort-key">20140214</span>14.Feb.2014</td>
-						<td><span class="sort-key">20120810</span>10.Aug.2012</td>
-						<td class="provider">Belden MD</td>
-						<td class="condition">Hypertension</td>
-					</tr>
-					<tr>
-						<!----><td class="generic">metformin</td>
-						<td class="brand"></td><!--Glumetza, Fortamet, Riomet, Glucophage-->
-						<td class="dose"><span class="sort-key">1000</span><span class="num">1000</span> mg</td>
-						<td>1 twice daily</td>
-						<td><span class="sort-key">0180</span><span class="num">180</span></td>
-						<td>4</td>
-						<td><span class="sort-key">20131019</span>19.Oct.2013</td>
-						<td><span class="sort-key">20121019</span>19.Oct.2012</td>
-						<td class="provider">Brietzke MD</td>
-						<td class="condition">Diabetes</td>
-					</tr>
-					<tr class="closed">
-						<!----><td class="generic">metoprolol XL</td>
-						<td class="brand">Toprol XL</td><!--Lopressor, Toprol-xl-->
-						<td class="dose"><span class="sort-key">0050</span><span class="num">XL 50</span> mg</td>
-						<td>1 daily</td>
-						<td><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td>0</td>
-						<td><span class="sort-key">00000000</span></td>
-						<td><span class="sort-key">20120714</span>14.Jul.2012</td>
-						<td class="provider">Belden MD</td>
-						<td class="condition">Hypertension</td>
-						<!--<td>Ins. Cov. Tier</td>-->
-					</tr>
-					<tr class="closed">
-						<td class="generic">naproxen</td>
-						<td class="brand">Aleve</td> <!--Naprelan, Aleve, Naprosyn, Anaprox-->
-						<td class="dose"><span class="sort-key">0500</span><span class="num">500</span> mg</td>
-						<td>1 tablet 2 times a day</td>
-						<td><span class="sort-key">0000</span><span class="num"></span></td>
-						<td></td>
-						<td><span class="sort-key">00000000</span></td>
-						<td><span class="sort-key">00000000</span></td>
-						<!--<td>when refills due</td>-->
-						<td>OTC</td>
-						<td class="condition">Rheumatoid arthritis</td>
-						<!--<td>Ins. Cov. Tier</td>-->
-					</tr>
-					<tr>
-						<!----><td class="generic">omeprazole</td>
-						<td class="brand"></td><!-- Prilosec, Omesec-->
-						<td class="dose"><span class="sort-key">0020</span><span class="num">20</span> mg</td>
-						<td>1 daily</td>
-						<td><span class="sort-key">0000</span><span class="num"></span></td>
-						<td></td>
-						<td><span class="sort-key">00000000</span></td>
-						<td><span class="sort-key">00000000</span></td>
-						<td>OTC</td>
-						<td class="condition">GERD</td>
-					</tr>
-					<tr class="closed">
-						<!----><td class="generic">pravastatin</td>
-						<td class="brand"></td><!--Pravachol-->
-						<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> mg</td>
-						<td>1 daily</td>
-						<td><span class="sort-key">0090</span><span class="num">90</span></td>
-						<td>0</td>
-						<td><span class="sort-key">00000000</span></td>
-						<td><span class="sort-key">20120704</span>4.Jul.2012</td>
-						<td class="provider">Brietzke MD</td>
-						<td class="condition">High Cholesterol</td>
-						<!--<td>Ins. Cov. Tier</td>-->
-					</tr>
-					<tr class="closed">
-						<!----><td class="generic">trazodone</td>
-						<td class="brand"></td><!--Oleptro-->
-						<td class="dose"><span class="sort-key">0050</span><span class="num">50</span> mg</td>
-						<td>2 at bedtime</td>
-						<td><span class="sort-key">0180</span><span class="num">180</span></td>
-						<td>0</td>
-						<td><span class="sort-key">00000000</span></td>
-						<td><span class="sort-key">20120721</span>21.Jul.2012</td>
-						<td class="provider">Shoyinka MD</td>
-						<td class="condition">Insomnia</td>
-					</tr>
-					<tr>
-						<!----><td class="generic">warfarin</td>
-						<td class="brand"></td><!--coumadin, jantoven-->
-						<td class="dose"><span class="sort-key">0005</span><span class="num">5</span> mg</td>
-						<td>1 daily MWF <br/> 1.5 tablets daily SuTuThSa</td>
-						<td><span class="sort-key">0180</span><span class="num">180</span></td>
-						<td>12</td>
-						<td><span class="sort-key">20140214</span>14.Feb.2014</td>
-						<td><span class="sort-key">20130214</span>14.Feb.2013</td>
-						<!--<td>when refills due</td>-->
-						<td class="provider">Belden MD</td>
-						<td class="condition">Prevent stroke</td>
-						<!--<td>Ins. Cov. Tier</td>-->
-					</tr>
-				</tbody>
-			</table>
-		
-	
+				</table></td>-->
+			</tr>
+			<tr class="parent" id="naproxen-parent">
+				<td class="name">naproxen</td>
+				<td class="brand">Aleve</td>
+				<td class="dose"><span class="sort-key">0500</span><span class="num">500</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per"> bid</span></td>
+				<td class="quantity"><span class="sort-key">0000</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">Rheumatoid arthritis</td>
+				<td class="provider">OTC</td>
+				<td class="prescribed date"><span class="sort-key">99999999</span></td>
+				<td class="timeline"><div id="naproxen" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling of face, swollen face, swelling of hands, swollen hands, swelling of mouth, swollen mouth, swelling of throat, swollen throat, tingling of mouth, tingling of throat, chest tightness, trouble breathing, blistered skin, peeling skin, red skin rash, blood in urine, bloody stool, black stool, chst pain, shortness of breath, coughing up blood, flu-like symptoms, numbness in limbs, weakness in limbs, numb on one of body, pain in lower leg, severe stomach pain, abdominal pain, swelling in hands, swelling in feet, vision changes, bleeding, bruising, trouble swallowing, severe headache, ywlloing of skin, yellowing of eyes, ringing in ears</td>
+			</tr>
+			<!--<tr class="cf child" id="naproxen-child">
+				<td class="details">Hello, naproxen...</td>
+			</tr>-->
+			<tr class="closed parent" id="nitroglycerin-parent">
+				<td class="name">nitroglycerin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0001</span><span class="num">0.4</span> <span class="units">mg prn</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0025</span><span class="num">25</span></td>
+				<td class="refills sm_num">12</td>
+				<td class="condition">Angina</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20120704</span><span class="sm_num">4</span> <span class="month">Jul</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="nitroglycerin" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="renewDue date"><span class="sort-key">20130704</span><span class="sm_num">4</span> <span class="month">Jul</span> <span class="year">2013</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swlling in face, swlling in hands, swelling in mouth, swelling in throat, tingling in mouth, tingling in throat, chest tightness, trouble breathing, blue lips, blue fingernails, fast heartbeat, slow heartbeat, increased chest pain, severe dizziness, lightheadedness, fainting, severe headache, confusion, low fever, trouble with vision, rash, sweating, facial flushing</td>
+			</tr>
+			<!--<tr class="cf child" id="nitroglycerin-child">
+				<td class="details">
+					<p>Nitroglycerin</p>
+					<p><span class="type">Transdermal</span></p>
+				</td>
+			</tr>-->
+			<tr class="parent" id="omeprazole-parent">
+				<td class="name">omeprazole</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0000</span></td>
+				<td class="sm_num refills"></td>
+				<td class="condition">GERD</td>
+				<td class="provider">OTC</td>
+				<td class="prescribed date"><span class="sort-key">99999999</span></td>
+				<td class="timeline"><div id="omeprazole" class="bar">
+					<div class="max"></div>
+					<div class="max2"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">blistered skin, peeling skin, red skin rash, fast heartbeat, slow heartbeat, uneven heartbeat, lightheadedness, dizziness, fainting, seizures, muscle spasms, tremors, severe diarrhea, severe stomach pain, abdominal pain, fever, nausea, vomiting, constipation, gas, headache, stuff nose, runny nose, sneezing</td>
+			</tr>
+			<!--<tr class="cf child" id="omeprazole-child">
+				<td class="details">Hello, omeprazole...</td>
+			</tr>-->
+			<tr class="parent" id="prednisone-parent">
+				<td class="name">prednisone</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> <span class="units">u</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d prn</span></td>
+				<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">Asthma</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20100912</span><span class="sm_num">12</span> <span class="month">Sep</span> <span class="year">2010</span></td>
+				<td class="timeline"><div id="prednisone" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130919</span><span class="sm_num">19</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling, color change in skin, dark feckles, bruising,<!-- depression,--> unusual thoughts, unusual feelings, unusual behaviour, fast heartbead, slow heartbeat, uneven heartbeat, fever, chills, cough, sore throat, body aches, headache, change in vision, eye pain, eye swelling, lightheadedness, dizziness, fainting, muscle pain, muscle weakness, numbness, tingling, burning pain in hands, burning pain in ankles, burning pain in feed, seizures, severe stomach pain, abdominal pain, nausea, vomiting, red stool, black stool, trouble breathing, cold sweat, bluish skin, increased appetite, mood changes, trouble sleeping, round face, puffy face</td>
+			</tr>
+			<!--<tr class="cf child" id="prednisone-child">
+				<td class="details">Hello, prednisone...</td>
+			</tr>-->
+			<tr class="parent" id="simvastatin-parent">
+				<td class="name">simvastatin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0040</span><span class="num">40</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">High cholesterol</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20100319</span><span class="sm_num">19</span> <span class="month">Mar</span> <span class="year">2010</span></td>
+				<td class="timeline"><div id="simvastatin" class="bar">
+					<div class="overmax"></div>
+					<div class="max down"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">20130930</span><span class="sm_num">30</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling, dark urine, pale stool, muscle pain, muscle tenderness, muscle weakness, nausea, vomiting, loss of appetite, pain in upper stomach, tireness, weakness, yellowing of skin, yellowing of eyes, confusion, memory, headache, stuffy nose, runny nose</td>
+			</tr>
+			<!--<tr class="cf child" id="simvastatin-child">
+				<td class="details">Hello, simvastatin...</td>
+			</tr>-->
+			<tr class="parent" id="terbinafine-parent">
+				<td class="name">terbinafine</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0250</span><span class="num">250</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0084</span><span class="num">84</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">Onychomycosis</td>
+				<td class="provider">Foote MD</td>
+				<td class="prescribed date"><span class="sort-key">20130730</span><span class="sm_num">30</span> <span class="month">Jul</span> <span class="year">2013</span></td>
+				<td class="timeline cf"><div id="terbinafine" class="bar max"></div></td>
+				<td class="renewDue date"><span class="sort-key">20131019</span><span class="sm_num">19</span> <span class="month">Oct</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">itching, hives, swelling, blistering, peeling, scaly, red skin rash, mood changes,<!-- depression,--> dark urine, pale stool,fever, chills, cough, sore throat, body aches, nausea, vomiting, loss of appetite, pain in upper stomach, unusual bleeding, bruising, weakness, yellow skin, yellow eyes, loss of taste, loss of smell, headache, mild nausea, vomiting, mild skin rash, itching, stuffy, runny nose</td>
+			</tr>
+			<!--<tr class="cf child" id="terbinafine-child">
+				<td class="details">Hello, terbinafine...</td>
+			</tr>-->
+			<tr class="closed parent" id="trazodone-parent">
+				<td class="name">trazodone</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0050</span><span class="num">50</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">2</span><span class="per">/hs</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">Insomnia</td>
+				<td class="provider">Shoyinka MD</td>
+				<td class="prescribed date"><span class="sort-key">20110218</span><span class="sm_num">18</span> <span class="month">Feb</span> <span class="year">2011</span></td>
+				<td class="timeline"><div id="trazodone" class="bar">
+					<div class="least"></div>
+					<div class="low up"></div>
+					<div class="mid up"></div>
+					<div class="low2 down"></div>
+				</div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="getWell date"><span class="sort-key">99999999</span></td>-->
+				<td class="sideEffects">confusion, weakness, fast heartbeat, uneven heartbeat, painful prolonged erection, thoughts of hurting or killing yourself, fever, sore throat, unusual bleeding, bruising, weakness</td>
+			</tr>
+			<!--<tr class="cf child" id="trazodone-child">
+				<td class="details">Hello, trazodone...</td>
+			</tr>-->
+			<tr class="closed parent" id="warfarin-parent">
+				<td class="name">warfarin</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0005</span><span class="num">5</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d MWF</span><br/><span class="sm_num">1.5</span> <span class="per">/d SuTuThSa</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="refills sm_num">12</td>
+				<td class="condition">Prevent stroke</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20110509</span><span class="sm_num">9</span> <span class="month">May</span> <span class="year">2011</span></td>
+				<td class="timeline"><div id="warfarin" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">99999999</span></td>
+				<!--<td class="renewDue date"><span class="sort-key">20140214</span><span class="sm_num">14</span> <span class="month">Feb</span> <span class="year">2014</span></td>-->
+				<!--<td class="getWell date"><span class="sort-key">20140214</span><span class="sm_num">14</span> <span class="month">Feb</span> <span class="year">2014</span></td>-->
+				<td class="sideEffects">itching, hives, swelling, trouble breathing, chest tightness, gum bleeding, nose bleeding, cough up blood, dizziness, fever, chills, pain, color change in skin, hair loss, nausea, unusual taste</td>
+			</tr>
+			<!--<tr class="cf child" id="warfarin-child">
+				<td class="details">Hello, warfarin...</td>
+			</tr>-->
+			<tr class="parent" id="zolpidem-parent">
+				<td class="name">zolpidem</td>
+				<td class="brand"></td>
+				<td class="dose"><span class="sort-key">0005</span><span class="high"></span> <span class="num">5</span> <span class="units">mg</span></td>
+				<td class="sig"><span class="sm_num">1</span><span class="per">/d</span></td>
+				<td class="quantity"><span class="sort-key">0180</span><span class="num">180</span></td>
+				<td class="sm_num refills">0</td>
+				<td class="condition">Insomnia</td>
+				<td class="provider">Belden MD</td>
+				<td class="prescribed date"><span class="sort-key">20120315</span><span class="sm_num">15</span> <span class="month">Mar</span> <span class="year">2012</span></td>
+				<td class="timeline"><div id="zolpidem" class="bar mid"></div></td>
+				<td class="renewDue date"><span class="sort-key">20130922</span><span class="sm_num">22</span> <span class="month">Sep</span> <span class="year">2013</span></td>
+				<!--<td class="getWell date"><span class="sort-key">20130922</span><span class="sm_num">22</span> <span class="month">Sep</span> <span class="year">2013</span></td>-->
+				<td class="sideEffects">confusion, blurred vision, dizziness, headache, memory loss</td>
+			</tr>
+			<!--<tr class="cf child" id="zolpidem-child">
+				<td class="details">Hello, zolpidem...</td>
+			</tr>-->
+		</tbody>
+	</table>
 </body>
 </html>
