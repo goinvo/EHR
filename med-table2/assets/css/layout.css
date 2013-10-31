@@ -359,7 +359,7 @@ tr.active_to{
 /*When sorting, like-rows will appear grouped*/
 /*Note: should ideally be applied in JS, so as to run through loop dynamically*/
 /*Does not account for current state, highlights according to all medications*/
-.group2, .group4, .group6, .group7, .group8, .group10, .group12, .group14, .group16{ 
+.group1, .group3, .group5, .group7, .group9, .group11, .group13, .group15{ 
 	background: #505050; }
 
 /*Page Styles */
@@ -537,6 +537,12 @@ thead tr th ul li .todaybar {
 }
 thead tr th.brand, tbody tr td.brand, thead tr th.sideEffects, tbody tr td.sideEffects {
 	display: none; }
+tbody tr.child {
+	display: none;
+	float: left;
+	background: #5e5e5e;
+}
+	
 #top div { display: inline-block; }
 #top #title .list_name {
 	text-transform: uppercase;

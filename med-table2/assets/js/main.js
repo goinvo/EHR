@@ -2,12 +2,23 @@ $(document).ready(function(){
 	//to eventually open med
 	//click a row to highlight
 	$("tbody tr").click(function(){
-		if($(this).hasClass('active_to')){
+		$("tbody tr").each(function(){
 			$(this).removeClass('active_to');
-		}else{
-			$(this).addClass('active_to');
-		}
+		});
+		$(this).addClass('active_to');
 	});
+	
+		/*drawer toggles*/
+	//House additional details and information in drawers that show up
+		//when a row is selected
+	/*$("#current_med_one tr.current_active").click(function(){
+		$("#med_detail_one").show();
+		$("#detail_slide_one").slideToggle('slow');
+		$(this).hide();
+	});
+	$('#med_detail_one tr').click(function(){
+		$("#current_med_one tr.current_active").slideToggle('slow').parents().eq(3).find("#detail_slide_one").slideToggle(500);
+	});*/
 	
 	//turn brand column on and off
 	$(".brandToggle").click(function(){
@@ -54,17 +65,7 @@ $(document).ready(function(){
 		$('.todaybar').css('height', $('.main_table').height() - 27);
 	});
 	
-	/*drawer toggles*/
-	//House additional details and information in drawers that show up
-		//when a row is selected
-	/*$("#current_med_one tr.current_active").click(function(){
-		$("#med_detail_one").show();
-		$("#detail_slide_one").slideToggle('slow');
-		$(this).hide();
-	});
-	$('#med_detail_one tr').click(function(){
-		$("#current_med_one tr.current_active").slideToggle('slow').parents().eq(3).find("#detail_slide_one").slideToggle(500);
-	});*/
+
 	
 /* Filtering and Sorting
 	========================== */
