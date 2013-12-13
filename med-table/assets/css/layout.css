@@ -1,0 +1,614 @@
+@import url('../fonts/stylesheet.css');
+/* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
+
+/* Skeleton V1.2 modified by Jen Patel 8/16/2013
+*  Copyright 2011, Dave Gamache
+*  www.getskeleton.com
+*  Free to use under the MIT license.
+*  http://www.opensource.org/licenses/mit-license.php
+*  6/20/2012 */
+
+/* Table of Contents
+  =============================
+	Reset & Basics
+	Typography
+	Links
+	Lists
+	Forms
+	Base 960 Grid
+		Tablet (Portrait)
+		Mobile (Portrait)
+		Mobile (Landscape)
+    Clearing
+	Site Styles
+		.main_table / .med_table
+		#header #footer
+		.nav
+		.main table
+	Page Styles
+		.med_list
+	Site/Page Media Queries 
+  =============================
+*/
+
+/*Reset & Basics*/
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; 
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+	ol, ul { list-style: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; 
+	}
+	body {
+		line-height: 1;
+		background: #f5f5f5;
+		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #434343;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+	}
+
+/*Typography*/
+	h1, h2, h3, h4, h5, h6 {
+		color: #989898;
+		font-weight: normal; 
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	b {font-family: 'OpenSansBold';}
+	em { font-style: 'OpenSansItalic'; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+	.grn_text { color:#82a95c; }
+	.gry_text { color:#b5b5b5; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+/*Links*/
+	a, a:visited { color: #929292; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #4d4d4d; }
+	p a, p a:visited { line-height: inherit; }
+
+/*Lists*/
+	ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/*Forms*/
+	form { margin-bottom: 20px; }
+	fieldset { margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select { padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+		color: #444;
+		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea { min-height: 60px; }
+	label, legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select { width: 220px; }
+	input[type="checkbox"] { display: inline; }
+	label span, legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/*Base 960 Grid
+================================================== */
+.container { position: relative; width: 1080px; margin: 0 auto; padding: 0; margin-top: 20px;}
+.container .column,
+.container .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+.row { margin-bottom: 20px; }
+
+/*Nested Column Classes */
+.column.alpha, .columns.alpha { margin-left: 0; }
+.column.omega, .columns.omega { margin-right: 0; }
+
+/*Base Grid */
+.container .one.column,
+.container .one.columns { width: 40px;  }
+.container .two.columns { width: 100px; }
+.container .three.columns { width: 160px; }
+.container .four.columns { width: 220px; }
+.container .five.columns { width: 280px; }
+.container .six.columns { width: 340px; }
+.container .seven.columns { width: 400px; }
+.container .eight.columns { width: 460px; }
+.container .nine.columns { width: 520px; }
+.container .ten.columns { width: 580px; }
+.container .eleven.columns { width: 640px; }
+.container .twelve.columns { width: 700px; }
+.container .thirteen.columns { width: 760px; }
+.container .fourteen.columns { width: 820px; }
+.container .fifteen.columns { width: 880px; }
+.container .sixteen.columns { width: 1060px; }
+
+.container .one-third.column { width: 348px; }
+.container .two-thirds.column { width: 692px; }
+
+/*Tablet (Portrait) Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container                                  { width: 768px; }
+	.container .column,
+	.container .columns                         { margin-left: 10px; margin-right: 10px;  }
+	.column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+	.column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+	.alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+	.container .one.column,
+	.container .one.columns                     { width: 28px; }
+	.container .two.columns                     { width: 76px; }
+	.container .three.columns                   { width: 124px; }
+	.container .four.columns                    { width: 172px; }
+	.container .five.columns                    { width: 220px; }
+	.container .six.columns                     { width: 268px; }
+	.container .seven.columns                   { width: 316px; }
+	.container .eight.columns                   { width: 364px; }
+	.container .nine.columns                    { width: 412px; }
+	.container .ten.columns                     { width: 460px; }
+	.container .eleven.columns                  { width: 508px; }
+	.container .twelve.columns                  { width: 556px; }
+	.container .thirteen.columns                { width: 604px; }
+	.container .fourteen.columns                { width: 652px; }
+	.container .fifteen.columns                 { width: 700px; }
+	.container .sixteen.columns                 { width: 748px; }
+
+	.container .one-third.column                { width: 236px; }
+	.container .two-thirds.column               { width: 492px; }
+}
+/*Mobile (Portrait) Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	.container { width: 300px; }
+	.container .columns,
+	.container .column { margin: 0; }
+
+	.container .one.column,
+	.container .one.columns,
+	.container .two.columns,
+	.container .three.columns,
+	.container .four.columns,
+	.container .five.columns,
+	.container .six.columns,
+	.container .seven.columns,
+	.container .eight.columns,
+	.container .nine.columns,
+	.container .ten.columns,
+	.container .eleven.columns,
+	.container .twelve.columns,
+	.container .thirteen.columns,
+	.container .fourteen.columns,
+	.container .fifteen.columns,
+	.container .sixteen.columns,
+	.container .one-third.column,
+	.container .two-thirds.column  { width: 300px; }
+}
+/*Mobile (Landscape) Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container { width: 420px; }
+	.container .columns,
+	.container .column { margin: 0; }
+
+	.container .one.column,
+	.container .one.columns,
+	.container .two.columns,
+	.container .three.columns,
+	.container .four.columns,
+	.container .five.columns,
+	.container .six.columns,
+	.container .seven.columns,
+	.container .eight.columns,
+	.container .nine.columns,
+	.container .ten.columns,
+	.container .eleven.columns,
+	.container .twelve.columns,
+	.container .thirteen.columns,
+	.container .fourteen.columns,
+	.container .fifteen.columns,
+	.container .sixteen.columns,
+	.container .one-third.column,
+	.container .two-thirds.column { width: 420px; }
+}
+
+/*Clearing */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:before, .clearfix:after,
+.row:before, .row:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.fright{
+	float: right;
+	margin: 0 auto;
+}
+.fleft{
+	float: left;
+	margin: 0 auto;
+}
+/*For modern browsers */
+.cf:before, .cf:after { content:""; display:block; }
+.cf:after { clear:both; }
+
+/*Site Styles*/
+/*.main_table / .med_table*/
+table.main_table{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+table.main_table thead{
+	/*background:#424242;*/
+	font-size: 10px;
+	color: #929292;
+}
+.drop_arrow{
+	background-image:  url(../images/down_arrow.png);
+	height: 7px;
+	width: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	margin: 12px 18px 0px -6px;
+}
+table.main_table thead tr th{
+	padding: 5px 0 4px 0px;
+	font-weight: normal;
+	text-align: left;
+}
+table.main_table thead tr th:first-child{
+	padding-left: 16px;
+}
+table.main_table thead tr th.sort-col:hover{
+	color: #fff;
+}
+table.main_table tbody tr {
+	font-size: 12px;
+	color: #434343;
+	/*background: #fff;*/
+}
+table.main_table tbody tr td {
+	padding: 5px 0 7px 0;
+	/*padding: 11px 8px 9px 10px*/;
+}
+table.main_table tbody tr td:first-child {
+	padding-left: 16px;
+}
+.active_to td {
+	background: #5e5e5e;
+	cursor:pointer;
+	z-index: 1;
+}
+tr.active_to{
+	background: #5e5e5e;
+}
+.num{
+	width: 30px;
+	display: inline-block;
+	text-align: right;
+}
+.sm_num{
+	width: 18px;
+	display: inline-block;
+	text-align: right;
+}
+
+/*When sorting, like-rows will appear grouped*/
+/*Note: should ideally be applied in JS, so as to run through loop dynamically*/
+/*Does not account for current state, highlights according to all medications*/
+.group1, .group3, .group5, .group7, .group9, .group11, .group13, .group15{ 
+	background: #505050; }
+
+/*Page Styles */
+.med_table .closed { display: none; }
+.sort-key { display: none; }
+th.sortable:hover, td.condition:hover, td.provider:hover { 
+	text-decoration: underline; cursor: pointer; }  
+th.sorted-asc, th.sorted-desc { font-family: 'OpenSansBold'; }
+th.sortable .col-head { padding-right: 10px; }
+th.sortable.renewDue { min-width: 95px; }
+th.sortable.prescribed { min-width: 80px; }
+th.sortable.condition { min-width: 80px; }
+th.sortable.brand{ min-width: 55px;}
+th.sig{ min-width: 87px;}
+th .arrow{
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 7px;
+	width: 10px;
+	margin-bottom:-2px;
+	margin-left: 3px;
+}
+th.sorted-asc .arrow { background: url('../images/down_arrow.png') no-repeat; }
+th.sorted-desc .arrow { background: url('../images/up_arrow.png') no-repeat; }
+tr td.provider{ min-width: 87px; }
+tr td.dose{ min-width: 80px; }
+tbody tr td .units, tbody tr td .per, tbody tr td.refills { color:#929292; }
+tbody tr td .units, tbody tr td .per { font-size: 10pt; }
+tbody tr.closed td { color: #929292; }
+tbody tr td.date{ min-width:86px; }
+thead tr th ul{ margin-bottom: 0; }
+thead tr th ul li{
+	display: inline;
+	line-height: 12px;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+thead tr th ul li:first-child{ margin-left: 0px; }
+thead tr th.timeline{ min-width:140px; }
+tbody tr td.timeline .bar {
+	border-radius: 7px;
+	height: 7px;
+
+	/*background: rgba(140,140,140,.25);*/
+}
+tbody tr td.timeline .bar .max, 
+tbody tr td.timeline .bar .least,
+tbody tr td.timeline .bar .low, 
+tbody tr td.timeline .bar .mid, 
+tbody tr td.timeline .bar .overmax {
+	display: inline-block;
+	height: 7px;
+}
+tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
+	background: #333333; }
+tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
+	background: rgb(224,224,224) }
+tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
+	background: #808080; opacity: .5;}
+tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
+	background: #545454; opacity: .7;}
+tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
+	background: #a03333;
+}
+tbody tr td.timeline #albuterol.bar {width: 106px;}
+tbody tr td.timeline #aspirin.bar {width: 100px;}
+tbody tr td.timeline #qvar.bar { width:95px; margin-left:5px; }
+tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
+tbody tr td.timeline #bupropion.bar .low { width:5px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #bupropion.bar .mid { width: 10px; margin-left:-4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #carvedilol.bar {width: 116px;}
+tbody tr td.timeline #carvedilol.bar .mid{width:14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #carvedilol.bar .max{width:102px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
+tbody tr td.timeline #citalopram.bar {width: 143px;}
+tbody tr td.timeline #citalopram.bar .max{width:11px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #citalopram.bar .mid{width:132px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #esomeprazole.bar {width: 22px; margin-left:19px;}
+tbody tr td.timeline #gabapentin.bar {width: 58px; margin-left:48px;}
+tbody tr td.timeline #gabapentin.bar .least {width: 14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #gabapentin.bar .low {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #gabapentin.bar .mid {width:34px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #insulin.bar {width: 31px; margin-left: 69px;}
+tbody tr td.timeline #lisinopril.bar  {width: 19px; margin-left: 26px;}
+tbody tr td.timeline #lisinopril.bar .mid {width: 10px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #lisinopril.bar .max {width: 9px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #losartan.bar {width:59px; margin-left:42px;}
+tbody tr td.timeline #losartan.bar .mid {width:33px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #losartan.bar .max { width:26px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #metformin.bar {width: 100px;}
+tbody tr td.timeline #naproxen.bar {width: 100px;}
+tbody tr td.timeline #nitroglycerin.bar {width: 37px; margin-left:56px;}
+tbody tr td.timeline #omeprazole.bar .max {width:29px; margin-left: 52px; border-radius: 7px;}
+tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: #333333; display: inline-block; height: 7px; border-radius: 7px;}
+tbody tr td.timeline #prednisone.bar {width: 100px;}
+tbody tr td.timeline #simvastatin.bar {width: 102px;}
+tbody tr td.timeline #simvastatin.bar .overmax{width:27px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #simvastatin.bar .max{width: 75px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #terbinafine.bar { width:8px; margin-left:96px;}
+tbody tr td.timeline #trazodone.bar  {width: 40px; margin-left:5px; }
+tbody tr td.timeline #trazodone.bar .least {width: 8px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
+tbody tr td.timeline #trazodone.bar .low {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #trazodone.bar .mid {width: 10px; margin-left: -4px;}
+tbody tr td.timeline #trazodone.bar .low2 {width: 12px; margin-left: -4px; background: #808080; display: inline-block; height: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
+tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
+
+tbody tr td .month {
+	width: 25px;
+	text-align: center;
+	display: inline-block;
+}
+tbody tr td .year {
+	text-align: left;
+	width: 30px;
+	display: inline-block;
+}
+/*tbody tr td.timeline .bar .down,
+tbody tr td.timeline .bar .up {
+	width:7px;
+	height:7px;
+	display: inline-block;
+	position: absolute;
+}
+tbody tr td.timeline .bar .up{
+	background: url('../images/change_arrow_up.png') no-repeat;
+}
+tbody tr td.timeline .bar .down{
+	background: url('../images/change_arrow_down.png') no-repeat;
+}
+tbody tr td.timeline #omeprazole.bar {
+	background: none;
+}
+tbody tr td.timeline #albuterol.bar {width: 106px;}
+tbody tr td.timeline #aspirin.bar {width: 100px;}
+tbody tr td.timeline #qvar.bar { width:95px; margin-left:5px; }
+tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
+tbody tr td.timeline #bupropion.bar .mid { margin-left:2px;}
+tbody tr td.timeline #carvedilol.bar {width: 116px;}
+tbody tr td.timeline #carvedilol.bar .max{margin-left: 11px;}
+tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
+tbody tr td.timeline #citalopram.bar {width: 143px;}
+tbody tr td.timeline #citalopram.bar .mid{margin-left: 8px;}
+tbody tr td.timeline #esomeprazole.bar {width: 22px; margin-left:19px;}
+tbody tr td.timeline #gabapentin.bar {width: 58px; margin-left:48px;}
+tbody tr td.timeline #gabapentin.bar .low {margin-left: 12px;}
+tbody tr td.timeline #gabapentin.bar .mid {margin-left: 21px; }
+tbody tr td.timeline #insulin.bar {width: 31px; margin-left: 69px;}
+tbody tr td.timeline #lisinopril.bar  {width: 19px; margin-left: 26px;}
+tbody tr td.timeline #lisinopril.bar .max {margin-left: 7px;}
+tbody tr td.timeline #losartan.bar {width:59px; margin-left:42px;}
+tbody tr td.timeline #losartan.bar .max { margin-left:30px;}
+tbody tr td.timeline #metformin.bar {width: 100px;}
+tbody tr td.timeline #naproxen.bar {width: 100px;}
+tbody tr td.timeline #nitroglycerin.bar {width: 37px; margin-left:56px;}
+tbody tr td.timeline #omeprazole.bar .max {width:26px; margin-left: 51px; border-radius: 7px; background: rgba(140,140,140,.25);}
+tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: rgba(140,140,140,.25); display: inline-block; height: 7px; border-radius: 7px;}
+tbody tr td.timeline #prednisone.bar {width: 100px;}
+tbody tr td.timeline #simvastatin.bar {width: 101px;}
+tbody tr td.timeline #simvastatin.bar .max{margin-left: 24px;}
+tbody tr td.timeline #terbinafine.bar { width:8px; margin-left:96px;}
+tbody tr td.timeline #trazodone.bar  {width: 40px; margin-left:5px; }
+tbody tr td.timeline #trazodone.bar .low {margin-left: 6px;}
+tbody tr td.timeline #trazodone.bar .mid {margin-left: 16px;}
+tbody tr td.timeline #trazodone.bar .low2 {margin-left: 26px; }
+tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
+tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
+*/
+thead tr th ul li .todaybar {
+	width: 1px;
+	height: 48%;
+	background: #717171;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+thead tr th.brand, tbody tr td.brand, thead tr th.sideEffects, tbody tr td.sideEffects {
+	display: none; }
+tbody tr.child {
+	display: none;
+	float: left;
+	background: #5e5e5e;
+}
+	
+#top div { display: inline-block; }
+#top #title .list_name {
+	text-transform: uppercase;
+	font-size: 21px;
+}
+#top #title .updated {
+	font-size: 14px;
+	color: #929292;
+	font-family: 'OpenSansItalic';
+}
+#top #actions, #top #filters {
+	vertical-align: top;
+	margin: 3px 15px 0 35px;
+}
+#top ul li {
+	display: inline;
+	font-size: 10px;
+	padding: 2px 7px 3px 7px;
+	margin: 0 5px 0 5px;
+}
+#top ul li a{ color: #989898; }
+#top ul li a:hover{ color: #434343; }
+#top ul li.active {
+	color: #fff;
+	background: #bdbdbd;
+	border-radius:5px;
+}
+#top ul li.active a{ color: #fff; }
+#top ul li.active a:hover{ color: #fff; }
+#top ul li.active:hover{ background: #989898; }
+#actions .export a, #actions .export a:hover {
+	color: #929292;
+	cursor: default;
+}
+section {	margin: 20px 15px 10px 15px; }
+#search {
+	display: none;
+	margin-left: 12px;
+}
+#search label {
+	background: url('../images/search.png') no-repeat;
+	position: absolute;
+	margin: 8px 0 0 195px;
+	display: block;
+	height: 15px;
+	width: 15px;
+}
+#search input {
+	opacity: .5;
+	z-index: 2;
+}
+#search input:focus {
+	opacity: 1;
+	background-color: #fff;
+}
+
+	/* #Tablet (Portrait) Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/*.container  { width: 768px; }*/
+}
+	/*  #Mobile (Portrait) Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	/*.container { width: 300px; }*/
+}
+	/* #Mobile (Landscape) Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*.container { width: 420px; }*/
+}

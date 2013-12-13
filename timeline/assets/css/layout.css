@@ -1,6 +1,7 @@
 @import url('../fonts/stylesheet.css');
 /* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
 
+
 /* Skeleton V1.2 modified by Jen Patel 8/16/2013
 *  Copyright 2011, Dave Gamache
 *  www.getskeleton.com
@@ -8,28 +9,30 @@
 *  http://www.opensource.org/licenses/mit-license.php
 *  6/20/2012 */
 
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Base 960 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
-    #Clearing
-	#Site Styles
-		.main_table
-	#Page Styles
-		.simple_list
-	#Site/Page Media Queries 
+/* Table of Contents
+  =============================
+	Reset & Basics
+	Typography
+	Links
+	Lists
+	Forms
+	Base 960 Grid
+		Tablet (Portrait)
+		Mobile (Portrait)
+		Mobile (Landscape)
+    Clearing
+	Site Styles
+		.main_table / .med_table
+		#header #footer
+		.nav
+		.main table
+	Page Styles
+		.med_list
+	Site/Page Media Queries 
+  =============================
 */
 
-/* #Reset & Basics */
+/*Reset & Basics*/
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -45,15 +48,17 @@
 		border-spacing: 0; 
 	}
 	body {
-		line-height: 1;
-		background: #fff;
-		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #4d4d4d;
+		line-height: 1;\
+		color: #fff;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
+		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin: 80px 160px 80px 160px;
+		position: relative;
+		font-size: 12px;
 	}
 
-/* #Typography */
+/*Typography*/
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
 		font-weight: normal; 
@@ -80,12 +85,12 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-/* #Links */
-	a, a:visited { color: #0082b2; text-decoration: none; outline: 0; }
+/*Links*/
+	a, a:visited { color: #929292; text-decoration: none; outline: 0; }
 	a:hover, a:focus { color: #4d4d4d; }
 	p a, p a:visited { line-height: inherit; }
 
-/* #Lists */
+/*Lists*/
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -99,132 +104,7 @@
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
-/* #Images */
-	img.scale-with-grid {
-		max-width: 100%;
-		height: auto; 
-	}
-
-
-/* #Buttons */
-	/*<input type="button" name="activate" value="Activate" class="button" onclick="" />
-		<div class="button">Activate</div>*/
-	.button, button, 
-	input[type="submit"], 
-	input[type="reset"], 
-	input[type="button"] {
-		background: #fdfdfd; /* Old browsers */
-			background: -moz-linear-gradient(top, #fdfdfd 0%, #f0f0f0 89%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(89%,#f0f0f0)); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top, #fdfdfd 0%,#f0f0f0 89%); /* IE10+ */
-			background: linear-gradient(to bottom, #fdfdfd 0%,#f0f0f0 89%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
-		border: 1px solid #c5c5c5;
-		border-top: 1px solid #ccc;
-		border-left: 1px solid #ccc;
-		border-radius: 3px;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
-		color: #4d4d4d;
-		display: inline-block;
-		font-size: 12px;
-		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		text-decoration: none;
-		text-shadow: 0 1px rgba(255, 255, 255, .75);
-		cursor: pointer; 
-		height:30px;
-		line-height: 28px;
-	}
-
-	.button:hover, 
-	button:hover, 
-	input[type="submit"]:hover, 
-	input[type="reset"]:hover, 
-	input[type="button"]:hover {
-		border: solid 1px #92a8be;
-		box-shadow: inset 0px -1px 1px rgba(255,255,255,0.6), 0px 0px 8px rgba(10,67,220,0.2);
-		transition: 	 	all 0.15s;
-		-moz-transition: 	all 0.15s; /* Firefox 4 */
-		-webkit-transition: all 0.15s; /* Safari and Chrome */
-		-o-transition: 		all 0.15s; /* Opera */
-	}
-
-	.button:active,
-	button:active,
-	input[type="submit"]:active,
-	input[type="reset"]:active,
-	input[type="button"]:active {
-		border: 1px solid #666;
-		background: #ccc; /* Old browsers */
-		background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
-		background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
-		background: #ccc -webkit-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Chrome10+,Safari5.1+ */
-		background: #ccc -o-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Opera11.10+ */
-		background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
-		background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */ 
-	}
-	div.button{
-		line-height: 29px;
-		height:28px;
-		padding: 0 8px 0 8px;
-	}
-
-	.button.full-width,
-	button.full-width,
-	input[type="submit"].full-width,
-	input[type="reset"].full-width,
-	input[type="button"].full-width {
-		width: 100%;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		text-align: center; 
-	}
-	/* Fix for odd Mozilla border & padding issues */
-	button::-moz-focus-inner,
-	input::-moz-focus-inner {
-		border: 0;
-		padding: 0;
-	}
-	/*<div class="button blue"><span class="check"></span>Check-in</div>*/
-	.blue{
-		border: 1px solid #306b9c;
-		background: #599cd3; /* Old browsers */
-		background: -moz-linear-gradient(top, #599cd3 0%, #206096 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#599cd3), color-stop(100%,#206096)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, #599cd3 0%,#206096 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, #599cd3 0%,#206096 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, #599cd3 0%,#206096 100%); /* IE10+ */
-		background: linear-gradient(to bottom, #599cd3 0%,#206096 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#599cd3', endColorstr='#206096',GradientType=0 ); /* IE6-9 */
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-		color: #fff;
-		font-family: Helvetica, Arial, sans-serif;
-		font-weight: bold;
-		text-shadow: 0 1px 1px rgba(17, 99, 126, 1);
-		padding: 9px;
-		-moz-box-shadow:    inset 0 0 1px rgba(255,255,255,1);
-		-webkit-box-shadow: inset 0 0 1px rgba(255,255,255,1);
-		box-shadow:         inset 0 0 1px rgba(255,255,255,1);
-	}
-	.blue:hover,
-	button:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	input[type="button"]:hover {
-		border: 1px solid #306b9c;
-		box-shadow: inset 0px -1px 1px rgba(48,107,156,1);
-		transition: 	 	all 0.15s;
-		-moz-transition: 	all 0.15s; /* Firefox 4 */
-		-webkit-transition: all 0.15s; /* Safari and Chrome */
-		-o-transition: 		all 0.15s; /* Opera */
-	}
-
-/* #Forms */
+/*Forms*/
 	form { margin-bottom: 20px; }
 	fieldset { margin-bottom: 20px; }
 	input[type="text"],
@@ -268,18 +148,18 @@
 		font-size: 13px;
 		color: #444; }
 
-/* #Base 960 Grid
+/*Base 960 Grid
 ================================================== */
 .container { position: relative; width: 1080px; margin: 0 auto; padding: 0; margin-top: 20px;}
 .container .column,
 .container .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row { margin-bottom: 20px; }
 
-/* Nested Column Classes */
+/*Nested Column Classes */
 .column.alpha, .columns.alpha { margin-left: 0; }
 .column.omega, .columns.omega { margin-right: 0; }
 
-/* Base Grid */
+/*Base Grid */
 .container .one.column,
 .container .one.columns { width: 40px;  }
 .container .two.columns { width: 100px; }
@@ -301,7 +181,7 @@
 .container .one-third.column { width: 348px; }
 .container .two-thirds.column { width: 692px; }
 
-/* #Tablet (Portrait) Note: Design for a width of 768px */
+/*Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.container                                  { width: 768px; }
 	.container .column,
@@ -331,7 +211,7 @@
 	.container .one-third.column                { width: 236px; }
 	.container .two-thirds.column               { width: 492px; }
 }
-/*  #Mobile (Portrait) Note: Design for a width of 320px */
+/*Mobile (Portrait) Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
 	.container { width: 300px; }
 	.container .columns,
@@ -357,7 +237,7 @@
 	.container .one-third.column,
 	.container .two-thirds.column  { width: 300px; }
 }
-/* #Mobile (Landscape) Note: Design for a width of 480px */
+/*Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.container { width: 420px; }
 	.container .columns,
@@ -384,7 +264,7 @@
 	.container .two-thirds.column { width: 420px; }
 }
 
-/* #Clearing */
+/*Clearing */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before, .clearfix:after,
 .row:before, .row:after {
@@ -412,59 +292,60 @@
 	float: left;
 	margin: 0 auto;
 }
-/* For modern browsers */
+/*For modern browsers */
 .cf:before, .cf:after { content:""; display:block; }
 .cf:after { clear:both; }
 
-/*main table*/
-table.main_table{
-	margin: 0;
-	padding: 0;
-	width: 100%;
+/*Site Styles*/
+
+/*Page styles*/
+
+
+/*Timeline*/
+.chart{
+	margin-left:-175px;
+	margin-top:-50px;
+	width:1170;
+	height:700;
+	overflow-y: scroll;
+	/* overflow: visible; */
+}
+/*Axis*/
+.axis{
+	shape-rendering: crispEdges;
+}
+.axis path, .axis line{
+	fill: none;
+}
+.x.axis path{
+	stroke: #fff;
+}
+.x.axis line{
+	stroke: #ddd;
+	stroke-opacity: .5
+}
+.x.axis .tick text {
+	font-size: 10px;
+}
+.yAxisText{
+	margin-top: 20px;
 	font-weight: bold;
 }
-table.main_table thead{
-	background:#e2e2e2;
-	font-size: 12px;
-	color: #989898;
-}
-table.main_table thead tr th{
-	padding: 5px 8px 4px 10px;
-	font-weight: normal;
-	text-align: left;
-}
-table.main_table tbody tr {
-	font-size: 12px;
-	color: #4d4d4d;
-	background: #fff;
-}
-table.main_table tbody tr:nth-child(even) {
-	background: #f8f8f8;
-}
-table.main_table tbody tr td {
-	padding: 5px 8px 7px 10px;
-}
-tr.active_to td {
-	background: #e2e2e2;
+.scrubberText{
+	font-weight: bold;
 }
 
-/* #Page Styles */
-tr td .dose, tr td.instructions{
-	color: #929292;
-	font-weight: normal;
+rect.pane {
+	cursor: move;
+	fill: #fafafa;
+	pointer-events: all;
 }
-	/* #Tablet (Portrait) Note: Design for a width of 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	/*.container  { width: 768px; }*/
 
+.brush .extent {
+	opacity: .2;
+	shape-rendering: crispEdges;
 }
-	/*  #Mobile (Portrait) Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-	/*.container { width: 300px; }*/
-
-}
-	/* #Mobile (Landscape) Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	/*.container { width: 420px; }*/
-
+/*Scrubber*/
+.scrubber {
+	
 }

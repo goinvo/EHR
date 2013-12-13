@@ -5,64 +5,99 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Simple Medication List</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<title>EHR Style Guide | Interactive Table</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" href="./assets/css/layout.css">
-	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-	<script src="./assets/js/list.js" type="text/javascript"></script>
-
+	<script src="./assets/js/jquery-1.7.2.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
+	
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114"s href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
-	<!--<section id="header">
-	</section>-->
-	
-	<section id="page">
-		<div class="container">
-			<div class="sixteen columns">
-				
-				<ul class="med_list">
-					<li class="li_head">Jennifer Patel's Medications</li>
-					<li class="to_med">
-						<span class="med_type_ico tablet"></span>
-						<span class="med"><span class="med_name">Cetrizene</span>
-						<span class="strength">20 mg</span></span>
-						<span class="dose"><span class="num">1</span><span class="med_type"> tablet</span><span class="time"> daily</span></span>
-					</li>
-					<li class="to_med">
-						<span class="med_type_ico spray"></span>
-						<span class="med"><span class="med_name">Flovin</span>
-						<span class="strength">20 mg</span></span>
-						<span class="dose"><span class="num">2</span><span class="med_type"> puffs</span><span class="time"> two times daily</span></span>
-					</li>
-					<li class="to_med">
-						<span class="med_type_ico tablet"></span>
-						<span class="med"><span class="med_name">Prednisone</span>
-						<span class="strength">50 mg</span></span>
-						<span class="dose"><span class="num">2</span><span class="med_type"> tablets</span><span class="time"> daily</span></span>
-					</li>
-					<li class="to_med">
-						<span class="med_type_ico spray"></span>
-						<span class="med"><span class="med_name">Ventolin</span>
-						<span class="strength">20 mg</span></span>
-						<span class="dose"><span class="num">1</span><span class="med_type"> puffs</span><span class="time"> as needed</span></span>
-					</li>
-				</ul>
-			</div>
-		</div><!-- container -->
-	</section>
-	
-	<!--<section id="footer">
-	</section>-->
+	<div class="container">
+		<div class="two-thirds column">
+			<table class="main_table simple-list">
+				<thead>
+					<tr>
+						<th class="name">Medication</th>
+						<th class="instructions">Instructions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="name">albuterol HFA <span class="dose">90 u</span></td>
+						<td class="instructions">2 puffs every 4 hours as needed</td>
+					</tr>
+					<tr class="even">
+						<td class="name">aspirin <span class="dose">81 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr>
+						<td class="name">beclomethasone HFA <span class="dose">40 u</span></td>
+						<td class="instructions">2 puffs twice a day</span></td>
+					</tr>
+					<tr class="even">
+						<td class="name">carvedilol <span class="dose">25 mg</span></td>
+						<td class="instructions">1 twice daily</td>
+					</tr>
+					<tr>
+						<td class="name">chlorthalidone <span class="dose">25 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr class="even">
+						<td class="name">citalopram <span class="dose">20 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr>
+						<td class="name">gabapentin <span class="dose">600 mg</span></td>
+						<td class="instructions">1 twice daily</td>
+					</tr>
+					<tr class="even">
+						<td class="name">insulin glargine <span class="dose">28 u</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr>
+						<td class="name">losartan <span class="dose">100 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr class="even">
+						<td class="name">metformin <span class="dose">1000 mg</span></td>
+						<td class="instructions">1 twice daily</td>
+					</tr>
+					<tr>
+						<td class="name">naproxen <span class="dose">500 mg</span></td>
+						<td class="instructions">1 twice daily</td>
+					</tr>
+					<tr class="even">
+						<td class="name">omeprazole <span class="dose">40 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr>
+						<td class="name">prednisone <span class="dose">40 u</span></td>
+						<td class="instructions">2 daily</td>
+					</tr>
+					<tr class="even">
+						<td class="name">simvastatin <span class="dose">40 mg</span></td>
+						<td class="instructions">1 daily</td>
+					</tr>
+					<tr>
+						<td class="name">terbinafine <span class="dose">250 mg</span></td>
+						<td class="instructions">1 daily for 12 weeks</td>
+					</tr>
+					<tr class="even">
+						<td class="name">zolpidem <span class="dose">5 mg</span></td>
+						<td class="instructions">1 at bedtime</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 </body>
 </html>

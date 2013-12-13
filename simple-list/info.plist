@@ -6,11 +6,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>Simple Medication List</string>
+	<string>Interactive Medication Table</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.widget.SimpleMedicationList</string>
+	<string>com.apple.widget.InteractiveMedicationTable</string>
 	<key>CFBundleName</key>
-	<string>simple-list</string>
+	<string>med-table</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -18,7 +18,7 @@
 	<key>Height</key>
 	<integer>188</integer>
 	<key>MainHTML</key>
-	<string>simple-list.html</string>
+	<string>med-table.html</string>
 	<key>Width</key>
 	<integer>350</integer>
 	<key>IBNotifiesOnReady</key>
