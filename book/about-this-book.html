@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>EHR Style Guide</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+<body>
+
+	<nav class="main">
+		<ul>
+			<li><a href="./index.html">0</a></li>
+			<li><!--◦•--><div class="disc"><a href="#about-ch">1</div></li>
+			<li><a href="./medication-list.html"><div class="disc">2</div></a></li>
+			<li><div class="disc">3</div></li>
+			<li><div class="disc">4</div></li>
+			<li><div class="disc">5</div></li>
+			<li><div class="disc">6</div></li>
+			<li><div class="disc">7</div></li>
+			<li><div class="disc">8</div></li>
+		</ul>
+	</nav>
+	
+<div class="wrapper">
+	<div class="container header">
+		<div class="sixteen columns">
+			<h2 class="title">EHR Style Guide <span class="version">v1.1, 10-29-2013</span></h2>
+			<div class="authors">
+				<p>Jeff Belden, MD, Jennifer Patel, Richelle Koopman, MD, Catherine Plaisant, PhD, Joi Moore, PhD, Shreeya Gangwal, Juhan Sonin, Nathan Lowrance</p>
+			</div>
+		</div>
+	</div>
+		
+	<div class="menu">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li><a href="https://www.dropbox.com/s/kjqtxz42jbpxjl5/EHR-MedListCh-10-29.iba">iBook</a></li>
+					<li><a href="https://www.dropbox.com/s/j3azoqck4bgnnhy/EHR-MedListChPDF-10-3.pdf">pdf</a></li>
+					<li><a href="https://github.com/goinvo/EHR">Git Repo</a></li>
+					<li><a href="../index.html">Interactives</a></li>
+					<li><a href="./index.html">Table of Contents</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			
+	<div class="container">
+		<!--<div class="sixteen columns" id="toc">
+			<h3>Table of Contents</h3>
+			<ul>
+				<li><h5>Chapter 1</h5><span class="">About this Book</span></li>
+				<li><h5>Chapter 2</h5><span class=""><a href="#med-list-ch">Medication List</a></span>
+					<ul>
+						<li><a href="#med-list"><strong>2.1</strong> Medication List</a></li>
+						<li><a href="#simple-list"><strong>2.2</strong> Simple List</a></li>
+						<li><a href="#interactive-list"><strong>2.3</strong> Interactive Table</a></li>
+						<li><a href="#timeline-view"><strong>2.4</strong> Timeline View</a></li>
+					</ul>
+				</li>
+				<li><h5>Chapter 3</h5><span class="">Allergy List</span></li>
+				<li><h5>Chapter 4</h5><span class="">Medication Reconciliation</span></li>
+				<li><h5>Chapter 5</h5><span class="">ePrescribing</span></li>
+				<li><h5>Chapter 6</h5><span class="">Drug Alerts</span></li>
+				<li><h5>Chapter 7</h5><span class="">Human Factors</span></li>
+				<li><h5>Chapter 8</h5><span class="">Design Principles</span></li>
+			</ul>
+			<hr />
+		</div>-->
+	</div>
+		
+	<section id="about-ch" class="chapter">
+		<header class="chapterStart">
+			<div class="container">
+				<div class="sixteen columns">
+					<h2>1</h2>
+					<h2>About this Book</h2>
+				</div>
+			</div>
+		</header>
+		<section id="med-list" class="section">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr/>
+					</div>
+					<h3>Who should read this book</h3>
+					<p>This book is written for anyone who develops or implements health IT applications, but particularly for electronic health record (EHR) vendor teams. We offer clear explanations with visual and interactive examples designed to illustrate and inspire useful and usable EHR interface design.</p>
+
+					<h3>How to use this book</h3>
+					<p>You can read the chapters in any sequence you prefer. We suggest starting with Chapter 2, The Medication List, because the Medication List is fundamental to some of the subsequent chapters in the book. In the final two chapters (Design Principles and Human Factors Principles), you can gain a basic understanding of how the human brain works and review some of the fundamental principles of visual design as they affect your work in software development. We also link to sections of the final two chapters from within the earlier chapters.</p>
+
+					<h3>What are the elements in the book?</h3>
+					<p>Chapters 2 - 6 present 7 basic elements of EHR functionality (Medication Lists, Medication Allergy Lists, Medication Reconciliation, CPOE, ePrescribing, Clinical Decision Support, and Drug-Drug Interaction and Drug-Allergy Alerts). </p>
+					<p>You can read basic descriptions of safety-related usability issues and guidelines. We focus on usability and how humans see, read, think, pay attention, remember, and decide. We use <strong>clinical scenarios</strong> to bring a human perspective to your understanding, helping you empathize with the user (physician, nurse, or patient) and their struggles. The book is rich with <strong>visual examples</strong> and annotated illustrations (singly or in collections) with examples of not-so-good design, suggested enhancements, and examples you can aspire to. We have also built interactive <strong>prototypes</strong> to let you dynamically explore the interface and clinical data. </p>
+
+					<p>We write in plain language to make this accessible to anyone, but provide deeper dives (Quick Tips) with more technical content for those who wish to learn more. The content is based on solid science of human factors engineering, brain science (cognitive science), learning technology, and data visualization. We offer a few recommended readings at the end.</p>
+
+					<h3>What is a Quick Tip?</h3>
+					<p>Quick Tips are more detailed explanations of important concepts in more technical language, showing additional examples, and sometimes referring to additional learning resources including primary sources. They occur in pop-overs, so readers can easily skip over the content if they only need a more basic understanding of a chapter.</p>
+
+					<h3>How can I give feedback?</h3>
+					<p>In our early drafts, we are asking select volunteer readers to review the book and offer us feedback about what works, what doesn’t work, and what we can do differently to improve the reader’s experience. To be among that group, sign up <a href="https://docs.google.com/forms/d/1Mn_KXhFjRvsG8JkEZOQYKaut63RjBV86U6u_xLgjdzk/viewform">here</a>. We’ll invite you to review the next draft and leave comments and suggestions about specific sections or book elements.</p>
+
+					<h3>Where can I find more?</h3>
+					<p>Within the text, we link to other usability resources from the usability and design community at large, and to other resources from the federally-funded <a href="https://sbmi.uth.edu/nccd/">SHARP-C</a> project to promote EHR usability.
+					<br/>The most relevant resources are: 
+						<ul>
+							<li><a href="https://sbmi.uth.edu/nccd/SED/Briefs/">Safety Enhanced Design Briefs</a></li>
+							<li><a href="https://sbmi.uth.edu/nccd/ehrusability/">EHR Usability website</a></li>
+						</ul>
+					</p>
+
+				</div>
+			</div>
+			<!--Interactive 2-3 Timeline-->
+		</section><!--end timeline section-->
+		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<hr />
+					<div class="cf">
+						<div class="fleft" id="prevCh">
+							<h5 class="pagination prevCh"><a href="./index.html">Go back to Table of Contents</a></h5></div>
+						<div class="fright" id="nextCh">
+							<h5 class="pagination next_ch"><a href="./medication-list.html">Continue to Medication List</a></h5></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+	
+
+</div><!--end wrapper-->
+	
+	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$( '#cbp-fwslider' ).cbpFWSlider();
+			$( '#cbp-fwslider-2' ).cbpFWSlider();
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				closeEffect	: 'none',
+				
+				helpers : {
+					title : {
+						type : 'outside'
+					}
+				},
+				
+				afterLoad : function() {
+					if (this.group.length > 1){
+						this.title = (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+					}
+				}
+			});
+			
+			$(".quicktime .tip").click(function(){
+				$(".quicktime .show").fadeToggle('medium');
+			}); 
+		});
+	</script>
+</body>
+</html>

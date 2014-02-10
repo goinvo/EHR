@@ -35,6 +35,18 @@ $(document).ready(function(){
 			$(".brand").show();
 		}
 	}); 
+	$(".prnToggle").click(function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
+			$("tbody tr").show();
+		}else{
+			$(this).addClass('active');
+			$("tbody tr").hide();
+			$("tbody tr.prn").show();
+			$(".all").addClass('active');
+			$(".current").removeClass('active');
+		}
+	}); 
 	
 	//show only current medications
 	$(".current").click(function(){

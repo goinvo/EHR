@@ -91,6 +91,9 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
+	.jarring {font-size: 28px; font-weight: bold;}
+	.red {color: red;}
+	.dark-grey {color: #999;}
 /*	Blockquotes  */
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #999; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
@@ -526,6 +529,7 @@
 		border: solid #dedede 1px;
 		border-radius: 5px;
 		overflow: hidden;
+		display: block;
 	}
 	.sidebar ol {
 		margin-left: 20px;
@@ -538,6 +542,25 @@
 		margin-left: 19px;
 		font-size: 14px;
 		list-style: lower-alpha;
+	}
+	.sidebar .sidebar-table {
+		border: solid 1px #989898;
+		margin-left: -5px;
+		padding-bottom: 5px;
+	}
+	.sidebar .sidebar-table thead th,
+	.sidebar .sidebar-table tbody td {
+		text-align: center;
+		border: solid 1px #989898;
+		padding: 5px;
+	}
+	.sidebar .sidebar-table thead th:first-child,
+	.sidebar .sidebar-table tbody td:first-child {
+		text-align: left;
+	}
+	.sidebar .sidebar-table thead th.hidden,
+	.sidebar .sidebar-table tbody td.hidden {
+		border: none;
 	}
 	.example {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/

@@ -338,12 +338,12 @@ table.main_table tbody tr td:first-child {
 	padding-left: 16px;
 }
 .active_to td {
-	background: #5e5e5e;
+	background: #ebebeb;
 	cursor:pointer;
 	z-index: 1;
 }
 tr.active_to{
-	background: #5e5e5e;
+	background: #ebebeb;
 }
 .num{
 	width: 30px;
@@ -360,7 +360,7 @@ tr.active_to{
 /*Note: should ideally be applied in JS, so as to run through loop dynamically*/
 /*Does not account for current state, highlights according to all medications*/
 .group1, .group3, .group5, .group7, .group9, .group11, .group13, .group15{ 
-	background: #505050; }
+	background: #ebebeb; }
 
 /*Page Styles */
 .med_table .closed { display: none; }
@@ -414,15 +414,15 @@ tbody tr td.timeline .bar .overmax {
 	height: 7px;
 }
 tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
-	background: #333333; }
+	background: #2f2f2f; }
 tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
-	background: rgb(224,224,224) }
+	background: #e0e0e0; }
 tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
-	background: #808080; opacity: .5;}
+	background: #ccc; }
 tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
-	background: #545454; opacity: .7;}
+	background: #8c8c8c; }
 tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
-	background: #a03333;
+	background: #c30000;
 }
 tbody tr td.timeline #albuterol.bar {width: 106px;}
 tbody tr td.timeline #aspirin.bar {width: 100px;}
@@ -531,7 +531,7 @@ tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
 thead tr th ul li .todaybar {
 	width: 1px;
 	height: 48%;
-	background: #717171;
+	background: #b3b3b3;
 	position: absolute;
 	margin-left: 100px;
 	margin-top: 10px;
