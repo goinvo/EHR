@@ -431,8 +431,8 @@ tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
 tbody tr td.timeline #bupropion.bar .low { width:5px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
 tbody tr td.timeline #bupropion.bar .mid { width: 10px; margin-left:-4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
 tbody tr td.timeline #carvedilol.bar {width: 116px;}
-tbody tr td.timeline #carvedilol.bar .mid{width:14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #carvedilol.bar .max{width:102px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
+tbody tr td.timeline #carvedilol.bar .mid{width:112px; border-radius: 7px; }
+/*tbody tr td.timeline #carvedilol.bar .max{width:102px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}*/
 tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
 tbody tr td.timeline #citalopram.bar {width: 143px;}
 tbody tr td.timeline #citalopram.bar .max{width:11px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}

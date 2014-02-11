@@ -10,7 +10,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.widget.InteractiveMedicationTable</string>
 	<key>CFBundleName</key>
-	<string>med-table</string>
+	<string>interactive-table</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -18,7 +18,7 @@
 	<key>Height</key>
 	<integer>188</integer>
 	<key>MainHTML</key>
-	<string>med-table.html</string>
+	<string>interactive-table.html</string>
 	<key>Width</key>
 	<integer>350</integer>
 	<key>IBNotifiesOnReady</key>
