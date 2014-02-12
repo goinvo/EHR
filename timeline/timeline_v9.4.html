@@ -44,7 +44,7 @@
 				var data = [{"label": "terbinafine", "dates":[{"startdate": new Date(2013,6,30), "enddate": new Date(2013,9,19), "strength": 16, "dosage": 250, "dosage2": "", "dosage3": " mg"}]},
 							{"label": "insulin glargine", "dates":[{"startdate": new Date(2012,10,19), "enddate": new Date(2013,8,19), "strength": 8, "dosage": 28, "dosage2": "", "dosage3": " u"}]},
 							{"label": "omeprazole", "dates":[{"startdate": new Date(2012,4,19), "enddate": new Date(2013,0,31), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2013,2,07), "enddate": new Date(2013,10,22), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}]},
-							{"label": "gabapentin", "dates":[{"startdate": new Date(2012,3,19), "enddate": new Date(2012,8,25), "strength": 1, "dosage": 300, "dosage2": " bid", "dosage3": " mg"}, {"startdate": new Date(2012,8,25), "enddate": new Date(2012,11,28), "strength": 4, "dosage": 300, "dosage2": " tid", "dosage3": " mg"}, {"startdate": new Date(2012,11,28), "enddate": new Date(2013,10,22), "strength": 8, "dosage": 600, "dosage2": " bid", "dosage3": " mg"}]},
+							{"label": "gabapentin", "dates":[{"startdate": new Date(2012,3,19), "enddate": new Date(2012,8,25), "strength": 1, "dosage": 300, "dosage2": " bid", "dosage3": " mg"}, {"startdate": new Date(2012,8,25), "enddate": new Date(2012,11,28), "strength": 4, "dosage": 300, "dosage2": " tid", "dosage3": " mg"}, {"startdate": new Date(2012,11,28), "enddate": new Date(2013,10,22), "strength": 8, "dosage":00, "dosage2": " bid", "dosage3": " mg"}]},
 							{"label": "zolpidem", "dates":[{"startdate": new Date(2012,2,15), "enddate": new Date(2013,8,22), "strength": 1, "dosage": 5, "dosage2": "", "dosage3": " mg"}]},
 							{"label": "losartan", "dates":[{"startdate": new Date(2012,2,05), "enddate": new Date(2013,0,30), "strength": 8, "dosage": 50, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2013,0,30), "enddate": new Date(2013,9,28), "strength": 16, "dosage": 100, "dosage2": "", "dosage3": " mg"}]},
 							{"label": "QVAR HFA", "dates":[{"startdate": new Date(2011,1,19), "enddate": new Date(2013,8,19), "strength": 8, "dosage": 40, "dosage2": "", "dosage3": " u"}]},
@@ -144,7 +144,8 @@
 							.x(x2)
 							.extent([lDate, rDate])
 							.on("brush", brushed);
-                    
+                
+
 				//Declaring the drag for the scrubber				
 				var drag = d3.behavior.drag()
 							.on("dragstart",scrubstart)
@@ -462,13 +463,21 @@
 						.attr("stroke-opacity", .5);
 				
 				//Appends a brush over the context region	
-				context.append("g")
+				b = context.append("g")
 						.attr("class", "x brush")
-						.call(brush)
-					.selectAll("rect")
+						.call(brush);
+                    
+					b.selectAll("rect")
 						.attr("y", -4)
 						.attr("height", 58);
-						
+
+// Add handles to the brush... append a shape to .resize                   
+//****************************				    
+                    b.selectAll(".resize.e rect").attr("width", 25).attr("x", -10);
+                    b.selectAll(".resize.w rect").attr("width", 25).attr("x", -10);
+//*****************************                    
+                    
+                    
 				chart.append("rect")
 		    		.attr("x", 1119)
 		    		.attr("width", 1)
@@ -723,7 +732,8 @@
 
 					//Allows brushing over the mini timeline and helps selecting a particular
 					//section of the timeline
-					function brushed(){
+					function brushed() {
+                        
 						x.domain(brush.extent());
 						barGroup.selectAll(".timeBars").attr("x", function(d){return  x(d.startdate);});
 						barGroup.attr("width", 5);
@@ -745,6 +755,8 @@
 												.attr("width", 10);
 					}
 			}
+                
+                
 			</script>
 		
 	
