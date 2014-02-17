@@ -81,7 +81,7 @@
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px;}
 	h5 { font-size: 17px; line-height: 24px; font-weight: bold;}
 	h6 { font-size: 14px; line-height: 21px; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
-	.subheader { color: #999; }
+	.subheader { font-style: italic; color: #999; }
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
@@ -623,6 +623,9 @@
 	}
 	.sectionStart h3 {
 		margin-bottom: 24px;
+	}
+	.med-list-type {
+		display: block;
 	}
 
 /* #Page Styles

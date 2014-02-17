@@ -17,9 +17,7 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
-	<script type="text/javascript" src="./assets/js/jquery.fancybox.js?v=2.1.5"></script>
+	
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -79,6 +77,7 @@
 				<div class="sixteen columns">
 					<h2>2</h2>
 					<h2>Medication List</h2>
+					<div class="subheader"><p>Successful medication management is a key part of a patient’s health</p></div>
 				</div>
 			</div>
 		</header>
@@ -88,16 +87,33 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>Medication lists come in many forms, but this chapter will only focus on three.</p>
 					<p>We will give you a guided tour of the medication list from a clinical perspective, explaining the principles of design and human factors in plain language as we go. This chapter offers a series of illustrations of Medication Lists good and not so good, our inspirational examples, and a playground of interactive widgets for you to explore and imagine with. In some cases, we'll provide code you can inspect, plug in, play with, improve or remold, and adopt in your EHR product.</p>
-					<p><strong>A simple list</strong> is made to be read quickly and scanned at a glance. It gives the reader, say a physician, a quick overview and what we call "situational awareness" of the patient. </p>
+					<p>Medication lists come in many forms, but this chapter will only focus on three.</p>
+				</div>
+				<div class="med-list-type cf">
+					<div class="two-thirds column"><p><strong>A simple list</strong> is made to be read quickly and scanned at a glance. It gives the reader, say a physician, a quick overview and what we call "situational awareness" of the patient. </p>
 					<blockquote>"There are only two prescription medications for high blood pressure," or in another case, "We have twenty-four medications to keep in mind here.” </blockquote>
-					<p>Good design can make this task easy; bad design can make it much harder.</p>
-					<p><strong>An interactive table</strong> helps with a variety of tasks such as making treatment decisions or e-prescribing. The list allows for sorting and filtering, designed specifically for the user’s task at hand. It might even have connections to other data in the EHR such as diagnoses or lab values or vital signs. This list has the most information among our three examples here because the additional columns, some of which can be hidden, and the ability to sort and filter make this list very flexible. </p>
-					<p>A medication timeline harnesses the power of information visualization to 1) provide a chronological overview, 2) permit zooming and filtering, and 3) reveal details on demand. The overview provides context, perspective, and discovery ("Wow, all the meds were changed six months ago."). Zooming and filtering can offer answers to preliminary questions or hunches. Drilling for details can give the exact dates or related facts that could influence the medical chain of events.</p>
+					<p>Good design can make this task easy; bad design can make it much harder.</p></div>
+					<div class="one-third column">
+						<a class="fancybox" href="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png"><img src="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="scale-with-grid" /></a>
+					</div>
+					
+				</div>
+				<div class="med-list-type cf">
+					<div class="two-thirds column"><p><strong>An interactive table</strong> helps with a variety of tasks such as making treatment decisions or e-prescribing. The list allows for sorting and filtering, designed specifically for the user’s task at hand. It might even have connections to other data in the EHR such as diagnoses or lab values or vital signs. This list has the most information among our three examples here because the additional columns, some of which can be hidden, and the ability to sort and filter make this list very flexible. </p></div>
+					<div class="one-third column">
+						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0000_table.png"><img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" /></a>
+					</div>
+				</div>
+				<div class="med-list-type cf">
+					<div class="two-thirds column"><p>A <strong>medication timeline</strong> harnesses the power of information visualization to 1) provide a chronological overview, 2) permit zooming and filtering, and 3) reveal details on demand. The overview provides context, perspective, and discovery ("Wow, all the meds were changed six months ago."). Zooming and filtering can offer answers to preliminary questions or hunches. Drilling for details can give the exact dates or related facts that could influence the medical chain of events.</p></div>
+					<div class="one-third column">
+						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png"><img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
+					</div>
 				</div>
 			</div>
 		</section>
+		
 		<section id="situational-awareness" class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -106,12 +122,12 @@
 					</div>
 					<h3>Situational Awareness</h3>
 					<p>Situational awareness is having all the information you need to make effective decisions while being aware of what is happening in your vicinity, both now and in the near future. For a physician in the ambulatory setting doing visits to manage chronic disease, this means the physician takes in a broad overview of the patient and their key information in advance of walking into the room (establishing context), and then upon entering the exam room, mindfully attunes to the patient seated before them as the conversation unfolds (situational awareness).</p>
-					<div class="example" class="fig-2-1">
+					<!--<div class="example" class="fig-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 2.1</span>
 							<span class="ex-caption">Establishing context before entering the exam room </span>
 						</div>
-						<!--<a class="fancybox" href="./assets/images/examples/medication-list/"><img src="./assets/images/examples/medication-list/" class="scale-with-grid" /></a>-->
+						--<a class="fancybox" href="./assets/images/examples/medication-list/"><img src="./assets/images/examples/medication-list/" class="scale-with-grid" /></a>-
 						<a class="fancybox" href="https://www.dropbox.com/s/hwv2zmou1kk17an/EstablishingContext_Sketch.png"><img src="https://www.dropbox.com/s/hwv2zmou1kk17an/EstablishingContext_Sketch.png" class="scale-with-grid" /></a>
 					</div>
 					<div class="example" class="fig-2-2">
@@ -120,7 +136,7 @@
 							<span class="ex-caption">Situational awareness of the ongoing experience with the patient </span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/"><img src="./assets/images/examples/medication-list/" class="scale-with-grid" /></a>
-					</div>
+					</div>-->
 					<p>If the physician enters the exam room half-prepared because of time pressure or information chaos (information overload, underload, or wrong information), then he’ll be struggling to keep listening to the patient’s concerns. Instead, he’ll be searching the EHR trying frantically to fill information gaps. The patient will detect that distraction and may feel disconnected and not heard.</p>
 				
 					<div class="sidebar cf">
@@ -657,7 +673,7 @@
 						<div class="fleft" id="prevCh">
 							<h5 class="pagination prev_ch"><a href="./about-this-book.html">Go back to About this Book</a></h5></div>
 						<div class="fright" id="nextCh">
-							<h5 class="pagination next_ch"><a href="">Continue to Allergy List</a></h5></div>
+							<h5 class="pagination next_ch"><a href="./medication-reconciliation.html">Continue to Medication Reconciliation</a></h5></div>
 					</div>
 				</div>
 			</div>
@@ -666,8 +682,12 @@
 	
 
 </div><!--end wrapper-->
-	
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
+	
 	<script type="text/javascript">
 		$(function() {
 			$( '#cbp-fwslider' ).cbpFWSlider();
