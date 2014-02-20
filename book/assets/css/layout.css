@@ -76,12 +76,13 @@
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 42px; line-height: 50px; margin-bottom: 10px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 8px; }
+	h2 { font-size: 32px; line-height: 40px; margin-bottom: 8px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px;}
-	h5 { font-size: 17px; line-height: 24px; font-weight: bold;}
+	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
+	h5 { font-size: 14px; line-height: 24px; font-weight: bold;}
 	h6 { font-size: 14px; line-height: 21px; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
-	.subheader { font-style: italic; color: #999; }
+	.subheader { font-style: italic; color: #696969; }
+	.jarring {color: #cb1484;}
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
@@ -120,13 +121,21 @@
 	ul.square { list-style: square outside; }
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
+	ol li {
+		line-height: 24px;
+		margin-left: -10px;
+	}
+	ul.disc li {
+		line-height: 24px;
+		margin-left: -14px;
+	}
 	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ol ol, ol ul { margin: 4px 0 5px 30px;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
+	li { line-height: 18px; margin-bottom: 8px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
+	li p { line-height: 24px; margin-bottom: 8px;}
 
 /* #Images
 ================================================== */
@@ -523,7 +532,7 @@
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		font-size: 14px;
 		line-height: 24px;
-		background: #fefefe;
+		background: #f9f9f9;
 		padding: 25px 25px 0px 25px;
 		margin: 10px -25px 25px -25px;
 		border: solid #dedede 1px;
@@ -538,21 +547,30 @@
 	.sidebar ol li {
 		line-height: 24px;
 	}
-	.sidebar ol li ol{
+	.sidebar ul {
+		margin-left: 14px;
+	}
+	ol li ol{
 		margin-left: 19px;
 		font-size: 14px;
 		list-style: lower-alpha;
 	}
+	.sidebar h5 {
+		margin-bottom: 15px;
+	}
 	.sidebar .sidebar-table {
-		border: solid 1px #989898;
+		border: solid 1px #dedede;
 		margin-left: -5px;
 		padding-bottom: 5px;
+		margin-bottom: 30px;
+		margin-top: 15px;
 	}
 	.sidebar .sidebar-table thead th,
 	.sidebar .sidebar-table tbody td {
 		text-align: center;
-		border: solid 1px #989898;
+		border: solid 1px #e7e7e7;
 		padding: 5px;
+		background: #fefefe;
 	}
 	.sidebar .sidebar-table thead th:first-child,
 	.sidebar .sidebar-table tbody td:first-child {
@@ -561,6 +579,16 @@
 	.sidebar .sidebar-table thead th.hidden,
 	.sidebar .sidebar-table tbody td.hidden {
 		border: none;
+	}
+	.sidebar .sidebar-table thead th {
+		background: #f3f3f3;
+	}
+	.sidebar .sidebar-table#prescribers thead tr th:not(:first-child),
+	.sidebar .sidebar-table#prescribers tbody tr td:not(:first-child),
+	.sidebar .sidebar-table#patients thead tr th:not(:first-child),
+	.sidebar .sidebar-table#patients tbody tr td:not(:first-child) {
+		width: 80px;
+		background: solid red 1px;
 	}
 	.example {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -577,7 +605,6 @@
 		margin-top: 10px;
 	}
 	.quicktip {
-		font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		padding:25px;
 		border-top: solid 1px #efefef;
 		border-bottom: solid 1px #efefef;
@@ -585,7 +612,7 @@
 	}
 	.quicktip .tip{
 		background: url('../images/qt.png') no-repeat;
-		margin-left: 330px;
+		margin-left: 310px;
 		display: block;
 		height: 75px;
 		width:75px;
@@ -595,8 +622,6 @@
 	.quicktip .qt-content {
 		margin-left: 148px;
 		width: 436px;
-	}
-	.quicktip .qt-content.show {
 		display: none;
 	}
 	.chapterStart {
@@ -626,6 +651,29 @@
 	}
 	.med-list-type {
 		display: block;
+	}
+	.scenario p{
+		font-style:italic;
+		color: #828282;
+	}
+	.scenario h5 {
+		color: #828282;
+	}
+	.feedback {
+		font-size: 14px;
+		font-weight: normal;
+		float: right;
+		margin-top: 10px;
+	}
+	div#jarring-example {
+		/*background: #f9f9f9;
+		padding: 25px 25px 0px 25px;
+		margin: 10px -26px 25px -26px;
+		border: solid #dedede 1px;
+		border-radius: 5px;*/
+	}
+	.quicktip h5 {
+		text-align: center; 
 	}
 
 /* #Page Styles
@@ -686,9 +734,6 @@
 		.quicktip .tip{
 			margin-left: 145px;
 		}
-		.container {
-			border: solid blue 1px;
-		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -700,9 +745,6 @@
 		}
 		.quicktip .tip{
 			margin-left: 80px;
-		}
-		.container {
-			border: solid green 1px;
 		}
 	}
 

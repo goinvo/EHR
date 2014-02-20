@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//quicktips
-	$(".quicktime .tip").click(function(){
-		$(".quicktime .show").fadeToggle('medium');
+	$(".quicktip .tip").click(function(){
+		$(this).parent().find('.qt-content').slideToggle('medium');
 	}); 
 });

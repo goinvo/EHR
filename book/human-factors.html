@@ -17,13 +17,6 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
-	<script type="text/javascript" src="./assets/js/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
 
@@ -49,7 +42,7 @@
 <div class="wrapper">
 	<div class="container header">
 		<div class="sixteen columns">
-			<h2 class="title">EHR Style Guide <span class="version">v1.5, 2-15-2014</span></h2>
+			<h2 class="title">EHR Style Guide <span class="version">v1.5, 2-15-2014 </span><span class="feedback"><a href="mailto:ehrstyle@gmail.com?Subject=EHR%20feedback" target="_top">Feedback</a></span></h2>
 			<div class="authors">
 				<p>Jeff Belden MD, Jennifer Patel, Richelle Koopman MD, Catherine Plaisant PhD, Joi Moore PhD, Shreeya Gangwal, Juhan Sonin, Nathan Lowrance</p>
 			</div>
@@ -60,7 +53,7 @@
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
-					<li><a href="https://www.dropbox.com/s/kjqtxz42jbpxjl5/EHR-MedListCh-10-29.iba">iBook</a></li>
+					<li><a href="https://www.dropbox.com/s/wsbnpwe5ioqunyh/EHR-02-16-sample.ibooks">iBook</a></li>
 					<li><a href="https://github.com/goinvo/EHR">Git Repo</a></li>
 					<li><a href="../index.html">Interactives</a></li>
 					<li><a href="./index.html">Table of Contents</a></li>
@@ -89,7 +82,7 @@
 					<h5>We See in Gestalts</h5>
 					<p><strong>Our visual system is wired to perceive whole shapes or gestalts rather than disconnected forms.</strong></p>
 					<p>Gestalt is a German word for form or shape. In English, it refers to wholeness. When you walk into a room, you get an overall sense of what’s going on and the emotional tone of the room. When you view a webpage for the first time, you also get a similar overall sense of wholeness about the site: whether it’s appealing, whether it looks modern or out of date, and whether it looks clean or cluttered. Here are some of the elements that add to the overall Gestalt of a design.</p>
-					<h5>Proximity</h5>
+					<h5 id="proximity">Proximity</h5>
 					<p>One way our minds like to see in gestalts is via proximity. Distance between objects determines how we perceive them. If things are close together we group them. Not only do we group them, but when it comes to designs, we tend to think they are grouped for a reason.</p>
 					<p><strong>Example 1</strong></p>
 					<div class="example" id="gal-7-1">
@@ -258,7 +251,7 @@
 					
 					<hr/>
 					
-					<h5>Preattentive Attributes</h5>
+					<h5 id="preattentive-attributes">Preattentive Attributes</h5>
 					<p><strong>The little things people notice visually and understand quickly, so quickly that we have only noticed it at an unconscious level.</strong></p>
 					<p>We notice some visual features more quickly than others. Examples include color, size, shape, orientation, and motion. We call these things that stand out to us <strong>preattentive attributes</strong>. It is our fast thinking mind that is making sense of everything in our visual field at an unconscious level that make preattentive attributes work. This fast thinking subconscious part of our minds either tells us what to focus on or gives us options of what to focus on. Things that are different or stand out from the rest of the environment (examples below) are all in play with preattentive attributes. </p>
 					<p><strong>Example</strong>: Here are visual preattentive attributes</p>
@@ -301,7 +294,7 @@
 						</ul></p>
 					<p>When creating an application its helpful to ask yourself, “Are there opportunities to convert slow thinking tasks into fast thinking mode?” Make the application perform the complex calculations, do the rank-ordering, and concisely present the key information so that people can have the energy to do the focused thinking that only the human can do.</p>
 					
-					<h5>Working Memory</h5>
+					<h5 id="working-memory">Working Memory</h5>
 					<p><strong>Working memory takes work and is limited to four things, try to design without making doctors and patients use working memory.</strong></p>
 					<p>Working memory is your memory that you need for less than a minute. This is sometimes called short term memory. This is the type of memory we use when someone tells us a phone number and we have to keep it in our heads till we write it down or punch it into our phone. This type of memory takes focused thinking. </p>
 					<p><strong>Design tip</strong>: Try not ask people to look at information on one page and then remember it and enter it into another field on another page.</p>
@@ -319,7 +312,7 @@
 					</video>
 					
 					<h5 id="cognitive-load">Cognitive Load</h5>
-					<p><strong>Loads are heavy, even cognitive (mental activity) ones. Help lighten the load.<strong></p>
+					<p><strong>Loads are heavy, even cognitive (mental activity) ones. Help lighten the load.</strong></p>
 					<p>Our brains have to manage three types of loads: cognitive, visual, and motor. Cognitive load is the hardest type of load, followed by visual, then motor.</p>
 					<p>Here are some considerations for lightening cognitive load:
 						<ul class="disc">
@@ -336,7 +329,7 @@
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/SimpleList_MentalModel.png"><img src="./assets/images/examples/human-factors/SimpleList_MentalModel.png" class="scale-with-grid" /></a>
 					</div>
-					<p><strong>Example<strong>: In the illustration below, we lighten the cognitive load by sorting the list alphabetically by diagnosis, the physician needs to use much less effort. </p>
+					<p><strong>Example</strong>: In the illustration below, we lighten the cognitive load by sorting the list alphabetically by diagnosis, the physician needs to use much less effort. </p>
 					<div class="example" id="fig-7-12">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.12</span>
@@ -373,7 +366,10 @@
 	
 
 </div><!--end wrapper-->
-	
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">
 		$(function() {
@@ -399,10 +395,6 @@
 					}
 				}
 			});
-			
-			$(".quicktime .tip").click(function(){
-				$(".quicktime .show").fadeToggle('medium');
-			}); 
 		});
 	</script>
 </body>

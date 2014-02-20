@@ -4,6 +4,7 @@
 	vertical-align: bottom;
 	text-align: center;
 	text-decoration: none;
+	height: 60px;
 }
 .cbp-fwslider {
 	position: relative;
@@ -14,7 +15,7 @@
 .cbp-fwslider ul {
 	margin: 0;
 	padding: 0;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	list-style-type: none;
 }
 .cbp-fwslider ul li {
