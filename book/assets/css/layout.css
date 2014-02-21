@@ -42,8 +42,8 @@
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
-	body {
-		line-height: 1; }
+	body p{
+		line-height: 28px; }
 	ol, ul {
 		list-style: none; }
 	blockquote, q {
@@ -71,7 +71,7 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #181818;
+		color: #444;
 		font-family: "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -79,14 +79,17 @@
 	h2 { font-size: 32px; line-height: 40px; margin-bottom: 8px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
-	h5 { font-size: 14px; line-height: 24px; font-weight: bold;}
+	h5 { font-size: 18px; line-height: 24px; font-weight: bold;}
 	h6 { font-size: 14px; line-height: 21px; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
 	.subheader { font-style: italic; color: #696969; }
 	.jarring {color: #cb1484;}
+	p.spacetop {
+		margin-top: 14px;
+	}
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #999;  }
+	p.lead { font-size: 21px; line-height: 24px; color: #999;  }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
@@ -122,20 +125,20 @@
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ol li {
-		line-height: 24px;
-		margin-left: -10px;
+		line-height: 32px;
+		margin-left: -28px;
 	}
 	ul.disc li {
-		line-height: 24px;
-		margin-left: -14px;
+		line-height: 32px;
+		margin-left: -28px;
 	}
 	ul ul, ul ol,
 	ol ol, ol ul { margin: 4px 0 5px 30px;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 8px; }
+	li { line-height: 32px; margin-bottom: 8px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 24px; margin-bottom: 8px;}
+	li p { line-height: 32px; margin-bottom: 8px;}
 
 /* #Images
 ================================================== */
@@ -541,17 +544,17 @@
 		display: block;
 	}
 	.sidebar ol {
-		margin-left: 20px;
+		margin-left: 28px;
 		font-size: 14px;
 	}
 	.sidebar ol li {
 		line-height: 24px;
 	}
 	.sidebar ul {
-		margin-left: 14px;
+		margin-left: 28px;
 	}
 	ol li ol{
-		margin-left: 19px;
+		margin-left: 48px;
 		font-size: 14px;
 		list-style: lower-alpha;
 	}
@@ -638,7 +641,7 @@
 		text-decoration: none;
 	}
 	.authors p {
-		line-height: 21px;
+		line-height: 24px;
 		font-size: 14px;
 		margin-top: 10px;
 	}
@@ -674,6 +677,16 @@
 	}
 	.quicktip h5 {
 		text-align: center; 
+	}
+	.scenario-list tr td{
+		border: solid #dedede 1px;
+		padding: 5px;
+		line-height: 24px;
+		font-size: 14px;
+		margin: 0 -5px 0 -15px;
+	}
+	.scenario-list {
+		margin-bottom: 24px;
 	}
 
 /* #Page Styles

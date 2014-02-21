@@ -57,8 +57,8 @@
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
-					<li><a href="https://www.dropbox.com/s/wsbnpwe5ioqunyh/EHR-02-16-sample.ibooks" arget="blank">iBook</a></li>
-					<li><a href="https://github.com/goinvo/EHR" arget="blank">Git Repo</a></li>
+					<li><a href="https://www.dropbox.com/s/wsbnpwe5ioqunyh/EHR-02-16-sample.ibooks" target="blank">iBook</a></li>
+					<li><a href="https://github.com/goinvo/EHR" target="blank">Git Repo</a></li>
 					<li><a href="../index.html" target="blank">Interactives</a></li>
 					<li><a href="./index.html">Table of Contents</a></li>
 				</ul>
@@ -96,12 +96,12 @@
 						<h3>The Big Three</h3>
 					</div>
 					<p>There are three main user tasks to consider when developing a medication allergy list: glancing at the list, exploring the details, and changing the list.</p>
-					<p><h5>Glancing at the list</h5>
-						Oftentimes a nurse or doctor needs to quickly refer to the allergy list, ideally with every new prescription or administration of a medication. A brief glance at the list may reveal “no known medication allergies” or the name of a medication about to be ordered for the patient. A short list of only the drug names could suffice, always visible at the right time in the open chart, such as in the patient banner.</p>
-					<p><h5>Exploring the details</h5>
-						Sometimes, a clinician needs to know more details about a purported medication allergy in order to make a clinical decision whether to order the drug anyway. How severe was the allergy? What were the symptoms? How certain are we of the facts?  In this instance, a more detailed table view of the Allergy List is appropriate.</p>
-					<p><h5>Changing the list (Adding and editing)</h5>
-						It should be quick and straightforward to add a new entry to the list. Make it effortless to say “No known medication allergies” with a click or two. Don’t require unnecessary detail beyond the name of the substance/drug. Let it be optional to add the reaction details (symptoms, date, severity) because sometimes people don’t know or remember the details. It is important to capture the identity of the user making the edits.</p>
+					<h5>Glancing at the list</h5>
+						<p>Oftentimes a nurse or doctor needs to quickly refer to the allergy list, ideally with every new prescription or administration of a medication. A brief glance at the list may reveal “no known medication allergies” or the name of a medication about to be ordered for the patient. A short list of only the drug names could suffice, always visible at the right time in the open chart, such as in the patient banner.</p>
+					<h5>Exploring the details</h5>
+						<p>Sometimes, a clinician needs to know more details about a purported medication allergy in order to make a clinical decision whether to order the drug anyway. How severe was the allergy? What were the symptoms? How certain are we of the facts?  In this instance, a more detailed table view of the Allergy List is appropriate.</p>
+					<h5>Changing the list (Adding and editing)</h5>
+						<p>It should be quick and straightforward to add a new entry to the list. Make it effortless to say “No known medication allergies” with a click or two. Don’t require unnecessary detail beyond the name of the substance/drug. Let it be optional to add the reaction details (symptoms, date, severity) because sometimes people don’t know or remember the details. It is important to capture the identity of the user making the edits.</p>
 					<p>Now let’s do some design makeovers and get into some real world scenarios.</p>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 						<hr/>
 						<h3>Glancing at the Allergy List</h3>
 					</div>
-					<div class="scenario"><h3>Clinical Scenario #1 - bladder infection</h3>
+					<div class="scenario"><h5>Clinical Scenario #1 - bladder infection</h5>
 						<p>Dr. Barnes is seeing a young woman who appears to have a simple bladder infection. The antibiotic of choice would be sulfamethoxazole / trimethoprim (Bactrim). By glancing at the allergy list in the patient banner, Dr. Barnes notices that the patient is allergic to sulfa drugs (Bactrim is a sulfa drug), and chooses a suitable and equally inexpensive drug, ciprofloxin.</p>
 					</div>
 					<p>Here is a look at a “before and after” makeover of an allergy list. The physician’s main task is glancing at the list when prescribing a new medication, while a nurse is glancing at the list before administering a medication to the patient. In both cases, the physician or nurse would also ask the patient if they are allergic to the drug in question.</p>
@@ -144,7 +144,7 @@
 					<div class="example" id="fig-4-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.3</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Add precription orders</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_add-orders.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_add-orders.png" class="scale-with-grid" /></a>
 					</div>
@@ -160,7 +160,7 @@
 						<h3>Exploring the Details</h3>
 					</div>
 					<p>Sometimes the physician wants to know a bit more detail about a listed drug allergy. Is the information likely accurate? Is the potential risk of using the drug outweighed by a strong benefit (better effectiveness, lower cost, etc,)?</p>
-					<div class="scenario"><h3>Clinical Scenario #1 - bladder infection</h3>
+					<div class="scenario"><h5>Clinical Scenario #2 - Strep throat and severe penicillin allergy</h5>
 						<p>Dr. Barnes is seeing a 38 year old father of four with a 2 day history of an increasingly sore throat. Five days ago, one of the children had come home from school with a fever and headache. The patient’s rapid strep test indicates strep throat.</p>
 						<p>Dr. Barnes would usually prescribe penicillin (cheap and effective), but the patient had a severe reaction to penicillin a few years ago (hives, swelling of the lips). The next alternative would be cephalexin (Keflex). Because penicillin and cephalexin are chemically similar, the risk of allergic cross-reaction depends on the severity of the penicillin allergy. Sometimes it is perfectly safe to prescribe cephalexin to someone with a milder penicillin allergy. However, for a severe penicillin allergy, cephalexin should be avoided. The 3rd choice alternative would be clindamycin (more doses per day and more expensive) or azithromycin (Z-Pak, which is more expensive).</p>
 					</div>
@@ -182,9 +182,9 @@
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" /></a>
 					</div>
 					<p>In this list the physician or nurse can see the information they need with the most important information on the left, and increasingly less important information toward the right. This list reduces the visual load by limiting the information shown which keeps the table simple and effective. Further details can be seen by drilling a step deeper.</p>
-					<div class="example" id="fig-4-5">
+					<div class="example" id="fig-4-6">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.5</span>
+							<span class="ex-type">Figure 4.6</span>
 							<span class="ex-caption">Click or tap on an allergy to see more details and edit</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_allergies-details.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_allergies-details.png" class="scale-with-grid" /></a>
@@ -193,9 +193,9 @@
 					<div class="sidebar cf">
 						<h5>What details are important?</h5>
 						<p>Know your user and their needs. In order to inform our chapter our team collected user data mainly from practicing doctors about the relative importance of item display they wanted to see in a Medication Allergy List. Here are the results:</p>
-						<div class="example" id="fig-4-6">
+						<div class="example" id="fig-4-7">
 							<div class="ex-title">
-								<span class="ex-type">Figure 4.6</span>
+								<span class="ex-type">Figure 4.7</span>
 								<span class="ex-caption"></span>
 							</div>
 							<a class="fancybox" href="./assets/images/examples/allergy-list/chart.png"><img src="./assets/images/examples/allergy-list/chart.png" class="scale-with-grid" /></a>
@@ -213,7 +213,7 @@
 						<hr/>
 						<h3>Changing the Allergy List (Adding and Editing)</h3>
 					</div>
-					<div class="scenario"><h3>Clinical Scenario #3 - Modifying the allergy list</h3>
+					<div class="scenario"><h5>Clinical Scenario #3 - Modifying the allergy list</h5>
 						<p>Dr. Barnes is seeing an adult patient who has had a sinus infection for the past two weeks. As Dr. Barnes gets ready to prescribe an antibiotic, he asks the patient about any drug allergies, while at the same time glancing at the allergy list in the Patient Banner. Today the patient reports “Z-Pak gave me hives” last winter after a visit to an urgent care center. Dr. Barnes wants to add Z-Pak to the allergy list.</p>
 						<p>The patient's allergy list currently includes Augmentin (Augmentin is a combination product containing amoxicillin and clavulanic acid, and amoxicillin is in the penicillin drug family). No reactions are described for the drug allergy. Dr. Barnes decides to take advantage of this opportunity to add some detail to the medication allergy list.</p>
 						<p>The patient reports having severe nausea when taking Augmentin as a child. Further discussion with the patient reveals that he has tolerated amoxicillin alone (also in the penicillin family) in subsequent years without any trouble.</p>
@@ -221,14 +221,14 @@
 						<p>For this diagnosis, the drug of choice would be Augmentin.</p>
 					</div>
 					<p>Here is the Allergy List for the patient.</p>
-					<div class="example" id="fig-4-7">
+					<div class="example" id="fig-4-8">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.7</span>
+							<span class="ex-type">Figure 4.8</span>
 							<span class="ex-caption">Click or tap on an allergy to see more details and edit</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_allergies-details.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_allergies-details.png" class="scale-with-grid" /></a>
 					</div>
-					<p>The physician or nurse’s task is to add or remove substances, sometimes quickly and often with other time demands pressing for attention. The designer’s task is to make adding and removing substances quick and intuitive. Here are some details about the physician’s task to keep in mind:
+					<p>The physician or nurse’s task is to add or remove substances, sometimes quickly and often with other time demands pressing for attention. The designer’s task is to make adding and removing substances quick and intuitive. Here are some details about the physician’s task to keep in mind:</p>
 						<ul class="disc">
 							<li>Add a new entry to the list quickly and with little effort because this task happens often with new patients.</li>
 							<li>Record “No known medication allergies” with little effort because this is often the case with younger patients. </li>
@@ -237,7 +237,7 @@
 							<li>Make it easy to correct erroneous information from previous entries. Sometimes mistakes are made, or new information makes it apparent that the allergy list needs to be modified. </li>
 							<li>Make it easy to find out who made entries or edits to the Allergy List. This field can be auto-populated with the active user’s name. That let’s the user gauge the trustworthiness of the information, and whether it may be worth double-checking with the patient about the allergy. In one study of inpatient drug allergy alert override reasons, the physicians doubted the allergy data 40% of the time [Kuperman 2003]. </li>
 							<li>Allow a drug allergy listing to be inactivated (removed). Otherwise, physicians will need to repeatedly override drug-allergy alerts during the act of prescribing even when no allergy or side-effect exists.</li>
-						</ul></p>
+						</ul>
 					<p>Take a look at the presentation of these two displays for adding an allergy. Which one looks easier? Why? Is it also as safe? </p>
 					<div class="example" id="gal-4-1">
 						<div class="ex-title">
@@ -260,18 +260,18 @@
 					</div>
 					<p>The “after” example should look more straightforward, but is it equally safe? Let’s look at the design details.</p>
 					<p>In the following screenshot, the highlighted areas are the only ones that are essential for the task of adding a substance to the Allergy List.</p>
-					<div class="example" id="fig-4-8">
+					<div class="example" id="fig-4-9">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.8</span>
+							<span class="ex-type">Figure 4.9</span>
 							<span class="ex-caption"></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyClone_0001_highlighted.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyClone_0001_highlighted.png" class="scale-with-grid" /></a>
 					</div>
 					<p>The information not highlighted is optional for the task at hand, but still has to be looked at, evaluated, and then ignored to complete the task. All the additional unnecessary information for this task is overwhelming and creates more mental work for the physician. This exemplifies "<a href="./human-factors#cognitive-load">information overload</a>."</p>
 					<p>In our “after” example, only the necessary data fields are included at the top, and optional details are in the shaded section in the bottom portion. Other technical terms are simply not shown. They don’t help the physician user.</p>
-					<div class="example" id="fig-4-9">
+					<div class="example" id="fig-4-10">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.9</span>
+							<span class="ex-type">Figure 4.10</span>
 							<span class="ex-caption"></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="scale-with-grid" /></a>
@@ -286,12 +286,12 @@
 						<p><strong>Severe: </strong><br />
 							Anaphylaxis, convulsions, cardiopulmonary arrest.</p>
 					</div>
-					<p>Another reason the “after” design is an improvement has to do with a human factor principle known as the principle of least effort. What are the tasks for adding a new entry to the Allergy List?
+					<p>Another reason the “after” design is an improvement has to do with a human factor principle known as the principle of least effort. What are the tasks for adding a new entry to the Allergy List?</p>
 						<ol>
 							<li>Find the name of the drug or substance.</li>
 							<li>Describe or find the reaction symptoms.</li>
 							<li>(Optional) Add any additional details needed including the type of reaction, dates, source of the information, etc</li>
-						</ol></p>
+						</ol>
 					<p>Compare these two examples below.</p>
 					<div class="example" id="gal-4-2">
 						<div class="ex-title">
@@ -312,9 +312,9 @@
 							</ul>
 						</div>
 					</div>
-					<div class="example" id="fig-4-10">
+					<div class="example" id="fig-4-11">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.10</span>
+							<span class="ex-type">Figure 4.11</span>
 							<span class="ex-caption"></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0007_add-allergy-visual.png"><img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0007_add-allergy-visual.png" class="scale-with-grid" /></a>
@@ -353,7 +353,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Let's Review what we've learned in this chapter</h3>
+						<h3>Let's review what we've learned in this chapter</h3>
 					</div>
 					<p><ol>
 						<li>Consider the user and the task at hand. That consideration will help you decide what details and functionality are needed for a particular medication list view.</li>

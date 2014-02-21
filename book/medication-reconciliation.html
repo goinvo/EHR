@@ -98,21 +98,25 @@
 						<p>On examination, his physician found moderate pulmonary congestion, but no EKG changes. Troponin was negative. Because of his past history and strong family history of MI, he was admitted, treated, and now on Wednesday afternoon, wants to be discharged. One of the medical house officers is handling the discharge orders, including medication reconciliation.</p>
 					</div>
 					<p>First, let’s take a look at the prototype called “Twinlist”  for an award-winning demo of medication reconciliation. Watch this short video.</p>
-					<div class="example" class="vid-3-1">
+					<div class="example" id="vid-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Video 3.1</span>
 							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" target="blank">TwinList Demo</a></span>
 						</div>
-						<iframe width="420" height="315" src="//www.youtube.com/embed/YXkq9hQppOw" frameborder="0" allowfullscreen></iframe>
+						<video controls class="twinlist">
+							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
+							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
+						</video>
 					</div>
-					<p><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" target="blank">Want to play?</a></p>
+					<p><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&amp;animate=__AUTO_ANIMATE_ON__" target="blank">Want to play?</a></p>
 					<p>In this scenario, the physician managing the discharge orders will compare the patient’s list of home medications to the list on the last day of the hospital stay and make medical decisions about which medications will be continued or modified after discharge. Here are some of the features that make Twinlist very effective.</p>
-					<p><ol>
+					<ol>
 						<li>Spatial grouping is intuitive (the closer things are, the more alike they are).</li>
 						<li>Animation helps users quickly learn and understand the groupings of the drugs.</li>
 						<li>Highlighting key differences fosters easier decision-making.</li>
 						<li>Selecting is easy by clicking on large rectangular buttons which list the drug information.</li>
-					</ol></p>
+					</ol>
 					<p>Let's look through some individual images to review the details.</p>
 					<div class="example" id="gal-3-1">
 						<div class="ex-title">
@@ -148,7 +152,7 @@
 							</ul>
 						</div>
 					</div>
-					<p><h5>The Twinlist prototype uses a number of human factors principles to make it efficient and safe.</h5>
+					<h5>The Twinlist prototype uses a number of human factors principles to make it efficient and safe.</h5>
 						<ol>
 							<li>Identifying similar drugs is visually intuitive<ol>
 								<li>‘Identical’ medications are matched and merged, thus reducing the mental effort (cognitive load) of the physician.</li>
@@ -169,9 +173,9 @@
 								<li>Recovery from error is simple by clicking a drug again to toggle to the next state (accepted, rejected, or undecided).</li>
 							</ol></li>
 						</ol>
-					</p>
 					<p>Inpatient medication reconciliation also involves ordering, ePrescribing, and documentation. It requires dynamic conversations with the patient and any caregivers involved at the time of admission, and again at the time of discharge. Successful inpatient medication reconciliation involves understanding medication administration (How much insulin or analgesics were actually used in the last few days?) and clinical assessment (Will the patient be able to tolerate the oral version of this medication as we stop the intravenous (IV) version? What dose should we start with? How soon will home doses need to be adjusted, and by whom? Are there issues with insurance coverage and affordability?).</p>
-					<p>Physicians commonly care for patients who have moved from one unit to the next (ER to general nursing unit to ICU to step-down unit and back to general nursing unit again). Critically ill inpatients may be unable to take their oral medications, and may be receiving several IV medications including IV drip medications in the intensive care unit. As patients begin to recover, they may resume previous medications at a reduced dose which may gradually change throughout the hospital stay. By the time of hospital discharge, some home medications may be resumed, some of those doses may need to be adjusted, and additional new medications may be prescribed. The physician doing inpatient medication reconciliation in such a complex case may benefit from a multi-list visualization tool that has more than two starting columns. The developers of Twinlist have also created alternative design called <strong>ManyLists</strong> that may be used with for more than 2 lists (see <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" target="blank">http://www.cs.umd.edu/hcil/sharp/twinlist/</a> or <a href="http://www.cs.umd.edu/hcil/manylists/" target="blank">www.cs.umd.edu/hcil/manylists</a>). Such a multi-list tool could help physicians more easily track single medication changes throughout the hospital stay, more easily make direct visual comparisons of the separate instances of a single drug throughout the hospital stay, and get assistance from the matching algorithms of the ManyLists tool.</p>
+					<p>Physicians commonly care for patients who have moved from one unit to the next (ER to general nursing unit to ICU to step-down unit and back to general nursing unit again). Critically ill inpatients may be unable to take their oral medications, and may be receiving several IV medications including IV drip medications in the intensive care unit. As patients begin to recover, they may resume previous medications at a reduced dose which may gradually change throughout the hospital stay. By the time of hospital discharge, some home medications may be resumed, some of those doses may need to be adjusted, and additional new medications may be prescribed.</p> 
+					<p>The physician doing inpatient medication reconciliation in such a complex case may benefit from a multi-list visualization tool that has more than two starting columns. The developers of Twinlist have also created alternative designs that can accommodate more than 2 lists called <a href="http://www.cs.umd.edu/hcil/manylists/" target="blank">ManyLists</a> that may be used with for more than 2 lists. Such a multi-list tool could help physicians more easily track single medication changes throughout the hospital stay, more easily make direct visual comparisons of the separate instances of a single drug throughout the hospital stay, and get assistance from the matching algorithms of the ManyLists tool.</p>
 				</div>
 			</div>
 		</section><!--end section inpatient-->
@@ -197,21 +201,22 @@
 						<p>She notices that the medication list given to her at the beginning of the visit doesn't match up with what she thinks she should be taking. Her pain specialist recently started a new medication (nortiptyline) and stopped another one (hydrocodone-acetaminophen), while her orthopedic surgeon increased the dose of a third medication (Celebrex).</p>
 						<p>As she annotates the medication list, she needs to indicate those three changes.</p>
 						<p>Here's what the primary care physician's current medication list indicates at the beginning of the visit.</p>
-						<ul>
-							<li>celecoxib (Celebrex) 100 mg one capsule twice daily</li>
-							<li>citalopram 20 mg daily for depression </li>
-							<li>hydrocodone-acetaminophen 5-325 mg two tablets every six hours as needed for pain.</li>
-							<li>levothyroxine 100 mcg daily</li>
-							<li>lidocaine topical (Lidoderm) 5% patch, Apply to intact skin, covering most painful areas for 12 hours each day.</li>
-							<li>metoprolol succinate 100 mg daily</li>
-							<li>multivitamins one tablet daily</li>
-							<li>omeprazole 20 mg daily</li>
-							<li>sumatriptan (Imitrex) 100 mg as needed to abort a migraine. May repeat once in 2 hours if headache recurs.</li>
-							<li>triamcinolone 0.1% cream applied three times a day to eczema rash for 2 to 4 week</li>
-						</ul>
+						<table class="scenario-list">
+							<tbody>
+								<tr><td>celecoxib (Celebrex) 100 mg one capsule twice daily</td></tr>
+								<tr><td>citalopram 20 mg daily for depression </td></tr>
+								<tr><td>hydrocodone-acetaminophen 5-325 mg two tablets every six hours as needed for pain.</td></tr>
+								<tr><td>levothyroxine 100 mcg daily</td></tr>
+								<tr><td>lidocaine topical (Lidoderm) 5% patch, Apply to intact skin, covering most painful areas for 12 hours each day.</td></tr>
+								<tr><td>metoprolol succinate 100 mg daily</td></tr>
+								<tr><td>multivitamins one tablet daily</td></tr>
+								<tr><td>omeprazole 20 mg daily</td></tr>
+								<tr><td>sumatriptan (Imitrex) 100 mg as needed to abort a migraine. May repeat once in 2 hours if headache recurs.</td></tr>
+								<tr><td>triamcinolone 0.1% cream applied three times a day to eczema rash for 2 to 4 week</td></tr>
+						</table>
 					</div>
-					<p><h5>How will a patient mark the EHR list with updated information?</h5>
-						Here’s one example of a typical pre-visit list that a patient might encounter today. One simple improvement would be to modify a few typographic detail. See the next image in the gallery.</p>
+					<h5>How will a patient mark the EHR list with updated information?</h5>
+						<p>Here’s one example of a typical pre-visit list that a patient might encounter today. One simple improvement would be to modify a few typographic detail. See the next image in the gallery.</p>
 					<div class="example" id="gal-3-2">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.2</span>
@@ -237,7 +242,7 @@
 					<div class="example" id="gal-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.3</span>
-							<span class="ex-caption">Patient list and writing comments</span>
+							<span class="ex-caption">Marking no longer taking</span>
 						</div>
 						<div id="cbp-fwslider-3" class="scale-with-grid cbp-fwslider">
 							<ul>
@@ -258,7 +263,7 @@
 					<div class="example" id="gal-3-4">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.4</span>
-							<span class="ex-caption">Medication Reconciliation</span>
+							<span class="ex-caption">Patient list and writing comments</span>
 						</div>
 						<div id="cbp-fwslider-4" class="scale-with-grid cbp-fwslider">
 							<ul>
@@ -279,7 +284,7 @@
 						<h5>Medication Adherence - Behind the Scenes</h5>
 						<p><strong>Why patients stop medication</strong></p>
 						<p>Why don’t people just take medications prescribed for them? Sometimes they never filled the prescription. Sometimes they fill it but never take it. Other times they take it for a while and then stop. Why is that?</p>
-						<p>Some common reasons why people don't take their medicine
+						<p>Some common reasons why people don't take their medicine</p>
 							<ol>
 								<li>Cost: coverage, co-pays, or cash out-of-pocket</li>
 								<li>No benefit</li>
@@ -289,7 +294,6 @@
 								<li>Fear of side effects</li>
 								<li>Misunderstanding expected benefits</li>
 							</ol>
-						</p>
 						<p>Knowing the reason for not taking a medication can be helpful in the future for making wise choices (if the medication worked, but was not covered by the insurance plan as opposed to having intolerable side effects.</p>
 						<p><strong>How will the adherence data populate the EHR?</strong></p>
 						<p>There are two means in particular for capturing and recording medication adherence information. One is by asking the patient and recording their response. This is part of outpatient medication reconciliation process. The granularity of the details is fairly limited in most cases. The patient can respond in one of the following ways</p>
@@ -309,7 +313,7 @@
 						<p>She also has been feeling more sad and had decided to reduce the metoprolol dose on her own, only taking it every other day. She had read on the medication information brochure that metoprolol can cause depression, but she has not yet discussed this decision with her physician.</p>
 						<p>She needs some of her medications renewed, but only the ones that her primary care doctor (Dr. Gray) manages.</p>
 						<p>Here's what the primary care physician's current medication list indicates just before the beginning of the visit.</p>
-						<table>
+						<table class="scenario-list">
 							<tbody>
 								<tr>
 									<td>calcium with vitamin D one tablet twice a day (nonprescription)</td>
@@ -385,7 +389,7 @@
 						</table>
 					</div>
 					<p>In this scenario, we're dealing with quite a few issues:</p>
-						<ul>
+						<ul class="disc">
 							<li>uncertainty about the medication list</li>
 							<li>questions about adherence</li>
 							<li>changes the patient made on her own</li>
@@ -393,17 +397,17 @@
 							<li>and identifying the prescribing physician when there are several physicians.</li>
 						</ul>
 					<p>This is a lot for the physician and patient to cover, but we’ll explain some background for each issue and, with our design examples, provide tools to help.</p>
-					<p><h5>Medication adherence</h5>
-						We know that a significant number of patients never fill their prescriptions. In developed countries, it averages 50% for those with chronic diseases. [WHO 2003] Patients commonly underreport their adherence as well. The physician and the forms should use language that is non-judgmental. The goal of this medication reconciliation conversation is to uncover the truth in a nonjudgmental way, allowing the patient and physician to collaboratively align goals and make a plan of care that both can support.</p>
-					<p><h5>Uncertainty</h5>
-						Patients commonly report uncertainty about their medication list. For instance, patients may not be able to pronounce the name of the medicine or even recognize the name of medicine they've been taking for sometime. Some people may refer to the medication by intended purpose: "a blood pressure medicine.”</p>
+					<h5>Medication adherence</h5>
+						<p>We know that a significant number of patients never fill their prescriptions. In developed countries, it averages 50% for those with chronic diseases. [WHO 2003] Patients commonly underreport their adherence as well. The physician and the forms should use language that is non-judgmental. The goal of this medication reconciliation conversation is to uncover the truth in a nonjudgmental way, allowing the patient and physician to collaboratively align goals and make a plan of care that both can support.</p>
+					<h5>Uncertainty</h5>
+						<p>Patients commonly report uncertainty about their medication list. For instance, patients may not be able to pronounce the name of the medicine or even recognize the name of medicine they've been taking for sometime. Some people may refer to the medication by intended purpose: "a blood pressure medicine.”</p>
 						<p>Transactions that occur outside the office visit may not get updated in electronic health record. For instance a phone call at night might result in a change in medication management, but it may not get documented in the formal medication list of the electronic health record.</p>
 						<p>If patients arrive at an office visit without any reference information such as their medication bottles or a list, then they will be making guesses at the truth from memory. That happens quite often in the authors’ experience.</p>
-					<p><h5>Conversation</h5>
-						The conversation is an opportunity for the patient and physician to find common ground. It's a chance to clear up misunderstandings and fill in knowledge gaps. Allow the patient to make corrections to the list that will then be reviewed by the physician. The physician may get a deeper understanding of the patient's values, constraints in their life, or other considerations. The patient may get a deeper understanding of the medication’s benefits and risks, allowing a more informed decision about using the medication.</p>
+					<h5>Conversation</h5>
+						<p>The conversation is an opportunity for the patient and physician to find common ground. It's a chance to clear up misunderstandings and fill in knowledge gaps. Allow the patient to make corrections to the list that will then be reviewed by the physician. The physician may get a deeper understanding of the patient's values, constraints in their life, or other considerations. The patient may get a deeper understanding of the medication’s benefits and risks, allowing a more informed decision about using the medication.</p>
 						<p>The conversation is also a chance for the patient and their physician to develop a common goal. It may not be the patient's desire to achieve a great blood sugar control for their diabetes. However it might be a goal to stop waking up so frequently in the middle of the night to urinate because of high blood sugars.</p>
 						<p>Allow the patient to clearly indicate if they have some uncertainty about a medication. It could be a simple single indicator, or it could be expressed as free text.</p>
-							<ul>
+							<ul class="disc">
 								<li>Here are some common reasons for non-adherence:</li>
 								<li>Did not believe it would help</li>
 								<li>Did not purchase</li>
@@ -413,8 +417,8 @@
 								<li>Was afraid of side effects</li>
 							</ul>
 						<p>In addition to non-adherence, there may be straightforward errors in a patient’s medication list. Items might have been added incorrectly in the past, which the patient may recognize clearly as an error (“This entry for insulin is a mistake. It should not be in my record at all. I don’t have diabetes and have never taken insulin.”).</p>
-					<p><h5>Responsibility and purpose</h5>
-						It's common for patients with multiple chronic illnesses to have three or more physicians providing care for them. Even so, the different specialists may have areas of overlap in their expertise and skills. For instance, it's very common for primary care physicians to manage mental health problems such as depression, anxiety, and insomnia. Those problems would be within the scope of a psychiatrist. By sorting or filtering the list by physician, it’s easier to focus on the appropriate medications, and less likely to overlook a medication.</p>
+						<h5>Responsibility and purpose</h5>
+						<p>It's common for patients with multiple chronic illnesses to have three or more physicians providing care for them. Even so, the different specialists may have areas of overlap in their expertise and skills. For instance, it's very common for primary care physicians to manage mental health problems such as depression, anxiety, and insomnia. Those problems would be within the scope of a psychiatrist. By sorting or filtering the list by physician, it’s easier to focus on the appropriate medications, and less likely to overlook a medication.</p>
 					<div class="example" id="gal-3-5">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.5</span>
@@ -438,7 +442,7 @@
 					<div class="example" id="gal-3-6">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.6</span>
-							<span class="ex-caption">sort and Filter by Prescriber</span>
+							<span class="ex-caption">Sort and Filter by Prescriber</span>
 						</div>
 						<div id="cbp-fwslider-6" class="scale-with-grid cbp-fwslider">
 							<ul>
@@ -464,10 +468,10 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Let's Review what we've learned in this chapter</h3>
+						<h3>Let's review what we've learned in this chapter</h3>
 					</div>
 					<ol>
-						<li>Interfaces like Twinlist can reduce mental effort (cognitive load) by doing algorithmic matching of drugs and highlighting small differences in similar drugs. It also uses the fast thinking of the visual system to convey information very efficiently and precisely.</li>
+						<li>Interfaces like <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&amp;animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a> can reduce mental effort (cognitive load) by doing algorithmic matching of drugs and highlighting small differences in similar drugs. It also uses the fast thinking of the visual system to convey information very efficiently and precisely. Check out a <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_CONGESTIVE_HEART_FAILURE_1_MODIFIED__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">larger dataset</a>. To learn more about Twinlist visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" target="blank">twinlist website</a>.</li>
 						<li>Keep the presentation to the patient simple and as clear as possible. Use plain language. Add typographic emphasis (bold or larger font) where appropriate.</li>
 						<li>Limit the number of options displayed. Additional options can be hidden by default, and then revealed if needed.</li>
 						<li>Offer cognitive support for adding new medications. Allow for fuzzy misspelling. Suggest appropriate drug names as the patient begins to type.</li>
@@ -493,8 +497,6 @@
 			</div>
 		</footer>
 	</section>
-	
-
 </div><!--end wrapper-->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
@@ -507,6 +509,8 @@
 			$( '#cbp-fwslider-2' ).cbpFWSlider();
 			$( '#cbp-fwslider-3' ).cbpFWSlider();
 			$( '#cbp-fwslider-4' ).cbpFWSlider();
+			$( '#cbp-fwslider-5' ).cbpFWSlider();
+			$( '#cbp-fwslider-6' ).cbpFWSlider();
 		});
 	</script>
 	<script type="text/javascript">
