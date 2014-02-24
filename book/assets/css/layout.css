@@ -81,6 +81,7 @@
 	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
 	h5 { font-size: 18px; line-height: 24px; font-weight: bold;}
 	h6 { font-size: 14px; line-height: 21px; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
+	p.grey {color: #696969;}
 	.subheader { font-style: italic; color: #696969; }
 	.jarring {color: #cb1484;}
 	p.spacetop {
@@ -92,7 +93,7 @@
 	p.lead { font-size: 21px; line-height: 24px; color: #999;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
+	strong { font-weight: bold; }
 	small { font-size: 80%; }
 
 	.jarring {font-size: 28px; font-weight: bold;}
@@ -688,6 +689,15 @@
 	.scenario-list {
 		margin-bottom: 24px;
 	}
+	video.twinlist {
+		width: 768px;
+		height: 576px;
+	}
+	.citations  p {
+		font-size: 12px;
+		line-height: 18px;
+		color: #828282;
+	}
 
 /* #Page Styles
 ================================================== */
@@ -735,6 +745,10 @@
 	/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 767px) {
 		.quicktip { width: 300px;}
+		video.twinlist {
+			width: 300px;
+			height: 225px;
+		}
 	}
 
 	/* #Mobile (Landscape) Design for a width of 480px */
@@ -747,6 +761,10 @@
 		.quicktip .tip{
 			margin-left: 145px;
 		}
+		video.twinlist {
+			width: 420px;
+			height: 315px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -758,6 +776,10 @@
 		}
 		.quicktip .tip{
 			margin-left: 80px;
+		}
+		video.twinlist {
+			width: 300px;
+			height: 225px;
 		}
 	}
 
