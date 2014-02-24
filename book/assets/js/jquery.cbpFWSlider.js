@@ -86,8 +86,8 @@
 			if( this.itemsCount > 1 ) {
 
 				// add navigation arrows (the previous arrow is not shown initially):
-				this.$navPrev = $( '<span class="cbp-fwprev"><svg version="1.1" width="26px" height="48px"> <g transform="scale(2.5)"><path fill="rgba(0,0,0,.4)" d="M0.493,10.078l8.686,8.687c0.24,0.24,0.628,0.24,0.868,0c0.239-0.24,0.241-0.628,0.001-0.868L1.796,9.644 l8.289-8.29c0.24-0.24,0.24-0.629,0-0.869s-0.629-0.24-0.868,0L0.493,9.209c-0.12,0.12-0.18,0.277-0.18,0.435 S0.373,9.958,0.493,10.078z"/></svg></g></span>' ).hide();
-				this.$navNext = $( '<span class="cbp-fwnext"><svg version="1.1" width="26px" height="48px"> <g transform="scale(2.5)"><path fill="rgba(0,0,0,.4)" d="M10.085,9.173L1.399,0.486c-0.24-0.24-0.628-0.24-0.868,0C0.292,0.726,0.29,1.114,0.53,1.354l8.252,8.252 l-8.289,8.29c-0.24,0.24-0.24,0.629,0,0.869s0.629,0.24,0.868,0l8.724-8.724c0.12-0.12,0.18-0.277,0.18-0.435 S10.205,9.292,10.085,9.173z"/></svg></g></span>' );
+				this.$navPrev = $( '<span class="cbp-fwprev"><svg version="1.1" width="26px" height="48px"> <g transform="scale(2.5)"><path fill="rgba(69, 160, 218, .9)" d="M0.493,10.078l8.686,8.687c0.24,0.24,0.628,0.24,0.868,0c0.239-0.24,0.241-0.628,0.001-0.868L1.796,9.644 l8.289-8.29c0.24-0.24,0.24-0.629,0-0.869s-0.629-0.24-0.868,0L0.493,9.209c-0.12,0.12-0.18,0.277-0.18,0.435 S0.373,9.958,0.493,10.078z"/></svg></g></span>' ).hide();
+				this.$navNext = $( '<span class="cbp-fwnext"><svg version="1.1" width="26px" height="48px"> <g transform="scale(2.5)"><path fill="rgba(69, 160, 218, .9)" d="M10.085,9.173L1.399,0.486c-0.24-0.24-0.628-0.24-0.868,0C0.292,0.726,0.29,1.114,0.53,1.354l8.252,8.252 l-8.289,8.29c-0.24,0.24-0.24,0.629,0,0.869s0.629,0.24,0.868,0l8.724-8.724c0.12-0.12,0.18-0.277,0.18-0.435 S10.205,9.292,10.085,9.173z"/></svg></g></span>' );
 				$( '<nav/>' ).append( this.$navPrev, this.$navNext ).appendTo( this.$el );
 				// add navigation dots
 				var dots = '';

@@ -57,7 +57,7 @@
 	border-radius: 50%;
 }
 .cbp-fwslider nav span:hover {
-	box-shadow: 0 0 0 1px rgba(0,0,0,.4);
+	box-shadow: 0 0 0 1px rgba(22, 124, 189, .4);
 }
 .cbp-fwslider nav span.cbp-fwnext {
 	right: 5px;
