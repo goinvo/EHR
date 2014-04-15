@@ -43,9 +43,7 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body p{
-		line-height: 28px; }
-	ol, ul {
-		list-style: none; }
+		line-height: 24px; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -77,10 +75,10 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 42px; line-height: 50px; margin-bottom: 10px;}
 	h2 { font-size: 32px; line-height: 40px; margin-bottom: 8px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 22px; }
 	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
-	h5 { font-size: 18px; line-height: 24px; font-weight: bold;}
-	h6 { font-size: 14px; line-height: 21px; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
+	h5 { font-size: 22px; line-height: 28px; margin-bottom: 22px;}
+	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
 	p.grey {color: #696969;}
 	.subheader { font-style: italic; color: #696969; }
 	.jarring {color: #cb1484;}
@@ -88,7 +86,7 @@
 		margin-top: 14px;
 	}
 
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 20px 0; line-height: 24px;}
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 24px; color: #999;  }
 
@@ -119,27 +117,26 @@
 /* #Lists
 ================================================== */
 	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 	ul.square { list-style: square outside; }
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ol li {
-		line-height: 32px;
+		line-height: 24px;
 		margin-left: -28px;
 	}
 	ul.disc li {
-		line-height: 32px;
+		line-height: 24px;
 		margin-left: -28px;
 	}
 	ul ul, ul ol,
 	ol ol, ol ul { margin: 4px 0 5px 30px;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 32px; margin-bottom: 8px; }
+	li { line-height: 24px; margin-bottom: 8px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 32px; margin-bottom: 8px;}
+	li p { line-height: 24px; margin-bottom: 8px;}
 
 /* #Images
 ================================================== */
@@ -462,25 +459,36 @@
 		position: fixed;
 		top: 50%;
 		/*left: 50%;*/
-		text-align: center;
-		margin-top: -22em;
+		margin-top: -25em;
 		/*margin-left: -10.5em;*/
 		z-index:1;
-		background: #fff;
+		background: rgba(255,255,255,.6);
 		padding: 0px 0px 0px 20px;
 	}
-	nav.main ul { margin: 0; padding: 0; }
+	nav.main ul { margin: 0; padding: 0; list-style: none; }
 	nav.main ul li {
-		margin-top: 30px;
+		margin: 0;
+		line-height: 32px;
 	}
 	nav.main ul li ul {
+		margin-top: 0px;
 		margin-left: 0px;
-	}
-	nav.main ul li ul li {
-		margin-top: 10px;
 	}
 	nav.main li a {
 		text-decoration: none;
+	}
+	nav.main ul li a.active {
+		color: #434343;
+	}
+	nav.main ul li ul {
+		padding-left: 10px;
+		display: none;
+	}
+	nav.main ul li ul li{
+		margin-top: -12px;
+	}
+	nav.main ul li ul.active {
+		display: block;
 	}
 	nav.main .disc{
 		height: 15px;
@@ -507,9 +515,11 @@
 	#toc a {
 		text-decoration: none;
 	}
-	#toc ul li h5 {
+	#toc ul li .ch-num {
 		display: inline;
 		margin-right: 10px;
+		font-size: 14px;
+		color: #b4b4b4;
 	}
 	#toc ul li ul {
 		margin-left: 85px;
@@ -599,7 +609,6 @@
 		margin: 20px 0px 20px 0px;
 	}
 	.ex-type {
-		font-size: 10px;
 		color: #999;
 	}
 	.ex-caption {
@@ -637,6 +646,7 @@
 	}
 	.chapterEnd {
 		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 	#prevCh a, #nextCh a {
 		text-decoration: none;
@@ -647,11 +657,8 @@
 		margin-top: 10px;
 	}
 	.sectionStart {
-		padding: 40px 0px 0px 0px;
+		padding: 20px 0px 30px 0px;
 		margin: 10px 0px 0px 0px;
-	}
-	.sectionStart h3 {
-		margin-bottom: 24px;
 	}
 	.med-list-type {
 		display: block;
@@ -699,6 +706,29 @@
 		color: #828282;
 	}
 
+	#numeric-strings span.grey {
+		width: 150px;
+	}
+	#numeric-strings .phoneno {
+		margin-left: 40px;	
+	}
+	#numeric-strings .phoneno.last {
+		margin-left: 87px;	
+	}
+	#toc ul {
+		list-style: none;
+	}
+	#acknowledge-ch ul li{
+		list-style: none;
+		margin-top: 20px;
+	}
+	#acknowledge-ch ul.disc li{
+		list-style: disc;
+		margin-top: 0px;
+	}
+	#acknowledge-ch .author {
+		margin-bottom: 40px;
+	}
 /* #Page Styles
 ================================================== */
 
@@ -708,7 +738,7 @@
 /* DEFAULT #Tablet (Portrait) Design for a width of 768px
 
 		/* #Mobile (Portrait) Design for a width of 320px */
-	@media only screen and (max-width: 840px) {
+	@media only screen and (max-width: 960px) {
 		nav.main {
 			position: fixed;
 			background: #fff;
@@ -719,10 +749,12 @@
 			width: 100%;
 			height: auto;
 			z-index: 1;
+			text-align: center;
 		}
 		nav.main ul {
 			left: 50%;
-			display: inline;}
+			display: inline;
+		}
 		nav.main ul li {
 			margin-top: 0px;
 			margin-right: 20px;
@@ -738,7 +770,12 @@
 			display: inline-block;
 			z-index:2;
 		}
-		
+		nav.main ul li .ch-name{
+			display: none;
+		}
+		nav.main ul li ul.active {
+			display:inline;
+		}
 	
 	}
 	
@@ -748,6 +785,12 @@
 		video.twinlist {
 			width: 300px;
 			height: 225px;
+		}
+		nav.main ul li .ch-name{
+			display: none;
+		}
+		nav.main ul li ul.active {
+			display:inline;
 		}
 	}
 
@@ -765,6 +808,12 @@
 			width: 420px;
 			height: 315px;
 		}
+		nav.main ul li .ch-name{
+			display: none;
+		}
+		nav.main ul li ul.active {
+			display:inline;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -780,6 +829,12 @@
 		video.twinlist {
 			width: 300px;
 			height: 225px;
+		}
+		nav.main ul li .ch-name{
+			display: none;
+		}
+		nav.main ul li ul.active {
+			display:inline;
 		}
 	}
 
