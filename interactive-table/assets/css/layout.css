@@ -295,15 +295,20 @@
 
 /*Site Styles*/
 /*.main_table / .med_table*/
+.interactive_content{
+	margin: 0px 6px 0px 6px;
+}
 table.main_table{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	margin-bottom: 20px;
 }
 table.main_table thead{
 	/*background:#424242;*/
 	font-size: 10px;
-	color: #929292;
+	color: #a7a7a7;
+	border-bottom: solid 1px #dadada;
 }
 .drop_arrow{
 	background-image:  url(../images/down_arrow.png);
@@ -315,7 +320,7 @@ table.main_table thead{
 	margin: 12px 18px 0px -6px;
 }
 table.main_table thead tr th{
-	padding: 5px 0 4px 0px;
+	padding: 5px 0 12px 0px;
 	font-weight: normal;
 	text-align: left;
 }
@@ -325,13 +330,16 @@ table.main_table thead tr th:first-child{
 table.main_table thead tr th.sort-col:hover{
 	color: #fff;
 }
+table.main_table tbody tr:first-child td {
+	margin-top:10px;
+}
 table.main_table tbody tr {
 	font-size: 12px;
 	color: #434343;
 	/*background: #fff;*/
 }
 table.main_table tbody tr td {
-	padding: 5px 0 7px 0;
+	padding: 10px 0 12px 0;
 	/*padding: 11px 8px 9px 10px*/;
 }
 table.main_table tbody tr td:first-child {
@@ -543,40 +551,65 @@ tbody tr.child {
 	float: left;
 	background: #5e5e5e;
 }
-	
-#top div { display: inline-block; }
-#top #title .list_name {
-	text-transform: uppercase;
-	font-size: 21px;
+#top {
+	border-bottom: solid 1px #dedede;
+	display: block;
+	padding: 0;
+	margin: 0;
+}	
+#top #task_list ul{
+	display: none;
 }
-#top #title .updated {
-	font-size: 14px;
-	color: #929292;
-	font-family: 'OpenSansItalic';
+#top div, #controls div { display: inline-block; }
+#controls {
+	margin-left: 5px;
 }
-#top #actions, #top #filters {
-	vertical-align: top;
-	margin: 3px 15px 0 35px;
+#controls #actions {
+	margin: 0px 20px 0px 0px;
+}
+#controls ul li {
+	display: inline;
+	font-size: 10px;
+	padding: 2px 7px 3px 7px;
 }
 #top ul li {
 	display: inline;
 	font-size: 10px;
-	padding: 2px 7px 3px 7px;
-	margin: 0 5px 0 5px;
+	padding: 2px 0px 3px 14px;
+	margin: 0 0px 0 10px;
 }
-#top ul li a{ color: #989898; }
-#top ul li a:hover{ color: #434343; }
+#top ul li a, #controls ul li a{ color: #989898; }
+#top ul li a:hover, , #controls ul li a:hover{ color: #434343; }
 #top ul li.active {
+	font-weight: bold;
+}
+#controls ul li.active {
 	color: #fff;
 	background: #bdbdbd;
 	border-radius:5px;
 }
-#top ul li.active a{ color: #fff; }
-#top ul li.active a:hover{ color: #fff; }
-#top ul li.active:hover{ background: #989898; }
-#actions .export a, #actions .export a:hover {
-	color: #929292;
-	cursor: default;
+#controls ul li.active a{ color: #fff; }
+#top #nav {
+	float: right;
+}
+#top #nav ul li{
+	font-size: 14px;
+}
+#top #patient_card, #top #nav {
+	margin: 12px;	
+}
+#top #patient_card #photo {
+	height:46px;
+	width: 46px;
+	display: block-inline;
+	background: #dedede;
+}
+#patient_card #info #dob, #patient_card #info #gender {
+	font-size: 10px;
+	display: inline;
+}
+#patient_card #info #gender {
+	margin-left: 15px;	
 }
 section {	margin: 20px 15px 10px 15px; }
 #search {
@@ -600,6 +633,13 @@ section {	margin: 20px 15px 10px 15px; }
 	background-color: #fff;
 }
 
+#albuterol-parent .sig .sm_num {
+	padding-right: 5px;
+	margin-left: -5px;
+}
+#qvar-parent .sig .per {
+	margin-left: 4px;
+}
 	/* #Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/*.container  { width: 768px; }*/
@@ -611,4 +651,23 @@ section {	margin: 20px 15px 10px 15px; }
 	/* #Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	/*.container { width: 420px; }*/
+}
+.wrapper {
+	background-color: #fff;
+	border: solid 1px #dadada;
+	margin: 6px;
+	-moz-box-shadow:    0px 1px 4px 0px #dadada;
+  	-webkit-box-shadow: 0px 1px 4px 0px #dadada;
+  	box-shadow:         0px 1px 4px 0px #dadada;
+}
+.header {
+	color: #989898;
+	font-size: 12px;
+	margin: 0px 20px 0px 20px;
+}
+.header .welcome {
+	float: left;
+}
+.header .todays_date {
+	float: right;
 }

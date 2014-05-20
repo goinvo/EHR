@@ -43,7 +43,7 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body p{
-		line-height: 24px; }
+		line-height: 26px; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -71,7 +71,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #444;
 		font-family: "Georgia", "Times New Roman", serif;
-		font-weight: normal; }
+		font-weight: normal; 
+		margin-top: 20px;}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 42px; line-height: 50px; margin-bottom: 10px;}
 	h2 { font-size: 32px; line-height: 40px; margin-bottom: 8px; }
@@ -86,9 +87,9 @@
 		margin-top: 14px;
 	}
 
-	p { margin: 0 0 20px 0; line-height: 24px;}
+	p { margin: 0 0 20px 0; line-height: 26px;}
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 24px; color: #999;  }
+	p.lead { font-size: 21px; line-height: 26px; color: #999;  }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; }
@@ -98,7 +99,7 @@
 	.red {color: red;}
 	.dark-grey {color: #999;}
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #999; font-style: italic; }
+	blockquote, blockquote p { font-size: 17px; line-height: 26px; color: #999; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
@@ -135,7 +136,7 @@
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	li { line-height: 24px; margin-bottom: 8px; }
-	ul.large li { line-height: 21px; }
+	ul.large li { line-height: 24px; }
 	li p { line-height: 24px; margin-bottom: 8px;}
 
 /* #Images
@@ -544,15 +545,23 @@
 	/*examples*/
 	.sidebar {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 24px;
-		background: #f9f9f9;
+		/*background: #f9f9f9;
 		padding: 25px 25px 0px 25px;
 		margin: 10px -25px 25px -25px;
 		border: solid #dedede 1px;
 		border-radius: 5px;
-		overflow: hidden;
+		overflow: hidden;*/
+		color: #828282;
+		border-top: solid #dedede 1px;
+		border-bottom: solid #dedede 1px;
 		display: block;
+		margin: 40px;
+		padding: 20px 0px 0px 0px;
+	}
+	.sidebar h5, .sidebar h3{
+		color: #989898;
 	}
 	.sidebar ol {
 		margin-left: 28px;
@@ -663,13 +672,13 @@
 	.med-list-type {
 		display: block;
 	}
-	.scenario p{
+	/*.scenario p{
 		font-style:italic;
 		color: #828282;
 	}
 	.scenario h5 {
 		color: #828282;
-	}
+	}*/
 	.feedback {
 		font-size: 14px;
 		font-weight: normal;
