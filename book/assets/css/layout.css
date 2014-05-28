@@ -545,20 +545,20 @@
 	/*examples*/
 	.sidebar {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 24px;
-		/*background: #f9f9f9;
-		padding: 25px 25px 0px 25px;
+		background: #f9f9f9;
+		/*padding: 25px 25px 0px 25px;
 		margin: 10px -25px 25px -25px;
 		border: solid #dedede 1px;
 		border-radius: 5px;
 		overflow: hidden;*/
 		color: #828282;
-		border-top: solid #dedede 1px;
-		border-bottom: solid #dedede 1px;
+		border-top: solid #6ea5d7 2px;
+		border-bottom: solid #6ea5d7 2px;
 		display: block;
-		margin: 40px;
-		padding: 20px 0px 0px 0px;
+		margin: 40px 80px 40px 80px;
+		padding: 20px 20px 0px 20px;
 	}
 	.sidebar h5, .sidebar h3{
 		color: #989898;
@@ -587,6 +587,7 @@
 		padding-bottom: 5px;
 		margin-bottom: 30px;
 		margin-top: 15px;
+		font-size: 14px;
 	}
 	.sidebar .sidebar-table thead th,
 	.sidebar .sidebar-table tbody td {
@@ -594,6 +595,7 @@
 		border: solid 1px #e7e7e7;
 		padding: 5px;
 		background: #fefefe;
+		vertical-align: middle;
 	}
 	.sidebar .sidebar-table thead th:first-child,
 	.sidebar .sidebar-table tbody td:first-child {
@@ -672,6 +674,15 @@
 	.med-list-type {
 		display: block;
 	}
+	.scenario {
+		font-size: 16px;
+		line-height: 24px;
+		color: #828282;
+		border-top: solid #6ea5d7 2px;
+		border-bottom: solid #6ea5d7 2px;
+		display: block;
+		margin: 40px 80px 40px 80px;
+	}
 	/*.scenario p{
 		font-style:italic;
 		color: #828282;
@@ -714,7 +725,6 @@
 		line-height: 18px;
 		color: #828282;
 	}
-
 	#numeric-strings span.grey {
 		width: 150px;
 	}
@@ -801,6 +811,12 @@
 		nav.main ul li ul.active {
 			display:inline;
 		}
+		.sidebar .sidebar-table {
+			font-size: 12px;
+		}
+		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
+			display: none;
+		}
 	}
 
 	/* #Mobile (Landscape) Design for a width of 480px */
@@ -823,6 +839,15 @@
 		nav.main ul li ul.active {
 			display:inline;
 		}
+		.scenario, .sidebar {
+			margin: 40px 0px 40px 0px;
+		}
+		.sidebar .sidebar-table {
+			font-size: 12px;
+		}
+		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
+			display: none;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -844,6 +869,15 @@
 		}
 		nav.main ul li ul.active {
 			display:inline;
+		}
+		.scenario, .sidebar {
+			margin: 40px 0px 40px 0px;
+		}
+		.sidebar .sidebar-table {
+			font-size: 12px;
+		}
+		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
+			display: none;
 		}
 	}
 

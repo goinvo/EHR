@@ -89,7 +89,6 @@
 						<a class="fancybox" href="./assets/images/examples/medication-list/"><img src="./assets/images/examples/medication-list/" class="scale-with-grid" /></a>
 					</div>-->
 					<p>If the physician enters the exam room half-prepared because of time pressure or information chaos (information overload, underload, or wrong information), then he’ll be struggling to keep listening to the patient’s concerns. Instead, he’ll be searching the EHR trying frantically to fill information gaps. The patient will detect that distraction and may feel disconnected and not heard.</p>
-				
 					<div class="sidebar cf">
 						<p>A number of tasks inform the design of medication list views. Some tasks demand particular features in the Medication List display. The three views we explore (simple list, interactive table, and medication timeline) are well adapted to several of these tasks. Other tasks might require specialized views.</p>
 						<h5>For Prescribers</h5>
@@ -110,21 +109,21 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td><strong>Manage treatment decisions</strong> <br />(see details to guide decisions, but not necessarily actions)</td>
+									<td><strong>Manage treatment decisions</strong> <br /><span>(see details to guide decisions, but not necessarily actions)</span></td>
 									<td>●</td>
 									<td>●</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><strong>Renew medications</strong> <br />(for when to renew and for making adjustments)</td>
+									<td><strong>Renew medications</strong> <br /><span>(for when to renew and for making adjustments)</span></td>
 									<td></td>
 									<td>●</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><strong>Perform medication reconciliation</strong> <br />(comparing two or more lists at transitions of care)</td>
+									<td><strong>Perform medication reconciliation</strong> <br /><span>(comparing two or more lists at transitions of care)</span></td>
 									<td></td>
-									<td>● <br />but see later chapter</td>
+									<td>● <br /><span>but see later chapter</span></td>
 									<td></td>
 								</tr>
 								<tr>
@@ -139,20 +138,20 @@
 										<p>adjustments around procedures (adjustments &amp; temporary meds needed around the time of surgery)</p>
 									</td>
 									<td></td>
-									<td>● <br />if sort by "expected stop date"</td>
+									<td>● <br /><span>if sort by "expected stop date"</span></td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><strong>Recall tried &amp; failed medication courses</strong> <br />(what was effective, what wasn't, and why?)</td>
+									<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(what was effective, what wasn't, and why?)</span></td>
 									<td></td>
 									<td></td>
-									<td>● <br />but only if the details are recorded by the users</td>
+									<td>● <br /><span>but only if the details are recorded by the users</span></td>
 								</tr>
 								<tr>
-									<td><strong>Assess adherence</strong> <br />(are refills on time? are doses taken as planned?)</td>
+									<td><strong>Assess adherence</strong> <br /><span>(are refills on time? are doses taken as planned?)</span></td>
 									<td></td>
 									<td></td>
-									<td>● <br />depends on additional data, such as dispense data or patient reporting</td>
+									<td>● <br /><span>depends on additional data, such as dispense data or patient reporting</span></td>
 								</tr>
 							</tbody>
 						</table>
@@ -177,22 +176,22 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" target="blank">pill organizer</a></strong> <br />(to show which pills go in which slot of those little weekly boxes)</td>
+									<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" target="blank">pill organizer</a></strong> <br /><span>(to show which pills go in which slot of those little weekly boxes)</span></td>
 									<td></td>
-									<td>● <br />barely</td>
+									<td>● <br /><span>barely</span></td>
 								</tr>
 								<tr>
-									<td><strong>Remember daily doses</strong> <br />(reminder for each daily dose, and "less than daily" doses too. Check them off when taken.)</td>
+									<td><strong>Remember daily doses</strong> <br /><span>(reminder for each daily dose, and "less than daily" doses too. Check them off when taken.)</span></td>
 									<td>●</td>
 									<td>●</td>
 								</tr>
 								<tr>
-									<td><strong>Remember pharmacy refills</strong> <br />(for coordinating trips to the pharmacy, and asking the doctor for renewals) <br /><em>Would need data from pharmacy, or from bottle</em></td>
+									<td><strong>Remember pharmacy refills</strong> <br /><span>(for coordinating trips to the pharmacy, and asking the doctor for renewals) <br /><em>Would need data from pharmacy, or from bottle</em></span></td>
 									<td></td>
 									<td>●</td>
 								</tr>
 								<tr>
-									<td><strong>Update list at end of doctor visit</strong> <br />(After all the changes, this is the final list as the patient leaves for home. The EHR or PHR should handle that automatically)</td>
+									<td><strong>Update list at end of doctor visit</strong> <br /><span>(After all the changes, this is the final list as the patient leaves for home. The EHR or PHR should handle that automatically)</span></td>
 									<td></td>
 									<td>●</td>
 								</tr>
