@@ -7,26 +7,14 @@
 	<script type="text/javascript" src="./d3.v3.min.js"></script>
 </head>
 <body>
-	<div class="patient_bar">
-		<div class="container cf">
-			<div class="patient_photo"></div>
-			<div class="patient_info">
-			</div>
-			<div class="patient_contact">
-			</div>
-			<div class="patient_address">
-			</div>
-
-		</div>
-	</div>
-	<div class="menu_bar">
-		<div class="container cf">
-			<div class="actions fleft">
-			</div>
-			<div class="modes fright">
-			</div>
-		</div>
-	</div>
+	<div class = "time-buttons">
+        <ul class = "time-list">
+            <li id = "twoYears" class = "">2 Years</li>
+            <li id = "fiveYears" class = "">5 Years</li>
+            <li id = "sixMonths" class = "">6 Months</li>
+            <li id = "todayButton" class = "">Today</li>
+        </ul>
+    </div>
 			<script>
 			var temp, temp1;
 				function renderTimeLine(){
@@ -754,9 +742,78 @@
 						d3.select(".todayLineText").attr("x", x(currDate) - 38)
 												.attr("width", 10);
 					}
+                    
+                    function timeButtonClicked(d) {
+                        var elem = d3.select(this);
+                        var id = elem.attr("id");
+                        var left = brush.extent()[0];
+                        var right = brush.extent()[1];
+                        
+                        console.log(left);
+                        console.log(right);
+                        
+                        var one_day=1000*60*60*24;
+                        var d1 = left.getTime();
+                        var d2 = right.getTime();
+                        
+                        var diff = (d1-d2)/2;
+                        var centerDate = left.getTime() - diff;
+                        
+                        
+                        
+                        if(elem.attr("class").indexOf("active") >= 0) {
+                            elem.attr("class", "");   
+                        }
+                        else {
+                            d3.selectAll('ul.time-list li').attr("class", "");
+                            elem.attr("class", "active");
+                            switch(id) {
+                                case "twoYears":
+                                    left.setTime(centerDate + (one_day*365));
+                                    right.setTime(centerDate - (one_day*365));
+                                    break;
+                                case "fiveYears":
+                                    left.setTime(centerDate + (one_day*365*2.5));
+                                    right.setTime(centerDate - (one_day*365*2.5));
+                                    break;
+                                case "sixMonths":
+                                    left.setTime(centerDate + (one_day*365/2));
+                                    right.setTime(centerDate - (one_day*365/2));
+                                    break;
+                                case "todayButton":
+                                    console.log("today clicked");
+                                    break;
+                                default:
+                                    console.log("not sure how I got here");
+                            }
+                            var tx1 = x2(right);
+                            var tx2 = x2(left);
+                            if(tx1 < 127) {
+                                tx2 += 127-tx1;
+                                tx1 = 127;
+                            }
+                            if(tx2 > 1120) {
+                                tx1 += 1120-tx2;
+                                tx2 = 1120;
+                            }
+                            console.log("tx1: " + tx1);
+                            console.log("tx2: " + tx2);
+                            d3.select(".extent").attr("x",tx1);
+                            brush.extent([x2.invert(tx1),x2.invert(tx2)]);
+                            x.domain(brush.extent());
+                            brushed();
+                            context.select('g.x.brush').call(brush);
+
+                        }
+               
+            }
+                
+                
+            d3.selectAll('ul.time-list li').on("click", timeButtonClicked);
+  
 			}
                 
-                
+            
 			</script>
 		
 	

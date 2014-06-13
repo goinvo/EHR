@@ -1,3 +1,42 @@
+/* Newly Added by Adam */
+
+div.time-buttons {
+
+}
+
+ul.time-list {
+    margin-left:130px;   
+}
+
+ul.time-list li {
+    display: inline-block; 
+    width: auto;
+    margin-right: 20px;
+    padding: 2px 10px 3px 10px;
+    border-radius: 5px;   
+    color: #434343;
+    cursor: pointer;
+}
+
+ul.time-list li.active {
+    color: #fff;
+    background: #bdbdbd;
+    
+}
+
+body {
+     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;   
+}
+
+
+/* End of New */
+
+
 @import url('../fonts/stylesheet.css');
 /* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
 
@@ -53,7 +92,7 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		margin: 80px 160px 80px 160px;
+		margin: 80px 160px 80px 0px;
 		position: relative;
 		font-size: 12px;
 	}
@@ -303,8 +342,10 @@
 
 /*Timeline*/
 .chart{
-	margin-left:-175px;
-	margin-top:-50px;
+	/* margin-left:-175px; */
+    margin-left:0px;
+	/* margin-top:-50px; */
+    margin-top:0px;
 	width:1170;
 	height:700;
 	overflow-y: scroll;
