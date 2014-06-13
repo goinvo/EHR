@@ -92,7 +92,7 @@ body {
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		margin: 80px 160px 80px 0px;
+		margin: 0px;
 		position: relative;
 		font-size: 12px;
 	}
