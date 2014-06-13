@@ -98,14 +98,13 @@
 				var rDate = new Date();	//Variable to store the right date to set brush extent 
 					
 				var currDate = new Date(2013,8,18); //Stores the current Date		
+                      
                 
-                //updates the left & right date so that Today's Date (currDate)lines up with beginning of the right bar    
-                lDate.setYear(currDate.getFullYear());
-                rDate.setYear(currDate.getFullYear());
-                lDate.setMonth(currDate.getMonth() - 3);
-                rDate.setMonth(currDate.getMonth());
-                lDate.setDate(currDate.getDate() + 14);
-                rDate.setDate(currDate.getDate() + 12);
+                var w1  = 1100 - 960; //calculate offset so that the today line (currDate) is aligned with the scrubber ( 1100 is the width of svg, 960 is the width being shown)
+                rDate = new Date(2013, 11, 30)
+                console.log(rDate);
+                lDate.setTime(rDate.getTime() - (1000*60*60*24*365*2)); //2 years before the right date (note: that multiplication is calculating the # of miliseconds in 2 years (miliseconds in a minute * minutes in an hour * hours in a day...)
+                    
                 
                 //Moves the small today's date line so that it lines up with the large today's date line.
                 //Only works for the date September, 18, 2013
@@ -116,6 +115,7 @@
 				//Setting the domain of the x-axis	
 				x.domain([minDate, maxDate]);
 				x2.domain([minDate, sudoMaxDate]);
+                    
 
 				//Setting the Y-axis 	
 				var y=d3.scale.linear().domain([0, 19]).range([75, h-40]);
