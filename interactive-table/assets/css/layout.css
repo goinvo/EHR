@@ -307,6 +307,13 @@ table.main_table thead{
 	font-size: 10px;
 	color: #a7a7a7;
 	border-bottom: solid 1px #dadada;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	  -moz-user-select: none;     /* Firefox all */
+	  -ms-user-select: none;      /* IE 10+ */
+
+	  /* No support for these yet, use at own risk */
+	  -o-user-select: none;
+	  user-select: none; 
 }
 .drop_arrow{
 	background-image: url(../images/down_arrow.svg);
