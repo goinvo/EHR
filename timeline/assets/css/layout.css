@@ -18,7 +18,7 @@ ul.time-list li {
     cursor: pointer;
 }
 
-ul.time-list li.active {
+ul.time-list li:hover{
     color: #fff;
     background: #bdbdbd;
     
@@ -380,6 +380,10 @@ rect.pane {
 	cursor: move;
 	fill: #fafafa;
 	pointer-events: all;
+}
+
+.brush ellipse {
+    fill: #bdbdbd;
 }
 
 .brush .extent {

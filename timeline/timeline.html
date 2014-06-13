@@ -88,8 +88,8 @@
 						maxDate = enddates[i];
 				}
                     
-                console.log("max date: " + maxDate);
-                console.log("min date: " + minDate);
+                //console.log("max date: " + maxDate);
+                //console.log("min date: " + minDate);
 					
 				minDate = new Date(minDate.getFullYear(),0,1);
 				maxDate = new Date(maxDate.getFullYear()+1,0,1);
@@ -101,8 +101,7 @@
                       
                 
                 var w1  = 1100 - 960; //calculate offset so that the today line (currDate) is aligned with the scrubber ( 1100 is the width of svg, 960 is the width being shown)
-                rDate = new Date(2013, 11, 30)
-                console.log(rDate);
+                rDate = new Date(2013, 11, 30);
                 lDate.setTime(rDate.getTime() - (1000*60*60*24*365*2)); //2 years before the right date (note: that multiplication is calculating the # of miliseconds in 2 years (miliseconds in a minute * minutes in an hour * hours in a day...)
                     
                 
@@ -132,6 +131,7 @@
 							.x(x2)
 							.extent([lDate, rDate])
 							.on("brush", brushed);
+                    
                 
 
 				//Declaring the drag for the scrubber				
@@ -147,6 +147,8 @@
 							.classed("chart", true)
 							.attr("width", w+m[1]+50)
 							.attr("height",h+m[0]+m[2]);
+                    
+                    
 				
 				//Appending a rectangular pane to the chart area	
 				var pane = chart.append("g");
@@ -184,6 +186,8 @@
 						.attr("transform", "translate(-20, "+ (h-25) + ")")
 						.attr("font-size", "15px")
 						.call(xaxis);
+                    
+                    
 
 				//Variable to create the timeline bars 		
 				var medicines=chart.selectAll(".medicineGroup").data(data).enter().append('g').classed("medicineGroup", true)
@@ -452,8 +456,25 @@
 				
 				//Appends a brush over the context region	
 				b = context.append("g")
-						.attr("class", "x brush")
-						.call(brush);
+						.attr("class", "x brush");
+                    
+
+                    
+                    var leftHandle = b.append("svg:ellipse")
+                        .attr("rx", 7)
+                        .attr("ry", 30)
+                        .attr("cx",150)
+                        .attr("cy",25);
+                    
+                    var rightHandle = b.append("svg:ellipse")
+                        .attr("rx", 7)
+                        .attr("ry", 30)
+                        .attr("cx",175)
+                        .attr("cy",25);
+                    
+						b.call(brush);
+                    
+                    
                     
 					b.selectAll("rect")
 						.attr("y", -4)
@@ -463,6 +484,9 @@
 //****************************				    
                     b.selectAll(".resize.e rect").attr("width", 25).attr("x", -10);
                     b.selectAll(".resize.w rect").attr("width", 25).attr("x", -10);
+                    
+                  
+                    
 //*****************************                    
                     
                     
@@ -721,6 +745,12 @@
 					//Allows brushing over the mini timeline and helps selecting a particular
 					//section of the timeline
 					function brushed() {
+                        leftHandle.attr("cx", function() {
+                            return x2(brush.extent()[0]); 
+                        });
+                        rightHandle.attr("cx", function() {
+                            return x2(brush.extent()[1]); 
+                        });
                         
 						x.domain(brush.extent());
 						barGroup.selectAll(".timeBars").attr("x", function(d){return  x(d.startdate);});
@@ -767,6 +797,7 @@
                             elem.attr("class", "active");
                             switch(id) {
                                 case "twoYears":
+                                    d3.select('rect.scrubber').attr("x",960);
                                     left.setTime(centerDate + (one_day*365));
                                     right.setTime(centerDate - (one_day*365));
                                     break;
@@ -775,23 +806,31 @@
                                     right.setTime(centerDate - (one_day*365*2.5));
                                     break;
                                 case "sixMonths":
+                                    d3.select('rect.scrubber').attr("x",960);
                                     left.setTime(centerDate + (one_day*365/2));
                                     right.setTime(centerDate - (one_day*365/2));
                                     break;
                                 case "todayButton":
-                                    var w1  = 1100 - d3.select("rect.scrubber").attr("x"); //calculate offset so that the today line is aligned with the scrubber
-                                    w1 =  x(currDate) + w1;
-                                    left.setTime(x.invert(w1));
-                                    right.setTime(left.getTime() + (diff*2));
+                                    var diff2 = right.getTime() - left.getTime();
+                                    if( diff2 >= 107227274850){ 
+                                        right = x.invert(w);
+                                        left.setTime(right.getTime() + diff2);
+                                        d3.select('rect.scrubber').attr("x", function() {
+                                           return d3.select('line.todayLine').attr("x1"); 
+                                        });
+                                    }
+                                    else {
+                                        var w1  = 1100 - d3.select("rect.scrubber").attr("x"); //calculate offset so that the today line is aligned with the scrubber
+                                        w1 =  x(currDate) + w1;
+                                        left.setTime(x.invert(w1));
+                                        right.setTime(left.getTime() + (diff*2));
+                                    }
                                     break;
                                 default:
                                     console.log("not sure how I got here");
                             }
                             var tx1 = x2(right);
                             var tx2 = x2(left);
-                            if(id == "todayButton") {
-                                //tx2 = tx2 + 10;
-                            }   
                             if(tx1 < 127) {
                                 tx2 += 127-tx1;
                                 tx1 = 127;
@@ -805,7 +844,6 @@
                             x.domain(brush.extent());
                             brushed();
                             context.select('g.x.brush').call(brush);
-
                         }
             }
                 
