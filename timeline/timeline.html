@@ -22,7 +22,7 @@
 					
 				var m = [80, 160, 0, 80]; // top right bottom left
 				var m2 = [570, 160, 20, 80];
-				var	w = 1200 - m[1] - m[3]; // width
+				var	w = 1200 - m[1] - m[3]; // width    
 				var h = 700 - m[0] - m[2]; // height
 				var h2 = 700 - m2[0] - m2[2];
 				
@@ -743,14 +743,14 @@
 												.attr("width", 10);
 					}
                     
+                    //Change brush & update Graph
+                    //Today Button: Moves the brush (while maintaining width) so that the 'today line' aligns with the left edge of the 'scrubber'
+                    //2 Years, 5 Years, & 6 months: Resizes the brush while maintaing the center point
                     function timeButtonClicked(d) {
                         var elem = d3.select(this);
                         var id = elem.attr("id");
                         var left = brush.extent()[0];
                         var right = brush.extent()[1];
-                        
-                        console.log(left);
-                        console.log(right);
                         
                         var one_day=1000*60*60*24;
                         var d1 = left.getTime();
@@ -758,8 +758,6 @@
                         
                         var diff = (d1-d2)/2;
                         var centerDate = left.getTime() - diff;
-                        
-                        
                         
                         if(elem.attr("class").indexOf("active") >= 0) {
                             elem.attr("class", "");   
@@ -781,13 +779,19 @@
                                     right.setTime(centerDate - (one_day*365/2));
                                     break;
                                 case "todayButton":
-                                    console.log("today clicked");
+                                    var w1  = 1100 - d3.select("rect.scrubber").attr("x"); //calculate offset so that the today line is aligned with the scrubber
+                                    w1 =  x(currDate) + w1;
+                                    left.setTime(x.invert(w1));
+                                    right.setTime(left.getTime() + (diff*2));
                                     break;
                                 default:
                                     console.log("not sure how I got here");
                             }
                             var tx1 = x2(right);
                             var tx2 = x2(left);
+                            if(id == "todayButton") {
+                                //tx2 = tx2 + 10;
+                            }   
                             if(tx1 < 127) {
                                 tx2 += 127-tx1;
                                 tx1 = 127;
@@ -796,8 +800,6 @@
                                 tx1 += 1120-tx2;
                                 tx2 = 1120;
                             }
-                            console.log("tx1: " + tx1);
-                            console.log("tx2: " + tx2);
                             d3.select(".extent").attr("x",tx1);
                             brush.extent([x2.invert(tx1),x2.invert(tx2)]);
                             x.domain(brush.extent());
@@ -805,7 +807,6 @@
                             context.select('g.x.brush').call(brush);
 
                         }
-               
             }
                 
                 
