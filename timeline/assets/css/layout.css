@@ -4,28 +4,45 @@ div.time-buttons {
 }
 
 .controls {
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 	border-bottom: solid 1px #dedede;
 	width: 120%;
 }
+.controls div {
+	display: inline-block; 
+}
+ul.action-list, ul.time-list {
+	margin-left: 5px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	  -moz-user-select: none;     /* Firefox all */
+	  -ms-user-select: none;      /* IE 10+ */
 
-ul.time-list {
+	  /* No support for these yet, use at own risk */
+	  -o-user-select: none;
+	  user-select: none;  
 }
 
-ul.time-list li {
+ul.action-list li, ul.time-list li {
     display: inline-block; 
     width: auto;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 2px 10px 3px 10px;
     border-radius: 5px;   
-    color: #434343;
+    color: #989898;
     cursor: pointer;
 }
-
+ul.action-list li a, ul.time-list li a {
+	text-decoration: none;
+	color: #989898;
+}
+ul.action-list li a:hover, 
 ul.time-list li:hover{
+	text-decoration: none;
     color: #fff;
     background: #bdbdbd;
-    
+}
+.controls .actions {
+	border-left: solid 1px #dedede;
 }
 
 body {
@@ -75,7 +92,7 @@ body {
 
 /*Timeline*/
 .chart{
-	margin: 20px 0px 20px 0px;
+	margin: 0 auto;
 	width:1170;
 	height:700;
 	overflow-y: scroll;

@@ -298,6 +298,7 @@
 	display: block;
 	padding: 0;
 	margin: 0;
+	height: 65px;
 }
 #top #task_list ul{
 	display: none;
@@ -389,7 +390,7 @@ section {	margin: 20px 15px 10px 15px; }
 .wrapper {
 	background-color: #fff;
 	border: solid 1px #dadada;
-	margin: 12px 6px 6px 6px;
+	margin: 8px 6px 6px 6px;
 	-moz-box-shadow:    0px 1px 4px 0px #dadada;
   	-webkit-box-shadow: 0px 1px 4px 0px #dadada;
   	box-shadow:         0px 1px 4px 0px #dadada;
@@ -397,7 +398,7 @@ section {	margin: 20px 15px 10px 15px; }
 .header {
 	color: #989898;
 	font-size: 11px;
-	margin: 18px 20px 0px 20px;
+	margin: 10px 20px 0px 20px;
 }
 .header .welcome {
 	float: left;

@@ -1,28 +1,3 @@
-/* Skeleton V1.2 modified by Jen Patel 8/16/2013
-*  Copyright 2011, Dave Gamache
-*  www.getskeleton.com
-*  Free to use under the MIT license.
-*  http://www.opensource.org/licenses/mit-license.php
-*  6/20/2012 */
-
-/* Table of Contents
-  =============================
-	Reset & Basics
-	Typography
-	Links
-	Lists
-	Forms
-	Base 960 Grid
-		Tablet (Portrait)
-		Mobile (Portrait)
-		Mobile (Landscape)
-    Clearing
-	Site Styles
-		#header #footer
-		.nav
-  =============================
-*/
-
 /*Reset & Basics*/
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -135,125 +110,8 @@
 		font-size: 13px;
 		color: #444; }
 
-/*Base 960 Grid
-================================================== */
-.container { position: relative; width: 1080px; margin: 0 auto; padding: 0; margin-top: 20px;}
-.container .column,
-.container .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-.row { margin-bottom: 20px; }
-
-/*Nested Column Classes */
-.column.alpha, .columns.alpha { margin-left: 0; }
-.column.omega, .columns.omega { margin-right: 0; }
-
-/*Base Grid */
-.container .one.column,
-.container .one.columns { width: 40px;  }
-.container .two.columns { width: 100px; }
-.container .three.columns { width: 160px; }
-.container .four.columns { width: 220px; }
-.container .five.columns { width: 280px; }
-.container .six.columns { width: 340px; }
-.container .seven.columns { width: 400px; }
-.container .eight.columns { width: 460px; }
-.container .nine.columns { width: 520px; }
-.container .ten.columns { width: 580px; }
-.container .eleven.columns { width: 640px; }
-.container .twelve.columns { width: 700px; }
-.container .thirteen.columns { width: 760px; }
-.container .fourteen.columns { width: 820px; }
-.container .fifteen.columns { width: 880px; }
-.container .sixteen.columns { width: 1060px; }
-
-.container .one-third.column { width: 348px; }
-.container .two-thirds.column { width: 692px; }
-
-/*Tablet (Portrait) Note: Design for a width of 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container                                  { width: 768px; }
-	.container .column,
-	.container .columns                         { margin-left: 10px; margin-right: 10px;  }
-	.column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
-	.column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
-	.alpha.omega                                { margin-left: 0; margin-right: 0; }
-
-	.container .one.column,
-	.container .one.columns                     { width: 28px; }
-	.container .two.columns                     { width: 76px; }
-	.container .three.columns                   { width: 124px; }
-	.container .four.columns                    { width: 172px; }
-	.container .five.columns                    { width: 220px; }
-	.container .six.columns                     { width: 268px; }
-	.container .seven.columns                   { width: 316px; }
-	.container .eight.columns                   { width: 364px; }
-	.container .nine.columns                    { width: 412px; }
-	.container .ten.columns                     { width: 460px; }
-	.container .eleven.columns                  { width: 508px; }
-	.container .twelve.columns                  { width: 556px; }
-	.container .thirteen.columns                { width: 604px; }
-	.container .fourteen.columns                { width: 652px; }
-	.container .fifteen.columns                 { width: 700px; }
-	.container .sixteen.columns                 { width: 748px; }
-
-	.container .one-third.column                { width: 236px; }
-	.container .two-thirds.column               { width: 492px; }
-}
-/*Mobile (Portrait) Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-	.container { width: 300px; }
-	.container .columns,
-	.container .column { margin: 0; }
-
-	.container .one.column,
-	.container .one.columns,
-	.container .two.columns,
-	.container .three.columns,
-	.container .four.columns,
-	.container .five.columns,
-	.container .six.columns,
-	.container .seven.columns,
-	.container .eight.columns,
-	.container .nine.columns,
-	.container .ten.columns,
-	.container .eleven.columns,
-	.container .twelve.columns,
-	.container .thirteen.columns,
-	.container .fourteen.columns,
-	.container .fifteen.columns,
-	.container .sixteen.columns,
-	.container .one-third.column,
-	.container .two-thirds.column  { width: 300px; }
-}
-/*Mobile (Landscape) Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container { width: 420px; }
-	.container .columns,
-	.container .column { margin: 0; }
-
-	.container .one.column,
-	.container .one.columns,
-	.container .two.columns,
-	.container .three.columns,
-	.container .four.columns,
-	.container .five.columns,
-	.container .six.columns,
-	.container .seven.columns,
-	.container .eight.columns,
-	.container .nine.columns,
-	.container .ten.columns,
-	.container .eleven.columns,
-	.container .twelve.columns,
-	.container .thirteen.columns,
-	.container .fourteen.columns,
-	.container .fifteen.columns,
-	.container .sixteen.columns,
-	.container .one-third.column,
-	.container .two-thirds.column { width: 420px; }
-}
-
 /*Clearing */
-.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix:before, .clearfix:after,
+s.clearfix:before, .clearfix:after,
 .row:before, .row:after {
 	content: '\0020';
 	display: block;
@@ -286,7 +144,7 @@
 /*Site Styles*/
 /*.main_table / .med_table*/
 .interactive_content{
-	margin: 0px 6px 0px 6px;
+	margin: 10px 6px 0px 6px;
 }
 
 #top {
@@ -294,47 +152,21 @@
 	display: block;
 	padding: 0;
 	margin: 0;
+	height: 65px;
 }
 #top #task_list ul{
 	display: none;
 }
-#top div, #controls div { display: inline-block; }
-#controls {
-	margin-left: 5px;
-	-webkit-user-select: none;  /* Chrome all / Safari all */
-	  -moz-user-select: none;     /* Firefox all */
-	  -ms-user-select: none;      /* IE 10+ */
-
-	  /* No support for these yet, use at own risk */
-	  -o-user-select: none;
-	  user-select: none;  
-}
-#controls #actions {
-	margin: 0px 20px 0px 0px;
-}
-#controls ul li {
-	display: inline;
-	font-size: 10px;
-	padding: 2px 7px 3px 7px;
-	cursor: pointer;
-}
+#top div { display: inline-block; }
 #top ul li {
 	display: inline;
 	font-size: 10px;
 	padding: 2px 0px 3px 14px;
-	margin: 0 0px 0 10px;
+	margin: 0 0 0 10px;
 }
-#top ul li a, #controls ul li a{ color: #989898; }
-#top ul li a:hover, , #controls ul li a:hover{ color: #434343; }
 #top ul li.active {
 	font-weight: bold;
 }
-#controls ul li.active {
-	color: #fff;
-	background: #bdbdbd;
-	border-radius:5px;
-}
-#controls ul li.active a{ color: #fff; }
 #top #nav {
 	float: right;
 }
@@ -365,7 +197,7 @@ section {	margin: 20px 15px 10px 15px; }
 .wrapper {
 	background-color: #fff;
 	border: solid 1px #dadada;
-	margin: 12px 6px 6px 6px;
+	margin: 8px 6px 6px 6px;
 	-moz-box-shadow:    0px 1px 4px 0px #dadada;
   	-webkit-box-shadow: 0px 1px 4px 0px #dadada;
   	box-shadow:         0px 1px 4px 0px #dadada;
@@ -373,7 +205,7 @@ section {	margin: 20px 15px 10px 15px; }
 .header {
 	color: #989898;
 	font-size: 11px;
-	margin: 18px 20px 0px 20px;
+	margin: 10px 20px 0px 20px;
 }
 .header .welcome {
 	float: left;
@@ -382,7 +214,7 @@ section {	margin: 20px 15px 10px 15px; }
 	float: right;
 }
 iframe {
-	margin: -60px 0px 40px 0px;
+	margin: 0px 0px 40px 0px;
 	height:800px;
 	width:100%;
 }

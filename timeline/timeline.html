@@ -10,10 +10,15 @@
 	<div class="controls">
 		<div class = "time-buttons">
 			<ul class = "time-list">
-				<li id = "twoYears" class = "">2 Years</li>
-				<li id = "fiveYears" class = "">5 Years</li>
-				<li id = "sixMonths" class = "">6 Months</li>
-				<li id = "todayButton" class = "">Today</li>
+				<li id = "sixMonths" class = "">6 months</li>
+				<li id = "twoYears" class = "">2 years</li>
+				<li id = "fiveYears" class = "">5 years</li>
+				<!--<li id = "todayButton" class = "">today</li>-->
+			</ul>
+		</div>
+		<div class="actions">
+			<ul class="action-list">
+				<li id="reset"><a href="javascript:history.go(0)">reset</a></li>
 			</ul>
 		</div>
 	</div>
@@ -35,7 +40,7 @@
 		var data = [{"label": "insulin glargine", "dates":[{"startdate": new Date(2012,10,19), "enddate": new Date(2013,8,19), "strength": 8, "dosage": 28, "dosage2": "", "dosage3": " u"}]},
 			{"label": "omeprazole", "dates":[{"startdate": new Date(2012,4,19), "enddate": new Date(2013,0,31), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2013,2,07), "enddate": new Date(2013,8,19), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "gabapentin", "dates":[{"startdate": new Date(2012,3,19), "enddate": new Date(2012,8,25), "strength": 1, "dosage": 300, "dosage2": " bid", "dosage3": " mg"}, {"startdate": new Date(2012,8,25), "enddate": new Date(2012,11,28), "strength": 4, "dosage": 300, "dosage2": " tid", "dosage3": " mg"}, {"startdate": new Date(2012,11,28), "enddate": new Date(2013,8,19), "strength": 8, "dosage":600, "dosage2": " bid", "dosage3": " mg"}]},
-			{"label": "zolpidem", "dates":[{"startdate": new Date(2012,2,15), "enddate": new Date(2013,8,22), "strength": 1, "dosage": 5, "dosage2": "", "dosage3": " mg"}]},
+			{"label": "zolpidem", "dates":[{"startdate": new Date(2012,2,15), "enddate": new Date(2013,8,19), "strength": 1, "dosage": 5, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "losartan", "dates":[{"startdate": new Date(2012,2,05), "enddate": new Date(2013,0,30), "strength": 8, "dosage": 50, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2013,0,30), "enddate": new Date(2013,8,19), "strength": 16, "dosage": 100, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "QVAR HFA", "dates":[{"startdate": new Date(2011,1,19), "enddate": new Date(2013,8,19), "strength": 8, "dosage": 40, "dosage2": "", "dosage3": " u"}]},
 			{"label": "prednisone", "dates":[{"startdate": new Date(2010,11,09), "enddate": new Date(2013,8,19), "strength": 16, "dosage": 20, "dosage2": "", "dosage3": " u"}]},
@@ -58,11 +63,11 @@
 			{"label": "lisonopril", "dates":[{"startdate": new Date(2011,8,26), "enddate": new Date(2011,11,12), "strength": 4, "dosage": 10, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2011,11,12), "enddate": new Date(2012,2,05), "strength": 8, "dosage": 20, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "warfarin", "dates":[{"startdate": new Date(2011,4,09), "enddate": new Date(2011,10,11), "strength": 8, "dosage": 7.5, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "trazodone", "dates":[{"startdate": new Date(2011,1,18), "enddate": new Date(2011,4,09), "strength": 1, "dosage": 50, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2011,4,09), "enddate": new Date(2011,7,12), "strength": 4, "dosage": 100, "dosage2": "", "dosage3": " mg"}, {"startdate":new Date(2011,7,12), "enddate": new Date(2011,10,28), "strength": 8, "dosage": 150, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2011,10,28), "enddate": new Date(2012,2,12), "strength": 4, "dosage": 100, "dosage2": "", "dosage3": " mg"}]},
-			{"label": "Lipitor", "dates":[{"startdate": new Date(2008,5,25), "enddate": new Date(2009,6,02), "strength": 1, "dosage": 20, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2009,6,02), "enddate": new Date(2010,2,08), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}]},
 			{"label": "clonazepam", "dates": [{"startdate": new Date(2011,1,04), "enddate": new Date(2013,4,3), "strength": 8, "dosage": 1, "dosage2": " bid", "dosage3": " mg"}]},
 			
 			{"label": "metoprolol", "dates":[{"startdate": new Date(2011,0,19), "enddate": new Date(2013,6,01), "strength": 1, "dosage": 50, "dosage2": "", "dosage3": " mg"}]},
-			{"label": "Norco", "dates":[{"startdate": new Date(2010,6,14), "enddate": new Date(2013,7,14), "strength": 8, "dosage": 325, "dosage2": "", "dosage3": " mg"}]}
+			{"label": "Norco", "dates":[{"startdate": new Date(2010,6,14), "enddate": new Date(2013,7,14), "strength": 8, "dosage": 325, "dosage2": "", "dosage3": " mg"}]},
+			{"label": "Lipitor", "dates":[{"startdate": new Date(2008,5,25), "enddate": new Date(2009,6,02), "strength": 1, "dosage": 20, "dosage2": "", "dosage3": " mg"}, {"startdate": new Date(2009,6,02), "enddate": new Date(2010,2,08), "strength": 16, "dosage": 40, "dosage2": "", "dosage3": " mg"}]}
 			];
 		
 		var x=d3.time.scale().range([126, w + 160]);		//X-axis 
@@ -105,7 +110,7 @@
 			  
 		
 		var w1  = 1100 - 960; //calculate offset so that the today line (currDate) is aligned with the scrubber ( 1100 is the width of svg, 960 is the width being shown)
-		rDate = new Date(2013, 11, 30);
+		rDate = new Date(2014, 0, 15);
 		lDate.setTime(rDate.getTime() - (1000*60*60*24*365*2)); //2 years before the right date (note: that multiplication is calculating the # of miliseconds in 2 years (miliseconds in a minute * minutes in an hour * hours in a day...)
 			
 		
