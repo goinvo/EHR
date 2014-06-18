@@ -25,23 +25,23 @@
 	<![endif]-->
 
 	<script type="text/javascript" language="javascript" class="init">
-		/* Formatting function for row details - modify as you need */
+		/* Formatting function for what to display in row details */
 		function format ( d ) {
 			// `d` is the original data object for the row
 			return '<table cellpadding="5" cellspacing="0" border="0" class="medication-info">'+
-				'<tr>'+
+				'<tr class="status">'+
 					'<td class="label">Status</td>'+
 					'<td>'+d.status+'</td>'+
 				'</tr>'+
-				'<tr>'+
+				'<tr class="instructions">'+
 					'<td class="label">Instructions</td>'+
 					'<td>'+d.instructions+'</td>'+
 				'</tr>'+
-				'<tr>'+
+				'<tr class="primary">'+
 					'<td class="label">Primary Condition</td>'+
 					'<td>'+d.condition+'</td>'+
 				'</tr>'+
-				'<tr>'+
+				'<tr class="secondary">'+
 					'<td class="label">Secondary Condition</td>'+
 					'<td>'+d.secondary_condition+'</td>'+
 				'</tr>'+
@@ -59,10 +59,13 @@
 		$(document).ready(function() {
 			$('.interactive_content').html( '<table cellpadding="0" cellspacing="0" border="0" class="display main_table" id="med_table"></table>' );
  
+			//plug in your own medication list by replacing url in "ajax" call
 			var table = $('#med_table').DataTable( {
 				"ajax": "./data/medications.txt",
 				"paging": false,
 				"info": false,
+				"bJQueryUI": true,
+				"bAutoWidth": false,
 				"columns": [
 					{ "data": "medication",
 						"title": "Medication",
@@ -74,11 +77,11 @@
 					{ "data": "dose",
 						"title": "Dose",
 						"bSortable": false,
-						"sClass": "expand" },
+						"sClass": "expand dose" },
 					{ "data": "frequency",
 						"title": "Frequency",
 						"bSortable": false,
-						"sClass": "expand" },
+						"sClass": "expand sig" },
 					{ "data": "quantity",
 						"title": "Quantity",
 						"bSortable": false,
@@ -93,16 +96,20 @@
 					{ "data": "provider",
 						"title": "Provider",
 						"sClass": "provider" },
-					{ "data": "prescribed",
+					{ "data": {
+							_: "prescribed",
+							sort: "prescribed_val" },
 						"title": "Prescribed",
-						"sClass": "expand" },
+						"sClass": "expand prescribed" },
 					{ "data": "timeline",
 						"title": "<ul><li>2011</li><li>2012</li><li>2013<div class='todaybar'></div></li><li>2014</li></ul>",
 						"bSortable": false,
 						"class": "timeline expand" },
-					{ "data": "renew_date",
+					{ "data": {
+							_: "renew_date",
+							sort: "renew_val" },
 						"title": "Renew By",
-						"sClass": "expand" },
+						"sClass": "expand renew_date" },
 					{ "data": "side_effects",
 						"bSortable": false,
 						"visible": false },
@@ -110,9 +117,7 @@
 						"class":          'details-control',
 						"orderable":      false,
 						"data":           null,
-						"defaultContent": '',
-						"bJQueryUI": true,
-						"info": false
+						"defaultContent": ''
 					}
 
 				],
@@ -133,6 +138,7 @@
 					// Open this row
 					row.child( format(row.data()) ).show();
 					tr.addClass('shown');
+					$('.todaybar').css('height', $('.main_table').height() - 27);
 				}
 			} );
 

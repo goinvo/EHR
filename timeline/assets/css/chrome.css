@@ -1,6 +1,3 @@
-@import url('../fonts/stylesheet.css');
-/* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
-
 /* Skeleton V1.2 modified by Jen Patel 8/16/2013
 *  Copyright 2011, Dave Gamache
 *  www.getskeleton.com
@@ -21,13 +18,8 @@
 		Mobile (Landscape)
     Clearing
 	Site Styles
-		.main_table / #med_table
 		#header #footer
 		.nav
-		.main table
-	Page Styles
-		.med_list
-	Site/Page Media Queries 
   =============================
 */
 
@@ -293,6 +285,10 @@
 
 /*Site Styles*/
 /*.main_table / .med_table*/
+.interactive_content{
+	margin: 0px 6px 0px 6px;
+}
+
 #top {
 	border-bottom: solid 1px #dedede;
 	display: block;
@@ -366,26 +362,6 @@
 	margin-left: 15px;	
 }
 section {	margin: 20px 15px 10px 15px; }
-#search {
-	display: none;
-	margin-left: 12px;
-}
-#search label {
-	background: url('../images/search.png') no-repeat;
-	position: absolute;
-	margin: 8px 0 0 195px;
-	display: block;
-	height: 15px;
-	width: 15px;
-}
-#search input {
-	opacity: .5;
-	z-index: 2;
-}
-#search input:focus {
-	opacity: 1;
-	background-color: #fff;
-}
 .wrapper {
 	background-color: #fff;
 	border: solid 1px #dadada;
@@ -405,258 +381,11 @@ section {	margin: 20px 15px 10px 15px; }
 .header .todays_date {
 	float: right;
 }
-
-.interactive_content{
-	margin: 0px 6px 0px 6px;
+iframe {
+	margin: -60px 0px 40px 0px;
+	height:800px;
+	width:100%;
 }
-table.main_table{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	padding-bottom: 20px;
-}
-table.main_table thead{
-	/*background:#424242;*/
-	font-size: 10px;
-	color: #a7a7a7;
-	border-bottom: solid 1px #dadada;
-}
-.drop_arrow{
-	background-image: url(../images/down_arrow.svg);
-	height: 7px;
-	width: 10px;
-	display: inline-block;
-	background-repeat: no-repeat;
-	vertical-align: top;
-	margin: 12px 18px 0px -6px;
-}
-table.main_table thead tr th{
-	padding: 5px 0 12px 0px;
-	font-weight: normal;
-	text-align: left;
-}
-table.main_table thead tr th:first-child{
-	padding-left: 16px;
-}
-table.main_table thead tr th.sort-col:hover{
-	color: #fff;
-}
-table.main_table tbody tr:first-child td {
-	margin-top:10px;
-}
-table.main_table tbody tr {
-	font-size: 12px;
-	color: #434343;
-	/*background: #fff;*/
-}
-table.main_table tbody tr td {
-	padding: 10px 0 12px 0;
-	/*padding: 11px 8px 9px 10px*/;
-}
-table.main_table tbody tr td:first-child {
-	padding-left: 16px;
-}
-.num{
-	width: 30px;
-	display: inline-block;
-	text-align: right;
-}
-.sm_num{
-	width: 18px;
-	display: inline-block;
-	text-align: right;
-}
-th.sorted-asc, th.sorted-desc { color: #434343; }
-th .arrow{
-	background: url('../images/arrow_inactive.svg') no-repeat;
-	background-repeat: no-repeat;
-	display: inline-block;
-	height: 7px;
-	width: 10px;
-	margin-bottom:-2px;
-	margin-left: 3px;
-}
-th.sorted-asc .arrow { background: url('../images/arrow.svg') no-repeat;}
-th.sorted-desc .arrow { 
-	background: url('../images/arrow.svg') no-repeat;
-	background: transform:rotate(180deg);
-	-moz-transform:rotate(180deg);
-	-ms-transform:rotate(180deg); /* IE 9 */
-	-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */ 
-	margin-bottom: 0px;
-	margin-left: 0px;
-	}
-
-/*Page Styles */
-#med_table .closed { display: none; }
-.sort-key { display: none; }
-th.sortable:hover, td.condition:hover, td.provider:hover { 
-	text-decoration: underline; cursor: pointer; }  
-tr.clicked{ background: #ebebeb; }
-tr td.dose{ min-width: 65px; }
-tr td.sig, tr td.prescribed, tr td.renew_date { min-width: 80px; }
-tr.albuterol_row td.sig .sm_num { padding-right: 5px; margin-left: -4px; }
-tbody tr td .units, tbody tr td .per, tbody tr td.refills { color:#929292; }
-tbody tr td .units, tbody tr td .per { font-size: 10pt; }
-tbody tr.closed td { color: #c5c5c5; }
-tbody tr.closed td .per, tbody tr.closed td .units { color: #c5c5c5; }
-tbody tr td.date{ min-width:86px; }
-thead tr th ul{ margin-bottom: 0; }
-thead tr th ul li{
-	display: inline;
-	line-height: 12px;
-	margin-bottom: 0;
-	margin-left: 10px;
-}
-tbody tr td .month {
-	width: 25px;
-	text-align: center;
-	display: inline-block;
-}
-tbody tr td .year {
-	text-align: left;
-	width: 30px;
-	display: inline-block;
-}
-thead tr th.brand, tbody tr td.brand, thead tr th.sideEffects, tbody tr td.sideEffects {
-	display: none; }
-tbody tr.child {
-	display: none;
-	float: left;
-	background: #5e5e5e;
-}
-td.details-control {
-	background: url('../images/down_arrow.svg') no-repeat bottom center;
-	cursor: pointer;
-	height: 6px;
-	width: 9px;
-	display: inline-block;
-}
-tr.shown td.details-control {
-	background: url('../images/down_arrow.svg') no-repeat top center;
-	background: transform:rotate(180deg);
-	  -moz-transform:rotate(180deg);
-	  -ms-transform:rotate(180deg); /* IE 9 */
-	  -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */ 
-	  margin-bottom: 0px;
-	  margin-left: 0px;
-			}
-tr.shown, table.medication-info {
-	background:#fafafa;
-	width: 101.4%;
-	margin: -9px -25px 0px -16px;
-}
-table.medication-info {
-	z-index: 5;
-	position: relative;
-}
-table.medication-info tr {
-	display: inline-block;
-	padding-left: 16px;
-}
-table.medication-info tr td.label {
-	display: block;
-	color: #c5c5c5;
-	font-size: 10px;
-	margin-left: -16px;
-	margin-bottom: -12px;
-}
-table.medication-info tr td {
-	color: #989898;
-}
-table.medication-info tr.status {
-}
-table.medication-info tr.primary, table.medication-info tr.secondary {
-	width: 10%;
-}
-table.medication-info tr.instructions {
-	width: 15%;
-}
-table.medication-info tr.notes,
-table.medication-info tr.side_effects {
-	width: 25%;
-	line-height: 18px;
-	background:#fafafa;
-}
-
-/*Mini Timeline styles - unfortunately, not dynamic, but hard-coded*/
-thead tr th ul li:first-child{ margin-left: 0px; }
-thead tr th.timeline{ min-width: 140px; }
-thead tr th ul li .todaybar {
-	width: 1px;
-	height: 70%;
-	background: #b3b3b3;
-	position: absolute;
-	margin-left: 100px;
-	margin-top: 10px;
-	z-index: 1;
-}
-tbody tr td.timeline .bar {
-	border-radius: 7px;
-	height: 7px;
-}
-tbody tr td.timeline .bar .max, 
-tbody tr td.timeline .bar .least,
-tbody tr td.timeline .bar .low, 
-tbody tr td.timeline .bar .mid, 
-tbody tr td.timeline .bar .overmax {
-	display: inline-block;
-	height: 7px;
-}
-tbody tr td.timeline .bar.max, tbody tr td.timeline .bar .max{
-	background: #2f2f2f; }
-tbody tr td.timeline .bar.least, tbody tr td.timeline .bar .least{
-	background: #e0e0e0; }
-tbody tr td.timeline .bar.low, tbody tr td.timeline .bar .low{
-	background: #ccc; }
-tbody tr td.timeline .bar.mid, tbody tr td.timeline .bar .mid {
-	background: #8c8c8c; }
-tbody tr td.timeline .bar.overmax, tbody tr td.timeline .bar .overmax {
-	background: #c30000;
-}
-tbody tr td.timeline #albuterol.bar {width: 106px;}
-tbody tr td.timeline #aspirin.bar {width: 100px;}
-tbody tr td.timeline #qvar.bar { width:95px; margin-left:5px; }
-tbody tr td.timeline #bupropion.bar { width: 15px; margin-left:48px;}
-tbody tr td.timeline #bupropion.bar .low { width:5px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #bupropion.bar .mid { width: 10px; margin-left:-4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #carvedilol.bar {width: 116px;}
-tbody tr td.timeline #carvedilol.bar .mid{width:112px; border-radius: 7px; }
-/*tbody tr td.timeline #carvedilol.bar .max{width:102px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}*/
-tbody tr td.timeline #chlorthalidone.bar {width: 100px;}
-tbody tr td.timeline #citalopram.bar {width: 143px;}
-tbody tr td.timeline #citalopram.bar .max{width:11px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #citalopram.bar .mid{width:132px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #esomeprazole.bar {width: 22px; margin-left:19px;}
-tbody tr td.timeline #gabapentin.bar {width: 58px; margin-left:48px;}
-tbody tr td.timeline #gabapentin.bar .least {width: 14px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #gabapentin.bar .low {width: 10px; margin-left: -4px;}
-tbody tr td.timeline #gabapentin.bar .mid {width:34px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #insulin.bar {width: 31px; margin-left: 69px;}
-tbody tr td.timeline #lisinopril.bar  {width: 19px; margin-left: 26px;}
-tbody tr td.timeline #lisinopril.bar .mid {width: 10px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #lisinopril.bar .max {width: 9px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #losartan.bar {width:59px; margin-left:42px;}
-tbody tr td.timeline #losartan.bar .mid {width:33px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #losartan.bar .max { width:26px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #metformin.bar {width: 100px;}
-tbody tr td.timeline #naproxen.bar {width: 100px;}
-tbody tr td.timeline #nitroglycerin.bar {width: 37px; margin-left:56px;}
-tbody tr td.timeline #omeprazole.bar .max {width:29px; margin-left: 52px; border-radius: 7px;}
-tbody tr td.timeline #omeprazole.bar .max2 { width:21px; background: #333333; display: inline-block; height: 7px; border-radius: 7px;}
-tbody tr td.timeline #prednisone.bar {width: 100px;}
-tbody tr td.timeline #simvastatin.bar {width: 102px;}
-tbody tr td.timeline #simvastatin.bar .overmax{width:27px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #simvastatin.bar .max{width: 75px; margin-left: -4px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #terbinafine.bar { width:8px; margin-left:96px;}
-tbody tr td.timeline #trazodone.bar  {width: 40px; margin-left:5px; }
-tbody tr td.timeline #trazodone.bar .least {width: 8px; border-top-left-radius: 7px; border-bottom-left-radius: 7px;}
-tbody tr td.timeline #trazodone.bar .low {width: 10px; margin-left: -4px;}
-tbody tr td.timeline #trazodone.bar .mid {width: 10px; margin-left: -4px;}
-tbody tr td.timeline #trazodone.bar .low2 {width: 12px; margin-left: -4px; background: #808080; display: inline-block; height: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px;}
-tbody tr td.timeline #warfarin.bar { width: 19px; margin-left:13px;}
-tbody tr td.timeline #zolpidem.bar {width:60px; margin-left:47px;}
-
 
 	/* #Tablet (Portrait) Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {

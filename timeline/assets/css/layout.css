@@ -1,11 +1,15 @@
 /* Newly Added by Adam */
 
 div.time-buttons {
+}
 
+.controls {
+	padding-bottom: 15px;
+	border-bottom: solid 1px #dedede;
+	width: 120%;
 }
 
 ul.time-list {
-    margin-left:130px;   
 }
 
 ul.time-list li {
@@ -40,37 +44,6 @@ body {
 @import url('../fonts/stylesheet.css');
 /* 'OpenSansLight', 'OpenSansLightItalic', 'OpenSansRegular', 'OpenSansItalic', 'OpenSansBold', */
 
-
-/* Skeleton V1.2 modified by Jen Patel 8/16/2013
-*  Copyright 2011, Dave Gamache
-*  www.getskeleton.com
-*  Free to use under the MIT license.
-*  http://www.opensource.org/licenses/mit-license.php
-*  6/20/2012 */
-
-/* Table of Contents
-  =============================
-	Reset & Basics
-	Typography
-	Links
-	Lists
-	Forms
-	Base 960 Grid
-		Tablet (Portrait)
-		Mobile (Portrait)
-		Mobile (Landscape)
-    Clearing
-	Site Styles
-		.main_table / .med_table
-		#header #footer
-		.nav
-		.main table
-	Page Styles
-		.med_list
-	Site/Page Media Queries 
-  =============================
-*/
-
 /*Reset & Basics*/
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -96,259 +69,17 @@ body {
 		position: relative;
 		font-size: 12px;
 	}
-
-/*Typography*/
-	h1, h2, h3, h4, h5, h6 {
-		color: #181818;
-		font-weight: normal; 
-	}
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #777; }
-
-	p { margin: 0 0 20px 0; }
-	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
-
-	b {font-family: 'OpenSansBold';}
-	em { font-style: 'OpenSansItalic'; }
-	strong { font-weight: bold; color: #333; }
-	small { font-size: 80%; }
-	.grn_text { color:#82a95c; }
-	.gry_text { color:#b5b5b5; }
-
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
-
-/*Links*/
-	a, a:visited { color: #929292; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #4d4d4d; }
-	p a, p a:visited { line-height: inherit; }
-
-/*Lists*/
-	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
-	ol { list-style: decimal; }
-	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-	ul.square { list-style: square outside; }
-	ul.circle { list-style: circle outside; }
-	ul.disc { list-style: disc outside; }
-	ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
-	ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
-	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
-
-/*Forms*/
-	form { margin-bottom: 20px; }
-	fieldset { margin-bottom: 20px; }
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea,
-	select {
-		border: 1px solid #ccc;
-		padding: 6px 4px;
-		outline: none;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #777;
-		margin: 0;
-		width: 210px;
-		max-width: 100%;
-		display: block;
-		margin-bottom: 20px;
-		background: #fff; }
-	select { padding: 0; }
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	textarea:focus {
-		border: 1px solid #aaa;
-		color: #444;
-		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		box-shadow:  0 0 3px rgba(0,0,0,.2); }
-	textarea { min-height: 60px; }
-	label, legend {
-		display: block;
-		font-weight: bold;
-		font-size: 13px;  }
-	select { width: 220px; }
-	input[type="checkbox"] { display: inline; }
-	label span, legend span {
-		font-weight: normal;
-		font-size: 13px;
-		color: #444; }
-
-/*Base 960 Grid
-================================================== */
-.container { position: relative; width: 1080px; margin: 0 auto; padding: 0; margin-top: 20px;}
-.container .column,
-.container .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-.row { margin-bottom: 20px; }
-
-/*Nested Column Classes */
-.column.alpha, .columns.alpha { margin-left: 0; }
-.column.omega, .columns.omega { margin-right: 0; }
-
-/*Base Grid */
-.container .one.column,
-.container .one.columns { width: 40px;  }
-.container .two.columns { width: 100px; }
-.container .three.columns { width: 160px; }
-.container .four.columns { width: 220px; }
-.container .five.columns { width: 280px; }
-.container .six.columns { width: 340px; }
-.container .seven.columns { width: 400px; }
-.container .eight.columns { width: 460px; }
-.container .nine.columns { width: 520px; }
-.container .ten.columns { width: 580px; }
-.container .eleven.columns { width: 640px; }
-.container .twelve.columns { width: 700px; }
-.container .thirteen.columns { width: 760px; }
-.container .fourteen.columns { width: 820px; }
-.container .fifteen.columns { width: 880px; }
-.container .sixteen.columns { width: 1060px; }
-
-.container .one-third.column { width: 348px; }
-.container .two-thirds.column { width: 692px; }
-
-/*Tablet (Portrait) Note: Design for a width of 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container                                  { width: 768px; }
-	.container .column,
-	.container .columns                         { margin-left: 10px; margin-right: 10px;  }
-	.column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
-	.column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
-	.alpha.omega                                { margin-left: 0; margin-right: 0; }
-
-	.container .one.column,
-	.container .one.columns                     { width: 28px; }
-	.container .two.columns                     { width: 76px; }
-	.container .three.columns                   { width: 124px; }
-	.container .four.columns                    { width: 172px; }
-	.container .five.columns                    { width: 220px; }
-	.container .six.columns                     { width: 268px; }
-	.container .seven.columns                   { width: 316px; }
-	.container .eight.columns                   { width: 364px; }
-	.container .nine.columns                    { width: 412px; }
-	.container .ten.columns                     { width: 460px; }
-	.container .eleven.columns                  { width: 508px; }
-	.container .twelve.columns                  { width: 556px; }
-	.container .thirteen.columns                { width: 604px; }
-	.container .fourteen.columns                { width: 652px; }
-	.container .fifteen.columns                 { width: 700px; }
-	.container .sixteen.columns                 { width: 748px; }
-
-	.container .one-third.column                { width: 236px; }
-	.container .two-thirds.column               { width: 492px; }
-}
-/*Mobile (Portrait) Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-	.container { width: 300px; }
-	.container .columns,
-	.container .column { margin: 0; }
-
-	.container .one.column,
-	.container .one.columns,
-	.container .two.columns,
-	.container .three.columns,
-	.container .four.columns,
-	.container .five.columns,
-	.container .six.columns,
-	.container .seven.columns,
-	.container .eight.columns,
-	.container .nine.columns,
-	.container .ten.columns,
-	.container .eleven.columns,
-	.container .twelve.columns,
-	.container .thirteen.columns,
-	.container .fourteen.columns,
-	.container .fifteen.columns,
-	.container .sixteen.columns,
-	.container .one-third.column,
-	.container .two-thirds.column  { width: 300px; }
-}
-/*Mobile (Landscape) Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container { width: 420px; }
-	.container .columns,
-	.container .column { margin: 0; }
-
-	.container .one.column,
-	.container .one.columns,
-	.container .two.columns,
-	.container .three.columns,
-	.container .four.columns,
-	.container .five.columns,
-	.container .six.columns,
-	.container .seven.columns,
-	.container .eight.columns,
-	.container .nine.columns,
-	.container .ten.columns,
-	.container .eleven.columns,
-	.container .twelve.columns,
-	.container .thirteen.columns,
-	.container .fourteen.columns,
-	.container .fifteen.columns,
-	.container .sixteen.columns,
-	.container .one-third.column,
-	.container .two-thirds.column { width: 420px; }
-}
-
-/*Clearing */
-.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix:before, .clearfix:after,
-.row:before, .row:after {
-	content: '\0020';
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0; }
-.row:after, .clearfix:after { clear: both; }
-.row, .clearfix { zoom: 1; }
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-.fright{
-	float: right;
-	margin: 0 auto;
-}
-.fleft{
-	float: left;
-	margin: 0 auto;
-}
-/*For modern browsers */
-.cf:before, .cf:after { content:""; display:block; }
-.cf:after { clear:both; }
-
-/*Site Styles*/
-
+	
 /*Page styles*/
 
 
 /*Timeline*/
 .chart{
-	/* margin-left:-175px; */
-    margin-left:0px;
-	/* margin-top:-50px; */
-    margin-top:0px;
+	margin: 20px 0px 20px 0px;
 	width:1170;
 	height:700;
 	overflow-y: scroll;
+	display: block;
 	/* overflow: visible; */
 }
 /*Axis*/

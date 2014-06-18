@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title> Timeline </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./assets/css/layout.css">
+	<link rel="stylesheet" href="./assets/css/chrome.css">
+	<script type="text/javascript" src="./d3.v3.min.js"></script>
+</head>
+<body>
+	<div class="header cf">
+		<div class="welcome">
+			<span>Welcome</span>
+		</div>
+		<div class="todays_date">
+			<span>Today, </span><span class="date">18 Sept 2013</span>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<section id="top">
+			<div id="patient_card">
+				<div id="photo">
+				</div>
+				<div id="info">
+					<span id="name">David Lee</span><br/>
+					<span id="dob">22 Feb 1949</span>
+					<span id="gender">Male</span>
+				</div>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="../interactive-table/interactive-table.html">Medication List</a></li>
+					<li><a href="../simple-list/">Simple List</a></li>
+					<li class="active">Timeline</li>
+					<li><a href="../book/medication-list.php#">Back to the Book</a></li>
+					<li><a href="mailto:ehr-all@gmail.com?subject=EHR Medication List Feedback>Feedback">Feedback</a></li>
+				</ul>
+			</div>
+		</section>
+	    <section class="interactive_content">
+	    	<iframe scrolling="no" overflow="visible" src="./timeline.html"></iframe> 
+		</section>
+	</div>
+</body>
+</html>
