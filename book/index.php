@@ -21,26 +21,58 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
-<body>
+<body class="title_page">
 <div class="wrapper">
 	<?php include './header.php'; ?>
 			
 	<div class="container">
-		<div class="sixteen columns" id="toc">
-			<h3>Table of Contents</h3>
-			<ul>
-				<li><span class="ch-num">Chapter 1</span><span><a href="./about-this-book.php">About this Book</a></span></li>
-				<li><span class="ch-num">Chapter 2</span><span><a href="./medication-list.php">Medication List</a></span></li>
-				<li><span class="ch-num">Chapter 3</span><span><a href="./medication-reconciliation.php">Medication Reconciliation</a></span></li>
-				<li><span class="ch-num">Chapter 4</span><span><a href="./allergy-list.php">Allergy List</a></span></li>
-				<li><span class="ch-num">Chapter 5</span><span><a href="./eprescribing.php">ePrescribing</a></span></li>
-				<li><span class="ch-num">Chapter 6</span><span><a href="./drug-alerts.php">Drug Alerts</a></span></li>
-				<li><span class="ch-num">Chapter 7</span><span><a href="./human-factors.php">Human Factors</a></span></li>
-				<li><span class="ch-num">Chapter 8</span><span><a href="./design-principles.php">Design Principles</a></span></li>
-				<li><span class="ch-num">Chapter 9</span><span><a href="./acknowledgements.php">Acknowledgements</a></span></li>
-			</ul>
-			<hr />
+		<!--<div class="sixteen columns">--><div class="two-thirds column">
+			<div id="title">
+				<h2 class="title">Inspired EHRs <br /><span class="sm_title">Designing for Clinicians </span><!--<span class="version">v2, 3-24-2014</span>--></h2>
+				<div class="authors">
+					<p id="lead"><ul>
+						<li><em>by</em></li>
+						<li>Jeff Belden, MD</li>
+						<li>Nathan Lowrance</li>
+						<li>Jennifer Patel</li>
+					</ul></p>
+					<p><ul>
+						<li>Catherine Plaisant, PhD</li>
+						<li>Richelle Koopman, MD</li>
+						<li>Joi Moore, PhD</li>
+						<li>Todd R. Johnson, PhD</li>
+						<li>Shreeya Gangwal</li> 
+						<li>Juhan Sonin</li>
+					</ul></p>
+				</div>
+			</div>
+			<!--<hr />-->
 		</div>
+		<div class="one-third column">
+			<div id="toc">
+				
+				<ul>
+					<li><span class="ch-num"></span><span><a href="./foreword.php">Foreword</a></span></li>
+					<li><span class="ch-num"> 1</span><span><a href="./about-this-book.php">About this Book</a></span></li>
+					<li><span class="ch-num"> 2</span><span><a href="./medication-list.php">Medication List</a></span></li>
+					<li><span class="ch-num"> 3</span><span><a href="./medication-reconciliation.php">Medication Reconciliation</a></span></li>
+					<li><span class="ch-num"> 4</span><span><a href="./allergy-list.php">Allergy List</a></span></li>
+					<li><span class="ch-num"> 5</span><span><a href="./eprescribing.php">ePrescribing</a></span></li>
+					<li><span class="ch-num"> 6</span><span><a href="./drug-alerts.php">Drug Alerts</a></span></li>
+					<li><span class="ch-num"> 7</span><span><a href="./human-factors.php">Human Factors</a></span></li>
+					<li><span class="ch-num"> 8</span><span><a href="./design-principles.php">Design Principles</a></span></li>
+					<li><span class="ch-num"> 9</span><span><a href="./acknowledgements.php">Acknowledgements</a></span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sixteen columns">
+			<hr />
+			<div class="license">
+				<p>&copy; 2014 The Curators of the University of Missouri. All rights reserved.</p>
+				<p>The content of this book and the code of its prototypes is made available under the Apache 2.0 open source license. This license agreement allows anyone to freely use the code and ideas presented in this book, subject to the conditions listed at <a href="http://opensource.org/licenses/Apache-2.0">http://opensource.org/licenses/Apache-2.0</a>.</p>
+			</div>
+		</div>
+		
 	</div>
 </div>
 </body>

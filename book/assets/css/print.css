@@ -1,0 +1,32 @@
+.menu, nav.main, .chapterEnd {
+	display: none;
+}
+
+.header {
+	color: #828282;
+}
+
+a.link:link:after { content: " (" attr(href) ") "; }
+
+.quicktip .qt-content{
+	display: block;
+}
+.quicktip .preview {
+	display: none;
+}
+
+.print-only{ display:inline;}
+
+.cbp-fwslider {
+	overflow: visible;
+}
+.cbp-fwslider nav span.cbp-fwnext, 
+.cbp-fwslider nav span.cbp-fwprev,
+.cbp-fwdots {
+	display:none;
+}
+
+.cbp-fwslider ul li {
+	float: none;
+}
+.page-break	{ display: block; page-break-before: always; }

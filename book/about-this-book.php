@@ -1,3 +1,4 @@
+<?php $pageTitle='About this Book'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -5,12 +6,13 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide</title>
+	<title>EHR Style Guide | <?php echo $pageTitle; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,7 +29,7 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>1</h2>
-					<h2>About this Book</h2>
+					<h2>About This Book</h2>
 				</div>
 			</div>
 		</header>
@@ -37,32 +39,34 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Who should read this book</h3>
-					<p>This book is written for anyone who develops or implements health IT applications, but particularly for electronic health record (EHR) vendor teams. We offer clear explanations with visual and interactive examples designed to illustrate and inspire useful and usable EHR interface design.</p>
+					<h3>Goal</h3>
+					<p>Our goal in writing this book is to <strong>inspire</strong> useful and usable Electronic Health Record (EHR) interface design by providing clinical scenarios and insights with examples of interactive designs, guided by basic design principles.</p>
 
-					<h3>How to use this book</h3>
-					<p>You can read the chapters in any sequence you prefer. We suggest starting with Chapter 2, The Medication List, because the Medication List is fundamental to some of the subsequent chapters in the book. In the final two chapters (Design Principles and Human Factors Principles), you can gain a basic understanding of how the human brain works and review some of the fundamental principles of visual design as they affect your work in software development. We also link to sections of the final two chapters from within the earlier chapters.</p>
+					<h3>Illustrative, Not Prescriptive</h3>
+					<p>While meaningful use criteria influenced the choice of the book topics, we and our sponsors (California HealthCare Foundation and SHARP-C Project) want this book to be clinically relevant, illustrative, and inspirational &emdash;but <strong>not prescriptive</strong>. We hope our design examples will inspire our readers to improve their own EHR designs.</p>
 
-					<h3>What are the elements in the book?</h3>
-					<p>Chapters 2 - 6 present 7 basic elements of EHR functionality (Medication Lists, Medication Allergy Lists, Medication Reconciliation, CPOE, ePrescribing, Clinical Decision Support, and Drug-Drug Interaction and Drug-Allergy Alerts). </p>
-					<p>You can read basic descriptions of safety-related usability issues and guidelines. We focus on usability and how humans see, read, think, pay attention, remember, and decide. We use <strong>clinical scenarios</strong> to bring a human perspective to your understanding, helping you empathize with the user (physician, nurse, or patient) and their struggles. The book is rich with <strong>visual examples</strong> and annotated illustrations (singly or in collections) with examples of not-so-good design, suggested enhancements, and examples you can aspire to. We have also built interactive <strong>prototypes</strong> to let you dynamically explore the interface and clinical data. </p>
+					<h3>Audience</h3>
+					<p>This book is written for <strong>anyone who develops and implements health IT applications</strong>, but particularly for electronic health record (EHR) vendor teams who want to learn more about human factors and design. Designers who want to learn about the needs of EHR users, medical informatics students, and EHR users who want to learn more about design principles might also benefit from reading this book.</p>
 
-					<p>We write in plain language to make this accessible to anyone, but provide deeper dives (Quick Tips) with more technical content for those who wish to learn more. The content is based on solid science of human factors engineering, brain science (cognitive science), learning technology, and data visualization. We offer a few recommended readings at the end.</p>
+					<h3>Focus</h3>
+					<ol>
+						<li><strong>Clinical focus</strong>: This book focuses on <strong>ambulatory adult care</strong>. Our examples especially emphasize the needs of <strong>primary care practitioners</strong>.</li>
+						<li><strong>EHR functionality focus</strong>: Our design examples seek to address five specific areas: <strong>medication list, medication reconciliation, allergy list, e-prescribing and drug alerts.</strong></li> 
+					</ol>
+					<p>We hope that future books will address other clinical needs and the many other elements that EHR designs require to be useful and usable, so they can be carefully implemented and seamlessly integrated into healthcare organizations.</p>
+					
+					<h3>Book Overview</h3>
+					<p>The next five chapters each focus on a specific EHR functionality <strong>(medication list, medication reconciliation, allergy list, e-prescribing and drug alerts)</strong>.  Basic clinical needs and usability issues are discussed, with simple descriptions of how humans typically see, read, pay attention, think, remember, and decide when using EHR user interfaces. </p>
+					<p>Each chapter starts with one or more <strong>clinical scenarios</strong>. This brings a human perspective and will help readers empathize with EHR users and their struggles. Each chapter includes many <strong>design examples</strong>. We present simple examples with <strong>annotated figures</strong> (either single images or galleries showing a series of images). The more elaborate design examples use <strong>interactive prototypes</strong> that give readers a hands-on experience and <strong>video demonstrations</strong>. Finally, each chapter ends with a summary of the important points covered therein.</p>
+					<p>Those five chapters use plain language and are accessible for all readers. In addition they provide <strong>links to related principles</strong> found in last three chapters for the benefit of those who wish to learn more.</p>
+					<p>The book’s last three chapters cover <strong>principles of design, human factors, and Health IT usability</strong>. They aim to provide readers with a basic understanding of relevant information about how the human brain works and fundamental principles of visual design to suggest steps developers can take to create usable user interfaces. The content herein provides an introduction to the subject, but we also offer recommendations for those interested in reading further.</p>
+					<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					
+					<h3>How to Use This Book</h3>
+					<p>This book’s chapters can be read in any order. Nevertheless, we encourage you to read them in the order our layout proposes. Chapter 2 (Medication List), for example, introduces basic concepts that are reused in subsequent chapters.</p>
 
-					<h3>What is a Quick Tip?</h3>
-					<p>Quick Tips are more detailed explanations of important concepts in more technical language, showing additional examples, and sometimes referring to additional learning resources including primary sources. They occur in pop-overs, so readers can easily skip over the content if they only need a more basic understanding of a chapter.</p>
-
-					<h3>How can I give feedback?</h3>
-					<p>In our early drafts, we are asking select volunteer readers to review the book and offer us feedback about what works, what doesn’t work, and what we can do differently to improve the reader’s experience. To be among that group, sign up <a href="https://docs.google.com/forms/d/1Mn_KXhFjRvsG8JkEZOQYKaut63RjBV86U6u_xLgjdzk/viewform" target="blank">here</a>. We’ll invite you to review the next draft and leave comments and suggestions about specific sections or book elements.</p>
-
-					<h3>Where can I find more?</h3>
-					<p>Within the text, we link to other usability resources from the usability and design community at large, and to other resources from the federally-funded <a href="https://sbmi.uth.edu/nccd/" target="blank">SHARP-C</a> project to promote EHR usability.
-					<br/>The most relevant resources are: 
-						<ul>
-							<li><a href="https://sbmi.uth.edu/nccd/SED/Briefs/" target="blank">Safety Enhanced Design Briefs</a></li>
-							<li><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="blank">EHR Usability website</a></li>
-						</ul>
-					</p>
+					<h3>Tell Us What You Think</h3>
+					<p>You can email us at <a href="mailto:feedback@inspiredEHRs.com?Subject=EHR%20feedback" target="_top">feedback@inspiredEHRs.com</a>. We welcome your comments. Please let us know what subjects you would like us to cover next. We will post the helpful examples or insights you send our way to Jeff Belden’s blog at <a href="http://toomanyclicks.com/">TooManyClicks.com</a>.</p>
 
 				</div>
 			</div>
@@ -75,17 +79,17 @@
 						<hr />
 					</div>
 					<div class="cf">
-						<div class="fleft" id="prevCh">
-							<p class="pagination prevCh"><a href="./index.php">Go back to Table of Contents</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./medication-list.php">Continue to Medication List</a></p></div>
+							<p class="pagination next_ch"><a href="./medication-list.php">Medication List<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</section>
-	
-
 </div><!--end wrapper-->
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+
 </body>
 </html>

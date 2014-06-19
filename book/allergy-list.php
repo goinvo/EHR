@@ -1,3 +1,4 @@
+<?php $pageTitle='Allergy List'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -5,7 +6,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide</title>
+	<title>Inspired EHRs | <?php echo $pageTitle; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -331,9 +332,9 @@
 					</div>
 					<div class="cf">
 						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./medication-reconciliation.php">Go back to Medication Reconciliation</a></p></div>
+							<p class="pagination prev_ch"><a href="./medication-reconciliation.php"><span class="prev"></span>Medication Reconciliation</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./eprescribing.php">Continue to ePrescribing</a></p></div>
+							<p class="pagination next_ch"><a href="./eprescribing.php">ePrescribing<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>

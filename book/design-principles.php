@@ -1,3 +1,4 @@
+<?php $pageTitle='Design Principles'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -5,7 +6,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide</title>
+	<title>Inspired EHRs | <?php echo $pageTitle; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -13,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -206,9 +208,9 @@
 					</div>
 					<div class="cf">
 						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./human-factors.php">Back to Human Factors</a></p></div>
+							<p class="pagination prev_ch"><a href="./human-factors.php"><span class="prev"></span> Human Factors</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./acknowledgements.php">Continue to Acknowledgements</a></p></div>
+							<p class="pagination next_ch"><a href="./acknowledgements.php">Acknowledgements<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>
@@ -228,6 +230,39 @@
 		</section>
 	</section>
 
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$( '#cbp-fwslider' ).cbpFWSlider();
+			$( '#cbp-fwslider-2' ).cbpFWSlider();
+			$( '#cbp-fwslider-3' ).cbpFWSlider();
+			$( '#cbp-fwslider-4' ).cbpFWSlider();
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				closeEffect	: 'none',
+				
+				helpers : {
+					title : {
+						type : 'outside'
+					}
+				},
+				
+				afterLoad : function() {
+					if (this.group.length > 1){
+						this.title = (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+					}
+				}
+			});
+		});
+	</script>
+	
 </div><!--end wrapper-->
 </body>
 </html>

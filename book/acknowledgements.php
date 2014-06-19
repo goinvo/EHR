@@ -1,3 +1,4 @@
+<?php $pageTitle='Acknowledgements'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -5,12 +6,13 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide</title>
+	<title>Inspired EHRs | <?php echo $pageTitle; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -193,17 +195,16 @@
 						<hr />
 					</div>
 					<div class="cf">
-						
 						<div class="fleft" id="prevCh">
-							<p class="pagination prevCh"><a href="./design-principles.php">Go back to Design Principles</a></p></div>
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./index.php">Go back to Table of Contents</a></p></div>
+							<p class="pagination prevCh"><a href="./design-principles.php"><span class="prev"></span>Design Principles</a></p></div>		
 					</div>
 				</div>
 			</div>
 		</footer>
 	</section>
 	
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
 
 </div><!--end wrapper-->
 </body>

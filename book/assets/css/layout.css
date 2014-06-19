@@ -81,7 +81,7 @@
 	h5 { font-size: 22px; line-height: 28px; margin-bottom: 22px;}
 	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
 	p.grey {color: #696969;}
-	.subheader { font-style: italic; color: #696969; }
+	.subheader { font-style: italic; color: #828282; }
 	.jarring {color: #cb1484;}
 	p.spacetop {
 		margin-top: 14px;
@@ -104,14 +104,15 @@
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+	.quote_author { float: right; margin-top: 20px;}
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
 /* #Links
 ================================================== */
-	a { color: #3681af; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #444; text-decoration: underline;}
+	.a, a { color: #3681af; text-decoration: none; outline: 0; }
+	.a:hover, a:hover, a:focus { color: #444; text-decoration: underline;}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -150,6 +151,9 @@
 /* #Buttons
 ================================================== */
 
+	a.button {
+		text-decoration: none;
+	}
 	.button,
 	button,
 	input[type="submit"],
@@ -454,17 +458,35 @@
 	}
 	/*Nav*/
 	nav.main {
-		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		
 		font-size: 10px;
-		font-weight: bold;
+		
 		position: fixed;
 		top: 50%;
-		/*left: 50%;*/
 		margin-top: -25em;
-		/*margin-left: -10.5em;*/
 		z-index:1;
 		background: rgba(255,255,255,.6);
 		padding: 0px 0px 0px 20px;
+	}
+	nav.main .ch-num {
+		margin-left: -3px;
+		padding-right: 3px;
+	}
+	nav.main .prev, nav.main .next {
+		display: none;
+		height: 20px; 
+		width: 9px; 
+		margin: 6px 16px 0px 16px;
+		background: url('../images/next.svg') no-repeat;	
+	}
+	nav.main .prev {
+		float: left;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg); /* IE 9 */
+		-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+	}
+	nav.main .next {
+		float: right;	
 	}
 	nav.main ul { margin: 0; padding: 0; list-style: none; }
 	nav.main ul li {
@@ -509,22 +531,20 @@
 	.title, .title .version {
 		display: inline;
 	}
+	h2 .sm_title {
+		font-size: 24px;
+	}
+	.sm_punct {
+		font-size: 9px;
+	}
 	.version {
 		font-size: 14px;
+		color: #828282;
 	}
-	/*Table of Contents*/
-	#toc a {
-		text-decoration: none;
+	.authors {
+		color: #828282;
 	}
-	#toc ul li .ch-num {
-		display: inline;
-		margin-right: 10px;
-		font-size: 14px;
-		color: #b4b4b4;
-	}
-	#toc ul li ul {
-		margin-left: 85px;
-	}
+	
 	/*menu*/
 	.menu {
 		border-bottom: solid 1px #dedede;
@@ -557,8 +577,8 @@
 		border-top: solid #6ea5d7 2px;
 		border-bottom: solid #6ea5d7 2px;
 		display: block;
-		margin: 40px 80px 40px 80px;
-		padding: 20px 20px 0px 20px;
+		margin: 40px 80px 10px 80px;
+		padding: 0px 20px 0px 20px;
 	}
 	.sidebar h5, .sidebar h3{
 		color: #989898;
@@ -619,33 +639,30 @@
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		margin: 20px 0px 20px 0px;
 	}
-	.ex-type {
-		color: #999;
-	}
-	.ex-caption {
-		font-weight: bold;
-	}
-	.example img {
-		margin-top: 10px;
-	}
+	.ex-type { color: #999; font-size: 12px; }
+	.ex-caption { font-weight: bold; }
+	.example img { margin-top: 10px; }
 	.quicktip {
-		padding:25px;
-		border-top: solid 1px #efefef;
-		border-bottom: solid 1px #efefef;
-		margin: 20px 0px 20px 0px;
-	}
-	.quicktip .tip{
-		background: url('../images/qt.png') no-repeat;
-		margin-left: 310px;
-		display: block;
-		height: 75px;
-		width:75px;
-		padding:0px 0px 20px 0px;
+		margin-bottom: 40px;
 		cursor:pointer;
 	}
-	.quicktip .qt-content {
-		margin-left: 148px;
-		width: 436px;
+	.quicktip .tip{
+		background: url('../images/qt.svg') no-repeat;
+		margin-left: 50%;
+		display: block;
+		height: 8px;
+		width:19px;
+	}
+	.quicktip .tip.close {
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg); /* IE 9 */
+		-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+		margin-bottom: 20px;
+	}
+	.quicktip .qt-content{
+		display: none;
+	}
+	.quicktip .preview.hide { /*.elipsis.hide{*/
 		display: none;
 	}
 	.chapterStart {
@@ -661,6 +678,22 @@
 	}
 	#prevCh a, #nextCh a {
 		text-decoration: none;
+	}
+	footer .prev, footer .next {
+		height: 20px; 
+		width: 9px; 
+		margin: 6px 16px 0px 16px;
+		background: url('../images/next.svg') no-repeat;
+		display: block-inline;
+	}
+	footer .next {
+		float: right;
+	}
+	footer .prev {
+		float: left;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg); /* IE 9 */
+		-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
 	}
 	.authors p {
 		line-height: 24px;
@@ -683,6 +716,16 @@
 		display: block;
 		margin: 40px 80px 40px 80px;
 	}
+	.scenario-list tr td{
+		border: solid #dedede 1px;
+		padding: 5px;
+		line-height: 24px;
+		font-size: 14px;
+		margin: 0 -5px 0 -15px;
+	}
+	.scenario-list {
+		margin-bottom: 24px;
+	}
 	/*.scenario p{
 		font-style:italic;
 		color: #828282;
@@ -696,6 +739,55 @@
 		float: right;
 		margin-top: 10px;
 	}
+	.citations  p {
+		font-size: 12px;
+		line-height: 18px;
+		color: #828282;
+	}
+	
+	.print-only, .page-break {display:none;	}
+	
+	
+/* #Page Styles
+================================================== */
+	/*title page*/
+	.title_page .header {
+		margin-top: -1px;
+	}
+	.title_page .header h2, .title_page .header .authors{
+		display: none;
+	}
+	.title_page #title {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.title_page #title .authors ul {
+		list-style: none;
+		line-height:18px;
+	}
+	.license {
+		font-size: 12px;
+	}
+	#toc {
+		margin-top: 124px;
+	}
+	#toc a {
+		text-decoration: none;
+	}
+	#toc ul li .ch-num {
+		display: inline-block;
+		margin-right: 10px;
+		font-size: 14px;
+		color: #b4b4b4;
+		min-width: 10px;
+	}
+	#toc ul li ul {
+		margin-left: 85px;
+	}
+	#toc ul {
+		list-style: none;
+	}
+	/*medication list*/
 	div#jarring-example {
 		/*background: #f9f9f9;
 		padding: 25px 25px 0px 25px;
@@ -703,28 +795,12 @@
 		border: solid #dedede 1px;
 		border-radius: 5px;*/
 	}
-	.quicktip h5 {
-		text-align: center; 
-	}
-	.scenario-list tr td{
-		border: solid #dedede 1px;
-		padding: 5px;
-		line-height: 24px;
-		font-size: 14px;
-		margin: 0 -5px 0 -15px;
-	}
-	.scenario-list {
-		margin-bottom: 24px;
-	}
+	/*medication reconciliation*/
 	video.twinlist {
 		width: 768px;
 		height: 576px;
 	}
-	.citations  p {
-		font-size: 12px;
-		line-height: 18px;
-		color: #828282;
-	}
+	/*human factors*/
 	#numeric-strings span.grey {
 		width: 150px;
 	}
@@ -733,9 +809,6 @@
 	}
 	#numeric-strings .phoneno.last {
 		margin-left: 87px;	
-	}
-	#toc ul {
-		list-style: none;
 	}
 	#acknowledge-ch ul li{
 		list-style: none;
@@ -748,8 +821,6 @@
 	#acknowledge-ch .author {
 		margin-bottom: 40px;
 	}
-/* #Page Styles
-================================================== */
 
 
 /* #Media Queries
@@ -758,6 +829,7 @@
 
 		/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 960px) {
+		.container {border: solid red 1px;}
 		nav.main {
 			position: fixed;
 			background: #fff;
@@ -795,22 +867,50 @@
 		nav.main ul li ul.active {
 			display:inline;
 		}
+		nav.main ul li:not(.active), nav.main ul li ul li {
+			display: none;
+		}
+		nav.main ul li.active a .ch-num {
+			display: none;
+		}
+		nav.main ul li.active a .ch-name {
+			display: inline-block;
+			font-size: 16px;
+			font-family: Georgia;
+			font-weight: normal;
+		}
+		nav.main .prev, nav.main .next {
+			display: inline-block;
+		}	
+		.header {
+			margin-top: 65px;
+		}
 	
 	}
 	
 	/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 767px) {
+		.container {border: solid orange 1px;}
 		.quicktip { width: 300px;}
 		video.twinlist {
 			width: 300px;
 			height: 225px;
 		}
-		nav.main ul li .ch-name{
+		nav.main ul li:not(.active), nav.main ul li ul li {
 			display: none;
 		}
-		nav.main ul li ul.active {
-			display:inline;
+		nav.main ul li.active a .ch-num {
+			display: none;
 		}
+		nav.main ul li.active a .ch-name {
+			display: inline-block;
+			font-size: 16px;
+			font-family: Georgia;
+			font-weight: normal;
+		}
+		nav.main .prev, nav.main .next {
+			display: inline-block;
+		}	
 		.sidebar .sidebar-table {
 			font-size: 12px;
 		}
@@ -821,13 +921,14 @@
 
 	/* #Mobile (Landscape) Design for a width of 480px */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.quicktip { width: 480px;}
-		.quicktip .qt-content {
-			margin-left: -25px;
-			width: 420px;
+		.container {border: solid green 1px;}
+		.header .authors { display: none;}
+		.quicktip { 
+			width: 460px;
+			margin-left: -20px;
 		}
-		.quicktip .tip{
-			margin-left: 145px;
+		.quicktip .qt-content {
+			width: 400px;
 		}
 		video.twinlist {
 			width: 420px;
@@ -852,24 +953,34 @@
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		.quicktip { width: 250px;}
-		.quicktip .qt-content {
-			margin-left: -25px;
-			width: 300px;
+		.container {border: solid blue 1px;}
+		.header .authors { display: none;}
+		.quicktip { 
+			width: 340px;
+			margin-left: -20px;
 		}
-		.quicktip .tip{
-			margin-left: 80px;
+		.quicktip .qt-content {
+			width: 300px;
 		}
 		video.twinlist {
 			width: 300px;
 			height: 225px;
 		}
-		nav.main ul li .ch-name{
+		nav.main ul li:not(.active), nav.main ul li ul li {
 			display: none;
 		}
-		nav.main ul li ul.active {
-			display:inline;
+		nav.main ul li.active a .ch-num {
+			display: none;
 		}
+		nav.main ul li.active a .ch-name {
+			display: inline-block;
+			font-size: 16px;
+			font-family: Georgia;
+			font-weight: normal;
+		}
+		nav.main .prev, nav.main .next {
+			display: inline-block;
+		}		
 		.scenario, .sidebar {
 			margin: 40px 0px 40px 0px;
 		}
@@ -880,22 +991,3 @@
 			display: none;
 		}
 	}
-
-
-/* #Font-Face
-================================================== */
-/* 	This is the proper syntax for an @font-face file
-		Just create a "fonts" folder at the root,
-		copy your FontName into code below and remove
-		comment brackets */
-
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/

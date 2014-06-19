@@ -2,7 +2,7 @@
 	<div class="sixteen columns">
 		<h2 class="title">Inspired EHRs <span class="sm_title">Designing for Clinicians</span><!--<span class="version">v2, 3-24-2014</span>--></h2>
 		<div class="authors">
-			<p>Jeff Belden MD, Jennifer Patel, Richelle Koopman MD, Catherine Plaisant PhD, Joi Moore PhD, Nathan Lowrance, Shreeya Gangwal, Juhan Sonin</p>
+			<p>Jeff Belden, MD, Nathan Lowrance, Jennifer Patel, Catherine Plaisant, PhD, Richelle Koopman, MD, Joi Moore, PhD, Todd R. Johnson, PhD, Shreeya Gangwal, Juhan Sonin</p>
 		</div>
 	</div>
 </div>
@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="sixteen columns">
 			<ul>
-				<li><a href="./index.html">Table of Contents</a></li>
+				<li><a href="./">Table of Contents</a></li>
 				<li><a href="../index.html" target="blank">Interactives</a></li>
 				<li><!--<a href="" target="blank">-->PDF<!--</a>--></li>
 				<li><a href="https://github.com/goinvo/EHR" target="blank">GitHub</a></li>
