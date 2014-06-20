@@ -91,7 +91,7 @@
 							</ul>
 						</div>
 					</div>
-					<h5>We See in Gestalts</h5>
+					<h5 id="gestalts">We See in Gestalts</h5>
 					<p class="spacetop"><strong>Our visual system is wired to perceive whole shapes or gestalts rather than disconnected forms.</strong></p>
 					<p>Gestalt is a German word for form or shape. In English, it refers to wholeness. When you walk into a room, you get an overall sense of what’s going on and the emotional tone of the room. When you view a web page for the first time, you also get a similar overall sense of wholeness about the site: whether it’s appealing, whether it looks modern or out of date, and whether it looks clean or cluttered. Here are some of the elements that add to the overall Gestalt of a design.</p>
 					<h5 id="proximity">Proximity</h5>

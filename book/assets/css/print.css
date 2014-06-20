@@ -1,11 +1,14 @@
-.menu, nav.main, .chapterEnd {
+.header, .menu, nav.main, .chapterEnd {
 	display: none;
 }
-
-.header {
-	color: #828282;
+#toc {
+		margin-top: 124px;
+	}
+#toc a {
+	color: #434343;
 }
-
+hr { color: #ddd; border: none; }
+.subheader { font-style: italic; color: #828282; }
 a.link:link:after { content: " (" attr(href) ") "; }
 
 .quicktip .qt-content{

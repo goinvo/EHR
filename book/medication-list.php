@@ -309,7 +309,7 @@
 							<span class="ex-type">Figure 2.2</span>
 							<span class="ex-caption">Before: Needs improvement</span>
 						</div>
-						<a href="./assets/images/examples/medication-list/SimpleList_Noisy.png" class="fancybox"  data-fancybox-group="gallery">
+						<a href="./assets/images/examples/medication-list/SimpleList_Noisy.png" class="fancybox"  data-fancybox-group="gallery-0">
 							<img src="./assets/images/examples/medication-list/SimpleList_Noisy.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
 					</div>
 				</div>
@@ -319,7 +319,7 @@
 							<span class="ex-type">Figure 2.3</span>
 							<span class="ex-caption">After: We removed the grid to make it less visually noisy. Borders don't add information.</span>
 						</div>
-						<a href="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="fancybox"  data-fancybox-group="gallery">
+						<a href="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="fancybox"  data-fancybox-group="gallery-0">
 							<img src="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="scale-with-grid" alt="Reduce Noise" /></a>
 					</div>
 				</div>

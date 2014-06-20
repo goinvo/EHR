@@ -43,7 +43,7 @@
 					<p>Our goal in writing this book is to <strong>inspire</strong> useful and usable Electronic Health Record (EHR) interface design by providing clinical scenarios and insights with examples of interactive designs, guided by basic design principles.</p>
 
 					<h3>Illustrative, Not Prescriptive</h3>
-					<p>While meaningful use criteria influenced the choice of the book topics, we and our sponsors (California HealthCare Foundation and SHARP-C Project) want this book to be clinically relevant, illustrative, and inspirational &emdash;but <strong>not prescriptive</strong>. We hope our design examples will inspire our readers to improve their own EHR designs.</p>
+					<p>While meaningful use criteria influenced the choice of the book topics, we and our sponsors (California HealthCare Foundation and SHARP-C Project) want this book to be clinically relevant, illustrative, and inspirational &mdash;but <strong>not prescriptive</strong>. We hope our design examples will inspire our readers to improve their own EHR designs.</p>
 
 					<h3>Audience</h3>
 					<p>This book is written for <strong>anyone who develops and implements health IT applications</strong>, but particularly for electronic health record (EHR) vendor teams who want to learn more about human factors and design. Designers who want to learn about the needs of EHR users, medical informatics students, and EHR users who want to learn more about design principles might also benefit from reading this book.</p>

@@ -78,7 +78,7 @@
 	h2 { font-size: 32px; line-height: 40px; margin-bottom: 8px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 22px; }
 	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
-	h5 { font-size: 22px; line-height: 28px; margin-bottom: 22px;}
+	h5 { font-size: 22px; line-height: 28px; margin-bottom: 22px; margin-top:30px;}
 	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
 	p.grey {color: #696969;}
 	.subheader { font-style: italic; color: #828282; }
@@ -106,7 +106,7 @@
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 	.quote_author { float: right; margin-top: 20px;}
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { color: #ddd; border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
 /* #Links
@@ -600,6 +600,7 @@
 	}
 	.sidebar h5 {
 		margin-bottom: 15px;
+		margin-top:15px;
 	}
 	.sidebar .sidebar-table {
 		border: solid 1px #dedede;
@@ -641,6 +642,7 @@
 	}
 	.ex-type { color: #999; font-size: 12px; }
 	.ex-caption { font-weight: bold; }
+	.capt_desc { font-weight: normal; }
 	.example img { margin-top: 10px; }
 	.quicktip {
 		margin-bottom: 40px;
@@ -715,6 +717,13 @@
 		border-bottom: solid #6ea5d7 2px;
 		display: block;
 		margin: 40px 80px 40px 80px;
+		
+	}
+	.scenario h5 {
+		color: #828282;
+	}
+	.scenario p {
+		font-style: italic;
 	}
 	.scenario-list tr td{
 		border: solid #dedede 1px;
@@ -800,6 +809,7 @@
 		width: 768px;
 		height: 576px;
 	}
+	/*allergy list*/
 	/*human factors*/
 	#numeric-strings span.grey {
 		width: 150px;
@@ -829,7 +839,7 @@
 
 		/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 960px) {
-		.container {border: solid red 1px;}
+		/*.container {border: solid red 1px;}*/
 		nav.main {
 			position: fixed;
 			background: #fff;
@@ -890,7 +900,7 @@
 	
 	/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 767px) {
-		.container {border: solid orange 1px;}
+		/*.container {border: solid orange 1px;}*/
 		.quicktip { width: 300px;}
 		video.twinlist {
 			width: 300px;
@@ -921,7 +931,7 @@
 
 	/* #Mobile (Landscape) Design for a width of 480px */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.container {border: solid green 1px;}
+		/*.container {border: solid green 1px;}*/
 		.header .authors { display: none;}
 		.quicktip { 
 			width: 460px;
@@ -953,7 +963,7 @@
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		.container {border: solid blue 1px;}
+		/*.container {border: solid blue 1px;}*/
 		.header .authors { display: none;}
 		.quicktip { 
 			width: 340px;
