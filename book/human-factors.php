@@ -42,7 +42,7 @@
 						<hr/>
 						<h3>How People Perceive</h3>
 					</div>
-					<h5>Our Eyes have Expectations</h5>
+					<h5 id="expectations">Our Eyes have Expectations</h5>
 					<p class="spacetop"><strong>Our eyes are drawn to familiar patterns, we perceive what we know and expect, sometimes in place of what is actually there. </strong></p>
 					<p>What your eyes see is not what your brain interprets. Our brains create shortcuts to help us make sense of the estimated 40 million inputs a second it is trying to make sense of and prioritize. It uses past experiences and associations and rule of thumb to make guesses about what we are seeing. One easy real world example of this is the double take. Everyone has seen something at a glance and thought it was one thing and then focused on it and realized it was actually something else.</p>
 					<p>Due to this natural mental wiring, users come to computers with expectations based on what they have seen before. We all have a mental model of what we expect to see and where we expect to see it. When we scan a screen we look for digestible chunks, familiar things like navigation bars, buttons and logos. We also tend to look at the center of the screen rather than the edges because the edges tend to have things less important to the task at hand like logos and tools, not the core of what we are doing or trying to find.</p>

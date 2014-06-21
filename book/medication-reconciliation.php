@@ -75,33 +75,33 @@
 							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
 							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
 							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
-							  <p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" target="blank">YouTube</a></p>
+							  <p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="blank">YouTube</a></p>
 						</video>
 					</div>
 					<p>If you’d like to explore Twinlist in more detail, try the interactive prototype:</p>
 					<div class="example" id="int-3-1">
 						<div class="ex-title">
-							<span class="ex-type">Interactive Prototype 3.1</span>
+							<span class="ex-type">Interactive 3.1</span>
 							<span class="ex-caption"><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Interactive Demo of Twinlist</a> <span class="print-only a">(http://tinyurl.com/kljlkhs)</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" title="Twinlist Interactive Demo">
 							<img src="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" class="scale-with-grid" /></a>
 					</div>
-					<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment with using <a href="http://tinyurl.com/k5b4kmx" class="link">Twinlist with larger datasets</a>.</p>
+					<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment with using <a href="http://tinyurl.com/k5b4kmx" class="link" target="blank">Twinlist with larger datasets</a>.</p>
 					<p>Here are some of Twinlist’s features that make it an effective interface
 						<ol>
-							<li><a href="./human-factors.php#gestalts">Spatial grouping</a>: the closer things are, the more alike they are</li>
+							<li><a href="./human-factors.php#gestalts">Spatial grouping</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span>: the closer things are, the more alike they are</li>
 							<li>Animation: users can quickly learn how the drugs were grouped.</li>
 							<li>Highlighting: key differences are visible and facilitate decision-making</li>
 							<li>Rapid selection: the largest rectangular buttons that list drug information are easy to click</li>
 						</ol>
 					</p>
 					
-					<p>Let's look through some individual images of Twinlist (Gallery 3.1) to review the details.</p>
+					<p>Let's look through some individual images of Twinlist (<a href="#gal-3-1">Gallery 3.1</a>) to review the details.</p>
 					<div class="example" id="gal-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.1</span>
-							<span class="ex-caption">Design Example (Twinlist): <span class="capt_desc">Medication reconciliation during discharge</span></span>
+							<span class="ex-caption">Twinlist <span class="capt_desc">&mdash; Medication reconciliation during discharge</span></span>
 						</div>
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
@@ -126,7 +126,7 @@
 										<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected"  /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">3.1 e</span> The final reconciled medication list can be reviewed by looking at all the <a href="./design-principles.php#dark-side-of-color">bright green</a> selected drugs, and it’s clear what lists they’ve come from.</div>
+									<div class="caption"><span class="ex-type">3.1 e</span> The final reconciled medication list can be reviewed by looking at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" title="3.1 e The final reconciled medication list can be reviewed by looking at all the bright green selected drugs, and it’s clear what lists they’ve come from." >
 										<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" class="scale-with-grid" alt="The final selection" /></a>
 								</div></li>
@@ -142,8 +142,8 @@
 								<li>An algorithm matches ‘similar’ medications and aligns them on the same horizontal row. This reduces the need for repetitive visual scanning of the two lists.</li>
 								<li>‘Unique’ medications appear in only one column and move to the perimeter of the display.</li>
 							</ol></li>
-							<li>The prototype takes advantage of the way the human brain processes information (specifically “<a href="./human-factors.php#preattentive-attributes">preattentive attributes</a>”) by spatially grouping like items together.<ol>
-								<li>These <a href="./human-factors.php#gestalts">spatial groupings</a> allow physicians to quickly identify the key groups of medications (those which are identical, similar, and unique). The more different two drugs are, the farther apart they appear horizontally. Identical drugs are in the center.</li>
+							<li>The prototype takes advantage of the way the human brain processes information (specifically “<a href="./human-factors.php#preattentive-attributes">preattentive attributes</a>”)<span class="print-only"> (See Preattentive Attributes in the Human Factors chapter)</span> by spatially grouping like items together.<ol>
+								<li>These <a href="./human-factors.php#gestalts">spatial groupings</a><span class="print-only">(See Gestalts in the Human Factors chapter)</span> allow physicians to quickly identify the key groups of medications (those which are identical, similar, and unique). The more different two drugs are, the farther apart they appear horizontally. Identical drugs are in the center.</li>
 								<li>Differences between similar but non-identical medications are highlighted in golden-yellow, which reduces the need for physicians to repeatedly scan, read, and compare the list items.</li>
 							</ol></li>
 							<li>The animation helps users quickly learn and understand the groupings of drugs. As the user grows familiar with the tool, the animation can be sped up or turned off.<ol>
@@ -158,7 +158,7 @@
 							<li>The interface keeps the information users need to make decision visible and minimizes the need for users to rely on their ability to recall off-screen information.</li>
 						</ol>
 
-					<h5>3.1.2 Other considerations</h5>
+					<h5>3.1.2 Other Considerations</h5>
 					<p>Inpatient medication reconciliation also involves adding new drugs, ePrescribing, and generating documentation. It involves conversations with the patient and caregivers, at the time of admission and again at the time of discharge. To successfully reconcile inpatient medication lists physicians must understand two aspects of medication management:
 						<ol>
 							<li>Medication administration<ol>
@@ -209,12 +209,12 @@
 					<div class="example" id="gal-3-2">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.2</span>
-							<span class="ex-caption">Design example: A Patient Reviews Her Medication List</span>
+							<span class="ex-caption">A Patient Reviews Her Medication List</span>
 						</div>
 						<div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption">3.2a The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>.)</div>
+									<div class="caption">3.2a The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>.)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="3.2a The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
 										<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Patients selects that they are taking a medication" title="" /></a>
 								</div></li>
@@ -251,14 +251,14 @@
 						<div class="sidebar cf" id="medication-adherence">
 							<h5>Challenge - Medication Adherence</h5>
 
-							<p class="preview"><h6>The capture of adherence information</h6><p>There are two main ways to capture information about patients medication<span class="elipsis">... <span class="a">Read more</span></span></p>
+							<p class="preview"><strong>The capture of Adherence Information</strong><br /> There are two main ways to capture information about patients medication<span class="elipsis">... <span class="a">Read more</span></span></p>
 							<div class="qt-content show">
-								<h6>The Capture of Adherence Information</h6>
-								<p>There are two main ways to capture information about patients medication adherence (or lack thereof). One is asking patients to provide the information, and the other is tracking information about prescription fills from the e-prescribing network. At the moment, not all pharmacies, pharmacy benefit managers and insurance plans are linked with e-prescribing networks, but even incomplete databases can complement patients’ reports and help draw more accurate pictures of patients’ adherence patterns.</p>
-								<h6>Non-adherence is Widespread</h6>
-								<p> A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so.1 Patients commonly underreport their degree of adherence, as well. Physicians  are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.</p>
-								<h6>Why Patients Stop Taking Their Medication</h6>
-								<p>Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
+								<p><strong>The Capture of Adherence Information</strong>
+								<br />There are two main ways to capture information about patients medication adherence (or lack thereof). One is asking patients to provide the information, and the other is tracking information about prescription fills from the e-prescribing network. At the moment, not all pharmacies, pharmacy benefit managers and insurance plans are linked with e-prescribing networks, but even incomplete databases can complement patients’ reports and help draw more accurate pictures of patients’ adherence patterns.</p>
+								<p><strong>Non-adherence Is Widespread</strong>
+								<br />A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so<span class="superscript">1</span>. Patients commonly underreport their degree of adherence, as well. Physicians are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.</p>
+								<p><strong>Why Patients Stop Taking Their Medication</strong>
+								<br />Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
 									<ol>
 										<li>The patient did not purchase the medication because of it was costly.</li>
 										<li>The patient stopped taking the dedication after experiencing side-effects.</li>
@@ -268,236 +268,93 @@
 										<li>The patient didn’t believe the medication would help them.</li>
 										<li>The patient misunderstood the expected benefits of the medication.</li>
 										<li>The patient didn’t trust the physician who prescribed the medication.</li>
-
+									</ol>
 								</p>
 								<p>Knowing why patients do not take their medication can help physicians make well informed decisions. The physician doesn’t want to increase a patient’s dose of antihypertensive medication if non-adherence is behind uncontrolled blood pressure.</p>
-								<p><a href="./human-factors.php#working-memory" target="blank">Read more in our chapter on Human Factors Principles.</a></p>
 							</div>
 						</div>
 						<div class="tip"></div>
 					</div>
 
-					<p>On paper one could simply cross through the medication name, or mark it with an 'X'. If the list is interactive, then it helps to make the name visibly change when it is being marked as ‘no longer taking'.</p>
+					<h5>3.2.2 After the Patient Annotates Her List, the Physician Reviews It</h5>
+					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations.  Entirely different interfaces are also possible.</p>
+					
 					<div class="example" id="gal-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 3.3</span>
-							<span class="ex-caption">Marking no longer taking</span>
+							<span class="ex-caption">An Annotated List for the Physician to Review</span>
 						</div>
 						<div id="cbp-fwslider-3" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UM_EHR_0003_writing-2.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0003_writing-2.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
+									<div class="caption">3.3 a The list is now sorted according to the answers provided during the review. Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.</div>
+									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" title="3.3 The list is now sorted according to the answers provided during the review. Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.">
+										<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" class="scale-with-grid" alt="" title="" /></a>
 								</div></li>
 								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0009_patient_stepmed_not-taking.png">
-									<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0009_patient_stepmed_not-taking.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
+									<div class="caption">3.3 b The physician can clarify the details during a conversation with the patient, and then edits the comments.</div>
+									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" title="3.3 b The physician can clarify the details during a conversation with the patient, and then edits the comments.">
+										<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" class="scale-with-grid" alt="" title="" /></a>
+								</div></li>
+								<li><div>
+									<div class="caption">3.3 c The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure Betoxolol opthalmic is been moved to the “taking” category.</div>
+									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="3.3 c The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure Betoxolol opthalmic is been moved to the “taking” category.">
+										<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="" title="" /></a>
+								</div></li>
+								<li><div>
+									<div class="caption">3.3 d The physician has the option to confirm the status of all or some of the medications.</div>
+									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/Um_Ehr_MedRec_0002_physician_endlist_annot.png" title="3.3 d The physician has the option to confirm the status of all or some of the medications.">
+										<img src="./assets/images/examples/medication-reconciliation/Um_Ehr_MedRec_0002_physician_endlist_annot.png" class="scale-with-grid" alt="" title="" /></a>
 								</div></li>
 							</ul>
 						</div>
-					</div>
-					<p>Offer the option to give a reason, but don’t require it because the reason might be hard to describe, the patient will want to get through the list quickly, and the wait time for the visit may be very brief. Comment sections should offer the patient a chance to make a note, so they don’t forget the details by the time they talk to the physician. Remember that our brains have limited working memory: we can remember about 3 or 4 items in a 10 to 15 minute time frame.</p>
-					<div class="example" id="gal-3-4">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 3.4</span>
-							<span class="ex-caption">Patient list and writing comments</span>
+					</div> <!-- ed gal 3.3-->
+					<p>The list in Figure 3.3d is the physician’s final review of medication list. Once the physician approves the list by pressing the “Confirm Review” button in the upper right, the EHR updates the medication list in the patient’s record and saves all comments about adherence. The category in which a medication has been placed in the list specifies how the final reconciled medication list is saved in the patient’s record.</p>
+					<table class="sidebar-table" id="patient-adherence">
+						<thead>
+							<tr>
+								<th>Category</th>
+								<th>Consequence</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Not sure</td>
+								<td>Keep the medication in the reconciled list, but mark as “not sure”</td>
+							</tr>
+							<tr>
+								<td>Not taking</td>
+								<td>Remove the medication from the reconciled medication list</td>
+							</tr>
+							<tr>
+								<td>Taking</td>
+								<td>Keep the medication in the reconciled list</td>
+							</tr>
+							<tr>
+								<td>Taking (but annotated as “not taking” or “not taking as prescribed” by the patient)</td>
+								<td>Keep the medication, but preserve the adherence comments from the patient in the record</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>In this design physicians would need to learn the drag and drop functionality (or alternate menu functions and <a href="./human-factors.php#expectations" target="blank">affordances</a><span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> that allow moving medications from one category to another).</p>
+					<p>After the medication reconciliation at the start of the visit, the physician takes further information about the patient medical history, does an examination, makes clinical decisions, and collaborates with the patient to make a plan of action. Their plan might include changing or adding to the patients’ medications.</p>
+					
+					<div class="quicktip" id="uncertainty">
+						<div class="sidebar cf">
+							<h5>Challenge: Capturing and Presenting Uncertainty</h5>
+							<p class="preview">Patients often report uncertainty about their medication list. For instance, patients may not be able to recognize<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
+							<div class="qt-content show">
+								<p>Patients often report uncertainty about their medication list. For instance, patients may not be able to recognize or pronounce the names of medications they've been taking for some time. Some people may refer to medications by intended purposes: "a blood pressure medicine.” Conversations outside the formal office visit (via phone or email) may have conveyed information that didn’t make it to the patient’s record.</p>
+								<p>Medication reconciliation implies certainty: after it's recorded, the data acquires the status of an sure fact. That certainty is not always justified. We need methods to represent uncertainty in these human aspects of technology. An EHR might represent uncertainty by including text comments, or with quantitative measures such as confidence ratings or likelihood algorithms.</p>
+								<hr/>
+								<h5>About Using Pill Pictures to Resolve Uncertainty</h5>
+								<p>Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication lists to have the right images because there may be dozens of potential images for a single medication (153 images for lisinopril on <a href="http://www.drugs.com/imprints.php" class="link" target="blank">drugs.com's pill identifier</a>, and 423 results at <a href="http://pillbox.nlm.nih.gov/pillimage/search.php" target="blank">http://pillbox.nlm.nih.gov</a>). Patients might also confuse similar looking medications and misidentify what they are taking. Still, having access to pictures during the interview process might be helpful for “simpler” medications that have only a limited number of distinct images.</p>
+							</div>
 						</div>
-						<div id="cbp-fwslider-4" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/medication-reconciliation/UM_EHR_0004_comments.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0004_comments.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/medication-reconciliation/UM_EHR_0011_patient_endlist_2.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0011_patient_endlist_2.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-					<div class="sidebar cf">
-						<h5>Medication Adherence - Behind the Scenes</h5>
-						<p><strong>Why patients stop medication</strong></p>
-						<p>Why don’t people just take medications prescribed for them? Sometimes they never filled the prescription. Sometimes they fill it but never take it. Other times they take it for a while and then stop. Why is that?</p>
-						<p>Some common reasons why people don't take their medicine</p>
-							<ol>
-								<li>Cost: coverage, co-pays, or cash out-of-pocket</li>
-								<li>No benefit</li>
-								<li>Side effects</li>
-								<li>Side effects outweight benefit</li>
-								<li>Mistrust in the prescriber</li>
-								<li>Fear of side effects</li>
-								<li>Misunderstanding expected benefits</li>
-							</ol>
-						<p>Knowing the reason for not taking a medication can be helpful in the future for making wise choices (if the medication worked, but was not covered by the insurance plan as opposed to having intolerable side effects.</p>
-						<p><strong>How will the adherence data populate the EHR?</strong></p>
-						<p>There are two means in particular for capturing and recording medication adherence information. One is by asking the patient and recording their response. This is part of outpatient medication reconciliation process. The granularity of the details is fairly limited in most cases. The patient can respond in one of the following ways</p>
-							<ul class="disc">
-								<li>Taking as prescribed</li>
-								<li>Not taking</li>
-								<li>Taking, but not as prescribed</li>
-							</ul>
-						<p>In the ambulatory setting, it would be unusual to capture the date of the last medication dose. It would also not be particularly meaningful, because patient’s may be adjusting their medication dose variably. Some people simply take less medicine in order to make the medications last longer and therefore cost less. In other cases people stop taking the medicine but don’t remember when. It’s also likely that patients are underreporting the degree of nonadherence.</p>
-						<p>The other primary data source would be dispense data reported from ePrescribing hub organizations or pharmacies. We could infer that the patient who had not picked up the medication is probably not taking it. However we cannot safely assume that the patient who picked up the prescription is actually taking the medication.</p>
-					</div>
-					<div class="scenario"><h5>Ambulatory Clinical Scenario #2 - Managing uncertainty</h5>
-						<p>It's now more than a year after the accident. Unfortunately, Mrs. Stanton developed chronic pain, PTSD (post traumatic stress disorder), and depression. Her fractures are well-healed and there are no more planned surgical procedures. However, because of forced inactivity and stress eating, she gained significant weight, developed diabetes and high blood pressure, so her cholesterol targets are more aggressive than they used to be because of the diabetes. She is taking medication for all three of these chronic diseases (diabetes, hypertension, and hyperlipidemia).</p>
-						<p>Her chronic pain is stable, so she hasn’t seen the pain management specialist or the orthopedic surgeon for more than a year. The only physician visits on her calendar are with her primary care doctor.</p>
-						<p>As she looks at the medication list from her primary care physician's electronic health record, she has some uncertainty about its accuracy. She’s also unsure about what she's actually taking at home. Because she was in a hurry to get to the office on time, she unintentionally left her medications and her medication list at home.</p>
-						<p>She is not sure about the citalopram dose. Her physician has it listed as 40 mg daily. She thinks her psychiatrist had adjusted it on the last visit, but that has been some time ago. She isn’t sure whether she’s taking 20 or 40 mg daily.</p>
-						<p>She also has been feeling more sad and had decided to reduce the metoprolol dose on her own, only taking it every other day. She had read on the medication information brochure that metoprolol can cause depression, but she has not yet discussed this decision with her physician.</p>
-						<p>She needs some of her medications renewed, but only the ones that her primary care doctor (Dr. Gray) manages.</p>
-						<p>Here's what the primary care physician's current medication list indicates just before the beginning of the visit.</p>
-						<table class="scenario-list">
-							<tbody>
-								<tr>
-									<td>calcium with vitamin D one tablet twice a day (nonprescription)</td>
-									<td>bone health</td>
-									<td>(OTC)</td>
-								</tr>
-								<tr>
-									<td>celecoxib (Celebrex) 200 mg one capsule twice daily for chronic pain</td>
-									<td>chronic pain</td>
-									<td>Gregory</td>
-								</tr>
-								<tr>
-									<td>citalopram 40 mg daily for depression</td>
-									<td>depression</td>
-									<td>Lucas</td>
-								</tr>
-								<tr>
-									<td>gabapentin (Neurontin) 600 mg one tablet 3 times a day for chronic pain</td>
-									<td>chronic pain</td>
-									<td>Gregory</td>
-								</tr>
-								<tr>
-									<td>hydrochlorothiazide 25 mg one tablet daily to lower cholesterol</td>
-									<td>high blood pressure</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>insulin glargine (Lantus) 24 units at bedtime for diabetes</td>
-									<td>diabetes</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>levothyroxine 125 mcg daily for hypothyroidism</td>
-									<td>Hypothyroidism</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>lisinopril 10 mg daily for high blood pressure</td>
-									<td>high blood pressure</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>metformin 1000 mg one tablet twice a day for diabetes</td>
-									<td>diabetes</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>metoprolol succinate 100 mg daily to prevent migraine</td>
-									<td>migraine, high blood pressure</td>
-									<td>Gray</td>
-								</tr>
-								<tr>
-									<td>multivitamins one tablet daily (nonprescription)</td>
-									<td>(OTC)</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>omeprazole 40 mg daily for esophageal reflux</td>
-									<td>GERD</td>
-									<td>Gray</td>
-								</tr>
-								<tr>	
-									<td>pravastatin 20 mg daily</td>
-									<td>high cholesterol</td>
-									<td>Gray</td>
-								</tr>
-								<tr>	
-									<td>sumatriptan (Imitrex) 100 mg as needed to abort a migraine. May repeat once in 2 hours if headache recurs</td>
-									<td>migraine</td>
-									<td>Gray</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p>In this scenario, we're dealing with quite a few issues:</p>
-						<ul class="disc">
-							<li>uncertainty about the medication list</li>
-							<li>questions about adherence</li>
-							<li>changes the patient made on her own</li>
-							<li>the conversational aspect of medication reconciliation</li>
-							<li>and identifying the prescribing physician when there are several physicians.</li>
-						</ul>
-					<p>This is a lot for the physician and patient to cover, but we’ll explain some background for each issue and, with our design examples, provide tools to help.</p>
-					<h5>Medication adherence</h5>
-						<p>We know that a significant number of patients never fill their prescriptions. In developed countries, it averages 50% for those with chronic diseases. [WHO 2003] Patients commonly underreport their adherence as well. The physician and the forms should use language that is non-judgmental. The goal of this medication reconciliation conversation is to uncover the truth in a nonjudgmental way, allowing the patient and physician to collaboratively align goals and make a plan of care that both can support.</p>
-					<h5>Uncertainty</h5>
-						<p>Patients commonly report uncertainty about their medication list. For instance, patients may not be able to pronounce the name of the medicine or even recognize the name of medicine they've been taking for sometime. Some people may refer to the medication by intended purpose: "a blood pressure medicine.”</p>
-						<p>Transactions that occur outside the office visit may not get updated in electronic health record. For instance a phone call at night might result in a change in medication management, but it may not get documented in the formal medication list of the electronic health record.</p>
-						<p>If patients arrive at an office visit without any reference information such as their medication bottles or a list, then they will be making guesses at the truth from memory. That happens quite often in the authors’ experience.</p>
-					<h5>Conversation</h5>
-						<p>The conversation is an opportunity for the patient and physician to find common ground. It's a chance to clear up misunderstandings and fill in knowledge gaps. Allow the patient to make corrections to the list that will then be reviewed by the physician. The physician may get a deeper understanding of the patient's values, constraints in their life, or other considerations. The patient may get a deeper understanding of the medication’s benefits and risks, allowing a more informed decision about using the medication.</p>
-						<p>The conversation is also a chance for the patient and their physician to develop a common goal. It may not be the patient's desire to achieve a great blood sugar control for their diabetes. However it might be a goal to stop waking up so frequently in the middle of the night to urinate because of high blood sugars.</p>
-						<p>Allow the patient to clearly indicate if they have some uncertainty about a medication. It could be a simple single indicator, or it could be expressed as free text.</p>
-							<ul class="disc">
-								<li>Here are some common reasons for non-adherence:</li>
-								<li>Did not believe it would help</li>
-								<li>Did not purchase</li>
-								<li>Experienced side effects</li>
-								<li>Received no benefit</li>
-								<li>Too expensive to purchase</li>
-								<li>Was afraid of side effects</li>
-							</ul>
-						<p>In addition to non-adherence, there may be straightforward errors in a patient’s medication list. Items might have been added incorrectly in the past, which the patient may recognize clearly as an error (“This entry for insulin is a mistake. It should not be in my record at all. I don’t have diabetes and have never taken insulin.”).</p>
-						<h5>Responsibility and purpose</h5>
-						<p>It's common for patients with multiple chronic illnesses to have three or more physicians providing care for them. Even so, the different specialists may have areas of overlap in their expertise and skills. For instance, it's very common for primary care physicians to manage mental health problems such as depression, anxiety, and insomnia. Those problems would be within the scope of a psychiatrist. By sorting or filtering the list by physician, it’s easier to focus on the appropriate medications, and less likely to overlook a medication.</p>
-					<div class="example" id="gal-3-5">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 3.5</span>
-							<span class="ex-caption">Patient Medications</span>
-						</div>
-						<div id="cbp-fwslider-5" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-5" href="./assets/images/examples/medication-reconciliation/UM_EHR_0002_paper-example-2.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0002_paper-example-2.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-5" href="./assets/images/examples/medication-reconciliation/UM_EHR_0011_patient_endlist_2.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0011_patient_endlist_2.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-					<div class="example" id="gal-3-6">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 3.6</span>
-							<span class="ex-caption">Sort and Filter by Prescriber</span>
-						</div>
-						<div id="cbp-fwslider-6" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-reconciliation/UM_EHR_0012_sorted-by-prescriber.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0012_sorted-by-prescriber.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-reconciliation/UM_EHR_0013_filtered-by-prescriber.png">
-									<img src="./assets/images/examples/medication-reconciliation/UM_EHR_0013_filtered-by-prescriber.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption"></div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
+						<div class="tip"></div>
+					</div>	
+					
+					
 				</div>				
 			</div>
 		</section> <!--end section ambulatory-->
@@ -507,17 +364,23 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Summary</h3>
+						<h3>3.3 Summary</h3>
 					</div>
 					<ol>
-						<li>Interfaces like <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&amp;animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a> can reduce mental effort (cognitive load) by doing algorithmic matching of drugs and highlighting small differences in similar drugs. It also uses the fast thinking of the visual system to convey information very efficiently and precisely. Check out a <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_CONGESTIVE_HEART_FAILURE_1_MODIFIED__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">larger dataset</a>. To learn more about Twinlist visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" target="blank">twinlist website</a>.</li>
-						<li>Keep the presentation to the patient simple and as clear as possible. Use plain language. Add typographic emphasis (bold or larger font) where appropriate.</li>
-						<li>Limit the number of options displayed. Additional options can be hidden by default, and then revealed if needed.</li>
+						<li>Algorithms that <a href="./human-factors.php#gestalts" taret="blank">group or align</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span> drugs to help physicians recognize their similarities and differences reduces cognitive load.</li>
+						<li>Make lists easy to scan visually. Don’t truncate medication names or important details in table views.</li>
+						<li>Add <a href="./human-factors.php#expectations" target="blank">typographic emphasis</a><span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> by using bold or larger font where appropriate.</li>
+						<li>Allow medication sorting and filtering (e.g. by prescriber, by diagnosis or and renewal status)</li>
+						<li>Where possible, display a limited number of options. Reveal further options when necessary.</li>
+						<li>Ask patients simple, clear questions using <a href="./design-principles#terminology" target="blank">plain, non-judgmental language</a><span class="print-only"> (See Terminology in the Design Principles chapter)</span>.</li>
+						<li>Offer patients simple, clear choices of categorizing and documenting their adherence (e.g. Taking as prescribed; Taking, but not as prescribed;  Not taking at all). Include “Other” or “Not sure” options. Provide users with a mean to document uncertainty, and make sure that uncertainty is visible in the review list.</li>
 						<li>Offer cognitive support for adding new medications. Allow for fuzzy misspelling. Suggest appropriate drug names as the patient begins to type.</li>
-						<li>Make the final edited list easy to scan.</li>
-						<li>Offer a few simple choices to document adherence. e.g. Taking as prescribed. Taking, but not as prescribed. Not taking at all. Other category.</li>
-						<li>Allow sorting and filtering by the prescriber, by the diagnosis or clinical reason, and by which medications will need renewal at this visit.</li>
+						<li>Experiment with  innovative methods for capturing uncertainty and improving adherence recording.</li>
 					</ol>
+					<hr />
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					</div>
 				</div>
 			</div>
 		</section><!--end section review-->
@@ -537,6 +400,21 @@
 				</div>
 			</div>
 		</footer>
+
+		<section class="citations">
+			<div class="container">
+				<div class="sixteen columns">
+					<hr />
+					<p>References</p>
+					<div class="section_cite">
+						<ol>
+							<li>Bosworth, Hayden B., Bradi B. Granger, Phil Mendys, Ralph Brindis, Rebecca Burkholder, Susan M. Czajkowski, Jodi G. Daniel, et al. “Medication Adherence: A Call for Action.” <em>American Heart Journal</em> 162, no. 3 (September 2011): 412–24. doi:10.1016/j.ahj.2011.06.007.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</section>
+
 	</section>
 </div><!--end wrapper-->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>

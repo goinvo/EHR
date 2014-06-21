@@ -126,7 +126,7 @@
 	ul.disc { list-style: disc outside; }
 	ol li {
 		line-height: 24px;
-		margin-left: -28px;
+		margin-left: -10px;
 	}
 	ul.disc li {
 		line-height: 24px;
@@ -602,7 +602,7 @@
 		margin-bottom: 15px;
 		margin-top:15px;
 	}
-	.sidebar .sidebar-table {
+	.sidebar-table {
 		border: solid 1px #dedede;
 		margin-left: -5px;
 		padding-bottom: 5px;
@@ -610,31 +610,36 @@
 		margin-top: 15px;
 		font-size: 14px;
 	}
-	.sidebar .sidebar-table thead th,
-	.sidebar .sidebar-table tbody td {
+	.sidebar-table thead th,
+	.sidebar-table tbody td {
 		text-align: center;
 		border: solid 1px #e7e7e7;
 		padding: 5px;
 		background: #fefefe;
 		vertical-align: middle;
+		line-height: 20px;
 	}
-	.sidebar .sidebar-table thead th:first-child,
-	.sidebar .sidebar-table tbody td:first-child {
+	.sidebar-table thead th:first-child,
+	.sidebar-table tbody td:first-child {
 		text-align: left;
 	}
-	.sidebar .sidebar-table thead th.hidden,
-	.sidebar .sidebar-table tbody td.hidden {
+	.sidebar-table thead th.hidden,
+	.sidebar-table tbody td.hidden {
 		border: none;
 	}
-	.sidebar .sidebar-table thead th {
+	.sidebar-table thead th {
 		background: #f3f3f3;
 	}
-	.sidebar .sidebar-table#prescribers thead tr th:not(:first-child),
-	.sidebar .sidebar-table#prescribers tbody tr td:not(:first-child),
-	.sidebar .sidebar-table#patients thead tr th:not(:first-child),
-	.sidebar .sidebar-table#patients tbody tr td:not(:first-child) {
+	.sidebar-table#prescribers thead tr th:not(:first-child),
+	.sidebar-table#prescribers tbody tr td:not(:first-child),
+	.sidebar-table#patients thead tr th:not(:first-child),
+	.sidebar-table#patients tbody tr td:not(:first-child) {
 		width: 80px;
 		background: solid red 1px;
+	}
+	.sidebar-table#patient-adherence thead th,
+	.sidebar-table#patient-adherence tbody td {
+		text-align: left;
 	}
 	.example {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -748,7 +753,12 @@
 		float: right;
 		margin-top: 10px;
 	}
-	.citations  p {
+	.citations p, .citations li {
+		font-size: 12px;
+		line-height: 18px;
+		color: #828282;
+	}
+	.disclaimer {
 		font-size: 12px;
 		line-height: 18px;
 		color: #828282;
