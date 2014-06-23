@@ -52,22 +52,22 @@
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1a</span> A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.</div>
+									<div class="caption"><span class="ex-type">2.1 a</span> A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.</div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" title="A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="scale-with-grid" alt="A simple list" /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1b</span> A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.</div>
+									<div class="caption"><span class="ex-type">2.1 b</span> A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.</div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/SimpleListMobile.png" title="A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/SimpleListMobile.png" class="scale-with-grid" alt="A simple list is good for mobile" /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1c</span> An <strong>interactive list</strong> contains more details about the medications and can help physicians with tasks such as making treatment decisions or e-prescribing.</div>
+									<div class="caption"><span class="ex-type">2.1 c</span> An <strong>interactive list</strong> contains more details about the medications and can help physicians with tasks such as making treatment decisions or e-prescribing.</div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/UM_EHR_0000_table.png" title="An <strong>interactive list</strong> contains more details about the medications and can help physicians  with tasks such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" alt="Interactive medication list" /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1d</span> A <strong>medication timeline</strong> harnesses the power of information visualization and allows physicians to understand changes in medications over time.</div>
+									<div class="caption"><span class="ex-type">2.1 d</span> A <strong>medication timeline</strong> harnesses the power of information visualization and allows physicians to understand changes in medications over time.</div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="A <strong>medication timeline</strong> harnesses the power of information visualization and allows physicians to understand changes in medications over time.">
 										<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Medication timeline" /></a>
 								</div></li>
@@ -160,25 +160,25 @@
 					<div class="example" id="gal-2-2 jarring-example">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 2.2</span>
-							<span class="ex-caption">Adding Emphasis to Text</span>
+							<span class="ex-caption">Making Added Emphasis to Text Just Right</span>
 						</div>
 						<div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.2a</span> Too jarring</div>
-									<p><span class="jarring">lisinopril 20 mg</span> 1 tablet daily</p>
+									<div class="caption"><span class="ex-type">2.2 a</span> Too jarring</div>
+									<div class="ex-item"><p><span class="jarring">lisinopril 20 mg</span> 1 tablet daily</p></div>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.2a</span> Too subtle</div>
-									<p>lisinopril 20 mg <span class="dark-grey darker">1 tablet daily</span></p>
+									<div class="caption"><span class="ex-type">2.2 b</span> Too subtle</div>
+									<div class="ex-item"><p>lisinopril 20 mg <span class="dark-grey darker">1 tablet daily</span></p></div>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.2a</span> Invisible to color-blind users</div>
-									<p><span class="red">lisinopril 20 mg</span> 1 tablet daily</p>
+									<div class="caption"><span class="ex-type">2.2 c</span> Invisible to color-blind users</div>
+									<div class="ex-item"><p><span class="red">lisinopril 20 mg</span> 1 tablet daily</p></div>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.2a</span> Making the visual emphasis just right</div>
-									<p><strong>lisinopril 20 mg</strong> <span class="dark-grey lighter">1 tablet daily</p>
+									<div class="caption"><span class="ex-type">2.2 d</span> Just right</div>
+									<div class="ex-item"><p><strong>lisinopril 20 mg</strong> <span class="dark-grey lighter">1 tablet daily</p></span>
 								</div></li>
 							</ul>
 						</div>
@@ -226,121 +226,6 @@
 				<div class="sixteen columns">
 					<p>Borders don’t add information, and removing grids can make your data less visually noisy (and thus easier to read).</p>
 					<p>Now, let’s move on to the interactive table.</p>
-					<div class="quicktip" id="medication-list-tasks">
-						<div class="sidebar cf">
-							<h5>Different Medication List Designs Address Different Users’ Tasks</h5>
-							<p><span class="a">Read more</span></p>
-							<div class="qt-content show">
-								<p><strong>For Prescribers</strong></p>
-								<table class="sidebar-table" id="prescribers">
-									<thead>
-										<tr>
-											<th>User Tasks</th>
-											<th>Simple List</th>
-											<th>Interactive Table</th>
-											<th>Medication Timeline</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><strong>Scan the list quickly</strong></td>
-											<td>●</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Manage treatment decisions</strong> <br /><span>(see details to guide decisions, but not necessarily actions)</span></td>
-											<td>●</td>
-											<td>●</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Renew medications</strong> <br /><span>(for when to renew and for making adjustments)</span></td>
-											<td></td>
-											<td>●</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Perform medication reconciliation</strong> <br /><span>(comparing two or more lists at transitions of care)</span></td>
-											<td></td>
-											<td>● <br /><span>but see later chapter</span></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Review time course</strong></td>
-											<td></td>
-											<td></td>
-											<td>●</td>
-										</tr>
-										<tr>
-											<td><strong>Manage temporary changes</strong>
-												<p>brief courses (steroid bursts or intermittent treatment such as chemotherapy)</p>
-												<p>adjustments around procedures (adjustments &amp; temporary meds needed around the time of surgery)</p>
-											</td>
-											<td></td>
-											<td>● <br /><span>if sort by "expected stop date"</span></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(what was effective, what wasn't, and why?)</span></td>
-											<td></td>
-											<td></td>
-											<td>● <br /><span>but only if the details are recorded by the users</span></td>
-										</tr>
-										<tr>
-											<td><strong>Assess adherence</strong> <br /><span>(are refills on time? are doses taken as planned?)</span></td>
-											<td></td>
-											<td></td>
-											<td>● <br /><span>depends on additional data, such as dispense data or patient reporting</span></td>
-										</tr>
-									</tbody>
-								</table>
-								<h5>For Patients</h5>
-								<table class="sidebar-table" id="patients">
-									<thead>
-										<tr>
-											<th>User Tasks</th>
-											<th>Simple List</th>
-											<th>Interactive Table</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><strong>Scan or remember the list</strong></td>
-											<td>●</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Share the list with others</strong></td>
-											<td>●</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" class="link" target="blank">pill organizer</a></strong> <br /><span>(to show which pills go in which slot of those little weekly boxes)</span></td>
-											<td></td>
-											<td>● <br /><span>barely</span></td>
-										</tr>
-										<tr>
-											<td><strong>Remember daily doses</strong> <br /><span>(reminder for each daily dose, and "less than daily" doses too. Check them off when taken.)</span></td>
-											<td>●</td>
-											<td>●</td>
-										</tr>
-										<tr>
-											<td><strong>Remember pharmacy refills</strong> <br /><span>(for coordinating trips to the pharmacy, and asking the doctor for renewals) <br /><em>Would need data from pharmacy, or from bottle</em></span></td>
-											<td></td>
-											<td>●</td>
-										</tr>
-										<tr>
-											<td><strong>Update list at end of doctor visit</strong> <br /><span>(After all the changes, this is the final list as the patient leaves for home. The EHR or PHR should handle that automatically)</span></td>
-											<td></td>
-											<td>●</td>
-										</tr>
-									</tbody>
-								</table>
-							</div><!--end qt-content-->
-						</div><!--end sidebar-->
-						<div class="tip"></div>
-					</div><!--end quicktip-->
 				</div>
 			</div>
 		</section> <!--end section simple-list-->
@@ -358,7 +243,7 @@
 					<div class="example" id="int-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.1</span>
-							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Medication List Prototype</a> &mdash; <a href="../interactive-table/interactive-ta</a>b&e.html" target="blank" class="button">Try it out!</a></span>
+							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Medication List Prototype</a> &mdash; <a href="../interactive-table/interactive-table.html" target="blank" class="button">Try it out!</a></span>
 						</div>
 						<a href="../interactive-table/interactive-table.html" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" /></a>
@@ -389,8 +274,7 @@
 						<img src="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" class="scale-with-grid" /></a>
 					</div>
 					<p>You can reduce the risk of error (missing one medication in the list) and decrease required mental effort (<a href="./human-factors.php#cognitive-load" target="blank">cognitive load</a>)<span class="print-only"> (See Cognitive Load in the Human Factors chapter)</span> by using smart design features.</p>
-					<p>In ascending order of complexity, here are some suggestions for improving medication lists:</p>
-					<p>Follow <a href="https://sbmi.uth.edu/dotAsset/3fc9f186-7608-4b57-9ade-64a90e5916e0.pdf" target="blank">Effective Table Design guidelines</a><span class="print-only"> (http://tinyurl.com/puxl2y3)</span>. For example, make sure table headers remain visible all the time and don’t scroll out of view. The most important columns should be on the left (in this case, drug names). Make sure long names (like those of compound drugs) don’t get truncated without leaving some visual indication that this is what happened, and make sure the entire names are quickly accessible. You can read more about table design at the <a href="https://sbmi.uth.edu/nccd/index.htm" target="blank" class="link">SHARP-C website</a>.</p>
+					<p>We have several suggestions for improving medication lists. Follow <a href="https://sbmi.uth.edu/dotAsset/3fc9f186-7608-4b57-9ade-64a90e5916e0.pdf" target="blank">Effective Table Design guidelines</a><span class="print-only"> (http://tinyurl.com/puxl2y3)</span>. For example, make sure table headers remain visible all the time and don’t scroll out of view. The most important columns should be on the left (in this case, drug names). Make sure long names (like those of compound drugs) don’t get truncated without leaving some visual indication that this is what happened, and make sure the entire names are quickly accessible. You can read more about table design at the <a href="https://sbmi.uth.edu/nccd/index.htm" target="blank" class="link">SHARP-C website</a>.</p>
 					<p><strong>Allow users to sort the medication list by associated diagnosis.</strong> Humans’ limited working memory can only hold three to four compound and complex items, like medications with associated strengths and daily dosing instructions, at a given time.</p>
 				
 					<div class="quicktip">
@@ -475,10 +359,10 @@
 					<h3>Try It Out</h3>
 					<p>We’ve made an interactive prototype you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
 					<p>For this prototype, assume “today” is September 18, 2013.</p>
-					<div class="example" id="int-2-1">
+					<div class="example" id="int-2-2">
 						<div class="ex-title">
-							<span class="ex-type">Interactive 2.1</span>
-							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Medication List Prototype</a> &mdash; <a href="../interactive-table/interactive-ta</a>b&e.html" target="blank" class="button">Try it out!</a></span>
+							<span class="ex-type">Interactive 2.2</span>
+							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Medication List Prototype</a> &mdash; <a href="../interactive-table/interactive-table.html" target="blank" class="button">Try it out!</a></span>
 						</div>
 						<a href="../interactive-table/interactive-table.html" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" /></a>
@@ -626,9 +510,9 @@
 					<h5>Try It Out</h5>
 					<p>We’ve made an interactive prototype timeline you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
 					<p>For this prototype, assume "today" is September 18, 2013.</p>
-					<div class="example" id="int-2-2">
+					<div class="example" id="int-2-3">
 						<div class="ex-title">
-							<span class="ex-type">Interactive 2.2</span>
+							<span class="ex-type">Interactive 2.3</span>
 							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="./timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
 						<a href="../timeline/timeline.html" target="blank"><img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
@@ -647,6 +531,129 @@
 					<p>Our timeline doesn’t yet provide all the answers.  We haven’t attempted to address the data needs of complex regimens like chemotherapy, or the variables involved in pediatric dosing. Other clinical tasks really demand a historical view that integrates other clinical data. For example, warfarin anticoagulation management requires details about prior warfarin dose changes, other medication changes, and prothrombin time (also known as protime, or PT or INR) lab results. Insulin management requires physicians to be able to simultaneously view recent blood glucose results, hemoglobin A1c results, diet and activity details, and sometimes other details about exceptions to the patient’s usual condition or activities.</p>
 					<p>A graphical display of laboratory values to accompany the timeline may help physicians even more.  An ideal timeline for cases such as these would allow physicians to see what medication changes, if any, preceded a rise in laboratory markers of liver injury, or how a blood pressure medication affected electrolytes and kidney function.  This type of display could enhance patients’ safety and quality of care by presenting information in a way that makes currently obscure patterns and phenomena crystal clear for the user.</p>
 
+					<div class="quicktip" id="medication-list-tasks">
+						<div class="sidebar cf">
+							<h5>Different Medication List Designs Address Different Users’ Tasks</h5>
+							<p><span class="a">Read more</span></p>
+							<div class="qt-content show">
+								<p><strong>For Prescribers</strong></p>
+								<table class="sidebar-table" id="prescribers">
+									<thead>
+										<tr>
+											<th>User Tasks</th>
+											<th colspan="2">Capabilities</th>
+										</tr>
+										<tr>
+											<th></th>
+											<th>Simple List</th>
+											<th>Interactive Table</th>
+											<th>Medication Timeline</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Scan the list quickly</strong></td>
+											<td>●</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Manage treatment decisions</strong> <br /><span>(big picture overview to guide decisions)</span></td>
+											<td>●</td>
+											<td>●</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Renew medications</strong> <br /><span>(for when to renew and for making adjustments)</span></td>
+											<td></td>
+											<td>●</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Perform medication reconciliation</strong> <br /><span>(comparing two or more lists at transitions of care)</span></td>
+											<td></td>
+											<td>● <br /><span>but see later chapter</span></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Review time course</strong></td>
+											<td></td>
+											<td></td>
+											<td>●</td>
+										</tr>
+										<tr>
+											<td><strong>Manage temporary changes</strong>
+												<p>brief courses (steroid bursts or intermittent treatment such as chemotherapy)</p>
+												<p><strong>adjustments around procedures</strong> (adjustments &amp; temporary meds needed around the time of surgery)</p>
+											</td>
+											<td></td>
+											<td>● <br /><span>if sort by "expected stop date"</span></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(what was effective, what wasn't, and why?)</span></td>
+											<td></td>
+											<td></td>
+											<td>● <br /><span>but only if the details are recorded by the users</span></td>
+										</tr>
+										<tr>
+											<td><strong>Assess adherence</strong> <br /><span>(are refills on time? are doses taken as planned?)</span></td>
+											<td></td>
+											<td></td>
+											<td>● <br /><span>depends on additional data, such as dispense data or patient reporting</span></td>
+										</tr>
+									</tbody>
+								</table>
+								<h5>For Patients</h5>
+								<table class="sidebar-table" id="patients">
+									<thead>
+										<tr>
+											<th>User Tasks</th>
+											<th colspan="2">Capabilities</th>
+										</tr>
+										<tr>
+											<th></th>
+											<th>Simple List</th>
+											<th>Interactive Table</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Scan or remember the list</strong></td>
+											<td>●</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Share the list with others</strong></td>
+											<td>●</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" class="link" target="blank">pill organizer</a></strong> <br /><span>(shows which pills go in which slots of those little weekly boxes)</span></td>
+											<td></td>
+											<td>● <br /><span>barely</span></td>
+										</tr>
+										<tr>
+											<td><strong>Remember daily doses</strong> <br /><span>(Reminds users about daily and less frequent doses, and "less than daily" doses too. Enables users to check items off the list when they’ve  taken them.)</span></td>
+											<td>●</td>
+											<td>●</td>
+										</tr>
+										<tr>
+											<td><strong>Remember pharmacy refills</strong> <br /><span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals.)</span></td>
+											<td></td>
+											<td>● <br /><span>(would need data from pharmacy, or from bottle)</span></td>
+										</tr>
+										<tr>
+											<td><strong>Update list at end of doctor visit</strong> <br /><span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter.)</span></td>
+											<td></td>
+											<td>●</td>
+										</tr>
+									</tbody>
+								</table>
+							</div><!--end qt-content-->
+						</div><!--end sidebar-->
+						<div class="tip"></div>
+					</div><!--end quicktip-->
 					<h5>4.4 Summary</h5>
 						<ol>
 							<li>When designing EHR tools, consider the user and the task they’ll be performing. This will help you decide what functions and details a physician needs when using a particular medication list view.</li>
@@ -689,9 +696,22 @@
 				</div>
 			</div>
 		</footer>
-	</section>
-	
 
+		<section class="citations">
+			<div class="container">
+				<div class="sixteen columns">
+					<hr />
+					<p>References</p>
+					<div class="section_cite">
+						<ol>
+							<li>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</section>
 </div><!--end wrapper-->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>

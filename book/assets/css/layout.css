@@ -840,7 +840,23 @@
 	#acknowledge-ch .author {
 		margin-bottom: 40px;
 	}
+	#jarring-example .cbp-fwslider nav span.cbp-fwprev,
+	#jarring-example .cbp-fwslider nav span.cbp-fwnext {
+		margin-top:-20px;
+		padding-top: 0px;
 
+	}
+	#jarring-example p {
+		border: solid red 1px;
+	}
+	.ex-item {
+		height: 250px;
+		border: solid 1px #dedede;
+		padding: 0px 80px 0px 80px;
+	}
+	.ex-item p {
+		margin-top: 100px;
+	}
 
 /* #Media Queries
 ================================================== */
