@@ -454,7 +454,7 @@
 			</div>
 		</section>
 
-		<section id="">
+		<section id="info_chaos">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">

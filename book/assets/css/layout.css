@@ -133,7 +133,7 @@
 		margin-left: -28px;
 	}
 	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 30px;  }
+	ol ol, ol ul { margin: 4px 0 5px 45px;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	li { line-height: 24px; margin-bottom: 8px; }
@@ -807,12 +807,11 @@
 		list-style: none;
 	}
 	/*medication list*/
-	div#jarring-example {
-		/*background: #f9f9f9;
-		padding: 25px 25px 0px 25px;
-		margin: 10px -26px 25px -26px;
-		border: solid #dedede 1px;
-		border-radius: 5px;*/
+	.dark-grey.darker {
+		color: #787878;	
+	}
+	.dark-grey.lighter {
+		color: #b3b3b3;	
 	}
 	/*medication reconciliation*/
 	video.twinlist {
