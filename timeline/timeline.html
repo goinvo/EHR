@@ -1,3 +1,4 @@
+<!--edits by Adam M. Pere-->
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -97,9 +98,6 @@
 				maxDate = enddates[i];
 		}
 			
-		//console.log("max date: " + maxDate);
-		//console.log("min date: " + minDate);
-			
 		minDate = new Date(minDate.getFullYear(),0,1);
 		maxDate = new Date(maxDate.getFullYear()+1,0,1);
 			
@@ -111,7 +109,7 @@
 		
 		var w1  = 1100 - 960; //calculate offset so that the today line (currDate) is aligned with the scrubber ( 1100 is the width of svg, 960 is the width being shown)
 		rDate = new Date(2014, 0, 15);
-		lDate.setTime(rDate.getTime() - (1000*60*60*24*365*2)); //2 years before the right date (note: that multiplication is calculating the # of miliseconds in 2 years (miliseconds in a minute * minutes in an hour * hours in a day...)
+		lDate.setTime(rDate.getTime() - (1000*60*60*24*365*2)); //2 years before the right date (note: that multiplication is calculating the # of miliseconds in 2 years 
 			
 		
 		//Moves the small today's date line so that it lines up with the large today's date line.
@@ -306,7 +304,7 @@
 		//Creates the draggable rectangle
 		scrubber.append("rect")
 			.attr("class", "scrubber")
-			.attr("x", w)
+			.attr("x", w- 22)
 			.attr("width", "1000px")
 			.attr("y", 55)
 			.attr("height", h-80)
@@ -317,7 +315,7 @@
 			.attr("stroke-width", 1)
 			.attr("stroke-dasharray", [0, 800+(h-80)+800,h-80])
 			.call(drag);
-		
+            
 		//Appends text over the scrubber and initially makes them invisible	
 		medicines.each(function(d, i){
 			scrubDisplay = scrubber.append("g")
@@ -466,38 +464,27 @@
 		//Appends a brush over the context region	
 		b = context.append("g")
 				.attr("class", "x brush");
+		
+        //Adding visible left and right circle handles    
+        var leftHandle = b.append("svg:circle")
+			.attr("r", 7)
+            .attr("cx",150)
+			.attr("cy",25);
 			
-
+        var rightHandle = b.append("svg:circle")
+			.attr("r", 7)
+			.attr("cx",175)
+			.attr("cy",25);
+		
+        //makes sure that draging the circles (handles) calls the brush function... otherwise dragging is broken in that region.    
+        b.call(brush);
 			
-			var leftHandle = b.append("svg:ellipse")
-				.attr("rx", 7)
-				.attr("ry", 30)
-				.attr("cx",150)
-				.attr("cy",25);
-			
-			var rightHandle = b.append("svg:ellipse")
-				.attr("rx", 7)
-				.attr("ry", 30)
-				.attr("cx",175)
-				.attr("cy",25);
-			
-				b.call(brush);
-			
-			
-			
-			b.selectAll("rect")
-				.attr("y", -4)
-				.attr("height", 58);
-
-// Add handles to the brush... append a shape to .resize                   
-//****************************				    
-			b.selectAll(".resize.e rect").attr("width", 25).attr("x", -10);
-			b.selectAll(".resize.w rect").attr("width", 25).attr("x", -10);
-			
-		  
-			
-//*****************************                    
-			
+        b.selectAll("rect")
+			.attr("y", -4)
+			.attr("height", 58);
+            
+		b.selectAll(".resize.e rect").attr("width", 25).attr("x", -5);
+		b.selectAll(".resize.w rect").attr("width", 25).attr("x", -5);
 			
 		chart.append("rect")
 			.attr("x", 1119)
@@ -606,7 +593,6 @@
 		//Changes the color of the yAxis labels based on the bars selected by the scrubber to
 		//indicate active and inactive medicines.
 		function updateYLabels(){
-
 			var scrubberArray=[];				
 			scrubberArray=scrubber.selectAll(".displayLabel")[0]; //Adds the bars selected by the scrubber to this array
 
@@ -755,10 +741,10 @@
 			//section of the timeline
 			function brushed() {
 				leftHandle.attr("cx", function() {
-					return x2(brush.extent()[0]); 
+					return x2(brush.extent()[0]) + 1; 
 				});
 				rightHandle.attr("cx", function() {
-					return x2(brush.extent()[1]); 
+					return x2(brush.extent()[1]) - 1 ; 
 				});
 				
 				x.domain(brush.extent());
@@ -816,8 +802,8 @@
 							break;
 						case "sixMonths":
 							d3.select('rect.scrubber').attr("x",960);
-							left.setTime(centerDate + (one_day*365/2));
-							right.setTime(centerDate - (one_day*365/2));
+							left.setTime(centerDate + (one_day*365/4));
+							right.setTime(centerDate - (one_day*365/4));
 							break;
 						case "todayButton":
 							var diff2 = right.getTime() - left.getTime();

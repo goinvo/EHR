@@ -130,8 +130,8 @@ rect.pane {
 	pointer-events: all;
 }
 
-.brush ellipse {
-    fill: #bdbdbd;
+.brush circle{
+    opacity: .4;
 }
 
 .brush .extent {
