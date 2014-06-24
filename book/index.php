@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide</title>
+	<title>Inspired EHRs</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -30,6 +30,7 @@
 		<!--<div class="sixteen columns">--><div class="two-thirds column">
 			<div id="title">
 				<h2 class="title">Inspired EHRs <br /><span class="sm_title">Designing for Clinicians </span><!--<span class="version">v2, 3-24-2014</span>--></h2>
+				<p class="version">Draft - In progress. Final version to be released on 1 July, 2014</p>
 				<div class="authors">
 					<p id="lead"><ul>
 						<li><em>by</em></li>

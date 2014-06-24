@@ -701,6 +701,11 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<hr />
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					</div>
+					<hr />
+					<hr />
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
@@ -734,7 +739,7 @@
 				
 				helpers : {
 					title : {
-						type : 'outside'
+						type : 'inside'
 					}
 				},
 				

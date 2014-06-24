@@ -647,7 +647,7 @@
 	}
 	.ex-type { color: #999; font-size: 12px; }
 	.ex-caption { font-weight: bold; }
-	.capt_desc { font-weight: normal; }
+	.capt_desc, .capt-desc { font-weight: normal; }
 	.example img { margin-top: 10px; }
 	.quicktip {
 		margin-bottom: 40px;

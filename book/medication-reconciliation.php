@@ -405,10 +405,8 @@
 						<li>Offer cognitive support for adding new medications. Allow for fuzzy misspelling. Suggest appropriate drug names as the patient begins to type.</li>
 						<li>Experiment with  innovative methods for capturing uncertainty and improving adherence recording.</li>
 					</ol>
-					<hr />
-					<div class="disclaimer">
-						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
-					</div>
+					
+					
 				</div>
 			</div>
 		</section><!--end section review-->
@@ -432,6 +430,10 @@
 		<section class="citations">
 			<div class="container">
 				<div class="sixteen columns">
+					<hr />
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					</div>
 					<hr />
 					<p>References</p>
 					<div class="section_cite">
