@@ -513,7 +513,7 @@
 					<div class="example" id="int-2-3">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.3</span>
-							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="./timeline/" class="button" target="blank">Try it out!</a></span>
+							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
 						<a href="../timeline/timeline.html" target="blank"><img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
 					</div>
