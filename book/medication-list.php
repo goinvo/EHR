@@ -103,7 +103,7 @@
 						</div>
 						<div class="tip"></div>
 					</div>
-					<p>Look at <a href="#fig-2-1">Figure 2.1</a> and<a href="#fig-2-2"> Figure 2.2</a>. As you can probably tell, one list looks cleaner than the other. Such simplicity makes it easy for people using this list to see the names of the drugs the patient is taking, which allows a quick overview. Given that it uses plain language like “twice daily,” instead of Latin abbreviations like “b.i.d.”, the list below would meet the needs of both physicians and patients.</p>
+					<p>Look at <a href="#fig-2-1">Figure 2.1</a> and<a href="#fig-2-2"> Figure 2.2</a>. As you can probably tell, one list looks cleaner than the other. Such simplicity makes it easy for people using this list to see the names of the drugs the patient is taking, which allows a quick overview. Given that it uses plain language like “twice daily,” instead of Latin abbreviations like “b.i.d.,” the list below would meet the needs of both physicians and patients.</p>
 				</div>
 				<div class="one-half column">
 					<div class="example" id="fig-2-1">
