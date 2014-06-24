@@ -335,17 +335,6 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="List displays fewer results and pushes simpler, more frequently-chosen results to the top" /></a>
 					</div>
 				</div>
-
-				<!--<div class="one-half column">
-					<div class="example" id="fig-4-13">
-						<div class="ex-title">
-							<span class="ex-type">Figure 4.13</span>
-							<span class="caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top</span></span>
-						</div>
-						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" /></a>
-					</div>
-				</div>-->
 				<div class="sixteen columns">
 					<p>As you can see, it’s difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term's about a third of the way down the list, buried among many other terms.</p>
 					<p>In our “after” example (<a href="fig-4-13">Figure 4.13</a>), the simple cough is at the top of the list.Other options are listed alphabetically further down the list, after a visual break.</p>
