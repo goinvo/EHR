@@ -300,8 +300,20 @@
 	margin: 0;
 	height: 65px;
 }
-#top #task_list ul{
-	display: none;
+#task_list ol{
+	/*display: none;
+}
+#task_list ul.active{*/
+	display: block;
+	position:absolute;
+	background: #fff;
+	border-radius: 2px;
+	border: #dedede solid 1px;
+}
+#task_list ol li {
+	display: block;
+	list-style: decimal;
+	border: solid red 1px;
 }
 #top div, #controls div { display: inline-block; }
 #controls {
@@ -350,7 +362,7 @@
 	margin: 12px;	
 }
 #top #patient_card #photo {
-	background: url('../images/david_lee.png');
+	background: url('../images/robert_martin.png');
 	height:46px;
 	width: 46px;
 	display: block-inline;
