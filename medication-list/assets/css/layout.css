@@ -50,7 +50,7 @@
 		line-height: 1;
 		background: #f5f5f5;
 		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #434343;
+		color: #000;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 	}
@@ -76,7 +76,7 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 	.grn_text { color:#82a95c; }
-	.gry_text { color:#c1c1c1; }
+	.gry_text { color:#717171; }
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
@@ -331,7 +331,7 @@
 }
 #controls ul li {
 	display: inline;
-	font-size: 10px;
+	font-size: 12px;
 	padding: 2px 7px 3px 7px;
 	cursor: pointer;
 }
@@ -341,8 +341,8 @@
 	padding: 2px 0px 3px 14px;
 	margin: 0 0px 0 10px;
 }
-#top ul li a, #controls ul li a{ color: #989898; }
-#top ul li a:hover, , #controls ul li a:hover{ color: #434343; }
+#top ul li a, #controls ul li a{ color: #717171; }
+#top ul li a:hover, , #controls ul li a:hover{ color: #000; }
 #top ul li.active {
 	font-weight: bold;
 }
