@@ -71,7 +71,7 @@
 					<p>Developers must design Allergy Lists keeping in mind a user's three main tasks: glancing, exploring, and changing the list.</p>
 					<p><strong>Glancing at the list</strong> may reveal that a patient has “no known medication allergies” – or that he’s deathly allergic to the medication the physician is about to order for him. Often, ideally every time they prescribe or administer a new medication, doctors and nurses will need to quickly refer to the Allergy List.</p>
 					<p><strong>Exploring the details</strong> may help a physician decide whether a drug’s benefits outweigh the risks.</p>
-					<p><strong>Adding new entries</strong> to the list should be quick and straightforward. <strong>Editing</strong> the list should be fast, sure, and flexible, requiring minimal details.</p>
+					<p><strong>Adding new entries</strong> to the list should be quick and straightforward. <strong>Editing the list</strong> should be fast, sure, and flexible, requiring minimal details.</p>
 					<p>Let's consider the clinical scenarios prompting our three tasks, and some design makeovers that better address the needs of these scenarios and tasks.</p>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 						<h3>4.2 Glancing at the Allergy List</h3>
 					</div>
 					<div class="scenario" id="">
-						<h5>Clinical Scenario - Considering a New Prescription</h5>
+						<h5>Considering a New Prescription</h5>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
 					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List, and should also ask the patients if they allergic to the drugs in question.</p>
@@ -99,10 +99,10 @@
 					<div class="example" id="fig-4-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.1</span>
-							<span class="ex-caption">Before: Glancing at the List <span class="capt-desc">&mdash; A Design That hides key details</span></span>
+							<span class="ex-caption">Before: Glancing at the List <span class="capt-desc">&mdash; A design that hides key details</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="fancybox" data-fancybox-group="gallery-0" title="Before: Glancing at the List – A design that hides key details">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="scale-with-grid" alt="Before: Glancing at the List – A Design That Hides Key Details" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="scale-with-grid" alt="Before: Glancing at the List – A design that hides key details" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -112,7 +112,7 @@
 							<span class="ex-caption">After: Glancing at the List <span class="capt-desc">&mdash; A design that brings key details to the forefront</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="fancybox" data-fancybox-group="gallery-0" title="After: Glancing at the List &mdash; A design that brings key details to the forefront" >
-							<img src="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="scale-with-grid" alt="After: Glancing at the List – A Design That Brings Key Details to the Forefront" /></a>
+							<img src="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="scale-with-grid" alt="After: Glancing at the List – A design that brings key details to the Forefront" /></a>
 					</div>
 				</div><!--end Before and After 4.1, 4.2-->
 
@@ -326,10 +326,10 @@
 					</div>
 				</div>
 				<div class="one-half column">
-					<div class="example" id="fig-4-12">
+					<div class="example" id="fig-4-13">
 						<div class="ex-title">
-							<span class="ex-type">Figure 4.12</span>
-							<span class="ex-caption">Before: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top</span></span>
+							<span class="ex-type">Figure 4.13</span>
+							<span class="ex-caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" title="List displays fewer results and pushes simpler, more frequently-chosen results to the top">
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="List displays fewer results and pushes simpler, more frequently-chosen results to the top" /></a>
