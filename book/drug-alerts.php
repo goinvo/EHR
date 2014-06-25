@@ -32,7 +32,7 @@
 				<div class="sixteen columns">
 					<h2>6</h2>
 					<h2>Drug Alerts</h2>
-					<!--<div class="subheader"><p></p></div>-->
+					<div class="subheader"><p>Effective alerts increase patient safety while reducing physicians’ cognitive load</p></div>
 				</div>
 			</div>
 		</header>
@@ -42,38 +42,50 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>Drug alerts need to strike a balance between increasing safety on the one hand and reducing cognitive load and alert fatigue on the other. We will consider two types of  drug-related alerts: drug-allergy alerts and drug-drug interaction alerts. The topic of drug interaction alerts encompasses a wide range of considerations including the following: alert fatigue, patient safety, quality of evidence, complexity of categorization, recommended actions and more. We will confine our scope by applying human factors and design principles to the more straightforward aspects of drug alert design. Let's start with a simple clinical scenario.</p>
-					<h3>Drug Allergy Alerts</h3>
-					<div class="scenario">
-						<h5>Clinical Scenario #1: So that’s a form of penicillin?</h5>
-						<p>Casey is a 58-year-old who has been in good health for decades. The only exception was a hospitalization after a severe automobile accident a decade ago. At that time, she had been receiving IV antibiotics and had a documented allergy to Unasyn (a combination including ampicillin and sulbactam) consisting of generalized hives, itching, and facial swelling</p>
-						<p>Today she is visiting her primary care doctor with symptoms of acute sinusitis that has been going on for almost 2 weeks and not improving. Augmentin (amoxicillin plus clavulanate) is a reasonable first choice. Her physician glances at the allergy list in the patient better and notices the word "Unasyn" but does not see the word 'penicillin'. As he starts to write the prescription, an ambient alert appears warning that the patient is allergic to 'Unasyn'. The physician fills in the details on the prescription anyway and then gets a drug alert that interrupts workflow. The physician reconsiders and realizes that Unasyn is a form of penicillin as is Augmentin. Therefore, he chooses a different antibiotic, doxycycline and sends the prescription.</p>
+					<p>A <a href="http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors" target="blank" class="link">report</a> from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load.  If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts.  This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.</p>
+					<div class="sectionStart">
+						<hr />
 					</div>
-					<p>The design for a Drug Allergy Alert  needs to support the physician’s thinking process:</p>
-					<ul class="disc">
-						<li><strong>What is the problem?</strong> It’s a drug allergy.</li>
-						<li><strong>What are the key details?</strong> The drug you prescribed is Augmentin. The patient is allergic to Unasyn. Both are penicillins. The symptoms are significant.</li>
-						<li><strong>What are the possible actions?</strong> The physician can either cancel the new Augmentin prescription, or continue to prescribe Augmentin (and optionally provide feedback).</li>
-						<li><strong>What if the physician still has questions?</strong> The physician may need access to more details about the allergic reaction, or they may decide to interview the patient first and later update the Allergy List.</li>
-					</ul>
-					<p>Let’s look at two examples of a Drug Allergy Alert. One is typical of current EHRs and the second is redesigned.</p>
+					<h3>6.1 Drug Allergy Alerts</h3>
+					<p>Drug allergy alerts inform physicians that their patient may be allergic whatever they’ve just prescribed. The physician may have accidentally overlooked the allergy. They’ll need to weigh the drug’s potential risks against its potential benefits, and either go forward with the prescription or cancel it. Let’s look at a simple clinical scenario.</p>
+					<div class="scenario">
+						<h5>Clinical Scenario &mdash; Drug Allergy Alert</h5>						
+						<p>Mr. Martin is a 58-year-old who, barring one exception, was in good health until a decade ago when he was hospitalized after a severe automobile accident. At that time, he had a documented allergy (generalized hives, itching, and facial swelling) to the IV drug Unasyn, an antibiotic drug combination that contains sulbactam and ampicillin, which is a member of the penicillin family.</p>
+						<p>Today he is visiting Dr. Barnes, his primary care doctor, with symptoms of acute sinusitis. The problem has been going on for almost 2 weeks and is not improving. Dr. Barnes’s first choice of treatment is Augmentin (clavulanate plus amoxicillin, which is also a member of the pencillin family). She glances at the allergy list in the patient header, looking for the word “penicillin” but does not see it. The term “Unasyn” did not catch her attention, perhaps because she wasn’t thinking about compounds that contained drugs closely related to penicillin. She enters an e-prescription for Augmentin, but then a drug alert interrupts her workflow. The alert identifies the patient’s allergy to Unasyn, the symptoms and severity, and Unasyn’s chemical similarity to Augmentin. Dr. Barnes reconsiders her decision and chooses doxycycline, a different antibiotic.</p>
+					</div>
+					<p>Alerts need to support the physician’s thinking process by addressing five questions:</p>
+					<ol>
+						<li>How serious is the problem?</li>
+						<li>What is the nature of the problem?</li>
+						<li>What can the physician do to avoid or mitigate the effects of the problem?</li>
+						<li>If the physician does not address the problem, what will the consequences be?</li>
+						<li>Where can the physician learn more about this problem?</li>
+					</ol>
+					<p><a href="#fig-6-1">Figure 6.1</a> demonstrates how a typical alert in current EHRs address these questions. This design doesn’t direct the user’s eye to the information she needs to answer the questions. The alert contains a lot of text, but since it is all roughly the same size and none of it has been given any emphasis, it looks like all the information is equally (un)important. Some text (such as the window title, “Medication Clinical Decision Support” and “The new order has been created…”) convey little to no relevant information. The visual elements, such as the alignment of text and the arrangement of the page’s white space, do little to direct the eye. The page contains three hyperlinks, but two of these lead to the same reference information, which is unlikely to aid the decision-making process.</p>
+				</div>
+				<div class="one-half column">
 					<div class="example" class="fig-6-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.1</span>
-							<span class="ex-caption">Before</span>
+							<span class="ex-caption">Before: A Penicillin Family Drug-Allergy Alert</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png"><img src="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" class="scale-with-grid" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" title="Before: A Penicillin Family Drug-Allergy Alert">
+							<img src="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" class="scale-with-grid" alt="Before: A Penicillin Family Drug-Allergy Alert" /></a>
 					</div>
+				</div>
+				<div class="one-half column">
 					<div class="example" class="fig-6-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.2</span>
-							<span class="ex-caption">After</span>
+							<span class="ex-caption">After: A Penicillin Family Drug-Allergy <span class="capt-desc">&mdash; A simplified design with fewer options and concise text</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0000_DrugAllergyAlert-2014-c.png"><img src="./assets/images/examples/drug-alerts/UmEhr_0000_DrugAllergyAlert-2014-c.png" class="scale-with-grid" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" title="After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" class="scale-with-grid" alt="After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text" /></a>
 					</div>
-					<p><a href="#fig-6-1">Figure 6.1</a> lacks emphasis to direct the reader’s eye. The title of the window does not mention 'Drug Allergy Alert.' All the text is roughly the same size so that it all appears to be of equal importance. The page is very busy with words, but the open space does not help direct the eye. There are three hyperlinks, but two of them lead to the same reference information, which is unlikely to aid the decision-making process.</p>
-					<p><a href="#fig-6-2">Figure 6.2</a> allows the physician to see at a glance that the alert is about a drug allergy, the names of the drugs, and the key facts about the reaction. The alternative actions are evident.</p>
-					<p>We used a few design principles. Add visual emphasis by using larger font sizes or bold or color for the title and key section headers. Less important type can be subdued by using gray text or smaller text. Group related items by proximity and judicious use of white space.</p>
+				</div>
+				<div class="sixteen columns">
+					<p><a href="#fig-6-2">Figure 6.2</a> is a redesigned version of the same penicillin family drug-allergy alert. It allows the physician to see at a glance that the alert indicates a serious drug allergy (as noted by the two caution icons). The alert conveys the names of the drugs involved, and key facts about the patient’s reaction. It shows the physician what actions she can take and which one is recommended ("Stop Augmentin," where “Stop” is the more prominent button). The design visually indicates the importance of key information using different font sizes, boldface, and colors to direct the user’s eye. Gray or smaller text denotes that the information written in it is less important.</p>
+					<p>The design shows what information is related by grouping related items together, and using whitespace to separate different groups of items. We eliminated much of the text that appears in the original design (Figure 6.1) to protect the user from cognitive overload (information overload). Clicking the “i” (information) icon to the right of the name of the drug the patient is allergic to brings up additional information about the patient’s allergic reaction. This redesigned alert allows the user to find the important information about a drug allergy quickly. If desired, they can then learn more about less vital information, like the specific details of the patient's reaction. The Feedback link allows the user to provide feedback to the clinical decision support team.</p>
 				</div>
 			</div>
 		</section>
@@ -84,10 +96,67 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h5>Alert Fatigue</h5>
-					<p>The aim of Drug Allergy Alerts is to inform the prescribing physician about an allergy that may have been overlooked, so the risks and benefits can be compared before completing the prescription order.</p>
-					<p>Alert fatigue happens when so many low value alerts happen that the physician user assumes that all alerts are low value. They dismiss the alert before fully reading or considering the alert.</p>
-					<p>Alert fatigue can be mitigated by adjusting the threshold for alert severity. Only the most dangerous alerts are presented, and less risky alerts are filtered out. In some institutions the physicians get only the highest level alerts but the pharmacists get more alerts of lower severity.</p>
+					<h3>6.2 Drug-Drug Interaction Alerts</h3>
+					<p>Drug interactions are far more complex than drug allergies. A drug allergy either exists or doesn't, though there's of course some room for doubt about whether an allergy was truly the issue at the time, whether the allergy still persists, and what the nature of the reaction was. With drug interactions, there are more variables: the strength of scientific evidence for the interaction, the severity category for the interaction (usually 3-5 levels from mild to severe), the organizational threshold for displaying alerts based on alert severity, and patient variables (age, weight, pregnancy, and renal function).</p>
+					<div class="scenario">
+						<h5>Clinical Scenario - Severe drug interaction</h5>
+						<p>Mr. Martin, our 58-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed her with a bladder infection. As she started to order the antibiotic, ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
+					</div>
+					<div class="example" class="fig-6-3">
+						<div class="ex-title">
+							<span class="ex-type">Figure 6.3</span>
+							<span class="ex-caption">A Passive Alert</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" title="A Passive Alert">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" class="scale-with-grid" alt="A Passive Alert" /></a>
+					</div>
+
+					<p>The passive alert appears in the corner of the EHR screen, but does not interrupt the physician’s workflow. The yellow bar with an alert icon that appears in the user's peripheral vision is a salient visual signal because it is based on preattentive attributes. Without reading it, the physician can detect both the alert's existence and it's degree of severity.</p>
+					<p>If the physician completes the order, selects a pharmacy, and sends an e-Prescription, an interruptive alert will pop up to ensure patient safety. The interruptive alert stops the physician’s workflow completely, demanding the physician’s full attention. The physician must select one of the three available choices before the system activates the “Continue” button to allow the physician to move forward (<a href="#fig-6-4">Figure 6.4</a>). After making a selection, the physician confirms her choice by hitting the keyboard “Enter” key or clicking the aforementioned “Continue” button (<a href="#fig-6-5">Figure 6.5</a>). This additional step allows the physician a chance to correct a mistake.</p>
+					<p>Interruptive alerts annoy physicians and reduce the overall effectiveness of such alerts, which causes physicians to miss alerts that truly are important. Interruptive alerts should thus be used sparingly. Some EHRs allow users to customize what alerts appear to what healthcare providers. Thus the EHR might use interruptive alerts only for truly serious alerts when a physician is working with it, and use both serious and mild alerts when the dispensing pharmacist is working with it. One empirical study of alerting systems suggests that physicians are more likely to comply with a tiered alert system (passive for lower risk and interruptive for higher risk alerts)<sup>1</sup>.</p>
+					<div class="example" class="fig-6-4">
+						<div class="ex-title">
+							<span class="ex-type">Figure 6.4</span>
+							<span class="ex-caption">An Interruptive Alert <span class="capt-desc">&mdash; requires the user to make a choice before dismissing the alert.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" title="An Interruptive Alert - requires the user to make a choice before dismissing the alert.">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="An Interruptive Alert - requires the user to make a choice before dismissing the alert." /></a>
+					</div>
+					<div class="example" class="fig-6-5">
+						<div class="ex-title">
+							<span class="ex-type">Figure 6.5</span>
+							<span class="ex-caption"><span class="capt-desc">Once the physician makes a choice, the system enables the “Continue” button</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Once the physician makes a choice, the system enables the “Continue” button">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Once the physician makes a choice, the system enables the “Continue” button" /></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="alert-fatigue">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr/>
+					</div>
+					<h3>6.3 User preferences to dismiss future alerts</h3>
+					<p>When users are presented with a high frequency of low-value alerts, they develop alert fatigue and begin to dismiss the alerts before they fully read them or consider their implications.</p>
+					<p>Alert fatigue can be mitigated in a variety of ways:
+						<ol>
+							<li>Prevent alerts where possible:
+								<ol>
+									<li>offer only choices that will not trigger alerts (for instance, only offer available dosage forms)</li>
+									<li>provide cognitive support to help physician’s make decisions that will not trigger alerts</li>
+									<li>adjust alert thresholds to present users with only the most important alerts</li>
+								</ol>
+							</li>
+							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/" class="link" target="blank">Use a tiered alerting system</a>: make lower risk alerts passive and less visually obtrusive. Use interruptive alerts only for those with the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628052/" class="link" target="blank">highest risk</a>.</li>
+							<li>Present passive alerts as early as possible during decision making. For example, by providing a visible indication of drugs that conflict with patient allergies or current drugs while the physician is choosing from a list or typing in a drug</li>
+							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them</li>
+							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping)  to indicate the importance and relationships among the information</li>
+						</ol>
+					</p>
 				</div>
 			</div>
 		</section>
@@ -96,16 +165,42 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
-						<hr/>
+						<hr />
 					</div>
-					<h5>User preferences to dismiss future alerts</h5>
-					<p>What if individual users could fine-tune the alerts they get? Rather than reviewing a long catalog list of interactions, just collect usefulness data as the alerts are presented, and let the physician “snooze” or turn off alerts in certain clear-cut circumstances.</p>
-					<div class="example" class="fig-6-3">
+					<h3>6.4 Customizing Alerts for Individual Physicians</h3>
+					<p>Some alerts will be predictably and safely dismissed 100% of the time, and can reasonably be eliminated. Perhaps a patient has been taking a medication for a long time without incident, but an alert still appears every time the prescription is renewed. Here are some common examples:</p>
+					<div class="scenario">
+						<p>The patient is allergic to sulfa, but has been taking a distant chemical relative of sulfa drugs, such as the diuretics hydrochlorothiazide or chlorthalidone (both very commonly prescribed), without incident for some time. In this context, the EHR need never again warn the physician about this particular patient’s allergy to sulfa.</p>
+						<p>Lisinopril (an ACE inhibitor) gives this patient a cough, and an alert appears when the physician tries to prescribe an ARB such as losartan or valsartan, because these two classes of drugs are somewhat related. However, ARBs are known to never cause the cough that ACE inhibitors may cause. The EHR need never again warn the physician about this particular side-effect for any patient.</p>
+					</div>
+					<p>It would be safe to allow physicians to permanently suppress alerts in the two circumstances above (<a href="#fig-6-6">Figure 6.6</a>). It is more challenging to define rules for drug interactions or drug-disease interactions when the dosing or disease severity can vary over time.</p>
+					<div class="example" class="fig-6-6">
 						<div class="ex-title">
-							<span class="ex-type">Figure 6.3</span>
-							<span class="ex-caption">Dismiss Future Alerts</span>
+							<span class="ex-type">Figure 6.6</span>
+							<span class="ex-caption">Allow Users to Customize Certain Drug Alerts</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0001_DrugAllergyAlert-2014c-w-details.png"><img src="./assets/images/examples/drug-alerts/UmEhr_0001_DrugAllergyAlert-2014c-w-details.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" title="Allow Users to Customize Certain Drug Alerts">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" class="scale-with-grid" alt="Allow Users to Customize Certain Drug Alerts" /></a>
+					</div>
+					<div class="quicktip" id="">
+						<div class="sidebar cf">
+							<h5>Collecting Feedback about the Usefulness of Alerts</h5>
+							<p class="preview">Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR <span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
+							<div class="qt-content show">
+								<p>Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR we know of can systematically collect data about whether prescribers consider particular alerts useful.</p>
+								<p>Only a handful of companies provide data that fuels drug allergy and drug interaction alerts. These companies don’t receive direct feedback from clinician users: their relationship is mediated by their EHR vendor.  If EHR vendors could tell drug data vendors that nearly all users found a particular alert to be unhelpful, then the vendors could reassess that particular data element. Figure 6.7 shows how an EHR could unobtrusively collect feedback from physicians.</p>
+								<p>Legal teams may feel that more warnings amount to greater safety, but the situation is more complicated than that. Physicians need to practice medicine efficiently, and too many alerts can cause alert fatigue and even put patients at risk.</p>
+							</div>
+						</div>
+						<div class="tip"></div>
+					</div>
+					<div class="example" class="fig-6-7">
+						<div class="ex-title">
+							<span class="ex-type">Figure 6.7</span>
+							<span class="ex-caption">Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" title="Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" class="scale-with-grid" alt="Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts" /></a>
 					</div>
 				</div>
 			</div>
@@ -117,242 +212,71 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h5>Collecting feedback about usefulness of alerts</h5>
-					<p>I’m not aware of an EHR collecting feedback about drug alerts, but it could allow crowdsourcing data about the utility of drug alerts. There are just a handful of companies providing the drug data that fuels drug allergy and drug interaction alerts. If EHR vendors could provide data that 90% of their users found a particular alert to be unhelpful, then the drug data vendors could reassess that particular data element.</p>
-					<div class="example" class="fig-6-4">
-						<div class="ex-title">
-							<span class="ex-type">Figure 6.4</span>
-							<span class="ex-caption">Alert Feedback</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0002_DrugAllergyAlert-2014-c-leave-feedback.png"><img src="./assets/images/examples/drug-alerts/UmEhr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" class="scale-with-grid" /></a>
-					</div>
-					<p>There will always be a tension trying to balance legal cautiousness against physician delight.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="drug-interaction-alerts">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-					</div>
-					<h3>Drug-Drug Interaction Alerts</h3>
-					<p>Drug interactions are far more complex than drug allergies. With drug allergies, an allergy is either present or not, with some room for doubt about the allergy or adverse effect details. However, with drug interactions, there are more variables: tiers of severity, alert threshold settings, and variables about the patient (age, weight, pregnancy, renal function).</p>
-					<div class="scenario">
-						<h5>Clinical Scenario #2: Urinary Infection and Severe drug interaction</h5>
-						<p>Casey is our 58-year-old who was involved in a motor vehicle accident and now has chronic pain requiring a multi-pronged treatment approach including medications from several categories. She is taking the muscle relaxant tizanidine to treat her low back spasms. The past two days she developed frequent, urgent, and painful urination. Her primary care physician diagnosed a bladder infection and prescribed ciprofloxin. As he started to order the antibiotic, ciprofloxin, an ambient (non-intrusive) alert appeared in the corner of the screen. Rather than completing the prescription details and selecting the pharmacy, the doctor stopped and chose a different antibiotic for which there were no drug interactions.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="ambient-alert">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<h5>Ambient Alert</h5>
-					<div class="example" class="fig-6-5">
-						<div class="ex-title">
-							<span class="ex-type">Figure 6.5</span>
-							<span class="ex-caption">Ambient Alert</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0009_ambient-alert.png"><img src="./assets/images/examples/drug-alerts/UmEhr_0009_ambient-alert.png" class="scale-with-grid" /></a>
-					</div>
-					<p>The ambient alert appears in the corner of the EHR screen, but does not stop the physician’s workflow. However seeing the visual signals in the peripheral vision (red bar, number '1') would allow the physician to understand the severity without reading the alert at all. That process of rapid, nearly unconscious processing of attention uses “preattentive attributes” of visual perception in the brain. The red bar with the word “contraindicated” clearly identifies the level of severity of the interaction. The numeral “1” in the box is an additional signal that would help the ~5% of males with red-green colorblindness.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="interruptive alert">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<h5>Interruptive Alert</h5>
-					<p>Had the physician continued to complete the order, select the pharmacy, and send an e-Prescription, an interruptive alert would have been presented to assure patient safety. The interruptive alert stops the physician workflow completely, requiring the physician’s full attention in processing the information. Using interruptive alerts too much causes physician dissatisfaction and reduces the effectiveness of the alerts, causing physicians to miss important alerts. Many EHR’s allow the healthcare organization to customize the level of alerts that appear to physicians (the most serious ones) and to pharmacists (the most serious and additional milder reaction tiers as well).</p>
-					<div class="example" class="fig-6-6">
-						<div class="ex-title">
-							<span class="ex-type">Figure 6.6</span>
-							<span class="ex-caption">Interruptive Alert</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0003_drug-drug-interaction-unselected.png"><img src="./assets/images/examples/drug-alerts/UmEhr_0003_drug-drug-interaction-unselected.png" class="scale-with-grid" /></a>
-					</div>
-					<p>A physician can’t just hit “Enter” until one of three choices is selected. Then the physician confirms the choice by hitting “Enter” key or clicking “OK” button. The additional step allows the physician a chance to correct a mistake.</p>
-					<div class="example" class="fig-6-7">
-						<div class="ex-title">
-							<span class="ex-type">Figure 6.7</span>
-							<span class="ex-caption">Before a selection is made, the 'continue' button is inactive</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0004_drug-drug-interaction-unselected-annotated.png">
-						<img src="./assets/images/examples/drug-alerts/UmEhr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" /></a>
-					</div>
+					<h5>6.5 Multiple Drug Alerts</h5>
+					<p>Sometimes an EHR needs to present multiple alerts to the user. These may be multiple alerts for a single medication, or several alerts for a number of different medications. Should the EHR display these alerts one at a time, or all at once? If they’re displayed all at once, physicians can see the big picture: all of the drug-allergies and drug-drug interactions in play. Without having to navigate to read each alert, physician’s can run down the list and make decisions for each item. Showing all the alerts simultaneously, however, may visually overwhelm the users. It might also be difficult to simultaneously show both all the alerts and the clinical information that physicians need to act on these alerts.</p>
+					<p><a href="#fig-6-8">Figure 6.8</a> shows one possible way of presenting multiple alerts on a single screen. This design shows each alert’s severity using small icons in the left column. New drug orders and either the allergy or interacting drug are displayed just after the severity icons. The rightmost column shows the actions that a physician can take to address each alert. The action buttons include both the actions and the drug names (e.g., Stop Augmentin) to help the physician understand what each button does. The design uses bold text on action buttons to show recommended actions for each alert. <a href="#fig-6-9">Figure 6.9</a> shows the display after the user has made decisions about the first two alerts. The Continue button activates after the user addresses all the alerts (<a href="#fig-6-10">Figure 6.10</a>).
+					<p>It’s more challenging to display multiple alerts on small mobile devices. <a href="#gal-6-1">Gallery 6.1</a> shows a way to displayed and address multiple alerts on a mobile phone. The first screen presents an overview of all of the alerts, grouped by type. Tapping an alert brings up details about it, as well as possible actions the physician can take.</p>
 					<div class="example" class="fig-6-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.8</span>
-							<span class="ex-caption">Once a choice is made, the “OK” button becomes active</span>
+							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc"> &mdash; Bold type indicates preferable, safer choices</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0005_drug-drug-interaction-selected.png">
-						<img src="./assets/images/examples/drug-alerts/UmEhr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" /></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="multiple-alerts">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-					</div>
-					<h5>Multiple Alerts</h5>
-					<p>There are two options for managing multiple drug alerts.</p>
-						<ol>
-							<li>All in a single screen</li>
-							<li>Present serial screens</li>
-		    			</ol>
-	    			<p>In a single screen, physician have the benefit of seeing the big picture of drug-allergy and drug-drug interactions. Without the need to navigate to see each alert, the physician can run down the list and make a decision for each. However, showing all the alerts at once may be more visually overwhelming.</p>
-	    			<p>Presenting each alert in individual screens, one right after the other, may be a better solution for smaller mobile screens. A physician won't be able to see an overview of all the issues, but is afforded with performing one task at a time. This could help mitigate information overload. However, if there are a dozen or more alerts to review, not only alert fatigue but also click fatigue won't be far behind.</p>
-	    			<div class="example" id="gal-6-1">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 6.1</span>
-							<span class="ex-caption">Option 1: Present All Alerts in a Single Screen</span>
-						</div>
-						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UmEhr_0006_multiple-alerts.png" class="fancybox"  data-fancybox-group="gallery">
-									<img src="./assets/images/examples/drug-alerts/UmEhr_0006_multiple-alerts.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">Overview screen</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UmEhr_0007_multiple-alerts-some-selected.png" class="fancybox"  data-fancybox-group="gallery">
-									<img src="./assets/images/examples/drug-alerts/UmEhr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">Option 1: Present All Alerts in a Single Screen</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UmEhr_0008_multiple-alerts-all-selected.png" class="fancybox"  data-fancybox-group="gallery">
-									<img src="./assets/images/examples/drug-alerts/UmEhr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">After all actions are selected, final action button becomes active</div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-					<p>Here is a mockup for smartphone where real estate is limited on each page.</p>
-
-					<div class="example" id="gal-6-2">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 6.2</span>
-							<span class="ex-caption">Option 2: Present the choices in a series of views</span>
-						</div>
-						<div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">Main screen: overview of alerts</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">Drug-allergy alert</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0002_allergy-2.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0002_allergy-2.png" class="scale-with-grid" alt="Noisy Simple List" /></a>
-									<div class="caption">Select action</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="multiple alerts" /></a>
-									<div class="caption">Drug-drug interaction alert</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0004_dd2.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0004_dd2.png" class="scale-with-grid" alt="select multiple alerts" /></a>
-									<div class="caption">Select action</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="fancybox"  data-fancybox-group="gallery-2">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="select multiple alerts" /></a>
-									<div class="caption">Final screen: Confirm actions</div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="clinical-decision-support">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-					</div>
-					<h3>Clinical Decision Support</h3>
-					<p>The opportunities for clinical decision support abound throughout the EHR. Clinical Decision Support (CDS) is a wide ranging subject that can encompass a variety of tools:</p>
-						<ul>
-							<li>simple links to a concise reference</li>
-							<li>links to original detailed sources (which can range from a single page to an entire journal special edition</li>
-							<li>order sets that pre-select the best practice while offering alternative options</li>
-							<li>orders driven by algorithms that incorporate the patient’s personalized health data</li>
-							<li>alerts (ambient or intrusive) driven by quality measures that the healthcare organization has chosen to improve</li>
-						</ul>
-					<p>Clinical Decision Support is a complex realm, and we merely offer some visual examples to convey the range types of CDS.</p>
-					<div class="example" id="gal-6-3">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 6.3</span>
-							<span class="ex-caption">Option 2: Present Each Alert in Serial Screens</span>
-						</div>
-						<div id="cbp-fwslider-3" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0001_list.png" class="fancybox"  data-fancybox-group="gallery-3">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_list.png" class="scale-with-grid" alt="" /></a>
-									<div class="caption">Lab Results in the physician’s inbox</div>
-								</div></li>
-								<li><div>
-									<a href="./assets/images/examples/drug-alerts/UM_EHR_0000_annotated.png" class="fancybox"  data-fancybox-group="gallery-3">
-									<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_annotated.png" class="scale-with-grid" alt="" /></a>
-									<div class="caption">Opportunities for Clinical Decision Support</div>
-								</div></li>
-							</ul>
-						</div>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
 					</div>
 					<div class="example" class="fig-6-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.9</span>
-							<span class="ex-caption">Algorithm as Clinical Decision Support - Atrial Fibrillation</span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span>
 						</div>
-						<a href="./assets/images/examples/drug-alerts/AfibAlgorithm.png" class="fancybox">
-						<img src="./assets/images/examples/drug-alerts/AfibAlgorithm.png" class="scale-with-grid" alt="" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title=" Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices.  The system visually shows his selections" /></a>
 					</div>
-					<p>This algorithm includes scoring tools for initial drug selection (aspirin or warfarin or dabigatran), cues about relative cost of drugs, suggests only a few economical drug choices, and is geared especially toward primary care physicians.</p>
-					<h3>Graphical Decision Aids for Patients and Physicians - Mayo Clinic Statin/Aspirin Choice</h3>
-					<p>The Mayo Clinic has a well-designed decision aid for patients and physicians for deciding about taking aspirin or statin or both to prevent heart attack. </p>
-					<p><a href="http://statindecisionaid.mayoclinic.org">http://statindecisionaid.mayoclinic.org</a></p>
-					<p>It is designed to manually add the patient’s risk information (age, gender, blood pressure, smoking history, lipid results, etc.) to calculate the risk of heart disease. It also displays risks and other benefits from taking the selected drug. It’s a good tool for weighing the pros and cons, and displays the information graphically as well as numerically.</p>
-					
-					<div class="example" id="gal-6-4">
+					<div class="example" class="fig-6-10">
 						<div class="ex-title">
-							<span class="ex-type">Gallery 6.4</span>
-							<span class="ex-caption">CDS Examples</span>
+							<span class="ex-type">Figure 6.10</span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; Once the physician has addressed all alerts, the system activates the Continue button</span>
 						</div>
-						<div id="cbp-fwslider-4" class="scale-with-grid cbp-fwslider">
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
+					</div>
+					<p>This gallery shows a design option for displaying multiple drug alerts on a smartphone.</p>
+					<div class="example" id="gal-6-1">
+						<div class="ex-title">
+							<span class="ex-type">Gallery 6.1</span>
+							<span class="ex-caption">Displaying Multiple Drug Alerts on a Smartphone</span>
+						</div>
+						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<a href="./assets/images/examples/MayoClinicStatinAspirinCDS1.png" class="fancybox"  data-fancybox-group="gallery-4">
-									<img src="./assets/images/examples/drug-alerts/MayoClinicStatinAspirinCDS1.png" class="scale-with-grid" alt="" /></a>
-									<div class="caption">Lab Results in the physician’s inbox</div>
+									<div class="caption"><span class="ex-type">6.1 a</span> One allergy alert and three drug-drug interactions</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" title="6.1 a One allergy alert and three drug-drug interactions">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="6.1 a One allergy alert and three drug-drug interactions" /></a>
 								</div></li>
 								<li><div>
-									<a href="./assets/images/examples/drug-alerts/MayoClinicStatinAspirinCDS2.png" class="fancybox"  data-fancybox-group="gallery-3">
-									<img src="./assets/images/examples/drug-alerts/MayoClinicStatinAspirinCDS2.png" class="scale-with-grid" alt="" /></a>
-									<div class="caption">Opportunities for Clinical Decision Support</div>
+									<div class="caption"><span class="ex-type">6.1 b</span> This more detailed display allows the physician to address the allergy alert.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="6.1 b This more detailed display allows the physician to address the allergy alert.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="This more detailed display allows the physician to address the allergy alert." /></a>
+								</div></li>
+								<li><div>
+									<div class="caption"><span class="ex-type">6.1 c</span> When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="6.1 c When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch" class="scale-with-grid" alt="When physician taps the “Stop” button, the display moves on, bringing up the next alert screen." /></a>
+								</div></li>
+								<li><div>
+									<div class="caption"><span class="ex-type">6.1 d</span> A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both." /></a>
+								</div></li>
+								<li><div>
+									<div class="caption"><span class="ex-type">6.1 e</span> Stopping Cipro calls up the next drug-drug alert.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" title="Stopping Cipro calls up the next drug-drug alert.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" class="scale-with-grid" alt="Stopping Cipro calls up the next drug-drug alert." /></a>
+								</div></li>
+								<li><div>
+									<div class="caption"><span class="ex-type">6.1 e</span> After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions." /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -367,15 +291,14 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Summary</h3>
+					<h3>6.6 Summary</h3>
 						<ol>
-							<li>Understand the physician’s workflow to understand what level of detail is needed for the task at hand. </li>
-							<li>Use interruptive alerts only when the consequence is high-risk or serious impact. Help prevent “alert fatigue” with repeated interruptive alerts for less important risks.</li>
-							<li>Simplify the visual presentation without omitting key details. </li>
-							<li>Use preattentive attributes (like color, size, shape, alignment) to draw the user’s attention to the salient details in Drug Alerts.</li>
-							<li>Consider capturing user feedback about the value of individual alerts. Make it easy to do within the workflow, but make it optional.</li>
-							<li>Use ambient alerts early in the prescribing workflow. They avoid interrupting the workflow unless the physician chooses to stop.</li>
-							<li>Clinical Decision Support (CDS) comes in many flavors. We offer some example images.</li>
+							<li>An effective alert is one that physicians notice, read, understand, and respond to. We can facilitate this process by designing alert systems that use sound human factors principles.</li>
+							<li>Alerts interrupt users to different degrees.  Passive alerts appear when triggered, but do not require the user to attend to them immediately. Interruptive alerts stop the user’s workflow and require the user to respond before continuing his work.</li>
+							<li>Make only high-risk alerts interruptive.</li>
+							<li>Reduce users’ cognitive load by simplifying the visual presentation of drug alerts.</li>
+							<li>Use preattentive attributes (like color, size, shape, alignment) to draw users’ attention to the most important information in Drug Alerts.</li>
+							<li>Treat alerts differently depending on their severity. Low-risk alerts should be passive. They should offer the physician decision support without interrupting his workflow, unless he chooses to stop and attend to them. High-risk alerts should initially generate passive notices, but these should be followed by an active notice if the physician fails to attend to the issue. Physicians should be notified about possible issues via passive notices as early as possible</li>
 						</ol>
 				</div>
 			</div>
@@ -396,6 +319,36 @@
 				</div>
 			</div>
 		</footer>
+
+		<section class="citations">
+			<div class="container">
+				<div class="sixteen columns">
+					<hr />
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					</div>
+					<hr />
+					<div class="resources">
+					<p>Additional Resources</p>
+					<div class="section_cite">
+						<p><em>From the National Center for Cognitive Informatics & Decision Making in Healthcare</em></p>
+						<h5>EHR Safety Enhanced Design Briefs</h5>
+						<p><a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
+						<p>Clinical Decision Support</p>
+
+						<h5>EHR Usability</h5>
+						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="blank" class="link">Designing for Usability</a></p>
+					</div>
+					<p>References</p>
+					<div class="section_cite">
+						<ol>
+							<li>Paterno, Marilyn D., Saverio M. Maviglia, Paul N. Gorman, Diane L. Seger, Eileen Yoshida, Andrew C. Seger, David W. Bates, and Tejal K. Gandhi. “Tiering Drug-Drug Interaction Alerts by Severity Increases Compliance Rates.” Journal of the American Medical Informatics Association : JAMIA 16, no. 1 (2009): 40–46. doi:10.1197/jamia.M2808.</li>
+							<li><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA">http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA</a></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</section>
 	</section>
 	
 

@@ -108,6 +108,11 @@
 
 	hr { color: #ddd; border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
+	sup {
+		vertical-align: super;
+		font-size: smaller;
+		line-height: 0px; }
+
 
 /* #Links
 ================================================== */

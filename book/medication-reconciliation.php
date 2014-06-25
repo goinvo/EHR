@@ -54,7 +54,7 @@
 					</div>
 					<h3>3.1 Inpatient Medication Reconciliation</h3>
 					<p>Consider this inpatient clinical scenario:</p>
-					<div class="scenario"><h5>Inpatient Clinical Scenario - A Patient with Chest Pain Is Discharged from the Hospital</h5>
+					<div class="scenario"><h5>Inpatient Clinical Scenario &mdash; A Patient with Chest Pain Is Discharged from the Hospital</h5>
 						<p>Mr. Jones is a 74-year-old, married businessman, now retired. He’s being treated for coronary artery disease (he received a stent at age 70), constipation, diabetes, hyperlipidemia, GERD, hypertension, and mild dementia. His primary care physician, Dr. Barnes, sent Mr. Jones to the hospital Monday morning after his wife insisted he go to the clinic because he was having trouble breathing and was rubbing his chest. He had been doing fine until sometime during the previous night. His wife said he had seemed quite well Sunday afternoon, when two of their sons came over to watch the game with him. They made it “a little tailgate party, hot dogs with sauerkraut and everything."</p>
 						<p>Examining Mr. Jones, the hospital physician found moderate pulmonary congestion, but no EKG changes. He tested negative for Troponin. Because of his past medical history and the strong history of Myocardial infarction (MI) in his family, he was admitted and treated. Now, on Wednesday afternoon, Mr. Jones is ready to leave and can be discharged from the hospital. One of the medical house officers is discharging Mr. Jones and as part of this process, reconciling his medications.</p>
 					</div>
@@ -214,7 +214,7 @@
 					<p>The medication reconciliation workflow may vary from clinic to clinic, depending on what roles said clinic assigns various members of its staff. In some clinics, nurses interview patients and update the medication list, adding annotations about patients’ adherence where necessary. Physician subsequently confirm these annotations with the patients and seek clarification about any uncertain details. Other clinics give patients printouts of their current medication list as recorded in the EHR, which the patients then annotate. In other clinics, physicians review medication lists with the patients in the course of their visits.</p>
 					<p>Some specialists, particularly those in surgical subfields, may review medication lists less precisely, focusing only on the medications they have prescribed, such as post-operative antibiotics or pain medications. These specialists need to be able to reconcile the medications they’re responsible for without assuming responsibility for the entire medication list. Reconciliation interfaces might offer means of conveying that specialists have reconciled the medications they’re responsible for, and only those medications. It might be accomplished by giving users the option of clicking on ‘Acknowledged’ or ‘Reviewed but not approved’ in addition to the fuller ‘Reconcile &amp; Sign.’</p>
 					<p>During the visits, patients and physicians agree upon new plans of action. Physicians might then prescribe and makes other changes in the medication list. Patients then get updated copies of their list to take home.</p>
-					<div class="scenario"><h5>Ambulatory Clinical Scenario - Patient with Chronic Pain Reports Changes Other Physicians Have Made to Her Medication List</h5>
+					<div class="scenario"><h5>Ambulatory Clinical Scenario &mdash; Patient with Chronic Pain Reports Changes Other Physicians Have Made to Her Medication List</h5>
 						<p>Mrs. Stanton is a high school teacher who was seriously injured in a motor vehicle accident. Mrs. Stanton  is under the care of an orthopedic surgeon and a pain management specialist as well as her primary care doctor. Today's visit with Dr. Barnes, her primary care doctor, involves several changes in her medication list.</p>
 						<p>At the beginning of the visit Mrs. Stanton receives the medication list her primary doctor has on file for her. She notices it’s not quite up to date.  It does not record that her pain specialist recently started her on a new medication, nortriptyline, and stopped another one, hydrocodone-acetaminophen, or that her orthopedic surgeon increased her dose of Celebrex. Mrs. Stanton needs to indicate those three changes on the list.</p>
 					</div>
@@ -282,7 +282,7 @@
 								<p><strong>The Capture of Adherence Information</strong>
 								<br />There are two main ways to capture information about patients medication adherence (or lack thereof). One is asking patients to provide the information, and the other is tracking information about prescription fills from the e-prescribing network. At the moment, not all pharmacies, pharmacy benefit managers and insurance plans are linked with e-prescribing networks, but even incomplete databases can complement patients’ reports and help draw more accurate pictures of patients’ adherence patterns.</p>
 								<p><strong>Non-Adherence Is Widespread</strong>
-								<br />A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so<span class="superscript">1</span>. Patients commonly over-report their degree of adherence, as well. Physicians are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.</p>
+								<br />A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so<sup>1</sup>. Patients commonly over-report their degree of adherence, as well. Physicians are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.</p>
 								<p><strong>Why Patients Stop Taking Their Medication</strong>
 								<br />Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
 									<ol>
@@ -374,8 +374,15 @@
 							<div class="qt-content show">
 								<p>Patients often report uncertainty about their medication list. For instance, patients may not be able to recognize or pronounce the names of medications they've been taking for some time. Some people may refer to medications by intended purposes: "a blood pressure medicine.” Conversations outside the formal office visit (via phone or email) may have conveyed information that didn’t make it to the patient’s record.</p>
 								<p>Medication reconciliation implies certainty: after it's recorded, the data acquires the status of an sure fact. That certainty is not always justified. We need methods to represent uncertainty in these human aspects of technology. An EHR might represent uncertainty by including text comments, or with quantitative measures such as confidence ratings or likelihood algorithms.</p>
-								<hr/>
-								<h5>About Using Pill Pictures to Resolve Uncertainty</h5>
+							</div>
+						</div>
+						<div class="tip"></div>
+					</div>
+					<div class="quicktip" id="pill-pictures">
+						<div class="sidebar cf">
+							<h5>About Using Pill Pictures to Resolve Uncertainty</h5>
+							<p class="preview">Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
+							<div class="qt-content show">
 								<p>Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication lists to have the right images because there may be dozens of potential images for a single medication (153 images for lisinopril on <a href="http://www.drugs.com/imprints.php" class="link" target="blank">drugs.com's pill identifier</a>, and 423 results at <a href="http://pillbox.nlm.nih.gov/pillimage/search.php" target="blank">http://pillbox.nlm.nih.gov</a>). Patients might also confuse similar looking medications and misidentify what they are taking. Still, having access to pictures during the interview process might be helpful for “simpler” medications that have only a limited number of distinct images.</p>
 							</div>
 						</div>

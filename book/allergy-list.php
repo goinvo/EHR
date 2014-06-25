@@ -85,7 +85,7 @@
 						<h3>4.2 Glancing at the Allergy List</h3>
 					</div>
 					<div class="scenario" id="">
-						<h5>Considering a New Prescription</h5>
+						<h5>Clinical Scenario &mdash; Considering a New Prescription</h5>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
 					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List, and should also ask the patients if they allergic to the drugs in question.</p>
@@ -140,7 +140,7 @@
 					</div>
 					<p>Sometimes a physician wants to know a bit more detail about a drug allergy on the list. How accurate is the information? Are the potential risks of using the drug outweighed by strong benefits, such as increased effectiveness or significantly lower costs?</p>
 					<div class="scenario">
-						<h5>Clinical Scenario - Reviewing Allergy Details</h5>
+						<h5>Clinical Scenario &mdash; Reviewing Allergy Details</h5>
 						<p>Dr. Barnes is seeing a 38-year-old father of four. For the last two days, the patient's throat has been getting increasingly sore. Five days ago, one of his children came home from school with a fever and headache. The patient’s rapid strep test indicates that he has strep throat.</p>
 						<p>Dr. Barnes would usually prescribe penicillin because it's cheap and effective. A few years ago, however, the patient had a severe reaction to penicillin, which included hives and a swelling of the lips. The physician's next choice would be cephalexin (Keflex). Because penicillin and cephalexin are chemically similar, if the patient's allergic reaction to penicillin was truly severe, he might also have an allergic reaction to cephalexin. Sometimes it is perfectly safe to prescribe.</p>
 						<p>Cephalexin can be perfectly safe for people with mild penicillin allergy. However people with severe penicillin allergy should avoid cephalexin. The third-choice alternatives would be clindamycin or azithromycin (Z-Pak), both of which are more expensive.</p>
@@ -208,7 +208,8 @@
 						<hr/>
 						<h3>4.4 Changing the Allergy List (Adding and Editing)</h3>
 					</div>
-					<div class="scenario"><h5>Modifying the Allergy List</h5>
+					<div class="scenario">
+						<h5>Clinical Scenario &mdash; Modifying the Allergy List</h5>
 						<p>Dr. Barnes is seeing an adult patient who has had a sinus infection for the past two weeks. Dr. Barnes would like to prescribe the antibiotic Augmentin. As she prepares to do so, she asks the patient whether he has any drug allergies, while simultaneously glancing at the patient's allergy list in the demographic banner.</p>
 						<p>The patient's allergy list currently includes Augmentin, but gives no details about the patient's reaction to the drug. Dr. Barnes decides to take advantage of this opportunity to add some detail to the medication allergy list.</p>
 						<p>The patient reports that he took Augmentin years ago and became nauseated. During their conversation, the patient reveals that since then he has taken amoxicillin with no ill effects. Augmentin and amoxicillin are both in the penicillin family, and thus Augmentin should be safe to prescribe.</p>
@@ -337,7 +338,7 @@
 				</div>
 				<div class="sixteen columns">
 					<p>As you can see, it’s difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term's about a third of the way down the list, buried among many other terms.</p>
-					<p>In our “after” example (<a href="fig-4-13">Figure 4.13</a>), the simple cough is at the top of the list.Other options are listed alphabetically further down the list, after a visual break.</p>
+					<p>In our “after” example (<a href="fig-4-13">Figure 4.13</a>), the simple cough is at the top of the list. Other options are listed alphabetically further down the list, after a visual break.</p>
 				</div>
 			</div>
 		</section><!--end section changing-the-allergy-list-->
@@ -391,7 +392,7 @@
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
-							<li>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></li>
+							<li>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="blank">pedronchi</a></li>
 						</ol>
 					</div>
 				</div>
