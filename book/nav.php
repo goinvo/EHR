@@ -53,7 +53,7 @@
 				<li><a href="./human-factors.php#cognitive-load"><span class="ch-num">7.4</span> <span class="ch-name">Cognitive Load</span></a></li>
 			</ul>
 		</li>
-		<li class="design-principles"><a href="./human-factors.php"><span class="prev"></span></a> <a href="./design-principles.php"><span class="ch-num"> 8</span> <span class="ch-name">Design Principles</span></a> <a href="./acknowledgements.php"><span class="next"></span></a>
+		<li class="design-principles"><a href="./human-factors.php"><span class="prev"></span></a> <a href="./design-principles.php"><span class="ch-num"> 8</span> <span class="ch-name">Design Principles</span></a> <a href="./health-it-usability.php"><span class="next"></span></a>
 			<ul>
 				<li><a href="./design-principles.php#mental-model"><span class="ch-num">8.1</span> <span class="ch-name">Mental Model</span></a></li>
 				<li><a href="./design-principles.php#removing-complexity"><span class="ch-num">8.2</span> <span class="ch-name">Removing Complexity</span></a></li>
@@ -65,6 +65,7 @@
 				<!--<li><a href="#visual-clutter"><div class="disc">8.8</div></a></li>-->
 			</ul>
 		</li>
-		<li class="acknowledgements"><a href="./design-principles.php"><span class="prev"></span></a> <a href="./acknowledgements.php"> <span class="ch-num"> 9</span> <span class="ch-name">Acknowledgements</span></a> </li>
+		<li class="health-it-usability"><a href="./design-principles.php"><span class="prev"></span></a> <a href="./health-it-usability.php"> <span class="ch-num"> 9</span> <span class="ch-name">Health IT Usability</span></a> </li>
+		<li class="acknowledgements"><a href="./health-it-usability.php"><span class="prev"></span></a> <a href="./acknowledgements.php"> <span class="ch-num"> 9</span> <span class="ch-name">Acknowledgements</span></a> </li>
 	</ul>
 </nav>
