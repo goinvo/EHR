@@ -32,7 +32,7 @@
 				<div class="sixteen columns">
 					<h2>8</h2>
 					<h2>Design Principles</h2>
-					<div class="subheader"><p></p></div>
+					<div class="subheader"><p>Design is a response to specific problem. You are given a problem and then you let the problem itself tell you what your solution is.</p><p class="quote_author">Chipp Kidd</p></div>
 				</div>
 			</div>
 		</header>
@@ -41,42 +41,41 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Mental Model</h3>
+						<h3>8.1 Mental Models</h3>
 					</div>
-					<p><strong>If you don’t know where you are, you cannot get where you want to go.</strong></p>
-					<p>Software design begins with a deep understanding of the purpose that the product fills for users. While this understanding is important in order to design successful interfaces, it is perhaps more important in framing the product properly in the user’s mind.</p>
-					<p>This is called a mental model.</p>
-					<p>People’s understanding of the world is based on a very complicated, integrated and contextually-dependent worldview. Even though each person has a unique understanding, clear patterns emerge based on social, cultural and environmental factors. Each product that a person uses or interaction they experience fits into their view and understanding of the world. Indeed, each of these things conforms to a specific mental model in the mind of each person. Based on their past experiences and perspective, that mental model will define how they think and feel about this thing, as well as how they use it.</p>
-					<p>It is thus imperative that a software product is intentionally designed to fit a specific mental model with its users. If it is successfully designed within that structure, the product will be increasingly usable and desirable. More, this mental model will also inform the initial and ongoing interface design, serving as a baseline for all of the design decisions that are eventually made. It is key to user understanding and fundamental to the product design road map.</p>
-					<p>Key Ideas:</p>
+					<p><strong>If you don’t know where you are, you can’t get where you want to go.</strong></p>
+					<p>Good software design starts with a deep understanding of what users need the product to do. In other words they need to understand the products utility. Understanding a product's ultimate utility sounds simple, but what is truely helpful to a designer is understanding a product's utility and the users mental model of what that utility should be. A mental model is an explanation of someone's thought process about how something works in the real world, including where it fits into their workflow.</p>
+					<p>People's understanding of the world is predicated on their worldview: a complicated, integrated and contextually-dependent construct, an estuary where a person's unique experience of the world meets the social, cultural and environmental factors that condition their existence. A person's worldview is not just a lens that colors their perceptions, it is the means by which that individual perceives and understands the world. A person's worldview determines how that person will experience your product. They won't just be looking at the system in isolation, they'll bring with them a mental model of what this system is. The model will have developed out of their past experiences and their perspective, and it will define how they think about and use your product.</p>
+					<p>Software products must thus not only function well, they must successfully engage with users' mental models of the types of products they're supposed to be. Users will find a product that meets their expectations in this regard usable and desirable. Users' mental models are the fundamental starting point of the product design roadmap, and they'll serve as the baseline for developers' design decisions throughout the product's lifecycle.</p>
+					<p>Key ideas:</p>
 					<ul class="disc">
 						<li>Establishing the proper mental model is fundamental to driving the product design process.</li>
-						<li>Mental models are typically expressed in the form of metaphor; for example, the desktop metaphor used by modern operating systems represents a very specific - and intentional - mental model.</li>
-						<li>Simplicity is the hallmark of a strong mental model: users should intuitively understand the model they are presented</li>
+						<li>Mental models are typically expressed in the form of metaphor. The desktop metaphor used by modern operating systems represents a very specific and intentional mental model.</li>
+						<li>Simplicity is the hallmark of a strong mental model. Users should intuitively understand the model they are presented</li>
 					</ul>
 				</div>
 			</div>
-		</section><!--end section preattentive-attributes-->
+		</section><!--end section mental-model-->
 		
 		<section id="removing-complexity" class="section">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Removing Complexity</h3>
+						<h3>8.2 Removing Complexity</h3>
 					</div>
-					<p><strong>"Complexity increases at an exponential rate as a factor of the number of items presented."</strong></p>
-					<p>Products that suffer from complex interfaces often will find at the root of the problem a large amount of extraneous redundancy. This redundancy cuts across the board and is not limited in scope. It generally interferes at all levels of the interface: the visual, informational and behavioral aspects of the product. It’s extra visual line noise, repetitive informational symbols and too many controls ways to perform the same action all visible at the same time. Imagine if you will attempting to drive a car with three dashboards, four steering wheels, and highway signs that were consistently duplicated on both sides of the road.</p>
-					<p>A significant amount of complexity can be removed from the product through the simple task of flattening. So much that often times true innovative design cannot be accomplished until a product’s interface has been sufficiently flattened.</p>
-					<p>Key Ideas:</p>
+					<p><strong>Complexity increases at an exponential rate as a factor of the number of items presented.</strong></p>
+					<p>Extra visual noise, repetitive information and symbols, and having too many controls for the same action (possibly all of which are visible at the same time) can all cause redundancy. Redundancy can be good at times, like having an emergency break in a car, but it literally means the state of being no longer needed or useful.  Redundancy in an interface is often unhelpful, add valueless complexity, and can interfere with an interface’s utility on visual, informational and behavioral levels.</p>
+					<p>Imagine attempting to drive a car with three dashboards and four steering wheels down a highway with road signs that have been duplicated on both sides of the road. The engineers involved may have thought they were giving the driver extra resources, but it would be an understatement to say that their attempts to facilitate the user have ultimately made things harder on him.</p>
+					<p>Key ideas:</p>
 						<ul class="disc">
-							<li>Visual: Remove all extraneous line noise and ornamentation. First achieve visual simplicity before decorating with flourishes.</li>
-							<li>Information: Always check the screen for words and symbols that have been repeated in proximity of each other. Then consolidate them.</li>
-							<li>Behavioral: Pick a primary method for performing an action and feature it prominently. Controls and interactions that duplicate the behavior be hidden one level deeper.</li>
+							<li>Visual: Remove all extraneous noise and ornamentation. Achieve visual simplicity before adding flourishes for decoration or emphasis.</li>
+							<li>Informational: Watch out for repetitious, proximate words and symbols in your design. Consolidate these where possible.</li>
+							<li>Behavioral: Pick a primary method for performing an action and feature it prominently. Controls and interactions that duplicate the behavior can be hidden one level deeper.</li>
 						</ul>
 				</div>
 			</div>
-		</section><!--end section preattentive-attributes-->
+		</section><!--end section removing-complexity-->
 		
 		<!--<section id="direct-manipulation" class="section">
 			<div class="container">
@@ -96,25 +95,25 @@
 						</ul>
 				</div>
 			</div>
-		</section>--><!--end section preattentive-attributes-->
+		</section>--><!--end section direct-manipulation-->
 		
 		<section id="terminology" class="section">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Terminology</h3>
+						<h3>8.3 Terminology</h3>
 					</div>
-					<p><strong>Always ask, 'What is this?' until you are given the final answer.</strong></p>
-					<p>The purpose of marketing is to sell, which makes the method by which marketing determines salable names inappropriate for determining terminology inside of a functional interface. As much as marketing managers want to control the design of a product, their job as defined does not serve the product nor the user well.</p>
-					<p>Generally speaking, terminology should be no more complicated than common language in everyday conversation.</p>
-					<p>Create terms without any attempt at cleverness, complex word construction or by combining too many words into a single term that would prompt the use of a dictionary.</p>
+					<p><strong>Always ask, 'What is this?' about your chosen terminology until you are sure of the final answer.</strong></p>
+					<p>Marketing is meant to sell, and in order to do so it generates saleable names. These names and this process aren't the best means of denoting terminology inside a functional interface. As much as marketing managers want to control the design of a product, their skill set, as it's currently understood, doesn't serve the product or the user well in this capacity.</p>
+					<p>Generally speaking, terminology should be as uncomplicated and natural as common language used in everyday conversation.</p>
+					<p>Don't try to be clever when it comes to terminology. There's no need to construct complex neologisms that would prompt the use of a dictionary. Just call things what they are. It's really that simple.</p>
 					<p>Just call things what they are. It’s really that simple.</p>
-					<p>Key Ideas:</p>
+					<p>Key ideas:</p>
 						<ul class="disc">
-							<li>Avoid marketing labels in the interface; call things what they are at the mundane object level.</li>
-							<li>Always use industry standard language when possible. For example, designers know that “leading” is the measurement between two baselines in body copy. To refer to “leading” as “line height” will simply confuse the target audience.</li>
-							<li>If you can’t answer the question, “what is this” in a single sentence with regard to a term in the interface, it is likely you have misused the term.</li>
+							<li>The interface is no place for marketing labels. Call things what they are.</li>
+							<li>Use industry standard language when possible. For example, designers know that “leading” is the measurement between two baselines in body copy. To refer to “leading” as “line height” will simply confuse the target audience.</li>
+							<li>If you use a term in the interface that you can't easily define in one sentence or less, chances are you've misused the term.</li>
 						</ul>
 				</div>
 			</div>
@@ -125,17 +124,16 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Emphasis</h3>
+						<h3>8.4 Emphasis</h3>
 					</div>
 					<p><strong>When everything is important, nothing is important.</strong></p>
-					<p>If one treats every feature, every control or every piece of data in a software application as the most important thing that must be addressed or promoted, the end result will make the overall product less useful across the board.</p>
-					<p>Without contrast, nothing can be ascertained. Without proper emphasis, a product is reduced to a morass of features that require a user to traverse it like a mouse searching desperately for that piece of cheese inside a maze.</p>
-					<p>One must constantly question and ask themselves just how important one feature is in comparison to every other feature in the design of any product.</p>
+					<p>If the design treats every feature, control and piece of data in the software application as vitally important, the end product won't be very useful. Contrast and emphasis allow users to make sense of what would otherwise be a swamp of features.</p>
+					<p>Designers and developers must regularly ask themselves (and the users) how important given features are in relation to one another.</p>
 					<p>Key Ideas:</p>
 						<ul class="disc">
-							<li>There should always be a single focus on the screen acting as a visual anchor, even if that point is not the primary concern of the user.</li>
-							<li>Create boundaries and scope. Limit emphasized options or controls up to three and no more than five.</li>
-							<li>Pick an agreed upon measurement to act as an acid test. Do not deviate from it. For example, determine that for any control or feature to be considered high priority, it must be used by 75% of the user base at least 25% of the time.</li>
+							<li>Screens in an EHR should have a single focus that acts as a visual anchor. This point doesn't have to be semantically important to the user, it just has to make the layout comprehensible.</li>
+							<li>Create boundaries and limit the scope of the application to the user task at hand. Limit the number of emphasized options or controls a given screen displays. Three is a good baseline to shoot for, while more than five is too many.</li>
+							<li>Establish consistent rules about what makes controls or features high priority and then stick to those rules. For example, to determine any control or feature as high priority, it must be used by 75% of the user base at least 25% of the time. Any other feature would not be considered a high priority and should be dropped or placed in a second tier menu.</li>
 						</ul>
 				</div>
 			</div>
@@ -146,18 +144,18 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Typography</h3>
+						<h3>8.5 Typography</h3>
 					</div>
-					<p><strong>When in doubt, follow the rule of three.</strong></p>
-					<p>One of the easiest problems to fix in almost any design is poor application of basic typographical rules.</p>
+					<p><strong>When in doubt, follow the rule of two.</strong></p>
+					<p>One of the easiest problems to fix in almost any design is the poor application of basic typographical rules.</p>
 					<p>Words are the functional equivalent of icons. When you read a body of text, you are not parsing individual letters, like “d - e - s - i - g - n.” You are actually seeing a concise symbol that is parsed as a single object, “design.”</p>
-					<p>When type is set with excessive unevenness, it’s the equivalent of stuttering. So when in doubt, follow the rule of limiting yourself to no more than three fonts.</p>
-					<p>Only once you have type under control, can you pick the optimal spots to break this rule.</p>
-					<p>Key Ideas:</p>
+					<p>An inconsistent jumble of typefaces distracts users. It's the typographical equivalent of wearing several clashing fabrics. Limit yourself to no more that two types and six to eight fonts throughout the application. </p>
+					<p>“Type” is defined as a font face like Helvetica or Georgia. “Font” is defined as the combination of the font face, color, size, and variant (italic, bold, etc). For example 11pt Helvetica colored as #333 and 11pt Helvetica Italic colored as #333 are considered two different fonts, just as they would be considered different fonts if they were different shades of blue, or if one was 11pt and the other was 18pt.</p>
+					<p>Once your type is under-control, you can choose the optimal spots to use fonts to add emphasis.</p>
+					<p>Key ideas:</p>
 						<ul class="disc">
-							<li>As a starting point, use no more than three fonts in the design of the product.</li>
-							<li>A 'font' is defined as the font face, the font color and the font variant. Font size is often considered as well. For example, 11pt Helvetica colored as #333 and 11pt Helvetica Italic colored as #333 are considered two different fonts.</li>
-							<li>Before deviating from the rule of no more than three fonts, first force yourself to solve the design problem within the constraints.</li>
+							<li>As a starting point, use no more than two types in the design of the product.</li>
+							<li>Before deviating from the ‘no more than eight fonts’ rule, first force yourself to solve the design problem within the rule's constraints. </li>
 						</ul>
 				</div>
 			</div>
@@ -168,34 +166,43 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Color</h3>
+						<h3>8.6 Color</h3>
 					</div>
-					<p><strong>When used effectively, color elucidates as well as calms the user.</strong></p>
-					<p>Color follows much of the same constraints as type, with the exception that color gets to the core emotional impact of the product in a more direct, visceral way that type does not.</p>
-					<p>Where type speaks, color punctuates. Where type provides communication, color provides context.</p>
+					<p><strong>When used effectively, color informs, and even calms the user.</strong></p>
+					<p>Where type communicates, color provides context. The use of color should be constrained like the use of type. Just like its typographical counterpart, an application's color palette must be considered judiciously.</p>
+					<p>Developers must carefully avoid making extraneous or random additions. Color, after all, has a direct, visceral effect on the user that type lacks.</p>
 					<p>Just like it’s typographical counterpart, a color palette must be applied judiciously, carefully avoiding extraneous or random additions.</p>
-					<p>Key Ideas:</p>
+					<p>Key ideas:</p>
 						<ul class="disc">
-							<li>Define a product color palette. Be aware enough, to pick a color system that also serves the needs of a software product at a functional level.</li>
-							<li>A good place to start is to pick a base color, up to three compliments, one highlight color and a defined level of black and white.</li>
-							<li>Before deviating from the color palette, first force yourself to solve the design problem within the constraints.</li>
-							<li>... RG colorblind</li>
+							<li>Define the product’s color palette. Pick a color system that also serves the needs of the product at a functional level, rather than that solely serves a marketing or branding agenda.</li>
+							<li>Picking a base color is a good place to start. From there pick up to three complementary colors and one highlight color. It is also a good idea to define your levels of black and white.</li>
+							<li>Before deviating from your defined color palette, force yourself to solve the design problem within your defined constraints.</li>
 						</ul>
-						
-					<h5 id="dark-side-of-color">The Dark Side of Seeing Color </h5>
-					<p class="spacetop"><strong>Color has it uses, but if one is not careful, color can become useless.</strong></p>
-						<p>Color is useful beyond just having things look pleasing to the eye, it can create distinctions and be used to draw attention to things we want people look at. The drawbacks of color are important to keep in mind if one is to use color in an effective way.</p>
-						<p>The first thing to keep in mind is that nine percent of men and one half percent of women are color blind. Color blind people can see color, but they cannot see the differences in some colors they way most of us can. There are different types of color blindness but the most common one makes it hard to see the difference between reds, yellows, and greens (Weinschenk 23).</p>
-						<p>Another tricky element to color is that different cultures have different associations with the same color. So while red can mean bad, danger, or stop to many users, in some cultures red is associated with happiness or good fortune. So design needs to take into account the cultural context of likely users, as well as the portion of the population that is color blind...</p>
-						<p>Some colors do not play well together and when put together can make things hard and tiring to look at and read.  Red and blue or red and green overlapping each other cause this effect but there are many colors that are opponent colors and clash.</p>
-						<p>Here are some tips for working with color:</p>
-							<ul class="disc">
-								<li>Color is useful but don’t let it stand alone, use other cues to complement it.</li>
-								<li>Avoid subtle color differences as our eyes are designed more to find strong contrasts. A trick is convert a project to greyscale, if its to hard to see the difference in grey scale its a good bet the colors are not different enough to avoid causing confusion (Johnson 61).</li>
-								<li>Keep in mind that there is variation among color displays depending on a variety of factors, for example the display capacity of the monitor screen.</li>
-								<li>Our eyes have built in color opponents that are coupled together. Red and green are paired as are blue and yellow, black and white is the last pair. All other colors have to use two channels at the same time for us to see it making these six color the easiest to see. One drawback is that the red green channel is the one with is not working in most color blind people. But it is still useful to know that these six colors are the six that are easiest for the human eye to identify.</li>
-								<li>Color can work to draw the eye when used sparingly, but when overused loses its effect.</li>
-							</ul>
+				</div>
+			</div>
+		</section>
+				
+		<section id="dark-side-of-color" class="section">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr/>
+						<h3>8.6The Dark Side of Seeing Color </h3>
+					</div>
+					<p><strong>Color has it uses, but if one is not careful, color can become useless.</strong></p>
+					<p>Color is useful beyond just having things look pleasing to the eye, it can create distinctions and be used to draw attention to things we want people to look at. However color has it limits as a communication tool and it’s important to keep these limitations in mind if you want to use color effectively.</p>
+					<p>The first thing to keep in mind is that 9% of men and 0.5% percent of women are color blind. Color blind people can see color, but they can’t see the differences between some colors the way most people can. There are different types of color blindness but the most common one makes it hard to see the difference between reds, yellows, and greens.</p>
+					<p>Another tricky element to color is that different cultures can have different associations for the same color. So while red can mean bad, danger, or stop to many Western users, in some Asian cultures red is associated with happiness or good fortune. Designers need to take into account the cultural context of likely users, and to use color in a way that doesn't unduly inconvenience color-blind users.</p>
+					<p>Some colors don’t play well together. In combinations clashing colors can make things hard to look at and difficult to read.  For example red and blue or red and green overlapping each other cause this effect but there are many colors that are opponent colors and clash. It would be a good idea to consult a color guide when choosing your colors.</p>
+					<p>Converting your design into gray scale can be useful to check if your color differences are strong enough to be noticeable. The color differences that most color blind people have a hard time seeing are discernible to them even in color if the differences are detectable once the design has been converted  grey scale. This also helps make sure your color differences are strong enough for non color blind people to detect.</p>
+					<p>Color is useful, but don’t let it stand alone. Use other cues to complement it.</p>
+					<p>Key ideas:</p>
+						<ul class="disc">
+							<li>Avoid subtle color differences. Our eyes have evolved to see strong contrasts. A trick is to convert a project to grayscale, if it’s too hard to see the difference between your colors in grayscale it’s a good bet the colors are not different enough to avoid causing confusion.</li>
+							<li>Keep in mind that color displays are not all created equal on the hardware side. The display capacity of the monitor screen, for example, can affect an application's appearance. Video card quality can also have an effect.</li>
+							<li>Colors have natural pairs, but watch out for clashing colors and color blindness.</li>
+							<li>When used sparingly color can work to draw the eye where you want it to go. When overused, color loses its effect.</li>
+						</ul>
 				</div>
 			</div>
 		</section><!--end section color-->
@@ -210,20 +217,29 @@
 						<div class="fleft" id="prevCh">
 							<p class="pagination prev_ch"><a href="./human-factors.php"><span class="prev"></span> Human Factors</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./acknowledgements.php">Acknowledgements<span class="next"></span></a></p></div>
+							<p class="pagination next_ch"><a href="./health-it-usability.php">Health IT Usability<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>
 		</footer>
+		
 		<section class="citations">
 			<div class="container">
 				<div class="sixteen columns">
 					<hr />
-					<p>Citations</p>
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+					</div>
+					<hr />
+					<p>References</p>
+					<div class="section_cite">
+						<p class="grey"><strong>Quote</strong></p>
+						<p>Crawford, S. (2014, May 27). Chipp Kidd. <em>Inkbot Design</em>. Retrieved from http://inkbotdesign.com/chip-kidd/</p>
+					</div>
 					<div class="section_cite">
 						<p class="grey"><strong>The Dark Side of Seeing Color</strong></p>
-						<p>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</p>
-						<p>Weischenk, S.M. (2011). <em>100 things every designer needs to know about people</em>. Berkeley, CA: New Riders.</p>
+						<p>Johnson, J (2010). <em>Simple Guide to Understanding User Interface Design Rules: Designing with the Mind in Mind</em>. Burlington, MA: Morgan Kaufman.</p>
+						<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know about People</em>. Berkeley, CA: New Riders.</p>
 					</div>
 				</div>
 			</div>
