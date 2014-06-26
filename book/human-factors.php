@@ -31,247 +31,296 @@
 				<div class="sixteen columns">
 					<h2>7</h2>
 					<h2>Human Factors Principles</h2>
-					<div class="subheader"><p>How humans see, read, think, and decide affects how they act. Keeping that in mind, we can cater to their inner processors for optimal performance on a human level.</p></div>
+					<div class="subheader"><p>Systems that complement how we see, read, think and decide can improve our performance.</p></div>
 				</div>
 			</div>
 		</header>
+		<section id="human-factors-engineering" class="section">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+						<h3>What is Human Factors Engineering?</h3>
+					</div>
+					<p>Human Factors Engineering seeks to improve human performance by designing systems that are compatible with our perceptual, cognitive, and physical abilities. Imagine an EHR that requires a physician to cancel a prescribing task, then navigate through several screens, remember a value, and navigate back to complete the prescription. This EHR taxes the well-known limits of human memory. Over-taxing users’ memory causes them to make errors, especially if they’re interrupted while using the system – a common occurrence in healthcare.</p>
+					<p>In contrast, an EHR that allows a physician to see at a glance how well a patient is controlling his diabetes and hypertension gives the physician the situational awareness (and time) he needs to begin to address his patient’s current concerns. The physician can focus attention on understanding the story of the human sitting across the room, instead of on remembering and finding the necessary information to make decisions.</p>
+					<p>The Fundamental Theorem of Biomedical Informatics states “that a person working in partnership with an information resource is ‘better’ than that same person unassisted.” Human Factors Engineering involves building this partnership, designing hardware and software that make it as easy as possible for users to do tasks safely and efficiently. An EHR based on sound human factors engineering principles can help clinicians focus on the difficult task of caring for patients, rather than on figuring out how to use or work around the EHR. We must understand the ways people see, read, think and decide so that we can use this information to build systems that enhance people's job performance.</p>
+
+				</div>
+			</div>
+		</section>
+
 		<section id="how-people-perceive" class="section">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>How People Perceive</h3>
+						<h3>7.1 How People Perceive</h3>
 					</div>
-					<h5 id="expectations">Our Eyes have Expectations</h5>
-					<p class="spacetop"><strong>Our eyes are drawn to familiar patterns, we perceive what we know and expect, sometimes in place of what is actually there. </strong></p>
-					<p>What your eyes see is not what your brain interprets. Our brains create shortcuts to help us make sense of the estimated 40 million inputs a second it is trying to make sense of and prioritize. It uses past experiences and associations and rule of thumb to make guesses about what we are seeing. One easy real world example of this is the double take. Everyone has seen something at a glance and thought it was one thing and then focused on it and realized it was actually something else.</p>
-					<p>Due to this natural mental wiring, users come to computers with expectations based on what they have seen before. We all have a mental model of what we expect to see and where we expect to see it. When we scan a screen we look for digestible chunks, familiar things like navigation bars, buttons and logos. We also tend to look at the center of the screen rather than the edges because the edges tend to have things less important to the task at hand like logos and tools, not the core of what we are doing or trying to find.</p>
-					<div class="example" class="fig-7-1">
+					<h5 id="expectations">7.1.1 Our Eyes Have Expectations </h5>
+					<p class="spacetop"><strong>Our eyes are drawn to familiar patterns. Sometimes we even see patterns we know and expect instead of what's actually there.</strong></p>
+					<p>Your eyes take in data, but your brain 'perceives' this data and parses it into meaningful visual information. Our brains create shortcuts to help us make sense of the estimated 40 million sensory inputs they receive per second. They use our expectations, past experiences, associations, and learned rules of thumb to make guesses about what it is we're looking at. Everyone has seen something at a glance and thought it was a certain object, and then focused on it and realized it was actually something else.</p>
+					<div class="example" id="fig-7-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.1</span>
-							<span class="ex-caption">Example 1: Here is a layout for adding allergies without taking into account that we expect an order or flow.</span>
+							<span class="ex-caption">Read the Following Words:</span>
 						</div>
-						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyClone_0000_allergy-xp.png" class="fancybox">
-						<img src="./assets/images/examples/allergy-list/AfibAlgorithm.png" class="scale-with-grid" alt="" /></a>
+						<a class="fancybox" href="./assets/images/examples/human-factors/thecat.png" title="Read the Following Words">
+							<img src="./assets/images/examples/human-factors/thecat.png" class="scale-with-grid" alt="Tae Cat looks like The Cat when the tops of the A's are cut off" /></a>
 					</div>
+					<p>Most people read this as “The cat,” even though the middle letter in each word is exactly the same, and neither is a perfect H or A. Our perceptual system uses context (the letters around the middle letter) and expectations (predicated on our familiarity with common English words) to allow us to cope with and make sense of imperfect, noisy input. But the same properties that make our perceptual system robust can also lead us astray. For instance, can you name the first drug on this prescription (<a href="#fig-7-2">Figure 7.2</a>)?</p>
 					<div class="example" class="fig-7-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.2</span>
-							<span class="ex-caption">Example 2: This layout is for the same task of adding an allergy but is laid out in a way we have all seen before, with tasks listed in order from top to bottom.</span>
+							<span class="ex-caption">Handwritten Prescription <span class="capt-desc">&mdash; Name the first drug on the list <span class="smaller">(from <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/" target="blank" class="link">Western Journal of Medicine</a>)</span></span></span>
 						</div>
-						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="fancybox">
-						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="scale-with-grid" alt="" /></a>
+						<a href="./assets/images/examples/human-factors/handwritten-prescription.png" class="fancybox" title="Handwritten Prescription - Name the first drug on the list">
+						<img src="./assets/images/examples/human-factors/handwritten-prescription.png" class="scale-with-grid" alt="Handwritten Prescription - Name the first drug on the list" /></a>
 					</div>
-					<p>Other things we expect and look for are affordances. Affordances are design features that tell people that they can take action with the object. This is why many options and choices are shaded to look like buttons. The appearance of an area that looks like a button creates in the user the idea that they can click their mouse on it and something will happen.  Blue or underlined hyperlinks are another good example of an affordance, though this one is going away in some cases where developers have chosen to go with an expectation rather than an affordance. </p>
+					<p>The cardiologist who prescribed the medication wrote 'Isordil,' but the pharmacist read it as 'Plendil.' After taking the prescribed medication for two days, the patient had a heart attack. Several days after that, he died<sup>1</sup>. In this case, the pharmacist was led astray by the very same perceptual system that enabled him to do his job correctly most of the time. Our perceptual system makes assumptions so automatically that we often don’t even realize that it's doing so.</p>
+					<p>Users come to computers with expectations (mental models) based on what they have seen before, and with an in-built tendency to make assumptions about what it is they're seeing. When we scan a screen, we look for digestible chunks: familiar things like navigation bars, buttons and logos. We also tend to look at the center of the screen rather than at the edges, because we expect the edges to display less important things, like logos and tools not relevant to the task at hand. We expect the core components of an interface to be front and center, easy to find.</p>
 					<div class="example" class="fig-7-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.3</span>
-							<span class="ex-caption">Example 3: Below we can see a few common affordances. The first is making a choice look like a button so the user knows that if they select it will do something. The second is a small image, this one is a calendar letting the user know if selected a full calendar will open.</span>
+							<span class="ex-caption">An Unclear Layout <span class="capt-desc">&mdash; Adding allergies without good ‘workflow’ guidance from the interface</span></span>
 						</div>
-						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="fancybox">
-						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="scale-with-grid" alt="" /></a>
+						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="fancybox" title="An Unclear Layout - Adding allergies without good ‘workflow’ guidance from the interface">
+						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="An Unclear Layout - Adding allergies without good ‘workflow’ guidance from the interface" /></a>
 					</div>
+					<div class="example" class="fig-7-4">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.4</span>
+							<span class="ex-caption">Meeting Our Expectations <span class="capt-desc">&mdash; We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.</span></span>
+						</div>
+						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="fancybox" title="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order."/></a>
+					</div>
+					<div class="example" class="fig-7-5">
+						<div class="ex-title">
+							<span class="ex-title">Figure 7.5</span>
+							<span class="ex-caption">A few common affordances <span class="capt-desc">&mdash; 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="A few common affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="A few common affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it." /></a>
+					</div>
+					<div class="example" class="fig-7-6">
+						<div class="ex-title">
+							<span class="ex-title">Figure 7.6</span>
+							<span class="ex-caption">Disclosure Arrow Affordance <span class="capt-desc">&mdash; In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" title="Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information">
+							<img src="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" class="scale-with-grid" alt="Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information" /></a>
+					</div>
+					<div class="example" class="fig-7-7">
+						<div class="ex-title">
+							<span class="ex-title">Figure 7.7</span>
+							<span class="ex-caption">Sort Arrow Affordance <span class="capt-desc">&mdash; Here, the arrow indicates the ability to sort the list by different columns.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" title="Sort Arrow Affordance - Here, the arrow indicates the ability to sort the list by different columns.">
+							<img src="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" class="scale-with-grid" alt="Sort Arrow Affordance - Here, the arrow indicates the ability to sort the list by different columns." /></a>
+					</div>
+					<p>Affordances tell users at a glance that particular elements of the graphical user interface are functional devices. Well-designed affordances also give users an idea of what will happen when they use them.</p>
+					
+					<h5 id="gestalts">7.1.2 We See in Gestalts</h5>
+					<p class="spacetop"><strong>People perceive whole shapes, or gestalts, rather than disconnected forms.</strong></p>
+					<p>Gestalt is a German word for form or shape. In English, it has come to have connotations of ‘wholeness’. When you walk into a room, you immediately form an overall sense of what's going on therein and its corresponding emotional tone. Most people understand when they've come in and interrupted a fight, even if they heard none of the previous conversation. When you view a webpage for the first time, you get a similar overall impression of it. You can say pretty quickly whether you think the site looks cluttered or appealing, modern or out of date. Several design elements feed into our gestalt impressions of sites and applications:</p>
+					<h5 id="proximity">Proximity</h5>
+					<p>The distance between objects determines what we perceive the relationships between those objects to be. If things are close together, we assume that's significant and 'group' them in our minds. If elements in a designed object are grouped together, we assume this was intentional and is meaningful.</p>
+				</div>
+				<div class="one-half column">
+					<div class="example" id="fig-7-8">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.8</span>
+							<span class="ex-caption">Our eyes notice the distribution of these dots...</span>
+						</div>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" title="Our eyes notice the distribution of these dots...">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" class="scale-with-grid" alt="Our eyes notice the distribution of these dots..." /></a>
+					</div>
+				</div>
+				<div class="one-helf column">
+					<div class="example" id="fig-7-9">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.9</span>
+							<span class="ex-caption">... and our brains group the closer objects automatically</span>
+						</div>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png"title="... and our brains group the closer objects automatically">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" class="scale-with-grid" alt="... and our brains group the closer objects automatically" /></a>
+					</div>
+				</div>
+				<div class="sixteen columns">
+					<p><strong>Example:</strong> The medication reconciliation view below (<a href="#fig-7-10">Figure 7.10</a>) breaks medications into groups. It then places these groups in the same columns. Users can tell there are different groups (columns) at a glance, without having to focus on, read and understand all the information on the chart.</p>
+					<div class="example" id="fig-7-10">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.10</span>
+							<span class="ex-caption">Ambulatory Medication Reconciliation Workflow <span class="capt-desc">&mdash; Items in the center are most alike, and those at the sides are most different. Items in between need clarification.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" title="Ambulatory Medication Reconciliation Workflow - Items in the center are most alike, and those at the sides are most different. Items in between need clarification.">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="Ambulatory Medication Reconciliation Workflow - Items in the center are most alike, and those at the sides are most different. Items in between need clarification." /></a>
+					</div>
+			
+					<h5 id="closure">Closure</h5>
+					<p>Our brains fill in visual blanks for us and draw conclusions with less than complete information. This helps us make sense of the world quickly. Sometimes we can draw the wrong conclusions, misleading our users. We need to keep the advantages and shortcomings of this perceptual habit in mind when we design systems. Designers can use our brains' tendency to quickly help users to understand a whole based on a partial picture, but design can also accidentally lead users to unintended and unhelpful 'false' gestalt impressions.</p>
+					<p><strong>Example:</strong> Our minds take lines or curves and build objects out of them. This is how we can know we're looking at something that's supposed to represent a person when it's a stick figure. Even though the lines below don't add up into a circle and a rectangle, people can still see and identify both shapes.</p>
+					<div class="example" id="fig-7-11">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.11</span>
+							<span class="ex-caption">Closure</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" title="Closure">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" class="scale-with-grid" alt="Closure" /></a>
+					</div>
+					
+					<h5 id="similarity">Similarity</h5>
+					<p>We perceive visual elements that look <strong>similar</strong> as parts of a group. Designers can indicate that two objects are similar, and thus related, by giving the objects the same sizes, shapes or colors. Interfaces that visually group related items are easier to use than those that don't. As a general rule, items that users must process together should be grouped together, and items that need to be processed separately should not.</p>
+					<div class="example" id="fig-7-12">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.12</span>
+							<span class="ex-caption">Users Perceive That the Blue Dots Are Associated</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" title="Users Perceive That the Blue Dots Are Associated">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" class="scale-with-grid" alt="Users Perceive That the Blue Dots Are Associated" /></a>
+					</div>
+					<p><strong>Example</strong>: In the medication reconciliation interface we looked at earlier, <strong>proximity</strong> marked certain groups of items as categories (columns). Now, when we add color, we create new groups (<a href="#fig-7-13">Figure 7.13</a>). Medications the user approves turn green, and medications the user deselects fade to light gray.</p>
+					<div class="example" id="fig-7-13">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.13</span>
+							<span class="ex-caption">Color creates new groups</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" title="Color creates new groups">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" alt="Color creates new groups" /></a>
+					</div>
+					
+					<h5 id="symmetry">Symmetry</h5>
+					<p>Our minds like to make sense of complex visual fields by assigning them a perceived center and attendant <strong>symmetry</strong>.</p>
+					<p><strong>Example</strong>: <a href="#fig-7-14">Figure 7.14</a> shows us how our minds like to see two symmetrical diamonds rather than other, equally possible (but less pleasingly symmetrical) shapes.</p>
+					<div class="example" id="fig-7-14">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.14</span>
+							<span class="ex-caption">Symmetry <span class="capt-desc">&mdash; Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes.</span></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" title="Symmetry - Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes.">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" class="scale-with-grid" alt="Symmetry - Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes." /></a>
+					</div>
+					<p><strong>Example</strong>: When we first glance at <a href="#fig-7-15">Figure 7.15</a>, below, we see two columns. In fact a series of individual entries creates the illusion of columns.</p>
+					<div class="example" id="fig-7-15">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.15</span>
+							<span class="ex-caption"></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" /></a>
+					</div>
+					
+					<h5 id="figure-ground">Figure / Ground</h5>
+					<p>Our brains perceive objects either as figures, in the foreground, or as part of the background. Whatever we're focusing on becomes the figure, and everything else shifts into the background accordingly.</p>
+					<p><strong>Example</strong>: In <a href="#fig-7-16">Figure 7.16</a> below, the ampersand is the figure, distinct from the blue rectangle that serves as its ground or background. As the designer intended, users understand the figure to be more important than the ground.</p>
+					<div class="example" id="fig-7-16">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.16</span>
+							<span class="ex-caption"></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" class="scale-with-grid" alt="&" /></a>
+					</div>
+					<p><strong>Example</strong>: <a href="#fig-7-17">Figure 7.17</a> below is the classic Edgar Rubin image in which viewers see either two faces or a vase, depending on where they focus their attention. Rubin was a practitioner of gestalt psychology.</p>
+					<div class="example" id="fig-7-17">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.17</span>
+							<span class="ex-caption">Ambiguous Figure/Ground Relationship</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" title="Ambiguous Figure/Ground Relationship">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" class="scale-with-grid" alt="Ambiguous Figure/Ground Relationship" /></a>
+					</div>
+					
+					<h5 id="continuity">Continuity</h5>
+					<p>In day to day life, our perception combines and relies on all of these components. Alignment creates groupings of items, and these groupings are said to have <strong>continuity</strong>. Our brains expect, and try, to reconcile contours into continuous objects.</p>
 					<div class="example" id="gal-7-1">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 7.1</span>
-							<span class="ex-caption">Example 4</span>
+							<span class="ex-caption">The Continuity Principle</span>
 						</div>
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<a href="./assets/images/examples/human-factors/UM_EHR_0010_collapse-affordance.png" class="fancybox" data-fancybox-group="gallery-1" >
-									<img src="./assets/images/examples/human-factors/UM_EHR_0010_collapse-affordance.png" class="scale-with-grid" /></a>
-									<div class="caption">Here the we can see the same affordance, an arrow, used as a disclosure widget in two different ways. In the first image the arrow lets the user know that they can expand or collapse an entry for more information.</div>
+									<div class="caption"><span class="ex-type">7.1 a</span> Though a rectangle 'blocks' parts of this curve...</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png">
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" class="scale-with-grid" /></a>
+									
 								</div></li>
 								<li><div>
-									<a href="./assets/images/examples/human-factors/UM_EHR_0011_sort-affordance.png" class="fancybox" data-fancybox-group="gallery-1">
-									<img src="./assets/images/examples/human-factors/UM_EHR_0011_sort-affordance.png" class="scale-with-grid" /></a>
-									<div class="caption">Here in the second image the arrow affordance allows access to choices to sort the list differently. The key to affordances is they inform the user at a glance that there is a functionality to a particular part of the graphical user interface.</div>
+									<div class="caption"><span class="ex-type">7.1 b</span> ...humans perceive both the curve and the box as whole, uninterrupted entities...</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png">
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" class="scale-with-grid" /></a>
+									
+								</div></li>
+								<li><div>
+									<div class="caption"><span class="ex-type">7.1 c</span> ...rather than as a box and some line segments.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png">
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" class="scale-with-grid" /></a>
 								</div></li>
 							</ul>
 						</div>
+					</div><!--end gallery 7.1-->
+					<p><strong>Example</strong>: <a href="#fig-7-18">Figure 7.18</a> demonstrates several of the things we've been talking about. When we look at it, our brains detect the proximity of different medication lists and categories and the similarity of 'selected' and 'deselected' groups of medications. The list also takes advantage of the contrast we perceive between figure and ground. The dark text seems closer to us, and the faded text seems further away.</p>
+					<div class="example" id="fig-7-18">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.18</span>
+							<span class="ex-caption"></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" /></a>
 					</div>
-					<h5 id="gestalts">We See in Gestalts</h5>
-					<p class="spacetop"><strong>Our visual system is wired to perceive whole shapes or gestalts rather than disconnected forms.</strong></p>
-					<p>Gestalt is a German word for form or shape. In English, it refers to wholeness. When you walk into a room, you get an overall sense of what’s going on and the emotional tone of the room. When you view a web page for the first time, you also get a similar overall sense of wholeness about the site: whether it’s appealing, whether it looks modern or out of date, and whether it looks clean or cluttered. Here are some of the elements that add to the overall Gestalt of a design.</p>
-					<h5 id="proximity">Proximity</h5>
-					<p>One way our minds like to see in gestalts is via proximity. Distance between objects determines how we perceive them. If things are close together we group them. Not only do we group them, but when it comes to designs, we tend to think they are grouped for a reason.</p>
+					
+					<h5>7.1.3 I Can't See It but I Use It</h5>
+					<p><strong>We use our peripheral vision to get a big picture of what we're seeing, and we use that big picture to help us decide what to focus on.</strong></p>
+					<p>Our visual system consists of our eyes and the brain systems that work with them. This system does an amazing job of seeking out and providing us with visual information. It does so mostly without our being consciously aware of it. We are barely aware that only the very central part of our vision provides us with a sharp-focused image, detail rich, with color information. The periphery of our vision (outside of the central “peephole”) is fuzzy, and drained of color. That peripheral part of the vision is, however, able to detect features such as motion, edge and contrast. These features guide our brains in making their "visual query" of the views before us.</p>
+					<p>Rapid eye movement enables our brains to sample the environment. The task we're trying to accomplish determines the details we unconsciously seek out. If we're looking for a friend, we notice faces in the crowd. If we're trying to find our way through the crowd, we notice the gaps between people.</p>
+					<p>Animated ads are effective (and annoying) because our peripheral vision detects motion. We want to ignore the ads, but their design takes advantage of the way vision works. Our eyes are drawn to anything that stands out. Our brains are trying to recognize threats in our environment, and our peripheral vision is always alert to differences and changes.</p>
+					<p><strong>Example</strong>: When we look at <a href="#fig-7-19">Figure 7.19</a>, below, our eyes first do a quick visual query. They seek out major landscape elements and the details that will help us accomplish whatever we're using this display to do. What we notice in the scene below will vary depending on whether we're driving, trying to decide whether we need to mow the lawn, or assessing whether the weather will be suitable for a picnic this afternoon.</p>
+					<div class="example" id="fig-7-19">
+						<div class="ex-title">
+							<span class="ex-type">Figure 6.19</span>
+							<span class="ex-caption"></span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/visualqueries3.png" title="">
+							<img src="./assets/images/examples/human-factors/visualqueries3.png" class="scale-with-grid" alt="" /></a>
+					</div>
+					<p><strong>Example</strong>: When we look at a display like Gallery 7.2 below, we think we see something like the first image. Actually, what we really 'see' at any given instant is something more like the second image. We only 'focus' on a small area at any given moment. Our visual brain first latches onto a preattentive attribute like the red text, and is disproportionately drawn to that element. Then our eyes automatically scan to find the next point of visual interest.</p>
 					<div class="example" id="gal-7-2">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 7.2</span>
-							<span class="ex-caption">Example 1</span>
+							<span class="ex-caption"></span>
 						</div>
 						<div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png"><img src="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" class="scale-with-grid" /></a>
-									<div class="caption">Our eyes notice this</div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png">
-									<img src="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" class="scale-with-grid" /></a>
-									<div class="caption">...and our brain groups the objects automatically</div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-					<p><strong>Example 2:</strong> Here in this medication reconciliation view, the medications are broken into groups, and these groups are placed in the same column. With a glance one can tell there are different groups (columns) without focusing to read what those groups are because each medication in each list is close to its similar category.</p>
-					<div class="example" id="fig-7-4">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.4</span>
-							<span class="ex-caption">Ambulatory Medication Reconciliation workflow</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png"><img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" /></a>
-					</div>
-			
-					<h5>Closure</h5>
-					<p>Another way we perceive in gestalts is through <strong>closure</strong>. Our brain will fill in visual blanks and make short cuts. This helps us make sense of the world quickly, but we need to keep it in mind when designing. If used well and with purpose, this closure can help the user see the gestalt we want them to see. Sometimes unintended gestalts can be created and these gestalts should be avoided. </p>
-					<p><strong>Example:</strong> Here is a classic example of how our minds take lines or curves and build objects out of them, even though there is no circle or rectangle, we see a circle and a rectangle.</p>
-					<div class="example" id="fig-7-5">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.5</span>
-							<span class="ex-caption">Closure</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0003_closure.png"><img src="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" class="scale-with-grid" /></a>
-					</div>
-					
-					<h5>Similarity</h5>
-					<p><strong>Similarity</strong> is another way our brains perceive groups. Visual elements that look alike are perceived as belonging to a group. You can group things by size, shape, or color – and color is particularly strong. In your designs, by grouping visual elements this way, you can make the interface simpler and easier to use.</p>
-					<p><strong>Example 1</strong>: We perceive the red dots in this image as belonging to a group.</p>
-					<div class="example" id="fig-7-6">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.6</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png"><img src="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" class="scale-with-grid" /></a>
-					</div>
-					<p><strong>Example 2</strong>: Proximity has already distinguished the proximal groups as categories but now the use of color creates a new group. There are now green medications for approved choices, normal ones that have yet to be selected or deselected, and faded medications for the medications deselected. That is <strong>similarity</strong> grouping in action.</p>
-					<div class="example" id="fig-7-7">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.7</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png"><img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" /></a>
-					</div>
-					
-					<h5>Similarity</h5>
-					<p>Our minds also like to reduce complex things by giving things <strong>symmetry</strong>. We tend to take complex images and simplify them around a perceived center.</p>
-					<p><strong>Example 1</strong>:  Here we see who our minds like to see two symmetrical diamonds rather than see other shapes.</p>
-					<div class="example" id="fig-7-8">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.8</span>
-							<span class="ex-caption">Symmetry: The human visual system tries to resolve complex scenes into combinations of simple, symmetrical shapes.</span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png"><img src="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" class="scale-with-grid" /></a>
-					</div>
-					<p><strong>Example 2</strong>:  Take a look at the example below. At first glance we see two columns rather than a series of individual entries, which are creating the illusions of columns. </p>
-					<div class="example" id="fig-7-9">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.9</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png"><img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" /></a>
-					</div>
-					
-					<h5>Figure / ground</h5>
-					<p><strong>Figure / ground</strong> is the gestalt principle that explains how we like to perceive things in two main planes, the figure, which becomes the foreground and everything else, which becomes the background. Whatever is the focus of our attention becomes the figure and everything else shifts into the background.</p>
-					<p><strong>Example 1</strong>: In the first example, the figure (ampersand) is seen as separate from the ground or background (the blue background). This is the kind of design to emulate. The figure clearly seems more important than the ground.</p>
-					<div class="example" id="fig-7-10">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.10</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png"><img src="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" class="scale-with-grid" /></a>
-					</div>
-					<p><strong>Example 2</strong>: Here is an example of an ambiguous figure/ground relationship. This example is the classic from gestalt psychologist Edgar Rubin where we can see both faces and a vase in the same image depending on where we put our attention.</p>
-					<div class="example" id="fig-7-11">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.11</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png"><img src="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" class="scale-with-grid" /></a>
-					</div>
-					
-					<h5>Continuity</h5>
-					<p>In the real world we combine all of these principles at the same time which affects how we perceive. </p>
-					<p><strong>Continuity</strong> is the term for groupings of objects created by their alignment. Our brains expect to see a contour as a continuous object.</p>
-					<div class="example" id="gal-7-3">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 7.3</span>
-							<span class="ex-caption">Example 1</span>
-						</div>
-						<div id="cbp-fwslider-3" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png"><img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" class="scale-with-grid" /></a>
-									<div class="caption">Though parts of this curve is blocked by a rectangle boxing it in</div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png">
-									<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" class="scale-with-grid" /></a>
-									<div class="caption">...humans perceive the curve as this</div>
-								</div></li>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png">
-									<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" class="scale-with-grid" /></a>
-									<div class="caption">...and not this</div>
-								</div></li>
-							</ul>
-						</div>
-					</div>
-					<p><strong>Example 2</strong>: The following example uses several of the gestalt principles, symmetry in space allocation for the lists, proximity for the medication lists source and category groupings, and similarity for selected and deselected medications. Figure and ground is also in play, note how the dark text seems closer to us and the faded text further away. </p>
-					<div class="example" id="fig-7-12">
-						<div class="ex-title">
-							<span class="ex-type">Figure 7.12</span>
-							<span class="ex-caption"></span>
-						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png"><img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" /></a>
-					</div>
-					
-					<hr />
-					
-					<h5>I Can't See it but I Use it</h5>
-					<p><strong>We use our peripheral vision to get a big picture of what we are seeing and use it to help decide what to focus on.</strong></p>
-					<p>Our visual system (the eyes and the brain systems that work with them) do an amazing job of seeking and providing visual information mostly without our conscious awareness. We are barely aware that only the very central part of our vision provides sharp-focused detail rich with color information, and that the periphery of our vision (outside of the central “peephole”) is fuzzy and bereft of color. However, that peripheral part of the vision is able to detect features such as motion, edge, and contrast that guide our brain in it’s “visual query” of the view before us. </p>
-					<p>Our brain makes rapid eye movement to sample the environment, seeking out details determined by what we are trying to accomplish. We see what we need to see. If we are looking for a friend, we see faces in the crowd. If we are finding our way through the crowd, we see the openings.</p>
-					<p>Because the peripheral part of our vision detects motion, we find those animated ads so annoying. Although we may wish to ignore them, we are designed to notice them. Our eyes are drawn to things that stand out or draw contrast to the norm.  Our brains recognize threats in an environment, and it’s our peripheral vision that is on the lookout for those big differences.</p>
-					<p><strong>Example 1</strong>: Our eyes do a quick visual query seeking out visual elements and creating meaningful details that help us accomplish our basic goals. What we notice in the scene below will be different depending on whether we are driving, deciding whether we need to mow the lawn, or assessing whether the weather will be suitable for a picnic 2 hours from now.</p>
-					<p><strong>Example 2</strong>: When looking at the display below, we think we instantly see this, but we don’t. But what we really see at any instant is more like the next image. We only have a small area in focus at any moment. Our visual brain sees red text (the preattentive attribute) and is drawn to it more than the rest of the scene. Then the eye automatically scans to the next point of interest.</p>
-					<div class="example" id="gal-7-4">
-						<div class="ex-title">
-							<span class="ex-type">Gallery 7.4</span>
-							<span class="ex-caption">Example 2</span>
-						</div>
-						<div id="cbp-fwslider-4" class="scale-with-grid cbp-fwslider">
-							<ul>
-								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png">
+									<div class="caption"><span class="ex-type">7.2 a</span> We think we see this</div>
+									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png">
 									<img src="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption">We think we see this</div>
+									
 								</div></li>
 								<li><div>
-									<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png">
+									<div class="caption"><span class="ex-type">7.2 b</span> ...but we actually see this.</div>
+									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png">
 									<img src="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png" class="scale-with-grid" alt="" title="" /></a>
-									<div class="caption">...but we don't. We see this.</div>
+									
 								</div></li>
 							</ul>
 						</div>
 					</div>
-					<p>A good thing to keep in mind is that a peripheral glance is what tells people where they are and what to expect. It also helps us decide what to focus on. Only our focused vision communicates what the display is really about and we can only really 'see' what we are focused on.</p>
-					<p><strong>Design tip:</strong> It is a good idea to provide feedback or error messages near where people are already focusing. While we use our peripheral vision to orient ourselves and look for things to draw our attention, we also try to ignore it when we are already focused on something else. </p>
+					<p>A peripheral glance tells people where they are and what to expect, and helps us decide what to focus on. We can only truly see what we focus on. The display can only effectively convey that information at any given time.</p>
+					<p><strong>Design tip:</strong> Feedback and error messages should pop up near the area people will already be focusing on. While we do use our peripheral vision to orient ourselves and scan for things, we also tend to ignore our peripheral vision when we're trying to focus on the task at hand.</p>
 					
-					<hr/>
-					
-					<h5 id="preattentive-attributes">Preattentive Attributes</h5>
-					<p class="spacetop"><strong>The little things people notice visually and understand quickly, so quickly that we have only noticed it at an unconscious level.</strong></p>
-					<p>We notice some visual features more quickly than others. Examples include color, size, shape, orientation, and motion. We call these things that stand out to us <strong>preattentive attributes</strong>. It is our fast thinking mind that is making sense of everything in our visual field at an unconscious level that make preattentive attributes work. This fast thinking subconscious part of our minds either tells us what to focus on or gives us options of what to focus on. Things that are different or stand out from the rest of the environment (examples below) are all in play with preattentive attributes. </p>
-					<p><strong>Example</strong>: Here are visual preattentive attributes</p>
-					<div class="example" id="fig-7-13">
+					<h5 id="preattentive-attributes">7.1.4 Preattentive Attributes</h5>
+					<p class="spacetop"><strong>Little, visual things people notice and understand quickly</strong></p>
+					<p>We notice some visual features, such as color, size, shape, orientation, and motion, more quickly than others. We call the things that especially stand out to us <strong>preattentive attributes</strong>. Before we fully process visual information, our minds prompt us to focus on these attributes. Things that stand out from the rest of their environment, as in <a href="#fig-7-20">Figure 7.20</a> below, do so because of their attention-catching preattentive attributes.</p>
+					<div class="example" id="fig-7-20">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.13</span>
-							<span class="ex-caption">Preattentive attributes of visual perception most applicable to data presentation</span>
+							<span class="ex-type">Figure 7.20</span>
+							<span class="ex-caption">How can we use preattentive attributes to facilitate data presentation?</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png"><img src="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" title="How can we use preattentive attributes to facilitate data presentation?">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" class="scale-with-grid" alt="How can we use preattentive attributes to facilitate data presentation?" /></a>
 					</div>
 				</div>
 			</div>
@@ -282,28 +331,29 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>How People Think</h3>
+						<h3>7.2 How People Think</h3>
 					</div>
-					<h5>The Two Ways People Think</h5>
-					<p><strong>Everybody has two modes of thinking, a fast one and one that takes focus. When you lower complexity you help people use the fast one and save energy for the focused one.</strong></p>
-					<p>Have you ever driven yourself home when you really want to drive yourself to the market but you were so busy thinking about other matters you only caught yourself as you pulled into your street or driveway? This is a good example of our two systems of thinking. It’s no surprise that the human brain is an amazing thing with many complex processes. We can characterize these many processes as two systems or different modes of thinking; system 1, fast thinking and system 2, focused thinking. Daniel Kahneman wrote a great book about these systems and we are using his ideas here.</p>
-					<p>The fast thinking system operates automatically and quickly, takes little to no effort, and doesn’t even have a sense of voluntary control. This is the system that lets us...</p>
+					<h5>7.2.1 The Two Ways People Think</h5>
+					<p><strong>Everyone has two modes of thinking. There's a rapid mode that requires little conscious effort, and a slower mode that requires focus.</strong></p>
+					<p>If a system is easy to understand and work with, users don't have to engage with it via their 'slow, focused' mode of thinking. They can just use their rapid mode, and can save their mental energy for more important matters. Daniel Kahneman wrote a great book about these modes, and our thinking builds on his work.</p>
+					<p>The rapid mode of thinking is automatic and almost effortless. People often don't experience a sense of voluntary control over it. This mode allows us to:
 						<ul class="disc">
 							<li>see that something is larger than something else</li>
-							<li>answer simple computations like 2+2 = 4</li>
+							<li>answer simple computations, like 2+2 = 4</li>
 							<li>read words on a billboard</li>
 							<li>understand simple sentences</li>
-							<li>make rapid and simple associations like stereotypes</li>
-							<li>take advantage of preattentive attributes</li>
-						</ul>
-					<p>The focused thinking system switches our attention to mental activities that take more mental effort. It is effort thinking that we often think of as our experience of agency, choice and concentration. This is the system that lets us...</p>
+							<li>make rapid and simple associations, such as stereotypes (positive or negative)</li>
+							<li>notice preattentive attributes</li>
+						</ul></p>
+					<p>Our focused mode of thinking is effortful, and allows us to perform more complex mental activities. We associate this mode of thinking with our experiences of agency, choice and concentration: in short, with our 'consciousness'. This mode allows us to:</p>
 						<ul class="disc">
 							<li>focus on listening to one voice in a noisy room</li>
-							<li>recall information like addresses and phone numbers</li>
-							<li>check the validity of a complex argument</li>
-							<li>look for one particular piece of information in a long article</li>
+							<li>recall information, like addresses and phone numbers</li>
+							<li>evaluate the validity of a complex argument</li>
+							<li>scan for a particular piece of information in a long article</li>
 						</ul>
-					<p>When creating an application it's helpful to ask yourself, “Are there opportunities to convert slow thinking tasks into fast thinking mode?” Make the application perform the complex calculations, do the rank-ordering, and concisely present the key information so that people can have the energy to do the focused thinking that only the human can do.</p>
+					<p>When creating an application, ask yourself whether you have any opportunities to convert tasks that require focused thinking into tasks that only require rapid thinking. Making the application perform complex calculations, sort information, and concisely present key details can free people up to do the focused thinking that only humans can.</p>
+					<p>The Twinlist medication reconciliation prototype, Figure 7.22, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sort them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
 				</div>
 			</div>
 		</section><!--end section preattentive-attributes-->
