@@ -9,9 +9,9 @@
 		<div class="sixteen columns">
 			<ul>
 				<li><a href="../">Table of Contents</a></li>
-				<li><a href="../simple-list/">Simple List</a></li>
-				<li><a href="../medication-list/">Interacive Table</a></li>
+				<li><a href="../medication-list/">Interactive Table</a></li>
 				<li><a href="../timeline/">Timeline</a></li>
+				<li><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a></li>
 				<li><a href="./Inspired_EHRs.pdf" target="blank">PDF</a></li>
 				<li><a href="https://github.com/goinvo/EHR" target="blank">GitHub</a></li>
 				<li><a href="mailto:feedback@inspiredEHRs.com?Subject=EHR%20feedback" target="_top">Feedback</a></li>

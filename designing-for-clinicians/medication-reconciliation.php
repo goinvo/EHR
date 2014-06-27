@@ -135,7 +135,7 @@
 					<div class="example" id="fig-3-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.4</span>
-							<span class="caption">Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. <span class="capt-desc">The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
+							<span class="ex-caption">Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. <span class="capt-desc">The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d  Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out.  Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected"  /></a>
@@ -143,7 +143,7 @@
 					<div class="example" id="#fig-3-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.5</span>
-							<span class="caption">The final reconciled medication list can be reviewed by looking at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
+							<span class="ex-caption">The final reconciled medication list can be reviewed by looking at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" title="3.1 e The final reconciled medication list can be reviewed by looking at all the bright green selected drugs, and it’s clear what lists they’ve come from." >
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" class="scale-with-grid" alt="The final selection" /></a>
@@ -175,7 +175,7 @@
 						</ol>
 
 					<h5>3.1.3 Other Considerations</h5>
-					<p>Inpatient medication reconciliation also involves adding new drugs, ePrescribing, and generating documentation. It involves conversations with the patient and caregivers, at the time of admission and again at the time of discharge. To successfully reconcile inpatient medication lists physicians must understand two aspects of medication management:
+					<p>Inpatient medication reconciliation also involves adding new drugs, e-prescribing, and generating documentation. It involves conversations with the patient and caregivers, at the time of admission and again at the time of discharge. To successfully reconcile inpatient medication lists physicians must understand two aspects of medication management:
 						<ol>
 							<li>Medication administration<ol>
 								<li>How much insulin and analgesics were prescribed to this patient in the last few days?</li>
@@ -324,7 +324,7 @@
 					<div class="example" id="fig-3-15">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.15</span>
-							<span class="caption">The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. <span class="capt-desc">Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.</span></span>
+							<span class="ex-caption">The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. <span class="capt-desc">Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="3.3 c The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure Betoxolol opthalmic is been moved to the “taking” category.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="" title="" /></a>
@@ -332,7 +332,7 @@
 					<div class="example" id="#fig-3-16">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.16</span>
-							<span class="caption">The physician has the option to confirm the status of all or some of the medications.</span>
+							<span class="ex-caption">The physician has the option to confirm the status of all or some of the medications.</span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" title="3.3 d The physician has the option to confirm the status of all or some of the medications.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" class="scale-with-grid" alt="" title="" /></a>
@@ -440,6 +440,7 @@
 					<hr />
 					<div class="disclaimer">
 						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/">Twinlist project webpage</a>.</Twinlist>
 					</div>
 					<hr />
 					<p>References</p>

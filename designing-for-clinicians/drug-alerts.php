@@ -125,7 +125,7 @@
 					<div class="example" class="fig-6-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.5</span>
-							<span class="ex-caption"><span class="capt-desc">Once the physician makes a choice, the system enables the “Continue” button</span></span>
+							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the “Continue” Button<span class="capt-desc"> &mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Once the physician makes a choice, the system enables the “Continue” button">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Once the physician makes a choice, the system enables the “Continue” button" /></a>
@@ -312,7 +312,7 @@
 					</div>
 					<div class="cf">
 						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./eprescribing.php"><span class="prev"></span> ePrescribing</a></p></div>
+							<p class="pagination prev_ch"><a href="./e-prescribing.php"><span class="prev"></span> E-Prescribing</a></p></div>
 						<div class="fright" id="nextCh">
 							<p class="pagination next_ch"><a href="./human-factors.php">Humans Factors<span class="next"></span></a></p></div>
 					</div>

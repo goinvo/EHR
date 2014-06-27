@@ -374,7 +374,7 @@
 						<div class="fleft" id="prevCh">
 							<p class="pagination prev_ch"><a href="./medication-reconciliation.php"><span class="prev"></span>Medication Reconciliation</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./eprescribing.php">ePrescribing<span class="next"></span></a></p></div>
+							<p class="pagination next_ch"><a href="./e-prescribing.php">E-Prescribing<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>

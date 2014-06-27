@@ -1,10 +1,14 @@
 .caption {
 	display: block;
 	padding: 10px;
-	
+	font-weight:bold;
 	text-align: left;
 	text-decoration: none;
 	height: 60px;
+}
+.caption .ex-type, 
+.caption .capt-desc {
+	font-weight: normal;
 }
 .cbp-fwslider {
 	position: relative;

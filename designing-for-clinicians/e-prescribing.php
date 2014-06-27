@@ -1,4 +1,4 @@
-<?php $pageTitle='ePrescribing'; ?>
+<?php $pageTitle='E-Prescribing'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -19,7 +19,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body class="eprescribing">
+<body class="e-prescribing">
 	<?php include './nav.php'; ?>
 	
 <div class="wrapper">
@@ -36,7 +36,7 @@
 			</div>
 		</header>
 
-		<section id="eprescribing">
+		<section id="e-prescribing">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">

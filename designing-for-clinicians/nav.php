@@ -21,13 +21,13 @@
 		<li class="allergy-list">
 			<a href="./medication-reconciliation.php"><span class="prev"></span></a> 
 			<a href="./allergy-list.php"><span class="ch-num"> 4</span> <span class="ch-name">Allergy List</span></a> 
-			<a href="./eprescribing.php"><span class="next"></span></a></li>
-		<li class="eprescribing">
+			<a href="./e-prescribing.php"><span class="next"></span></a></li>
+		<li class="e-prescribing">
 			<a href="./allergy-list.php"><span class="prev"></span></a> 
-			<a href="./eprescribing.php"><span class="ch-num"> 5</span> <span class="ch-name">ePrescribing</span></a> 
+			<a href="./e-prescribing.php"><span class="ch-num"> 5</span> <span class="ch-name">E-Prescribing</span></a> 
 			<a href="./drug-alerts.php"><span class="next"></span></a></li>
 		<li class="drug-alerts">
-			<a href="./eprescribing.php"><span class="prev"></span></a> 
+			<a href="./e-prescribing.php"><span class="prev"></span></a> 
 			<a href="./drug-alerts.php"><span class="ch-num"> 6</span> <span class="ch-name">Drug Alerts</span></a> 
 			<a href="./human-factors.php"><span class="next"></span></a></li>
 		<li class="human-factors">

@@ -654,7 +654,7 @@
 						</div><!--end sidebar-->
 						<div class="tip"></div>
 					</div><!--end quicktip-->
-					<h5>4.4 Summary</h5>
+					<h5>2.4 Summary</h5>
 						<ol>
 							<li>When designing EHR tools, consider the user and the task they’ll be performing. This will help you decide what functions and details a physician needs when using a particular medication list view.</li>
 							<li>Use <a href="./human-factors.php#preattentive-attributes" target="blank">preattentive attributes</a><span class="print-only"> (See Preattentive Attribute in the Human Factors chapter)</span> (like color, size, shape and alignment) to draw the user’s attention to the salient details.</li>

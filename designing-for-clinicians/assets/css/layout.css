@@ -469,7 +469,7 @@
 		/*top: 50%;*/
 		border-bottom: solid 1px #dedede;
 		z-index:1;
-		background: rgba(255,255,255,.6);
+		background: rgba(255,255,255,.95);
 		padding: 10px 0px 10px 0px;
 		top: 0;
 		margin-top: 0;
@@ -668,7 +668,7 @@
 	}
 	.example {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-		margin: 20px 0px 20px 0px;
+		margin: 20px 0px 50px 0px;
 	}
 	.ex-type { color: #999; font-size: 12px; }
 	.ex-caption { font-weight: bold; }
@@ -816,7 +816,10 @@
 	.license {
 		font-size: 12px;
 	}
-	#toc a {
+	#interactives:first-child {
+		color: #b4b4b4;
+	}
+	#interactives a, #toc a {
 		text-decoration: none;
 	}
 	#toc ul li .ch-num {
@@ -826,10 +829,7 @@
 		color: #b4b4b4;
 		min-width: 10px;
 	}
-	#toc ul li ul {
-		margin-left: 85px;
-	}
-	#toc ul {
+	#interactives ul, #toc ul {
 		list-style: none;
 	}
 	/*medication list*/
