@@ -339,6 +339,7 @@
 						<h5>EHR Usability</h5>
 						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="blank" class="link">Designing for Usability</a></p>
 					</div>
+					<hr />
 					<p>References</p>
 					<div class="section_cite">
 						<ol>

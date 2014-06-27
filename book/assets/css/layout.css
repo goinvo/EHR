@@ -105,6 +105,7 @@
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 	.quote_author { float: right; margin-top: 20px;}
+	.credit {font-size:12px; line-height:18px;}
 
 	hr { color: #ddd; border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
