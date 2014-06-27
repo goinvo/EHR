@@ -563,7 +563,7 @@
 	.menu ul li {
 		margin: 0px 0px 0px 0px;
 		display: inline;
-		margin-right: 25px;
+		margin-right: 35px;
 	}
 	.menu ul li a {
 		text-decoration: none;
@@ -802,12 +802,13 @@
 	.title_page #title .authors ul {
 		list-style: none;
 		line-height:18px;
+		margin-top: 32px;
+	}
+	.title_page #title .authors ul#lead {
+		margin-top: 0px;
 	}
 	.license {
 		font-size: 12px;
-	}
-	#toc {
-		margin-top: 124px;
 	}
 	#toc a {
 		text-decoration: none;
@@ -858,6 +859,9 @@
 	}
 	#acknowledge-ch .author {
 		margin-bottom: 40px;
+	}
+	#acknowledgements-sect h5 {
+		margin-top:60px;
 	}
 	#jarring-example .cbp-fwslider nav span.cbp-fwprev,
 	#jarring-example .cbp-fwslider nav span.cbp-fwnext {

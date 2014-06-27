@@ -1,31 +1,108 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-	<title>EHR Style Guide</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="./contents.css">
-</head>
+	<title>Inspired EHRs</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<body>
-	<div class="container">
-		<div class="sixteen columns head">
-			<h1>Inspired EHRs - Interactive prototypes</h1>
+	<link rel="stylesheet" type="text/css" href="./designing-for-clinicians/assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="print" href="./designing-for-clinicians/assets/css/print.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+<body class="title_page">
+<div class="wrapper">
+	<div class="container header">
+		<div class="sixteen columns">
+			<h2 class="title">Inspired EHRs: <span class="sm_title">Designing for Clinicians</span><!--<span class="version">v2, 3-24-2014</span>--></h2>
+		</div>
+	</div>
+		
+	<div class="menu">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li><a href="./simple-list/">Simple List</a></li>
+					<li><a href="./medication-list/">Interacive Table</a></li>
+					<li><a href="./timeline/">Timeline</a></li>
+					<li><a href="./Inspired_EHRs.pdf" target="blank">PDF</a></li>
+					<li><a href="https://github.com/goinvo/EHR" target="blank">GitHub</a></li>
+					<li><a href="mailto:feedback@inspiredEHRs.com?Subject=EHR%20feedback" target="_top">Feedback</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 			
+	<div class="container">
+		<div id="title">
+			<div class="sixteen columns">
+				<h2 class="title">Inspired EHRs <br /><span class="sm_title">Designing for Clinicians </span><!--<span class="version">v2, 3-24-2014</span>--></h2>
+				<p class="version">Draft - In progress. Final version to be released on 1 July, 2014</p>
+			</div>
+		
+			<div class="authors">
+				<div class="one-third column">
+					<ul id="lead">
+						<li><em>by</em></li>
+						<li>Jeff Belden, MD</li>
+						<li>Jennifer Patel</li>
+						<li>Nathan Lowrance</li>
+					</ul>
+				</div>
+				<div class="one-third column">
+					<ul>
+						<li></li>
+						<li>Catherine Plaisant, PhD</li>
+						<li>Richelle Koopman, MD</li>
+						<li>Joi Moore, PhD</li>
+					</ul>
+				</div>
+				<div class="one-third column">
+					<ul>
+						<li>Todd R. Johnson, PhD</li>
+						<li>Juhan Sonin</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class="two-thirds column">
-			<h2>Books</h2>
-			<ul>
-				<li><a href="./book">Inspired EHRs: Designing for Clinicians</a></li>
-				<li><!--<a href="https://www.dropbox.com/s/wsbnpwe5ioqunyh/EHR-02-16-sample.ibooks">-->Inspired EHRs PDF<!--</a>--></li>
-			</ul>
-			<h2>Medication <br/>Views</h2>
-			<ul>
-				<li><a href="./simple-list/">Simple List</a></li>
-				<li><a href="./medication-list/">Interacive Table</a></li>
-				<li><a href="./timeline/">Timeline</a></li>
-				<li><a href="https://github.com/goinvo/EHR">GitHub</a></li>
-			</ul>
+		<div class="sixteen columns">
+			<hr/>
+			<div id="toc">
+				<ul>
+					<li><span class="ch-num"></span><span><a href="./designing-for-clinicians/foreword.php">Foreword</a></span></li>
+					<li><span class="ch-num"> 1</span><span><a href="./designing-for-clinicians/about-this-book.php">About this Book</a></span></li>
+					<li><span class="ch-num"> 2</span><span><a href="./designing-for-clinicians/medication-list.php">Medication List</a></span></li>
+					<li><span class="ch-num"> 3</span><span><a href="./designing-for-clinicians/medication-reconciliation.php">Medication Reconciliation</a></span></li>
+					<li><span class="ch-num"> 4</span><span><a href="./designing-for-clinicians/allergy-list.php">Allergy List</a></span></li>
+					<li><span class="ch-num"> 5</span><span><a href="./designing-for-clinicians/eprescribing.php">ePrescribing</a></span></li>
+					<li><span class="ch-num"> 6</span><span><a href="./designing-for-clinicians/drug-alerts.php">Drug Alerts</a></span></li>
+					<li><span class="ch-num"> 7</span><span><a href="./designing-for-clinicians/human-factors.php">Human Factors</a></span></li>
+					<li><span class="ch-num"> 8</span><span><a href="./designing-for-clinicians/design-principles.php">Design Principles</a></span></li>
+					<li><span class="ch-num"> 9</span><span><a href="./designing-for-clinicians/health-it-usability.php">Health IT Usability</a></span></li>
+					<li><span class="ch-num"> 10</span><span><a href="./designing-for-clinicians/acknowledgements.php">Acknowledgements</a></span></li>
+				</ul>
+			</div>
 		</div>
-	</div><!--end container-->
+		<div class="sixteen columns">
+			<hr />
+			<div class="license">
+				<p>&copy; 2014 The Curators of the University of Missouri. All rights reserved.</p>
+				<p>The content of this book and the code of its prototypes is made available under the Apache 2.0 open source license. This license agreement allows anyone to freely use the code and ideas presented in this book, subject to the conditions listed at <a href="http://opensource.org/licenses/Apache-2.0">http://opensource.org/licenses/Apache-2.0</a>.</p>
+			</div>
+		</div>
+		
+	</div>
+</div>
 </body>
-</html>
