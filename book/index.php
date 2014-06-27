@@ -63,7 +63,8 @@
 					<li><span class="ch-num"> 6</span><span><a href="./drug-alerts.php">Drug Alerts</a></span></li>
 					<li><span class="ch-num"> 7</span><span><a href="./human-factors.php">Human Factors</a></span></li>
 					<li><span class="ch-num"> 8</span><span><a href="./design-principles.php">Design Principles</a></span></li>
-					<li><span class="ch-num"> 9</span><span><a href="./acknowledgements.php">Acknowledgements</a></span></li>
+					<li><span class="ch-num"> 9</span><span><a href="./health-it-usability.php">Health IT Usability</a></span></li>
+					<li><span class="ch-num"> 10</span><span><a href="./acknowledgements.php">Acknowledgements</a></span></li>
 				</ul>
 			</div>
 		</div>

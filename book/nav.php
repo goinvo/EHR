@@ -65,7 +65,7 @@
 				<!--<li><a href="#visual-clutter"><div class="disc">8.8</div></a></li>-->
 			</ul>
 		</li>
-		<li class="health-it-usability"><a href="./design-principles.php"><span class="prev"></span></a> <a href="./health-it-usability.php"> <span class="ch-num"> 9</span> <span class="ch-name">Health IT Usability</span></a> </li>
+		<li class="health-it-usability"><a href="./design-principles.php"><span class="prev"></span></a> <a href="./health-it-usability.php"> <span class="ch-num"> 9</span> <span class="ch-name">Health IT Usability</span></a> <a href="./acknowledgements.php"><span class="next"></span></li>
 		<li class="acknowledgements"><a href="./health-it-usability.php"><span class="prev"></span></a> <a href="./acknowledgements.php"> <span class="ch-num"> 9</span> <span class="ch-name">Acknowledgements</span></a> </li>
 	</ul>
 </nav>

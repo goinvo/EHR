@@ -647,6 +647,19 @@
 	.sidebar-table#patient-adherence tbody td {
 		text-align: left;
 	}
+	#methodologies-table .sidebar-table td,
+	#methodologies-table .sidebar-table th {
+		text-align: left;
+		vertical-align: top;
+		padding: 5px;
+	}
+	#methodologies-table .sidebar-table th {
+		color: #989898;
+	}
+	#methodologies-table .sidebar-table td:first-child {
+		font-size: 12px;
+		font-weight: bold;
+	}
 	.example {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		margin: 20px 0px 20px 0px;

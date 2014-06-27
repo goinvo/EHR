@@ -1,4 +1,4 @@
-<?php $pageTitle='Design Principles'; ?>
+<?php $pageTitle='Health IT Usability'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -12,15 +12,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
-	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body class="design-principles">
+<body class="health-it-usability">
 	<?php include './nav.php'; ?>
 	
 <div class="wrapper">
@@ -71,145 +69,124 @@
 					<p>Usability is an increasingly important consideration in organizational and product planning. The good news is that there are many methodological tools that have been developed by researchers to aid designing and evaluating the usability of computer systems in general. More recently researchers have begun developing specific guidance for EHRs in particular.</p>
 					<p>Development methodologies such as contextual design help developers by offering validated processes with predictable schedules. Ethnographic, or user group,  observation can guide task analysis and complement user participatory design processes. Writing scenarios help developer teams to build a common understanding of design goals. These scenarios can also help plan usability tests. Logs of current Health IT system usage can provide valuable data about task frequencies and sequences that lead to design refinements. These methods will provide the developers with valuable information about how the users go about their tasks and how frequently they perform various tasks. Armed with this information, the developers will be able to refine their designs.</p>
 					<p>Specific guidance for EHR design and evaluation is becoming more and more available. For example there is now a <a href="http://www.nist.gov/manuscript-publication-search.cfm?pub_id=909701" class="link" target="blank" >NIST publication</a> that summarizes the rationale for an Electronic Health Record (EHR) Usability Protocol (EUP) and outlines a three-step process. These three steps consist of (1) EHR Application Analysis, (2) EHR User Interface Expert Review, and (3) EHR User Interface Validation Testing. The <a href="https://turf.shis.uth.tmc.edu/turfweb/" target="blank" class="link">TURF Usability Toolkit</a> developed at the University of Texas can help create, organize, and analyze usability of EHRs. Other Health IT and general usability and design resources are provided at the end of the chapter.</p>
-					<p>Key ideas:</p>
-						<ul class="disc">
-							<li>Visual: Remove all extraneous noise and ornamentation. Achieve visual simplicity before adding flourishes for decoration or emphasis.</li>
-							<li>Informational: Watch out for repetitious, proximate words and symbols in your design. Consolidate these where possible.</li>
-							<li>Behavioral: Pick a primary method for performing an action and feature it prominently. Controls and interactions that duplicate the behavior can be hidden one level deeper.</li>
-						</ul>
+					<p>Usability evaluations provide developers with subjective and objective data for improving the user interfaces.  For practical results, 5 to 8 people participating in a pilot study using most methods can already provide valuable feedback and suggestions for improvements. A group of sixteen to twenty participants will start to consistently report similar issues with the design. At this point, the developers can study these results and refine the design accordingly. The developers can run several testing cycles to make sure they address all the program's significant problems.</p>
+					<p>Other methodologies for evaluating or creating designs and evaluation include:</p>
+					<div id="methodologies-table">
+						<table class="sidebar-table">
+							<thead>
+								<tr>
+									<th>Method</th>
+									<th>Description</th>
+									<th>Purpose</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Card Sorting</td>
+									<td>A categorization method wherein users sort cards depicting various concepts into groups. </td>
+									<td>Card sorting helps developers organize a program's content. It helps them design better overall information architecture and better menus. It can also help physicians and programmers work together to effectively label a program's various functions.</td>
+								</tr>
+								<tr>
+									<td>Cognitive Walkthrough</td>
+									<td>A team of evaluations walk through a paper or working prototype, discussing the usability issues they encounter as they go.</td>
+									<td>This process helps identify additional application functions necessary for the tasks in a workflow process. </td>
+								</tr>
+								<tr>
+									<td>Exit Interview (Retrospective Think Aloud)</td>
+									<td>After a prior usability test, a moderator asks a user questions about how the system they've just interacted with performed.</td>
+									<td>Provides meaningful qualitative information, as well as highlighting what's working, what's not, and why.</td>
+								</tr>
+								<tr>
+									<td>Focus Group</td>
+									<td>A moderator guides a discussion about the application being developed with a group of users.</td>
+									<td>Focus groups help developers understand the factors that affect individuals' relationship to the application’s needs and design.</td>
+								</tr>
+								<tr>
+									<td>Heuristic Evaluation (Expert Review)</td>
+									<td>Usability and design experts examine the product and determine whether it meets industry standards.</td>
+									<td>Experts who know key factors of good design and can quickly identify trouble areas, even subtle ones, that other methods might miss.</td>
+								</tr>
+								<tr>
+									<td>Paper Prototyping</td>
+									<td>Low fidelity usability testing of product concept made from paper or some simple tool</td>
+									<td>Paper prototyping has a high value in the iterative design process. A design can be worked and reworked over and over again, especially when combined with cognitive walkthroughs, to quickly design a prototype</td>
+								</tr>
+								<tr>
+									<td>Survey or Questionnaire</td>
+									<td>A survey or questionnaire asks specific questions about an application’s effectiveness or can collect information about user demographics, preferences and experiences with the tool.</td>
+									<td>Surveys can provide developers with feedback about a variety of design issues throughout the product's lifecycle.</td>
+								</tr>
+								<tr>
+									<td>Think Aloud (Concurrent)</td>
+									<td>Participants in testing express their thoughts on the application while executing set tasks. Think alouds are also used in an exit interview when the user shown a recording of their session and asked to express their thoughts in retrospect</td>
+									<td>This process can help gain insight into the thought flows of actual users as well help answer questions about why users are performing tasks a certain way.</td>
+								</tr>
+								<tr>
+									<td>Usability Testing/Task Performance</td>
+									<td>A usability test that presents representative end-users with scenarios, or specific tasks, designed to cover the major functionality of the software system and to simulate expected real-life usage patterns</td>
+									<td>This process determines if the design works for the intended task or has gulfs between the user’s expectations of the design and the developer's concept of functionality. </td>
+								</tr>
+								<tr>
+									<td>Field Testing</td>
+									<td>Researchers evaluate products in the contexts in which those products would normally be used. </td>
+									<td>People use things differently in different settings. Collecting data in the field can provide new insights that are not always discoverable in a lab or test center</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
-		</section><!--end section removing-complexity-->
+		</section><!--end section methodologies-->
 		
-		<!--<section id="direct-manipulation" class="section">
+		<section id="recommended-reading" class="section">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>Direct Manipulation</h3>
+						<h3>9.3 Recommended Reading</h3>
 					</div>
-					<p><strong>Second hand information is never as reliable as first hand experience.</strong></p>
-					<p>Products that suffer from complex interfaces often will find at the root of the problem a large amount of extraneous redundancy. This redundancy cuts across the board and is not limited in scope. It generally interferes at all levels of the interface: the visual, informational and behavioral aspects of the product. It’s extra visual line noise, repetitive informational symbols and too many controls ways to perform the same action all visible at the same time. Imagine if you will attempting to drive a car with three dashboards, four steering wheels, and highway signs that were consistently duplicated on both sides of the road.</p>
-					<p>A significant amount of complexity can be removed from the product through the simple task of flattening. So much that often times true innovative design cannot be accomplished until a product’s interface has been sufficiently flattened.</p>
-					<p>Key Ideas:</p>
-						<ul class="disc">
-							<li>Visual: Remove all extraneous line noise and ornamentation. First achieve visual simplicity before decorating with flourishes.</li>
-							<li>Information: Always check the screen for words and symbols that have been repeated in proximity of each other. Then consolidate them.</li>
-							<li>Behavioral: Pick a primary method for performing an action and feature it prominently. Controls and interactions that duplicate the behavior be hidden one level deeper.</li>
-						</ul>
-				</div>
-			</div>
-		</section>--><!--end section direct-manipulation-->
-		
-		<section id="terminology" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>8.3 Terminology</h3>
-					</div>
-					<p><strong>Always ask, 'What is this?' about your chosen terminology until you are sure of the final answer.</strong></p>
-					<p>Marketing is meant to sell, and in order to do so it generates saleable names. These names and this process aren't the best means of denoting terminology inside a functional interface. As much as marketing managers want to control the design of a product, their skill set, as it's currently understood, doesn't serve the product or the user well in this capacity.</p>
-					<p>Generally speaking, terminology should be as uncomplicated and natural as common language used in everyday conversation.</p>
-					<p>Don't try to be clever when it comes to terminology. There's no need to construct complex neologisms that would prompt the use of a dictionary. Just call things what they are. It's really that simple.</p>
-					<p>Just call things what they are. It’s really that simple.</p>
-					<p>Key ideas:</p>
-						<ul class="disc">
-							<li>The interface is no place for marketing labels. Call things what they are.</li>
-							<li>Use industry standard language when possible. For example, designers know that “leading” is the measurement between two baselines in body copy. To refer to “leading” as “line height” will simply confuse the target audience.</li>
-							<li>If you use a term in the interface that you can't easily define in one sentence or less, chances are you've misused the term.</li>
-						</ul>
+					<h5>9.3.1 Usability and EHR</h5>
+					<p><strong>Health Information Management Systems Society (HIMSS)</strong>
+						<br/><a href="http://himss.org/usability" target="blank" class="link">EHR Usability Basics</a></p>
+					<p><strong>HIMSS</strong> is a global, cause-based, not-for-profit organization that focuses improving healthcare through improving and distributing information technology (IT). This site includes resources related to EHR usability evaluation and design.</p>
+					<p><strong>National Institute of Standards and Technology</strong>
+						<br/><a href="http://www.nist.gov/healthcare/usability/" target="blank" class="link">Health Information Technology / Usability</a></p>
+					<p>This site summarizes NIST's work on Health IT. It contains links to selected publications, and to records of NIST's conference proceedings. See in particular:
+					<br/><a href="http://www.nist.gov/manuscript-publication-search.cfm?pub_id=907313" target="blank" class="link">(NISTIR 7741) NIST Guide to the Processes Approach for Improving the Usability of Electronic Health Records</a></p>
+					<p><a href="http://www.nist.gov/manuscript-publication-search.cfm?pub_id=909701" target="blank" class="link">(NISTIR 7804) Technical Evaluation, Testing and Validation of the Usability of Electronic Health Records</a></p>
+					<p><strong>Strategic Health IT Advanced Research Projects (SHARP)</strong>
+						<br/><a href="http://www.healthit.gov/policy-researchers-implementers/strategic-health-it-advanced-research-projects-sharp" target="blank" class="link">HealthIT.gov</a></p>
+					<p>SHARP's research works to address problems that impede the adoption of Health IT. See in particular: <a href="https://turf.shis.uth.tmc.edu/turfweb/" target="blank" class="link">TURF EHR Usability Toolkit</a></p>
+					<p><a href="http://dl.acm.org/citation.cfm?id=2029976&picked=prox" target="blank" class="link">Special Section of ACM Interactions</a> (Nov/Dec 2011) 
+						<br/>Edited by Harry Hochheiser and Ben Shneiderman, including
+						<ul>
+							<li>Hochheiser, H., &amp; Shneiderman, B. (2011). Electronic medical records: usability challenges and opportunities. <em>ACM Interactions</em>, 18(6), 48-49.</li>
+							<li>Douglas, G. P., Landis-Lewis, Z., &amp; Hochheiser, H. (2011). Simplicity and usability: lessons from a touchscreen electronic medical record system in Malawi. <em>ACM Interactions</em>, 18(6), 50-53.</li>
+							<li>Swanson, A., &mp; Lind, S. (2011). Usability testing EHRs: Examples from the front lines. <em>ACM Interactions</em>, 18(6), 54-58.</li>
+							<li>Shneiderman, B. (2011). Tragic errors: usability and electronic health records. <em>ACM Interactions</em>, 18(6), 60-63.(<a href="http://www.cs.umd.edu/hcil/sharp/TragicErrors-EHR-Usability-ACMinteractions-11-2011.pdf" target="blank" class="link">PDF</a>)</li>
+						</ul></p>
+					<p><a href="http://www.usability.gov" class="link" target="blank">Usability.gov</a> This is a valuable general resource on usability methods and principles.</p>
+
+					<h5>9.3.2 Usability in General</h5>
+					<p>Norman, D. (2013). <em>The Design of Everyday Things: Revised and Expanded Edition</em>. (Originally published: <em>The Psychology of Everyday Things</em>). New York, NY: Basic Books</p>
+					<p>Shneiderman, S. B., &amp; Plaisant, C. (2010). <em>Designing the User Interface</em> (4th ed.).  Reading, MA: Addison-Wesley Publ. Co.</p>
+					<p>Rogers, Y., Sharp, H., &amp; Preece, J. (2011). <em>Interaction Design: Beyond Human-Computer Interaction</em>. Hoboken, NJ: John Wiley &amp; Sons.</p>
+					<p>Dumas, J., Redish, J. (1999). <em>A Practical Guide to Usability Testing</em>. Norwood, NJ: Ablex.  </p>
+					<p>Gould, J. D., &amp; Lewis, C. (1985). Designing for Usability: Key Principles and What Designers Think. <em>Communications of the ACM</em>, 28(3), 300-311.</p>
+					<p>Card, S. K., Moran, T. P., &amp; Newell, A. (Eds.). (1986). <em>The Psychology of Human-Computer Interaction</em>. Boca Raton, FL: CRC Press.</p>
+					<p>Rubin, J., &amp; Chisnell, D. (2008). <em>Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests</em>. Hoboken, NJ: John Wiley &amp; Sons.</p>
+					<p>Krug, S. (2014). <em>Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</em>. Berkeley, CA: New Riders.</p>
+
+					<h5>9.3.3 Design</h5>
+					<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know about People</em>. Berkeley, CA: New Riders.</p>
+					<p>Few, S. (2009). <em>Now You See It: Simple Visualization Techniques for Quantitative Analysis</em>. Oakland, CA: Analytics Press.</p>
+					<p>Ware, C. (2005). Visual Queries: The Foundation of Visual Thinking. <em>In Knowledge and Information Visualization</em>, (pp. 27-35). Springer Berlin Heidelberg.</p>
+					<p>Johnson, J (2010). <em>Simple Guide to Understanding User Interface Design Rules: Designing with the Mind in Mind</em>. Burlington, MA: Morgan Kaufman.</p>
+					<p>Williams, R. (2003). <em>The Mac is Not a Typewriter</em>. San Francisco, CA: Peachpit Press.</p>
+					<p>Williams, R. (2008). <em>The Non-Designer's Design Book</em>. San Francisco, CA: Peachpit Press.</p>
 				</div>
 			</div>
 		</section><!--end section terminology-->
-		
-		<section id="emphasis" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>8.4 Emphasis</h3>
-					</div>
-					<p><strong>When everything is important, nothing is important.</strong></p>
-					<p>If the design treats every feature, control and piece of data in the software application as vitally important, the end product won't be very useful. Contrast and emphasis allow users to make sense of what would otherwise be a swamp of features.</p>
-					<p>Designers and developers must regularly ask themselves (and the users) how important given features are in relation to one another.</p>
-					<p>Key Ideas:</p>
-						<ul class="disc">
-							<li>Screens in an EHR should have a single focus that acts as a visual anchor. This point doesn't have to be semantically important to the user, it just has to make the layout comprehensible.</li>
-							<li>Create boundaries and limit the scope of the application to the user task at hand. Limit the number of emphasized options or controls a given screen displays. Three is a good baseline to shoot for, while more than five is too many.</li>
-							<li>Establish consistent rules about what makes controls or features high priority and then stick to those rules. For example, to determine any control or feature as high priority, it must be used by 75% of the user base at least 25% of the time. Any other feature would not be considered a high priority and should be dropped or placed in a second tier menu.</li>
-						</ul>
-				</div>
-			</div>
-		</section><!--end section emphasis-->
-		
-		<section id="typography" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>8.5 Typography</h3>
-					</div>
-					<p><strong>When in doubt, follow the rule of two.</strong></p>
-					<p>One of the easiest problems to fix in almost any design is the poor application of basic typographical rules.</p>
-					<p>Words are the functional equivalent of icons. When you read a body of text, you are not parsing individual letters, like “d - e - s - i - g - n.” You are actually seeing a concise symbol that is parsed as a single object, “design.”</p>
-					<p>An inconsistent jumble of typefaces distracts users. It's the typographical equivalent of wearing several clashing fabrics. Limit yourself to no more that two types and six to eight fonts throughout the application. </p>
-					<p>“Type” is defined as a font face like Helvetica or Georgia. “Font” is defined as the combination of the font face, color, size, and variant (italic, bold, etc). For example 11pt Helvetica colored as #333 and 11pt Helvetica Italic colored as #333 are considered two different fonts, just as they would be considered different fonts if they were different shades of blue, or if one was 11pt and the other was 18pt.</p>
-					<p>Once your type is under-control, you can choose the optimal spots to use fonts to add emphasis.</p>
-					<p>Key ideas:</p>
-						<ul class="disc">
-							<li>As a starting point, use no more than two types in the design of the product.</li>
-							<li>Before deviating from the ‘no more than eight fonts’ rule, first force yourself to solve the design problem within the rule's constraints. </li>
-						</ul>
-				</div>
-			</div>
-		</section><!--end section typography-->
-		
-		<section id="color" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>8.6 Color</h3>
-					</div>
-					<p><strong>When used effectively, color informs, and even calms the user.</strong></p>
-					<p>Where type communicates, color provides context. The use of color should be constrained like the use of type. Just like its typographical counterpart, an application's color palette must be considered judiciously.</p>
-					<p>Developers must carefully avoid making extraneous or random additions. Color, after all, has a direct, visceral effect on the user that type lacks.</p>
-					<p>Just like it’s typographical counterpart, a color palette must be applied judiciously, carefully avoiding extraneous or random additions.</p>
-					<p>Key ideas:</p>
-						<ul class="disc">
-							<li>Define the product’s color palette. Pick a color system that also serves the needs of the product at a functional level, rather than that solely serves a marketing or branding agenda.</li>
-							<li>Picking a base color is a good place to start. From there pick up to three complementary colors and one highlight color. It is also a good idea to define your levels of black and white.</li>
-							<li>Before deviating from your defined color palette, force yourself to solve the design problem within your defined constraints.</li>
-						</ul>
-				</div>
-			</div>
-		</section>
-				
-		<section id="dark-side-of-color" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>8.6The Dark Side of Seeing Color </h3>
-					</div>
-					<p><strong>Color has it uses, but if one is not careful, color can become useless.</strong></p>
-					<p>Color is useful beyond just having things look pleasing to the eye, it can create distinctions and be used to draw attention to things we want people to look at. However color has it limits as a communication tool and it’s important to keep these limitations in mind if you want to use color effectively.</p>
-					<p>The first thing to keep in mind is that 9% of men and 0.5% percent of women are color blind. Color blind people can see color, but they can’t see the differences between some colors the way most people can. There are different types of color blindness but the most common one makes it hard to see the difference between reds, yellows, and greens.</p>
-					<p>Another tricky element to color is that different cultures can have different associations for the same color. So while red can mean bad, danger, or stop to many Western users, in some Asian cultures red is associated with happiness or good fortune. Designers need to take into account the cultural context of likely users, and to use color in a way that doesn't unduly inconvenience color-blind users.</p>
-					<p>Some colors don’t play well together. In combinations clashing colors can make things hard to look at and difficult to read.  For example red and blue or red and green overlapping each other cause this effect but there are many colors that are opponent colors and clash. It would be a good idea to consult a color guide when choosing your colors.</p>
-					<p>Converting your design into gray scale can be useful to check if your color differences are strong enough to be noticeable. The color differences that most color blind people have a hard time seeing are discernible to them even in color if the differences are detectable once the design has been converted  grey scale. This also helps make sure your color differences are strong enough for non color blind people to detect.</p>
-					<p>Color is useful, but don’t let it stand alone. Use other cues to complement it.</p>
-					<p>Key ideas:</p>
-						<ul class="disc">
-							<li>Avoid subtle color differences. Our eyes have evolved to see strong contrasts. A trick is to convert a project to grayscale, if it’s too hard to see the difference between your colors in grayscale it’s a good bet the colors are not different enough to avoid causing confusion.</li>
-							<li>Keep in mind that color displays are not all created equal on the hardware side. The display capacity of the monitor screen, for example, can affect an application's appearance. Video card quality can also have an effect.</li>
-							<li>Colors have natural pairs, but watch out for clashing colors and color blindness.</li>
-							<li>When used sparingly color can work to draw the eye where you want it to go. When overused, color loses its effect.</li>
-						</ul>
-				</div>
-			</div>
-		</section><!--end section color-->
 		
 		<footer class="chapterEnd">
 			<div class="container">
@@ -219,9 +196,9 @@
 					</div>
 					<div class="cf">
 						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./human-factors.php"><span class="prev"></span> Human Factors</a></p></div>
+							<p class="pagination prev_ch"><a href="./design-principles.php"><span class="prev"></span> Design Principles</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./health-it-usability.php">Health IT Usability<span class="next"></span></a></p></div>
+							<p class="pagination next_ch"><a href="./acknowledgements.php">Acknowledgements<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>
@@ -234,56 +211,13 @@
 					<div class="disclaimer">
 						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
 					</div>
-					<hr />
-					<p>References</p>
-					<div class="section_cite">
-						<p class="grey"><strong>Quote</strong></p>
-						<p>Crawford, S. (2014, May 27). Chipp Kidd. <em>Inkbot Design</em>. Retrieved from http://inkbotdesign.com/chip-kidd/</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey"><strong>The Dark Side of Seeing Color</strong></p>
-						<p>Johnson, J (2010). <em>Simple Guide to Understanding User Interface Design Rules: Designing with the Mind in Mind</em>. Burlington, MA: Morgan Kaufman.</p>
-						<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know about People</em>. Berkeley, CA: New Riders.</p>
-					</div>
 				</div>
 			</div>
 		</section>
 
 	</section>
-
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
-	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
-	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
-	<script type="text/javascript">
-		$(function() {
-			$( '#cbp-fwslider' ).cbpFWSlider();
-			$( '#cbp-fwslider-2' ).cbpFWSlider();
-			$( '#cbp-fwslider-3' ).cbpFWSlider();
-			$( '#cbp-fwslider-4' ).cbpFWSlider();
-		});
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".fancybox").fancybox({
-				closeEffect	: 'none',
-				
-				helpers : {
-					title : {
-						type : 'outside'
-					}
-				},
-				
-				afterLoad : function() {
-					if (this.group.length > 1){
-						this.title = (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
-					}
-				}
-			});
-		});
-	</script>
-	
 </div><!--end wrapper-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="./assets/js/main.js" type="text/javascript"></script>
 </body>
 </html>
