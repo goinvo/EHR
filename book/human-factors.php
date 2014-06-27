@@ -353,196 +353,142 @@
 							<li>scan for a particular piece of information in a long article</li>
 						</ul>
 					<p>When creating an application, ask yourself whether you have any opportunities to convert tasks that require focused thinking into tasks that only require rapid thinking. Making the application perform complex calculations, sort information, and concisely present key details can free people up to do the focused thinking that only humans can.</p>
-					<p>The Twinlist medication reconciliation prototype, Figure 7.22, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sort them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
-				</div>
-			</div>
-		</section><!--end section preattentive-attributes-->
-		
-		<section id="working-memory" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3>Working Memory</h3>
+					<p>The Twinlist medication reconciliation prototype, <a href="#fig-7-21">Figure 7.21</a>, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sort them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
+					<div class="example" if="fig-7-21">
+						<div class="ex-title">
+							<span class="ex-type">Figure 7.21</span>
+							<span class="ex-caption">The Twinlist Prototype Facilitates Fast Thinking</span>
+						</div>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0007_when-the-pointer-hovers-over-a-drug-clean.png" title=" The Twinlist Prototype Facilitates Fast Thinking">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0007_when-the-pointer-hovers-over-a-drug-clean.png" class="scale-with-grid" alt=" The Twinlist Prototype Facilitates Fast Thinking" /></a>
 					</div>
-					<p><strong>Working memory takes work and is limited to four things, try to design without making doctors and patients use working memory.</strong></p>
-					<p>Working memory is your memory that you need for less than a minute. This is sometimes called short term memory. This is the type of memory we use when someone tells us a phone number and we have to keep it in our heads till we write it down or punch it into our phone. This type of memory takes focused thinking. </p>
-					<p><strong>Design tip</strong>: Try not to ask people to look at information on one page and then remember it and enter it into another field on another page.</p>
-					<p>If you ask people to use their working memory, make sure they can finish that working memory task before you have them do anything else, find anything else, tell them anything else, or give them more options. Working memory is easy to interrupt.</p>
-					<p>People only keep three to four items at a time in working memory. The way we display bits of information can influence our working memory capability. If we chunk items, we can remember a longer string of digits than if we don’t. For example, a phone number is easier to remember with chunking. Compare these numeric strings:</p>
+
+					<h5 id="working memory">7.2.2 Working Memory</h5>
+					<p><strong>Working memory demands effort and is limited. Try to design systems that place limited demands on users' working memory.</strong></p>
+					<p>Working memory, or short-term memory, holds items like phone numbers until we can write them down or punch them into our phones. This type of memory stores information for less than a minute and demands focused thinking.</p>
+					<p><strong>Design tip</strong>: Try not to ask people to look at information on one page, remember it, and then enter it into another field on another page.</p>
+					<p>If you ask people to use their working memories, make sure that what you're asking them to remember is uncomplicated. Don't distract them with additional demands, information and options while they're focusing on remembering a given bit of information. A system that interrupts people while they're trying to use their working memories causes them to forget what they're doing and wastes time.</p>
+					<p>People only keep three to four compound or complex items in their working memories at a time. The way interfaces display bits of information can influence users' working memory, however. If a design groups items together or breaks information down into manageable chunks, people can remember that information better. A phone number, for example, is easier to remember if it's been broken into chunks. Compare these numeric strings:</p>
 						<div id="numeric-strings">
-							<p><span class="grey">Harder</span> <span class="phoneno">9121889874</span></p>
-							<p><span class="grey">Easier </span> <span class="phoneno">912-188-9874</span></p>
-							<p><span class="grey"></span><span class="phoneno last">(912) 188-9874</span></p>
+							<p><span class="grey">Difficult:</span> <span class="phoneno">9121889874</span></p>
+							<p><span class="grey">Easier: </span> <span class="phoneno">912-188-9874</span></p>
+							<p><span class="grey">Easiest: </span><span class="phoneno last">(912) 188-9874</span></p>
 						</div>
-					<p>It’s much harder to merely dial the phone with the first example. If you have users enter phone numbers, allow them to enter with or without the intervening hyphens or parentheses, but display them in the easier to read formats.When you can’t limit information displayed to only four items, try to offer a chunking method like the phone number example.</p>
-					<p><strong>Example</strong>: Here is a visual example of working memory. We can only keep about three to four different items in our working memory. If we add another item, we drop one. </p>
-					<div class="example" id="vid-7-1">
-						<div class="ex-title">
-							<span class="ex-type">Video 7.1</span>
-							<span class="ex-caption">Visual Working Memory</span>
-						</div>
-						<video width="524" height="288" controls>
-							  <source src="./assets/images/examples/human-factors/visual-working-memory.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
-							  <source src="./assets/images/examples/human-factors/visual-working-memory.webm" type="video/webm; codecs=vp8,vorbis">
-							  <source src="./assets/images/examples/human-factors/visual-working-memory.ogv"  type="video/ogg; codecs=theora,vorbis">
-						</video>
-					</div>
-				</div>
-			</div>
-		</section><!--end section preattentive-attributes-->
-		
-		<section id="cognitive-load" class="section">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h3 id="">Cognitive Load</h3>
-					</div>
-					<p><strong>Loads are heavy, even cognitive (mental activity) ones. Help lighten the load.</strong></p>
-					<p>Our brains have to manage three types of loads: cognitive, visual, and motor. Cognitive load is the hardest type of load, followed by visual, then motor.</p>
-					<p>Here are some considerations for lightening cognitive load:
+					<p>The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it should allow them to enter these with or without the intervening hyphens or parentheses. It should display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design's done all it can to alleviate this, the interface should then 'chunk' its information in the manner of the phone number example.</p>
+
+					<h5 id="cognitive-load">7.2.3 Cognitive Load</h5>
+					<p><strong>Loads are heavy, even mental ones. Help lighten the user’s load.</strong></p>
+					<p>Our brains manage motor, visual and cognitive loads. The strain of managing and manipulating items within our working memory generates cognitive load. Motor load is the easiest for the brain to manage, while cognitive load is the most difficult.</p>
+					<p>Designers seeking to lighten users' cognitive loads need to bear these details in mind:
 						<ul class="disc">
-							<li>Focused (System 2) thinking causes a greater cognitive load. People can accomplish about ten minutes of focused attention before needing a short break, unless we are particularly interested in the task or in a flow state.</li>
-							<li>People can’t truly multi-task. We can only attend to one task at a time. When we think we’re multitasking, we’re actually switching tasks rapidly, but this tires us quickly and can cause mistakes.</li>
-							<li>Recognition is easy, remembering is hard. We can recognize complex things like a map of Europe but most of us would likely have a hard time drawing it ourselves.</li>
-							<li>Problem solving and calculation are hard, while learning from experience and performing learned actions is easy.</li>
+							<li>Focused thinking causes greater cognitive strain than rapid thinking. People can give a task about ten minutes of focused attention, but then they'll need a short break, unless they're particularly interested in the task or in a flow state.</li>
+							<li>People can’t truly multi-task. We can only attend to one task at a time. When we think we’re multitasking, we’re actually switching tasks rapidly, start-stop-start-stop-start-stop. This can tire us out and cause us to make mistakes.</li>
+							<li>Recognizing is easy, remembering is difficult. We can recognize complex things like a map of Europe instantly, but most of us would likely have a hard time drawing such a map ourselves. Likewise, we find it easier to recognize patients' names than to recall them.</li>
+							<li>Problem-solving and calculating are hard, while learning from experience and performing learned actions is easy.</li>
 						</ul></p>
-					<p><strong>Example</strong>: In the first illustration, we see the mental work a doctor does while reviewing a medication list. This task involves reading the list, recognizing the drug name, remembering if it is used for hypertension, and then recalling from memory if it’s a maximum dose or not for each medication.</p>
-					<div class="example" id="fig-7-14">
+					<p><strong>Example</strong>: <a href="#fig-7-22">Figure 7.22 below demonstrates the mental work a doctor does when she reviews a medication list to try to understand what medications a patient is taking to control his blood pressure. She must read the list, recognize drugs' names, remember whether given drugs are prescribed for hypertension, recall from memory what the maximum doses for these medications are, and then check whether the patient has reached the maximum dosages for these medications. That's a lot of mental effort!</p>
+					<div class="example" id="fig-7-22">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.14</span>
-							<span class="ex-caption">Checking for hypertension medications</span>
+							<span class="ex-type">Figure 7.22</span>
+							<span class="ex-caption">Scanning for Hypertension Medications</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/SimpleList_MentalModel.png"><img src="./assets/images/examples/human-factors/SimpleList_MentalModel.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" title="Scanning for Hypertension Medications">
+							<img src="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" class="scale-with-grid" alt="Scanning for Hypertension Medications" /></a>
 					</div>
-					<p><strong>Example</strong>: In the illustration below, we lighten the cognitive load by sorting the list alphabetically by diagnosis, the physician needs to use much less effort. </p>
-					<div class="example" id="fig-7-15">
+					<p><a href="#fig-7-23">Figure 7.23</a>, below, sorts the list of drugs alphabetically by diagnosis. This allows our physician to access the same information, but costs her far less mental effort. Lightening the effort she has to expend on this task increases the amount of effort she can spend on other, more important tasks.</p>
+					<div class="example" id="fig-7-23">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.15</span>
-							<span class="ex-caption">Sort by  diagnosis then search for hypertension medications</span>
+							<span class="ex-type">Figure 7.23</span>
+							<span class="ex-caption">Sort by Diagnosis <span class="capt-desc">&mdash; Makes it easier to search for hypertension medications</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png"><img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" title="Sort by Diagnosis - Makes it easier to search for hypertension medications">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" title-"Sort by Diagnosis - Makes it easier to search for hypertension medications" /></a>
 					</div>
-					<p>If the maximum dosage had also been somehow indicated, that would be yet another thing the doctor could recognize rather than have to know, recall, and think about, thus reducing cognitive load even further.</p>
-					<div class="example" id="fig-7-16">
+					<p>If the interface can indicate whether a medication has reached the maximum dose, this will save the doctor the effort of making a series of annoying calculations.</p>
+					<p><strong>Example</strong>: Auto-complete functions can also lighten users' cognitive loads. Users typing in the name of a drug in a window with a predictive text function can employ low-impact recognition mental processes rather than more difficult recollection processes. If users employ rapid thinking at this stage of the proceedings, however, there's a danger that they might mistake similarly-named drugs. Employ tallman lettering to alert users to be aware that a similar-looking drug exists.</p>
+					<div class="example" id="fig-7-24">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.16</span>
-							<span class="ex-caption">Drug search using auto-completion allows recognition instead of recall.</span>
+							<span class="ex-type">Figure 7.24</span>
+							<span class="ex-caption">Recognizing Rather than Recalling - Drug searches that utilize auto-complete functions</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0010_autocomplete.png"><img src="./assets/images/examples/human-factors/UM_EHR_0010_autocomplete.png" class="scale-with-grid" /></a>
 					</div>
-				</div>
-			</div>
-		</section><!--end section review-->
+				
 
-		<section id="chunk">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-						<h5 id="">Everybody Likes a Chunk</h5>
-					</div>
-					<p><strong>Breaking information down into smaller more digestible chunks help people make sense of things.</strong></p>
-					<p>While the human brain is amazing it can only consciously process a small amount of information with focused thinking at a time. So when you are designing interfaces remember break down information into chunks and don’t give someone everything at once.</p>
-					<p>One way to do this is to use progressive disclosure. This means give people the information they need at that moment. As they need more information gradually get more and more detailed. This means as designers we have to have a good grasp of what the users task would likely be. This helps us know what the superficial level of knowledge would be and what good second or third levels of detail could be and would be useful to them. The rule of four is good to keep in mind here as is remembering that our mind likes to see things in groups and that if they are close together they belong together. </p>
-					<p><strong>Example:</strong> In this list the key essentials of the allergies’ information are broken into four columns of giving the heath care practitioner what they need to know for the task. If they need more information about the allergy the key essentials the practitioner can select an entry for more information.</p>
-					<div class="example" id="fig-7-17">
+					<h5 id="chunk">Everybody Likes a Chunk</h5>
+					<p><strong>Breaking information down into small, digestible chunks helps people make sense of it.</strong></p>
+					<p>Human brains can only apply focused thought to a relatively small amount of information at a time. Interfaces must break information into chunks. They should give users information in manageable, controlled courses, like a formal dinner.</p>
+					<p><strong>Progressive disclosure</strong> gives people the information they need when they need it. The interface gradually provides users with more and more detail. Designers need to develop a good knowledge of users' work to understand what superficial information they should begin with, and then what details should be introduced at successive stages.Keep in mind that  people can only hold three to four things in their mind at once.</p>
+					<p><strong>Example:</strong> The list in Figure 7.25 shows essential allergy information in four columns. The user has all the information she needs about the patient's medication allergies to make prescription decisions. If she needs additional information about the patient's allergies, she can select an entry to see more details.</p>
+					<div class="example" id="fig-7-25">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.17</span>
-							<span class="ex-caption">Allergy List</span>
+							<span class="ex-type">Figure 7.25</span>
+							<span class="ex-caption"></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_allergies-details.png"><img src="./assets/images/examples/human-factors/UM_EHR_0010_autocomplete.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" /></a>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="goal">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-					</div>
-					<h5>Goal, Execute, and Evaluate!</h5>
-					<p><strong>We have a thought cycle that guides our decision making and it is Goal, Execute and Evaluate.</strong></p>
-					<p>We all have a thought cycle that we use constantly and at different levels simultaneously.</p>
-					<p>We start by forming a goal, e.g., get some food, delete a word for a document, impress our boss with our mad design skills.</p>
-					<p>Next we choose and execute actions that we think will help us progress to that goal.</p>
-					<p>Finally we evaluate if our actions worked and if we were able to accomplish our goal or at least moved towards it.</p>
-					<p>In design this means if we keep goal, execute, and evaluate in mind we can try to provide clear paths to the goal, provide clear choices and place information or tools where a user expects to find them and finally provide feedback or progress information so a user can evaluate how the user is doing and if they definitively accomplished their goal.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="flow">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr/>
-					</div>
-					<h5>Go with the Flow</h5>
-					<p><strong>We like to get into flow states where everything else falls away and we stay in the moment, engrossed in what we are doing.</strong></p>
-					<p>We have all had those great moments when we just were really having a good time and getting a lot done. Be it at work or probably more often at play, we get into what we are doing to the point that we lose a track of time and get a lot done. These states are called flow states and one thing we all hate is when we are in a flow state and we get interrupted. (Weinschenk 91)</p>
- 					<p>Here are some tips to getting end users into flow states:</p>
+				
+					<h5 id"decision-making">7.2.5 Goal, Execute, and Evaluate!</h5>
+					<p><strong>Humans have a thought cycle that guides our decision making and it is Goal, Execute and Evaluate.</strong></p>
+					<p>How do we get anything done? No, really. We start by forming a goal: get some food, edit a word document, impress our boss with our design skills, etc. Next we choose and execute actions that we think will help us accomplish that goal. Finally, we evaluate how well our actions worked. Were we able to accomplish our goal, or to at least make progress towards accomplishing it?</p>
+					<p>Interfaces can support clinical decision making if their designers establish a shared understanding of goals with physicians. The interfaces must then provide users with clear paths by which to accomplish these goals, useful 'action' choices, and the feedback they need to quickly and accurately make choices and evaluate their progress. If interfaces don't provide appropriate or sufficient feedback, users make errors and find the interface unsatisfying to use. This is a common problem with interfaces.</p>
+				
+					<h5 id="flow-states">Go with the Flow</h5>
+					<p><strong>People like to get into flow states; if we're engrossed in what we're doing, everything else falls away</strong></p>
+					<p>We've all had moments where we get so involved in what we're doing that we lose track of time and get a lot done. This situation is called a 'flow state', and you can enter it doing professional or (more likely) recreational tasks. No one likes having their flow state interrupted.</p>
+ 					<p>Interfaces can help users get into and stay in flow states. Some facts to remember:
  					<ul class="disc">
-						<li>People like control, having control over an activity will help them get in the flow.</li>
-						<li>Distractions interrupt flow, be they distractions on a display or a co-working interrupting</li>
-						<li>People also like goals that are challenging but at the same time achievable.</li>
-						<li>Break more difficult tasks into stages.</li>
-						<li>Give feedback on progress. When people see their progress it helps motivate them</li>
-					</ul>
-					<div class="example" id="fig-7-18">
+						<li>People like being in control of themselves. Giving them control over their activities will help them get into the flow.</li>
+						<li>Distractions, in the form of noisy interfaces or interruptions from co-workers, interrupt peoples' flow.</li>
+						<li>People like goals that are challenging, but achievable.</li>
+						<li>Break difficult tasks down like you would unmanageable gluts of information. Allow users to complete long or difficult tasks in clearly-defined stages.</li>
+						<li>Give users feedback on their progress. Seeing how far they've come and how far they still have to go can motivate people.</li>
+					</ul></p>
+					<p><strong>Example</strong>: <a href="#fig-7-26">Figure 7.26</a> shows a medication list that a patient is in the process of updating. The page indicator on the bottom shows the patient he's on step 2 of 22. This information about his progress may help the user get into a flow.</p>
+					<div class="example" id="fig-7-26">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.18</span>
-							<span class="ex-caption">Example: Here a patient is updating their medication list but at the bottom they can see they are on step 2 of 22, giving them a view of their progress helping them get into a flow.</span>
+							<span class="ex-type">Figure 7.26</span>
+							<span class="ex-caption">Tracking Progress via Page Indicators - The dots along the bottom of the screen</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0009_patient_stepmed_not-taking.png">
-						<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0009_patient_stepmed_not-taking.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="Tracking Progress via Page Indicators - The dots along the bottom of the screen">
+						<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Tracking Progress via Page Indicators - The dots along the bottom of the screen" /></a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="info_chaos">
+		<section id="manage-information">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr />
-						<h3>How People Manage Information</h3>
+						<h3>7.3 How People Manage Information</h3>
 					</div>
- 					<h5>Information Chaos</h5>
+ 					<h5 id="info-chaos">7.3.1 Information Chaos</h5>
 					<blockquote>Too much information going through my brain, too much information driving me insane - The Police</blockquote>
-					<p>The are five things that lead to information chaos: information overload, information underload, information conflict, erroneous information and information scatter. Any one of these things is bad but all five together is really bad, hence it’s called information chaos.</p>
-					<p><strong>Information overload</strong> happens when there is too much information for us to make sense of quickly. This is bad because it make us tired and possible even anxious, but it also reduces our situational awareness. This means we can miss really important things that can get us into trouble.</p>
-					<p><strong>Information underload</strong> is when we just don’t have enough information to learn anything new or use to make a decision.</p>
-					<p><strong>Information conflict</strong> is also rather self explanatory, it happens when something is giving information that conflicts with other information being displayed or we already know.</p>
-					<p><strong>Erroneous information</strong> is what happens when the information we find or retrieve just isn’t correct for whatever reason.</p>
-					<p><strong>Information scatter</strong> is when someone has the information they need but it is in many different places or in several different formats.</p>
-					<p>If a display has one or all of these factors of information chaos in play a doctor could miss something important, like a dangerously high blood pressure reading, and their patient could get into some serious health trouble.</p>
-					<div class="example" id="fig-7-19">
+					<p>Five things lead to a state John Beasley and colleagues have called information chaos: information overload, information underload, information conflict, erroneous information and information scatter.</p>
+					<p><strong>Information overload</strong> happens when we're being asked to make sense of information quickly, but there's too much information for us to do so. This makes us tired and even anxious. It also reduces our situational awareness. Without good situational awareness, we can miss important information because we're 'unable to hear the signal for the noise'.</p>
+					<p><strong>Information underload</strong> happens when we lack sufficient information to make decisions.</p>
+					<p><strong>Information conflict</strong> happens when an interface gives us contradictory information, or information that contradicts what we already know.</p>
+					<p><strong>Erroneous information</strong> is of course information that, for whatever reason, isn't correct.</p>
+					<p><strong>Information scatter</strong> happens when someone has access to all the information they need, but it's in several locations or formats and can't easily be reconciled into a complete picture.</p>
+					<p>If an interface allows for any of the above issues, a doctor could miss noticing important information, like a dangerously high blood pressure reading, and put her patient at risk.</p>
+					<p><strong>Example</strong>: This walkthrough demonstrates the factors involved in information chaos.</p>
+					<div class="example" id="fig-7-27">
 						<div class="ex-title">
-							<span class="ex-type">Figure 7.19</span>
-							<span class="ex-caption">Here is a walkthrough of the factors involved with information chaos.</span>
+							<span class="ex-type">Figure 7.27</span>
+							<span class="ex-caption">Information Chaos <span class="smaller">Reproduced by permission of the American Board of Family Medicine</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png">
-						<img src="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" title="Information Chaos">
+						<img src="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" class="scale-with-grid" title="Information Chaos" alt="Information Chaos" /></a>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-						<h3>Situational Awareness</h3>
-					</div>
-					<p><strong>It is all about being able to put all the elements of a complex situation into perspective in order to make choices that will impact outcomes or goals.</strong></p>
-					<p>Situational awareness is key, especially in crisis situations. This is why the term usually is used in the context of military command and control, emergency services like firefighting and policing as well as situations like air traffic control and ship navigation. Situational awareness is also important in everyday settings like driving a car or getting across a busy street. It is easy to see how situational awareness relates to electronic health records because medical records are often used in a crisis situation like an ER visit or a surgery situation. If a health care provider loses situational awareness because they are having a problem with information flow, it can be a major contributor to mistakes and negative outcomes.  Distractions can decrease situational awareness.  </p>
- 					<p>For example, two children arguing in the backseat may be an important situation for the driver of a car to attend to, however it can also make the driver less aware that a large animal has just run onto the road in front of the car.  Similarly, alerts about laboratory values may be important, but if they distract the physician during the process of ordering a medication, the physician may be more likely to make a medication ordering error.</p>
-					<p>One frustrating thing about people is we want more than our minds can handle and if things are not well designed a healthcare provider can lose sight of important information and lose situational awareness and make a bad call. Good design is difficult at times but helps people maintain good situational awareness. The goal is to find the right balance of information that helps a user maintain situational awareness without giving too little or too much information to cause problems.</p>
+				
+					<h5 id="situational-awareness">7.3.2 Situational Awareness</h5>
+					<p><strong>Interfaces must help users put all the elements of complex situations into perspective so they can make good choices</strong></p>
+					<p>Situational awareness is an important component of everything from quotidian tasks like driving a car to emergency services. Effective EHR displays can improve users' situational awareness by presenting them with key information without disrupting their work.</p>
+					<p>It's difficult to design EHRs that can improve users' situational awareness, however, because the information users need varies depending on both the user and the on task at hand. What's important for the user to know about one patient may not be important for them to know about another. Yet despite the situation's complexity, designers can meet this challenge. If a patient has a chronic disease such as diabetes or hypertension, an interface can help users quickly assess and manage these conditions. The interface need never force users to stop, say, writing up an ePrescription to go look for the lab result they need in order to calculate a proper dose. Designers need to strike a balance between giving users lots of information to boost their situational awareness, and overwhelming them (see information overload).</p>
+ 					<p>Users' situational awareness suffers when they're distracted. If two children are arguing in the back seat, the car's driver won't be able to give her full attention to the road. Similarly, alerts about laboratory values may be important, but they may also distract a physician who's trying to order a medication and cause her to make a mistake.</p>
 				</div>
 			</div>
 		</section>
@@ -552,22 +498,15 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>How we make decisions</h3>
-						<p><strong>More often than not we make decisions before we even know we have made a decision.</strong></p>
-						<p>While we like to think we are always in charge and using our focused thinking analytical minds actually it is our fast thinking mind, one that is used to habits and rules of thumb that is calling the shots. </p>
-						<p>The fast thinking unconscious mind is faster than the conscious focused thinking one, which means people often make decisions without knowing why but will then try to build a narrative or a reason after the fact because we want to have logical reasons for our decision making process.</p>
-						<p>Primers tend to kick our fast thinking minds into gear. Primers are things like seeing ratings, or the fear of missing out on a good deal, desires to fit in, associations based in prior experience, or a desire to avoid risk, and many other factors are in play. Often these factors are unknown to us and our fast thinking mind makes reactions that we experience as decisions. This unconscious system can be useful though and it can discover things like risk without us even realizing it. </p>
-						<p>Because people respond and act to signals of danger at an unconscious level a good thing to keep in mind is alerts. Alerts that are unwarranted can quickly become associated with being meaningless and then habituated to the point where they are ignored, be they important or not. The reaction to the alert will depend upon if it signals a danger and if it has not been overused to the point where it is now no longer considered a danger and ignored. The thing to keep in mind is there is rarely any conscious thinking happening in the reactions.</p>
-						<p>A good takeaway is the fast thinking mind is going to act first and it is going to follow rules of thumb based on past experiences and expectations. It is going to make snap judgments and associations. Our truly more rational mind takes focus and effort to use so we tend to protect it and use it only when we have to. We don’t use it to make decisions unless we must. Good design takes advantage of this and helps to save the focused thinking mind for the decisions medical practitioners have to make, rather than remembering how to use a complicated system or looking for options in an endless dropdown menu.</p>
-						<p>Example: Error recovery is great example of how we can protect ourselves from our fast thinking mind from making a mistake. In this example the user has to take two actions to confirm their selection, hopefully allowing them a moment to double check their choice.</p>
-						<div class="example" id="fig-7-20">
-							<div class="ex-title">
-								<span class="ex-type">Figure 7.20</span>
-								<span class="ex-caption">Drug Interaction Alert</span>
-							</div>
-							<a class="fancybox" href="./assets/images/examples/drug-alerts/UmEhr_0004_drug-drug-interaction-unselected-annotated.png">
-							<img src="./assets/images/examples/drug-alerts/UmEhr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" /></a>
-						</div>
+						<h3>7.4 Summary</h3>
+						<ol>
+							<li>Human Factors Engineering seeks to improve human performance by designing systems that are compatible with our physical, cognitive, and perceptual abilities.</li>
+							<li>We subconsciously use expectations, past experience, associations, and rules of thumb to make guesses about what we are seeing. This lets us cope with noisy, incomplete data, but can also lead us astray.</li>
+							<li>We have two modes of thinking, a fast one that happens with little conscious effort and a slow one that takes focus. Good design lets us use our fast system to do as much as possible.</li>
+							<li>Working memory is limited to four things. Good design minimizes the need to  use working memory.</li>
+							<li>The more we have to remember and calculate in our heads, the higher the cognitive load. Good design reduces cognitive load by reducing the need to remember information and displaying information that can be used in decision making without additional calculations or navigation.</li>
+							<li>Good information system design allows a user to quickly gain or maintain the situational awareness needed to make safe and effective decisions.</li>
+						</ol>
 					</div>
 				</div>
 			</div>
@@ -596,26 +535,28 @@
 					<p>References</p>
 					<div class="section_cite">
 						<p class="grey"><strong>Our Eyes have expectations</strong></p>
-						<p>Kannengiesser, U., & Gero, J. S. (2012). A process framework of affordances in design. Design Issues, 28(1), 50-62.</p>
-						<p>Norman, D. A. (1999). Affordance, conventions, and design. interactions, 6(3), 38-43.</p>
-						<p>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., & Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages?.Interacting with Computers, 22(2), 140-152.</p>
-						<p>van Schaik, p. & Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. International Journal of Human-Computer Studies 67(1) 79-89.</p>
-						<p>Weischenk, S.M. (2011). 100 things every designer needs to know about people. Berkeley, CA: New Riders. 13-14.</p>
+						<p>Kannengiesser, U., & Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</p>
+						<p>Norman, D. A. (1999). Affordance, conventions, and design. <em>Interactions</em>, 6(3), 38-43.</p>
+						<p>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., & Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages?<em>Interacting with Computers</em>, 22(2), 140-152.</p>
+						<p>van Schaik, p. & Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. <em>International Journal of Human-Computer Studies</em>, 67(1) 79-89.</p>
+						<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know About People</em>. Berkeley, CA: New Riders. 13-14.</p>
+					
+						<p class="grey"><strong>Images</strong></p>
+						<p><em>Figure 7.2</em>Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em>. 172, no. 2 (February 2000): 80. from: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/</p>
+						<p>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></p>
 					</div>
 					<div class="section_cite">
 						<p class="grey"><strong>We See in Gestalts</strong></p>
 						<p>Wolfe, J. M., Kluender, K., R.; Levi, D, M., Bartoshuk, L, M., Herz, R. S., Klatzky, R, L., Lederman, S. J. (2008). Gestalt Grouping Principles <em>Sensation and Perception</em> (2nd ed.). Sunderland, MA: Sinauer Associates. </p>
 						<p>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</p>
 						<p>Rubin, E. (1921) Visuell Wahrgenommene Figuren : <em>Studien in psychologischer Analyse</em>. Kobenhaven: Gyldendalske boghandel.</p>
-
-						<p class="grey"><strong>Images</strong></p>
-						<p><strong>Figure 7.2</strong> <em>Gestalt_closure</em> [SVG file]. (2008). Retrieved January 28, 2014 from: http://en.wikipedia.org/wiki/File:Gestalt_closure.svg</p>
-						<p><strong>Figure 7.8</strong> Ruben, E. (psychologist). (1921). <em>Faces-Vase</em> [SVG file], Retrieved January 28,2014 from: http://en.wikipedia.org/wiki/File:Cup_or_faces_paradox.svg</p>
-
-						<p><strong>Gallery 7.2</strong> Few, Stephen (2013): Data Visualization for Human Perception. In: Soegaard, Mads and Dam, Rikke Friis (eds.). <em>he Encyclopedia of Human-Computer Interaction, 2nd Ed</em>. Aarhus, Denmark: The Interaction Design Foundation. Available online at http://www.interaction-design.org/encyclopedia/data_visualization_for_human_perception.html</p>
+					
+						<p><em>Figure 7.11</em> <em>Gestalt_closure</em> [SVG file]. (2008). Retrieved January 28, 2014 from: http://en.wikipedia.org/wiki/File:Gestalt_closure.svg</p>
+						<p><em>Figure 7.17</em> Ruben, E. (psychologist). (1921). <em>Faces-Vase</em> [SVG file], Retrieved January 28,2014 from: http://en.wikipedia.org/wiki/File:Cup_or_faces_paradox.svg</p>
+						<p><em>Gallery 7.1</em> Few, Stephen (2013): Data Visualization for Human Perception. In: Soegaard, Mads and Dam, Rikke Friis (eds.). <em>The Encyclopedia of Human-Computer Interaction, 2nd Ed</em>. Aarhus, Denmark: The Interaction Design Foundation. Available online at http://www.interaction-design.org/encyclopedia/data_visualization_for_human_perception.html</p>
 					</div>
 					<div class="section_cite">
-						<p class="grey"><strong>I can’t see it but I use it</strong></p>
+						<p class="grey"><strong>I Can’t See It, but I Use It</strong></p>
 						<p>Larson, A., &amp; Loschky, l. (2009). The contributions of central versus peripheral vision to scene gist recognitions. <em>Journal of Vision</em>, 9 (10:6), 1-16.</p>
 						<p>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</p>
 						<p>Ware, C. (2005). Visual queries: The foundation of visual thinking. <em>In Knowledge and information visualization</em> (pp. 27-35). Springer Berlin Heidelberg.</p>
@@ -631,7 +572,7 @@
 						<p>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable pre-attentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</p>
 						<p>Van der Heijden, A. H. C. (1996). Perception for selection, selection for action, and action for perception. <em>Visual Cognition</em>, 3(4), 357-361.
 						<p class="grey"><strong>Images</strong></p>
-						<p><strong>Figure 7.10 </strong>Few, S. (2004). Data Presentation: Tapping the power of visual perception. <em>Information Week</em>. Retrieved from: http//www.informationweek.com/software/information-management/data-presentation-tapping-the-power-of-visual-perception/d/d-id/1026932?</p>
+						<p><em>Figure 7.20 </em>Few, S. (2004). Data Presentation: Tapping the power of visual perception. <em>Information Week</em>. Retrieved from: http//www.informationweek.com/software/information-management/data-presentation-tapping-the-power-of-visual-perception/d/d-id/1026932?</p>
 					</div>
 					<div class="section_cite">
 						<p class="grey"><strong>The Two Ways People Think</strong></p>
@@ -645,11 +586,12 @@
 						<p>Cowan, Nelson (2008). What are the differences between long-term, short-term, and working memory? <em>Progressive Brain Research</em>. 169 (169): 323–338.</p>
 						<p>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". <em>Behavioral and Brain Sciences</em> 24: 87–185.</p>
 						<p>Engle, R. W., Tuholski, S. W., Laughlin, J. E., Conway, A. R. (September 1999). "Working memory, short-term memory, and general fluid intelligence: a latent-variable approach". <em>Journal of Experimental Psychology: General</em> 128(3): 309–31.</p>
-						<p>Revlin, Russell (20013). <em>Human cognition: Theory and practice</em>. New York, NY: Worth Publishers.</p>
+						<p>Revlin, Russell (2013). <em>Human cognition: Theory and practice</em>. New York, NY: Worth Publishers.</p>
 						<p>Towse, J. N., Hitch, G. J., Hutton, U. (April 2000). "On the interpretation of working memory span in adults". <em>Memory &amp; Cognition</em> 28 (3): 341–8</p>
 					</div>
 					<div class="section_cite">
 						<p class="grey"><strong>Cognitive Load</strong></p>
+						<p>Cowan, Nelson (2010). The Magical Mystery Four How Is Working Memory Capacity Limited, and Why? <em>Current Directions in Psychological Science</em>, 19 (1): 51-57.</p>
 						<p>DeLeeuw, K.E., &amp; Mayer, R.E. (2008). "A comparison of three measures of cognitive load: Evidence for separable measures of intrinsic, extraneous, and germane load". <em>Journal of Educational Psychology</em> 100 (1): 223–234.</p>
 						<p>Paas, F., Renkel, A., &amp; Sweller, J. (2004). Cognitive load theory: Instructional implications of the interaction between information structures and cognitive architecture. <em>Instructional Science</em> 32: 1–8.</p>
 						<p>Paas, F., Tuovinen, J.E., Tabbers, H.K., &amp; Van Gerven, P.W.M. (2003). "Cognitive load measurement as a means to advance cognitive load theory". <em>Educational Psychologist</em> 38 (1): 63–71.</p>
@@ -682,11 +624,6 @@
 						<p>Endsley, M. R. (1995). Toward a theory of situation awareness in dynamic systems. Human Factors: The Journal of the Human Factors and Ergonomics Society, 37(1), 32-64.</p>
 						<p>Iyengar, S. (2010). The art of choosing. Hachette Digital, Inc..</p>
 						<p>Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing?. Journal of personality and social psychology,79(6), 995.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">How We Make Decisions</p>
-						<p>Kahneman, D. (2011). Thinking, fast and slow. New York, NY: Farrar, Straus and Giroux.</p>
-						<p>Weischenk, S.M. (2011). 100 things every designer needs to know about people. Berkeley, CA: New Riders.</p>
 					</div>
 				</div>
 			</div>
