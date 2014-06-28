@@ -42,7 +42,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>A <a href="http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors" target="blank" class="link">report</a> from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load.  If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts.  This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.</p>
+					<p>A <a href="http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors" target="blank" class="link">report</a> from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load. If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts. This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.</p>
 					<div class="sectionStart">
 						<hr />
 					</div>
@@ -113,7 +113,7 @@
 
 					<p>The passive alert appears in the corner of the EHR screen, but does not interrupt the physician’s workflow. The yellow bar with an alert icon that appears in the user's peripheral vision is a salient visual signal because it is based on preattentive attributes. Without reading it, the physician can detect both the alert's existence and it's degree of severity.</p>
 					<p>If the physician completes the order, selects a pharmacy, and sends an e-Prescription, an interruptive alert will pop up to ensure patient safety. The interruptive alert stops the physician’s workflow completely, demanding the physician’s full attention. The physician must select one of the three available choices before the system activates the “Continue” button to allow the physician to move forward (<a href="#fig-6-4">Figure 6.4</a>). After making a selection, the physician confirms her choice by hitting the keyboard “Enter” key or clicking the aforementioned “Continue” button (<a href="#fig-6-5">Figure 6.5</a>). This additional step allows the physician a chance to correct a mistake.</p>
-					<p>Interruptive alerts annoy physicians and reduce the overall effectiveness of such alerts, which causes physicians to miss alerts that truly are important. Interruptive alerts should thus be used sparingly. Some EHRs allow users to customize what alerts appear to what healthcare providers. Thus the EHR might use interruptive alerts only for truly serious alerts when a physician is working with it, and use both serious and mild alerts when the dispensing pharmacist is working with it. One empirical study of alerting systems suggests that physicians are more likely to comply with a tiered alert system (passive for lower risk and interruptive for higher risk alerts)<sup>1</sup>.</p>
+					<p>Interruptive alerts annoy physicians and reduce the overall effectiveness of such alerts, which causes physicians to miss alerts that truly are important. Interruptive alerts can thus be used sparingly. Some EHRs allow users to customize what alerts appear to what healthcare providers. Thus the EHR might use interruptive alerts only for truly serious alerts when a physician is working with it, and use both serious and mild alerts when the dispensing pharmacist is working with it. One empirical study of alerting systems suggests that physicians are more likely to comply with a tiered alert system (passive for lower risk and interruptive for higher risk alerts)<sup>1</sup>.</p>
 					<div class="example" class="fig-6-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.4</span>
@@ -154,7 +154,7 @@
 							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/" class="link" target="blank">Use a tiered alerting system</a>: make lower risk alerts passive and less visually obtrusive. Use interruptive alerts only for those with the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628052/" class="link" target="blank">highest risk</a>.</li>
 							<li>Present passive alerts as early as possible during decision making. For example, by providing a visible indication of drugs that conflict with patient allergies or current drugs while the physician is choosing from a list or typing in a drug</li>
 							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them</li>
-							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping)  to indicate the importance and relationships among the information</li>
+							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping) to indicate the importance and relationships among the information</li>
 						</ol>
 					</p>
 				</div>
@@ -188,7 +188,7 @@
 							<p class="preview">Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR <span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR we know of can systematically collect data about whether prescribers consider particular alerts useful.</p>
-								<p>Only a handful of companies provide data that fuels drug allergy and drug interaction alerts. These companies don’t receive direct feedback from clinician users: their relationship is mediated by their EHR vendor.  If EHR vendors could tell drug data vendors that nearly all users found a particular alert to be unhelpful, then the vendors could reassess that particular data element. Figure 6.7 shows how an EHR could unobtrusively collect feedback from physicians.</p>
+								<p>Only a handful of companies provide data that fuels drug allergy and drug interaction alerts. These companies don’t receive direct feedback from clinician users: their relationship is mediated by their EHR vendor. If EHR vendors could tell drug data vendors that nearly all users found a particular alert to be unhelpful, then the vendors could reassess that particular data element. Figure 6.7 shows how an EHR could unobtrusively collect feedback from physicians.</p>
 								<p>Legal teams may feel that more warnings amount to greater safety, but the situation is more complicated than that. Physicians need to practice medicine efficiently, and too many alerts can cause alert fatigue and even put patients at risk.</p>
 							</div>
 						</div>
@@ -213,7 +213,7 @@
 						<hr/>
 					</div>
 					<h5>6.5 Multiple Drug Alerts</h5>
-					<p>Sometimes an EHR needs to present multiple alerts to the user. These may be multiple alerts for a single medication, or several alerts for a number of different medications. Should the EHR display these alerts one at a time, or all at once? If they’re displayed all at once, physicians can see the big picture: all of the drug-allergies and drug-drug interactions in play. Without having to navigate to read each alert, physician’s can run down the list and make decisions for each item. Showing all the alerts simultaneously, however, may visually overwhelm the users. It might also be difficult to simultaneously show both all the alerts and the clinical information that physicians need to act on these alerts.</p>
+					<p>Sometimes an EHR needs to present multiple alerts to the user. These may be multiple alerts for a single medication, or several alerts for a number of different medications. Would the EHR display these alerts one at a time, or all at once? If they’re displayed all at once, physicians can see the big picture: all of the drug-allergies and drug-drug interactions in play. Without having to navigate to read each alert, physician’s can run down the list and make decisions for each item. Showing all the alerts simultaneously, however, may visually overwhelm the users. It might also be difficult to simultaneously show both all the alerts and the clinical information that physicians need to act on these alerts.</p>
 					<p><a href="#fig-6-8">Figure 6.8</a> shows one possible way of presenting multiple alerts on a single screen. This design shows each alert’s severity using small icons in the left column. New drug orders and either the allergy or interacting drug are displayed just after the severity icons. The rightmost column shows the actions that a physician can take to address each alert. The action buttons include both the actions and the drug names (e.g., Stop Augmentin) to help the physician understand what each button does. The design uses bold text on action buttons to show recommended actions for each alert. <a href="#fig-6-9">Figure 6.9</a> shows the display after the user has made decisions about the first two alerts. The Continue button activates after the user addresses all the alerts (<a href="#fig-6-10">Figure 6.10</a>).
 					<p>It’s more challenging to display multiple alerts on small mobile devices. <a href="#gal-6-1">Gallery 6.1</a> shows a way to displayed and address multiple alerts on a mobile phone. The first screen presents an overview of all of the alerts, grouped by type. Tapping an alert brings up details about it, as well as possible actions the physician can take.</p>
 					<div class="example" class="fig-6-8">
@@ -230,7 +230,7 @@
 							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title=" Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices.  The system visually shows his selections" /></a>
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
 					</div>
 					<div class="example" class="fig-6-10">
 						<div class="ex-title">
@@ -294,11 +294,11 @@
 					<h3>6.6 Summary</h3>
 						<ol>
 							<li>An effective alert is one that physicians notice, read, understand, and respond to. We can facilitate this process by designing alert systems that use sound human factors principles.</li>
-							<li>Alerts interrupt users to different degrees.  Passive alerts appear when triggered, but do not require the user to attend to them immediately. Interruptive alerts stop the user’s workflow and require the user to respond before continuing his work.</li>
+							<li>Alerts interrupt users to different degrees. Passive alerts appear when triggered, but do not require the user to attend to them immediately. Interruptive alerts stop the user’s workflow and require the user to respond before continuing his work.</li>
 							<li>Make only high-risk alerts interruptive.</li>
 							<li>Reduce users’ cognitive load by simplifying the visual presentation of drug alerts.</li>
 							<li>Use preattentive attributes (like color, size, shape, alignment) to draw users’ attention to the most important information in Drug Alerts.</li>
-							<li>Treat alerts differently depending on their severity. Low-risk alerts should be passive. They should offer the physician decision support without interrupting his workflow, unless he chooses to stop and attend to them. High-risk alerts should initially generate passive notices, but these should be followed by an active notice if the physician fails to attend to the issue. Physicians should be notified about possible issues via passive notices as early as possible</li>
+							<li>Treat alerts differently depending on their severity. Low-risk alerts can be passive. They offer the physician decision support without interrupting his workflow, unless he chooses to stop and attend to them. High-risk alerts could initially generate passive notices, but these can be followed by an active notice if the physician fails to attend to the issue. Physicians should be notified about possible issues via passive notices as early as possible.</li>
 						</ol>
 				</div>
 			</div>
@@ -331,7 +331,7 @@
 					<div class="resources">
 					<p>Additional Resources</p>
 					<div class="section_cite">
-						<p><em>From the National Center for Cognitive Informatics & Decision Making in Healthcare</em></p>
+						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
 						<h5>EHR Safety Enhanced Design Briefs</h5>
 						<p><a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
 						<p>Clinical Decision Support</p>

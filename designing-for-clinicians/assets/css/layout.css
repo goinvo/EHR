@@ -653,6 +653,8 @@
 	.sidebar-table#patient-adherence tbody td {
 		text-align: left;
 	}
+	#considerations .sidebar-table td,
+	#considerations .sidebar-table th,
 	#methodologies-table .sidebar-table td,
 	#methodologies-table .sidebar-table th {
 		text-align: left;
@@ -846,14 +848,20 @@
 	}
 	/*allergy list*/
 	/*human factors*/
+	#numeric-strings p {
+		margin: 0;
+	}
+	#numeric-strings {
+		margin-bottom: 20px;
+	}
+	#numeric-strings span{
+		display: inline-block;
+	}
 	#numeric-strings span.grey {
-		width: 150px;
+		width: 75px;
 	}
 	#numeric-strings .phoneno {
-		margin-left: 40px;	
-	}
-	#numeric-strings .phoneno.last {
-		margin-left: 87px;	
+		margin-left: 10px;
 	}
 	#acknowledge-ch ul li{
 		list-style: none;

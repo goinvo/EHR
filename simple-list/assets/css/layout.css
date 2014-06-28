@@ -280,60 +280,32 @@
 .column.omega, .columns.omega { margin-right: 0; }
 
 /* Base Grid */
-.container .one.column,
-.container .one.columns { width: 40px;  }
-.container .two.columns { width: 100px; }
-.container .three.columns { width: 160px; }
-.container .four.columns { width: 220px; }
-.container .five.columns { width: 280px; }
-.container .six.columns { width: 340px; }
-.container .seven.columns { width: 400px; }
-.container .eight.columns { width: 460px; }
-.container .nine.columns { width: 520px; }
-.container .ten.columns { width: 580px; }
-.container .eleven.columns { width: 640px; }
-.container .twelve.columns { width: 700px; }
-.container .thirteen.columns { width: 760px; }
-.container .fourteen.columns { width: 820px; }
-.container .fifteen.columns { width: 880px; }
-.container .sixteen.columns { width: 1060px; }
-
-.container .one-third.column { width: 348px; }
-.container .two-thirds.column { width: 692px; }
-
-/* #Tablet (Portrait) Note: Design for a width of 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container                                  { width: 768px; }
-	.container .column,
-	.container .columns                         { margin-left: 10px; margin-right: 10px;  }
-	.column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
-	.column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
-	.alpha.omega                                { margin-left: 0; margin-right: 0; }
+.container { width: 420px;}
+	.container .column { margin: 0; }
 
 	.container .one.column,
-	.container .one.columns                     { width: 28px; }
-	.container .two.columns                     { width: 76px; }
-	.container .three.columns                   { width: 124px; }
-	.container .four.columns                    { width: 172px; }
-	.container .five.columns                    { width: 220px; }
-	.container .six.columns                     { width: 268px; }
-	.container .seven.columns                   { width: 316px; }
-	.container .eight.columns                   { width: 364px; }
-	.container .nine.columns                    { width: 412px; }
-	.container .ten.columns                     { width: 460px; }
-	.container .eleven.columns                  { width: 508px; }
-	.container .twelve.columns                  { width: 556px; }
-	.container .thirteen.columns                { width: 604px; }
-	.container .fourteen.columns                { width: 652px; }
-	.container .fifteen.columns                 { width: 700px; }
-	.container .sixteen.columns                 { width: 748px; }
+	.container .one.columns,
+	.container .two.columns,
+	.container .three.columns,
+	.container .four.columns,
+	.container .five.columns,
+	.container .six.columns,
+	.container .seven.columns,
+	.container .eight.columns,
+	.container .nine.columns,
+	.container .ten.columns,
+	.container .eleven.columns,
+	.container .twelve.columns,
+	.container .thirteen.columns,
+	.container .fourteen.columns,
+	.container .fifteen.columns,
+	.container .sixteen.columns,
+	.container .one-third.column,
+	.container .two-thirds.column { width: 420px; }
 
-	.container .one-third.column                { width: 236px; }
-	.container .two-thirds.column               { width: 492px; }
-}
 /*  #Mobile (Portrait) Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
-	.container { width: 300px; }
+	.container { width: 300px;}
 	.container .columns,
 	.container .column { margin: 0; }
 
@@ -359,7 +331,7 @@
 }
 /* #Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container { width: 420px; }
+	.container { width: 420px;}
 	.container .columns,
 	.container .column { margin: 0; }
 
@@ -444,6 +416,10 @@ table.main_table tbody tr:nth-child(even) {
 table.main_table tbody tr td {
 	padding: 5px 8px 7px 10px;
 }
+table.main_table thead tr th,
+table.main_table tbody tr td{
+	max-width:80px;
+}
 tr.active_to td {
 	background: #e2e2e2;
 }
@@ -466,5 +442,6 @@ tr td .dose, tr td.instructions{
 	/* #Mobile (Landscape) Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	/*.container { width: 420px; }*/
+
 
 }
