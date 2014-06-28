@@ -65,7 +65,7 @@
 							<li>the list of medications on the last day of the patient’s hospital stay</li>
 						</ol>
 					</p>
-					<p>Our physician will then decide which medications should be continued after the patient is discharged, and which should be stopped.</p>
+					<p>Our physician will then decide which medications could be continued after the patient is discharged, and which should be stopped.</p>
 					<p>Let’s watch a short video about a prototype called “Twinlist,” an award-winning demonstration of a proposed medication interface.</p>
 					<div class="example" id="vid-3-1">
 						<div class="ex-title">
@@ -73,10 +73,10 @@
 							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
 						</div>
 						<video controls class="twinlist">
-							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
-							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
-							  <source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
-							  <p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="blank">YouTube</a></p>
+							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
+							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
+							<p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="blank">YouTube</a></p>
 						</video>
 					</div>
 					<p>If you’d like to explore Twinlist in more detail, try the interactive prototype:</p>
@@ -137,8 +137,8 @@
 							<span class="ex-type">Figure 3.4</span>
 							<span class="ex-caption">Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. <span class="capt-desc">The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d  Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out.  Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected"  /></a>
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected" /></a>
 					</div>
 					<div class="example" id="#fig-3-5">
 						<div class="ex-title">
@@ -184,13 +184,13 @@
 							</ol></li>
 							<li>Clinical assessment<ol>
 								<li>Since the patient will be leaving the hospital, intravenous medications need to be switched to oral versions. Will the patient be able to tolerate the oral version?</li>
-								<li>What should be the starting dose of that medication in the oral version?</li>
+								<li>What should the starting dose of that medication be as the oral version?</li>
 								<li>How soon will the doses taken by the patient after leaving the hospital need to be adjusted, and who will adjust them?</li>
-								<li>Can the patient afford the needed medications?  Will the insurance cover the medications?</li>
+								<li>Can the patient afford the needed medications? Will the insurance cover the medications?</li>
 							</ol></li>
 						</ol>
 					</p>
-					<p>Physicians commonly care for patients who have moved from one unit to another. A patient might even move several times during the course of one visit &mdash;from the emergency room  to a general nursing unit, intensive care unit, step-down unit and back to general nursing unit again, for example. Critically ill inpatients may be unable to take their medications orally, and may be receiving several medications intravenously in the intensive care unit. As patients begin to recover, they might resume their previous medications at reduced doses which may gradually change throughout their hospital stay. When patients are discharged from the hospital, they may need to resume taking home medications may be resumed, some of the doses may need to be adjusted, and they may need to take some additional medications.</p>
+					<p>Physicians commonly care for patients who have moved from one unit to another. A patient might even move several times during the course of one visit &mdash;from the emergency room to a general nursing unit, intensive care unit, step-down unit and back to general nursing unit again, for example. Critically ill inpatients may be unable to take their medications orally, and may be receiving several medications intravenously in the intensive care unit. As patients begin to recover, they might resume their previous medications at reduced doses which may gradually change throughout their hospital stay. When patients are discharged from the hospital, they may need to resume taking home medications may be resumed, some of the doses may need to be adjusted, and they may need to take some additional medications.</p>
 				</div>
 			</div>
 		</section><!--end section inpatient-->
@@ -215,8 +215,8 @@
 					<p>Some specialists, particularly those in surgical subfields, may review medication lists less precisely, focusing only on the medications they have prescribed, such as post-operative antibiotics or pain medications. These specialists need to be able to reconcile the medications they’re responsible for without assuming responsibility for the entire medication list. Reconciliation interfaces might offer means of conveying that specialists have reconciled the medications they’re responsible for, and only those medications. It might be accomplished by giving users the option of clicking on ‘Acknowledged’ or ‘Reviewed but not approved’ in addition to the fuller ‘Reconcile &amp; Sign.’</p>
 					<p>During the visits, patients and physicians agree upon new plans of action. Physicians might then prescribe and makes other changes in the medication list. Patients then get updated copies of their list to take home.</p>
 					<div class="scenario"><h5>Ambulatory Clinical Scenario &mdash; Patient with Chronic Pain Reports Changes Other Physicians Have Made to Her Medication List</h5>
-						<p>Mrs. Stanton is a high school teacher who was seriously injured in a motor vehicle accident. Mrs. Stanton  is under the care of an orthopedic surgeon and a pain management specialist as well as her primary care doctor. Today's visit with Dr. Barnes, her primary care doctor, involves several changes in her medication list.</p>
-						<p>At the beginning of the visit Mrs. Stanton receives the medication list her primary doctor has on file for her. She notices it’s not quite up to date.  It does not record that her pain specialist recently started her on a new medication, nortriptyline, and stopped another one, hydrocodone-acetaminophen, or that her orthopedic surgeon increased her dose of Celebrex. Mrs. Stanton needs to indicate those three changes on the list.</p>
+						<p>Mrs. Stanton is a high school teacher who was seriously injured in a motor vehicle accident. Mrs. Stanton is under the care of an orthopedic surgeon and a pain management specialist as well as her primary care doctor. Today's visit with Dr. Barnes, her primary care doctor, involves several changes in her medication list.</p>
+						<p>At the beginning of the visit Mrs. Stanton receives the medication list her primary doctor has on file for her. She notices it’s not quite up to date. It does not record that her pain specialist recently started her on a new medication, nortriptyline, and stopped another one, hydrocodone-acetaminophen, or that her orthopedic surgeon increased her dose of Celebrex. Mrs. Stanton needs to indicate those three changes on the list.</p>
 					</div>
 
 					<h5>3.2.1 The Patient Reviews the Medication List</h5>
@@ -303,7 +303,7 @@
 					</div>
 
 					<h5>3.2.2 After the Patient Annotates Her List, the Physician Reviews It</h5>
-					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations.  Entirely different interfaces are also possible.</p>
+					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations. Entirely different interfaces are also possible.</p>
 					<p>Now the list is ready for the physician to review, with the patient's annotations included. Let's look at our design example. (<a href="#fig-3-13">Figures 3.13</a> to <a href="#fig-3-16">3.16</a>)</p>
 					<div class="example" id="fig-3-13">
 						<div class="ex-title">
@@ -408,9 +408,9 @@
 						<li>Allow medication sorting and filtering (e.g. by prescriber, by diagnosis or and renewal status)</li>
 						<li>Where possible, display a limited number of options. Reveal further options when necessary.</li>
 						<li>Ask patients simple, clear questions using <a href="./design-principles#terminology" target="blank">plain, non-judgmental language</a><span class="print-only"> (See Terminology in the Design Principles chapter)</span>.</li>
-						<li>Offer patients simple, clear choices of categorizing and documenting their adherence (e.g. Taking as prescribed; Taking, but not as prescribed;  Not taking at all). Include “Other” or “Not sure” options. Provide users with a mean to document uncertainty, and make sure that uncertainty is visible in the review list.</li>
+						<li>Offer patients simple, clear choices of categorizing and documenting their adherence (e.g. Taking as prescribed; Taking, but not as prescribed; Not taking at all). Include “Other” or “Not sure” options. Provide users with a mean to document uncertainty, and make sure that uncertainty is visible in the review list.</li>
 						<li>Offer cognitive support for adding new medications. Allow for fuzzy misspelling. Suggest appropriate drug names as the patient begins to type.</li>
-						<li>Experiment with  innovative methods for capturing uncertainty and improving adherence recording.</li>
+						<li>Experiment with innovative methods for capturing uncertainty and improving adherence recording.</li>
 					</ol>
 					
 					
@@ -447,7 +447,7 @@
 					<div class="section_cite">
 						<ol>
 							<li>Bosworth, Hayden B., Bradi B. Granger, Phil Mendys, Ralph Brindis, Rebecca Burkholder, Susan M. Czajkowski, Jodi G. Daniel, et al. “Medication Adherence: A Call for Action.” <em>American Heart Journal</em> 162, no. 3 (September 2011): 412–24. doi:10.1016/j.ahj.2011.06.007.</li>
-							<li>Barbara Stanton user profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="blank">David Amsler</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="blank">David Amsler</a></li>
 						</ol>
 					</div>
 				</div>

@@ -42,7 +42,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>Medication Allergy Lists (or simply Allergy Lists) currently include a patient’s  known medication allergies, but they could include more.</p>
+					<p>Medication Allergy Lists (or simply Allergy Lists) currently include a patient’s known medication allergies, but they could include more.</p>
 					<p>Historically, physicians, nurses, patients, and pharmacists have included patients’ true drug allergies, other adverse drug reactions (also known as side-effects or adverse effects) such as nausea or drowsiness, and allergic reactions in their allergy lists. In this chapter, we will focus on true drug allergies and adverse drug reactions. Physicians often also include patients’ allergies to substances other than medications (such as latex, adhesive tape, peanuts and other foods) in Allergy Lists.</p>
 					
 					<div class="quicktip" id="other_allergies">
@@ -56,7 +56,7 @@
 						<div class="tip"></div>
 					</div>
 
-					<p>In one way, the Allergy List is the safety net that supports the Medication List.  Physicians check the medication list against this list of allergies in order to ensure patient safety. Allergic reactions can range from minor to fatal, so the Allergy List needs to be kept current to prevent these events. Good design can simplify correcting errors in the Allergy List.</p>
+					<p>In one way, the Allergy List is the safety net that supports the Medication List. Physicians check the medication list against this list of allergies in order to ensure patient safety. Allergic reactions can range from minor to fatal, so the Allergy List needs to be kept current to prevent these events. Good design can simplify correcting errors in the Allergy List.</p>
 				</div>
 			</div>
 		</section><!--end Allergy List intro-->
@@ -71,7 +71,7 @@
 					<p>Developers must design Allergy Lists keeping in mind a user's three main tasks: glancing, exploring, and changing the list.</p>
 					<p><strong>Glancing at the list</strong> may reveal that a patient has “no known medication allergies” – or that he’s deathly allergic to the medication the physician is about to order for him. Often, ideally every time they prescribe or administer a new medication, doctors and nurses will need to quickly refer to the Allergy List.</p>
 					<p><strong>Exploring the details</strong> may help a physician decide whether a drug’s benefits outweigh the risks.</p>
-					<p><strong>Adding new entries</strong> to the list should be quick and straightforward. <strong>Editing the list</strong> should be fast, sure, and flexible, requiring minimal details.</p>
+					<p><strong>Adding new entries</strong> to the list can be quick and straightforward. <strong>Editing the list</strong> can be fast, sure, and flexible, requiring minimal details.</p>
 					<p>Let's consider the clinical scenarios prompting our three tasks, and some design makeovers that better address the needs of these scenarios and tasks.</p>
 				</div>
 			</div>
@@ -88,9 +88,9 @@
 						<h5>Clinical Scenario &mdash; Considering a New Prescription</h5>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
-					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List, and should also ask the patients if they allergic to the drugs in question.</p>
-					<p>For this task, physicians need to be able to glance at a short list that only contains the names of the drugs a patient is allergic to. This list should be clearly visible when physicians are prescribing or administering, but they don't need to see it when performing unrelated tasks, such as documenting the visit in a note. The list could be included in the patient demographic banner, where it would always be visible even while physicians do tasks that don't require it.</p>
-					<p>Developers should work to minimize physicians' cognitive loads, or the mental effort they must expend to perform this task, by making the information physicians need easy to find, and by not over-burdening them with unnecessary details. Navigating through the EHR requires time and effort, and remembering where they need to look increases the cognitive load on often already-overburdened health care providers.</p>
+					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask the patients if they allergic to the drugs in question.</p>
+					<p>For this task, physicians need to be able to glance at a short list that only contains the names of the drugs a patient is allergic to. This list could be clearly visible when physicians are prescribing or administering, but they don't need to see it when performing unrelated tasks, such as documenting the visit in a note. The list could be included in the patient demographic banner, where it would always be visible even while physicians do tasks that don't require it.</p>
+					<p>Developers can work to minimize physicians' cognitive loads, or the mental effort they must expend to perform this task, by making the information physicians need easy to find, and by not over-burdening them with unnecessary details. Navigating through the EHR requires time and effort, and remembering where they need to look increases the cognitive load on often already-overburdened health care providers.</p>
 					<p>We've mocked-up "before and after" versions of an allergy list (<a href="#fig-4-1">Figures 4.1</a>) to illustrate what we mean.</p>
 					<p>This example (<a href="#fig-4-1">Figure 4.1</a>) uses some of its limited space to list symptoms. The total number of items in this potentially long list is not visible unless the user hovers over the list with a mouse. The user may, however, be using a touch interface, and touch interfaces don't allow users to hover. Thus information stored in this format therefore isn't easily accessible to some users. Listing additional substances here would actually help physicians out more. Physicians need to know, at a glance, if they're seeing all the substances on the Allergy List, or if what they're looking at has been truncated.</p>
 				</div>
@@ -224,7 +224,7 @@
 							<li>Include an optional comment field for further information.</li>
 							<li>Make it easy to correct erroneous information.</li>
 							<li>Make it easy to find out who made entries or edits to the Allergy List. This field can be auto-populated with the active user’s name. Trustworthiness of the given information can vary depending on the source.</li>
-							<li>Allow drug allergies on the  list to be inactivated and removed. Otherwise, physicians will need to repeatedly override drug-allergy alerts while prescribing medications, even when no allergies or adverse effects exist.</li>
+							<li>Allow drug allergies on the list to be inactivated and removed. Otherwise, physicians will need to repeatedly override drug-allergy alerts while prescribing medications, even when no allergies or adverse effects exist.</li>
 						</ul>
 					</p>					
 					<p>Take a look at how these two displays enable users to add allergies (<a href="fig-4-8">Figures 4.8</a> and <a href="#fig-4-9">4.9</a>). Which one looks easier? Why? Are they both equally safe?</p>
@@ -271,7 +271,7 @@
 							<span class="ex-type">Figure 4.11</span>
 							<span class="ex-caption">After: Simple, Sequential Design for Adding a Drug Allergy</span>
 						</div>
-						<a class="fancybox"  data-fancybox-group="gallery-2"  href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="After: Simple, Sequential Design for Adding a Drug Allergy">
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="After: Simple, Sequential Design for Adding a Drug Allergy">
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="After: Simple, Sequential Design for Adding a Drug Allergy" /></a>
 					</div>
 				</div>
@@ -312,7 +312,7 @@
 							</ul>
 						</div>
 					</div><!--end gallery 4.1-->
-					<p>The simplified example's design (see <a href="#gal-4-1-c">Gallery 4.2 c</a>) should be faster and easier to use. It has a clear visual sequence, which makes it easier to navigate and thus more likely to be completed.</p>
+					<p>The simplified example's design (see <a href="#gal-4-1-c">Gallery 4.2 c</a>) can be faster and easier to use. It has a clear visual sequence, which makes it easier to navigate and thus more likely to be completed.</p>
 					<h5>4.4.3 Predictive Search Fields</h5>
 					<p>Predictive search fields can substantially reduce the mental effort and time it takes physicians to add entries to an Allergy List. Pushing the most likely results to the top of the list of predictive search results will make it easier for users to find what they're looking for. Users are far more likely to want to enter a simple description, like "cough," than they are to want to enter a more detailed result, such as "whooping cough" or "smoker's cough."</p>
 				</div>
@@ -351,10 +351,9 @@
 						<h3>4.5 Summary</h3>
 					</div>
 					<p><ol>
-						<li>Consider the users and their tasks. This will help you decide what details and functions a particular Allergy List view should incorporate.</li>
+						<li>Consider the users and their tasks. This will help you decide what details and functions to incorporate in a particular Allergy List view.</li>
 						<li>Create a clear, uncluttered navigation path through the form physicians use to input allergy information.</li>
-						<li>Reduce information chaos by eliminating unnecessary details and ambiguity in the display.</li>
-						<li>Hide unessential details to reduce the amount of reading users must do to accomplish the targeted task.</li>
+						<li>Reduce information chaos by eliminating unnecessary details to reduce the amount of reading users must do to accomplish the targeted task.</li>
 						<li>Reduce cognitive load and reduce errors by offering a predictive search function.</li>
 						<li>Make adding the details of reactions (such as symptoms, dates and severity) optional.</li>
 						<li>Make recording that a patient has "no known medication allergies" effortless.</li>
@@ -392,7 +391,7 @@
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
-							<li>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="blank">pedronchi</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="blank">pedronchi</a></li>
 						</ol>
 					</div>
 				</div>

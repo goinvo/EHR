@@ -171,7 +171,7 @@
 					</div>
 					
 					<h5 id="similarity">Similarity</h5>
-					<p>We perceive visual elements that look <strong>similar</strong> as parts of a group. Designers can indicate that two objects are similar, and thus related, by giving the objects the same sizes, shapes or colors. Interfaces that visually group related items are easier to use than those that don't. As a general rule, items that users must process together should be grouped together, and items that need to be processed separately should not.</p>
+					<p>We perceive visual elements that look <strong>similar</strong> as parts of a group. Designers can indicate that two objects are similar, and thus related, by giving the objects the same sizes, shapes or colors. Interfaces that visually group related items are easier to use than those that don't. As a general rule, items that users must process together could be grouped together, while items that need to be processed separately are not.</p>
 					<div class="example" id="fig-7-12">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.12</span>
@@ -309,7 +309,7 @@
 						</div>
 					</div>
 					<p>A peripheral glance tells people where they are and what to expect, and helps us decide what to focus on. We can only truly see what we focus on. The display can only effectively convey that information at any given time.</p>
-					<p><strong>Design tip:</strong> Feedback and error messages should pop up near the area people will already be focusing on. While we do use our peripheral vision to orient ourselves and scan for things, we also tend to ignore our peripheral vision when we're trying to focus on the task at hand.</p>
+					<p><strong>Design tip:</strong> Feedback and error messages can pop up near an area people will already be focusing on. While we do use our peripheral vision to orient ourselves and scan for things, we also tend to ignore our peripheral vision when we're trying to focus on the task at hand.</p>
 					
 					<h5 id="preattentive-attributes">7.1.4 Preattentive Attributes</h5>
 					<p class="spacetop"><strong>Little, visual things people notice and understand quickly</strong></p>
@@ -372,9 +372,9 @@
 						<div id="numeric-strings">
 							<p><span class="grey">Difficult:</span> <span class="phoneno">9121889874</span></p>
 							<p><span class="grey">Easier: </span> <span class="phoneno">912-188-9874</span></p>
-							<p><span class="grey">Easiest: </span><span class="phoneno last">(912) 188-9874</span></p>
+							<p><span class="grey">Easiest: </span><span class="phoneno">(912) 188-9874</span></p>
 						</div>
-					<p>The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it should allow them to enter these with or without the intervening hyphens or parentheses. It should display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design's done all it can to alleviate this, the interface should then 'chunk' its information in the manner of the phone number example.</p>
+					<p>The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it can allow them to enter these with or without the intervening hyphens or parentheses. It could display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design's done all it can to alleviate this, the interface can then 'chunk' its information in the manner of the phone number example.</p>
 
 					<h5 id="cognitive-load">7.2.3 Cognitive Load</h5>
 					<p><strong>Loads are heavy, even mental ones. Help lighten the user’s load.</strong></p>
@@ -415,10 +415,10 @@
 					</div>
 				
 
-					<h5 id="chunk">Everybody Likes a Chunk</h5>
+					<h5 id="chunk">7.2.4 Everybody Likes a Chunk</h5>
 					<p><strong>Breaking information down into small, digestible chunks helps people make sense of it.</strong></p>
-					<p>Human brains can only apply focused thought to a relatively small amount of information at a time. Interfaces must break information into chunks. They should give users information in manageable, controlled courses, like a formal dinner.</p>
-					<p><strong>Progressive disclosure</strong> gives people the information they need when they need it. The interface gradually provides users with more and more detail. Designers need to develop a good knowledge of users' work to understand what superficial information they should begin with, and then what details should be introduced at successive stages.Keep in mind that  people can only hold three to four things in their mind at once.</p>
+					<p>Human brains can only apply focused thought to a relatively small amount of information at a time. Interfaces must break information into chunks. They can give users information in manageable, controlled courses, like a formal dinner.</p>
+					<p><strong>Progressive disclosure</strong> gives people the information they need when they need it. The interface gradually provides users with more and more detail. Designers need to develop a good knowledge of how their users will be working to understand what information they could begin with, and then what details can be introduced at successive stages. Keep in mind that people can only hold three to four things in their mind at once.</p>
 					<p><strong>Example:</strong> The list in Figure 7.25 shows essential allergy information in four columns. The user has all the information she needs about the patient's medication allergies to make prescription decisions. If she needs additional information about the patient's allergies, she can select an entry to see more details.</p>
 					<div class="example" id="fig-7-25">
 						<div class="ex-title">
@@ -434,7 +434,7 @@
 					<p>How do we get anything done? No, really. We start by forming a goal: get some food, edit a word document, impress our boss with our design skills, etc. Next we choose and execute actions that we think will help us accomplish that goal. Finally, we evaluate how well our actions worked. Were we able to accomplish our goal, or to at least make progress towards accomplishing it?</p>
 					<p>Interfaces can support clinical decision making if their designers establish a shared understanding of goals with physicians. The interfaces must then provide users with clear paths by which to accomplish these goals, useful 'action' choices, and the feedback they need to quickly and accurately make choices and evaluate their progress. If interfaces don't provide appropriate or sufficient feedback, users make errors and find the interface unsatisfying to use. This is a common problem with interfaces.</p>
 				
-					<h5 id="flow-states">Go with the Flow</h5>
+					<h5 id="flow-states">7.2.6 Go with the Flow</h5>
 					<p><strong>People like to get into flow states; if we're engrossed in what we're doing, everything else falls away</strong></p>
 					<p>We've all had moments where we get so involved in what we're doing that we lose track of time and get a lot done. This situation is called a 'flow state', and you can enter it doing professional or (more likely) recreational tasks. No one likes having their flow state interrupted.</p>
  					<p>Interfaces can help users get into and stay in flow states. Some facts to remember:
@@ -503,7 +503,7 @@
 							<li>Human Factors Engineering seeks to improve human performance by designing systems that are compatible with our physical, cognitive, and perceptual abilities.</li>
 							<li>We subconsciously use expectations, past experience, associations, and rules of thumb to make guesses about what we are seeing. This lets us cope with noisy, incomplete data, but can also lead us astray.</li>
 							<li>We have two modes of thinking, a fast one that happens with little conscious effort and a slow one that takes focus. Good design lets us use our fast system to do as much as possible.</li>
-							<li>Working memory is limited to four things. Good design minimizes the need to  use working memory.</li>
+							<li>Working memory is limited to four things. Good design minimizes the need to use working memory.</li>
 							<li>The more we have to remember and calculate in our heads, the higher the cognitive load. Good design reduces cognitive load by reducing the need to remember information and displaying information that can be used in decision making without additional calculations or navigation.</li>
 							<li>Good information system design allows a user to quickly gain or maintain the situational awareness needed to make safe and effective decisions.</li>
 						</ol>
@@ -535,15 +535,15 @@
 					<p>References</p>
 					<div class="section_cite">
 						<p class="grey"><strong>Our Eyes have expectations</strong></p>
-						<p>Kannengiesser, U., & Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</p>
+						<p>Kannengiesser, U., &amp; Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</p>
 						<p>Norman, D. A. (1999). Affordance, conventions, and design. <em>Interactions</em>, 6(3), 38-43.</p>
-						<p>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., & Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages?<em>Interacting with Computers</em>, 22(2), 140-152.</p>
-						<p>van Schaik, p. & Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. <em>International Journal of Human-Computer Studies</em>, 67(1) 79-89.</p>
+						<p>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., &amp; Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages?<em>Interacting with Computers</em>, 22(2), 140-152.</p>
+						<p>van Schaik, p. &amp; Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. <em>International Journal of Human-Computer Studies</em>, 67(1) 79-89.</p>
 						<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know About People</em>. Berkeley, CA: New Riders. 13-14.</p>
 					
 						<p class="grey"><strong>Images</strong></p>
 						<p><em>Figure 7.2</em>Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em>. 172, no. 2 (February 2000): 80. from: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/</p>
-						<p>Robert Martin user profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></p>
+						<p>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></p>
 					</div>
 					<div class="section_cite">
 						<p class="grey"><strong>We See in Gestalts</strong></p>
@@ -567,7 +567,7 @@
 						<p>Atienza, M., Cantero, J. L., &amp; Escera, C. (2001). Auditory information processing during human sleep as revealed by event-related brain potentials. <em>Clinical Neurophysiology</em>, 112(11), 2031-2045.</p>
 						<p>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and pre-attentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</p>
 						<p>Egeth, H. E., Yantis, S. (1997). Visual attention: Control, representation, and time course. <em>Annual Review of Psychology</em>, 48, 269-297.</p>
-						<p>Few, S. (2009).  <em>Now you see it: Simple visualization techniques for quantitative analysis</em>. Oakland, CA: Analytics Press.</p>
+						<p>Few, S. (2009). <em>Now you see it: Simple visualization techniques for quantitative analysis</em>. Oakland, CA: Analytics Press.</p>
 						<p>Kourtzi, Z., &amp; Kanwisher, N. (2000). Cortical regions involved in perceiving object shape. <em>Journal of Neuroscience</em>, 20, 3310-3318.</p>
 						<p>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable pre-attentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</p>
 						<p>Van der Heijden, A. H. C. (1996). Perception for selection, selection for action, and action for perception. <em>Visual Cognition</em>, 3(4), 357-361.
@@ -604,7 +604,7 @@
 					</div>
 					<div class="section_cite">
 						<p class="grey">Goal Execute and Evaluate</p>
-						<p>Card, S. K., Moran, T. P., & Newell, A. (Eds.). (1986). The psychology of human-computer interaction. CRC Press.</p>
+						<p>Card, S. K., Moran, T. P., &amp; Newell, A. (Eds.). (1986). The psychology of human-computer interaction. CRC Press.</p>
 						<p>Norman, D. A. (1988). The Design of Everyday Things. New York, Doubleday/Currency Ed.</p>
 					</div>
 					<div class="section_cite">
@@ -614,16 +614,16 @@
 					</div>
 					<div class="section_cite">
 						<p class="grey">Information Chaos</p>
-						<p>Beasley, J. W., Wetterneck, T. B., Temte, J., Lapin, J. A., Smith, P., Rivera-Rodriguez, A. J., & Karsh, B. T. (2011). Information chaos in primary care: implications for physician performance and patient safety. The Journal of the American Board of Family Medicine, 24(6), 745-751.</p>
-						<p>Misra, S., & Stokols, D. (2012). Psychological and health outcomes of perceived information overload. Environment and behavior, 44(6), 737-759.</p>
+						<p>Beasley, J. W., Wetterneck, T. B., Temte, J., Lapin, J. A., Smith, P., Rivera-Rodriguez, A. J., &amp; Karsh, B. T. (2011). Information chaos in primary care: implications for physician performance and patient safety. The Journal of the American Board of Family Medicine, 24(6), 745-751.</p>
+						<p>Misra, S., &amp; Stokols, D. (2012). Psychological and health outcomes of perceived information overload. Environment and behavior, 44(6), 737-759.</p>
 					</div>
 					<div class="section_cite">
 						<p class="grey">Situational Awareness</p>
-						<p>Banbury, S., & Tremblay, S. (Eds.). (2004). A cognitive approach to situation awareness: theory and application. Ashgate Publishing, Ltd..</p>
-						<p>Bolstad, C. A., Cuevas, H., Gonzalez, C., & Schneider, M. (2005, May). Modeling shared situation awareness. In Proceedings of the 14th Conference on Behavior Representation in Modeling and Simulation (BRIMS), Los Angles, CA.</p>
+						<p>Banbury, S., &amp; Tremblay, S. (Eds.). (2004). A cognitive approach to situation awareness: theory and application. Ashgate Publishing, Ltd..</p>
+						<p>Bolstad, C. A., Cuevas, H., Gonzalez, C., &amp; Schneider, M. (2005, May). Modeling shared situation awareness. In Proceedings of the 14th Conference on Behavior Representation in Modeling and Simulation (BRIMS), Los Angles, CA.</p>
 						<p>Endsley, M. R. (1995). Toward a theory of situation awareness in dynamic systems. Human Factors: The Journal of the Human Factors and Ergonomics Society, 37(1), 32-64.</p>
 						<p>Iyengar, S. (2010). The art of choosing. Hachette Digital, Inc..</p>
-						<p>Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing?. Journal of personality and social psychology,79(6), 995.</p>
+						<p>Iyengar, S. S., &amp; Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing?. Journal of personality and social psychology,79(6), 995.</p>
 					</div>
 				</div>
 			</div>

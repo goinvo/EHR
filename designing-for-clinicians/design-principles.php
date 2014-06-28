@@ -51,7 +51,7 @@
 					<ul class="disc">
 						<li>Establishing the proper mental model is fundamental to driving the product design process.</li>
 						<li>Mental models are typically expressed in the form of metaphor. The desktop metaphor used by modern operating systems represents a very specific and intentional mental model.</li>
-						<li>Simplicity is the hallmark of a strong mental model. Users should intuitively understand the model they are presented</li>
+						<li>Simplicity is the hallmark of a strong mental model. Users should intuitively understand the model they are presented.</li>
 					</ul>
 				</div>
 			</div>
@@ -65,7 +65,7 @@
 						<h3>8.2 Removing Complexity</h3>
 					</div>
 					<p><strong>Complexity increases at an exponential rate as a factor of the number of items presented.</strong></p>
-					<p>Extra visual noise, repetitive information and symbols, and having too many controls for the same action (possibly all of which are visible at the same time) can all cause redundancy. Redundancy can be good at times, like having an emergency break in a car, but it literally means the state of being no longer needed or useful.  Redundancy in an interface is often unhelpful, add valueless complexity, and can interfere with an interface’s utility on visual, informational and behavioral levels.</p>
+					<p>Extra visual noise, repetitive information and symbols, and having too many controls for the same action (possibly all of which are visible at the same time) can all cause redundancy. Redundancy can be good at times, like having an emergency break in a car, but it literally means the state of being no longer needed or useful. Redundancy in an interface is often unhelpful, add valueless complexity, and can interfere with an interface’s utility on visual, informational and behavioral levels.</p>
 					<p>Imagine attempting to drive a car with three dashboards and four steering wheels down a highway with road signs that have been duplicated on both sides of the road. The engineers involved may have thought they were giving the driver extra resources, but it would be an understatement to say that their attempts to facilitate the user have ultimately made things harder on him.</p>
 					<p>Key ideas:</p>
 						<ul class="disc">
@@ -106,7 +106,7 @@
 					</div>
 					<p><strong>Always ask, 'What is this?' about your chosen terminology until you are sure of the final answer.</strong></p>
 					<p>Marketing is meant to sell, and in order to do so it generates saleable names. These names and this process aren't the best means of denoting terminology inside a functional interface. As much as marketing managers want to control the design of a product, their skill set, as it's currently understood, doesn't serve the product or the user well in this capacity.</p>
-					<p>Generally speaking, terminology should be as uncomplicated and natural as common language used in everyday conversation.</p>
+					<p>Generally speaking, terminology can be as uncomplicated and natural as common language used in everyday conversation.</p>
 					<p>Don't try to be clever when it comes to terminology. There's no need to construct complex neologisms that would prompt the use of a dictionary. Just call things what they are. It's really that simple.</p>
 					<p>Just call things what they are. It’s really that simple.</p>
 					<p>Key ideas:</p>
@@ -131,9 +131,9 @@
 					<p>Designers and developers must regularly ask themselves (and the users) how important given features are in relation to one another.</p>
 					<p>Key Ideas:</p>
 						<ul class="disc">
-							<li>Screens in an EHR should have a single focus that acts as a visual anchor. This point doesn't have to be semantically important to the user, it just has to make the layout comprehensible.</li>
+							<li>Screens in an EHR could have a single focus that acts as a visual anchor. This point doesn't have to be semantically important to the user, it just has to make the layout comprehensible.</li>
 							<li>Create boundaries and limit the scope of the application to the user task at hand. Limit the number of emphasized options or controls a given screen displays. Three is a good baseline to shoot for, while more than five is too many.</li>
-							<li>Establish consistent rules about what makes controls or features high priority and then stick to those rules. For example, to determine any control or feature as high priority, it must be used by 75% of the user base at least 25% of the time. Any other feature would not be considered a high priority and should be dropped or placed in a second tier menu.</li>
+							<li>Establish consistent rules about what makes controls or features high priority and then stick to those rules. For example, to determine any control or feature as high priority, it must be used by 75% of the user base at least 25% of the time. Any other feature would not be considered a high priority and could be given secondary significance or dropped entirely.</li>
 						</ul>
 				</div>
 			</div>
@@ -187,14 +187,14 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>8.6The Dark Side of Seeing Color </h3>
+						<h3>8.6 The Dark Side of Seeing Color </h3>
 					</div>
 					<p><strong>Color has it uses, but if one is not careful, color can become useless.</strong></p>
 					<p>Color is useful beyond just having things look pleasing to the eye, it can create distinctions and be used to draw attention to things we want people to look at. However color has it limits as a communication tool and it’s important to keep these limitations in mind if you want to use color effectively.</p>
 					<p>The first thing to keep in mind is that 9% of men and 0.5% percent of women are color blind. Color blind people can see color, but they can’t see the differences between some colors the way most people can. There are different types of color blindness but the most common one makes it hard to see the difference between reds, yellows, and greens.</p>
 					<p>Another tricky element to color is that different cultures can have different associations for the same color. So while red can mean bad, danger, or stop to many Western users, in some Asian cultures red is associated with happiness or good fortune. Designers need to take into account the cultural context of likely users, and to use color in a way that doesn't unduly inconvenience color-blind users.</p>
-					<p>Some colors don’t play well together. In combinations clashing colors can make things hard to look at and difficult to read.  For example red and blue or red and green overlapping each other cause this effect but there are many colors that are opponent colors and clash. It would be a good idea to consult a color guide when choosing your colors.</p>
-					<p>Converting your design into gray scale can be useful to check if your color differences are strong enough to be noticeable. The color differences that most color blind people have a hard time seeing are discernible to them even in color if the differences are detectable once the design has been converted  grey scale. This also helps make sure your color differences are strong enough for non color blind people to detect.</p>
+					<p>Some colors don’t play well together. In combinations clashing colors can make things hard to look at and difficult to read. For example red and blue or red and green overlapping each other cause this effect but there are many colors that are opponent colors and clash. It would be a good idea to consult a color guide when choosing your colors.</p>
+					<p>Converting your design into gray scale can be useful to check if your color differences are strong enough to be noticeable. The color differences that most color blind people have a hard time seeing are discernible to them even in color if the differences are detectable once the design has been converted grey scale. This also helps make sure your color differences are strong enough for non color blind people to detect.</p>
 					<p>Color is useful, but don’t let it stand alone. Use other cues to complement it.</p>
 					<p>Key ideas:</p>
 						<ul class="disc">
