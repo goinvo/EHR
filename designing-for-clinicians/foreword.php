@@ -44,9 +44,9 @@
 					<p>Today the functionality, design and implementation of EHRs have attracted large amounts of attention.  These components have become subfields of study in and of themselves. Every day teams create and implement new designs, and the field is continuing to grow. Yet, while many currently available EHRs offer a wide range of functionalities, users also report significant usability issues. The challenge facing the EHR community is that of bridging the gaps between design, functionality, and what medical practitioners need to do when providing care.</p>
 					<p>This book aims to encourage the design of useful and usable EHRs by:
 						<ol>
-							<li>providing a window into what medical practitioners need</li>
-							<li>explaining some of the science behind how the human mind processes information</li> 
-							<li> providing design examples</li>
+							<li>Providing a window into what medical practitioners need</li>
+							<li>Explaining some of the science behind how the human mind processes information</li> 
+							<li>Providing design examples</li>
 						</ol></p>
 					<p>We hope you will enjoy reading the book and playing with our interactive prototypes.</p>
 					<p class="quote_author">Jeff Belden, MD <br/>Columbia, MO</p>
