@@ -294,7 +294,7 @@
 /*Site Styles*/
 /*.main_table / .med_table*/
 #top {
-	border-bottom: solid 1px #dedede;
+	border-bottom: solid 1px #dadada;
 	display: block;
 	padding: 0;
 	margin: 0;
@@ -308,7 +308,7 @@
 	position:absolute;
 	background: #fff;
 	border-radius: 2px;
-	border: #dedede solid 1px;
+	border: #dadada solid 1px;
 }
 #task_list ol li {
 	display: block;
@@ -317,23 +317,28 @@
 }
 #top div, #controls div { display: inline-block; }
 #controls {
-	margin-left: 5px;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
 	  -moz-user-select: none;     /* Firefox all */
 	  -ms-user-select: none;      /* IE 10+ */
 
 	  /* No support for these yet, use at own risk */
 	  -o-user-select: none;
-	  user-select: none;  
-}
-#controls #actions {
-	margin: 0px 20px 0px 0px;
+	  user-select: none;
+	  border-bottom: #dadada solid 1px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  padding-left: 4px;
 }
 #controls ul li {
 	display: inline;
 	font-size: 12px;
 	padding: 2px 7px 3px 7px;
 	cursor: pointer;
+	margin-right:7px;
+}
+#controls .reset {
+	border-left: #dadada 1px solid;
+	padding-left: 14px;
 }
 #top ul li {
 	display: inline;
@@ -431,7 +436,7 @@ table.main_table{
 table.main_table thead{
 	/*background:#424242;*/
 	font-size: 10px;
-	color: #a7a7a7;
+	color: #989898;
 	border-bottom: solid 1px #dadada;
 }
 .drop_arrow{
@@ -448,9 +453,6 @@ table.main_table thead tr th{
 	font-weight: normal;
 	text-align: left;
 }
-table.main_table thead tr th:first-child{
-	padding-left: 16px;
-}
 table.main_table thead tr th.sort-col:hover{
 	color: #fff;
 }
@@ -466,8 +468,9 @@ table.main_table tbody tr td {
 	padding: 10px 0 12px 0;
 	/*padding: 11px 8px 9px 10px*/;
 }
+table.main_table thead tr th:first-child,
 table.main_table tbody tr td:first-child {
-	padding-left: 16px;
+	padding-left: 4px;
 }
 .num{
 	width: 30px;
@@ -504,7 +507,9 @@ th.sorted-desc .arrow {
 #med_table .closed { display: none; }
 .sort-key { display: none; }
 th.sortable:hover, td.condition:hover, td.provider:hover { 
-	text-decoration: underline; cursor: pointer; }  
+	text-decoration: underline; cursor: pointer; } 
+table tr td:hover { 
+	cursor: pointer; } 
 tr.clicked{ background: #ebebeb; }
 tr td.dose{ min-width: 65px; }
 tr td.sig, tr td.prescribed, tr td.renew_date { min-width: 80px; }
@@ -556,8 +561,8 @@ tr.shown td.details-control {
 			}
 tr.shown, table.medication-info {
 	background:#fafafa;
-	width: 101.4%;
-	margin: -9px -25px 0px -16px;
+	width: 100%;
+	margin: -9px 0px 0px 0px;
 }
 table.medication-info {
 	z-index: 5;

@@ -61,8 +61,8 @@
 					<h5>3.1.1 A Prototype for Medication Reconciliation</h5>
 					<p>In this scenario, the physician discharging the patient has to actively compare two lists:
 						<ol>
-							<li>the list of medications the patient was taking at home (e.g. recorded by an intake nurse when the patient arrived at the hospital, or obtained from a different EHR system)</li>
-							<li>the list of medications on the last day of the patient’s hospital stay</li>
+							<li>The list of medications the patient was taking at home (e.g. recorded by an intake nurse when the patient arrived at the hospital, or obtained from a different EHR system)</li>
+							<li>The list of medications on the last day of the patient’s hospital stay</li>
 						</ol>
 					</p>
 					<p>Our physician will then decide which medications could be continued after the patient is discharged, and which should be stopped.</p>
@@ -111,23 +111,23 @@
 					<div class="example" id="fig-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.1</span>
-							<span class="ex-caption">The two lists side by side before Twinlist starts matching similar drugs</span>
+							<span class="ex-caption">The Two Lists Side by Side <span class="capt-desc">&mdash; Before Twinlist starts matching similar drugs</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" title="3.1 The two lists side by side before Twinlist starts matching similar drugs">
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" title="3.1 The Two Lists Side by Side &mdash; Before Twinlist starts matching similar drugs">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" class="scale-with-grid" /></a>
 					</div>
 					<div class="example" id="#fig-3-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.2</span>
-							<span class="ex-caption">The identical drugs have now moved to the center, while the unique drugs have moved to their respective sides. <span class="capt-desc">Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow.</span></span>
+							<span class="ex-caption">The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides <span class="capt-desc">&mdash; Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" title="3.2 The identical drugs have now moved to the center, while the unique drugs have moved to their respective sides. Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow." >
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" title="3.2 The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides — Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow." >
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" class="scale-with-grid" /></a>
 					</div>
 					<div class="example" id="#fig-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.3</span>
-							<span class="ex-caption">When the pointer hovers over a drug (here Amaryl), that drug is highlighted with a dark background. <span class="capt-desc">Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
+							<span class="ex-caption">When the Pointer Hovers over a Drug (Here Amaryl), That Drug Is Highlighted with a Dark Background <span class="capt-desc">&mdash;Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" title="When the pointer hovers over a drug (here Amaryl), that drug is highlighted with a dark background. Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen" >
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" class="scale-with-grid" /></a>

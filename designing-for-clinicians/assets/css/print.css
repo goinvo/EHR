@@ -1,4 +1,4 @@
-.header, .menu, nav.main, .chapterEnd {
+.header, .menu, nav.main, .chapterEnd, a.button {
 	display: none;
 }
 #toc {
