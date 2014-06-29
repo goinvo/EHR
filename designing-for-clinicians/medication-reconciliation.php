@@ -127,15 +127,16 @@
 					<div class="example" id="#fig-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.3</span>
-							<span class="ex-caption">When the Pointer Hovers over a Drug (Here Amaryl), That Drug Is Highlighted with a Dark Background <span class="capt-desc">&mdash;Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
+							<span class="ex-caption">When the Pointer Hovers over a Drug (Here Amaryl), That Drug Is Highlighted with a Dark Background <span class="capt-desc">&mdash; Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" title="When the pointer hovers over a drug (here Amaryl), that drug is highlighted with a dark background. Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen" >
+						<a class="fa
+						ncybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" title="When the pointer hovers over a drug (here Amaryl), that drug is highlighted with a dark background. Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen" >
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" class="scale-with-grid" /></a>
 					</div>
 					<div class="example" id="fig-3-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.4</span>
-							<span class="ex-caption">Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. <span class="capt-desc">The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
+							<span class="ex-caption">Clicking on a Drug Selects It and Indicates That It Should Be Retained in the Medication List after Discharge <span class="capt-desc">&mdash; The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected" /></a>
@@ -143,7 +144,7 @@
 					<div class="example" id="#fig-3-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.5</span>
-							<span class="ex-caption">The final reconciled medication list can be reviewed by looking at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
+							<span class="ex-caption">The Final Reconciled Medication List Can Be Reviewed<span class="capt-desc">&mdash; Look at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" title="3.1 e The final reconciled medication list can be reviewed by looking at all the bright green selected drugs, and it’s clear what lists they’ve come from." >
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" class="scale-with-grid" alt="The final selection" /></a>
@@ -169,9 +170,9 @@
 							<li>Physicians can interact with the interface to discover more relationships.<ol>
 								<li>Hovering over a drug displays more details about the drug at the bottom of the screen, such as drug class or indication (i.e. the problem being treated). It also highlights similar drugs. Clicking to select a drug in a “similar but not identical” group rejects the others.</li>
 								<li>The menus function in a way that allows users to take actions on multiple drugs at the same time.</li>
-								<li>Users can easily change reverse their decision by clicking on drugs to toggle them through accepted, rejected, or undecided states.</li>
+								<li>Users can easily change or reverse their decision by clicking on drugs to toggle them through accepted, rejected, or undecided states.</li>
 							</ol></li>
-							<li>The interface keeps the information users need to make decision visible and minimizes the need for users to rely on their ability to recall off-screen information.</li>
+							<li>The interface keeps the information users need to make decisions visible and minimizes the need for users to rely on their ability to recall off-screen information.</li>
 						</ol>
 
 					<h5>3.1.3 Other Considerations</h5>
@@ -179,7 +180,7 @@
 						<ol>
 							<li>Medication administration<ol>
 								<li>How much insulin and analgesics were prescribed to this patient in the last few days?</li>
-								<li>Did the patient receive all the doses or were some doses delayed or not administered?</li>
+								<li>Did the patient receive all the doses, or were some doses delayed or not administered?</li>
 								<li>Did the patient receive any PRN doses (i.e. administer as the situation arises)? How many doses were given?</li>
 							</ol></li>
 							<li>Clinical assessment<ol>
@@ -226,7 +227,7 @@
 					<div class="example" id="fig-3-7">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.7</span>
-							<span class="ex-caption">The interface presents each drug in the patient’s medication list, one at a time and offers a few clearly-marked choices. <span class="capt-desc">The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span>.</span></span>
+							<span class="ex-caption">The Interface Presents Each Drug in the Patient’S Medication List One at a Time, Offering a Few Clearly-Marked Choices <span class="capt-desc">&mdash; The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span>.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="3.2a The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Patients selects that they are taking a medication" title="" /></a>
