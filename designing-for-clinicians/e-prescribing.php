@@ -11,9 +11,10 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,6 +59,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>5.1 Searching for a New Medication</h3>
 					<p>Typically, physicians will have a particular medication in mind when they write prescriptions. In that case, choosing from a “favorites” list or searching for the drug are the quickest routes to new prescription. An EHR can help physicians make the right choices and enter the correct details. In most cases, having the EHR pre-populate the prescription forms will save physicians time and mental effort (<a href="./human-factors.php#cognitive-load" target="blank" class="link">cognitive load</a>), and will reduce the risk of errors. It will help the physicians’ search speed and accuracy if the EHR pre-populates the search results from the drug database as the physician types. A predictive algorithm that uses data from the Problem List or Diagnosis List is able to promote likely matches farther up the search result list.</p>
@@ -75,6 +77,7 @@
 									<img src="./assets/images/examples/eRx/search_results_1.png" class="scale-with-grid" alt="Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">5.1 b </span>Typing More Characters Produces a Closer Match <span class="capt-desc">&mdash; Additional details (tablet strength “500”) may be added to the search string</span></div>
 									<a href="./assets/images/examples/eRx/search_results_2.png" class="fancybox" data-fancybox-group="gallery-1" title="Typing More Characters Produces a Closer Match - Additional details (tablet strength “500”) may be added to the search string">
 									<img src="./assets/images/examples/eRx/search_results_2.png" class="scale-with-grid" alt="Typing More Characters Produces a Closer Match - Additional details (tablet strength “500”) may be added to the search string" /></a>
@@ -85,6 +88,7 @@
 									<img src="./assets/images/examples/eRx/search_results_3.png" class="scale-with-grid" alt="Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency “bid.”" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">5.1 d </span>Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered</div>
 									<a href="./assets/images/examples/eRx/search_results_4.png" class="fancybox" data-fancybox-group="gallery-1" title="Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered">
 									<img src="./assets/images/examples/eRx/search_results_4.png" class="scale-with-grid" alt="Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered" /></a>
@@ -188,6 +192,7 @@
 						</div>
 						<div class="tip"></div>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-5-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.2</span>
@@ -217,8 +222,8 @@
 						<a href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="fancybox" title="Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar">
 						<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar" /></a>
 					</div>
-				
-					<h3>5.1.7 Renewing Medications</h3>
+					<div class="print-only page-break"></div>
+					<h5>5.1.7 Renewing Medications</h5>
 					<div class="scenario">
 						<h5>Clinical Scenario &mdash; Renewing Medications Due before the Next Appointment</h5>
 						<p>Mr. Martin has been seeing his family physician every three to six months, but his medications often come due for annual renewal before his upcoming appointments. Because of this disparity, Mr. Martin sometimes doesn't get his refills in time, and has to go without some of his medications for a several days. Mr. Martin's refills also come in at different times throughout the month, and so he has to make several trips to the pharmacy to pick up his various prescriptions. Mr. Martin wishes his 'medication procurement' schedule could be simplified and consolidated, so that he only had to make one trip.</p>
@@ -227,6 +232,7 @@
 					<p>An EHR can allow a physician to renew multiple medications at the same time. This saves time and reduces the margin for error. Designing an EHR that can sort and filter the medication list by “renewal due date,” “pharmacy” and “prescribing physician” will minimize physicians' cognitive load and allow them to provide better patient-centered service.</p>
 					<p>Patients with multiple prescriptions and prescribers are often burdened with poor refill synchronization. Their refills come in on several different dates each month, and their annual renewal due dates scattered throughout the calendar year. If physicians could easily discern which prescriptions require renewal before the next planned appointment, the physicians could consolidate their patients' prescriptions. This would reduce the physicians' workload and would be more convenient for the patients<sup>1</sup>.</p>
 					<p>Designers could allow users to easily modify existing prescriptions, preserving existing details and offering easy access to common alternative details where users might need to make changes (changing from 10 mg to 20 mg, from 1 tablet to 2 tablets, or from 30 days to 90 days, etc.).</p>
+					<div class="print-only page-break"></div>
 					<div class="example" id="gal-5-2">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 5.2</span>
@@ -240,7 +246,8 @@
 									<img src="./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png" class="scale-with-grid" alt="Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal" /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">5.2 a</span>Filtering the List by Prescriber <span class="capt-desc">&mdash; Makes it even easier to focus only on the selected medications, eliminating distracting items</span></div>
+									<div class="print-only page-break"></div>
+									<div class="caption"><span class="ex-type">5.2 b</span>Filtering the List by Prescriber <span class="capt-desc">&mdash; Makes it even easier to focus only on the selected medications, eliminating distracting items</span></div>
 									<a href="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="fancybox" data-fancybox-group="gallery-2" title="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items">
 									<img src="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="scale-with-grid" alt="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items" /></a>
 								</div></li>
@@ -266,6 +273,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr />
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>5.2 Computerized Physician Order Entry (CPOE)</h3>
 					<p>A CPOE (also sometimes referred to as <em>Computerized <strong>Provider</strong> Order Entry</em>) is an electronic entry of patient care orders that electronically transmits itself to the departments (lab, radiology, etc.) or outside organizations that will fulfill it. CPOE orders can be distributed more quickly than their predecessors. They eliminate errors based on hand-writing, and can prevent duplicate orders by checking new orders against existing orders.</p>
@@ -277,6 +285,7 @@
 					<h5>5.2.1 Display Pre-Existing Orders to Prevent Duplication</h5>
 					<p>A patient's EHR often contains unfulfilled orders. Patients forget tests, or can't find the time to get them done. If physicians can't see patients' existing future orders or recent lab results, they may accidentally order tests that have already been done or ordered, or very similar tests. This would duplicate their colleagues' work and spend resources wastefully.</p>
 					<p>When users place new orders, they can simultaneously be able to see the work that's already been done, without navigating away from their own unfinished orders and losing their work.</p>
+					<div class="print-only page-break"></div>
 				</div>
 				<div class="one-half column">
 					<div class="example" id="fig-5-5">
@@ -383,6 +392,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>5.3 Summary</h3>
 					<p>EHRs can:

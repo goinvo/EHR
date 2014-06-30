@@ -11,8 +11,8 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" >
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/Slider/component.css" >
 	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/jquery.fancybox.css" >
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
@@ -62,11 +62,13 @@
 										<img src="./assets/images/examples/medication-list/SimpleListMobile.png" class="scale-with-grid" alt="A simple list is good for mobile" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.1 c</span> Interactive List <span class="capt-desc">&mdash; Contains more details about the medications and helps physicians with tasks such as making treatment decisions or e-prescribing</span></div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/UM_EHR_0000_table.png" title="2.1 a An <strong>interactive list</strong> contains more details about the medications and can help physicians with tasks such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" alt="Interactive medication list" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.1 d</span> Medication Timeline <span class="capt-desc">&mdash; Harnesses the power of information visualization and allows physicians to understand changes in medications over time</span></div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="2.1 d A <strong>medication timeline</strong> harnesses the power of information visualization and allows physicians to understand changes in medications over time.">
 										<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Medication timeline" /></a>
@@ -83,6 +85,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>2.1 <a href="../simple-list/simple-list.html" target="blank">The Simple List</a></h3>
 					</div>
 					<p>The simple list displays bare-bones basic information. It’s made to be read quickly, scanned at a glance. It’s easy to scan visually to see the name, strength, and dosing of the medication. The list is alphabetical, which makes it easy to search for and locate particular items. It gives the reader, usually a physician, a broad overview of the patient’s medical history and their related medications. A physician quickly scanning the simple list can make initial observations such as, <em>“There are twenty-four medications here but only two prescription medications for high blood pressure.”</em> Good design can make such tasks easy; bad design can make them much harder.</p>
@@ -104,7 +107,9 @@
 						<div class="tip"></div>
 					</div>
 					<p>Look at <a href="#fig-2-1">Figure 2.1</a> and<a href="#fig-2-2"> Figure 2.2</a>. As you can probably tell, one list looks cleaner than the other. Such simplicity makes it easy for people using this list to see the names of the drugs the patient is taking, which allows a quick overview. Given that it uses plain language like “twice daily,” instead of Latin abbreviations like “b.i.d.,” the list below would meet the needs of both physicians and patients.</p>
+					<div class="print-only page-break"></div>
 				</div>
+
 				<div class="one-half column">
 					<div class="example" id="fig-2-1">
 						<div class="ex-title">
@@ -184,6 +189,7 @@
 						</div>
 					</div>
 					<p>On the other hand, sometimes a <a href="./design-principles.php#dark-side-of-color">deliberately jarring</a><span class="print-only"> (See The Dark Side of Seeing Color in the Design Principles chapter)</span> type style alerts the user to pay attention. Some EHRs use <strong>tall man lettering</strong> to differentiate look-alike and/or sound-alike drug names that might otherwise be easily (and dangerously) confused. Tall man lettering capitalizes the parts of a word that separate it from its near-doppelgangers: hydrALAzine vs. hydrOXYzine. This unusual, seemingly “incorrect” capitalization says to the user, “Hey, pay attention here, the part I’ve emphasized is really important.” HydrALAzine is a blood pressure medication, hydrOXYzine is an antihistamine. Small differences matter.</p>
+					<div class="print-only page-break"></div>
 					<div class="quicktip" id="preattentive-attributes">
 						<div class="sidebar cf">
 							<h5>Preattentive Attributes</h5>
@@ -201,6 +207,7 @@
 					</div>
 					<p>Alphabetize the list. Readers expect a list of text items to be alphabetical. This helps them find particular names quickly in long lists. “Are they taking warfarin?” Just jump to the “w” section to check.</p>
 					<p>Reduce visual noise. If a visual element doesn’t add data or improve the perception or processing of information, try leaving it out. See <a href="#fig-2-3"> Figures 2.3</a> and <a href="#fig-2-4">2.4</a>.</p>
+					<div class="print-only page-break"></div>
 				</div>
 				<!--Gal 2-1 Reduce Noise-->
 				<div class="one-half column">
@@ -235,11 +242,13 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>2.2 <a href="../interactive-table/interactive-table.html" target="blank">The Interactive Table</a></h3>
 					</div>
 					<p>The interactive table allows users to sort, filter, and otherwise adjust their displays to meet the needs of the tasks at hand. This table is the standard workhorse of an EHR, and may sometimes be the only view available. The table is sufficiently flexible and powerful to adapt to fit a variety of tasks, but it can also be complex and may require more effort to learn and use than a simple list. Interactive lists help with a variety of tasks, such as making treatment decisions or e-prescribing. The list might even be able to draw on other data stored in the EHR, such as diagnoses, lab values or vital signs. Of our three examples, this list displays the most information and can provide the best support for cognitively intense tasks.</p>
 					<p><a href="#int-2-1">Interactive 2.1</a> shows an example of an Interactive Table. By default, such tables are sorted alphabetically by medication name. Physicians can sort columns of data in these tables to better support various functions medications renewals. Not all columns need to be sorted, however. For example, a physician would not find it helpful to sort by the instructions or quantity prescribed, but would find it useful to sort the list by drug names (allowing the physician to scan alphabetically, looking for a specific name), by dates (starting, renewal due, etc), diagnoses, and prescriber names.</p>
 					<!--Fig 2-2 Interactive TAble Figure-->
+					<div class="print-only page-break"></div>
 					<div class="example" id="int-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.1</span>
@@ -268,7 +277,8 @@
 							</ul></li>
 						</ul></p>
 						<p>Juggling these considerations can be a lot of mental work. Fortunately, you can make the job much easier.</p>
-					<!--Fig 2-3 mental model-->
+				
+					<div class="print-only page-break"></div>
 					<div class="example" id="fig-2-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 2.5</span>
@@ -310,6 +320,7 @@
 									
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.3 b</span> Filtered by Condition</div>
 									<a class="fancybox" data-fancybox-group="gallery-5" href="./assets/images/examples/medication-list/Um_Ehr_0002_condition-focus.png" title="Filtered by Condition">
 									<img src="./assets/images/examples/medication-list/Um_Ehr_0002_condition-focus.png" class="scale-with-grid" alt="Filter by associated diagnosis" /></a>
@@ -330,7 +341,7 @@
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0009_lisinopril.png" title="Shading Displays Information about the Maximum Dose">
 						<img src="./assets/images/examples/medication-list/UM_EHR_0009_lisinopril.png" class="scale-with-grid" /></a>
 					</div>
-
+					<div class="print-only page-break"></div>
 					<p>In any standard EHR table view, that maximum dose indicator could be added with a single small icon for each medication, shown here. This display would also help the patient better understand their medication. By creating visual designs like this that work equally well for physicians, nurses, and patients, we can make the EHR and associated care processes more understandable and transparent for patients.</p>
 					<div class="quicktip" id="max-dose">
 						<div class="sidebar cf">
@@ -344,7 +355,7 @@
 						<div class="tip"></div>
 					</div>
 					<p>In the examples below (<a href="#fig-2-7">Figure 2.7</a> and<a hred="#fig-2-8"> 2.8</a>), we refer to the medication timeline (described in detail later in the chapter) embedded in the table view. It uses the same color scheme described earlier (light gray text represents a low dose, darker gray a higher dose, solid black a maximum dose, and red a dose over the recommended maximum).</p>
-					<!--Fig 2-7 Maximum dose icons-->
+					<div class="print-only page-break"></div>
 					<div class="example">
 						<div class="ex-title" id="fig-2-7">
 							<span class="ex-type">Figure 2.7</span>
@@ -353,6 +364,7 @@
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_dose-max.png" title="List with a Column for the 'Maximum Dose' Icon">
 						<img src="./assets/images/examples/medication-list/UM_EHR_0007_dose-max.png" class="scale-with-grid" /></a>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example">
 						<div class="ex-title" id="fig-2-8">
 							<span class="ex-type">Figure 2.8</span>
@@ -360,7 +372,8 @@
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0008_timeline.png" title="Mini-timeline shows maximum dose information for each medication"><img src="./assets/images/examples/medication-list/UM_EHR_0008_timeline.png" class="scale-with-grid" /></a>
 					</div>
-					<h3>Try It Out</h3>
+					<div class="print-only page-break"></div>
+					<h5>Try It Out</h5>
 					<p>We’ve made an interactive prototype you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
 					<p>For this prototype, assume “today” is September 18, 2013.</p>
 					<div class="example" id="int-2-2">
@@ -393,6 +406,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>2.3 <a href="../timeline/timeline.html" target="blank">The Medication Timeline</a></h3>
 					</div>
 					<p>Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data? Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understands patient's history with a second or third medication.</p>
@@ -454,6 +468,7 @@
 									<img src="./assets/images/examples/medication-list/UM_EHR_0010_notated.png" class="scale-with-grid" alt="How to Read the Timeline" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.4 c</span> Special Cases <span class="capt-desc">&mdash; PRN (as needed) medications and medications with no fixed maximum dose</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-list/UM_EHR_0011_notated-2.png" title="Special Cases &mdash; PRN (as needed) medications and medications with no fixed maximum dose">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0011_notated-2.png" class="scale-with-grid" alt="prn medications with no fixed maximum dose" /></a>
@@ -468,7 +483,7 @@
 					<p>For the timeline, we used monochrome (grayscale) to convey most information. EHRs with specific color schemes could adapt our black scheme for conveying a maximum number to a “darkest blue” or “darkest green”. We used color sparingly, to alert physicians to issues such as dosages over the recommended maximum dose. In general, it’s a good idea to design in monochrome first. You can then add color sparingly to convey meaning, in a way that won’t distract the user. Remember that some users will not perceive color: in our example, we combined color and cross hatching when we needed to indicate a maximum dose to make sure that no one missed crucial information due to this quite common disability. You can make sure you’ve designed for maximum accessibility by printing your design in grayscale and checking that all the information it’s supposed to convey is still visible.</p>
 					<p>Above all, the text must be legible. On our timeline, the drug names are left justified, which makes them easier to read. The dose, displayed in either black or white, contrasts with the background. Experienced, dexterous users can comfortably manually zoom in on our timeline, but even absolute beginners can use the buttons that allow them to quickly zoom in on commonly-used, useful time periods (like “the last 3 months” or “the last year”).</p>
 					<p>Our medication timeline aims to accommodate every conceivable user: physicians, nurses, patients, caregivers, pharmacists, mental health professionals, health coaches, and all other medical specialists. It can accommodate long lists of medications. A dozen medications can be quite common. Twenty medications would not be surprising. Thirty medications, sadly, may not be rare. The medication timeline handles the visual burden with ease. It’s a tool for data visualization, whose mantra is “overview first, then zoom and filter, then details-on-demand.” Let’s look at <a href="#gal-2-5">Gallery 2.5</a> to demonstrate how.</p>
-					<!--Gallery 2-2 Timeline-->
+					<div class="print-only page-break"></div>
 					<div class="example" id="gal-2-5">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 2.5</span>
@@ -484,36 +499,43 @@
 									
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 b</span> Active Medications in the Timeline</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="2.5 b Active Medications in the Timeline">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 c</span> Grab the Scrubber <span class="capt-desc">&mdash; Drag it across the timeline to look at more details about certain dates</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" title="2.5 c Grab the Scrubber &mdash; Drag it across the timeline to look at more details about certain dates">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" class="scale-with-grid" alt="Drag the scrubber on the medication timeline" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 d</span> Dragging the Scrubber Further Back in Time <span class="capt-desc">&mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" title="Dragging the Scrubber Further Back in Time &mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" class="scale-with-grid" alt="Medications that are currently inactive grey out" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 e</span> Show All Medications <span class="capt-desc">&mdash; Active medications are at the top, inactive medications are at the bottom</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" title="Show all (active and inactive) medications. Active medications are at the top while the inactive are at the bottom.">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" class="scale-with-grid" alt="Show All Medications" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 f</span> Tap on a Medication Line to See More Details</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0005_hover.png" title="Tap on a Medication Line to See More Details">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0005_hover.png" class="scale-with-grid" alt="Tap on a Medication Line to See More Details" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 g </span>Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication <span class="capt-desc">&mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" title="Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication &mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Expanding a Bar Reveals the Details" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 h </span>Back to Where We Started</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="Active medications in the timeline">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
@@ -530,7 +552,7 @@
 						</div>
 						<iframe class="video scale-with-grid" src="http://player.vimeo.com/video/99496442?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;" width="750" height="423"></iframe>
 					</div>
-
+					<div class="print-only page-break"></div>
 					<h5>Try It Out</h5>
 					<p>We’ve made an interactive prototype timeline you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
 					<p>For this prototype, assume "today" is September 18, 2013.</p>
@@ -683,6 +705,7 @@
 						</div><!--end sidebar-->
 						<div class="tip"></div>
 					</div><!--end quicktip-->
+					<div class="print-only page-break"></div>
 					<h5>2.4 Summary</h5>
 						<ol>
 							<li>When designing EHR tools, consider the user and the task they’ll be performing. This will help you decide what functions and details a physician needs when using a particular medication list view.</li>

@@ -11,7 +11,7 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
@@ -49,6 +49,7 @@
 					</div>
 					<div class="author">
 						<p><strong>Nathan Lowrance MA</strong> is a doctoral candidate in the School of Information Science and Learning Technology in the College of Education at the University of Missouri-Columbia. His research interests include human information seeking behavior, human-computer interaction design, and the psychology surrounding choices and biases. As a graduate assistant Lowrance worked on and led a variety of usability and health IT projects at the University of Missouri’s Information Experience Laboratory.</p>
+						<div class="print-only page-break"></div>
 					</div>
 					<div class="author">
 						<p><strong>Jennifer Patel</strong> is an interface designer at Involution Studios in Boston. She has a fine arts degree in designing for new media from the Rochester Institute of Technology which has allowed her to specialize in interactive design and front-end development. Jennifer has designed complex systems and software for business-critical services from big data to streamlining processes, and has architected, designed, and built decision support tools for health and healthcare. She played a leading role in developing the designs and interactive prototypes found throughout the chapters, and was responsible for the book’s production.</p>
@@ -81,6 +82,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>Acknowledgements</h3>
 					<p>We are grateful to the many people and organizations that provided support, feedback, and general encouragement for this project.</p>

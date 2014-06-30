@@ -11,7 +11,7 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css" />
@@ -83,6 +83,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>4.2 Glancing at the Allergy List</h3>
 					</div>
 					<div class="scenario" id="">
@@ -147,7 +148,7 @@
 						<p>Cephalexin can be perfectly safe for people with mild penicillin allergy. However people with severe penicillin allergy should avoid cephalexin. The third-choice alternatives would be clindamycin or azithromycin (Z-Pak), both of which are more expensive.</p>
 					</div>
 					<p>Glancing at the patient demographic banner (<a href="#fig-4-4">Figure 4.4</a>), the physician can see some information, but she still needs more details. What exactly happened when the patient took this drug? Was the patient's reaction severe?</p>
-					
+					<div class="print-only page-break"></div>
 					<div class="example" id="fig-4-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.4</span>
@@ -185,6 +186,7 @@
 							<p class="preview">Know your user and their needs. We sent a convenience-sample survey to mostly academic health center physician faculty members<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Know your user and their needs. We sent a convenience-sample survey to mostly academic health center physician faculty members and residents at several institutions, asking what they felt was important to include in a Medication Allergy List. We had 52 responses. Our survey didn't consider regulatory requirements, which might change over time.</p>
+								<div class="print-only page-break"></div>
 								<div class="example" id="fig-4-7">
 									<div class="ex-title">
 										<span class="ex-type">Figure 4.7</span>
@@ -207,6 +209,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>4.4 Changing the Allergy List (Adding and Editing)</h3>
 					</div>
 					<div class="scenario">
@@ -301,11 +304,13 @@
 										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0002_visual-queries-1.png" class="scale-with-grid" alt="It is nearly impossible to find the name of the drug or substance" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">4.1 b</span> Before: Next, Add the Reaction Symptoms</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_visual-queries-2.png" title="4.1 b</span> Before: Next, Add the Reaction Symptoms">
 										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_visual-queries-2.png" class="scale-with-grid" alt="Adding reaction symptoms is difficult too" /></a>
 								</div></li>
 								<li id="gal-4-1-c"><div>
+								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">4.1 c</span> After: Simplified visual path with fewer fields</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" title="4.1 c After: Simplified visual path with fewer fields">
 										<img src="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" class="scale-with-grid" alt="Simplified allergy addition" /></a>
@@ -349,6 +354,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 						<h3>4.5 Summary</h3>
 					</div>
 					<p><ol>

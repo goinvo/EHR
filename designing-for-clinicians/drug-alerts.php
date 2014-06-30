@@ -11,9 +11,10 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -102,6 +103,7 @@
 						<h5>Clinical Scenario - Severe drug interaction</h5>
 						<p>Mr. Martin, our 58-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed her with a bladder infection. As she started to order the antibiotic, ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.3</span>
@@ -122,6 +124,7 @@
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" title="An Interruptive Alert - requires the user to make a choice before dismissing the alert.">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="An Interruptive Alert - requires the user to make a choice before dismissing the alert." /></a>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.5</span>
@@ -139,6 +142,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>6.3 User preferences to dismiss future alerts</h3>
 					<p>When users are presented with a high frequency of low-value alerts, they develop alert fatigue and begin to dismiss the alerts before they fully read them or consider their implications.</p>
@@ -166,6 +170,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr />
+						<div class="print-only page-break"></div>
 					</div>
 					<h3>6.4 Customizing Alerts for Individual Physicians</h3>
 					<p>Some alerts will be predictably and safely dismissed 100% of the time, and can reasonably be eliminated. Perhaps a patient has been taking a medication for a long time without incident, but an alert still appears every time the prescription is renewed. Here are some common examples:</p>
@@ -174,6 +179,7 @@
 						<p>Lisinopril (an ACE inhibitor) gives this patient a cough, and an alert appears when the physician tries to prescribe an ARB such as losartan or valsartan, because these two classes of drugs are somewhat related. However, ARBs are known to never cause the cough that ACE inhibitors may cause. The EHR need never again warn the physician about this particular side-effect for any patient.</p>
 					</div>
 					<p>It would be safe to allow physicians to permanently suppress alerts in the two circumstances above (<a href="#fig-6-6">Figure 6.6</a>). It is more challenging to define rules for drug interactions or drug-disease interactions when the dosing or disease severity can vary over time.</p>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-6">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.6</span>
@@ -211,11 +217,13 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
+						<div class="print-only page-break"></div>
 					</div>
 					<h5>6.5 Multiple Drug Alerts</h5>
 					<p>Sometimes an EHR needs to present multiple alerts to the user. These may be multiple alerts for a single medication, or several alerts for a number of different medications. Would the EHR display these alerts one at a time, or all at once? If they’re displayed all at once, physicians can see the big picture: all of the drug-allergies and drug-drug interactions in play. Without having to navigate to read each alert, physician’s can run down the list and make decisions for each item. Showing all the alerts simultaneously, however, may visually overwhelm the users. It might also be difficult to simultaneously show both all the alerts and the clinical information that physicians need to act on these alerts.</p>
 					<p><a href="#fig-6-8">Figure 6.8</a> shows one possible way of presenting multiple alerts on a single screen. This design shows each alert’s severity using small icons in the left column. New drug orders and either the allergy or interacting drug are displayed just after the severity icons. The rightmost column shows the actions that a physician can take to address each alert. The action buttons include both the actions and the drug names (e.g., Stop Augmentin) to help the physician understand what each button does. The design uses bold text on action buttons to show recommended actions for each alert. <a href="#fig-6-9">Figure 6.9</a> shows the display after the user has made decisions about the first two alerts. The Continue button activates after the user addresses all the alerts (<a href="#fig-6-10">Figure 6.10</a>).
 					<p>It’s more challenging to display multiple alerts on small mobile devices. <a href="#gal-6-1">Gallery 6.1</a> shows a way to displayed and address multiple alerts on a mobile phone. The first screen presents an overview of all of the alerts, grouped by type. Tapping an alert brings up details about it, as well as possible actions the physician can take.</p>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.8</span>
@@ -224,6 +232,7 @@
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.9</span>
@@ -232,6 +241,7 @@
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title=" Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
 					</div>
+					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.10</span>
@@ -240,6 +250,7 @@
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
 					</div>
+					<div class="print-only page-break"></div>
 					<p>This gallery shows a design option for displaying multiple drug alerts on a smartphone.</p>
 					<div class="example" id="gal-6-1">
 						<div class="ex-title">
@@ -254,26 +265,31 @@
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="6.1 a One allergy alert and three drug-drug interactions" /></a>
 								</div></li>
 								<li><div>
+									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 b</span> This more detailed display allows the physician to address the allergy alert.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="6.1 b This more detailed display allows the physician to address the allergy alert.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="This more detailed display allows the physician to address the allergy alert." /></a>
 								</div></li>
 								<li><div>
+								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 c</span> When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="6.1 c When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch" class="scale-with-grid" alt="When physician taps the “Stop” button, the display moves on, bringing up the next alert screen." /></a>
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="When physician taps the “Stop” button, the display moves on, bringing up the next alert screen." /></a>
 								</div></li>
 								<li><div>
+								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 d</span> A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both." /></a>
 								</div></li>
 								<li><div>
+								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 e</span> Stopping Cipro calls up the next drug-drug alert.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" title="Stopping Cipro calls up the next drug-drug alert.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" class="scale-with-grid" alt="Stopping Cipro calls up the next drug-drug alert." /></a>
 								</div></li>
 								<li><div>
+								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 e</span> After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions." /></a>

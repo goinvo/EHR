@@ -11,7 +11,7 @@
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/Slider/component.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
@@ -73,6 +73,7 @@
 							<li>Informational: Watch out for repetitious, proximate words and symbols in your design. Consolidate these where possible.</li>
 							<li>Behavioral: Pick a primary method for performing an action and feature it prominently. Controls and interactions that duplicate the behavior can be hidden one level deeper.</li>
 						</ul>
+					<div class="print-only page-break"></div>
 				</div>
 			</div>
 		</section><!--end section removing-complexity-->
