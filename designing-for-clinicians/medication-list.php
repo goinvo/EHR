@@ -398,9 +398,9 @@
 					<p>Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data? Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understands patient's history with a second or third medication.</p>
 					<p>A medication timeline harnesses the power of information visualization to:
 						<ol>
-							<li>provide a chronological overview of the patient’s medication history</li>
-							<li>enable physicians to zoom in on and filter the list</li>
-							<li>reveal details on demand</li>
+							<li>Provide a chronological overview of the patient’s medication history</li>
+							<li>Enable physicians to zoom in on and filter the list</li>
+							<li>Reveal details on demand</li>
 						</ol></p>
 					<p>The overview provides context and perspective, and may enable the user to make salient discoveries. ("Wow, all this patient's meds were changed six months ago.") The timeline visualization helps harness our fast thinking mind, which can quickly make sense of the start and stop images, rather than relying on our slow thinking mind to read dates and make calculations. Zooming and filtering can provide answers to preliminary questions or hunches. Physicians can drill down to seek more specific details, such as the exact dates of medication changes, or related facts that could influence the medical chain of events.</p>
 					<div class="scenario">
@@ -526,7 +526,7 @@
 					<div class="example" id="vid-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Video 2.1</span>
-							<span class="ex-caption"><a href="http://vimeo.com/99496442" class="link" target="blank">Watch the Demo Video of the Timeline Prototype</a> <span class="capt_desc">(2:10)</span></span>
+							<span class="ex-caption"><a href="http://vimeo.com/99496442" class="link" target="blank">Watch the Demo Video of the Timeline Prototype</a> <span class="capt_desc">(4:29)</span></span>
 						</div>
 						<iframe class="video scale-with-grid" src="http://player.vimeo.com/video/99496442?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;" width="750" height="423"></iframe>
 					</div>

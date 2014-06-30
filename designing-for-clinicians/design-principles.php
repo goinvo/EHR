@@ -50,7 +50,7 @@
 					<p>Key ideas:</p>
 					<ul class="disc">
 						<li>Establishing the proper mental model is fundamental to driving the product design process.</li>
-						<li>Mental models are typically expressed in the form of metaphor. The desktop metaphor used by modern operating systems represents a very specific and intentional mental model.</li>
+						<li>Designers discover users' mental models through research and craft the proper metaphor that will best fit with how users will be using the product. The desktop metaphor used by modern operating systems represents a very specific and intentional mental model.</li>
 						<li>Simplicity is the hallmark of a strong mental model. Users should intuitively understand the model they are presented.</li>
 					</ul>
 				</div>

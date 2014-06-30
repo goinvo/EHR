@@ -229,23 +229,23 @@
 							<span class="ex-type">Figure 3.7</span>
 							<span class="ex-caption">The Interface Presents Each Drug in the Patient’S Medication List One at a Time, Offering a Few Clearly-Marked Choices <span class="capt-desc">&mdash; The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span>.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="3.2a The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Patients selects that they are taking a medication" title="" /></a>
 					</div>
 					<div class="example" id="#fig-3-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.8</span>
-							<span class="ex-caption">The patient may not be taking a drug for various reasons: <span class="capt-desc">a physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.</span></span>
+							<span class="ex-caption">The Patient May Not Be Taking a Drug for Various Reasons <span class="capt-desc"> &mdash; A physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="3.2b The patient may not be taking a drug for various reasons: a physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.">
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="The Patient May Not Be Taking a Drug for Various Reasons — A physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Patient selects that they are not taking a medication" title="" /></a>
 					</div>
 					<div class="example" id="#fig-3-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.9</span>
-							<span class="ex-caption"> <!--The patient may be taking more or less than the prescribed amount of her medication. She may have recently run out of the medication, or may be taking “as needed” rather than routinely.--> The answer, “Yes, I’m taking but not as directed,” is enough to prompt the physician to start a conversation about adherence.</span>
+							<span class="ex-caption">“Yes, I’m taking but not as directed.” <span class="capt-desc">&mdash; The answer is enough to prompt the physician to start a conversation about adherence.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" title="3.2c The patient may be taking more or less than the prescribed amount of her medication. She may have recently run out of the medication, or may be taking “as needed” rather than routinely. The answer, “Yes, I’m taking but not as directed,” is enough to prompt the physician to start a conversation about adherence.">
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" title="“Yes, I’m taking but not as directed.” — The answer is enough to prompt the physician to start a conversation about adherence.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" class="scale-with-grid" alt="Patient selects that they are taking a medication, but not as directed" title="" /></a>
 					</div>
 					<div class="example" id="#fig-3-10">
@@ -253,13 +253,13 @@
 							<span class="ex-type">Figure 3.10</span>
 							<span class="ex-caption">The patient may be unsure about a particular medication. <span class="capt-desc">She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" title="3.2d The patient may be unsure about a particular medication. She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.">
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" title="The Patient May Be Unsure about a Particular Medication &mdash; She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" class="scale-with-grid" alt="Patient selects that they are taking a medication, but not as directed" title="" /></a>
 					</div>
 					<div class="example" id="#fig-3-11">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.11</span>
-							<span class="ex-caption">Once the patient’s reviewed all the medications<!-- in the list the EHR had on file for her-->, the prompt reminds her to add missing prescriptions. <span class="capt-desc">It also prompts her to add any other items she might be taking<!--, but which are often forgotten – such as eye drops, over-the-counter medications, vitamins and herbal preparations, etc-->. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.</span></span>
+							<span class="ex-caption">The Patient Has Reviewed All the Medications <span class="capt-desc">&mdash; The prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" title="3.2e Once the patient’s reviewed all the medications in the list the EHR had on file for her, the prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking, but which are often forgotten – such as eye drops, over-the-counter medications, vitamins and herbal preparations, etc. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" class="scale-with-grid" alt="Patient adds medications they are taking that haven't been listed" title="" /></a>
@@ -284,10 +284,19 @@
 								<br />There are two main ways to capture information about patients medication adherence (or lack thereof). One is asking patients to provide the information, and the other is tracking information about prescription fills from the e-prescribing network. At the moment, not all pharmacies, pharmacy benefit managers and insurance plans are linked with e-prescribing networks, but even incomplete databases can complement patients’ reports and help draw more accurate pictures of patients’ adherence patterns.</p>
 								<p><strong>Non-Adherence Is Widespread</strong>
 								<br />A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so<sup>1</sup>. Patients commonly over-report their degree of adherence, as well. Physicians are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.</p>
-								<p><strong>Why Patients Stop Taking Their Medication</strong>
-								<br />Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
+							</div>
+						</div>
+						<div class="tip"></div>
+					</div>
+					<div class="quicktip">
+						<div class="sidebar cf" id="medication-adherence">
+							<h5>Why Patients Stop Taking Their Medication</h5>
+
+							<p class="preview">Why don’t people take the medications prescribed for them?<span class="elipsis"> <span class="a">Read more</span></span></p>
+							<div class="qt-content show">
+								<p>Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
 									<ol>
-										<li>The patient did not purchase the medication because of it was costly.</li>
+										<li>The patient did not purchase the medication because it was costly.</li>
 										<li>The patient stopped taking the dedication after experiencing side-effects.</li>
 										<li>The medication’s side effects outweighed its benefits.</li>
 										<li>The patient was afraid of the side-effects.</li>
@@ -309,33 +318,33 @@
 					<div class="example" id="fig-3-13">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.13</span>
-							<span class="ex-caption">The list is now sorted according to the answers provided during the review. <span class="capt-desc">Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.</span></span>
+							<span class="ex-caption">The List Is Now Sorted According to the Answers Provided during the Review <span class="capt-desc">&mdash; Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" title="3.3 The list is now sorted according to the answers provided during the review. Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.">
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" title="The List Is Now Sorted According to the Answers Provided during the Review &mdash; Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" class="scale-with-grid" alt="" title="" /></a>
 					</div>
 					<div class="example" id="fig-3-14">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.14</span>
-							<span class="ex-caption">The physician can clarify the details during a conversation with the patient, and then edits the comments.</span>
+							<span class="ex-caption">The Physician Can Clarify the Details during a Conversation with the Patient, and Then Edits the Comments</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" title="3.3 b The physician can clarify the details during a conversation with the patient, and then edits the comments.">
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" title="The physician can clarify the details during a conversation with the patient, and then edits the comments.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" class="scale-with-grid" alt="" title="" /></a>
 					</div>
 					<div class="example" id="fig-3-15">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.15</span>
-							<span class="ex-caption">The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. <span class="capt-desc">Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.</span></span>
+							<span class="ex-caption">The Physician Can Move a Medication from One Group to Another, Either with a Drag and Drop Gesture or Using Menu Selections <span class="capt-desc">&mdash; Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="3.3 c The physician can move a medication from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure Betoxolol opthalmic is been moved to the “taking” category.">
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="The Physician Can Move a Medication from One Group to Another, Either with a Drag and Drop Gesture or Using Menu Selections &mdash; Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="" title="" /></a>
 					</div>
 					<div class="example" id="#fig-3-16">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.16</span>
-							<span class="ex-caption">The physician has the option to confirm the status of all or some of the medications.</span>
+							<span class="ex-caption">The Physician Has the Option to Confirm the Status of All or Some of the Medications</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" title="3.3 d The physician has the option to confirm the status of all or some of the medications.">
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" title="The Physician Has the Option to Confirm the Status of All or Some of the Medications">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" class="scale-with-grid" alt="" title="" /></a>
 					</div>
 					<p>The list in Figure 3.16 is the physician’s final review of medication list. Once the physician approves the list by pressing the “Confirm Review” button in the upper right, the EHR updates the medication list in the patient’s record and saves all comments about adherence. The category in which a medication has been placed in the list specifies how the final reconciled medication list is saved in the patient’s record.</p>
