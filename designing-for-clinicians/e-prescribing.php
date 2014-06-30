@@ -31,7 +31,7 @@
 				<div class="sixteen columns">
 					<h2>5</h2>
 					<h2>E-Prescribing and <br/>Computerized Physician Order Entry (CPOE)</h2>
-					<!--<div class="subheader"><p>Successful medication management is a key part of a patient’s health</p></div>-->
+					<div class="subheader"><p>E-Prescribing offers an opportunity to improve user accuracy and efficiency, a satisfying experience.</p></div>
 				</div>
 			</div>
 		</header>
@@ -42,7 +42,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>E-prescribing (eRx) can be one of the most satisfying aspects of a physician’s EHR life, because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.</p>
+					<p>E-Prescribing (eRx) can be one of the most satisfying task of the physician because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-Prescribing can also be frustrating when the EHR does not provide adequate data entry support. E-Prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.</p>
 					<p>The back-end process of e-prescribing sends discrete electronic data to a central hub, which then distributes the prescription message to the target pharmacy electronically (or via fax, if the target pharmacy lacks e-prescribing capabilities). The pharmacy can also send messages for renewal request to the prescribing physician. A new feature, not yet widely adopted, allows prescribers to send a message electronically to a pharmacy to cancel a previously prescribed medication or prescription.</p>
 					<div class="scenario">
 						<h5>Clinical scenario 1: New prescription for newly diagnosed diabetes</h5>

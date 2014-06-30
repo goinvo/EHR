@@ -410,10 +410,14 @@
 					<div class="example" id="fig-2-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 2.9 </span>
-							<span class="ex-caption">Show All Medications (Active &amp; Inactive)<span class="capt-desc"> &mdash; Lisinopril had been stopped</span></span>
+							<span class="ex-caption">Show All Medications (Active &amp; Inactive)<span class="capt-desc"> &mdash; Lisinopril had been stopped</span> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" title="Show All Medications (Active &amp; Inactive) &mdash; Lisinopril had been stopped">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" class="scale-with-grid" alt="Show all medications" /></a>
+						<div class="print-only">
+							<p>Try it out: <a>InspiredEHRs.com/timeline/</a></p>
+							<p>Download the code: <a>github/goinvo/ehr</a></p>
+						</div>
 					</div>
 					<p>Dr. Barnes now considers prescribing amlodipine to control the patient’s high blood pressure, but wonders about the patient’s adherence to the medications he’s already on. Zooming in on the medication timeline, she finds that the patient was three weeks late refilling his Coreg, but had been embarrassed to admit to it. The patient had just requested a refill last night, and had planned to pick it up from the pharmacy after the visit today. Coreg’s relatively high copay made the patient hesitate to refill his prescription in a timely manner. With this brought to her attention, the physician discussed less expensive alternatives in the beta-blocker class. Together they selected metoprolol XL 200 mg daily. You can read more about why patients might not be taking their medication as prescribed in <a href="./medication-reconciliation.php">Chapter 3, Medication Reconciliation</a>.</p>
 				
@@ -425,19 +429,6 @@
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0008_zoom-in.png" title="Zoom in to See Granular Details like Gaps in Medication Adherence">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0008_zoom-in.png" class="scale-with-grid" /></a>
-					</div>
-
-					<div class="example" id="int-2-3">
-						<div class="ex-title">
-							<span class="ex-type">Interactive 2.3</span>
-							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
-						</div>
-						<a href="../timeline/timeline.html" target="blank">
-							<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
-						<div class="print-only">
-							<p>Try it out: <a>InspiredEHRs.com/timeline/</a></p>
-							<p>Download the code: <a>github/goinvo/ehr</a></p>
-						</div>
 					</div>
 
 					<p>A timeline offers a complete overview. At the top level, a timeline conveys details about when a patient starts and stops taking a medication, when that medication's dose changes, whether that change is an increase or decrease, and whether the dosage taken is the maximum one.</p>
@@ -530,12 +521,22 @@
 							</ul>
 						</div>
 					</div>
+
+					<p>See the Timeline in action in this short demo video.</p>
+					<div class="example" id="vid-2-1">
+						<div class="ex-title">
+							<span class="ex-type">Video 2.1</span>
+							<span class="ex-caption"><a href="http://vimeo.com/99496442" class="link" target="blank">Watch the Demo Video of the Timeline Prototype</a> <span class="capt_desc">(2:10)</span></span>
+						</div>
+						<iframe class="video scale-with-grid" src="http://player.vimeo.com/video/99496442?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;" width="750" height="423"></iframe>
+					</div>
+
 					<h5>Try It Out</h5>
 					<p>We’ve made an interactive prototype timeline you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
 					<p>For this prototype, assume "today" is September 18, 2013.</p>
-					<div class="example" id="int-2-4">
+					<div class="example" id="int-2-3">
 						<div class="ex-title">
-							<span class="ex-type">Interactive 2.4</span>
+							<span class="ex-type">Interactive 2.3</span>
 							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
 						<a href="../timeline/timeline.html" target="blank">

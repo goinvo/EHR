@@ -31,7 +31,7 @@
 				<div class="sixteen columns">
 					<h2>3</h2>
 					<h2>Medication Reconciliation</h2>
-					<div class="subheader"><p></p></div>
+					<div class="subheader"><p>Exploit human factors principles to facilitate this difficult but important task.</p></div>
 				</div>
 			</div>
 		</header>

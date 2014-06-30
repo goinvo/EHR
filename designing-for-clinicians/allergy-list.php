@@ -33,6 +33,7 @@
 				<div class="sixteen columns">
 					<h2>4</h2>
 					<h2>Allergy List</h2>
+					<div class="subheader"><p>treamline data entry and create clear uncluttered displays to highlight important allergies.</p></div>
 				</div>
 			</div>
 		</header>

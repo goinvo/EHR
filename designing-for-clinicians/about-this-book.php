@@ -66,7 +66,7 @@
 					<p>This book’s chapters can be read in any order. Nevertheless, we encourage you to read them in the order our layout proposes. Chapter 2 (Medication List), for example, introduces basic concepts that are reused in subsequent chapters.</p>
 
 					<h3>Tell Us What You Think</h3>
-					<p>You can email us at <a href="mailto:feedback@inspiredEHRs.com?Subject=EHR%20feedback" target="_top">feedback@inspiredEHRs.com</a>. We welcome your comments. Please let us know what subjects you would like us to cover next. We will post the helpful examples or insights you send our way to Jeff Belden’s blog at <a href="http://toomanyclicks.com/">TooManyClicks.com</a>.</p>
+					<p>You can email us at <a href="mailto:feedback@inspiredEHRs.org?Subject=EHR%20feedback" target="_top">feedback@inspiredEHRs.com</a>. We welcome your comments. Please let us know what subjects you would like us to cover next. We will post the helpful examples or insights you send our way to Jeff Belden’s blog at <a href="http://toomanyclicks.com/">TooManyClicks.com</a>.</p>
 
 				</div>
 			</div>
