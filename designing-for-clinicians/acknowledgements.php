@@ -48,11 +48,11 @@
 						<p>He blogs on EHR usability at <a href="www.toomanyclicks.com" target="blank">www.toomanyclicks.com</a>.</p>
 					</div>
 					<div class="author">
-						<p><strong>Nathan Lowrance MA</strong> is a doctoral candidate in the School of Information Science and Learning Technology in the College of Education at the University of Missouri-Columbia. His research interests include human information seeking behavior, human-computer interaction design, and the psychology surrounding choices and biases. As a graduate assistant Lowrance worked on and led a variety of usability and health IT projects at the University of Missouri’s Information Experience Laboratory.</p>
-						<div class="print-only page-break"></div>
+						<p><strong>Jennifer Patel</strong> is an interface designer at Involution Studios in Boston. She has a fine arts degree in designing for new media from the Rochester Institute of Technology which has allowed her to specialize in interactive design and front-end development. Jennifer has designed complex systems and software for business-critical services from big data to streamlining processes, and has architected, designed, and built decision support tools for health and healthcare. She played a leading role in developing the designs and interactive prototypes found throughout the chapters, and was responsible for the book’s production.</p>
 					</div>
 					<div class="author">
-						<p><strong>Jennifer Patel</strong> is an interface designer at Involution Studios in Boston. She has a fine arts degree in designing for new media from the Rochester Institute of Technology which has allowed her to specialize in interactive design and front-end development. Jennifer has designed complex systems and software for business-critical services from big data to streamlining processes, and has architected, designed, and built decision support tools for health and healthcare. She played a leading role in developing the designs and interactive prototypes found throughout the chapters, and was responsible for the book’s production.</p>
+						<p><strong>Nathan Lowrance MA</strong> is a doctoral candidate in the School of Information Science and Learning Technology in the College of Education at the University of Missouri-Columbia. His research interests include human information seeking behavior, human-computer interaction design, and the psychology surrounding choices and biases. As a graduate assistant Lowrance worked on and led a variety of usability and health IT projects at the University of Missouri’s Information Experience Laboratory.</p>
+						
 					</div>
 					<div class="author">
 						<p><strong>Catherine Plaisant PhD</strong> is a Senior Research Scientist at the University of Maryland Institute for Advanced Computer Studies. In 1988, she joined Professor Ben Shneiderman at the Human-Computer Interaction Laboratory where she is now the Associate Director of the Research. She enjoys working with multidisciplinary teams on designing and evaluating new interface technologies that are both usable and useful. Catherine Plaisant has over 140 published papers, on subjects as diverse as information visualization, medical informatics, universal access, digital humanities, technology for families, and evaluation methodologies. With Ben Shneiderman she co-authored the 4th and 5th Editions of Designing the User Interface, one of the major books on Human-Computer Interaction.</p>
@@ -88,7 +88,7 @@
 					<p>We are grateful to the many people and organizations that provided support, feedback, and general encouragement for this project.</p>
 					<p>We received feedback and suggestions from an advisory panel and many other reviewers.  Academic researchers contributed their expertise in design, and their understanding of the human factors involved and current research. The advisory panel also included clinicians who are active users of EHRs and other health IT products. These users brought their keen personal experience and expertise to bear on the project.</p>
 					<p>Several members of the Electronic Health Records Association (EHRA) and other HealthIT professionals participated in the three design workshops we organized during the course of the project. Others read early drafts of the book and provided feedback and suggestions.</p>
-					<p>Finally we thank the California HealthCare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT for sponsoring this project.</p>
+					<p>Finally we thank the California HealthCare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT for supporting this project.</p>
 					
 					<h5>Advisory Panel</h5>
 						<ul class="disc">
@@ -140,7 +140,7 @@
 					<h5>Electronic Health Records Association</h5>
 					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshop and dissemination efforts.</p>
 					
-					<h5>Funding Sponsors</h5>
+					<h5>Funding Supporters</h5>
 					<p><a href="http://www.chcf.org/">California HealthCare Foundation</a><br/>
 						The California HealthCare Foundation, based in Oakland, California, works as a catalyst to fulfill the promise of better healthcare for all Californians. The Foundation supports ideas and innovations that improve the quality, increase the efficiency, and lower the costs of care. For more information, visit <a href="www.chcf.org">www.chcf.org</a>.</p>
 

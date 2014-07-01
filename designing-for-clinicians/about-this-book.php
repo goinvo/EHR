@@ -6,7 +6,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>EHR Style Guide | <?php echo $pageTitle; ?></title>
+	<title>Inspired EHRs | <?php echo $pageTitle; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -43,7 +43,7 @@
 					<p>Our goal in writing this book is to <strong>inspire</strong> useful and usable Electronic Health Record (EHR) interface design by providing clinical scenarios and insights with examples of interactive designs, guided by basic design principles.</p>
 
 					<h3>Illustrative, Not Prescriptive</h3>
-					<p>While meaningful use criteria influenced the choice of the book topics, we and our sponsors (California HealthCare Foundation and SHARP-C Project) want this book to be clinically relevant, illustrative, and inspirational &mdash;but <strong>not prescriptive</strong>. We hope our design examples will inspire our readers to improve their own EHR designs.</p>
+					<p>While meaningful use criteria influenced the choice of the book topics, we and our supporters (California HealthCare Foundation and SHARP-C Project) want this book to be clinically relevant, illustrative, and inspirational &mdash;but <strong>not prescriptive</strong>. We hope our design examples will inspire our readers to improve their own EHR designs.</p>
 
 					<h3>Audience</h3>
 					<p>This book is written for <strong>anyone who develops and implements health IT applications</strong>, but particularly for electronic health record (EHR) vendor teams who want to learn more about human factors and design. Designers who want to learn about the needs of EHR users, medical informatics students, and EHR users who want to learn more about design principles might also benefit from reading this book.</p>
@@ -64,7 +64,7 @@
 					
 					<h3>How to Use This Book</h3>
 					<p>This book’s chapters can be read in any order. Nevertheless, we encourage you to read them in the order our layout proposes. Chapter 2 (Medication List), for example, introduces basic concepts that are reused in subsequent chapters.</p>
-
+					<div class="print-only page-break"></div>
 					<h3>Tell Us What You Think</h3>
 					<p>You can email us at <a href="mailto:feedback@inspiredEHRs.org?Subject=EHR%20feedback" target="_top">feedback@inspiredEHRs.org</a>. We welcome your comments. Please let us know what subjects you would like us to cover next. We will post the helpful examples or insights you send our way to Jeff Belden’s blog at <a href="http://toomanyclicks.com/">TooManyClicks.com</a>.</p>
 
