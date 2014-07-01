@@ -33,7 +33,7 @@
 				<div class="sixteen columns">
 					<h2>4</h2>
 					<h2>Allergy List</h2>
-					<div class="subheader"><p>treamline data entry and create clear uncluttered displays to highlight important allergies.</p></div>
+					<div class="subheader"><p>Streamline data entry and create clear, uncluttered displays to highlight important allergies.</p></div>
 				</div>
 			</div>
 		</header>
@@ -93,7 +93,7 @@
 					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask the patients if they allergic to the drugs in question.</p>
 					<p>For this task, physicians need to be able to glance at a short list that only contains the names of the drugs a patient is allergic to. This list could be clearly visible when physicians are prescribing or administering, but they don't need to see it when performing unrelated tasks, such as documenting the visit in a note. The list could be included in the patient demographic banner, where it would always be visible even while physicians do tasks that don't require it.</p>
 					<p>Developers can work to minimize physicians' cognitive loads, or the mental effort they must expend to perform this task, by making the information physicians need easy to find, and by not over-burdening them with unnecessary details. Navigating through the EHR requires time and effort, and remembering where they need to look increases the cognitive load on often already-overburdened health care providers.</p>
-					<p>We've mocked-up "before and after" versions of an allergy list (<a href="#fig-4-1">Figures 4.1</a>) to illustrate what we mean.</p>
+					<p>We've mocked-up "before and after" versions of an allergy list (<a href="#fig-4-1">Figures 4.1</a> and <a href="#fig-4-2">4.2</a>) to illustrate what we mean.</p>
 					<p>This example (<a href="#fig-4-1">Figure 4.1</a>) uses some of its limited space to list symptoms. The total number of items in this potentially long list is not visible unless the user hovers over the list with a mouse. The user may, however, be using a touch interface, and touch interfaces don't allow users to hover. Thus information stored in this format therefore isn't easily accessible to some users. Listing additional substances here would actually help physicians out more. Physicians need to know, at a glance, if they're seeing all the substances on the Allergy List, or if what they're looking at has been truncated.</p>
 				</div>
 				<!--Before and After 4.1, 4.2-->
@@ -119,7 +119,7 @@
 				</div><!--end Before and After 4.1, 4.2-->
 
 				<div class="sixteen columns">
-					<p>In our After example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has 5 more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5”, or are there “5 more” to be seen?).</p>
+					<p>In our 'after' example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has 5 more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5”, or are there “5 more” to be seen?).</p>
 					<p>Including the Allergy List in the patient demographic banner, as we've chosen to do, is only one means of incorporating this list into the workflow. The Allergy List could only pop up in the workflow when the physician enters a new medication prescription or renewal (<a href="#fig-4-3">Figure 4.3</a>). This would still make the Allergy List readily available to a physician making prescriptions. Most other workflows such as reviewing lab results or vital signs, or reading reports, don’t require that the physician be aware of a patient's medication allergies.</p>
 					<div class="example" id="fig-4-3">
 						<div class="ex-title">
