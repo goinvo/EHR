@@ -555,13 +555,14 @@
 					<div class="print-only page-break"></div>
 					<h5>Try It Out</h5>
 					<p>We’ve made an interactive prototype timeline you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?</p>
+					<p>Note that this is an early prototype with known limitations we hope to address in future versions of the book (e.g. improved zooming, better labels for the time axis, customizable use of color, access to notes and details about reason for changes, filters, etc.) </p>
 					<p>For this prototype, assume "today" is September 18, 2013.</p>
 					<div class="example" id="int-2-3">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.3</span>
 							<span class="ex-caption"><a href="../timeline/" class="link" target="blank">Medication Timeline Prototype</a> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
-						<a href="../timeline/timeline.html" target="blank">
+						<a href="../timeline/" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
 						<div class="print-only">
 							<p>Try it out: <a>InspiredEHRs.com/timeline/</a></p>
@@ -569,7 +570,7 @@
 						</div>
 					</div>
 
-					<h5>Try These Tasks</h5>
+					<h5 id="timeline-tasks">Try These Tasks</h5>
 					<ol>
 						<li>Navigate so that you can see the starting date, September 18, 2013, by dragging the gray shaded area (the scrubber) in the bottom timeline. (We set a current date of September 18th so our prototype will work both now and for years to come).</li>
 						<li>What medication did the patient start taking most recently? About when did he start taking it?</li>
