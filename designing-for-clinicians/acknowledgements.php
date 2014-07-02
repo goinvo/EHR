@@ -131,7 +131,7 @@
 					<h5>Additional Acknowledgements</h5>
 					<p>The authors wish to thank the following people for their contribution to this book.</p>
 						<ul>
-							<li><strong>Erin Horak, editor</strong></li>
+							<li><strong>Erin Horáková, MA</strong> is a doctoral candidate in the English department at Queen Mary, University of London. Horáková has published academic work and has written for popular publications including <a href="http://www.tor.com/" target="blank">Tor.com</a>, the LA Review of Books, and Strange Horizons. She has served as an editor and/or researcher for a variety of publishing houses, universities, creative projects, legal firms and other organizations.</li>
 							<li><strong>Shreeya Gangwal</strong> and <strong>Adam Pere</strong>, of Involution Studios, participated in the development of the software prototypes used in this book.</li>
 							<li><strong>Andrei Herasimchuk</strong> and <strong>Donna Driscoll</strong>, of Involution Studios, contributed to the Design Principles chapter.</li>
 							<li><strong>Tiffany Chao</strong> and <strong>Johnny Wu</strong>, graduate students at the University of Maryland,  developed the Twinlist prototype, under the supervision of Catherine Plaisant and Ben Shneiderman.</li>
