@@ -119,7 +119,7 @@
 				</div><!--end Before and After 4.1, 4.2-->
 
 				<div class="sixteen columns">
-					<p>In our 'after' example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has 5 more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5”, or are there “5 more” to be seen?).</p>
+					<p>In our "after" example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has 5 more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5”, or are there “5 more” to be seen?).</p>
 					<p>Including the Allergy List in the patient demographic banner, as we've chosen to do, is only one means of incorporating this list into the workflow. The Allergy List could only pop up in the workflow when the physician enters a new medication prescription or renewal (<a href="#fig-4-3">Figure 4.3</a>). This would still make the Allergy List readily available to a physician making prescriptions. Most other workflows such as reviewing lab results or vital signs, or reading reports, don’t require that the physician be aware of a patient's medication allergies.</p>
 					<div class="example" id="fig-4-3">
 						<div class="ex-title">
@@ -195,7 +195,7 @@
 									<a class="fancybox" href="./assets/images/examples/allergy-list/chart.png">
 										<img src="./assets/images/examples/allergy-list/chart.png" class="scale-with-grid" /></a>
 								</div>
-								<p>These users don't often need to know about inactive allergies, allergies' date of onset, or the source of the EHR's information about these allergies. It's safe to hide this information in the course of regular usage.</p>
+								<p>These users don't often need to know about inactive allergies, allergies' dates of onset, or the source of the EHR's information about these allergies. It's safe to hide this information in the course of regular usage.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -248,7 +248,7 @@
 					<div class="example" id="fig-4-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.9</span>
-							<span class="ex-caption">After: Simplified Dialog Requires Only Key Details <span class="capt-desc">&mdash; removes less important information to a box in the lower screen</span></span>
+							<span class="ex-caption">After: Simplified Dialog Requires Only Key Details <span class="capt-desc">&mdash; Removes less important information to a box in the lower screen</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0006_add-an-allergy.png" class="fancybox" data-fancybox-group="gallery-1" title="After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" >
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" /></a>
@@ -285,9 +285,9 @@
 					<h5>4.4.2 Adding to the Allergy List</h5>
 					<p>When adding new entries to the Allergy Lists, nurses and physicians must:
 						<ol>
-							<li>find the name of the drug or substance from a list of possible choices</li>
-							<li>find the symptoms that characterized the patient's reaction from a list of symptom choices</li>
-							<li>if desired, add additional details such as the type of reaction, the dates it occurred on, the source of this information, etc.</li>
+							<li>Find the name of the drug or substance from a list of possible choices.</li>
+							<li>Find the symptoms that characterized the patient's reaction from a list of symptom choices.</li>
+							<li>If desired, add additional details such as the type of reaction, the dates it occurred on, the source of this information, etc.</li>
 						</ol></p>
 					<p>Compare two examples of ways to add new allergies to lists below (<a href="#gal-4-1">Gallery 4.1</a>):</p>
 							
@@ -360,7 +360,7 @@
 					<p><ol>
 						<li>Consider the users and their tasks. This will help you decide what details and functions to incorporate in a particular Allergy List view.</li>
 						<li>Create a clear, uncluttered navigation path through the form physicians use to input allergy information.</li>
-						<li>Reduce information chaos by eliminating unnecessary details to reduce the amount of reading users must do to accomplish the targeted task.</li>
+						<li>Reduce information chaos by eliminating unnecessary details and amount of reading users must do to accomplish the targeted task.</li>
 						<li>Reduce cognitive load and reduce errors by offering a predictive search function.</li>
 						<li>Make adding the details of reactions (such as symptoms, dates and severity) optional.</li>
 						<li>Make recording that a patient has "no known medication allergies" effortless.</li>
