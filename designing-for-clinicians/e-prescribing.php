@@ -46,7 +46,7 @@
 					<p>E-Prescribing (eRx) can be one of the most satisfying task of the physician because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-Prescribing can also be frustrating when the EHR does not provide adequate data entry support. E-Prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.</p>
 					<p>The back-end process of e-prescribing sends discrete electronic data to a central hub, which then distributes the prescription message to the target pharmacy electronically (or via fax, if the target pharmacy lacks e-prescribing capabilities). The pharmacy can also send messages for renewal request to the prescribing physician. A new feature, not yet widely adopted, allows prescribers to send a message electronically to a pharmacy to cancel a previously prescribed medication or prescription.</p>
 					<div class="scenario">
-						<h5>Clinical scenario 1: New prescription for newly diagnosed diabetes</h5>
+						<h5>Clinical Ccenario &mdash; New prescription for Newly Diagnosed Diabetes</h5>
 						<p>Mr. Martin is a 53-year-old construction supervisor. Three months ago, he was diagnosed with diabetes by Dr. Barnes, his family physician. Despite some healthy lifestyle changes, his weight is unchanged. His fingerstick blood sugars are improving, but are still too high at around 200. His goal is 80-140.</p>
 						<p>Dr. Barnes wants Mr. Martin to take a new medication named metformin to control his blood sugar. Together they look at the EHR screen and see that metformin is on Mr. Martin’s insurance formulary, and has the lowest-tier copay. Both of them are pleased. Mr. Martin wants to start with just a 30 day prescription from his local pharmacy in case he has any side-effects. The new prescription is sent electronically to the local pharmacy.</p>
 					</div>
@@ -247,7 +247,7 @@
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">5.2 b</span>Filtering the List by Prescriber <span class="capt-desc">&mdash; Makes it even easier to focus only on the selected medications, eliminating distracting items</span></div>
+									<div class="caption"><span class="ex-type">5.2 b</span> Filtering the List by Prescriber <span class="capt-desc">&mdash; Makes it even easier to focus only on the selected medications, eliminating distracting items</span></div>
 									<a href="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="fancybox" data-fancybox-group="gallery-2" title="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items">
 									<img src="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="scale-with-grid" alt="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items" /></a>
 								</div></li>
@@ -291,7 +291,7 @@
 					<div class="example" id="fig-5-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.5</span>
-							<span class="ex-caption">Before: <span class="capt-desc">This interruptive dialog box doesn’t allow the physician to see existing prescription orders</span></span>
+							<span class="ex-caption">Before: Interruptive Dialog Box <span class="capt-desc">&mdash; Doesn’t allow the physician to see existing prescription orders</span></span>
 						</div>					
 						<a href="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="fancybox" title="Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders">
 							<img src="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="scale-with-grid" alt="Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders" /></a>
@@ -301,7 +301,7 @@
 					<div class="example" id="fig-5-6">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.6</span>
-							<span class="ex-caption">After: Allow Users to See Existing Orders <span class="capt-desc">&mdash; This can be done in a separate panel, or by making the dialog box non-interruptive.</span></span>
+							<span class="ex-caption">After: Non-interruptive Dialog Box <span class="capt-desc">&mdash; Allows users to see existing orders using a separate panel, or by making the dialog box non-interruptive.</span></span>
 						</div>
 							<a href="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="fancybox" data-fancybox-group="gallery-3" title="After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive.">
 							<img src="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="scale-with-grid" alt="After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive." /></a>
@@ -365,7 +365,7 @@
 					<div class="example" id="fig-5-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.9</span>
-							<span class="ex-caption"><span class="capt-desc">EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.</span></span>
+							<span class="ex-caption">New Order Workflow <span class="capt-desc">&mdash; EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.</span></span>
 						</div>						
 						<a href="./assets/images/examples/eRx/neworders.png" class="fancybox" data-fancybox-group="gallery-4" title="EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.">
 							<img src="./assets/images/examples/eRx/neworders.png" class="scale-with-grid" alt="EHRs must offer users the option of building sets or collections of orders to facilitate their workflow." /></a>
@@ -439,8 +439,8 @@
 					<p>Additional Resources</p>
 					<div class="section_cite">
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
-						<h5>EHR Safety Enhanced Design Briefs</h5>
-						<p><a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu05.htm">Preventing Electronic Medication Order Errors (E-Prescribing)</a></p>
+						<p>EHR Safety Enhanced Design Briefs:<br/>
+						  <a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu05.htm">Preventing Electronic Medication Order Errors (E-Prescribing)</a></p>
 					</div>
 					<hr />
 					<p>References</p>

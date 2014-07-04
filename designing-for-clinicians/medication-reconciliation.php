@@ -467,14 +467,14 @@
 					<hr />
 					<div class="disclaimer">
 						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
-						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/">Twinlist project webpage</a>.</Twinlist>
+						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project webpage</a>.</Twinlist>
 					</div>
 					<hr />
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
 							<li>Bosworth, Hayden B., Bradi B. Granger, Phil Mendys, Ralph Brindis, Rebecca Burkholder, Susan M. Czajkowski, Jodi G. Daniel, et al. “Medication Adherence: A Call for Action.” <em>American Heart Journal</em> 162, no. 3 (September 2011): 412–24. doi:10.1016/j.ahj.2011.06.007.</li>
-							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="blank">David Amsler</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" class="link" target="blank">David Amsler</a></li>
 						</ol>
 					</div>
 				</div>

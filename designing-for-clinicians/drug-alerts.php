@@ -119,7 +119,7 @@
 					<div class="example" class="fig-6-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.4</span>
-							<span class="ex-caption">An Interruptive Alert <span class="capt-desc">&mdash; requires the user to make a choice before dismissing the alert.</span></span>
+							<span class="ex-caption">An Interruptive Alert <span class="capt-desc">&mdash; Requires the user to make a choice before dismissing the alert</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" title="An Interruptive Alert - requires the user to make a choice before dismissing the alert.">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="An Interruptive Alert - requires the user to make a choice before dismissing the alert." /></a>
@@ -128,7 +128,7 @@
 					<div class="example" class="fig-6-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.5</span>
-							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the “Continue” Button<span class="capt-desc"> &mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
+							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the “Continue” Button<span class="capt-desc"> &mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Once the physician makes a choice, the system enables the “Continue” button">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Once the physician makes a choice, the system enables the “Continue” button" /></a>
@@ -144,21 +144,21 @@
 						<hr/>
 						<div class="print-only page-break"></div>
 					</div>
-					<h3>6.3 User preferences to dismiss future alerts</h3>
+					<h3>6.3 User Preferences to Dismiss Future Alerts</h3>
 					<p>When users are presented with a high frequency of low-value alerts, they develop alert fatigue and begin to dismiss the alerts before they fully read them or consider their implications.</p>
 					<p>Alert fatigue can be mitigated in a variety of ways:
 						<ol>
 							<li>Prevent alerts where possible:
 								<ol>
-									<li>offer only choices that will not trigger alerts (for instance, only offer available dosage forms)</li>
-									<li>provide cognitive support to help physician’s make decisions that will not trigger alerts</li>
-									<li>adjust alert thresholds to present users with only the most important alerts</li>
+									<li>Offer only choices that will not trigger alerts (for instance, only offer available dosage forms)</li>
+									<li>Provide cognitive support to help physician’s make decisions that will not trigger alerts</li>
+									<li>Adjust alert thresholds to present users with only the most important alerts</li>
 								</ol>
 							</li>
 							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/" class="link" target="blank">Use a tiered alerting system</a>: make lower risk alerts passive and less visually obtrusive. Use interruptive alerts only for those with the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628052/" class="link" target="blank">highest risk</a>.</li>
-							<li>Present passive alerts as early as possible during decision making. For example, by providing a visible indication of drugs that conflict with patient allergies or current drugs while the physician is choosing from a list or typing in a drug</li>
-							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them</li>
-							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping) to indicate the importance and relationships among the information</li>
+							<li>Present passive alerts as early as possible during decision making. For example, by providing a visible indication of drugs that conflict with patient allergies or current drugs while the physician is choosing from a list or typing in a drug.</li>
+							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them.</li>
+							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping) to indicate the importance and relationships among the information.</li>
 						</ol>
 					</p>
 				</div>
@@ -175,6 +175,7 @@
 					<h3>6.4 Customizing Alerts for Individual Physicians</h3>
 					<p>Some alerts will be predictably and safely dismissed 100% of the time, and can reasonably be eliminated. Perhaps a patient has been taking a medication for a long time without incident, but an alert still appears every time the prescription is renewed. Here are some common examples:</p>
 					<div class="scenario">
+						<h5></h5>
 						<p>The patient is allergic to sulfa, but has been taking a distant chemical relative of sulfa drugs, such as the diuretics hydrochlorothiazide or chlorthalidone (both very commonly prescribed), without incident for some time. In this context, the EHR need never again warn the physician about this particular patient’s allergy to sulfa.</p>
 						<p>Lisinopril (an ACE inhibitor) gives this patient a cough, and an alert appears when the physician tries to prescribe an ARB such as losartan or valsartan, because these two classes of drugs are somewhat related. However, ARBs are known to never cause the cough that ACE inhibitors may cause. The EHR need never again warn the physician about this particular side-effect for any patient.</p>
 					</div>
@@ -227,7 +228,7 @@
 					<div class="example" class="fig-6-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.8</span>
-							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc"> &mdash; Bold type indicates preferable, safer choices</span>
+							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc"> &mdash; Bold type indicates preferable, safer choices</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
@@ -236,7 +237,7 @@
 					<div class="example" class="fig-6-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.9</span>
-							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title=" Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
@@ -245,7 +246,7 @@
 					<div class="example" class="fig-6-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.10</span>
-							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; Once the physician has addressed all alerts, the system activates the Continue button</span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; Once the physician has addressed all alerts, the system activates the Continue button</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
@@ -260,39 +261,39 @@
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">6.1 a</span> One allergy alert and three drug-drug interactions</div>
+									<div class="caption"><span class="ex-type">6.1 a</span> One Allergy Alert and Three Drug-Drug Interactions</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" title="6.1 a One allergy alert and three drug-drug interactions">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="6.1 a One allergy alert and three drug-drug interactions" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 b</span> This more detailed display allows the physician to address the allergy alert.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="6.1 b This more detailed display allows the physician to address the allergy alert.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="This more detailed display allows the physician to address the allergy alert." /></a>
+									<div class="caption"><span class="ex-type">6.1 b</span> More Detailed Display <span class="capt-desc">&mdash; Allows the physician to address the allergy alert</span></div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="6.1 b More Detailed Display &mdash; Allows the physician to address the allergy alert">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="More Detailed Display &mdash; Allows the physician to address the allergy alert" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 c</span> When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="6.1 c When physician taps the “Stop” button, the display moves on, bringing up the next alert screen.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="When physician taps the “Stop” button, the display moves on, bringing up the next alert screen." /></a>
+									<div class="caption"><span class="ex-type">6.1 c</span> Physician Taps the “Stop” Button <span class="capt-desc">&mdash; The display moves on, bringing up the next alert screen</span></div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="6.1 c Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 d</span> A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A drug-drug interaction alert with three possible actions: stop the first drug, stop the second, or continue both." /></a>
+									<div class="caption"><span class="ex-type">6.1 d</span> A Drug-Drug Interaction Alert with Three Possible Actions <span class="capt-desc">&mdash; Stop the first drug, stop the second, or continue both.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both." /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 e</span> Stopping Cipro calls up the next drug-drug alert.</div>
+									<div class="caption"><span class="ex-type">6.1 e</span> Stopping Cipro Calls Up the Next Drug-Drug Alert.</div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" title="Stopping Cipro calls up the next drug-drug alert.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" class="scale-with-grid" alt="Stopping Cipro calls up the next drug-drug alert." /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 e</span> After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After the physician has addressed all the alerts, he can use the final review screen to look over and modify his decisions." /></a>
+									<div class="caption"><span class="ex-type">6.1 e</span> After the Physician Has Addressed All the Alerts <span class="capt-desc">&mdash; He can use the final review screen to look over and modify his decisions.</div>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions." /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -350,7 +351,7 @@
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
 						<h5>EHR Safety Enhanced Design Briefs</h5>
 						<p><a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
-						<p>Clinical Decision Support</p>
+						<p><a href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu04.htm" target="blank" class="link">Clinical Decision Support</a></p>
 
 						<h5>EHR Usability</h5>
 						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="blank" class="link">Designing for Usability</a></p>
@@ -359,7 +360,7 @@
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
-							<li>Paterno, Marilyn D., Saverio M. Maviglia, Paul N. Gorman, Diane L. Seger, Eileen Yoshida, Andrew C. Seger, David W. Bates, and Tejal K. Gandhi. “Tiering Drug-Drug Interaction Alerts by Severity Increases Compliance Rates.” Journal of the American Medical Informatics Association : JAMIA 16, no. 1 (2009): 40–46. doi:10.1197/jamia.M2808.</li>
+							<li>Paterno, Marilyn D., Saverio M. Maviglia, Paul N. Gorman, Diane L. Seger, Eileen Yoshida, Andrew C. Seger, David W. Bates, and Tejal K. Gandhi. “Tiering Drug-Drug Interaction Alerts by Severity Increases Compliance Rates.” <em>Journal of the American Medical Informatics Association </em>: JAMIA 16, no. 1 (2009): 40–46. doi:10.1197/jamia.M2808.</li>
 							<li><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA">http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA</a></li>
 						</ol>
 					</div>
