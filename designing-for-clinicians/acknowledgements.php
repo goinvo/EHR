@@ -40,7 +40,7 @@
 						<hr/>
 						<div class="print-only page-break"></div>
 					</div>
-					<h3>Acknowledgements</h3>
+					
 					<p>We are grateful to the many people and organizations that provided support, feedback, and general encouragement for this project.</p>
 					<p>We received feedback and suggestions from an advisory panel and many other reviewers.  Academic researchers contributed their expertise in design, and their understanding of the human factors involved and current research. The advisory panel also included clinicians who are active users of EHRs and other health IT products. These users brought their keen personal experience and expertise to bear on the project.</p>
 					<p>Several members of the Electronic Health Records Association (EHRA) and other HealthIT professionals participated in the three design workshops we organized during the course of the project. Others read early drafts of the book and provided feedback and suggestions.</p>

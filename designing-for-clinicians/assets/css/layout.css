@@ -812,7 +812,7 @@
 		line-height:18px;
 		margin-top: 32px;
 	}
-	.title_page #title .authors ul#lead {
+	.title_page #title .authors ul#first {
 		margin-top: 0px;
 	}
 	.license {
@@ -881,10 +881,6 @@
 	#jarring-example .cbp-fwslider nav span.cbp-fwnext {
 		margin-top:-20px;
 		padding-top: 0px;
-
-	}
-	#jarring-example p {
-		border: solid red 1px;
 	}
 	.ex-item {
 		height: 250px;
@@ -902,9 +898,6 @@
 		/* #Mobile (Portrait) Design for a width of 320px */
 	@media only screen and (max-width: 960px) {
 		/*.container {border: solid red 1px;}*/
-		
-			
-		
 	}
 	
 	/* #Mobile (Portrait) Design for a width of 320px */
@@ -942,6 +935,16 @@
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		/*.container {border: solid green 1px;}*/
 		.header .authors { display: none;}
+		.title_page #title .authors ul {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		.title_page #title .authors div:last-child ul {
+			margin-bottom: 20px;
+		}
+		.title_page #title .authors .second li:first-child{
+			display: none;
+		}
 		.quicktip { 
 			width: 460px;
 			margin-left: -20px;
@@ -974,6 +977,16 @@
 	@media only screen and (max-width: 479px) {
 		/*.container {border: solid blue 1px;}*/
 		.header .authors { display: none;}
+		.title_page #title .authors ul {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		.title_page #title .authors div:last-child ul {
+			margin-bottom: 20px;
+		}
+		.title_page #title .authors .second li:first-child{
+			display: none;
+		}
 		.quicktip { 
 			width: 340px;
 			margin-left: -20px;

@@ -24,7 +24,7 @@
 <div class="wrapper">
 	<?php include './header.php'; ?>
 				
-	<section id="acknowledgement-ch" class="chapter">
+	<section id="authors-ch" class="chapter">
 		<header class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
@@ -38,8 +38,6 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>About the Authors</h3>
-					<h5>Authors</h5>
 					<div class="author">
 						<p><strong>Jeff Belden MD</strong> s a family physician. He is currently a Professor of Clinical Family &amp; Community Medicine at the University of Missouri-Columbia School of Medicine, and he is also an affiliated faculty member with the Information Experience Laboratory. His current responsibilities include user training, EHR implementation, collaboration with human-computer interaction researchers from the Information Experience (IE) Lab, and participation in EHR innovation projects at the Tiger Institute, a technology collaborative between the University of Missouri and Cerner Corporation.</p>
 						<p>Dr. Belden’s research interests include the visual display of quantitative clinical information at the point of care, information display in clinical notes, and tools that foster collaborative conversations between patients and healthcare providers.</p>
