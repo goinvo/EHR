@@ -80,7 +80,7 @@
 	h4 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
 	h5 { font-size: 22px; line-height: 28px; margin-bottom: 22px; margin-top:30px;}
 	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
-	p.grey {color: #696969;}
+	h5.grey, p.grey {color: #696969;}
 	.subheader { font-style: italic; color: #828282; }
 	.jarring {color: #cb1484;}
 	p.spacetop {
@@ -145,6 +145,7 @@
 	li { line-height: 24px; margin-bottom: 8px; }
 	ul.large li { line-height: 24px; }
 	li p { line-height: 24px; margin-bottom: 8px;}
+	ol li.no-num {list-style: none;}
 
 /* #Images
 ================================================== */
@@ -781,9 +782,43 @@
 		margin-top: 10px;
 	}
 	.citations p, .citations li {
-		font-size: 12px;
-		line-height: 18px;
+		
 		color: #828282;
+	}
+	.citations ol li {
+		font-size: 12px;
+		line-height: 21px;
+	}
+	.citations p{
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.citations ol h5 {
+		margin-left: -30px;
+	}
+	.citations section ol li {
+		list-style:none;
+		margin-left: -12px;
+		text-indent: -18px;
+	}
+	.citations section#cite-1 ol {counter-reset: item;}
+	.citations section#cite-2 ol {counter-reset: item 6;}
+	.citations section#cite-3 ol {counter-reset: item 8;}
+	.citations section#cite-4 ol {counter-reset: item 11;}
+	.citations section#cite-5 ol {counter-reset: item 14;}
+	.citations section#cite-6 ol {counter-reset: item 18;}
+	.citations section#cite-7 ol {counter-reset: item 25;}
+	.citations section#cite-8 ol {counter-reset: item 26;}
+	.citations section#cite-9 ol {counter-reset: item 30;}
+	.citations section#cite-10 ol {counter-reset: item 35;}
+	.citations section#cite-11 ol {counter-reset: item 40;}
+	.citations section#cite-12 ol {counter-reset: item 42;}
+	.citations section#cite-13 ol {counter-reset: item 44;}
+	.citations section#cite-14 ol {counter-reset: item 46;}
+	.citations section#cite-15 ol {counter-reset: item 48;}
+	.citations section ol li:before {
+		content: counter(item) ". ";
+		counter-increment: item;
 	}
 	.disclaimer {
 		font-size: 12px;

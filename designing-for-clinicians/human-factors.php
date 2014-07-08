@@ -70,7 +70,7 @@
 						<a class="fancybox" href="./assets/images/examples/human-factors/thecat.png" title="Read the Following Words">
 							<img src="./assets/images/examples/human-factors/thecat.png" class="scale-with-grid" alt="Tae Cat looks like The Cat when the tops of the A's are cut off" /></a>
 					</div>
-					<p>Most people read this as “The cat,” even though the middle letter in each word is exactly the same, and neither is a perfect H or A. Our perceptual system uses context (the letters around the middle letter) and expectations (predicated on our familiarity with common English words) to allow us to cope with and make sense of imperfect, noisy input. But the same properties that make our perceptual system robust can also lead us astray. For instance, can you name the first drug on this prescription (<a href="#fig-7-2">Figure 7.2</a>)?</p>
+					<p>Most people read the following as “The cat,” even though the middle letter in each word is exactly the same, and neither is a perfect H or A. Our perceptual system uses context (the letters around the middle letter) and expectations (predicated on our familiarity with common English words) to allow us to cope with and make sense of imperfect, noisy input. But the same properties that make our perceptual system robust can also lead us astray. For instance, can you name the first drug on this prescription (<a href="#fig-7-2">Figure 7.2</a>)?</p>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-7-2">
 						<div class="ex-title">
@@ -97,13 +97,13 @@
 							<span class="ex-type">Figure 7.4</span>
 							<span class="ex-caption">Meeting Our Expectations <span class="capt-desc">&mdash; We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.</span></span>
 						</div>
-						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="fancybox" title="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order."/></a>
+						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="fancybox" title="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order."/></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-7-5">
 						<div class="ex-title">
-							<span class="ex-title">Figure 7.5</span>
+							<span class="ex-type">Figure 7.5</span>
 							<span class="ex-caption">A Few Common Affordances <span class="capt-desc">&mdash; 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="A Few Common Affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.">
@@ -112,7 +112,7 @@
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-7-6">
 						<div class="ex-title">
-							<span class="ex-title">Figure 7.6</span>
+							<span class="ex-type">Figure 7.6</span>
 							<span class="ex-caption">Disclosure Arrow Affordance <span class="capt-desc">&mdash; In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" title="Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information">
@@ -121,7 +121,7 @@
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-7-7">
 						<div class="ex-title">
-							<span class="ex-title">Figure 7.7</span>
+							<span class="ex-type">Figure 7.7</span>
 							<span class="ex-caption">Sort Arrow Affordance <span class="capt-desc">&mdash; Here, the arrow indicates the ability to sort the list by different columns.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" title="Sort Arrow Affordance - Here, the arrow indicates the ability to sort the list by different columns.">
@@ -140,17 +140,17 @@
 					<div class="example" id="fig-7-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.8</span>
-							<span class="ex-caption">Our eyes notice the distribution of these dots...</span>
+							<span class="ex-caption">Proximity <span class="capt-desc">&mdash; Our eyes notice the distribution of these dots...</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" title="Our eyes notice the distribution of these dots...">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" class="scale-with-grid" alt="Our eyes notice the distribution of these dots..." /></a>
 					</div>
 				</div>
-				<div class="one-helf column">
+				<div class="one-half column">
 					<div class="example" id="fig-7-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.9</span>
-							<span class="ex-caption">... and our brains group the closer objects automatically</span>
+							<span class="ex-caption"><span class="capt-desc">... and our brains group the closer objects automatically</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png"title="... and our brains group the closer objects automatically">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" class="scale-with-grid" alt="... and our brains group the closer objects automatically" /></a>
@@ -195,7 +195,7 @@
 					<div class="example" id="fig-7-13">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.13</span>
-							<span class="ex-caption">Color creates new groups</span>
+							<span class="ex-caption">Color Creates New Groups</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" title="Color creates new groups">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" alt="Color creates new groups" /></a>
@@ -217,7 +217,7 @@
 					<div class="example" id="fig-7-15">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.15</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Symmetry in Medication Reconciliation</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" /></a>
@@ -229,7 +229,7 @@
 					<div class="example" id="fig-7-16">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.16</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Figure / Ground</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" class="scale-with-grid" alt="&" /></a>
@@ -255,21 +255,21 @@
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">7.1 a</span> Though a rectangle 'blocks' parts of this curve...</div>
+									<div class="caption"><span class="ex-type">7.1 a</span> <span class="capt-desc">Though a rectangle 'blocks' parts of this curve...</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png">
 										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" class="scale-with-grid" /></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">7.1 b</span> ...humans perceive both the curve and the box as whole, uninterrupted entities...</div>
+									<div class="caption"><span class="ex-type">7.1 b</span> <span class="capt-desc">...humans perceive both the curve and the box as whole, uninterrupted entities...</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png">
 										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" class="scale-with-grid" /></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">7.1 c</span> ...rather than as a box and some line segments.</div>
+									<div class="caption"><span class="ex-type">7.1 c</span> <span class="capt-desc">...rather than as a box and some line segments.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png">
 										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" class="scale-with-grid" /></a>
 								</div></li>
@@ -281,7 +281,7 @@
 					<div class="example" id="fig-7-18">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.18</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Continuity in Medication Reconciliation</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" /></a>
@@ -297,7 +297,7 @@
 					<div class="example" id="fig-7-19">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.19</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Visual Queries in the Real World</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/visualqueries3.png" title="">
 							<img src="./assets/images/examples/human-factors/visualqueries3.png" class="scale-with-grid" alt="" /></a>
@@ -307,19 +307,19 @@
 					<div class="example" id="gal-7-2">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 7.2</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Visual Queries in EHRs</span>
 						</div>
 						<div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">7.2 a</span> We think we see this</div>
+									<div class="caption"><span class="ex-type">7.2 a</span> We Think We See This</div>
 									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png">
 									<img src="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png" class="scale-with-grid" alt="" title="" /></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">7.2 b</span> ...but we actually see this.</div>
+									<div class="caption"><span class="ex-type">7.2 b</span> ...But We Actually See This</div>
 									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png">
 									<img src="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png" class="scale-with-grid" alt="" title="" /></a>
 									
@@ -337,7 +337,7 @@
 					<div class="example" id="fig-7-20">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.20</span>
-							<span class="ex-caption">How can we use preattentive attributes to facilitate data presentation?</span>
+							<span class="ex-caption"><span class="capt-desc">How can we use preattentive attributes to facilitate data presentation?</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" title="How can we use preattentive attributes to facilitate data presentation?">
 							<img src="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" class="scale-with-grid" alt="How can we use preattentive attributes to facilitate data presentation?" /></a>
@@ -359,19 +359,19 @@
 					<p>If a system is easy to understand and work with, users don't have to engage with it via their 'slow, focused' mode of thinking. They can just use their rapid mode, and can save their mental energy for more important matters. Daniel Kahneman wrote a great book about these modes, and our thinking builds on his work.</p>
 					<p>The rapid mode of thinking is automatic and almost effortless. People often don't experience a sense of voluntary control over it. This mode allows us to:
 						<ul class="disc">
-							<li>see that something is larger than something else</li>
-							<li>answer simple computations, like 2+2 = 4</li>
-							<li>read words on a billboard</li>
-							<li>understand simple sentences</li>
-							<li>make rapid and simple associations, such as stereotypes (positive or negative)</li>
-							<li>notice preattentive attributes</li>
+							<li>See that something is larger than something else</li>
+							<li>Answer simple computations, like 2+2 = 4</li>
+							<li>Read words on a billboard</li>
+							<li>Understand simple sentences</li>
+							<li>Make rapid and simple associations, such as stereotypes (positive or negative)</li>
+							<li>Notice preattentive attributes</li>
 						</ul></p>
 					<p>Our focused mode of thinking is effortful, and allows us to perform more complex mental activities. We associate this mode of thinking with our experiences of agency, choice and concentration: in short, with our 'consciousness'. This mode allows us to:</p>
 						<ul class="disc">
-							<li>focus on listening to one voice in a noisy room</li>
-							<li>recall information, like addresses and phone numbers</li>
-							<li>evaluate the validity of a complex argument</li>
-							<li>scan for a particular piece of information in a long article</li>
+							<li>Focus on listening to one voice in a noisy room</li>
+							<li>Recall information, like addresses and phone numbers</li>
+							<li>Evaluate the validity of a complex argument</li>
+							<li>Scan for a particular piece of information in a long article</li>
 						</ul>
 					<p>When creating an application, ask yourself whether you have any opportunities to convert tasks that require focused thinking into tasks that only require rapid thinking. Making the application perform complex calculations, sort information, and concisely present key details can free people up to do the focused thinking that only humans can.</p>
 					<p>The Twinlist medication reconciliation prototype, <a href="#fig-7-21">Figure 7.21</a>, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sort them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
@@ -387,7 +387,7 @@
 					<h5 id="working memory">7.2.2 Working Memory</h5>
 					<p><strong>Working memory demands effort and is limited. Try to design systems that place limited demands on users' working memory.</strong></p>
 					<p>Working memory, or short-term memory, holds items like phone numbers until we can write them down or punch them into our phones. This type of memory stores information for less than a minute and demands focused thinking.</p>
-					<p><strong>Design tip</strong>: Try not to ask people to look at information on one page, remember it, and then enter it into another field on another page.</p>
+					<p><strong>Design tip</strong>: Try not to ask people to look at information on one screen, remember it, and then enter it into another field on another screen.</p>
 					<p>If you ask people to use their working memories, make sure that what you're asking them to remember is uncomplicated. Don't distract them with additional demands, information and options while they're focusing on remembering a given bit of information. A system that interrupts people while they're trying to use their working memories causes them to forget what they're doing and wastes time.</p>
 					<p>People only keep three to four compound or complex items in their working memories at a time. The way interfaces display bits of information can influence users' working memory, however. If a design groups items together or breaks information down into manageable chunks, people can remember that information better. A phone number, for example, is easier to remember if it's been broken into chunks. Compare these numeric strings:</p>
 						<div id="numeric-strings">
@@ -430,7 +430,7 @@
 					<div class="example" id="fig-7-24">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.24</span>
-							<span class="ex-caption">Recognizing Rather than Recalling - Drug searches that utilize auto-complete functions</span>
+							<span class="ex-caption">Recognizing Rather than Recalling <span class="capt-desc">&mdash; Drug searches that utilize auto-complete functions</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0010_autocomplete.png"><img src="./assets/images/examples/medication-list/UM_EHR_0010_autocomplete.png" class="scale-with-grid" /></a>
 					</div>
@@ -444,7 +444,7 @@
 					<div class="example" id="fig-7-25">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.25</span>
-							<span class="ex-caption"></span>
+							<span class="ex-caption">Progressive Disclosure in an Allergy List</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png">
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" /></a>
@@ -471,7 +471,7 @@
 					<div class="example" id="fig-7-26">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.26</span>
-							<span class="ex-caption">Tracking Progress via Page Indicators - The dots along the bottom of the screen</span>
+							<span class="ex-caption">Tracking Progress via Page Indicators <span class="capt-desc">&mdash; The dots along the bottom of the screen</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="Tracking Progress via Page Indicators - The dots along the bottom of the screen">
 						<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Tracking Progress via Page Indicators - The dots along the bottom of the screen" /></a>
@@ -489,7 +489,7 @@
 						<h3>7.3 How People Manage Information</h3>
 					</div>
  					<h5 id="info-chaos">7.3.1 Information Chaos</h5>
-					<blockquote>Too much information going through my brain, too much information driving me insane - The Police</blockquote>
+					<blockquote>Too much information going through my brain, too much information driving me insane <br/><span class="quote-author">- The Police</span></blockquote>
 					<p>Five things lead to a state John Beasley and colleagues have called information chaos: information overload, information underload, information conflict, erroneous information and information scatter.</p>
 					<p><strong>Information overload</strong> happens when we're being asked to make sense of information quickly, but there's too much information for us to do so. This makes us tired and even anxious. It also reduces our situational awareness. Without good situational awareness, we can miss important information because we're 'unable to hear the signal for the noise'.</p>
 					<p><strong>Information underload</strong> happens when we lack sufficient information to make decisions.</p>
@@ -502,10 +502,11 @@
 					<div class="example" id="fig-7-27">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.27</span>
-							<span class="ex-caption">Information Chaos <span class="smaller">Reproduced by permission of the American Board of Family Medicine</span></span>
+							<span class="ex-caption">Information Chaos</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" title="Information Chaos">
 						<img src="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" class="scale-with-grid" title="Information Chaos" alt="Information Chaos" /></a>
+						<div class="credit"><p>Reproduced by permission of the American Board of Family Medicine</p></div>
 					</div>
 				
 					<h5 id="situational-awareness">7.3.2 Situational Awareness</h5>
@@ -558,99 +559,141 @@
 				<div class="sixteen columns">
 					<hr />
 					<div class="print-only page-break"></div>
-					<p>References</p>
-					<div class="section_cite">
-						<p class="grey"><strong>Our Eyes have expectations</strong></p>
-						<p>Kannengiesser, U., &amp; Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</p>
-						<p>Norman, D. A. (1999). Affordance, conventions, and design. <em>Interactions</em>, 6(3), 38-43.</p>
-						<p>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., &amp; Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages?<em>Interacting with Computers</em>, 22(2), 140-152.</p>
-						<p>van Schaik, p. &amp; Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. <em>International Journal of Human-Computer Studies</em>, 67(1) 79-89.</p>
-						<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know About People</em>. Berkeley, CA: New Riders. 13-14.</p>
-					
-						<p class="grey"><strong>Images</strong></p>
-						<p><em>Figure 7.2</em>Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em>. 172, no. 2 (February 2000): 80. from: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/</p>
-						<p>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></p>
+					<div class="disclaimer">
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
 					</div>
-					<div class="section_cite">
+					<hr/>
+					<p class="grey">References</p>
+					<section class="section_cite" id="cite-1">
+						<p class="grey"><strong>Our Eyes have Expectations</strong></p>
+						<ol class="cite">
+							<li>Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em> 172, no. 2 (February 2000): 80</li>
+							<li>Kannengiesser, U., &amp; Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</li>
+							<li>Norman, D. A. (1999). Affordance, conventions, and design. <em>Interactions</em>, 6(3), 38-43.</li>
+							<li>Roth, S. P., Schmutz, P., Pauwels, S. L., Bargas-Avila, J. A., &amp; Opwis, K. (2010). Mental models for web objects: Where do users expect to find the most frequent objects in online shops, news portals, and company web pages? <em>Interacting with Computers</em>, 22(2), 140-152.</li>
+							<li>van Schaik, p. &amp; Ling, J. (2009). The role of context in perceptions of the aesthetics of web pages over time. <em>International Journal of Human-Computer Studies</em>, 67(1) 79-89.</li>
+							<li>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know About People</em>. Berkeley, CA: New Riders. 13-14.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-2">
+						<p class="grey"><strong>Images</strong></p>
+						<ol class="cite">
+							<li><em>Figure 7.2,</em> Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em>. 172, no. 2 (February 2000): 80. from: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/</li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" target="blank">pedronchi</a></li>
+						</ol>
+					</section>
+					
+					<section class="section_cite" id="cite-3">
 						<p class="grey"><strong>We See in Gestalts</strong></p>
-						<p>Wolfe, J. M., Kluender, K., R.; Levi, D, M., Bartoshuk, L, M., Herz, R. S., Klatzky, R, L., Lederman, S. J. (2008). Gestalt Grouping Principles <em>Sensation and Perception</em> (2nd ed.). Sunderland, MA: Sinauer Associates. </p>
-						<p>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</p>
-						<p>Rubin, E. (1921) Visuell Wahrgenommene Figuren : <em>Studien in psychologischer Analyse</em>. Kobenhaven: Gyldendalske boghandel.</p>
-					
-						<p><em>Figure 7.11</em> <em>Gestalt_closure</em> [SVG file]. (2008). Retrieved January 28, 2014 from: http://en.wikipedia.org/wiki/File:Gestalt_closure.svg</p>
-						<p><em>Figure 7.17</em> Ruben, E. (psychologist). (1921). <em>Faces-Vase</em> [SVG file], Retrieved January 28,2014 from: http://en.wikipedia.org/wiki/File:Cup_or_faces_paradox.svg</p>
-						<p><em>Gallery 7.1</em> Few, Stephen (2013): Data Visualization for Human Perception. In: Soegaard, Mads and Dam, Rikke Friis (eds.). <em>The Encyclopedia of Human-Computer Interaction, 2nd Ed</em>. Aarhus, Denmark: The Interaction Design Foundation. Available online at http://www.interaction-design.org/encyclopedia/data_visualization_for_human_perception.html</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey"><strong>I Can’t See It, but I Use It</strong></p>
-						<p>Larson, A., &amp; Loschky, l. (2009). The contributions of central versus peripheral vision to scene gist recognitions. <em>Journal of Vision</em>, 9 (10:6), 1-16.</p>
-						<p>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</p>
-						<p>Ware, C. (2005). Visual queries: The foundation of visual thinking. <em>In Knowledge and information visualization</em> (pp. 27-35). Springer Berlin Heidelberg.</p>
-						<p>Weischenk, S.M. (2011). <em>100 things every designer needs to know about people</em>. Berkeley, CA: New Riders.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey"><strong>Pre-attentive Attributes</strong></p>
-						<p>Atienza, M., Cantero, J. L., &amp; Escera, C. (2001). Auditory information processing during human sleep as revealed by event-related brain potentials. <em>Clinical Neurophysiology</em>, 112(11), 2031-2045.</p>
-						<p>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and pre-attentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</p>
-						<p>Egeth, H. E., Yantis, S. (1997). Visual attention: Control, representation, and time course. <em>Annual Review of Psychology</em>, 48, 269-297.</p>
-						<p>Few, S. (2009). <em>Now you see it: Simple visualization techniques for quantitative analysis</em>. Oakland, CA: Analytics Press.</p>
-						<p>Kourtzi, Z., &amp; Kanwisher, N. (2000). Cortical regions involved in perceiving object shape. <em>Journal of Neuroscience</em>, 20, 3310-3318.</p>
-						<p>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable pre-attentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</p>
-						<p>Van der Heijden, A. H. C. (1996). Perception for selection, selection for action, and action for perception. <em>Visual Cognition</em>, 3(4), 357-361.
+						<ol class="cite">
+							<li>Wolfe, J. M., Kluender, K., R.; Levi, D, M., Bartoshuk, L, M., Herz, R. S., Klatzky, R, L., Lederman, S. J. (2008). Gestalt Grouping Principles <em>Sensation and Perception</em> (2nd ed.). Sunderland, MA: Sinauer Associates. </li>
+							<li>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</li>
+							<li>Rubin, E. (1921) Visuell Wahrgenommene Figuren: <em>Studien in psychologischer Analyse</em>. Kobenhaven: Gyldendalske boghandel.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-4">
 						<p class="grey"><strong>Images</strong></p>
-						<p><em>Figure 7.20 </em>Few, S. (2004). Data Presentation: Tapping the power of visual perception. <em>Information Week</em>. Retrieved from: http//www.informationweek.com/software/information-management/data-presentation-tapping-the-power-of-visual-perception/d/d-id/1026932?</p>
-					</div>
-					<div class="section_cite">
+						<ol class="cite">
+							<li><em>Figure 7.11,</em> <em>Gestalt_closure</em> [SVG file]. (2008). Retrieved January 28, 2014 from: http://en.wikipedia.org/wiki/File:Gestalt_closure.svg</li>
+							<li><em>Figure 7.17,</em> Ruben, E. (psychologist). (1921). <em>Faces-Vase</em> [SVG file], Retrieved January 28,2014 from: http://en.wikipedia.org/wiki/File:Cup_or_faces_paradox.svg</li>
+							<li><em>Gallery 7.1,</em> Few, Stephen (2013): Data Visualization for Human Perception. In: Soegaard, Mads and Dam, Rikke Friis (eds.). <em>The Encyclopedia of Human-Computer Interaction, 2nd Ed</em>. Aarhus, Denmark: The Interaction Design Foundation. Available online at http://www.interaction-design.org/encyclopedia/data_visualization_for_human_perception.html</li>
+						</ol>
+					</section>
+
+					<section class="section_cite" id="cite-5">
+						<p class="grey"><strong>I Can’t See It, but I Use It</strong></p>
+						<ol class="cite">
+							<li>Larson, A., &amp; Loschky, l. (2009). The contributions of central versus peripheral vision to scene gist recognitions. <em>Journal of Vision</em>, 9 (10:6), 1-16.</li>
+							<li>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</li>
+							<li>Ware, C. (2005). Visual queries: The foundation of visual thinking. <em>In Knowledge and information visualization</em> (pp. 27-35). Springer Berlin Heidelberg.</li>
+							<li>Weischenk, S.M. (2011). <em>100 things every designer needs to know about people</em>. Berkeley, CA: New Riders.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-6">
+						<p class="grey"><strong>Pre-attentive Attributes</strong></p>
+						<ol>
+							<li>Atienza, M., Cantero, J. L., &amp; Escera, C. (2001). Auditory information processing during human sleep as revealed by event-related brain potentials. <em>Clinical Neurophysiology</em>, 112(11), 2031-2045.</li>
+							<li>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and pre-attentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</li>
+							<li>Egeth, H. E., Yantis, S. (1997). Visual attention: Control, representation, and time course. <em>Annual Review of Psychology</em>, 48, 269-297.</li>
+							<li>Few, S. (2009). <em>Now you see it: Simple visualization techniques for quantitative analysis</em>. Oakland, CA: Analytics Press.</li>
+							<li>Kourtzi, Z., &amp; Kanwisher, N. (2000). Cortical regions involved in perceiving object shape. <em>Journal of Neuroscience</em>, 20, 3310-3318.</li>
+							<li>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable pre-attentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</li>
+							<li>Van der Heijden, A. H. C. (1996). Perception for selection, selection for action, and action for perception. <em>Visual Cognition</em>, 3(4), 357-361.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-7">
+						<p class="grey"><strong>Images</strong></p>
+						<ol>
+							<li><em>Figure 7.20 </em>Few, S. (2004). Data Presentation: Tapping the power of visual perception. <em>Information Week</em>. Retrieved from: http//www.informationweek.com/software/information-management/data-presentation-tapping-the-power-of-visual-perception/d/d-id/1026932?</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-8">
 						<p class="grey"><strong>The Two Ways People Think</strong></p>
-						<p>Evans, J., &amp; Frankish, K. (Eds.) (2009). <em>In two minds: Dual processes and beyond</em>. New York, NY: Oxford University Press.</p>
-						<p>Evans, J. (2008). Dual-processing accounts of reasoning, judgment, and social cognition. <em>Annual Review of Psychology</em> 59: 255-78.</p>
-						<p>Kahneman, D. (2011). <em>Thinking, fast and slow</em>. New York, NY: Farrar, Straus and Giroux.</p>
-						<p>Stanovich, K.E. West, R.F. (2000). Individual Differences in Reasoning: Implications for the Rationality Debate. <em>Behavioral and Brain Sciences</em> 23, 655-65.</p>
-					</div>
-					<div class="section_cite">
+						<ol>
+							<li>Evans, J., &amp; Frankish, K. (Eds.) (2009). <em>In two minds: Dual processes and beyond</em>. New York, NY: Oxford University Press.</li>
+							<li>Evans, J. (2008). Dual-processing accounts of reasoning, judgment, and social cognition. <em>Annual Review of Psychology</em> 59: 255-78.</li>
+							<li>Kahneman, D. (2011). <em>Thinking, fast and slow</em>. New York, NY: Farrar, Straus and Giroux.</li>
+							<li>Stanovich, K.E. West, R.F. (2000). Individual Differences in Reasoning: Implications for the Rationality Debate. <em>Behavioral and Brain Sciences</em> 23, 655-65.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-9">
 						<p class="grey"><strong>Working Memory</strong></p>
-						<p>Cowan, Nelson (2008). What are the differences between long-term, short-term, and working memory? <em>Progressive Brain Research</em>. 169 (169): 323–338.</p>
-						<p>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". <em>Behavioral and Brain Sciences</em> 24: 87–185.</p>
-						<p>Engle, R. W., Tuholski, S. W., Laughlin, J. E., Conway, A. R. (September 1999). "Working memory, short-term memory, and general fluid intelligence: a latent-variable approach". <em>Journal of Experimental Psychology: General</em> 128(3): 309–31.</p>
-						<p>Revlin, Russell (2013). <em>Human cognition: Theory and practice</em>. New York, NY: Worth Publishers.</p>
-						<p>Towse, J. N., Hitch, G. J., Hutton, U. (April 2000). "On the interpretation of working memory span in adults". <em>Memory &amp; Cognition</em> 28 (3): 341–8</p>
-					</div>
-					<div class="section_cite">
+						<ol>
+							<li>Cowan, Nelson (2008). What are the differences between long-term, short-term, and working memory? <em>Progressive Brain Research</em>. 169 (169): 323–338.</li>
+							<li>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". <em>Behavioral and Brain Sciences</em> 24: 87–185.</li>
+							<li>Engle, R. W., Tuholski, S. W., Laughlin, J. E., Conway, A. R. (September 1999). "Working memory, short-term memory, and general fluid intelligence: a latent-variable approach". <em>Journal of Experimental Psychology: General</em> 128(3): 309–31.</li>
+							<li>Revlin, Russell (2013). <em>Human cognition: Theory and practice</em>. New York, NY: Worth Publishers.</li>
+							<li>Towse, J. N., Hitch, G. J., Hutton, U. (April 2000). "On the interpretation of working memory span in adults". <em>Memory &amp; Cognition</em> 28 (3): 341–8</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-10">
 						<p class="grey"><strong>Cognitive Load</strong></p>
-						<p>Cowan, Nelson (2010). The Magical Mystery Four How Is Working Memory Capacity Limited, and Why? <em>Current Directions in Psychological Science</em>, 19 (1): 51-57.</p>
-						<p>DeLeeuw, K.E., &amp; Mayer, R.E. (2008). "A comparison of three measures of cognitive load: Evidence for separable measures of intrinsic, extraneous, and germane load". <em>Journal of Educational Psychology</em> 100 (1): 223–234.</p>
-						<p>Paas, F., Renkel, A., &amp; Sweller, J. (2004). Cognitive load theory: Instructional implications of the interaction between information structures and cognitive architecture. <em>Instructional Science</em> 32: 1–8.</p>
-						<p>Paas, F., Tuovinen, J.E., Tabbers, H.K., &amp; Van Gerven, P.W.M. (2003). "Cognitive load measurement as a means to advance cognitive load theory". <em>Educational Psychologist</em> 38 (1): 63–71.</p>
-						<p>Plass, J.L., Moreno, R., &amp; Brünken, R., ed. (2010). <em>Cognitive Load Theory</em>. New York: Cambridge University Press.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">Everybody Likes a Chunk</p>
-						<p>Keller, J. M. (1987). Development and use of the ARCS model of instructional design. Journal of instructional development, 10(3), 2-10.</p>
-						<p>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". Behavioral and Brain Sciences, 24: 87–185.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">Goal Execute and Evaluate</p>
-						<p>Card, S. K., Moran, T. P., &amp; Newell, A. (Eds.). (1986). The psychology of human-computer interaction. CRC Press.</p>
-						<p>Norman, D. A. (1988). The Design of Everyday Things. New York, Doubleday/Currency Ed.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">Go with the Flow</p>
-						<p>Csikszentmihalyi, M. (1997). Flow and the Psychology of Discovery and Invention. Harper Perennial, New York.</p>
-						<p>Csikszentmihlyi, M. (2008). Flow: The Psychology of Optimal Experience. New York: Harper and Row.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">Information Chaos</p>
-						<p>Beasley, J. W., Wetterneck, T. B., Temte, J., Lapin, J. A., Smith, P., Rivera-Rodriguez, A. J., &amp; Karsh, B. T. (2011). Information chaos in primary care: implications for physician performance and patient safety. The Journal of the American Board of Family Medicine, 24(6), 745-751.</p>
-						<p>Misra, S., &amp; Stokols, D. (2012). Psychological and health outcomes of perceived information overload. Environment and behavior, 44(6), 737-759.</p>
-					</div>
-					<div class="section_cite">
-						<p class="grey">Situational Awareness</p>
-						<p>Banbury, S., &amp; Tremblay, S. (Eds.). (2004). A cognitive approach to situation awareness: theory and application. Ashgate Publishing, Ltd..</p>
-						<p>Bolstad, C. A., Cuevas, H., Gonzalez, C., &amp; Schneider, M. (2005, May). Modeling shared situation awareness. In Proceedings of the 14th Conference on Behavior Representation in Modeling and Simulation (BRIMS), Los Angles, CA.</p>
-						<p>Endsley, M. R. (1995). Toward a theory of situation awareness in dynamic systems. Human Factors: The Journal of the Human Factors and Ergonomics Society, 37(1), 32-64.</p>
-						<p>Iyengar, S. (2010). The art of choosing. Hachette Digital, Inc..</p>
-						<p>Iyengar, S. S., &amp; Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing?. Journal of personality and social psychology,79(6), 995.</p>
-					</div>
+						<ol>
+							<li>Cowan, Nelson (2010). The Magical Mystery Four How Is Working Memory Capacity Limited, and Why? <em>Current Directions in Psychological Science</em>, 19 (1): 51-57.</li>
+							<li>DeLeeuw, K.E., &amp; Mayer, R.E. (2008). "A comparison of three measures of cognitive load: Evidence for separable measures of intrinsic, extraneous, and germane load". <em>Journal of Educational Psychology</em> 100 (1): 223–234.</li>
+							<li>Paas, F., Renkel, A., &amp; Sweller, J. (2004). Cognitive load theory: Instructional implications of the interaction between information structures and cognitive architecture. <em>Instructional Science</em> 32: 1–8.</li>
+							<li>Paas, F., Tuovinen, J.E., Tabbers, H.K., &amp; Van Gerven, P.W.M. (2003). "Cognitive load measurement as a means to advance cognitive load theory". <em>Educational Psychologist</em> 38 (1): 63–71.</li>
+							<li>Plass, J.L., Moreno, R., &amp; Brünken, R., ed. (2010). <em>Cognitive Load Theory</em>. New York: Cambridge University Press.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-11">
+						<p class="grey"><strong>Everybody Likes a Chunk</strong></p>
+						<ol>
+							<li>Keller, J. M. (1987). Development and use of the ARCS model of instructional design. Journal of instructional development, 10(3), 2-10.</li>
+							<li>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". Behavioral and Brain Sciences, 24: 87–185.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-12">
+						<p class="grey"><strong>Goal Execute and Evaluate</strong></p>
+						<ol>
+							<li>Card, S. K., Moran, T. P., &amp; Newell, A. (Eds.). (1986). The psychology of human-computer interaction. CRC Press.</li>
+							<li>Norman, D. A. (1988). The Design of Everyday Things. New York, Doubleday/Currency Ed.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-13">
+						<p class="grey"><strong>Go with the Flow</strong></p>
+						<ol>
+							<li>Csikszentmihalyi, M. (1997). Flow and the Psychology of Discovery and Invention. Harper Perennial, New York.</li>
+							<li>Csikszentmihalyi, M. (2008). Flow: The Psychology of Optimal Experience. New York: Harper and Row.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-14">
+						<p class="grey"><strong>Information Chaos</strong></p>
+						<ol>
+							<li>Beasley, J. W., Wetterneck, T. B., Temte, J., Lapin, J. A., Smith, P., Rivera-Rodriguez, A. J., &amp; Karsh, B. T. (2011). Information chaos in primary care: implications for physician performance and patient safety. The Journal of the American Board of Family Medicine, 24(6), 745-751.</li>
+							<li>Misra, S., &amp; Stokols, D. (2012). Psychological and health outcomes of perceived information overload. Environment and behavior, 44(6), 737-759.</li>
+						</ol>
+					</section>
+					<section class="section_cite" id="cite-15">
+						<p class="grey"><strong>Situational Awareness</strong></p>
+						<ol>
+							<li>Banbury, S., &amp; Tremblay, S. (Eds.). (2004). A cognitive approach to situation awareness: theory and application. Ashgate Publishing, Ltd..</li>
+							<li>Bolstad, C. A., Cuevas, H., Gonzalez, C., &amp; Schneider, M. (2005, May). Modeling shared situation awareness. In Proceedings of the 14th Conference on Behavior Representation in Modeling and Simulation (BRIMS), Los Angles, CA.</li>
+							<li>Endsley, M. R. (1995). Toward a theory of situation awareness in dynamic systems. Human Factors: The Journal of the Human Factors and Ergonomics Society, 37(1), 32-64.</li>
+							<li>Iyengar, S. (2010). The art of choosing. Hachette Digital, Inc.</li>
+							<li>Iyengar, S. S., &amp; Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing?. Journal of personality and social psychology,79(6), 995.</li>
+						</ol>
+					</section>
 				</div>
 			</div>
 		</section>
