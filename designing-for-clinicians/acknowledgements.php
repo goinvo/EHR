@@ -97,10 +97,10 @@
 					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshop and dissemination efforts.</p>
 					
 					<h5>Funding Supporters</h5>
-					<p><a href="http://www.chcf.org/">California HealthCare Foundation</a><br/>
+					<p><a href="http://www.chcf.org/" target="blank">California HealthCare Foundation</a><br/>
 						The California HealthCare Foundation, based in Oakland, California, works as a catalyst to fulfill the promise of better healthcare for all Californians. The Foundation supports ideas and innovations that improve the quality, increase the efficiency, and lower the costs of care. For more information, visit <a href="www.chcf.org">www.chcf.org</a>.</p>
 
-					<p><a href="https://sbmi.uth.edu/nccd/index.htm">SHARP-C Project of the Office of the National Coordinator for Health IT</a> <br/>
+					<p><a href="https://sbmi.uth.edu/nccd/index.htm" target="blank" class="link">SHARP-C Project of the Office of the National Coordinator for Health IT</a> <br/>
 						This project was supported by the Office of the National Coordinator for Health Information Technology, Grant No. 10510592 for Patient-Centered Cognitive Support, under the Strategic Health IT Advanced Research Projects (SHARP).</p>
 				
 				</div>

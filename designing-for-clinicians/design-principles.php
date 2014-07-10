@@ -109,7 +109,6 @@
 					<p>Marketing is meant to sell, and in order to do so it generates saleable names. These names and this process aren't the best means of denoting terminology inside a functional interface. As much as marketing managers want to control the design of a product, their skill set, as it's currently understood, doesn't serve the product or the user well in this capacity.</p>
 					<p>Generally speaking, terminology can be as uncomplicated and natural as common language used in everyday conversation.</p>
 					<p>Don't try to be clever when it comes to terminology. There's no need to construct complex neologisms that would prompt the use of a dictionary. Just call things what they are. It's really that simple.</p>
-					<p>Just call things what they are. It’s really that simple.</p>
 					<p>Key ideas:</p>
 						<ul class="disc">
 							<li>The interface is no place for marketing labels. Call things what they are.</li>
@@ -188,7 +187,7 @@
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
-						<h3>8.6 The Dark Side of Seeing Color </h3>
+						<h3>8.7 The Dark Side of Seeing Color </h3>
 					</div>
 					<p><strong>Color has it uses, but if one is not careful, color can become useless.</strong></p>
 					<p>Color is useful beyond just having things look pleasing to the eye, it can create distinctions and be used to draw attention to things we want people to look at. However color has it limits as a communication tool and it’s important to keep these limitations in mind if you want to use color effectively.</p>

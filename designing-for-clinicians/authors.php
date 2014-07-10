@@ -18,7 +18,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body class="authors">
+<body class="authors-ch">
 	<?php include './nav.php'; ?>
 	
 <div class="wrapper">
@@ -39,7 +39,7 @@
 						<hr/>
 					</div>
 					<div class="author">
-						<p><strong>Jeff Belden MD</strong> s a family physician. He is currently a Professor of Clinical Family &amp; Community Medicine at the University of Missouri-Columbia School of Medicine, and he is also an affiliated faculty member with the Information Experience Laboratory. His current responsibilities include user training, EHR implementation, collaboration with human-computer interaction researchers from the Information Experience (IE) Lab, and participation in EHR innovation projects at the Tiger Institute, a technology collaborative between the University of Missouri and Cerner Corporation.</p>
+						<p><strong>Jeff Belden MD</strong> is a family physician. He is currently a Professor of Clinical Family &amp; Community Medicine at the University of Missouri-Columbia School of Medicine, and he is also an affiliated faculty member with the Information Experience Laboratory. His current responsibilities include user training, EHR implementation, collaboration with human-computer interaction researchers from the Information Experience (IE) Lab, and participation in EHR innovation projects at the Tiger Institute, a technology collaborative between the University of Missouri and Cerner Corporation.</p>
 						<p>Dr. Belden’s research interests include the visual display of quantitative clinical information at the point of care, information display in clinical notes, and tools that foster collaborative conversations between patients and healthcare providers.</p>
 						<p>Dr. Belden was the Founding Chair of the HIMSS EHR Usability Task Force. He has given presentation on EHR usability at the HIMSS Annual Conference and Virtual Conferences, and at other national conferences. Dr. Belden’s past experience with photography, film-making, layout and design, typography, as well as his experience as a consultant in healthcare software design inform his approach to user-centered design.</p>
 						<p>He blogs on EHR usability at <a href="www.toomanyclicks.com" target="blank">www.toomanyclicks.com</a>.</p>

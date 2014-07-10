@@ -29,7 +29,7 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>9</h2>
-					<h2>Health Information Technology and Usability</h2>
+					<h2>Health Information Technology<br/> and Usability</h2>
 					<div class="subheader"><p>Work smarter, not harder.</p></div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 					<p>The International Standards for Human Computer Interaction (HCI) and usability (i.e., ISO 9241-11) define usability as the “effectiveness, efficiency, and satisfaction of a user performance within a specific context, such as physical and social environment.” But usability alone is not enough, an interface also must have good utilit. Good utility means the interface provides the features needed to complete users’ tasks. Successful applications combine good utility and good usability.</p>
 					<p>Health Information Technology (Health IT) usability issues are similar to the information technology usability issues of other life-critical systems such as air traffic control or nuclear power plants. Users in all of these fields are experts in their domain, but they need rapid, error free information technology performance to do their jobs effectively.</p>
 					<p>Usability problem spots with an interface design might be indicated by workarounds, redundancies, or slow task completion, all of which could possibly lead to general user burnout. Health IT applications with usability problems are more than just annoying to use, they can cause serious patient harm (e.g. wrong medication or dangerous dosage, wrong treatment, missed results, wrong patient selection leading to a patient not receiving treatment and another receiving unintended treatment, etc.).</p>
-					<p>There is an art as well as a science to good interface design. Donald Norman’s seminal book: <em>The Design of Everyday Things</em> (i.e. initially named <em>The Psychology of Everyday Things</em>), highlighted the importance of balancing the imperatives of efficiency and aesthetics in the design process.</p>
+					<p>There is an art as well as a science to good interface design. Donald Norman’s seminal book: <em>The Design of Everyday Things</em> (initially named <em>The Psychology of Everyday Things</em>), highlighted the importance of balancing the imperatives of efficiency and aesthetics in the design process.</p>
 					<p>The 5 measures of usability are as follows:</p>
 					<ul class="disc">
 						<li>Learnability: How easy is it for first time users to accomplish basic tasks using this system? How easily can users discover and access the system's more advanced features?</li>
@@ -108,8 +108,8 @@
 								</tr>
 								<tr>
 									<td>Paper Prototyping</td>
-									<td>Low fidelity usability testing of product concept made from paper or some simple tool</td>
-									<td>Paper prototyping has a high value in the iterative design process. A design can be worked and reworked over and over again, especially when combined with cognitive walkthroughs, to quickly design a prototype</td>
+									<td>Low fidelity usability testing of product concept made from paper or some simple tool.</td>
+									<td>Paper prototyping has a high value in the iterative design process. A design can be worked and reworked over and over again, especially when combined with cognitive walkthroughs, to quickly design a prototype.</td>
 								</tr>
 								<tr>
 									<td>Survey or Questionnaire</td>
@@ -118,18 +118,18 @@
 								</tr>
 								<tr>
 									<td>Think Aloud (Concurrent)</td>
-									<td>Participants in testing express their thoughts on the application while executing set tasks. Think alouds are also used in an exit interview when the user shown a recording of their session and asked to express their thoughts in retrospect</td>
+									<td>Participants in testing express their thoughts on the application while executing set tasks. Think alouds are also used in an exit interview when the user shown a recording of their session and asked to express their thoughts in retrospect.</td>
 									<td>This process can help gain insight into the thought flows of actual users as well help answer questions about why users are performing tasks a certain way.</td>
 								</tr>
 								<tr>
 									<td>Usability Testing/Task Performance</td>
-									<td>A usability test that presents representative end-users with scenarios, or specific tasks, designed to cover the major functionality of the software system and to simulate expected real-life usage patterns</td>
+									<td>A usability test that presents representative end-users with scenarios, or specific tasks, designed to cover the major functionality of the software system and to simulate expected real-life usage patterns.</td>
 									<td>This process determines if the design works for the intended task or has gulfs between the user’s expectations of the design and the developer's concept of functionality. </td>
 								</tr>
 								<tr>
 									<td>Field Testing</td>
 									<td>Researchers evaluate products in the contexts in which those products would normally be used. </td>
-									<td>People use things differently in different settings. Collecting data in the field can provide new insights that are not always discoverable in a lab or test center</td>
+									<td>People use things differently in different settings. Collecting data in the field can provide new insights that are not always discoverable in a lab or test center.</td>
 								</tr>
 							</tbody>
 						</table>
@@ -162,8 +162,8 @@
 						<ul>
 							<li>Hochheiser, H., &amp; Shneiderman, B. (2011). Electronic medical records: usability challenges and opportunities. <em>ACM Interactions</em>, 18(6), 48-49.</li>
 							<li>Douglas, G. P., Landis-Lewis, Z., &amp; Hochheiser, H. (2011). Simplicity and usability: lessons from a touchscreen electronic medical record system in Malawi. <em>ACM Interactions</em>, 18(6), 50-53.</li>
-							<li>Swanson, A., &mp; Lind, S. (2011). Usability testing EHRs: Examples from the front lines. <em>ACM Interactions</em>, 18(6), 54-58.</li>
-							<li>Shneiderman, B. (2011). Tragic errors: usability and electronic health records. <em>ACM Interactions</em>, 18(6), 60-63.(<a href="http://www.cs.umd.edu/hcil/sharp/TragicErrors-EHR-Usability-ACMinteractions-11-2011.pdf" target="blank" class="link">PDF</a>)</li>
+							<li>Swanson, A., &amp; Lind, S. (2011). Usability testing EHRs: Examples from the front lines. <em>ACM Interactions</em>, 18(6), 54-58.</li>
+							<li>Shneiderman, B. (2011). Tragic errors: usability and electronic health records. <em>ACM Interactions</em>, 18(6), 60-63. (<a href="http://www.cs.umd.edu/hcil/sharp/TragicErrors-EHR-Usability-ACMinteractions-11-2011.pdf" target="blank" class="link">PDF</a>)</li>
 						</ul></p>
 					<p><a href="http://www.usability.gov" class="link" target="blank">Usability.gov</a> This is a valuable general resource on usability methods and principles.</p>
 
@@ -198,7 +198,7 @@
 						<div class="fleft" id="prevCh">
 							<p class="pagination prev_ch"><a href="./design-principles.php"><span class="prev"></span> Design Principles</a></p></div>
 						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./acknowledgements.php">Acknowledgements<span class="next"></span></a></p></div>
+							<p class="pagination next_ch"><a href="./authors.php">Authors<span class="next"></span></a></p></div>
 					</div>
 				</div>
 			</div>

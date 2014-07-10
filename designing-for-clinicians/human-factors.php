@@ -284,7 +284,7 @@
 							<span class="ex-caption">Continuity in Medication Reconciliation</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h5>7.1.3 I Can't See It but I Use It</h5>
@@ -380,8 +380,8 @@
 							<span class="ex-type">Figure 7.21</span>
 							<span class="ex-caption">The Twinlist Prototype Facilitates Fast Thinking</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0007_when-the-pointer-hovers-over-a-drug-clean.png" title=" The Twinlist Prototype Facilitates Fast Thinking">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0007_when-the-pointer-hovers-over-a-drug-clean.png" class="scale-with-grid" alt=" The Twinlist Prototype Facilitates Fast Thinking" /></a>
+						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" title=" The Twinlist Prototype Facilitates Fast Thinking">
+							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt=" The Twinlist Prototype Facilitates Fast Thinking" /></a>
 					</div>
 
 					<h5 id="working memory">7.2.2 Working Memory</h5>

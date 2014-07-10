@@ -553,9 +553,6 @@
 		font-size: 14px;
 		color: #828282;
 	}
-	.authors {
-		color: #828282;
-	}
 	
 	/*menu*/
 	.menu {
@@ -730,11 +727,6 @@
 		-ms-transform:rotate(180deg); /* IE 9 */
 		-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
 	}
-	.authors p {
-		line-height: 24px;
-		font-size: 14px;
-		margin-top: 10px;
-	}
 	.sectionStart {
 		padding: 20px 0px 30px 0px;
 		margin: 10px 0px 0px 0px;
@@ -906,9 +898,6 @@
 		list-style: disc;
 		margin-top: 0px;
 	}
-	#acknowledge-ch .author {
-		margin-bottom: 40px;
-	}
 	#acknowledgements-sect h5 {
 		margin-top:60px;
 	}
@@ -925,6 +914,10 @@
 	.ex-item p {
 		margin-top: 100px;
 	}
+	.authors-ch .author {
+		margin-bottom: 40px;
+	}
+
 
 /* #Media Queries
 ================================================== */
