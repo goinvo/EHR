@@ -610,14 +610,14 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-6">
-						<p class="grey"><strong>Pre-attentive Attributes</strong></p>
+						<p class="grey"><strong>Preattentive Attributes</strong></p>
 						<ol>
 							<li>Atienza, M., Cantero, J. L., &amp; Escera, C. (2001). Auditory information processing during human sleep as revealed by event-related brain potentials. <em>Clinical Neurophysiology</em>, 112(11), 2031-2045.</li>
-							<li>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and pre-attentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</li>
+							<li>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and preattentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</li>
 							<li>Egeth, H. E., Yantis, S. (1997). Visual attention: Control, representation, and time course. <em>Annual Review of Psychology</em>, 48, 269-297.</li>
 							<li>Few, S. (2009). <em>Now you see it: Simple visualization techniques for quantitative analysis</em>. Oakland, CA: Analytics Press.</li>
 							<li>Kourtzi, Z., &amp; Kanwisher, N. (2000). Cortical regions involved in perceiving object shape. <em>Journal of Neuroscience</em>, 20, 3310-3318.</li>
-							<li>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable pre-attentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</li>
+							<li>Krummenacher, J., Grubert, A., &amp; Müller, H. J. (2010). Inter-trial and redundant-signals effects in visual search and discrimination tasks: Separable preattentive and post-selective effects. <em>Vision Research</em>, 50(14), 1382-1395.</li>
 							<li>Van der Heijden, A. H. C. (1996). Perception for selection, selection for action, and action for perception. <em>Visual Cognition</em>, 3(4), 357-361.</li>
 						</ol>
 					</section>

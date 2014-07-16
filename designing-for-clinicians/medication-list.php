@@ -101,7 +101,7 @@
 							<p class="preview">Situational awareness is having all the background information you need to make effective decisions while simultaneously<span class="elipsis">... <span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Situational awareness is having all the background information you need to make effective decisions while simultaneously being aware of what is currently happening around you and anticipating what will happen in the near future. For physicians managing chronic diseases during ambulatory visits, situational awareness consists of taking in a broad overview of key information about patients before walking into the exam room. Upon entering the exam room, the physician can then be mindful of and attuned to the patient sitting before them and the unfolding of their conversation.</p>
-								<p>If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle listen to the patient’s concerns. <a href="./human-factors.php#info_chaos">Information chaos</a><span class="print-only"> (See Information Chaos in the Human Factors chapter)</span> comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, trying frantically to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.</p>
+								<p>If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle to listen to the patient’s concerns. <a href="./human-factors.php#info_chaos">Information chaos</a><span class="print-only"> (See Information Chaos in the Human Factors chapter)</span> comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, trying frantically to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -147,7 +147,7 @@
 										<li>ondansetron &mdash; Zofran</li>
 										<li>furosemide &mdash; Lasix</li>
 									</ul>
-								<p>The problems is compounded by the fact that some medications have many confusing non-interchangeable brand names. Diltiazem, for example, may be available as:</p>
+								<p>The problems are compounded by the fact that some medications have many confusing non-interchangeable brand names. Diltiazem, for example, may be available as:</p>
 									<ul class="disc">
 										<li>Cardizem</li>
 										<li>Cardizem LA</li>
@@ -156,7 +156,7 @@
 										<li>Dilacor XR</li>
 										<li>etc., etc.</li>
 									</ul>
-								<p>When discussing medications with patients, physicians need to be aware of the name of the drug as the patients know it. Patients may be more familiar with a particular version of a drug’s name because it’s what’s written on the medication container dispensed by their pharmacy, or because that version of the name that is easier to recall or pronounce. When speaking with patients, physicians might find it helpful to refer to drugs by both names (“your furosemide, also called Lasix”). Having both names displayed, especially for less common drugs may decrease mental effort.</p>
+								<p>When discussing medications with patients, physicians need to be aware of the name of the drug as the patients know it. Patients may be more familiar with a particular version of a drug’s name because it’s what’s written on the medication container dispensed by their pharmacy, or because that version of the name is easier to recall or pronounce. When speaking with patients, physicians might find it helpful to refer to drugs by both names (“your furosemide, also called Lasix”). Having both names displayed, especially for less common drugs may decrease mental effort.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -246,7 +246,7 @@
 						<h3>2.2 <a href="../interactive-table/interactive-table.html" target="blank">The Interactive Table</a></h3>
 					</div>
 					<p>The interactive table allows users to sort, filter, and otherwise adjust their displays to meet the needs of the tasks at hand. This table is the standard workhorse of an EHR, and may sometimes be the only view available. The table is sufficiently flexible and powerful to adapt to fit a variety of tasks, but it can also be complex and may require more effort to learn and use than a simple list. Interactive lists help with a variety of tasks, such as making treatment decisions or e-prescribing. The list might even be able to draw on other data stored in the EHR, such as diagnoses, lab values or vital signs. Of our three examples, this list displays the most information and can provide the best support for cognitively intense tasks.</p>
-					<p><a href="#int-2-1">Interactive 2.1</a> shows an example of an Interactive Table. By default, such tables are sorted alphabetically by medication name. Physicians can sort columns of data in these tables to better support various functions medications renewals. Not all columns need to be sorted, however. For example, a physician would not find it helpful to sort by the instructions or quantity prescribed, but would find it useful to sort the list by drug names (allowing the physician to scan alphabetically, looking for a specific name), by dates (starting, renewal due, etc), diagnoses, and prescriber names.</p>
+					<p><a href="#int-2-1">Interactive 2.1</a> shows an example of an Interactive Table. By default, such tables are sorted alphabetically by medication name. Physicians can sort columns of data to gain new insight into the medications and have support for various functions of medication renewals. Not all columns need to be sorted, however. For example, a physician would not find it helpful to sort by the instructions or quantity prescribed, but would find it useful to sort the list by drug names (allowing the physician to scan alphabetically, looking for a specific name), by dates (starting, renewal due, etc), diagnoses, and prescriber names.</p>
 					<!--Fig 2-2 Interactive TAble Figure-->
 					<div class="print-only page-break"></div>
 					<div class="example" id="int-2-1">
@@ -264,7 +264,7 @@
 					<div class="scenario" id="high-bp">
 						<h5>Returning to the Clinical Scenario &mdash; Blood Pressure (BP) Too High</h5>
 						<p>Upon entering the room, Dr. Barnes learns that Mr. Martin has been exercising regularly and eating a healthy diet. He is on seventeen medications. He is tolerating them well, and taking them consistently. His blood pressure is about 10 points too high today, however, and it has been similarly elevated when he measured it at home. Dr. Barnes wants to adjust his blood pressure medications to achieve better control.</p>
-						<p>Dr. Barnes turns to the interactive medication list and sorts the medications by diagnosis. She can readily see that the patient is already on three medications for blood pressure. With some effort, the she determines that all three medications are at their maximum dose. The patient will have to begin taking an additional blood pressure medication. She thinks prescribing lisinopril is the obvious next step, but given that this decision does seem so obvious, our physician wonders if there’s some hidden reason why the patient isn’t on lisinopril already.</p>
+						<p>Dr. Barnes turns to the interactive medication list and sorts the medications by diagnosis. She can readily see that the patient is already on three medications for blood pressure. With some effort, she determines that all three medications are at their maximum dose. The patient will have to begin taking an additional blood pressure medication. She thinks prescribing lisinopril is the obvious next step, but given that this decision does seem so obvious, our physician wonders if there’s some hidden reason why the patient isn’t on lisinopril already.</p>
 					</div>
 					<p>Here’s the mental task for our physician (see <a href="#fig-2-5">Figure 2.5</a>):
 						<ul class="disc">
@@ -394,7 +394,7 @@
 							<li>Is the patient taking any medication for diabetes? How many?</li>
 							<li>Is the patient taking any medication for high blood pressure (hypertension)? How many?</li>
 							<li>Could we safely increase the dose on any of those high blood pressure medications? If so, which ones?</li>
-							<li>For which medications is Dr. Barnes responsible for?</li>
+							<li>For which medications is Dr. Barnes responsible?</li>
 						</ol>
 				</div>
 			</div>
@@ -409,7 +409,7 @@
 						<div class="print-only page-break"></div>
 						<h3>2.3 <a href="../timeline/timeline.html" target="blank">The Medication Timeline</a></h3>
 					</div>
-					<p>Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data? Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understands patient's history with a second or third medication.</p>
+					<p>Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data. Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understand the patient's history with a second or third medication.</p>
 					<p>A medication timeline harnesses the power of information visualization to:
 						<ol>
 							<li>Provide a chronological overview of the patient’s medication history</li>
@@ -419,7 +419,7 @@
 					<p>The overview provides context and perspective, and may enable the user to make salient discoveries. ("Wow, all this patient's meds were changed six months ago.") The timeline visualization helps harness our fast thinking mind, which can quickly make sense of the start and stop images, rather than relying on our slow thinking mind to read dates and make calculations. Zooming and filtering can provide answers to preliminary questions or hunches. Physicians can drill down to seek more specific details, such as the exact dates of medication changes, or related facts that could influence the medical chain of events.</p>
 					<div class="scenario">
 						<h5>Returning to the Clinical Scenario &mdash; What Happened Before Today?</h5>
-						<p>Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active + Inactive Medications” view. She sees (<a href="#fig-2-8">Figure 2.8</a> below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the the comment field associated with lisinopril under the “reason for stopping” column.</p>
+						<p>Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active + Inactive Medications” view. She sees (<a href="#fig-2-8">Figure 2.8</a> below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the comment field associated with lisinopril under the “reason for stopping” column.</p>
 					</div>
 					<div class="example" id="fig-2-9">
 						<div class="ex-title">
@@ -477,8 +477,8 @@
 						</div>
 					</div>
 					<p>The medication timeline we illustrate incorporates some innovative interface usability features predicated on cognitive science. The efficient “high-level overview” shows the timeline for a patient’s complete list of medications in a single view. This tool will eliminate the need for the user to try and hold all these disparate pieces of information in her working memory, or to make written notes just to keep track of the details scattered across several EHR views. A physician looking at this visualization will pick up on <a href="./human-factors.php#preattentive-attributes" target="blank">preattentive attributes</a><span class="print-only"> (See Prattentive Attributes in the Human Factors chapter)</span> such as color, length, and <a href="./human-factors.php#proximity" target="blank">proximity</a><span class="print-only">(See Proximity in the Human Factors chapter)</span>, and will be able to discern patterns in these far more easily than she might see them in text or numerical data.</p>
-					<p>Our physician will also be able to zoom in on areas of interest and explore them in more detail. The EHR can provide her with explanations, dose details, and even adherence information if pharmacy refill data or patient-reported adherence data is available to it. This will further assist our physician to confirm hunches and develop new questions to pursue.</p>
-					<p>The EHR can also display any episodic medications a patient has been prescribed, such as PRN medications for pain, nausea, asthma exacerbations, etc. In <a href="#gal-2-5">Gallery 2.5</a>, these are represented by a white bar. The EHR will display that a patient’s used these medications by means of additional visual cues. An EHR might indicate pharmacy dispense events with a square or dot, and patient reports of medication use with a small vertical hash mark.</p>
+					<p>Our physician will also be able to zoom in on areas of interest and explore them in more detail. The EHR can provide her with explanations, dose details, and even adherence information if pharmacy refill data or patient-reported adherence data is available. This will further assist our physician to confirm hunches and develop new questions to pursue.</p>
+					<p>The EHR can also display any episodic medications a patient has been prescribed, such as PRN medications for pain, nausea, asthma exacerbations, etc. In <a href="#gal-2-5">Gallery 2.5</a>, these are represented by a white bar. The EHR will display that a patient has used these medications by means of additional visual cues. An EHR might indicate pharmacy dispense events with a square or dot, and patient reports of medication use with a small vertical hash mark.</p>
 					<p>EHR filtering can be capable of showing only active medications, discontinued medications, or both, as needed. This will help physicians answer other questions that arise during their inquiries (“Why was this medication stopped last December, and what made the patient switch to this alternative medication?”).</p>
 					<p>For the timeline, we used monochrome (grayscale) to convey most information. EHRs with specific color schemes could adapt our black scheme for conveying a maximum number to a “darkest blue” or “darkest green”. We used color sparingly, to alert physicians to issues such as dosages over the recommended maximum dose. In general, it’s a good idea to design in monochrome first. You can then add color sparingly to convey meaning, in a way that won’t distract the user. Remember that some users will not perceive color: in our example, we combined color and cross hatching when we needed to indicate a maximum dose to make sure that no one missed crucial information due to this quite common disability. You can make sure you’ve designed for maximum accessibility by printing your design in grayscale and checking that all the information it’s supposed to convey is still visible.</p>
 					<p>Above all, the text must be legible. On our timeline, the drug names are left justified, which makes them easier to read. The dose, displayed in either black or white, contrasts with the background. Experienced, dexterous users can comfortably manually zoom in on our timeline, but even absolute beginners can use the buttons that allow them to quickly zoom in on commonly-used, useful time periods (like “the last 3 months” or “the last year”).</p>
@@ -639,20 +639,20 @@
 												<p><strong>adjustments around procedures</strong> (adjustments &amp; temporary medications needed around the time of surgery)</p>
 											</td>
 											<td></td>
-											<td>● <br /><span>if sort by "expected stop date"</span></td>
+											<td>● <br /><span>If sort by "expected stop date"</span></td>
 											<td></td>
 										</tr>
 										<tr>
 											<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(what was effective, what wasn't, and why?)</span></td>
 											<td></td>
 											<td></td>
-											<td>● <br /><span>but only if the details are recorded by the users</span></td>
+											<td>● <br /><span>But only if the details are recorded by the users</span></td>
 										</tr>
 										<tr>
-											<td><strong>Assess adherence</strong> <br /><span>(are refills on time? are doses taken as planned?)</span></td>
+											<td><strong>Assess adherence</strong> <br /><span>(Are refills on time? Are doses taken as planned?)</span></td>
 											<td></td>
 											<td></td>
-											<td>● <br /><span>depends on additional data, such as dispense data or patient reporting</span></td>
+											<td>● <br /><span>Depends on additional data, such as dispense data or patient reporting</span></td>
 										</tr>
 									</tbody>
 								</table>

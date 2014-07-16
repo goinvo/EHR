@@ -65,7 +65,7 @@
 					<h5>Health IT Vendors</h5>
 					<p><strong>Workshop Participants</strong></p>
 						<ul>
-							<li>LesLea Carey - Clinical UI Analyst, NextGen Healthcare</li>
+							<li>Leslea Carey - Clinical UI Analyst, NextGen Healthcare</li>
 							<li>Roy Gill, MD - Physician Director of Clinical Content, NextGen Healthcare</li>
 							<li>Marjorie Otterson - Director, User Experience Design, athenahealth</li>
 							<li>Frances Wu - Senior Strategist - EMR Strategy, Cerner</li>

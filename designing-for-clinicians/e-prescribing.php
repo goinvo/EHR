@@ -400,7 +400,7 @@
 							<li>Make it easy for users to select new orders by offering a predictive search function that suggests appropriate results.</li>
 							<li>Fill in the blanks with probable default settings (such as 30 or 90 day prescription supplies) where possible. </li>
 							<li>Remember patients’ pharmacy preferences, and allow users to remove pharmacies patients no longer prefer from the list.</li>
-							<li>Use pre-attentive attributes, such as color and typographic emphasis to enable physicians to find the results that are more likely to be relevant quickly. Use color iconography to graphically display medication renewal due-dates.</li>
+							<li>Use preattentive attributes, such as color and typographic emphasis to enable physicians to find the results that are more likely to be relevant quickly. Use color iconography to graphically display medication renewal due-dates.</li>
 							<li>Let physicians review e-prescriptions before sending so that they can correct any errors.</li>
 							<li>Allow users to sort and filter medication lists to speed up the renewal process.</li>
 							<li>Allow users to modify existing orders without forcing them to start over from scratch.</li>
