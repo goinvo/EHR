@@ -188,21 +188,7 @@
 			</div>
 		</section><!--end section terminology-->
 		
-		<footer class="chapterEnd">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<div class="cf">
-						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./design-principles.php"><span class="prev"></span> Design Principles</a></p></div>
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./authors.php">Authors<span class="next"></span></a></p></div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include './footer.php'; ?>
 
 		<section class="citations">
 			<div class="container">
@@ -217,7 +203,5 @@
 
 	</section>
 </div><!--end wrapper-->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="./assets/js/main.js" type="text/javascript"></script>
 </body>
 </html>

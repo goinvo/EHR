@@ -42,7 +42,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>Medication reconciliation is the comparison and combining of two or more medication lists. It usually involves a conversation between the patient and a health care professional, and can occur in many different situations. In this chapter, we will explore medication reconciliation scenarios and EHR designs that might facilitate them in both the inpatient and ambulatory setting. The first section focuses on one example of medication reconciliation in an <strong>inpatient</strong> setting. It describes a functional prototype called “Twinlist” and illustrates how Twinlist could be used when a patient is being discharged from the hospital. The second section focuses on medication reconciliation in the <strong>ambulatory</strong> setting, and focuses on the patient's role in annotating and correcting their EHR medication list at the very beginning of visits.</p>
+					<p>Medication reconciliation is the comparison and combining of two or more medication lists. It usually involves a conversation between the patient and a health care professional, and can occur in many different situations. In this chapter, we will explore medication reconciliation scenarios and EHR designs that might be facilitated in inpatient and ambulatory settings. The first section focuses on one example of medication reconciliation in an <strong>inpatient</strong> setting. It describes a functional prototype called “Twinlist” and illustrates how Twinlist could be used when a patient is being discharged from the hospital. The second section focuses on medication reconciliation in the <strong>ambulatory</strong> setting, and focuses on the patient's role in annotating and correcting their EHR medication list at the very beginning of visits.</p>
 				</div>
 			</div>
 		</section>
@@ -56,8 +56,8 @@
 					<h3>3.1 Inpatient Medication Reconciliation</h3>
 					<p>Consider this inpatient clinical scenario:</p>
 					<div class="scenario"><h5>Inpatient Clinical Scenario &mdash; A Patient with Chest Pain Is Discharged from the Hospital</h5>
-						<p>Mr. Jones is a 74-year-old, married businessman, now retired. He’s being treated for coronary artery disease (he received a stent at age 70), constipation, diabetes, hyperlipidemia, GERD, hypertension, and mild dementia. His primary care physician, Dr. Barnes, sent Mr. Jones to the hospital Monday morning after his wife insisted he go to the clinic because he was having trouble breathing and was rubbing his chest. He had been doing fine until sometime during the previous night. His wife said he had seemed quite well Sunday afternoon, when two of their sons came over to watch the game with him. They made it “a little tailgate party, hot dogs with sauerkraut and everything."</p>
-						<p>Examining Mr. Jones, the hospital physician found moderate pulmonary congestion, but no EKG changes. He tested negative for Troponin. Because of his past medical history and the strong history of Myocardial infarction (MI) in his family, he was admitted and treated. Now, on Wednesday afternoon, Mr. Jones is ready to leave and can be discharged from the hospital. One of the medical house officers is discharging Mr. Jones and as part of this process, reconciling his medications.</p>
+						<p>Mr. Jones is a 74-year-old, married businessman, now retired. He’s being treated for coronary artery disease (he received a stent at age 70), constipation, diabetes, hyperlipidemia, GERD, hypertension, and mild dementia. His primary care physician, Dr. Barnes, sent Mr. Jones to the hospital Monday morning after his wife insisted he go to the clinic because he was having trouble breathing and was rubbing his chest. He had been doing fine until sometime the previous night. His wife said he had seemed quite well Sunday afternoon, when two of their sons came over to watch the game with him. They made it “a little tailgate party, hot dogs with sauerkraut and everything."</p>
+						<p>Examining Mr. Jones, the hospital physician found moderate pulmonary congestion, but no EKG changes. He tested negative for Troponin. Because of his past medical history and the strong history of Myocardial infarction (MI) in his family, he was admitted and treated. By Wednesday afternoon, Mr. Jones is ready to leave and can be discharged from the hospital. One of the medical house officers is discharging Mr. Jones and as part of this process, reconciling his medications.</p>
 					</div>
 					<h5>3.1.1 A Prototype for Medication Reconciliation</h5>
 					<p>In this scenario, the physician discharging the patient has to actively compare two lists:
@@ -66,7 +66,7 @@
 							<li>The list of medications on the last day of the patient’s hospital stay</li>
 						</ol>
 					</p>
-					<p>Our physician will then decide which medications could be continued after the patient is discharged, and which should be stopped.</p>
+					<p>Our physician will then decide which medications could be continued after the patient is discharged and which should be stopped.</p>
 					<p>Let’s watch a short video about a prototype called “Twinlist,” an award-winning demonstration of a proposed medication interface.</p>
 					<div class="example" id="vid-3-1">
 						<div class="ex-title">
@@ -95,17 +95,17 @@
 							<h5></h5>
 							<p class="preview">To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
-								<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment with using <a href="http://tinyurl.com/k5b4kmx" class="link" target="blank">Twinlist with larger datasets</a>.</p>
+								<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment using <a href="http://tinyurl.com/k5b4kmx" class="link" target="blank">Twinlist with larger datasets</a>.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
 					</div>
 					<p>Here are some of Twinlist’s features that make it an effective interface
 						<ol>
-							<li><a href="./human-factors.php#gestalts">Spatial grouping</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span>: the closer things are, the more alike they are</li>
-							<li>Animation: users can quickly learn how the drugs were grouped.</li>
-							<li>Highlighting: key differences are visible and facilitate decision-making</li>
-							<li>Rapid selection: the largest rectangular buttons that list drug information are easy to click</li>
+							<li><a href="./human-factors.php#gestalts">Spatial grouping</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span>: The closer things are, the more alike they are.</li>
+							<li>Animation: Users can quickly learn how the drugs were grouped.</li>
+							<li>Highlighting: Key differences are visible and facilitate decision-making.</li>
+							<li>Rapid selection: The largest rectangular buttons that list drug information are easy to click.</li>
 						</ol>
 					</p>
 					<div class="print-only page-break"></div>
@@ -141,7 +141,7 @@
 					<div class="example" id="fig-3-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.4</span>
-							<span class="ex-caption">Clicking on a Drug Selects It and Indicates That It Should Be Retained in the Medication List after Discharge <span class="capt-desc">&mdash; The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
+							<span class="ex-caption">Clicking on a Drug Selects It and Indicates That It Should Be Retained in the Medication List after Discharge <span class="capt-desc">&mdash; The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicates that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected" /></a>
@@ -170,34 +170,34 @@
 								<li>Differences between similar but non-identical medications are highlighted in golden-yellow, which reduces the need for physicians to repeatedly scan, read, and compare the list items.</li>
 							</ol></li>
 							<li>The animation helps users quickly learn and understand the groupings of drugs. As the user grows familiar with the tool, the animation can be sped up or turned off.<ol>
-								<li>Making the list compact helps save vertical space. Similar but non-identical drugs which physicians may have to think harder about how to reconcile, are together in the lower section of the screen.</li>
+								<li>Making the list compact helps save vertical space. Similar but non-identical drugs, which physicians may have to think harder about how to reconcile, are together in the lower section of the screen.</li>
 								<li>Identical drug pairs merge into the center of the chart and are thus visually identified as perfect matches.</li>
 							</ol></li>
 							<li>Physicians can interact with the interface to discover more relationships.<ol>
 								<li>Hovering over a drug displays more details about the drug at the bottom of the screen, such as drug class or indication (i.e. the problem being treated). It also highlights similar drugs. Clicking to select a drug in a “similar but not identical” group rejects the others.</li>
-								<li>The menus function in a way that allows users to take actions on multiple drugs at the same time.</li>
+								<li>The menu functions in a way that allows users to take actions on multiple drugs at the same time.</li>
 								<li>Users can easily change or reverse their decision by clicking on drugs to toggle them through accepted, rejected, or undecided states.</li>
 							</ol></li>
 							<li>The interface keeps the information users need to make decisions visible and minimizes the need for users to rely on their ability to recall off-screen information.</li>
 						</ol>
 
 					<h5>3.1.3 Other Considerations</h5>
-					<p>Inpatient medication reconciliation also involves adding new drugs, e-prescribing, and generating documentation. It involves conversations with the patient and caregivers, at the time of admission and again at the time of discharge. To successfully reconcile inpatient medication lists physicians must understand two aspects of medication management:
+					<p>Inpatient medication reconciliation also involves adding new drugs, e-prescribing, and generating documentation. It involves conversations with the patient and caregivers, at the time of admission and again at the time of discharge. To successfully reconcile inpatient medication lists, physicians must understand two aspects of medication management:
 						<ol>
 							<li>Medication administration<ol>
 								<li>How much insulin and analgesics were prescribed to this patient in the last few days?</li>
 								<li>Did the patient receive all the doses, or were some doses delayed or not administered?</li>
-								<li>Did the patient receive any PRN doses (i.e. administer as the situation arises)? How many doses were given?</li>
+								<li>Did the patient receive any PRN doses (i.e. administered as the situation arises)? How many doses were given?</li>
 							</ol></li>
 							<li>Clinical assessment<ol>
 								<li>Since the patient will be leaving the hospital, intravenous medications need to be switched to oral versions. Will the patient be able to tolerate the oral version?</li>
 								<li>What should the starting dose of that medication be as the oral version?</li>
-								<li>How soon will the doses taken by the patient after leaving the hospital need to be adjusted, and who will adjust them?</li>
+								<li>How soon after the patient leaves the hospital will the doses need to be adjusted, and who will adjust them?</li>
 								<li>Can the patient afford the needed medications? Will the insurance cover the medications?</li>
 							</ol></li>
 						</ol>
 					</p>
-					<p>Physicians commonly care for patients who have moved from one unit to another. A patient might even move several times during the course of one visit &mdash;from the emergency room to a general nursing unit, intensive care unit, step-down unit and back to general nursing unit again, for example. Critically ill inpatients may be unable to take their medications orally, and may be receiving several medications intravenously in the intensive care unit. As patients begin to recover, they might resume their previous medications at reduced doses which may gradually change throughout their hospital stay. When patients are discharged from the hospital, they may need to resume taking home medications may be resumed, some of the doses may need to be adjusted, and they may need to take some additional medications.</p>
+					<p>Physicians commonly care for patients who have moved from one unit to another. A patient might even move several times during the course of one visit &mdash;for example, from the emergency room to a general nursing unit, intensive care unit, step-down unit, and back to general nursing unit again. Critically ill inpatients may be unable to take their medications orally and may be receiving several medications intravenously in the intensive care unit. As patients begin to recover, they might resume their previous medications at reduced doses which may gradually change throughout their hospital stay. When patients are discharged from the hospital, they may need to resume taking home medications, some of which may need dosage adjustments, and patients may need to take some additional medications.</p>
 				</div>
 			</div>
 		</section><!--end section inpatient-->
@@ -210,7 +210,12 @@
 						<div class="print-only page-break"></div>
 						<h3>3.2 Ambulatory Medication Reconciliation</h3>
 					</div>
-					<p>Physicians use two medication lists to reconcile medications in an ambulatory setting: (1) what it says in the EHR, and (2) what the patients report they actually take. Healthcare team members can collect information about patients’ adherence to their medication regimens either by interviewing the patients or by giving the patients a form to fill out. The latter option may save the office staff time. The diagram below shows a simplified workflow for medication reconciliation in the outpatient setting.</p>
+					<p>Physicians use two medication lists to reconcile medications in an ambulatory setting: 
+					<ol>
+						<li>What it says in the EHR</li>
+						<li>What the patients report they actually take</li>
+					</ol></p>
+					<p>Healthcare team members can collect information about patients’ adherence to their medication regimens either by interviewing the patients or by giving the patients a form to fill out. The latter option may save the office staff time. The diagram below shows a simplified workflow for medication reconciliation in the outpatient setting.</p>
 					<div class="example" id="fig-3-6">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.6</span>
@@ -219,8 +224,8 @@
 						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/ambulatorychart.png" title="Simplified Medication Reconciliation Workflow in Ambulatory Setting">
 							<img src="./assets/images/examples/medication-reconciliation/ambulatorychart.png" class="scale-with-grid" alt="Ambulatory workflow" title="ambulatory workflow" /></a>
 					</div>
-					<p>The medication reconciliation workflow may vary from clinic to clinic, depending on what roles said clinic assigns various members of its staff. In some clinics, nurses interview patients and update the medication list, adding annotations about patients’ adherence where necessary. Physician subsequently confirm these annotations with the patients and seek clarification about any uncertain details. Other clinics give patients printouts of their current medication list as recorded in the EHR, which the patients then annotate. In other clinics, physicians review medication lists with the patients in the course of their visits.</p>
-					<p>Some specialists, particularly those in surgical subfields, may review medication lists less precisely, focusing only on the medications they have prescribed, such as post-operative antibiotics or pain medications. These specialists need to be able to reconcile the medications they’re responsible for without assuming responsibility for the entire medication list. Reconciliation interfaces might offer means of conveying that specialists have reconciled the medications they’re responsible for, and only those medications. It might be accomplished by giving users the option of clicking on ‘Acknowledged’ or ‘Reviewed but not approved’ in addition to the fuller ‘Reconcile &amp; Sign.’</p>
+					<p>The medication reconciliation workflow may vary from clinic to clinic, depending on what roles said clinic assigns various members of its staff. In some clinics, nurses interview patients and update the medication list, adding annotations about patients’ adherence where necessary. Physicians subsequently confirm these annotations with the patients and seek clarification about any uncertain details. Other clinics give patients printouts of their current medication list as recorded in the EHR, which the patients can then annotate. In other clinics, physicians review medication lists with the patients in the course of their visits.</p>
+					<p>Some specialists, particularly those in surgical subfields, may review medication lists less precisely, focusing only on the medications they have prescribed, such as post-operative antibiotics or pain medications. These specialists need to be able to reconcile the medications they’re responsible for without assuming responsibility for the entire medication list. Reconciliation interfaces might offer a means of conveying that specialists have reconciled the medications they’re responsible for, and only those medications. It might be accomplished by giving users the option of clicking on ‘Acknowledged’ or ‘Reviewed but not approved’ in addition to the fuller ‘Reconcile &amp; Sign.’</p>
 					<p>During the visits, patients and physicians agree upon new plans of action. Physicians might then prescribe and makes other changes in the medication list. Patients then get updated copies of their list to take home.</p>
 					<div class="scenario"><h5>Ambulatory Clinical Scenario &mdash; Patient with Chronic Pain Reports Changes Other Physicians Have Made to Her Medication List</h5>
 						<p>Mrs. Stanton is a high school teacher who was seriously injured in a motor vehicle accident. Mrs. Stanton is under the care of an orthopedic surgeon and a pain management specialist as well as her primary care doctor. Today's visit with Dr. Barnes, her primary care doctor, involves several changes in her medication list.</p>
@@ -445,21 +450,7 @@
 			</div>
 		</section><!--end section review-->
 		
-		<footer class="chapterEnd">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<div class="cf">
-						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./medication-list.php"><span class="prev"></span>Medication List</a></p></div>
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./allergy-list.php">Allergy List<span class="next"></span></a></p></div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include './footer.php'; ?>
 
 		<section class="citations">
 			<div class="container">
@@ -483,9 +474,7 @@
 
 	</section>
 </div><!--end wrapper-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
 	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {

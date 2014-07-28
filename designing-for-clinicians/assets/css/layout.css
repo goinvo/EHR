@@ -506,14 +506,14 @@
 		left: 50%;
 		display: inline; }
 	nav.main ul li {
-		margin: 0px 20px 0px 0px;
+		
 		line-height: 32px;
 		display: inline;
 	}
 	nav.main li a {
 		text-decoration: none;
 	}
-	nav.main ul li .ch-name{
+	nav.main ul li .ch-name {
 		display: none;
 	}
 	nav.main ul li ul.active {
@@ -534,6 +534,60 @@
 	nav.main .prev, nav.main .next {
 		display: inline-block;
 	}
+
+	nav.footer {
+		background: rgba(255,255,255,.95);
+		padding: 10px 0px 10px 0px;
+		width: 100%;
+		height: auto;
+		z-index: 1;
+		text-align: center;
+	}
+	nav.footer .prev, nav.footer .next {
+		display: none;
+		height: 20px; 
+		width: 9px; 
+		margin: 6px 16px 0px 16px;
+		background: url('../images/next.svg') no-repeat;	
+	}
+	nav.footer a.prev-ch  {
+		float: left;
+	}
+	nav.footer a.next-ch  {
+		float: right;
+	}
+	nav.footer .prev {
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg); /* IE 9 */
+		-webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+	}
+	nav.footer ul { 
+		margin: 0; 
+		padding: 0; 
+		list-style: none;
+		left: 50%;
+		display: inline; }
+	nav.footer ul li {
+		margin: 0px 20px 0px 0px;
+		line-height: 32px;
+		display: inline;
+	}
+	nav.footer li a {
+		text-decoration: none;
+	}
+	nav.footer ul li:not(.active), nav.footer ul li ul li {
+		display: none;
+	}
+	nav.footer ul li.active a .ch-name {
+		display: inline-block;
+		font-size: 16px;
+		font-family: Georgia;
+		font-weight: normal;
+	}
+	nav.footer .prev, nav.footer .next {
+		display: inline-block;
+	}
+
 	
 	/*header*/
 	.header {
@@ -773,8 +827,10 @@
 		float: right;
 		margin-top: 10px;
 	}
+	.citations {
+		margin-bottom: 40px;
+	}
 	.citations p, .citations li {
-		
 		color: #828282;
 	}
 	.citations ol li {

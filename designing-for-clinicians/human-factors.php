@@ -538,22 +538,8 @@
 			</div>
 		</section>
 
-		
-		<footer class="chapterEnd">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<div class="cf">
-						<div class="fleft" id="prevCh">
-							<p class="pagination prev_ch"><a href="./drug-alerts.php"><span class="prev"></span>Drug Alerts</a></p></div>
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./design-principles.php">Design Principles<span class="next"></span></a></p></div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include './footer.php'; ?>
+
 		<section class="citations">
 			<div class="container">
 				<div class="sixteen columns">
@@ -701,9 +687,7 @@
 	
 
 </div><!--end wrapper-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
 	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">

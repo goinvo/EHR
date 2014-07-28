@@ -13,7 +13,17 @@ $(document).ready(function(){
 			}
 		}
 	});
-	
+	$("nav.footer ul li").each(function() {
+		if (this.className!=null && this.className!=undefined) {
+			if (bodyClass == this.className) {
+				$(this).addClass("active");
+				//$(this).next().addClass("active");
+			} else {
+				$(this).removeClass("active");
+			}
+		}
+	});
+
 	//slideopen, hide preview on quicktips, scenarios
 	$(".quicktip").click(function(){
 		$(this).find('.tip').toggleClass('close');

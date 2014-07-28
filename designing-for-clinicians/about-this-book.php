@@ -71,25 +71,10 @@
 				</div>
 			</div>
 		</section>
+
+		<?php include './footer.php'; ?>
 		
-		<footer class="chapterEnd">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<div class="cf">
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="./medication-list.php">Medication List<span class="next"></span></a></p></div>
-					</div>
-				</div>
-			</div>
-		</footer>
 	</section>
 </div><!--end wrapper-->
-
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
-
 </body>
 </html>

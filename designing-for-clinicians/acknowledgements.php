@@ -107,26 +107,9 @@
 			</div>
 		</section>
 
-		<footer class="chapterEnd">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="sectionStart">
-						<hr />
-					</div>
-					<div class="cf">
-						<div class="fleft" id="prevCh">
-							<p class="pagination prevCh"><a href="./design-principles.php"><span class="prev"></span>Design Principles</a></p></div>
-						<div class="fright" id="nextCh">
-							<p class="pagination next_ch"><a href="../">Home<span class="next"></span></a></p></div>	
-					</div>
-				</div>
-			</div>
-		</footer>
-	</section>
-	
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="./assets/js/main.js" type="text/javascript"></script>
+		<?php include './footer.php'; ?>
 
+	</section>
 </div><!--end wrapper-->
 </body>
 </html>
