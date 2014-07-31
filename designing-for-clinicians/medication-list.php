@@ -43,7 +43,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>Medication lists record information about all the drugs a patient is currently receiving and their prescribed dosages. Medication lists come in many forms, but this chapter will only focus on three: <strong>simple lists, interactive lists, and medication timelines</strong>. We’ll offer a few tips and challenges along the way.</p>
+					<p>Medication lists record information about all the drugs a patient is currently receiving and their prescribed dosages. Medication lists come in many forms, but this chapter will only focus on three: <strong>simple lists</strong>, <strong>interactive lists</strong>, and <strong>medication timelines</strong>. We’ll offer a few tips and challenges along the way.</p>
 					<div class="example" id="gal-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Gallery 2.1</span>
@@ -52,12 +52,12 @@
 						<div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
 							<ul>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1 a</span> Simple List <span class="capt-desc">&mdash; Helps physicians with a variety of tasks, such as making treatment decisions or e-prescribing</span></div>
+									<div class="caption"><span class="ex-type">2.1 a</span> Simple List <span class="capt-desc">&mdash; Helps physicians with a variety of tasks, such as making treatment decisions or e-prescribing.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" title="2.1 a A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/SimpleList_ReduceNoise.png" class="scale-with-grid" alt="A simple list" /></a>
 								</div></li>
 								<li><div>
-									<div class="caption"><span class="ex-type">2.1 b</span> Simple List <span class="capt-desc">&mdash; Also ideal for mobile which patients can access easily</span></div>
+									<div class="caption"><span class="ex-type">2.1 b</span> Simple List <span class="capt-desc">&mdash; Also ideal for mobile which patients can access easily.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/SimpleListMobile.png" title="2.1 b A <strong>simple list</strong>, like the ones featured below, can help physicians with a variety of tasks, such as making treatment decisions or e-prescribing.">
 										<img src="./assets/images/examples/medication-list/SimpleListMobile.png" class="scale-with-grid" alt="A simple list is good for mobile" /></a>
 								</div></li>
@@ -69,7 +69,7 @@
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">2.1 d</span> Medication Timeline <span class="capt-desc">&mdash; Harnesses the power of information visualization and allows physicians to understand changes in medications over time</span></div>
+									<div class="caption"><span class="ex-type">2.1 d</span> Medication Timeline <span class="capt-desc">&mdash; Harnesses the power of information visualization and allows physicians to understand changes in medications over time.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="2.1 d A <strong>medication timeline</strong> harnesses the power of information visualization and allows physicians to understand changes in medications over time.">
 										<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Medication timeline" /></a>
 								</div></li>
@@ -88,11 +88,11 @@
 						<div class="print-only page-break"></div>
 						<h3>2.1 <a href="../simple-list/simple-list.html" target="blank">The Simple List</a></h3>
 					</div>
-					<p>The simple list displays bare-bones basic information. It’s made to be read quickly, scanned at a glance. It’s easy to scan visually to see the name, strength, and dosing of the medication. The list is alphabetical, which makes it easy to search for and locate particular items. It gives the reader, usually a physician, a broad overview of the patient’s medical history and their related medications. A physician quickly scanning the simple list can make initial observations such as, <em>“There are twenty-four medications here but only two prescription medications for high blood pressure.”</em> Good design can make such tasks easy; bad design can make them much harder.</p>
-					<p>We use the term “patient” to apply to either patients themselves or caregivers or family members acting on their behalf. Similarly, we use the term “physician” to apply to physicians proper or other healthcare professionals with prescribing authority.</p>
+					<p>The simple list displays bare-bones basic information. It’s made to be read quickly, scanned at a glance. It’s easy to scan visually to see the name, strength, and dosing of the medication. The list is alphabetical, which makes it easy to search for and locate particular items. It gives the user, usually a physician, a broad overview of the patient’s medical history and their related medications. A physician quickly scanning the simple list can make initial observations such as, <em>“There are twenty-four medications here, but only two prescription medications for high blood pressure.”</em> Good design can make such tasks easy; bad design can make them much harder.</p>
+					<p>We use the term “patient” to apply to either patients themselves, caregivers, or family members acting on their behalf. Similarly, we use the term “physician” to apply to physicians proper or other healthcare professionals with prescribing authority.</p>
 					<div class="scenario" id="exam-room">
 						<h5>A Common Scenario &mdash; Going into the Exam Room</h5>
-						<p>Dr. Barnes, a general internist is about to go into the exam room to see her patient Mr. Martin, a 60-year-old man with ten chronic diseases (diabetes, high blood pressure, high cholesterol, knee arthritis, depression, insomnia, etc.) who is taking seventeen medications. The physician notes that the patient’s blood pressure is about ten points too high. She plans to ask the patient if he has been taking his blood pressure at home, and what the results of any such tests have been.</p>
+						<p>Dr. Barnes, a general internist is about to go into the exam room to see her patient Mr. Martin, a 60-year-old man with ten chronic diseases (diabetes, high blood pressure, high cholesterol, knee arthritis, depression, insomnia, etc.) who is taking seventeen medications. The physician notes that the patient’s blood pressure is about ten points too high. She plans to ask the patient if he has been taking his blood pressure at home and what the results of any such tests have been.</p>
 					</div>
 					<p>In this scenario, the physician needs to have an overall awareness of the patient’s medications, chronic problems, latest vital signs, and relevant lab test results fresh in her mind when the face-to-face visit begins. (“Is he taking insulin? Is he on any high-risk drugs like warfarin?”) Armed with this background, the physician is able to give her full attention to the patient telling his story, and she won’t have to keep glancing away from him and back at the EHR to be reminded of the medications. Giving full attention to his story shows the patient that she’s listening to and cares about what he has to say. Establishing context will allow our physician to attend to the practicalities and the emotional tone of this encounter, and to frame this visit in relation to a bigger picture that includes the patient's past and current data, his story.</p>
 					<div class="quicktip" id="brand-generic">
@@ -101,7 +101,7 @@
 							<p class="preview">Situational awareness is having all the background information you need to make effective decisions while simultaneously<span class="elipsis">... <span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Situational awareness is having all the background information you need to make effective decisions while simultaneously being aware of what is currently happening around you and anticipating what will happen in the near future. For physicians managing chronic diseases during ambulatory visits, situational awareness consists of taking in a broad overview of key information about patients before walking into the exam room. Upon entering the exam room, the physician can then be mindful of and attuned to the patient sitting before them and the unfolding of their conversation.</p>
-								<p>If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle to listen to the patient’s concerns. <a href="./human-factors.php#info_chaos">Information chaos</a><span class="print-only"> (See Information Chaos in the Human Factors chapter)</span> comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, trying frantically to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.</p>
+								<p>If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle to listen to the patient’s concerns. <a href="./human-factors.php#info_chaos">Information chaos</a><span class="print-only"> (See Information Chaos in the Human Factors chapter)</span> comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, frantically trying to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -156,7 +156,7 @@
 										<li>Dilacor XR</li>
 										<li>etc., etc.</li>
 									</ul>
-								<p>When discussing medications with patients, physicians need to be aware of the name of the drug as the patients know it. Patients may be more familiar with a particular version of a drug’s name because it’s what’s written on the medication container dispensed by their pharmacy, or because that version of the name is easier to recall or pronounce. When speaking with patients, physicians might find it helpful to refer to drugs by both names (“your furosemide, also called Lasix”). Having both names displayed, especially for less common drugs may decrease mental effort.</p>
+								<p>When discussing medications with patients, physicians need to be aware of the name of the drug as the patients know it. Patients may be more familiar with a particular version of a drug’s name because it is what is written on the medication container dispensed by their pharmacy, or because that version of the name is easier to recall or pronounce. When speaking with patients, physicians might find it helpful to refer to drugs by both names (“Your furosemide, also called Lasix”). Having both names displayed, especially for less common drugs may decrease mental effort.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -199,7 +199,7 @@
 								<p><strong>How many 5’s do you find in each rectangle below?</strong></p>
 								<img src="./assets/images/examples/medication-list/findthe5s.png" class="scale-with-grid" />
 								<p>It’s much easier to spot the 5’s in the right-hand figure because our brain perceives the bold characters without our conscious volition.</p>
-								<p>When processing visual information, our brains combine very basic attributes (shape, size, orientation, motion) into “objects” that have some meaning to us (face, pole, box). This happens very quickly, below the level of our conscious awareness. Some features stand out more readily and get noticed more quickly than others. Those features are called <a href="./human-factors.php#preattentive-attributes" target="blank">preattentive attributes</a><span class="print-only"> (See Preattentive Attributes in the Human Factors chapter)</span>.</p>
+								<p>When processing visual information, our brains combine very basic attributes (shape, size, orientation, motion) into “objects” that have some meaning to us (face, pole, box). This happens very quickly, below the level of our conscious awareness. Some features stand out more readily and are noticed more quickly than others. Those features are called <a href="./human-factors.php#preattentive-attributes" target="blank">preattentive attributes</a><span class="print-only"> (See Preattentive Attributes in the Human Factors chapter)</span>.</p>
 								<p>.</p>
 							</div>
 						</div>
@@ -231,7 +231,7 @@
 					</div>
 				</div>
 				<div class="sixteen columns">
-					<p>Borders don’t add information, and removing grids can make your data less visually noisy (and thus easier to read).</p>
+					<p>Borders don’t add information, and removing gridlines can make your data less visually noisy (and thus easier to read).</p>
 					<p>Now, let’s move on to the interactive table.</p>
 				</div>
 			</div>
@@ -268,12 +268,12 @@
 					</div>
 					<p>Here’s the mental task for our physician (see <a href="#fig-2-5">Figure 2.5</a>):
 						<ul class="disc">
-							<li>review the medication list</li>
-							<li>identify medications for treating high BP (antihypertensives) that the patient is taking</li>
-							<li>determine if the patient is already taking the maximum dose of each of these medications
+							<li>Review the medication list.</li>
+							<li>Identify medications for treating high BP (antihypertensives) that the patient is taking.</li>
+							<li>Determine if the patient is already taking the maximum dose of each of these medications.
 							<ul>
-								<li>if one or more of the current medications is not at the maximum dose, consider whether that medication’s dosage could be increased (this may be preferable because it won’t cost the patient a new co-pay, increase their potential drug interactions, or increase the number of pills the patient has to take)</li>
-								<li>if all the BP meds are at their maximum dose, then the physician must select an additional medication and add it to the treatment plan</li>
+								<li>If one or more of the current medications is not at the maximum dose, consider whether that medication’s dosage could be increased (this may be preferable because it won’t cost the patient a new co-pay, increase their potential drug interactions, or increase the number of pills the patient has to take).</li>
+								<li>If all the BP meds are at their maximum dose, then the physician must select an additional medication and add it to the treatment plan.</li>
 							</ul></li>
 						</ul></p>
 						<p>Juggling these considerations can be a lot of mental work. Fortunately, you can make the job much easier.</p>
@@ -329,8 +329,8 @@
 						</div>
 					</div>
 
-					<p>Make <strong>dose range information</strong> available <strong>with a click or a tap</strong> by linking the medication name to reference information about that medication. Drug product information databases include information about the recommended dose range for each indication or diagnosis. The maximum dose might be higher for heart failure than for hypertension.</p>
-					<p>Make that same dose range information available at a glance by using an <strong>icon or simple color scheme</strong>. A simple color scheme in which light gray text represents a low dose, darker gray a higher dose, solid black a maximum dose, and red a dose over the recommended maximum would reveal relative dosages in a way that elegantly meets physicians’ needs. No clicks, no reading, and no math necessary.</p>
+					<p>Make <strong>dose range information</strong> available <strong>with a click or a tap</strong> by linking the medication name to reference information about that medication. Drug product information databases include information about the recommended dose range for each indication or diagnosis. The maximum dose might be higher for heart failure than it is for hypertension.</p>
+					<p>Make that same dose range information available at a glance by using an <strong>icon or simple color scheme</strong>. A simple color scheme in which light gray represents a low dose, darker gray a higher dose, solid black a maximum dose, and red a dose over the recommended maximum would reveal relative dosages in a way that elegantly meets physicians’ needs. No clicks, no reading, and no math necessary.</p>
 					
 					<!--Fig 2-6 Lisinopril details-->
 					<div class="example">
@@ -349,7 +349,7 @@
 							<p class="preview">Some medications have different minimum and maximum dose ranges depending on the diagnosis. For example, for lisinopril the<span class="elipsis">... <span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Some medications have different minimum and maximum dose ranges depending on the diagnosis they’re prescribed for. For example, 10 to 40 mg of lisinopril can be taken daily for hypertension, but a patient can take 5 to 40 mg daily for heart failure. The maximum dose for gabapentin is 3600 mg daily for partial seizures or neuropathic pain, and 1800 mg daily for post-herpetic neuralgia. For gabapentin, the maximum dose must be adjusted downward for reduced renal function and, as renal function declines, the maximum allowable dose drops from 1400 mg to 700 mg, and then to 300 mg daily. For patients on dialysis, however, the maximum dose of gabapentin is just 300 mg daily. Development teams will need to check with their pharmaceutical database provider to learn if data about maximum doses is available as discrete data rather than textual data. An EHR that signals maximum doses and provides information about patient characteristics that supports dosage adjustments can help physicians make safe decisions.</p>
-								<p>For pediatric dosing, age and weight introduce further variables in maximum dose calculations. Some drug dosages should be based on a patient's body surface area (a function of weight and height). An EHR that provides this information in applicable cases will provide effective clinical decision support to providers.</p>
+								<p>For pediatric dosing, age and weight introduce further variables in maximum dose calculations. Some drug dosages should be based on the surface area of a patient’s body (a function of weight and height). An EHR that provides this information in applicable cases will provide effective clinical decision support to providers.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -412,19 +412,19 @@
 					<p>Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data. Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understand the patient's history with a second or third medication.</p>
 					<p>A medication timeline harnesses the power of information visualization to:
 						<ol>
-							<li>Provide a chronological overview of the patient’s medication history</li>
-							<li>Enable physicians to zoom in on and filter the list</li>
-							<li>Reveal details on demand</li>
+							<li>Provide a chronological overview of the patient’s medication history.</li>
+							<li>Enable physicians to zoom in on and filter the list.</li>
+							<li>Reveal details on demand.</li>
 						</ol></p>
 					<p>The overview provides context and perspective, and may enable the user to make salient discoveries. ("Wow, all this patient's meds were changed six months ago.") The timeline visualization helps harness our fast thinking mind, which can quickly make sense of the start and stop images, rather than relying on our slow thinking mind to read dates and make calculations. Zooming and filtering can provide answers to preliminary questions or hunches. Physicians can drill down to seek more specific details, such as the exact dates of medication changes, or related facts that could influence the medical chain of events.</p>
 					<div class="scenario">
 						<h5>Returning to the Clinical Scenario &mdash; What Happened Before Today?</h5>
-						<p>Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active + Inactive Medications” view. She sees (<a href="#fig-2-8">Figure 2.8</a> below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the comment field associated with lisinopril under the “reason for stopping” column.</p>
+						<p>Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active &amp; Inactive Medications” view. She sees (<a href="#fig-2-9">Figure 2.9</a> below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the comment field associated with lisinopril under the “reason for stopping” column.</p>
 					</div>
 					<div class="example" id="fig-2-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 2.9 </span>
-							<span class="ex-caption">Show All Medications (Active &amp; Inactive)<span class="capt-desc"> &mdash; Lisinopril had been stopped</span> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
+							<span class="ex-caption">Show All Medications (Active &amp; Inactive)<span class="capt-desc"> &mdash; Lisinopril had been stopped.</span> <a href="../timeline/" class="button" target="blank">Try it out!</a></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" title="Show All Medications (Active &amp; Inactive) &mdash; Lisinopril had been stopped">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" class="scale-with-grid" alt="Show all medications" /></a>
@@ -433,7 +433,7 @@
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
 						</div>
 					</div>
-					<p>Dr. Barnes now considers prescribing amlodipine to control the patient’s high blood pressure, but wonders about the patient’s adherence to the medications he’s already on. Zooming in on the medication timeline, she finds that the patient was three weeks late refilling his Coreg, but had been embarrassed to admit to it. The patient had just requested a refill last night, and had planned to pick it up from the pharmacy after the visit today. Coreg’s relatively high copay made the patient hesitate to refill his prescription in a timely manner. With this brought to her attention, the physician discussed less expensive alternatives in the beta-blocker class. Together they selected metoprolol XL 200 mg daily. You can read more about why patients might not be taking their medication as prescribed in <a href="./medication-reconciliation.php">Chapter 3, Medication Reconciliation</a>.</p>
+					<p>Dr. Barnes now considers prescribing amlodipine to control the patient’s high blood pressure, but wonders about the patient’s adherence to the medications he’s already on. Zooming in on the medication timeline, she finds that the patient was three weeks late refilling his Coreg, but had been embarrassed to admit to it. The patient had just requested a refill last night and planned to pick it up from the pharmacy after the visit today. Coreg’s relatively high co-pay made the patient hesitant to refill his prescription in a timely manner. With this brought to her attention, the physician discussed less expensive alternatives in the beta-blocker class. Together they selected metoprolol XL 200 mg daily. You can read more about why patients might not be taking their medication as prescribed in <a href="./medication-reconciliation.php">Chapter 3, Medication Reconciliation</a>.</p>
 				
 
 					<div class="example" id="fig-2-10">
@@ -447,7 +447,7 @@
 
 					<p>A timeline offers a complete overview. At the top level, a timeline conveys details about when a patient starts and stops taking a medication, when that medication's dose changes, whether that change is an increase or decrease, and whether the dosage taken is the maximum one.</p>
 					<p>In the straightforward timeline presented in <a href="#gal-2-4">Gallery 2.4</a>, each bar represents the history of a single medication (e.g. citalopram started at 10 mg, and the dosage progressively increased to 40 mg daily). The physician can adjust the timescale to give a wider or narrower view of the patient’s medication history. Solid black represents the maximum dose of that particular medication, with shades of gray representing progressively lower doses (lighter means lower). This design presents the user with a wealth of information at a glance.</p>
-					<p>Highly usable EHR designs can accommodate large medication lists. Patients with an array of complex problems can have 15 to 20 medications on their active list, and ideally physicians dealing with challenging cases such as these won't have to scroll to view all a patient's medications at once.</p>
+					<p>Highly usable EHR designs can accommodate large medication lists. Patients with an array of complex problems can have 15 to 20 medications on their active list, and ideally physicians dealing with challenging cases such as these won't have to scroll to view all of a patient's medications at once.</p>
 					<p>All instances of a medication (e.g. citalopram) will occur in the same timeline, even if they involve different tablet strengths (10 mg, 20 mg, or 40 mg) or occur at distinct points in time (say, an eight month course four years ago, and another course for the past twelve months).</p>
 					
 					<div class="example" id="gal-2-4">
@@ -480,8 +480,8 @@
 					<p>Our physician will also be able to zoom in on areas of interest and explore them in more detail. The EHR can provide her with explanations, dose details, and even adherence information if pharmacy refill data or patient-reported adherence data is available. This will further assist our physician to confirm hunches and develop new questions to pursue.</p>
 					<p>The EHR can also display any episodic medications a patient has been prescribed, such as PRN medications for pain, nausea, asthma exacerbations, etc. In <a href="#gal-2-5">Gallery 2.5</a>, these are represented by a white bar. The EHR will display that a patient has used these medications by means of additional visual cues. An EHR might indicate pharmacy dispense events with a square or dot, and patient reports of medication use with a small vertical hash mark.</p>
 					<p>EHR filtering can be capable of showing only active medications, discontinued medications, or both, as needed. This will help physicians answer other questions that arise during their inquiries (“Why was this medication stopped last December, and what made the patient switch to this alternative medication?”).</p>
-					<p>For the timeline, we used monochrome (grayscale) to convey most information. EHRs with specific color schemes could adapt our black scheme for conveying a maximum number to a “darkest blue” or “darkest green”. We used color sparingly, to alert physicians to issues such as dosages over the recommended maximum dose. In general, it’s a good idea to design in monochrome first. You can then add color sparingly to convey meaning, in a way that won’t distract the user. Remember that some users will not perceive color: in our example, we combined color and cross hatching when we needed to indicate a maximum dose to make sure that no one missed crucial information due to this quite common disability. You can make sure you’ve designed for maximum accessibility by printing your design in grayscale and checking that all the information it’s supposed to convey is still visible.</p>
-					<p>Above all, the text must be legible. On our timeline, the drug names are left justified, which makes them easier to read. The dose, displayed in either black or white, contrasts with the background. Experienced, dexterous users can comfortably manually zoom in on our timeline, but even absolute beginners can use the buttons that allow them to quickly zoom in on commonly-used, useful time periods (like “the last 3 months” or “the last year”).</p>
+					<p>For the timeline, we used monochrome (grayscale) to convey most information. EHRs with specific color schemes could adapt our black scheme for conveying a maximum number to a “darkest blue” or “darkest green”. We used color sparingly, to alert physicians to issues such as dosages over the recommended maximum dose. In general, it’s a good idea to design in monochrome first. You can then add color sparingly to convey meaning in a way that won’t distract the user. Remember that some users will not perceive color. In our example, we combined color and cross hatching when we needed to indicate a maximum dose to make sure that no one missed crucial information due to this quite common disability. You can make sure you’ve designed for maximum accessibility by printing your design in grayscale and checking that all the information it is supposed to convey is still visible.</p>
+					<p>Above all, the text must be legible. On our timeline, the drug names are left-justified, which makes them easier to read. The dose, displayed in either black or white, contrasts with the background. Experienced, dexterous users can comfortably manually zoom in on our timeline, but even absolute beginners can use the buttons that allow them to quickly zoom in on commonly-used, useful time periods (such as “the last three months” or “the last year”).</p>
 					<p>Our medication timeline aims to accommodate every conceivable user: physicians, nurses, patients, caregivers, pharmacists, mental health professionals, health coaches, and all other medical specialists. It can accommodate long lists of medications. A dozen medications can be quite common. Twenty medications would not be surprising. Thirty medications, sadly, may not be rare. The medication timeline handles the visual burden with ease. It’s a tool for data visualization, whose mantra is “overview first, then zoom and filter, then details-on-demand.” Let’s look at <a href="#gal-2-5">Gallery 2.5</a> to demonstrate how.</p>
 					<div class="print-only page-break"></div>
 					<div class="example" id="gal-2-5">
