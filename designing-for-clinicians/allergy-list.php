@@ -69,10 +69,10 @@
 						<hr/>
 						<h3>4.1 Three Main Tasks</h3>
 					</div>
-					<p>Developers must design Allergy Lists keeping in mind a user's three main tasks: glancing, exploring, and changing the list.</p>
+					<p>Developers might design Allergy Lists keeping in mind a user's three main tasks: glancing, exploring, and changing the list.</p>
 					<p><strong>Glancing at the list</strong> may reveal that a patient has “no known medication allergies” – or that he’s deathly allergic to the medication the physician is about to order for him. Often, ideally every time they prescribe or administer a new medication, doctors and nurses will need to quickly refer to the Allergy List.</p>
 					<p><strong>Exploring the details</strong> may help a physician decide whether a drug’s benefits outweigh the risks.</p>
-					<p><strong>Adding new entries</strong> to the list can be quick and straightforward. <strong>Editing the list</strong> can be fast, sure, and flexible, requiring minimal details.</p>
+					<p><strong>Adding new entries</strong> to the list can be quick and straightforward. <strong>Editing the list</strong> can be fast, assured, and flexible, requiring minimal details.</p>
 					<p>Let's consider the clinical scenarios prompting our three tasks, and some design makeovers that better address the needs of these scenarios and tasks.</p>
 				</div>
 			</div>
@@ -90,11 +90,11 @@
 						<h5>Clinical Scenario &mdash; Considering a New Prescription</h5>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
-					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask the patients if they allergic to the drugs in question.</p>
+					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask patients if they are allergic to the drugs in question.</p>
 					<p>For this task, physicians need to be able to glance at a short list that only contains the names of the drugs a patient is allergic to. This list could be clearly visible when physicians are prescribing or administering, but they don't need to see it when performing unrelated tasks, such as documenting the visit in a note. The list could be included in the patient demographic banner, where it would always be visible even while physicians do tasks that don't require it.</p>
 					<p>Developers can work to minimize physicians' cognitive loads, or the mental effort they must expend to perform this task, by making the information physicians need easy to find, and by not over-burdening them with unnecessary details. Navigating through the EHR requires time and effort, and remembering where they need to look increases the cognitive load on often already-overburdened health care providers.</p>
 					<p>We've mocked-up "before and after" versions of an allergy list (<a href="#fig-4-1">Figures 4.1</a> and <a href="#fig-4-2">4.2</a>) to illustrate what we mean.</p>
-					<p>This example (<a href="#fig-4-1">Figure 4.1</a>) uses some of its limited space to list symptoms. The total number of items in this potentially long list is not visible unless the user hovers over the list with a mouse. The user may, however, be using a touch interface, and touch interfaces don't allow users to hover. Thus information stored in this format therefore isn't easily accessible to some users. Listing additional substances here would actually help physicians out more. Physicians need to know, at a glance, if they're seeing all the substances on the Allergy List, or if what they're looking at has been truncated.</p>
+					<p>This example (<a href="#fig-4-1">Figure 4.1</a>) uses some of its limited space to list symptoms. The total number of items in this potentially long list is not visible unless the user hovers over the list with a mouse. The user may, however, be using a touch interface, and touch interfaces don't allow users to hover. Thus information stored in this format isn't easily accessible to some users; making use of a click or tap instead of hover will help. Listing additional substances here would actually help physicians out more. Physicians need to know, at a glance, if they're seeing all the substances on the Allergy List, or if what they're looking at has been truncated.</p>
 				</div>
 				<!--Before and After 4.1, 4.2-->
 				<div class="one-half column">
@@ -215,8 +215,8 @@
 					<div class="scenario">
 						<h5>Clinical Scenario &mdash; Modifying the Allergy List</h5>
 						<p>Dr. Barnes is seeing an adult patient who has had a sinus infection for the past two weeks. Dr. Barnes would like to prescribe the antibiotic Augmentin. As she prepares to do so, she asks the patient whether he has any drug allergies, while simultaneously glancing at the patient's allergy list in the demographic banner.</p>
-						<p>The patient's allergy list currently includes Augmentin, but gives no details about the patient's reaction to the drug. Dr. Barnes decides to take advantage of this opportunity to add some detail to the medication allergy list.</p>
-						<p>The patient reports that he took Augmentin years ago and became nauseated. During their conversation, the patient reveals that since then he has taken amoxicillin with no ill effects. Augmentin and amoxicillin are both in the penicillin family, and thus Augmentin should be safe to prescribe.</p>
+						<p>The patient's allergy list currently includes Augmentin, but gives no details about his reaction to the drug. Dr. Barnes decides to take advantage of this opportunity to add some detail to the medication allergy list.</p>
+						<p>The patient reports that he took Augmentin years ago and became nauseated. During their conversation, the patient reveals that, since then, he has taken amoxicillin with no ill effects. Augmentin and amoxicillin are both in the penicillin family, and thus Augmentin should be safe to prescribe.</p>
 						<p>To correct the allergy list, Dr. Barnes will recategorize the Augmentin allergy as a side effect.</p>
 					</div>
 					<h5>4.4.1 Editing the Allergy List</h5>
@@ -343,7 +343,7 @@
 					</div>
 				</div>
 				<div class="sixteen columns">
-					<p>As you can see, it’s difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term's about a third of the way down the list, buried among many other terms.</p>
+					<p>As you can see, it is difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term's about a third of the way down the list, buried among many other terms.</p>
 					<p>In our “after” example (<a href="fig-4-13">Figure 4.13</a>), the simple cough is at the top of the list. Other options are listed alphabetically further down the list, after a visual break.</p>
 				</div>
 			</div>

@@ -48,11 +48,11 @@
 						<hr />
 					</div>
 					<h3>6.1 Drug Allergy Alerts</h3>
-					<p>Drug allergy alerts inform physicians that their patient may be allergic whatever they’ve just prescribed. The physician may have accidentally overlooked the allergy. They’ll need to weigh the drug’s potential risks against its potential benefits, and either go forward with the prescription or cancel it. Let’s look at a simple clinical scenario.</p>
+					<p>Drug allergy alerts inform physicians that their patient may be allergic to whatever they’ve just prescribed. The physician may have accidentally overlooked the allergy. They’ll need to weigh the drug’s potential risks against its potential benefits, and either go forward with the prescription or cancel it. Let’s look at a simple clinical scenario.</p>
 					<div class="scenario">
 						<h5>Clinical Scenario &mdash; Drug Allergy Alert</h5>						
 						<p>Mr. Martin is a 60-year-old who, barring one exception, was in good health until a decade ago when he was hospitalized after a severe automobile accident. At that time, he had a documented allergy (generalized hives, itching, and facial swelling) to the IV drug Unasyn, an antibiotic drug combination that contains sulbactam and ampicillin, which is a member of the penicillin family.</p>
-						<p>Today he is visiting Dr. Barnes, his primary care doctor, with symptoms of acute sinusitis. The problem has been going on for almost 2 weeks and is not improving. Dr. Barnes’s first choice of treatment is Augmentin (clavulanate plus amoxicillin, which is also a member of the pencillin family). She glances at the allergy list in the patient header, looking for the word “penicillin” but does not see it. The term “Unasyn” did not catch her attention, perhaps because she wasn’t thinking about compounds that contained drugs closely related to penicillin. She enters an e-prescription for Augmentin, but then a drug alert interrupts her workflow. The alert identifies the patient’s allergy to Unasyn, the symptoms and severity, and Unasyn’s chemical similarity to Augmentin. Dr. Barnes reconsiders her decision and chooses doxycycline, a different antibiotic.</p>
+						<p>Today he is visiting Dr. Barnes, his primary care doctor, with symptoms of acute sinusitis. The problem has been going on for almost two weeks and is not improving. Dr. Barnes’s first choice of treatment is Augmentin (clavulanate plus amoxicillin, which is also a member of the pencillin family). She glances at the allergy list in the patient header, looking for the word “penicillin” but does not see it. The term “Unasyn” did not catch her attention, perhaps because she wasn’t thinking about compounds that contained drugs closely related to penicillin. She enters an e-prescription for Augmentin, but then a drug alert interrupts her workflow. The alert identifies the patient’s allergy to Unasyn, the symptoms and severity, and Unasyn’s chemical similarity to Augmentin. Dr. Barnes reconsiders her decision and chooses doxycycline, a different antibiotic.</p>
 					</div>
 					<p>Alerts need to support the physician’s thinking process by addressing five questions:</p>
 					<ol>
@@ -101,7 +101,7 @@
 					<p>Drug interactions are far more complex than drug allergies. A drug allergy either exists or doesn't, though there's of course some room for doubt about whether an allergy was truly the issue at the time, whether the allergy still persists, and what the nature of the reaction was. With drug interactions, there are more variables: the strength of scientific evidence for the interaction, the severity category for the interaction (usually 3-5 levels from mild to severe), the organizational threshold for displaying alerts based on alert severity, and patient variables (age, weight, pregnancy, and renal function).</p>
 					<div class="scenario">
 						<h5>Clinical Scenario - Severe Drug Interaction</h5>
-						<p>Mr. Martin, our 60-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed her with a bladder infection. As she started to order the antibiotic, ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
+						<p>Mr. Martin, our 60-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed him with a bladder infection. As she started to order the antibiotic, ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-3">
@@ -151,7 +151,7 @@
 							<li>Prevent alerts where possible:
 								<ol>
 									<li>Offer only choices that will not trigger alerts (for instance, only offer available dosage forms)</li>
-									<li>Provide cognitive support to help physician’s make decisions that will not trigger alerts</li>
+									<li>Provide cognitive support to help physicians make decisions that will not trigger alerts</li>
 									<li>Adjust alert thresholds to present users with only the most important alerts</li>
 								</ol>
 							</li>

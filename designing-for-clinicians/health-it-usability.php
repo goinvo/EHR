@@ -42,7 +42,7 @@
 						<h3>9.1 Usability</h3>
 					</div>
 					<p>In layman’s terms usability refers to how easy or intuitive an interface is to use. Successful designers go beyond this vague notion of “user friendliness” and have a thorough understanding of their user’s community and the tasks they need to accomplish. They also use methodologies validated during <a href="http://www.measuringusability.com/blog/usability-history.php" target="blank" class="link">decades of research</a> on human computer interaction.</p>
-					<p>The International Standards for Human Computer Interaction (HCI) and usability (i.e., ISO 9241-11) define usability as the “effectiveness, efficiency, and satisfaction of a user performance within a specific context, such as physical and social environment.” But usability alone is not enough, an interface also must have good utilit. Good utility means the interface provides the features needed to complete users’ tasks. Successful applications combine good utility and good usability.</p>
+					<p>The International Standards for Human Computer Interaction (HCI) and usability (i.e., ISO 9241-11) define usability as the “effectiveness, efficiency, and satisfaction of a user performance within a specific context, such as physical and social environment.” But usability alone is not enough, an interface must also have good utility. Good utility means the interface provides the features needed to complete users’ tasks. Successful applications combine good utility and good usability.</p>
 					<p>Health Information Technology (Health IT) usability issues are similar to the information technology usability issues of other life-critical systems such as air traffic control or nuclear power plants. Users in all of these fields are experts in their domain, but they need rapid, error free information technology performance to do their jobs effectively.</p>
 					<p>Usability problem spots with an interface design might be indicated by workarounds, redundancies, or slow task completion, all of which could possibly lead to general user burnout. Health IT applications with usability problems are more than just annoying to use, they can cause serious patient harm (e.g. wrong medication or dangerous dosage, wrong treatment, missed results, wrong patient selection leading to a patient not receiving treatment and another receiving unintended treatment, etc.).</p>
 					<p>There is an art as well as a science to good interface design. Donald Norman’s seminal book: <em>The Design of Everyday Things</em> (initially named <em>The Psychology of Everyday Things</em>), highlighted the importance of balancing the imperatives of efficiency and aesthetics in the design process.</p>
@@ -54,7 +54,7 @@
 						<li>Errors: How many errors do users make while interacting with the system? How severe are these errors, and how easily can users correct them?</li>
 						<li>Satisfaction: How pleasant do users find their experience of interacting with the system?</li>
 					</ul>
-					<p>The human factors chapter covers the large body of evidence from many different sources that illustrate the importance of usability. If an interface is difficult to use, people will either not use it all or be less productive when forced to.</p>
+					<p>The human factors chapter covers the large body of evidence from many different sources that illustrate the importance of usability. If an interface is difficult to use, people will simply not use it or experience a decline in productivity when they are forced to use it.</p>
 				</div>
 			</div>
 		</section><!--end section usability-->
@@ -113,13 +113,13 @@
 								</tr>
 								<tr>
 									<td>Survey or Questionnaire</td>
-									<td>A survey or questionnaire asks specific questions about an application’s effectiveness or can collect information about user demographics, preferences and experiences with the tool.</td>
+									<td>A survey or questionnaire asks specific questions about an application’s effectiveness or collects information about user demographics, preferences, and experiences with the tool.</td>
 									<td>Surveys can provide developers with feedback about a variety of design issues throughout the product's lifecycle.</td>
 								</tr>
 								<tr>
 									<td>Think Aloud (Concurrent)</td>
-									<td>Participants in testing express their thoughts on the application while executing set tasks. Think alouds are also used in an exit interview when the user shown a recording of their session and asked to express their thoughts in retrospect.</td>
-									<td>This process can help gain insight into the thought flows of actual users as well help answer questions about why users are performing tasks a certain way.</td>
+									<td>Participants in testing express their thoughts on the application while executing set tasks. Think alouds are also used in an exit interview when the user is shown a recording of their session and asked to express their thoughts in retrospect.</td>
+									<td>This process can help gain insight into the thought flows of actual users as well as help answer questions about why users are performing tasks a certain way.</td>
 								</tr>
 								<tr>
 									<td>Usability Testing/Task Performance</td>
