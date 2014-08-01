@@ -506,19 +506,19 @@
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">2.5 c</span> Grab the Scrubber <span class="capt-desc">&mdash; Drag it across the timeline to look at more details about certain dates</span></div>
+									<div class="caption"><span class="ex-type">2.5 c</span> Grab the Scrubber <span class="capt-desc">&mdash; Drag it across the timeline to look at more details about certain dates.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" title="2.5 c Grab the Scrubber &mdash; Drag it across the timeline to look at more details about certain dates">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" class="scale-with-grid" alt="Drag the scrubber on the medication timeline" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">2.5 d</span> Dragging the Scrubber Further Back in Time <span class="capt-desc">&mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear</span></div>
+									<div class="caption"><span class="ex-type">2.5 d</span> Dragging the Scrubber Further Back in Time <span class="capt-desc">&mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" title="Dragging the Scrubber Further Back in Time &mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" class="scale-with-grid" alt="Medications that are currently inactive grey out" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">2.5 e</span> Show All Medications <span class="capt-desc">&mdash; Active medications are at the top, inactive medications are at the bottom</span></div>
+									<div class="caption"><span class="ex-type">2.5 e</span> Show All Medications <span class="capt-desc">&mdash; Active medications are at the top, inactive medications are at the bottom.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" title="Show all (active and inactive) medications. Active medications are at the top while the inactive are at the bottom.">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" class="scale-with-grid" alt="Show All Medications" /></a>
 								</div></li>
@@ -530,7 +530,7 @@
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">2.5 g </span>Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication <span class="capt-desc">&mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table</div>
+									<div class="caption"><span class="ex-type">2.5 g </span>Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication <span class="capt-desc">&mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" title="Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication &mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Expanding a Bar Reveals the Details" /></a>
 								</div></li>
@@ -610,19 +610,19 @@
 											<td></td>
 										</tr>
 										<tr>
-											<td><strong>Manage treatment decisions</strong> <br /><span>(big picture overview to guide decisions)</span></td>
+											<td><strong>Manage treatment decisions</strong> <br /><span>(Big picture overview to guide decisions)</span></td>
 											<td>●</td>
 											<td>●</td>
 											<td></td>
 										</tr>
 										<tr>
-											<td><strong>Renew medications</strong> <br /><span>(for when to renew and for making adjustments)</span></td>
+											<td><strong>Renew medications</strong> <br /><span>(For when to renew and for making adjustments)</span></td>
 											<td></td>
 											<td>●</td>
 											<td></td>
 										</tr>
 										<tr>
-											<td><strong>Perform medication reconciliation</strong> <br /><span>(comparing two or more lists at transitions of care)</span></td>
+											<td><strong>Perform medication reconciliation</strong> <br /><span>(Comparing two or more lists at transitions of care)</span></td>
 											<td></td>
 											<td>● <br /><span>but see later chapter</span></td>
 											<td></td>
@@ -635,15 +635,15 @@
 										</tr>
 										<tr>
 											<td><strong>Manage temporary changes</strong>
-												<p>brief courses (steroid bursts or intermittent treatment such as chemotherapy)</p>
-												<p><strong>adjustments around procedures</strong> (adjustments &amp; temporary medications needed around the time of surgery)</p>
+												<p>Brief courses (steroid bursts or intermittent treatment such as chemotherapy)</p>
+												<p><strong>Adjustments around procedures</strong> (adjustments &amp; temporary medications needed around the time of surgery)</p>
 											</td>
 											<td></td>
 											<td>● <br /><span>If sort by "expected stop date"</span></td>
 											<td></td>
 										</tr>
 										<tr>
-											<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(what was effective, what wasn't, and why?)</span></td>
+											<td><strong>Recall tried &amp; failed medication courses</strong> <br /><span>(What was effective, what wasn't, and why?)</span></td>
 											<td></td>
 											<td></td>
 											<td>● <br /><span>But only if the details are recorded by the users</span></td>
@@ -681,22 +681,22 @@
 											<td></td>
 										</tr>
 										<tr>
-											<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" class="link" target="blank">pill organizer</a></strong> <br /><span>(shows which pills go in which slots of those little weekly boxes)</span></td>
+											<td><strong>Restock the <a href="http://en.wikipedia.org/wiki/Pill_organizer" class="link" target="blank">pill organizer</a></strong> <br /><span>(Shows which pills go in which slots of those little weekly boxes)</span></td>
 											<td></td>
 											<td>● <br /><span>barely</span></td>
 										</tr>
 										<tr>
-											<td><strong>Remember daily doses</strong> <br /><span>(Reminds users about daily and less frequent doses, and "less than daily" doses too. Enables users to check items off the list when they’ve taken them.)</span></td>
+											<td><strong>Remember daily doses</strong> <br /><span>(Reminds users about daily and less frequent doses and "less than daily" doses. Enables users to check items off the list when they’ve taken them)</span></td>
 											<td>●</td>
 											<td>●</td>
 										</tr>
 										<tr>
-											<td><strong>Remember pharmacy refills</strong> <br /><span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals.)</span></td>
+											<td><strong>Remember pharmacy refills</strong> <br /><span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals)</span></td>
 											<td></td>
-											<td>● <br /><span>(would need data from pharmacy, or from bottle)</span></td>
+											<td>● <br /><span>Would need data from pharmacy, or from bottle</span></td>
 										</tr>
 										<tr>
-											<td><strong>Update list at end of doctor visit</strong> <br /><span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter.)</span></td>
+											<td><strong>Update list at end of doctor visit</strong> <br /><span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter)</span></td>
 											<td></td>
 											<td>●</td>
 										</tr>
