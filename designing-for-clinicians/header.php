@@ -12,7 +12,7 @@
 				<li><a href="../medication-list/">Interactive Table</a></li>
 				<li><a href="../timeline/">Timeline</a></li>
 				<li><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a></li>
-				<li><a href="../Inspired_EHRs_Designing_for_Clinicians.pdf" target="blank">PDF</a></li>
+				<li><a href="../Inspired_EHRs_Designing_for_Clinicians.pdf" target="blank"  onclick="_gaq.push(['_trackEvent','Download','PDF',this.href]);">PDF</a></li>
 				<li><a href="https://github.com/goinvo/EHR" target="blank">GitHub</a></li>
 				<?php echo '<li><a href="mailto:feedback@inspiredEHRs.org?Subject=EHR%20feedback:%20' . $pageTitle . '" target="_top">Feedback</a></li>'; ?>
 			</ul>

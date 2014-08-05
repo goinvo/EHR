@@ -65,3 +65,12 @@
   ga('send', 'pageview');
 
 </script>
+
+<section class="citations">
+			<div class="container">
+				<div class="sixteen columns">
+					<hr />
+					<div class="disclaimer">
+						<p>This book was last updated 5 Aug 2014.</p>
+						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
+						

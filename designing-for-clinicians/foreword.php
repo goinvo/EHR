@@ -55,6 +55,11 @@
 		</section>
 		
 		<?php include './footer.php'; ?>
+
+					</div>
+				</div>
+			</div>
+		</section>
 	
 	</section>
 </div><!--end wrapper-->

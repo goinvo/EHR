@@ -452,12 +452,6 @@
 		
 		<?php include './footer.php'; ?>
 
-		<section class="citations">
-			<div class="container">
-				<div class="sixteen columns">
-					<hr />
-					<div class="disclaimer">
-						<p>The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.</p>
 						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project webpage</a>.</Twinlist>
 					</div>
 					<hr />
