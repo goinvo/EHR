@@ -252,12 +252,12 @@
 					<div class="example" id="int-2-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.1</span>
-							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Interactive Table Prototype</a> &mdash; <a href="../interactive-table/interactive-table.html" target="blank" class="button">Try it out!</a></span>
+							<span class="ex-caption"><a href="../medication-list/" class="link" target="blank">Interactive Table Prototype</a> &mdash; <a href="../medication-list/" target="blank" class="button">Try it out!</a></span>
 						</div>
 						<a href="../interactive-table/interactive-table.html" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" /></a>
 						<div class="print-only">
-							<p>Try it out: <a>InspiredEHRs.com/interactive-table/</a></p>
+							<p>Try it out: <a>InspiredEHRs.org/medication-list/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
 						</div>
 					</div>
@@ -379,12 +379,12 @@
 					<div class="example" id="int-2-2">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 2.2</span>
-							<span class="ex-caption"><a href="../interactive-table/interactive-table.html" class="link" target="blank">Interactive Table Prototype</a> &mdash; <a href="../interactive-table/interactive-table.html" target="blank" class="button">Try it out!</a></span>
+							<span class="ex-caption"><a href="../medication-list/" class="link" target="blank">Interactive Table Prototype</a> &mdash; <a href="../medication-list/" target="blank" class="button">Try it out!</a></span>
 						</div>
 						<a href="../interactive-table/interactive-table.html" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" /></a>
 						<div class="print-only">
-							<p>Try it out: <a>InspiredEHRs.com/interactive-table/</a></p>
+							<p>Try it out: <a>InspiredEHRs.org/medication-list/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
 						</div>
 					</div>
@@ -429,7 +429,7 @@
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" title="Show All Medications (Active &amp; Inactive) &mdash; Lisinopril had been stopped">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" class="scale-with-grid" alt="Show all medications" /></a>
 						<div class="print-only">
-							<p>Try it out: <a>InspiredEHRs.com/timeline/</a></p>
+							<p>Try it out: <a>InspiredEHRs.org/timeline/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
 						</div>
 					</div>
@@ -565,7 +565,7 @@
 						<a href="../timeline/" target="blank">
 							<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" /></a>
 						<div class="print-only">
-							<p>Try it out: <a>InspiredEHRs.com/timeline/</a></p>
+							<p>Try it out: <a>InspiredEHRs.org/timeline/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
 						</div>
 					</div>
