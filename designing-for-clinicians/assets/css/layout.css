@@ -614,6 +614,7 @@
 		border-top: solid 1px #dedede;
 		margin-bottom: 20px;
 		padding: 5px 0px 5px 0px;
+		font-size: 14px;
 	}
 	.menu ul {
 		margin: 0px 0px 0px 0px;
@@ -974,6 +975,83 @@
 		margin-bottom: 40px;
 	}
 
+	.feedback-pg .header, .impact-pg .header{
+		margin-top: 20px;
+	}
+	.feedback-pg h3 .note {
+		font-size: 14px;
+	}
+	.feedback-pg .citations, .feedback-pg nav,
+	.impact-pg .citations, .impact-pg nav {
+		display: none;
+	}
+
+	#contact-area {
+		width: 600px;
+		margin-top: 25px;
+		margin-left: 150px;
+	}
+
+	#contact-area input, #contact-area textarea {
+		padding: 5px;
+		width: 471px;
+		font-family: Helvetica, sans-serif;
+		line-height: 32px;
+		margin: 0px 0px 10px 0px;
+		border: 2px solid #dadada;
+		border-radius: 3px;
+		background: #fafafa;
+	}
+
+	#contact-area textarea {
+		height: 90px;
+		margin-top: -25px;
+	}
+
+	#contact-area textarea:focus, #contact-area input:focus {
+		border: 2px solid #dadada;
+	}
+
+	#contact-area input.button {
+		width: 100px;
+		float: right;
+		background: #eee; /* Old browsers */
+		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
+		background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
+		background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Chrome10+,Safari5.1+ */
+		background: #eee -o-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Opera11.10+ */
+		background: #eee -ms-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* IE10+ */
+		background: #eee linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* W3C */
+	  border: 1px solid #aaa;
+	  border-top: 1px solid #ccc;
+	  border-left: 1px solid #ccc;
+	  -moz-border-radius: 3px;
+	  -webkit-border-radius: 3px;
+	  border-radius: 3px;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 11px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  text-shadow: 0 1px rgba(255, 255, 255, .75);
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 8px 10px;
+	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  margin-right: 115px;
+	}
+
+	#contact-area label {
+		color: #adadad;
+		font-family: Helvetica, sans-serif;
+		font-weight: normal;
+		margin-right: 15px;
+		width: 100px;
+		padding-top: 5px;
+		
+	}
+
 
 /* #Media Queries
 ================================================== */
@@ -1012,6 +1090,9 @@
 		}
 		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
 			display: none;
+		}
+		#contact-area {
+			margin-left: 0px;
 		}
 	}
 
@@ -1054,6 +1135,15 @@
 		}
 		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
 			display: none;
+		}
+		#contact-area {
+			width: 400px;
+		}
+		#contact-area input, #contact-area textarea {
+			width: 400px;
+		}
+		#contact-area input.button {
+			margin-right: -15px;
 		}
 	}
 
@@ -1105,5 +1195,14 @@
 		}
 		.sidebar .sidebar-table tbody td span, .sidebar .sidebar-table tbody td p{
 			display: none;
+		}
+		#contact-area {
+			width: 400px;
+		}
+		#contact-area input, #contact-area textarea {
+			width: 300px;
+		}
+		#contact-area input.button {
+			margin-right: 85px;
 		}
 	}
