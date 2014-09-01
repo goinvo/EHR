@@ -26,19 +26,19 @@
 		<header class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
-					<h2>Impact</h2>
-					<div class="subheader">stories about Inspired EHRs: Desinging for Clinicians</div>
+					<h2>Impact Stories</h2>
+					<div class="subheader">Stories about Inspired EHRs: Desinging for Clinicians</div>
 				</div>
 			</div>
 		</header>
 
-		<section class="section" id="acknowledgements-sect">
+		<section class="section" id="impact-sect">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Share Your Story</h3>
+					<!--<h3>Impact</h3>
 					<p>We want to hear how <em>Inspired EHRs</em> has helped you or team.</p>
 					
 					<div id="contact-area">
@@ -59,35 +59,53 @@
 						</div>
 						<?php
 							//form data
-							$name = $_POST['name'];	
-							$email = $_POST['email'];
-							$message = $_POST['message'];
-							$blank = $_POST['blank'];
-							$to = 'feedback@inspiredehrs.org';
+							//$name = $_POST['name'];	
+							//$email = $_POST['email'];
+							//$message = $_POST['message'];
+							//$blank = $_POST['blank'];
+							//$to = 'feedback@inspiredehrs.org';
 							//$from = $email;
-							$from = 'feedback@inspiredehrs.org';
-							$subject = 'Impact story about Inspired EHRs: Designing for Clinicians';
+							//$from = 'feedback@inspiredehrs.org';
+							//$subject = 'Impact story about Inspired EHRs: Designing for Clinicians';
 							
 
-							$body = "From: " . $name . "\n";
-							$body .= "Email: " . $email . "\n \n"; 
-							$body .= "Message: \n" . $message . "\n";
+							//$body = "From: " . $name . "\n";
+							//$body .= "Email: " . $email . "\n \n"; 
+							//$body .= "Message: \n" . $message . "\n";
 
-							$headers = "From:" . $from . "\r\n";
-							$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
+							//$headers = "From:" . $from . "\r\n";
+							//$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
 
-							if($_POST['submit'] && $blank == ''){
-								mail($to, $subject, $body, $headers);
+							//if($_POST['submit'] && $blank == ''){
+								//mail($to, $subject, $body, $headers);
 
-								if(mail($to, $subject, $body, $headers)) {
-									echo "<p>Thanks for your email. We'll get back to you ASAP.</p>";
-								} else {
-									echo "<p>There was an issue, try sending again.</p>";
-								}
-							} else if($_POST['submit'] && $blank != '' ) {
-								echo "<p>Sorry, your message looks like spam, so it was not sent.</p>";
-							}
+								//if(mail($to, $subject, $body, $headers)) {
+									//echo "<p>Thanks for your email. We'll get back to you ASAP.</p>";
+								//} else {
+									//echo "<p>There was an issue, try sending again.</p>";
+								//}
+							//} else if($_POST['submit'] && $blank != '' ) {
+								//echo "<p>Sorry, your message looks like spam, so it was not sent.</p>";
+							//}
 						?>
+					</div>-->
+
+					<div id="impact-stories">
+						
+						<div class="impact">
+							<p>"I sent this around to our User Experience team here, and there was a lot of discussion and appreciation for the work you’ve done."</p>
+							<p class="quote-author"><em>&mdash; EPIC Software Developer</em></p>
+						</div>
+						<hr>
+						<div class="impact">
+							<p>"We have already referenced your design for the allergies list. Your human factors and design principle sections has convinced a lot of my bosses to go in a new direction with design."</p>
+							<p class="quote-author"><em>&mdash; Marshfield Clinic User Experience Designer</em></p>
+						</div>
+						<hr>
+						<div class="impact">
+							<p>"With your permission, I'd like to link to your GitHub repo and homepage.  Your work has been invaluable to my team. We are actually building a product which will make your work invaluable to a lot of developers, so linking to your stuff will be great."</p>
+							<p class="quote-author"><em>&mdash; Doctrly startup, an API to allow developers to easily create EHR applications</em></p>
+						</div>
 					</div>
 
 				</div>

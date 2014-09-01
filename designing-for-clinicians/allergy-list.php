@@ -119,8 +119,8 @@
 				</div><!--end Before and After 4.1, 4.2-->
 
 				<div class="sixteen columns">
-					<p>In our "after" example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has 5 more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5”, or are there “5 more” to be seen?).</p>
-					<p>Including the Allergy List in the patient demographic banner, as we've chosen to do, is only one means of incorporating this list into the workflow. The Allergy List could only pop up in the workflow when the physician enters a new medication prescription or renewal (<a href="#fig-4-3">Figure 4.3</a>). This would still make the Allergy List readily available to a physician making prescriptions. Most other workflows such as reviewing lab results or vital signs, or reading reports, don’t require that the physician be aware of a patient's medication allergies.</p>
+					<p>In our "after" example (<a href="#fig-4-2">Figure 4.2</a>), by not listing the symptoms we were able to show more substances. The "5 more" indicator is more obvious and helpful than the hover-function it replaces, clearly telling users that the patient has five more drug allergies which are not displayed in this concise view. The number without the word “more” could be confusing. At first glance, our minds will try to jump to a conclusion about what the number means (Is it a “total of 5,” or are there “5 more” to be seen?).</p>
+					<p>Including the Allergy List in the patient demographic banner, as we've chosen to do, is one means of incorporating this list into the workflow. The Allergy List could only pop up in the workflow when the physician enters a new medication prescription or renewal (<a href="#fig-4-3">Figure 4.3</a>). This would still make the Allergy List readily available to a physician making prescriptions. Most other workflows such as reviewing lab results or vital signs or reading reports, don’t require that the physician be aware of a patient's medication allergies.</p>
 					<div class="example" id="fig-4-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.3</span>
@@ -144,18 +144,18 @@
 					<div class="scenario">
 						<h5>Clinical Scenario &mdash; Reviewing Allergy Details</h5>
 						<p>Dr. Barnes is seeing a 38-year-old father of four. For the last two days, the patient's throat has been getting increasingly sore. Five days ago, one of his children came home from school with a fever and headache. The patient’s rapid strep test indicates that he has strep throat.</p>
-						<p>Dr. Barnes would usually prescribe penicillin because it's cheap and effective. A few years ago, however, the patient had a severe reaction to penicillin, which included hives and a swelling of the lips. The physician's next choice would be cephalexin (Keflex). Because penicillin and cephalexin are chemically similar, if the patient's allergic reaction to penicillin was truly severe, he might also have an allergic reaction to cephalexin. Sometimes it is perfectly safe to prescribe.</p>
-						<p>Cephalexin can be perfectly safe for people with mild penicillin allergy. However people with severe penicillin allergy should avoid cephalexin. The third-choice alternatives would be clindamycin or azithromycin (Z-Pak), both of which are more expensive.</p>
+						<p>Dr. Barnes would usually prescribe penicillin because it's cheap and effective. A few years ago, however, the patient had a severe reaction to penicillin, which included hives and a swelling of the lips. The physician's next choice would be cephalexin (Keflex). Because penicillin and cephalexin are chemically similar, if the patient's allergic reaction to penicillin was truly severe, he might also have an allergic reaction to cephalexin. Other times it may perfectly safe to prescribe.</p>
+						<p>Cephalexin can be perfectly safe for people with a mild penicillin allergy. However people with a severe penicillin allergy should avoid cephalexin. The third-choice alternatives would be clindamycin or azithromycin (Z-Pak), both of which are more expensive.</p>
 					</div>
 					<p>Glancing at the patient demographic banner (<a href="#fig-4-4">Figure 4.4</a>), the physician can see some information, but she still needs more details. What exactly happened when the patient took this drug? Was the patient's reaction severe?</p>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-4-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.4</span>
-							<span class="ex-caption">Patient Demographic Danner <span class="capt-desc">&mdash; Shows only medication names</span></span>
+							<span class="ex-caption">Patient Demographic Danner <span class="capt-desc">&mdash; Shows only medication names.</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png">
-							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" title="Patient Demographic Danner &mdash; Shows only medication names.">
+							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" alt="Patient Demographic Danner &mdash; Shows only medication names." /></a>
 					</div>
 					
 					<p>To get this additional information, the physician will have to use the detailed table view (<a href="#fig-4-5">Figure 4.5</a>).</p>
@@ -163,13 +163,13 @@
 					<div class="example" id="fig-4-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.5</span>
-							<span class="ex-caption">Medication Allergy List <span class="capt-desc">&mdash; Table view shows details</span>
+							<span class="ex-caption">Medication Allergy List <span class="capt-desc">&mdash; Table view shows details.</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" /></a>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" title="Medication Allergy List &mdash; Table view shows details.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" alt="Medication Allergy List &mdash; Table view shows details." /></a>
 					</div>
 					
-					<p>With this list (<a href="#fig-4-5">Figure 4.5</a>), the physician or nurse can see the information they need. More important information is on the left, and less important information is on the right. The table is simple and effective. It shows limited information, and reduces the visual load on the user. By drilling a step deeper, the user can access further details.</p>
+					<p>With this list (<a href="#fig-4-5">Figure 4.5</a>), the physician or nurse can see the information they need. More important information is on the left, and less important information is on the right. The table is simple and effective. It shows limited information and reduces the visual load on the user. By drilling a step deeper, the user can access further details.</p>
 					
 					<div class="example" id="fig-4-6">
 						<div class="ex-title">
@@ -223,7 +223,7 @@
 					<p>Our physician wants to quickly edit two parts of the EHR's entry for the patient's reaction to Augmentin. She wants to provide information about the patient's symptom, nausea, and to change the reaction's category from allergy to side-effect. The doctor wants to work quickly, because other clinical tasks demand her attention. The developer’s task is to make adding and removing substances from the Allergy List quick and intuitive. Here are some details for developers to keep in mind while creating EHRs that meet physicians' needs:
 						<ul class="disc">
 							<li>Physicians often take on new patients and need to add several allergies to their lists, so make adding entries quick and effortless.</li>
-							<li>Younger patients often have no known medication allergies, so make it equally quick and effortless to record “No known medication allergies.”</li>
+							<li>Younger patients often have no known medication allergies, so make it equally quick and effortless to record, “No known medication allergies.”</li>
 							<li>Make recording the details of a reaction (the symptoms, date and severity) optional. Patients may not know or remember the details, and just recording the drug name can be enough to ensure the patient's safety.</li>
 							<li>Include an optional comment field for further information.</li>
 							<li>Make it easy to correct erroneous information.</li>
@@ -248,7 +248,7 @@
 					<div class="example" id="fig-4-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.9</span>
-							<span class="ex-caption">After: Simplified Dialog Requires Only Key Details <span class="capt-desc">&mdash; Removes less important information to a box in the lower screen</span></span>
+							<span class="ex-caption">After: Simplified Dialog Requires Only Key Details <span class="capt-desc">&mdash; Removes less important information to a box in the lower screen.</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="fancybox" data-fancybox-group="gallery-1" title="After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" >
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" /></a>
@@ -257,7 +257,7 @@
 
 				<div class="sixteen columns">
 					<p>The “after” example looks more straightforward, but is it as safe as the “before” example? Let’s look at the design details.</p>
-					<p>In the following screenshot (<a href="#fig-4-10">Figure 4.10</a>), only the highlighted areas are essential to the task of adding a substance to the Allergy List. The information we haven't highlighted is optional, but physicians trying to complete this task still have to look at it, evaluate it and ignore it. This unnecessary information overwhelms the physician, leading to <a href="./human-factors.php#info_chaos">information overload</a>.</p>
+					<p>In the following screenshot (<a href="#fig-4-10">Figure 4.10</a>), only the highlighted areas are essential to the task of adding a substance to the Allergy List. The information we haven't highlighted is optional, but physicians trying to complete this task still have to look at it, evaluate it, and ignore it. This unnecessary information overwhelms the physician, leading to <a href="./human-factors.php#info_chaos">information overload</a>.</p>
 				</div>
 				<div class="one-half column">
 					<div class="example" id="fig-4-10">
@@ -283,7 +283,7 @@
 					<p>Our "after" example (Figure 4.11) only includes the necessary data fields. The shaded section at the bottom offers physicians the ability to enter optional details. Our "after" design exemplifies the <a href="./human-factors.php#how-people-perceive">principle of least effort</a>.</p>
 					
 					<h5>4.4.2 Adding to the Allergy List</h5>
-					<p>When adding new entries to the Allergy Lists, nurses and physicians must:
+					<p>When adding new entries to the Allergy Lists, nurses and physicians might:
 						<ol>
 							<li>Find the name of the drug or substance from a list of possible choices.</li>
 							<li>Find the symptoms that characterized the patient's reaction from a list of symptom choices.</li>
@@ -311,14 +311,14 @@
 								</div></li>
 								<li id="gal-4-1-c"><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">4.1 c</span> After: Simplified visual path with fewer fields</div>
+									<div class="caption"><span class="ex-type">4.1 c</span> After: Simplified Visual Path with Fewer Fields</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" title="4.1 c After: Simplified visual path with fewer fields">
 										<img src="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" class="scale-with-grid" alt="Simplified allergy addition" /></a>
 								</div></li>
 							</ul>
 						</div>
 					</div><!--end gallery 4.1-->
-					<p>The simplified example's design (see <a href="#gal-4-1-c">Gallery 4.2 c</a>) can be faster and easier to use. It has a clear visual sequence, which makes it easier to navigate and thus more likely to be completed.</p>
+					<p>The simplified example's design (see <a href="#gal-4-1-c">Gallery 4.1 c</a>) can be faster and easier to use. It has a clear visual sequence, which makes it easier to navigate and thus more likely to be completed.</p>
 					<h5>4.4.3 Predictive Search Fields</h5>
 					<p>Predictive search fields can substantially reduce the mental effort and time it takes physicians to add entries to an Allergy List. Pushing the most likely results to the top of the list of predictive search results will make it easier for users to find what they're looking for. Users are far more likely to want to enter a simple description, like "cough," than they are to want to enter a more detailed result, such as "whooping cough" or "smoker's cough."</p>
 				</div>
@@ -326,24 +326,24 @@
 					<div class="example" id="fig-4-12">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.12</span>
-							<span class="ex-caption">Before: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; The search result listing shows the primary term, "cough," far down a visually busy list</span></span>
+							<span class="ex-caption">Before: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; The search result listing shows the primary term, "cough," far down a visually busy list.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" title="4.2 a Before: The search result listing shows the primary term, 'cough,' far down a visually busy list">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="4.2 a Before: The search result listing shows the primary term, 'cough,' far down a visually busy list" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" title="4.2 a Before: The search result listing shows the primary term, 'cough,' far down a visually busy list.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="4.2 a Before: The search result listing shows the primary term, 'cough,' far down a visually busy list." /></a>
 					</div>
 				</div>
 				<div class="one-half column">
 					<div class="example" id="fig-4-13">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.13</span>
-							<span class="ex-caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top</span></span>
+							<span class="ex-caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" title="List displays fewer results and pushes simpler, more frequently-chosen results to the top">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="List displays fewer results and pushes simpler, more frequently-chosen results to the top" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" title="List displays fewer results and pushes simpler, more frequently-chosen results to the top.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="List displays fewer results and pushes simpler, more frequently-chosen results to the top." /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
-					<p>As you can see, it is difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term's about a third of the way down the list, buried among many other terms.</p>
+					<p>As you can see, it is difficult to find the simple term “cough” in our “before” example (<a href="fig-4-12">Figure 4.12</a>). The term is about a third of the way down the list, buried among many other terms.</p>
 					<p>In our “after” example (<a href="fig-4-13">Figure 4.13</a>), the simple cough is at the top of the list. Other options are listed alphabetically further down the list, after a visual break.</p>
 				</div>
 			</div>

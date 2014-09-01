@@ -38,8 +38,8 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Take our reader survey <span class="note">(open until August 19)</span></h3>
-					<p>We sent this survey to members of the EHRA by email, but we welcome any reader to complete the survey to help us understand how well we are meeting your needs.
+					<h3>Take the <a href="https://missouri.qualtrics.com/SE/?SID=SV_4NjrNF849ussTB3" class="link" target="blank">survey</a></h3>
+					<p>This short survey should take about 5 minutes, if you've already looked at the book. We'll use this information to assess how well we met our goals of making a useful product for EHR development teams, and to plan future similar work.</p>
 					<p>Or send us an email with your feedback.</p>
 					
 					<div id="contact-area">

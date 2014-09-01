@@ -44,7 +44,7 @@
 					<p>In layman’s terms usability refers to how easy or intuitive an interface is to use. Successful designers go beyond this vague notion of “user friendliness” and have a thorough understanding of their user’s community and the tasks they need to accomplish. They also use methodologies validated during <a href="http://www.measuringusability.com/blog/usability-history.php" target="blank" class="link">decades of research</a> on human computer interaction.</p>
 					<p>The International Standards for Human Computer Interaction (HCI) and usability (i.e., ISO 9241-11) define usability as the “effectiveness, efficiency, and satisfaction of a user performance within a specific context, such as physical and social environment.” But usability alone is not enough, an interface must also have good utility. Good utility means the interface provides the features needed to complete users’ tasks. Successful applications combine good utility and good usability.</p>
 					<p>Health Information Technology (Health IT) usability issues are similar to the information technology usability issues of other life-critical systems such as air traffic control or nuclear power plants. Users in all of these fields are experts in their domain, but they need rapid, error free information technology performance to do their jobs effectively.</p>
-					<p>Usability problem spots with an interface design might be indicated by workarounds, redundancies, or slow task completion, all of which could possibly lead to general user burnout. Health IT applications with usability problems are more than just annoying to use, they can cause serious patient harm (e.g. wrong medication or dangerous dosage, wrong treatment, missed results, wrong patient selection leading to a patient not receiving treatment and another receiving unintended treatment, etc.).</p>
+					<p>Usability problem areas in an interface design might be indicated by workarounds, redundancies, or slow task completion, all of which could possibly lead to general user burnout. Health IT applications with usability problems are more than just annoying to use, they can cause serious patient harm (e.g. wrong medication or dangerous dosage, wrong treatment, missed results, wrong patient selection leading to a patient not receiving treatment and another receiving unintended treatment, etc.).</p>
 					<p>There is an art as well as a science to good interface design. Donald Norman’s seminal book: <em>The Design of Everyday Things</em> (initially named <em>The Psychology of Everyday Things</em>), highlighted the importance of balancing the imperatives of efficiency and aesthetics in the design process.</p>
 					<p>The 5 measures of usability are as follows:</p>
 					<ul class="disc">
@@ -93,7 +93,7 @@
 								</tr>
 								<tr>
 									<td>Exit Interview (Retrospective Think Aloud)</td>
-									<td>After a prior usability test, a moderator asks a user questions about how the system they've just interacted with performed.</td>
+									<td>After a prior usability test, a moderator asks a user questions about how the system performed.</td>
 									<td>Provides meaningful qualitative information, as well as highlighting what's working, what's not, and why.</td>
 								</tr>
 								<tr>
@@ -123,12 +123,12 @@
 								</tr>
 								<tr>
 									<td>Usability Testing/Task Performance</td>
-									<td>A usability test that presents representative end-users with scenarios, or specific tasks, designed to cover the major functionality of the software system and to simulate expected real-life usage patterns.</td>
-									<td>This process determines if the design works for the intended task or has gulfs between the user’s expectations of the design and the developer's concept of functionality. </td>
+									<td>Presents representative end-users with scenarios or specific tasks, designed to cover the major functionality of the software system and to simulate expected real-life usage patterns.</td>
+									<td>This process determines if the design works for the intended task or has gulfs between the user’s expectations of the design and the developer's concept of functionality.</td>
 								</tr>
 								<tr>
 									<td>Field Testing</td>
-									<td>Researchers evaluate products in the contexts in which those products would normally be used. </td>
+									<td>Researchers evaluate products in the contexts in which those products would normally be used.</td>
 									<td>People use things differently in different settings. Collecting data in the field can provide new insights that are not always discoverable in a lab or test center.</td>
 								</tr>
 							</tbody>
@@ -148,7 +148,7 @@
 					<h5>9.3.1 Usability and EHR</h5>
 					<p><strong>Health Information Management Systems Society (HIMSS)</strong>
 						<br/><a href="http://himss.org/usability" target="blank" class="link">EHR Usability Basics</a></p>
-					<p><strong>HIMSS</strong> is a global, cause-based, not-for-profit organization that focuses improving healthcare through improving and distributing information technology (IT). This site includes resources related to EHR usability evaluation and design.</p>
+					<p><strong>HIMSS</strong> is a global, cause-based, not-for-profit organization that focuses on improving healthcare through improving and distributing information technology (IT). This site includes resources related to EHR usability evaluation and design.</p>
 					<p><strong>National Institute of Standards and Technology</strong>
 						<br/><a href="http://www.nist.gov/healthcare/usability/" target="blank" class="link">Health Information Technology / Usability</a></p>
 					<p>This site summarizes NIST's work on Health IT. It contains links to selected publications, and to records of NIST's conference proceedings. See in particular:

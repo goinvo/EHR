@@ -42,7 +42,7 @@
 					</div>
 					
 					<p>We are grateful to the many people and organizations that provided support, feedback, and general encouragement for this project.</p>
-					<p>We received feedback and suggestions from an advisory panel and many other reviewers.  Academic researchers contributed their expertise in design, and their understanding of the human factors involved and current research. The advisory panel also included clinicians who are active users of EHRs and other health IT products. These users brought their keen personal experience and expertise to bear on the project.</p>
+					<p>We received feedback and suggestions from an advisory panel and many other reviewers. Academic researchers contributed their expertise in design and their understanding of the human factors involved and current research. The advisory panel also included clinicians who are active users of EHRs and other health IT products. These users brought their keen personal experience and expertise to bear on the project.</p>
 					<p>Several members of the Electronic Health Records Association (EHRA) and other HealthIT professionals participated in the three design workshops we organized during the course of the project. Others read early drafts of the book and provided feedback and suggestions.</p>
 					<p>Finally we thank the California HealthCare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT for supporting this project.</p>
 					
@@ -94,7 +94,7 @@
 						</ul>
 
 					<h5>Electronic Health Records Association</h5>
-					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshop and dissemination efforts.</p>
+					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshops and dissemination efforts.</p>
 					
 					<h5>Funding Supporters</h5>
 					<p><a href="http://www.chcf.org/" target="blank">California HealthCare Foundation</a><br/>
