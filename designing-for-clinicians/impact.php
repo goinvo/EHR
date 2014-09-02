@@ -1,4 +1,4 @@
-<?php $pageTitle='Feedback'; ?>
+<?php $pageTitle='Impact'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -17,7 +17,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body class="feedback-pg">
+<body class="impact-pg">
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
