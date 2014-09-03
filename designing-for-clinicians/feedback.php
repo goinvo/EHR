@@ -38,10 +38,9 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Take the <a href="https://missouri.qualtrics.com/SE/?SID=SV_4NjrNF849ussTB3" class="link" target="blank">survey</a></h3>
+					<h3>Take the <a href="https://missouri.qualtrics.com/SE/?SID=SV_4NjrNF849ussTB3" class="link" target="_blank">survey</a></h3>
 					<p>This short survey should take about 5 minutes, if you've already looked at the book. We'll use this information to assess how well we met our goals of making a useful product for EHR development teams, and to plan future similar work.</p>
 					<p>Or send us an email with your feedback.</p>
-					
 					<div id="contact-area">
 						<form method="post" action="feedback.php">
 							<label for="name">Name</label>
@@ -57,6 +56,7 @@
 
 							<input type="submit" name="submit" value="Submit" class="button" />
 						</form>
+						
 						</div>
 						<?php
 							//form data
@@ -64,10 +64,11 @@
 							$email = $_POST['email'];
 							$message = $_POST['message'];
 							$blank = $_POST['blank'];
-							$to = 'feedback@inspiredehrs.org';
+							$to = 'feedback@inspiredehrs.org';//'feedback@inspiredehrs.org';
 							//$from = $email;
 							$from = 'feedback@inspiredehrs.org';
 							$subject = 'Feedback for Inspired EHRs: Designing for Clinicians';
+							$formok = true;
 							
 
 							$body = "From: " . $name . "\n";
@@ -77,16 +78,38 @@
 							$headers = "From:" . $from . "\r\n";
 							$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
 
-							if($_POST['submit'] && $blank == ''){
-								mail($to, $subject, $body, $headers);
+							
 
-								if(mail($to, $subject, $body, $headers)) {
+							if($_POST['submit']){
+								if(empty($name)){
+									$formok = false;
+									echo "<p>You have not entered a name.</p>";
+								}
+								
+								//validate email address is not empty
+								if(empty($email)){
+									$formok = false;
+									echo "<p>You have not entered a valid email address.</p>";
+								//validate email address is valid
+								}
+								
+								//validate message is not empty
+								if(empty($message)){
+									$formok = false;
+									echo "<p>You have not entered a message.</p>";
+								}
+
+								if(!empty($blank)){
+									$formok = false;
+									echo "<p>Sorry, your message looks like spam, so it was not sent.</p>";
+								}
+
+								if ($formok = true && mail($to, $subject, $body, $headers)) {
 									echo "<p>Thanks for your email. We'll get back to you ASAP</p>";
 								} else {
 									echo "<p>There was an issue, try sending again.</p>";
 								}
-							} else if($_POST['submit'] && $blank != '' ) {
-								echo "<p>Sorry, your message looks like spam, so it was not sent.</p>";
+								
 							}
 						?>
 					</div>
