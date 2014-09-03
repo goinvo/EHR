@@ -70,8 +70,8 @@
 							<span class="ex-type">Figure 6.1</span>
 							<span class="ex-caption">Before: A Penicillin Family Drug-Allergy Alert</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" title="Before: A Penicillin Family Drug-Allergy Alert">
-							<img src="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" class="scale-with-grid" alt="Before: A Penicillin Family Drug-Allergy Alert" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" title="Figure 6.1 - Before: A Penicillin Family Drug-Allergy Alert">
+							<img src="./assets/images/examples/drug-alerts/DrugAllergyAlertCerner2014_Unasyn_AugmentinRx.png" class="scale-with-grid" alt="Figure 6.1 - Before: A Penicillin Family Drug-Allergy Alert" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -80,8 +80,8 @@
 							<span class="ex-type">Figure 6.2</span>
 							<span class="ex-caption">After: A Penicillin Family Drug-Allergy <span class="capt-desc">&mdash; A simplified design with fewer options and concise text.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" title="After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" class="scale-with-grid" alt="After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" title="Figure 6.2 - After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0000_DrugAllergyAlert-2014-c.png" class="scale-with-grid" alt="Figure 6.2 - After: A Penicillin Family Drug-Allergy - A simplified design with fewer options and concise text" /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -109,8 +109,8 @@
 							<span class="ex-type">Figure 6.3</span>
 							<span class="ex-caption">A Passive Alert</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" title="A Passive Alert">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" class="scale-with-grid" alt="A Passive Alert" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" title="Figure 6.3 - A Passive Alert">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0009_passive-alert.png" class="scale-with-grid" alt="Figure 6.3 - A Passive Alert" /></a>
 					</div>
 
 					<p>The passive alert appears in the corner of the EHR screen, but does not interrupt the physician’s workflow. The yellow bar with an alert icon that appears in the user's peripheral vision is a salient visual signal because it is based on preattentive attributes. Without reading it, the physician can detect both the alert's existence and it's degree of severity.</p>
@@ -121,8 +121,8 @@
 							<span class="ex-type">Figure 6.4</span>
 							<span class="ex-caption">An Interruptive Alert <span class="capt-desc">&mdash; Requires the user to make a choice before dismissing the alert.</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" title="An Interruptive Alert - requires the user to make a choice before dismissing the alert.">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="An Interruptive Alert - requires the user to make a choice before dismissing the alert." /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" title="Figure 6.4 - An Interruptive Alert - Requires the user to make a choice before dismissing the alert.">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="Figure 6.4 - An Interruptive Alert - Requires the user to make a choice before dismissing the alert." /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-5">
@@ -130,8 +130,8 @@
 							<span class="ex-type">Figure 6.5</span>
 							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the 'Continue' Button<span class="capt-desc"> &mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Once the physician makes a choice, the system enables the 'Continue' button">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Once the physician makes a choice, the system enables the 'Continue' button." /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Figure 6.5 - Once the physician makes a choice, the system enables the 'Continue' button">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Figure 6.5 - Once the physician makes a choice, the system enables the 'Continue' button." /></a>
 					</div>
 				</div>
 			</div>
@@ -186,8 +186,8 @@
 							<span class="ex-type">Figure 6.6</span>
 							<span class="ex-caption">Allow Users to Customize Certain Drug Alerts</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" title="Allow Users to Customize Certain Drug Alerts">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" class="scale-with-grid" alt="Allow Users to Customize Certain Drug Alerts" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" title="Figure 6.6 - Allow Users to Customize Certain Drug Alerts">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0001_DrugAllergyAlert-2014c-w-details.png" class="scale-with-grid" alt="Figure 6.6 - Allow Users to Customize Certain Drug Alerts" /></a>
 					</div>
 					<div class="quicktip" id="">
 						<div class="sidebar cf">
@@ -206,8 +206,8 @@
 							<span class="ex-type">Figure 6.7</span>
 							<span class="ex-caption">Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" title="Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" class="scale-with-grid" alt="Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" title="Figure 6.7 - Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0002_DrugAllergyAlert-2014-c-leave-feedback.png" class="scale-with-grid" alt="Figure 6.7 - Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts" /></a>
 					</div>
 				</div>
 			</div>
@@ -230,8 +230,8 @@
 							<span class="ex-type">Figure 6.8</span>
 							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc"> &mdash; Bold type indicates preferable, safer choices</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Figure 6.8 - Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Figure 6.8 - Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-9">
@@ -239,8 +239,8 @@
 							<span class="ex-type">Figure 6.9</span>
 							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title=" Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title="Figure 6.9 - Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Figure 6.9 - Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" class="fig-6-10">
@@ -248,8 +248,8 @@
 							<span class="ex-type">Figure 6.10</span>
 							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; Once the physician has addressed all alerts, the system activates the Continue button</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
-							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
+						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Figure 6.10 - Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
+							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Figure 6.10 - Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<p>This gallery shows a design option for displaying multiple drug alerts on a smartphone.</p>
@@ -262,38 +262,38 @@
 							<ul>
 								<li><div>
 									<div class="caption"><span class="ex-type">6.1 a</span> One Allergy Alert and Three Drug-Drug Interactions</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" title="6.1 a One allergy alert and three drug-drug interactions">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="6.1 a One allergy alert and three drug-drug interactions" /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" title="Gallery 6.1 a - One allergy alert and three drug-drug interactions">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0000_main.png" class="scale-with-grid" alt="Gallery 6.1 a - One allergy alert and three drug-drug interactions" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 b</span> More Detailed Display <span class="capt-desc">&mdash; Allows the physician to address the allergy alert</span></div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="6.1 b More Detailed Display &mdash; Allows the physician to address the allergy alert">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="More Detailed Display &mdash; Allows the physician to address the allergy alert" /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="Gallery 6.1 b - More Detailed Display &mdash; Allows the physician to address the allergy alert">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="Gallery 6.1 b - More Detailed Display - Allows the physician to address the allergy alert" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 c</span> Physician Taps the “Stop” Button <span class="capt-desc">&mdash; The display moves on, bringing up the next alert screen</span></div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="6.1 c Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen" /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="Gallery 6.1 c - Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="Gallery 6.1 c - Physician Taps the “Stop” Button - The display moves on, bringing up the next alert screen" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 d</span> A Drug-Drug Interaction Alert with Three Possible Actions <span class="capt-desc">&mdash; Stop the first drug, stop the second, or continue both.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both." /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions - Stop the first drug, stop the second, or continue both." /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 e</span> Stopping Cipro Calls Up the Next Drug-Drug Alert.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" title="Stopping Cipro calls up the next drug-drug alert.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" class="scale-with-grid" alt="Stopping Cipro calls up the next drug-drug alert." /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" title="Gallery 6.1 e - Stopping Cipro calls up the next drug-drug alert.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0007_dd2-touch.png" class="scale-with-grid" alt="Gallery 6.1 e - Stopping Cipro calls up the next drug-drug alert." /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 e</span> After the Physician Has Addressed All the Alerts <span class="capt-desc">&mdash; He can use the final review screen to look over and modify his decisions.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions.">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions." /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="Gallery 6.1 f - After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions.">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="Gallery 6.1 f - After the Physician Has Addressed All the Alerts - He can use the final review screen to look over and modify his decisions." /></a>
 								</div></li>
 							</ul>
 						</div>

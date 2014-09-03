@@ -27,7 +27,7 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>Impact Stories</h2>
-					<div class="subheader">Stories about Inspired EHRs: Desinging for Clinicians</div>
+					<div class="subheader">Stories about Inspired EHRs: Designing for Clinicians</div>
 				</div>
 			</div>
 		</header>
@@ -61,13 +61,13 @@
 						<h3>Share your story</h3>
 						<p>We want to hear how <em>Inspired EHRs</em> has helped you or team.</p>
 						<form method="post" action="impact.php">
-							<label for="name">Name</label>
+							<label for="name">Your Name</label>
 							<input type="text" name="name" id="name" required />
 				
-							<label for="email">Email</label>
+							<label for="email">Your Email</label>
 							<input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" required />
 							
-							<label for="message">Story</label><br />
+							<label for="message">Tell Us Your Story</label><br />
 							<textarea name="message" rows="20" cols="20" id="message" required></textarea>
 
 							<input type="text" name="blank" style="display: none;">
@@ -81,7 +81,7 @@
 								$email = $_POST['email'];
 								$message = $_POST['message'];
 								$blank = $_POST['blank'];
-								$to = 'impact@inspiredehrs.org';//'impact@inspiredEHRs.org';
+								$to = 'impact@inspiredehrs.org';
 								//$from = $email;
 								$from = 'impact@inspiredehrs.org';
 								$subject = 'Impact story about Inspired EHRs: Designing for Clinicians';

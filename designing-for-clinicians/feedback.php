@@ -43,13 +43,13 @@
 					<p>Or send us an email with your feedback.</p>
 					<div id="contact-area">
 						<form method="post" action="feedback.php">
-							<label for="name">Name</label>
+							<label for="name">Your Name</label>
 							<input type="text" name="name" id="name" required />
 				
-							<label for="email">Email</label>
+							<label for="email">Your Email</label>
 							<input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" required />
 							
-							<label for="message">Message</label><br />
+							<label for="message">Let Us Know What You Think</label><br />
 							<textarea name="message" rows="20" cols="20" id="message" required></textarea>
 
 							<input type="text" name="blank" style="display: none;">
@@ -64,7 +64,7 @@
 							$email = $_POST['email'];
 							$message = $_POST['message'];
 							$blank = $_POST['blank'];
-							$to = 'feedback@inspiredehrs.org';//'feedback@inspiredehrs.org';
+							$to = 'feedback@inspiredehrs.org';
 							//$from = $email;
 							$from = 'feedback@inspiredehrs.org';
 							$subject = 'Feedback for Inspired EHRs: Designing for Clinicians';
