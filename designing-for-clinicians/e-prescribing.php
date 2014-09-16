@@ -46,7 +46,7 @@
 					<p>E-Prescribing (eRx) can be one of the most satisfying tasks of the physician because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-Prescribing can also be frustrating when the EHR does not provide adequate data entry support. E-Prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.</p>
 					<p>The back-end process of e-prescribing sends discrete electronic data to a central hub, which then distributes the prescription message to the target pharmacy electronically (or via fax, if the target pharmacy lacks e-prescribing capabilities). The pharmacy can also send messages for renewal request to the prescribing physician. A new feature, not yet widely adopted, allows prescribers to send a message electronically to a pharmacy to cancel a previously prescribed medication or prescription.</p>
 					<div class="scenario">
-						<h5>Clinical Ccenario &mdash; New prescription for Newly Diagnosed Diabetes</h5>
+						<h5>Clinical Scenario &mdash; New prescription for Newly Diagnosed Diabetes</h5>
 						<p>Mr. Martin is a 60-year-old construction supervisor. Three months ago, he was diagnosed with diabetes by Dr. Barnes, his family physician. Despite some healthy lifestyle changes, his weight is unchanged. His fingerstick blood sugars are improving, but are still too high at around 200. His goal is 80-140.</p>
 						<p>Dr. Barnes wants Mr. Martin to take a new medication named metformin to control his blood sugar. Together they look at the EHR screen and see that metformin is on Mr. Martin’s insurance formulary, and has the lowest-tier co-pay. Both are pleased. Mr. Martin wants to start with just a 30 day prescription from his local pharmacy in case he has any side-effects. The new prescription is sent electronically to the local pharmacy.</p>
 					</div>
@@ -62,7 +62,7 @@
 						<div class="print-only page-break"></div>
 					</div>
 					<h3>5.1 Searching for a New Medication</h3>
-					<p>Typically, physicians will have a particular medication in mind when they write prescriptions. In that case, choosing from a “favorites” list or searching for the drug are the quickest routes to new prescription. An EHR can help physicians make the right choices and enter the correct details. In most cases, having the EHR pre-populate the prescription forms will save physicians time and mental effort (<a href="./human-factors.php#cognitive-load" target="blank" class="link">cognitive load</a>), and will reduce the risk of errors. It will help the physicians’ search speed and accuracy if the EHR pre-populates the search results from the drug database as the physician types. A predictive algorithm that uses data from the Problem List or Diagnosis List is able to promote likely matches farther up the search result list.</p>
+					<p>Typically, physicians will have a particular medication in mind when they write prescriptions. In that case, choosing from a “favorites” list or searching for the drug are the quickest routes to new prescription. An EHR can help physicians make the right choices and enter the correct details. In most cases, having the EHR pre-populate the prescription forms will save physicians time and mental effort (<a href="./human-factors.php#cognitive-load" target="_blank" class="link">cognitive load</a>), and will reduce the risk of errors. It will help the physicians’ search speed and accuracy if the EHR pre-populates the search results from the drug database as the physician types. A predictive algorithm that uses data from the Problem List or Diagnosis List is able to promote likely matches farther up the search result list.</p>
 					
 					<div class="example" id="gal-5-1">
 						<div class="ex-title">
@@ -73,25 +73,25 @@
 							<ul>
 								<li><div>
 									<div class="caption"><span class="ex-type">5.1 a </span>Typing Causes the List to Pre-Populate <span class="capt-desc">&mdash; User favorites can jump to the top of the list.</span></div>
-									<a href="./assets/images/examples/eRx/search_results_1.png" class="fancybox" data-fancybox-group="gallery-1" title="Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list">
-									<img src="./assets/images/examples/eRx/search_results_1.png" class="scale-with-grid" alt="Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list" /></a>
+									<a href="./assets/images/examples/eRx/search_results_1.png" class="fancybox" data-fancybox-group="gallery-1" title="Gallery 5.1 a - Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list">
+									<img src="./assets/images/examples/eRx/search_results_1.png" class="scale-with-grid" alt="Gallery 5.1 a - Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">5.1 b </span>Typing More Characters Produces a Closer Match <span class="capt-desc">&mdash; Additional details (tablet strength “500”) may be added to the search string.</span></div>
-									<a href="./assets/images/examples/eRx/search_results_2.png" class="fancybox" data-fancybox-group="gallery-1" title="Typing More Characters Produces a Closer Match - Additional details (tablet strength “500”) may be added to the search string">
-									<img src="./assets/images/examples/eRx/search_results_2.png" class="scale-with-grid" alt="Typing More Characters Produces a Closer Match - Additional details (tablet strength “500”) may be added to the search string" /></a>
+									<a href="./assets/images/examples/eRx/search_results_2.png" class="fancybox" data-fancybox-group="gallery-1" title="Gallery 5.1 b - Typing More Characters Produces a Closer Match - Additional details (tablet strength 500) may be added to the search string">
+									<img src="./assets/images/examples/eRx/search_results_2.png" class="scale-with-grid" alt="Gallery 5.1 b - Typing More Characters Produces a Closer Match - Additional details (tablet strength 500) may be added to the search string" /></a>
 								</div></li>
 								<li><div>
 									<div class="caption"><span class="ex-type">5.1 c </span>Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details <span class="capt-desc">&mdash; Here the physician added the dosing frequency “bid.”</span></div>
-									<a href="./assets/images/examples/eRx/search_results_3.png" class="fancybox" data-fancybox-group="gallery-1" title="Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency “bid.”">
-									<img src="./assets/images/examples/eRx/search_results_3.png" class="scale-with-grid" alt="Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency “bid.”" /></a>
+									<a href="./assets/images/examples/eRx/search_results_3.png" class="fancybox" data-fancybox-group="gallery-1" title="Gallery 5.1 c - Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency bid.">
+									<img src="./assets/images/examples/eRx/search_results_3.png" class="scale-with-grid" alt="Gallery 5.1 c - Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency bid." /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">5.1 d </span>Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered</div>
-									<a href="./assets/images/examples/eRx/search_results_4.png" class="fancybox" data-fancybox-group="gallery-1" title="Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered">
-									<img src="./assets/images/examples/eRx/search_results_4.png" class="scale-with-grid" alt="Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered" /></a>
+									<a href="./assets/images/examples/eRx/search_results_4.png" class="fancybox" data-fancybox-group="gallery-1" title="Gallery 5.1 d - Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered">
+									<img src="./assets/images/examples/eRx/search_results_4.png" class="scale-with-grid" alt="Gallery 5.1 d - Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered" /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -175,8 +175,8 @@
 							<span class="ex-type">Figure 5.1</span>
 							<span class="ex-caption">Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication <span class="capt-desc">&mdash; These include strength, instructions, quantity, and number of refills.</span></span>
 						</div>
-						<a href="./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png" class="fancybox" title="Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills.">
-						<img src="./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png" class="scale-with-grid" alt="Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills." /></a>
+						<a href="./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png" class="fancybox" title="Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills.">
+						<img src="./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png" class="scale-with-grid" alt="Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills." /></a>
 					</div>
 				
 					<h5>5.1.5 Allow Association of a Diagnosis or Chronic Problem</h5>
@@ -198,8 +198,8 @@
 							<span class="ex-type">Figure 5.2</span>
 							<span class="ex-caption">Allow Association of One or More Diagnoses per Medication</span>
 						</div>
-						<a href="./assets/images/examples/eRx/UM_EHR_0002_change-priority.png" class="fancybox" title="Allow Association of One or More Diagnoses per Medication">
-						<img src="./assets/images/examples/eRx/UM_EHR_0002_change-priority.png" class="scale-with-grid" alt="Allow Association of One or More Diagnoses per Medication" /></a>
+						<a href="./assets/images/examples/eRx/UM_EHR_0002_change-priority.png" class="fancybox" title="Figure 5.2 - Allow Association of One or More Diagnoses per Medication">
+						<img src="./assets/images/examples/eRx/UM_EHR_0002_change-priority.png" class="scale-with-grid" alt="Figure 5.2 - Allow Association of One or More Diagnoses per Medication" /></a>
 					</div>
 				
 					<h5>5.1.6 Stopping a Medication</h5>
@@ -219,8 +219,8 @@
 							<span class="ex-type">Figure 5.3</span>
 							<span class="ex-caption">Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar</span>
 						</div>
-						<a href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="fancybox" title="Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar">
-						<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar" /></a>
+						<a href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="fancybox" title="Figure 5.3 - Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar">
+						<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Figure 5.3 - Medication Timeline Shows Details Like Reason for Stopping When User Selects a Timeline Bar" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h5>5.1.7 Renewing Medications</h5>
@@ -242,14 +242,14 @@
 							<ul>
 								<li><div>
 									<div class="caption"><span class="ex-type">5.2 a</span> Sorting the List by Renewal Due Date <span class="capt-desc">&mdash; Makes it easier to group and manage the medications due for renewal.</span></div>
-									<a href="./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png" class="fancybox" data-fancybox-group="gallery-2" title="Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal">
-									<img src="./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png" class="scale-with-grid" alt="Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal" /></a>
+									<a href="./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png" class="fancybox" data-fancybox-group="gallery-2" title="Gallery 5.2 a - Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal">
+									<img src="./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png" class="scale-with-grid" alt="Gallery 5.2 a - Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">5.2 b</span> Filtering the List by Prescriber <span class="capt-desc">&mdash; Makes it even easier to focus only on the selected medications, eliminating distracting items.</span></div>
-									<a href="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="fancybox" data-fancybox-group="gallery-2" title="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items">
-									<img src="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="scale-with-grid" alt="Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items" /></a>
+									<a href="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="fancybox" data-fancybox-group="gallery-2" title="Galery 5.2 b - Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items">
+									<img src="./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png" class="scale-with-grid" alt="Gallery 5.2 b - Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items" /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -260,8 +260,8 @@
 							<span class="ex-type">Figure 5.4</span>
 							<span class="ex-caption">Icons for “Refills Remaining” <span class="capt-desc">&mdash; Icons use preattentive attributes to reduce cognitive load during the medication renewal process</span></span>
 						</div>
-						<a href="./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png" class="fancybox" title="Icons for “Refills Remaining” - Icons use preattentive attributes to reduce cognitive load during the medication renewal process">
-						<img src="./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png" class="scale-with-grid" alt="Icons for “Refills Remaining” - Icons use preattentive attributes to reduce cognitive load during the medication renewal process" /></a>
+						<a href="./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png" class="fancybox" title="Figure 5.4 - Icons for Refills Remaining - Icons use preattentive attributes to reduce cognitive load during the medication renewal process">
+						<img src="./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png" class="scale-with-grid" alt="Figure 5.4 - Icons for Refills Remaining - Icons use preattentive attributes to reduce cognitive load during the medication renewal process" /></a>
 						<div class="credit"><p>From Cerner PowerChart Touch. © 2014 Cerner Corporation. Reproduced by permission of Cerner Corporation.</p></div>
 					</div>
 				</div>
@@ -293,8 +293,8 @@
 							<span class="ex-type">Figure 5.5</span>
 							<span class="ex-caption">Before: Interruptive Dialog Box <span class="capt-desc">&mdash; Doesn’t allow the physician to see existing prescription orders</span></span>
 						</div>					
-						<a href="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="fancybox" title="Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders">
-							<img src="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="scale-with-grid" alt="Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders" /></a>
+						<a href="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="fancybox" title="Figure 5.5 - Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders">
+							<img src="./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png" class="scale-with-grid" alt="Figure 5.5 - Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -303,8 +303,8 @@
 							<span class="ex-type">Figure 5.6</span>
 							<span class="ex-caption">After: Non-interruptive Dialog Box <span class="capt-desc">&mdash; Allows users to see existing orders using a separate panel, or by making the dialog box non-interruptive.</span></span>
 						</div>
-							<a href="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="fancybox" data-fancybox-group="gallery-3" title="After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive.">
-							<img src="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="scale-with-grid" alt="After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive." /></a>
+							<a href="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="fancybox" data-fancybox-group="gallery-3" title="Figure 5.6 - After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive.">
+							<img src="./assets/images/examples/eRx/UM_EHR_0003_new-medication.png" class="scale-with-grid" alt="Figure 5.6 - After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive." /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -341,8 +341,8 @@
 							<span class="ex-type">Figure 5.7</span>
 							<span class="ex-caption">Before: <span class="capt-desc">The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.</span></span>
 						</div>
-							<a href="./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png" class="fancybox" data-fancybox-group="gallery-4" title="Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.">
-							<img src="./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png" class="scale-with-grid" alt="Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error." /></a>
+							<a href="./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png" class="fancybox" data-fancybox-group="gallery-4" title="Figure 5.7 - Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.">
+							<img src="./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png" class="scale-with-grid" alt="Figure 5.7 - Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error." /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -351,8 +351,8 @@
 							<span class="ex-type">Figure 5.8</span>
 							<span class="ex-caption">After: <span class="capt-desc"> The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.</span></span>
 						</div>
-							<a href="./assets/images/examples/eRx/UM_EHR_0005_annotated.png" class="fancybox" data-fancybox-group="gallery-4" title="After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.">
-							<img src="./assets/images/examples/eRx/UM_EHR_0005_annotated.png" class="scale-with-grid" alt="After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently." /></a>
+							<a href="./assets/images/examples/eRx/UM_EHR_0005_annotated.png" class="fancybox" data-fancybox-group="gallery-4" title="Figure 5.8 - After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.">
+							<img src="./assets/images/examples/eRx/UM_EHR_0005_annotated.png" class="scale-with-grid" alt="Figure 5.8 - After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently." /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -367,8 +367,8 @@
 							<span class="ex-type">Figure 5.9</span>
 							<span class="ex-caption">New Order Workflow <span class="capt-desc">&mdash; EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.</span></span>
 						</div>						
-						<a href="./assets/images/examples/eRx/neworders.png" class="fancybox" data-fancybox-group="gallery-4" title="EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.">
-							<img src="./assets/images/examples/eRx/neworders.png" class="scale-with-grid" alt="EHRs must offer users the option of building sets or collections of orders to facilitate their workflow." /></a>
+						<a href="./assets/images/examples/eRx/neworders.png" class="fancybox" data-fancybox-group="gallery-4" title="Figure 5.9 - EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.">
+							<img src="./assets/images/examples/eRx/neworders.png" class="scale-with-grid" alt="Figure 5.9 - EHRs must offer users the option of building sets or collections of orders to facilitate their workflow." /></a>
 					</div>
 
 					<h5>5.2.6 Building Groups of Related Orders Function like Checklists</h5>
@@ -420,14 +420,14 @@
 					<div class="section_cite">
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
 						<p>EHR Safety Enhanced Design Briefs:<br/>
-						  <a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu05.htm">Preventing Electronic Medication Order Errors (E-Prescribing)</a></p>
+						  <a target="_blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu05.htm">Preventing Electronic Medication Order Errors (E-Prescribing)</a></p>
 					</div>
 					<hr />
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
 							<li>Choudhry NK, Fischer MA, Avorn J, et al. The Implications of Therapeutic Complexity on Adherence to Cardiovascular Medications. Arch Intern Med.2011;171(9):814-822. doi:10.1001/archinternmed.2010.495.</li>
-							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="blank">David Amsler</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="_blank">David Amsler</a></li>
 						</ol>
 					</div>
 				</div>

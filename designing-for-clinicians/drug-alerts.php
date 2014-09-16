@@ -43,7 +43,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<p>A <a href="http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors" target="blank" class="link">report</a> from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load. If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts. This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.</p>
+					<p>A <a href="http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors" target="_blank" class="link">report</a> from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load. If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts. This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.</p>
 					<div class="sectionStart">
 						<hr />
 					</div>
@@ -128,7 +128,7 @@
 					<div class="example" class="fig-6-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.5</span>
-							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the 'Continue' Button<span class="capt-desc"> &mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
+							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the 'Continue' Button <span class="capt-desc">&mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" title="Figure 6.5 - Once the physician makes a choice, the system enables the 'Continue' button">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0005_drug-drug-interaction-selected.png" class="scale-with-grid" alt="Figure 6.5 - Once the physician makes a choice, the system enables the 'Continue' button." /></a>
@@ -155,7 +155,7 @@
 									<li>Adjust alert thresholds to present users with only the most important alerts</li>
 								</ol>
 							</li>
-							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/" class="link" target="blank">Use a tiered alerting system</a>: make lower risk alerts passive and less visually obtrusive. Use interruptive alerts only for those with the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628052/" class="link" target="blank">highest risk</a>.</li>
+							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/" class="link" target="_blank">Use a tiered alerting system</a>: make lower risk alerts passive and less visually obtrusive. Use interruptive alerts only for those with the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628052/" class="link" target="_blank">highest risk</a>.</li>
 							<li>Present passive alerts as early as possible during decision making. For example, by providing a visible indication of drugs that conflict with patient allergies or current drugs while the physician is choosing from a list or typing in a drug.</li>
 							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them.</li>
 							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping) to indicate the importance and relationships among the information.</li>
@@ -228,7 +228,7 @@
 					<div class="example" class="fig-6-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.8</span>
-							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc"> &mdash; Bold type indicates preferable, safer choices</span></span>
+							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc">&mdash; Bold type indicates preferable, safer choices</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" title="Figure 6.8 - Presenting all alerts in a single screen. Bold type indicates preferable, safer choices">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Figure 6.8 - Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
@@ -237,7 +237,7 @@
 					<div class="example" class="fig-6-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.9</span>
-							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; After the physician has made some choices, the system visually shows his selections</span></span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc">&mdash; After the physician has made some choices, the system visually shows his selections</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" title="Figure 6.9 - Multiple alert screen - After the physician has made some choices, the system visually shows his selections">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Figure 6.9 - Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
@@ -246,7 +246,7 @@
 					<div class="example" class="fig-6-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.10</span>
-							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc"> &mdash; Once the physician has addressed all alerts, the system activates the Continue button</span></span>
+							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc">&mdash; Once the physician has addressed all alerts, the system activates the Continue button</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" title="Figure 6.10 - Multiple Alert Screen - Once the physician has addressed all alerts, the system activates the Continue button.">
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0008_multiple-alerts-all-selected.png" class="scale-with-grid" alt="Figure 6.10 - Multiple alert screen - Once the physician has addressed all alerts, the system activates the Continue button." /></a>
@@ -268,19 +268,19 @@
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 b</span> More Detailed Display <span class="capt-desc">&mdash; Allows the physician to address the allergy alert</span></div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="Gallery 6.1 b - More Detailed Display &mdash; Allows the physician to address the allergy alert">
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" title="Gallery 6.1 b - More Detailed Display - Allows the physician to address the allergy alert">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0001_allergy-1.png" class="scale-with-grid" alt="Gallery 6.1 b - More Detailed Display - Allows the physician to address the allergy alert" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 c</span> Physician Taps the “Stop” Button <span class="capt-desc">&mdash; The display moves on, bringing up the next alert screen</span></div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="Gallery 6.1 c - Physician Taps the “Stop” Button &mdash; The display moves on, bringing up the next alert screen">
-										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="Gallery 6.1 c - Physician Taps the “Stop” Button - The display moves on, bringing up the next alert screen" /></a>
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" title="Gallery 6.1 c - Physician Taps the “Stop” Button - The display moves on, bringing up the next alert screen">
+										<img src="./assets/images/examples/drug-alerts/UM_EHR_0006_allergy-2-touch.png" class="scale-with-grid" alt="Gallery 6.1 c - Physician Taps the Stop Button - The display moves on, bringing up the next alert screen" /></a>
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 d</span> A Drug-Drug Interaction Alert with Three Possible Actions <span class="capt-desc">&mdash; Stop the first drug, stop the second, or continue both.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions &mdash; Stop the first drug, stop the second, or continue both.">
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions - Stop the first drug, stop the second, or continue both.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions - Stop the first drug, stop the second, or continue both." /></a>
 								</div></li>
 								<li><div>
@@ -292,7 +292,7 @@
 								<li><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">6.1 e</span> After the Physician Has Addressed All the Alerts <span class="capt-desc">&mdash; He can use the final review screen to look over and modify his decisions.</div>
-									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="Gallery 6.1 f - After the Physician Has Addressed All the Alerts &mdash; He can use the final review screen to look over and modify his decisions.">
+									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="Gallery 6.1 f - After the Physician Has Addressed All the Alerts - He can use the final review screen to look over and modify his decisions.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="Gallery 6.1 f - After the Physician Has Addressed All the Alerts - He can use the final review screen to look over and modify his decisions." /></a>
 								</div></li>
 							</ul>
@@ -330,11 +330,11 @@
 					<div class="section_cite">
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
 						<h5>EHR Safety Enhanced Design Briefs</h5>
-						<p><a target="blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
-						<p><a href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu04.htm" target="blank" class="link">Clinical Decision Support</a></p>
+						<p><a target="_blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
+						<p><a href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu04.htm" target="_blank" class="link">Clinical Decision Support</a></p>
 
 						<h5>EHR Usability</h5>
-						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="blank" class="link">Designing for Usability</a></p>
+						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="_blank" class="link">Designing for Usability</a></p>
 					</div>
 					<hr />
 					<p>References</p>

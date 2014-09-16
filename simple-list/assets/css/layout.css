@@ -395,6 +395,9 @@ table.main_table{
 	width: 100%;
 	font-weight: bold;
 }
+table.main_table.simple-list {
+	margin-top: -20px;
+}
 table.main_table thead{
 	background:#e2e2e2;
 	font-size: 12px;

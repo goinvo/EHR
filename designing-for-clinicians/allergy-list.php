@@ -113,7 +113,7 @@
 							<span class="ex-type">Figure 4.2</span>
 							<span class="ex-caption">After: Glancing at the List <span class="capt-desc">&mdash; A design that brings key details to the forefront</span></span>
 						</div>
-						<a href="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="fancybox" data-fancybox-group="gallery-0" title="Figure 4.2 - After: Glancing at the List &mdash; A design that brings key details to the forefront" >
+						<a href="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="fancybox" data-fancybox-group="gallery-0" title="Figure 4.2 - After: Glancing at the List - A design that brings key details to the forefront" >
 							<img src="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="scale-with-grid" alt="Figure 4.2 - After: Glancing at the List – A design that brings key details to the Forefront" /></a>
 					</div>
 				</div><!--end Before and After 4.1, 4.2-->
@@ -152,10 +152,10 @@
 					<div class="example" id="fig-4-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 4.4</span>
-							<span class="ex-caption">Patient Demographic Danner <span class="capt-desc">&mdash; Shows only medication names.</span></span>
+							<span class="ex-caption">Patient Demographic Banner <span class="capt-desc">&mdash; Shows only medication names.</span></span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" title="Figure 4.4 - Patient Demographic Danner &mdash; Shows only medication names.">
-							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" alt="Figure 4.4 - Patient Demographic Danner &mdash; Shows only medication names." /></a>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" title="Figure 4.4 - Patient Demographic Banner - Shows only medication names.">
+							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" alt="Figure 4.4 - Patient Demographic Banner - Shows only medication names." /></a>
 					</div>
 					
 					<p>To get this additional information, the physician will have to use the detailed table view (<a href="#fig-4-5">Figure 4.5</a>).</p>
@@ -165,8 +165,8 @@
 							<span class="ex-type">Figure 4.5</span>
 							<span class="ex-caption">Medication Allergy List <span class="capt-desc">&mdash; Table view shows details.</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" title="Figure 4.5 - Medication Allergy List &mdash; Table view shows details.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" alt="Figure 4.5 - Medication Allergy List &mdash; Table view shows details." /></a>
+						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" title="Figure 4.5 - Medication Allergy List - Table view shows details.">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" alt="Figure 4.5 - Medication Allergy List - Table view shows details." /></a>
 					</div>
 					
 					<p>With this list (<a href="#fig-4-5">Figure 4.5</a>), the physician or nurse can see the information they need. More important information is on the left, and less important information is on the right. The table is simple and effective. It shows limited information and reduces the visual load on the user. By drilling a step deeper, the user can access further details.</p>
@@ -275,8 +275,8 @@
 							<span class="ex-type">Figure 4.11</span>
 							<span class="ex-caption">After: Simple, Sequential Design for Adding a Drug Allergy</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="After: Simple, Sequential Design for Adding a Drug Allergy">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="After: Simple, Sequential Design for Adding a Drug Allergy" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="Figure 4.11 - After: Simple, Sequential Design for Adding a Drug Allergy">
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Figure 4.11 - After: Simple, Sequential Design for Adding a Drug Allergy" /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -339,7 +339,7 @@
 							<span class="ex-caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" title="Figure 4.13 - After: Searching Symptoms to Add a New Allergy - List displays fewer results and pushes simpler, more frequently-chosen results to the top.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="After: Searching Symptoms to Add a New Allergy - List displays fewer results and pushes simpler, more frequently-chosen results to the top." /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="Figure 4.13 - After: Searching Symptoms to Add a New Allergy - List displays fewer results and pushes simpler, more frequently-chosen results to the top." /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -377,7 +377,7 @@
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
-							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="blank">pedronchi</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="_blank">pedronchi</a></li>
 						</ol>
 					</div>
 				</div>

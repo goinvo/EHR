@@ -71,13 +71,13 @@
 					<div class="example" id="vid-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Video 3.1</span>
-							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
+							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
 						</div>
 						<video controls class="twinlist">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
-							<p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="blank">YouTube</a></p>
+							<p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="_blank">YouTube</a></p>
 						</video>
 					</div>
 					<div class="print-only page-break"></div>
@@ -85,17 +85,17 @@
 					<div class="example" id="int-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 3.1</span>
-							<span class="ex-caption"><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Demo of Twinlist</a> <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
+							<span class="ex-caption"><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank">Demo of Twinlist</a> <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
 						</div>
-						<!--<a class="fancybox" href="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" title="Twinlist Interactive Demo">
-							<img src="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" class="scale-with-grid" /></a>-->
+						<!--<a class="fancybox" href="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" title="Interactive 3.1 - Twinlist Interactive Demo">
+							<img src="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" class="scale-with-grid" alt="Interactive 3.1 - Twinlist Interactive Demo" /></a>-->
 					</div>
 					<div class="quicktip" id="learn-more-twinlist">
 						<div class="sidebar cf">
 							<h5></h5>
-							<p class="preview">To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
+							<p class="preview">To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project on the University of Maryland website</a>.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
-								<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment using <a href="http://tinyurl.com/k5b4kmx" class="link" target="blank">Twinlist with larger datasets</a>.</p>
+								<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment using <a href="http://tinyurl.com/k5b4kmx" class="link" target="_blank">Twinlist with larger datasets</a>.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -115,8 +115,8 @@
 							<span class="ex-type">Figure 3.1</span>
 							<span class="ex-caption">The Two Lists Side by Side <span class="capt-desc">&mdash; Before Twinlist starts matching similar drugs</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" title="3.1 The Two Lists Side by Side &mdash; Before Twinlist starts matching similar drugs">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" class="scale-with-grid" /></a>
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" title="Figure 3.1 - The Two Lists Side by Side - Before Twinlist starts matching similar drugs">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" class="scale-with-grid" alt="Figure 3.1 - The Two Lists Side by Side - Before Twinlist starts matching similar drugs" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-2">
@@ -124,18 +124,18 @@
 							<span class="ex-type">Figure 3.2</span>
 							<span class="ex-caption">The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides <span class="capt-desc">&mdash; Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" title="3.2 The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides — Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow." >
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" class="scale-with-grid" /></a>
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" title="Figure 3.2 - The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides - Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow." >
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" class="scale-with-grid" alt="Figure 3.2 - The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.3</span>
-							<span class="ex-caption">When the Pointer Hovers over a Drug (Here Amaryl), That Drug Is Highlighted with a Dark Background <span class="capt-desc">&mdash; Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
+							<span class="ex-caption">Pointer Hovers over a Drug <span class="capt-desc">&mdash; (Amaryl) That drug is highlighted with a dark background. Similar drugs are also highlighted (glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
 						</div>
 						<a class="fa
-						ncybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" title="When the pointer hovers over a drug (here Amaryl), that drug is highlighted with a dark background. Similar drugs are also highlighted (here glimepiride). Additional details of the drug appear at the bottom of the screen" >
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" class="scale-with-grid" /></a>
+						ncybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" title="Figure 3.3 - Pointer Hovers over a Drug - (Amaryl) That drug is highlighted with a dark background. Similar drugs are also highlighted (glimepiride). Additional details of the drug appear at the bottom of the screen" >
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png" class="scale-with-grid" alt="Figure 3.3 - Pointer Hovers over a Drug - (Amaryl) That drug is highlighted with a dark background. Similar drugs are also highlighted (glimepiride). Additional details of the drug appear at the bottom of the screen" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-3-4">
@@ -143,17 +143,17 @@
 							<span class="ex-type">Figure 3.4</span>
 							<span class="ex-caption">Clicking on a Drug Selects It and Indicates That It Should Be Retained in the Medication List after Discharge <span class="capt-desc">&mdash; The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicates that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="3.1 d Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="The drug becomes bright green when selected" /></a>
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" title="Figure 3.4 - Clicking on a drug selects it and indicates that it should be retained in the medication list after discharge. The drug’s background turns green. Clicking again (or using right-clicking if available) deselects the drug and indicate that the drug should be discontinued. Discontinued drugs are grayed-out. Similar drugs are automatically deselected (e.g. here glimepiride). Swiping gestures can be used on touchscreen devices such as the iPad.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="Figure 3.4 - The drug becomes bright green when selected" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.5</span>
-							<span class="ex-caption">The Final Reconciled Medication List Can Be Reviewed<span class="capt-desc">&mdash; Look at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
+							<span class="ex-caption">The Final Reconciled Medication List Can Be Reviewed <span class="capt-desc">&mdash; Look at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" title="3.1 e The final reconciled medication list can be reviewed by looking at all the bright green selected drugs, and it’s clear what lists they’ve come from." >
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" class="scale-with-grid" alt="The final selection" /></a>
+						<a class="fancybox" data-fancybox-group="gallery" href="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" title="Figure 3.5 - The Final Reconciled Medication List Can Be Reviewed - Look at all the bright green selected drugs, and it’s clear what lists they’ve come from." >
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0003_the-final-selection.png" class="scale-with-grid" alt="Figure 3.5 - The final reconciled medication list can be reviewed by looking at all the bright green selected drugs, and it’s clear what lists they’ve come from." /></a>
 
 					</div>
 
@@ -221,8 +221,8 @@
 							<span class="ex-type">Figure 3.6</span>
 							<span class="ex-caption">Simplified Medication Reconciliation Workflow in Ambulatory Setting</span>
 						</div>
-						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/ambulatorychart.png" title="Simplified Medication Reconciliation Workflow in Ambulatory Setting">
-							<img src="./assets/images/examples/medication-reconciliation/ambulatorychart.png" class="scale-with-grid" alt="Ambulatory workflow" title="ambulatory workflow" /></a>
+						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/ambulatorychart.png" title="Figure 3.6 - Simplified Medication Reconciliation Workflow in Ambulatory Setting">
+							<img src="./assets/images/examples/medication-reconciliation/ambulatorychart.png" class="scale-with-grid" alt="Figure 3.6 - Simplified Medication Reconciliation Workflow in Ambulatory Setting" /></a>
 					</div>
 					<p>The medication reconciliation workflow may vary from clinic to clinic, depending on what roles said clinic assigns various members of its staff. In some clinics, nurses interview patients and update the medication list, adding annotations about patients’ adherence where necessary. Physicians subsequently confirm these annotations with the patients and seek clarification about any uncertain details. Other clinics give patients printouts of their current medication list as recorded in the EHR, which the patients can then annotate. In other clinics, physicians review medication lists with the patients in the course of their visits.</p>
 					<p>Some specialists, particularly those in surgical subfields, may review medication lists less precisely, focusing only on the medications they have prescribed, such as post-operative antibiotics or pain medications. These specialists need to be able to reconcile the medications they’re responsible for without assuming responsibility for the entire medication list. Reconciliation interfaces might offer a means of conveying that specialists have reconciled the medications they’re responsible for, and only those medications. It might be accomplished by giving users the option of clicking on ‘Acknowledged’ or ‘Reviewed but not approved’ in addition to the fuller ‘Reconcile &amp; Sign.’</p>
@@ -239,19 +239,19 @@
 					<div class="example" id="fig-3-7">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.7</span>
-							<span class="ex-caption">The Interface Presents Each Drug in the Patient’S Medication List One at a Time, Offering a Few Clearly-Marked Choices <span class="capt-desc">&mdash; The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span>.</span></span>
+							<span class="ex-caption">The Interface Presents Each Drug in the Patient’s Medication List One at a Time, Offering a Few Clearly-Marked Choices <span class="capt-desc">&mdash; The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a <a href="./human-factors.php#flow-state">flow state</a>)<span class="print-only"> (See Go with the Flow in the Human Factors chapter)</span>.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Patients selects that they are taking a medication" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" title="Figure 3.7 - The interface presents each drug in the patient’s medication list, one at a time. The system offers a few clearly-marked choices. The mode of presentation is well suited to a touch interface. A progress bar indicates how many drugs are in the list (and can help users get into a flow state.)">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Figure 3.7 - Patients selects that they are taking a medication" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.8</span>
-							<span class="ex-caption">The Patient May Not Be Taking a Drug for Various Reasons <span class="capt-desc"> &mdash; A physician countermanded that order, the patient did not tolerate the medication, never filled the prescription, etc.</span></span>
+							<span class="ex-caption">The Patient May Not Be Taking a Drug for Various Reasons <span class="capt-desc">&mdash; A physician countermanded that order, the patient did not tolerate the medication, never filled the prescription, etc.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="The Patient May Not Be Taking a Drug for Various Reasons — A physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Patient selects that they are not taking a medication" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="Figure 3.8 - The Patient May Not Be Taking a Drug for Various Reasons — A physician countermanded that order, the patient did not tolerated the medication, never filled the prescription, etc.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Figure 3.8 - Patient selects that they are not taking a medication" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-9">
@@ -259,17 +259,17 @@
 							<span class="ex-type">Figure 3.9</span>
 							<span class="ex-caption">“Yes, I’m taking but not as directed.” <span class="capt-desc">&mdash; The answer is enough to prompt the physician to start a conversation about adherence.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" title="“Yes, I’m taking but not as directed.” — The answer is enough to prompt the physician to start a conversation about adherence.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" class="scale-with-grid" alt="Patient selects that they are taking a medication, but not as directed" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" title="Figure 3.9 - Yes, I’m taking but not as directed — The answer is enough to prompt the physician to start a conversation about adherence.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" class="scale-with-grid" alt="Figure 3.9 - Patient selects that they are taking a medication, but not as directed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.10</span>
-							<span class="ex-caption">The patient may be unsure about a particular medication. <span class="capt-desc">She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.</span></span>
+							<span class="ex-caption">The patient may be unsure about a particular medication. <span class="capt-desc">&mdash; She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" title="The Patient May Be Unsure about a Particular Medication &mdash; She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" class="scale-with-grid" alt="Patient selects that they are taking a medication, but not as directed" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" title="Figure 3.10 - The Patient May Be Unsure about a Particular Medication - She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" class="scale-with-grid" alt="Figure 3.10 - Patient selects that they are taking a medication, but not as directed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-11">
@@ -277,17 +277,17 @@
 							<span class="ex-type">Figure 3.11</span>
 							<span class="ex-caption">The Patient Has Reviewed All the Medications <span class="capt-desc">&mdash; The prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" title="3.2e Once the patient’s reviewed all the medications in the list the EHR had on file for her, the prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking, but which are often forgotten – such as eye drops, over-the-counter medications, vitamins and herbal preparations, etc. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" class="scale-with-grid" alt="Patient adds medications they are taking that haven't been listed" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" title="Figure 3.11 - The Patient Has Reviewed All the Medications - The prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" class="scale-with-grid" alt="Figure 3.11 - The patient adds medications they are taking that haven't been listed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-12">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.12</span>
-							<span class="ex-caption">Final review from the patient's perspective: <span class="capt-desc">The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew.</span></span>
+							<span class="ex-caption">Final Review from the Patient's Perspective <span class="capt-desc">&mdash; The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0010_patient_endlist.png" title="3.2f Final review: The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew. ">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0010_patient_endlist.png" class="scale-with-grid" alt="Patient reviews list of medications, and can type in additional comments" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0010_patient_endlist.png" title="Figure 3.12 - Final Review from the Patient's Perspective - The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0010_patient_endlist.png" class="scale-with-grid" alt="Figure 3.12 - Final Review from the Patient's Perspective - The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew." title="" /></a>
 					</div>
 					
 					<p>After the patient has reviewed the medication list, the physician must review the patient’s annotated list. They’ll have a conversation about any discrepancies and uncertainties in an effort to resolve them. Then those curated details would be added to the patient's record.</p>
@@ -330,7 +330,7 @@
 					</div>
 
 					<h5>3.2.2 After the Patient Annotates Her List, the Physician Reviews It</h5>
-					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations. Entirely different interfaces are also possible.</p>
+					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations. Entirely different interfaces are also possible.</p>
 					<p>The list is ready for the physician to review, with the patient's annotations included. Let's look at our design example. (<a href="#fig-3-13">Figures 3.13</a> to <a href="#fig-3-16">3.16</a>)</p>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-3-13">
@@ -338,8 +338,8 @@
 							<span class="ex-type">Figure 3.13</span>
 							<span class="ex-caption">The List Is Now Sorted According to the Answers Provided during the Review <span class="capt-desc">&mdash; Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" title="The List Is Now Sorted According to the Answers Provided during the Review &mdash; Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" class="scale-with-grid" alt="" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" title="Figure 3.13 - The List Is Now Sorted According to the Answers Provided during the Review - Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0007_physician_list2.png" class="scale-with-grid" alt="Figure 3.13 - The List Is Now Sorted According to the Answers Provided during the Review" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-3-14">
@@ -347,17 +347,17 @@
 							<span class="ex-type">Figure 3.14</span>
 							<span class="ex-caption">The Physician Can Clarify the Details during a Conversation with the Patient, and Then Edits the Comments</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" title="The physician can clarify the details during a conversation with the patient, and then edits the comments.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" class="scale-with-grid" alt="" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" title="Figure 3.14 - The physician can clarify the details during a conversation with the patient, and then edits the comments.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0008_physician_list2_edit.png" class="scale-with-grid" alt="Figure 3.14 - The physician can clarify the details during a conversation with the patient, and then edits the comments." /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-3-15">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.15</span>
-							<span class="ex-caption">The Physician Can Move a Medication from One Group to Another, Either with a Drag and Drop Gesture or Using Menu Selections <span class="capt-desc">&mdash; Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “not taking” category. In this figure, Celebrex has been moved to the “taking” category.</span></span>
+							<span class="ex-caption">The Physician Can Move Medications <span class="capt-desc">&mdash; Medications can be moved from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “not taking” category. In this figure, Celebrex has been moved to the “taking” category.</span></span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="The Physician Can Move a Medication from One Group to Another, Either with a Drag and Drop Gesture or Using Menu Selections &mdash; Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" title="Figure 3.15 - The Physician Can Move Medications - Medications can be moved from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “non taking” category. In this figure, Celebrex is been moved to the “taking” category.">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="The Physician Can Move Medications" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="#fig-3-16">
@@ -365,8 +365,8 @@
 							<span class="ex-type">Figure 3.16</span>
 							<span class="ex-caption">The Physician Has the Option to Confirm the Status of All or Some of the Medications</span>
 						</div>
-						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" title="The Physician Has the Option to Confirm the Status of All or Some of the Medications">
-							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" class="scale-with-grid" alt="" title="" /></a>
+						<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" title="Figure 3.16 - The Physician Has the Option to Confirm the Status of All or Some of the Medications">
+							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0002_physician_endlist_annot.png" class="scale-with-grid" alt="Figure 3.16 - The Physician Has the Option to Confirm the Status of All or Some of the Medications" /></a>
 					</div>
 					<p>The list in Figure 3.16 is the physician’s final review of medication list. Once the physician approves the list by pressing the “Confirm Review” button in the upper right, the EHR updates the medication list in the patient’s record and saves all comments about adherence. The category in which a medication has been placed in the list specifies how the final reconciled medication list is saved in the patient’s record.</p>
 					<table class="sidebar-table" id="patient-adherence">
@@ -395,7 +395,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<p>In this design physicians would need to learn the drag and drop functionality (or alternate menu functions and <a href="./human-factors.php#expectations" target="blank">affordances</a>)<span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> that allow moving medications from one category to another.</p>
+					<p>In this design physicians would need to learn the drag and drop functionality (or alternate menu functions and <a href="./human-factors.php#expectations" target="_blank">affordances</a>)<span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> that allow moving medications from one category to another.</p>
 					<p>After the medication reconciliation at the start of the visit, the physician takes further information about the patient's medical history, does an examination, makes clinical decisions, and collaborates with the patient to make a plan of action. Their plan might include changing or adding to the patient's medications.</p>
 					
 					<div class="quicktip" id="uncertainty">
@@ -414,7 +414,7 @@
 							<h5>About Using Pill Pictures to Resolve Uncertainty</h5>
 							<p class="preview">Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
-								<p>Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication lists to have the right images because there may be dozens of potential images for a single medication (153 images for lisinopril on <a href="http://www.drugs.com/imprints.php" class="link" target="blank">drugs.com's pill identifier</a>, and 423 results at <a href="http://pillbox.nlm.nih.gov/pillimage/search.php" target="blank">http://pillbox.nlm.nih.gov</a>). Patients might also confuse similar looking medications and misidentify what they are taking. Still, having access to pictures during the interview process might be helpful for “simpler” medications that have only a limited number of distinct images.</p>
+								<p>Images of the pills may help patients identify the medications they are taking. Unfortunately we cannot count on current EHR medication lists to have the right images because there may be dozens of potential images for a single medication (153 images for lisinopril on <a href="http://www.drugs.com/imprints.php" class="link" target="_blank">drugs.com's pill identifier</a>, and 423 results at <a href="http://pillbox.nlm.nih.gov/pillimage/search.php" target="_blank">http://pillbox.nlm.nih.gov</a>). Patients might also confuse similar looking medications and misidentify what they are taking. Still, having access to pictures during the interview process might be helpful for “simpler” medications that have only a limited number of distinct images.</p>
 							</div>
 						</div>
 						<div class="tip"></div>
@@ -436,10 +436,10 @@
 					<ol>
 						<li>Algorithms that <a href="./human-factors.php#gestalts" taret="blank">group or align</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span> drugs to help physicians recognize their similarities and differences reduce cognitive load.</li>
 						<li>Make lists easy to scan visually. Don’t truncate medication names or important details in table views.</li>
-						<li>Add <a href="./human-factors.php#expectations" target="blank">typographic emphasis</a><span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> by using bold or larger font where appropriate.</li>
+						<li>Add <a href="./human-factors.php#expectations" target="_blank">typographic emphasis</a><span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> by using bold or larger font where appropriate.</li>
 						<li>Allow medication sorting and filtering (e.g. by prescriber, by diagnosis and/or renewal status)</li>
 						<li>Where possible, display a limited number of options. Reveal further options when necessary.</li>
-						<li>Ask patients simple, clear questions using <a href="./design-principles#terminology" target="blank">plain, non-judgmental language</a><span class="print-only"> (See Terminology in the Design Principles chapter)</span>.</li>
+						<li>Ask patients simple, clear questions using <a href="./design-principles#terminology" target="_blank">plain, non-judgmental language</a><span class="print-only"> (See Terminology in the Design Principles chapter)</span>.</li>
 						<li>Offer patients simple, clear choices of categorizing and documenting their adherence (e.g. Taking as prescribed; Taking, but not as prescribed; Not taking at all). Include “Other” or “Not sure” options. Provide users with a means to document uncertainty, and make sure that uncertainty is visible in the review list.</li>
 						<li>Offer cognitive support for adding new medications. Allow for fuzzy misspelling. Suggest appropriate drug names as the patient begins to type.</li>
 						<li>Experiment with innovative methods for capturing uncertainty and improving adherence recording.</li>
@@ -452,14 +452,14 @@
 		
 		<?php include './footer.php'; ?>
 
-						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="blank">Twinlist project webpage</a>.</Twinlist>
+						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project webpage</a>.</Twinlist>
 					</div>
 					<hr />
 					<p>References</p>
 					<div class="section_cite">
 						<ol>
 							<li>Bosworth, Hayden B., Bradi B. Granger, Phil Mendys, Ralph Brindis, Rebecca Burkholder, Susan M. Czajkowski, Jodi G. Daniel, et al. “Medication Adherence: A Call for Action.” <em>American Heart Journal</em> 162, no. 3 (September 2011): 412–24. doi:10.1016/j.ahj.2011.06.007.</li>
-							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" class="link" target="blank">David Amsler</a></li>
+							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" class="link" target="_blank">David Amsler</a></li>
 						</ol>
 					</div>
 				</div>

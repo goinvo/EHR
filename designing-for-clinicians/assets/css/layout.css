@@ -118,7 +118,7 @@
 /* #Links
 ================================================== */
 	.a, a { color: #3681af; text-decoration: none; outline: 0; }
-	.a:hover, a:hover, a:focus { color: #444; text-decoration: underline;}
+	.a:hover, .a:focus, a:hover, a:focus { color: #444; text-decoration: underline;}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -627,6 +627,9 @@
 	.menu ul li a {
 		text-decoration: none;
 	}
+	.menu ul li a:hover, .menu ul li a:focus {
+		text-decoration: underline;
+	}
 	/*examples*/
 	.sidebar {
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -907,6 +910,10 @@
 	}
 	#interactives a, #toc a {
 		text-decoration: none;
+	}
+	#interactives a:focus, #interactives a:hover, 
+	#toc a:focus, #toc a:hover {
+		text-decoration: underline;
 	}
 	#toc ul li .ch-num {
 		display: inline-block;
