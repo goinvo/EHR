@@ -844,9 +844,29 @@
 		
 		
 	d3.selectAll('ul.time-list li').on("click", timeButtonClicked);
-
+        //should there be something here?
 	}
 		
+  d3.select('body').on('keydown', function() {
+    var keyCode = d3.event.keyCode;
+    
+    if (keyCode == 38) { 
+      // UP -- make time scrubber larger (scrolling)
+      
+    }
+    else if (keyCode == 40) {
+      // DOWN -- make time scrubber smaller (scrolling)
+      
+    }
+    else if (keyCode == 37) {
+      // Left -- move time scrubber to the left (drag)
+      
+    }
+    else if (keyCode == 39) {
+      // Right -- move time scrubber to the right (drag)
+      
+    }
+  });
 	
 	</script>
 		
