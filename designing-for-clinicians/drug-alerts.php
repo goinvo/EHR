@@ -137,7 +137,7 @@
 			</div>
 		</section>
 
-		<section id="alert-fatigue">
+		<section id="user-preferences">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -165,7 +165,7 @@
 			</div>
 		</section>
 
-		<section id="user-preferences">
+		<section id="customizing">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -213,7 +213,7 @@
 			</div>
 		</section>
 
-		<section id="alert-feedback">
+		<section id="multiple-alerts">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">

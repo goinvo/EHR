@@ -31,4 +31,6 @@ $(document).ready(function(){
 		$(this).find('.qt-content').slideToggle('medium');
 		//$(this).find('.preview .elipsis').toggleClass('hide');
 	});
+
+	
 });

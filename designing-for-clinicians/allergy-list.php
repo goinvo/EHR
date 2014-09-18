@@ -349,7 +349,7 @@
 			</div>
 		</section><!--end section changing-the-allergy-list-->
 		
-		<section id="review" class="section">
+		<section id="summary" class="section">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
