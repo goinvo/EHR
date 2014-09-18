@@ -1,5 +1,9 @@
 /* Newly Added by Adam */
 
+html {
+	overflow: hidden;	
+}
+
 div.time-buttons {
 }
 
