@@ -43,12 +43,12 @@
 						
 						<div class="impact">
 							<p>"I sent this around to our User Experience team here, and there was a lot of discussion and appreciation for the work you’ve done."</p>
-							<p class="quote-author"><em>&mdash; EPIC Software Developer</em></p>
+							<p class="quote-author">&mdash; Janet Campbell - <em>Epic Software Developer</em></p>
 						</div>
 						<hr>
 						<div class="impact">
 							<p>"We have already referenced your design for the allergies list. Your human factors and design principle sections has convinced a lot of my bosses to go in a new direction with design."</p>
-							<p class="quote-author"><em>&mdash; Marshfield Clinic User Experience Designer</em></p>
+							<p class="quote-author">&mdash; Xue Lee - <em>Marshfield Clinic User Experience Designer</em></p>
 						</div>
 						<hr>
 						<div class="impact">
