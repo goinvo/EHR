@@ -46,7 +46,7 @@
 					<p>E-Prescribing (eRx) can be one of the most satisfying tasks of the physician because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-Prescribing can also be frustrating when the EHR does not provide adequate data entry support. E-Prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.</p>
 					<p>The back-end process of e-prescribing sends discrete electronic data to a central hub, which then distributes the prescription message to the target pharmacy electronically (or via fax, if the target pharmacy lacks e-prescribing capabilities). The pharmacy can also send messages for renewal request to the prescribing physician. A new feature, not yet widely adopted, allows prescribers to send a message electronically to a pharmacy to cancel a previously prescribed medication or prescription.</p>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; New prescription for Newly Diagnosed Diabetes</h5>
+						<h4>Clinical Scenario &mdash; New prescription for Newly Diagnosed Diabetes</h4>
 						<p>Mr. Martin is a 60-year-old construction supervisor. Three months ago, he was diagnosed with diabetes by Dr. Barnes, his family physician. Despite some healthy lifestyle changes, his weight is unchanged. His fingerstick blood sugars are improving, but are still too high at around 200. His goal is 80-140.</p>
 						<p>Dr. Barnes wants Mr. Martin to take a new medication named metformin to control his blood sugar. Together they look at the EHR screen and see that metformin is on Mr. Martin’s insurance formulary, and has the lowest-tier co-pay. Both are pleased. Mr. Martin wants to start with just a 30 day prescription from his local pharmacy in case he has any side-effects. The new prescription is sent electronically to the local pharmacy.</p>
 					</div>
@@ -101,7 +101,7 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h5>5.1.1 Prescribing a New Medication</h5>
+					<h4>5.1.1 Prescribing a New Medication</h4>
 					<p>Once a physician finds the medication she's looking for, she needs to manage additional details like adding or reviewing the dosage strength, instructions, quantity to dispense, and number of refills to authorize. A thoughtful design will pre-populate fields associated with the medication with, possibly, the instructions for the usual starting dose. The EHR system could recommend a physician’s frequently-used choices or favorites. For a returning patient, it could recommend their chosen pharmacy.</p>
 					<p>In the United States, health insurance plans often include drug formularies, which are a list of prescription drugs that will be covered by the insurance plan. Within the formulary, the drugs are grouped into a tier assignment that determines the patient’s portion of the drug cost. A typical plan includes 3 or 4 tiers:
 						<ul class="disc">
@@ -115,7 +115,7 @@
 					<p>An EHR that provides these details reduces the mental effort a physician needs to expend to accomplish this task, and thus reduces their cognitive load. This EHR can also enhance patients' safety by eliminating physicians' distractions and reducing the margin for error.</p>
 					<div class="quicktip" id="considerations">
 						<div class="sidebar cf">
-							<h5></h5>
+							<h4></h4>
 							<p class="preview">Some of the details of the prescription will depend on a patient’s preferences<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Some of the details of the prescription will depend on a patient’s preferences:</p>
@@ -155,20 +155,20 @@
 						<div class="tip"></div>
 					</div><!--end considerations sidebar-->
 
-					<h5>5.1.2 Review the New Prescription Order before Sending It Out</h5>
+					<h4>5.1.2 Review the New Prescription Order before Sending It Out</h4>
 					<p>The physician will need to review the final configuration of the new prescriptions. The EHR can flag missing elements. The physician may still need to make last minute modifications after verbally reviewing the prescriptions with the patient.</p>
 					<p>Instructions for tapering doses need to be clearly worded and can be available as preconfigured text. Here is an example of instructions for tapering doses of prednisone 10 mg tablets for poison ivy/oak/sumac: “4 tablets once daily for 3 days, then 3 tablets once daily for 3 days, then 2 tablets daily for 3 days, then 1 tablet daily for 3 days, then stop.” If there are transition instructions (stopping another medication a few days before or after starting the new one), the physician can add these.</p>
 					<p>The EHR can display drug alerts passively before the physician gives the final order. Interruptive alerts appear before the final order is submitted.</p>
 			
-					<h5>5.1.3 Changing the dose</h5>
+					<h4>5.1.3 Changing the dose</h4>
 					<p>Most medications have a range of possible doses, so modifying a dose is a very common prescriber activity. It can be as simple as switching from the current dose to a new dose, or as complicated as titrating upward using different tablet sizes over an extended period of time. Sometimes the change will involve splitting tablets (if it’s safe to do), using multiple tablets of the prior dose, or spreading the dose out through the day (2 in the morning, 1 at lunch, 2 at bedtime) to achieve a more even therapeutic effect or to reduce an adverse effect. The physician can convert from one prescription strength to another using the EHR. The system can preserve the order details, such as quantity, number of refills, pharmacy, and associated diagnoses.</p>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Increasing the Dose</h5>
+						<h4>Clinical Scenario &mdash; Increasing the Dose</h4>
 						<p>A few years later, Mr. Martin’s diabetes is well controlled, but he has developed high blood pressure (BP). Three months ago, he started on lisinopril 10 mg daily for his high blood pressure (it also protects the kidneys in people with diabetes). Today his BP is at 153/96, which is still just a little high (the readings of his BP he's taken at home are likewise high). Mr. Martin is tolerating the medication well, so his physician wants to increase the dose to 20 mg daily. Mr. Martin has just received a 90 day supply in the mail last week, so he asks if he may use up his current supply of 10 mg tablets by taking 2 tablets daily for a while.</p>
 						<p>Mr. Martin is afraid that he’ll get a new bottle of 20 mg pills six weeks before he really needs them. He asks his doctor how he can avoid that. Can he take a printed prescription to submit later? Can the EHR send a message to the pharmacist instructing her not to fill the prescription until the patient makes contact to request that it be filled? Can Mr. Martin just call later for the new prescription? (Note: His physician’s office prefers to avoid the later calls, because it would be an inefficient use of office staff and physician time.)</p>
 					</div>
 				
-					<h5>5.1.4 Changing the Current Order to a New Order</h5>
+					<h4>5.1.4 Changing the Current Order to a New Order</h4>
 					<p>Discarding an old prescription and starting over can require a lot of time and mental effort, and can introduce the risk of error. Often, the physician only needs to change the strength of the tablet. An EHR that allows users to pick from a list of the strengths for a medication can save time. A physician may also need to adjust the number of tablets she has prescribed. Occasionally, the patient may choose to use a different pharmacy, or may request a two to four week prescription that they can fill locally while awaiting a mail-order 90 day supply.</p>
 					<div class="example" class="fig-5-1">
 						<div class="ex-title">
@@ -179,11 +179,11 @@
 						<img src="./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png" class="scale-with-grid" alt="Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills." /></a>
 					</div>
 				
-					<h5>5.1.5 Allow Association of a Diagnosis or Chronic Problem</h5>
+					<h4>5.1.5 Allow Association of a Diagnosis or Chronic Problem</h4>
 					<p>Users often want to filter and sort medication list displays by diagnosis. Some medications are prescribed to alleviate multiple problems, and an EHR thus may need to be able to associate medications with multiple diagnoses. The 'multiple diagnosis' function also helps patients understand the roles of multi-purpose medications in their care plan. It also informs a variety of caregivers of all the reasons someone prescribed this medication. If a subsequent physician is considering changing a medication's dose or stopping it entirely, they'll need to know this information.</p>
 					<div class="quicktip" id="">
 						<div class="sidebar cf">
-							<h5>Why Automatically Assigning a Therapeutic Class Won’t Work</h5>
+							<h4>Why Automatically Assigning a Therapeutic Class Won’t Work</h4>
 							<p class="preview">Some EHR vendors may be tempted to use a drug’s therapeutic class instead of relying on physician-assigned diagnoses.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Some EHR vendors may tempted to use a drug’s therapeutic class instead of relying on physician-assigned diagnoses. They may be concerned that physicians won’t be willing to assign diagnoses to medications, which may be true if there is no return on the time investment for the physician. However, if the physicians receive a benefit (better sorting and filtering of medication lists, better clinical decision support fueled by that data, and better patient awareness of the reason for the medication) then physicians have an incentive to make the diagnosis assignment.</p>
@@ -202,7 +202,7 @@
 						<img src="./assets/images/examples/eRx/UM_EHR_0002_change-priority.png" class="scale-with-grid" alt="Figure 5.2 - Allow Association of One or More Diagnoses per Medication" /></a>
 					</div>
 				
-					<h5>5.1.6 Stopping a Medication</h5>
+					<h4>5.1.6 Stopping a Medication</h4>
 					<p>Removing a medication from the list can be easy. It could also be easy (though optional) for a user to record why a physician or patient stopped a medication. Common reasons for stopping a medication include:
 						<ol>
 							<li>The medication's high cost, which can take the form of coverage, co-pays, or cash out-of-pocket</li>
@@ -223,9 +223,9 @@
 						<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Figure 5.3 - Medication Timeline Shows Details Like Reason for Stopping When User Selects a Timeline Bar" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5>5.1.7 Renewing Medications</h5>
+					<h4>5.1.7 Renewing Medications</h4>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Renewing Medications Due before the Next Appointment</h5>
+						<h4>Clinical Scenario &mdash; Renewing Medications Due before the Next Appointment</h4>
 						<p>Mr. Martin has been seeing his family physician every three to six months, but his medications often come due for annual renewal before his upcoming appointments. Because of this disparity, Mr. Martin sometimes doesn't get his refills in time, and has to go without some of his medications for several days. Mr. Martin's refills also come in at different times throughout the month, and so he has to make several trips to the pharmacy to pick up his various prescriptions. Mr. Martin wishes his 'medication procurement' schedule could be simplified and consolidated, so that he only had to make one trip.</p>
 						<p>Mr. Martin's physician also finds the situation frustrating. If the patient came in before the renewals came due, the physician could determine whether the medication was effective, and whether the dose was right before signing off on the next round of pills. The physician feels the out-of-sync schedule they've established is a time-wasting hassle, inefficient, unsafe, inaccurate, inconvenient and pointless.</p>
 					</div>
@@ -278,11 +278,11 @@
 					<h3>5.2 Computerized Physician Order Entry (CPOE)</h3>
 					<p>A CPOE (also sometimes referred to as <em>Computerized <strong>Provider</strong> Order Entry</em>) is an electronic entry of patient care orders that electronically transmits itself to the departments (lab, radiology, etc.) or outside organizations that will fulfill it. CPOE orders can be distributed more quickly than their predecessors. They eliminate errors based on hand-writing, and can prevent duplicate orders by checking new orders against existing orders.</p>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Placing Future Lab Orders</h5>
+						<h4>Clinical Scenario &mdash; Placing Future Lab Orders</h4>
 						<p>Mr. Martin has achieved good control of his diabetes, blood pressure, and lipids. For the past year, he's been on stable doses of his medications, and his lab results have been stable as well. He can now settle into a more predictable routine, and won't need to visit the office or undergo lab tests as frequently. In about six months, Mr. Martin will need to come in for a hemoglobin A1c lab test, and then a visit. Another six months after that, he'll need to come in for further tests (another hemoglobin A1c a fasting lipid profile and a urine microalbumin test, both for his diabetes), and then another office visit.</p>
 					</div>
 
-					<h5>5.2.1 Display Pre-Existing Orders to Prevent Duplication</h5>
+					<h4>5.2.1 Display Pre-Existing Orders to Prevent Duplication</h4>
 					<p>A patient's EHR often contains unfulfilled orders. Patients forget tests, or can't find the time to get them done. If physicians can't see patients' existing future orders or recent lab results, they may accidentally order tests that have already been done or ordered, or very similar tests. This would duplicate their colleagues' work and spend resources wastefully.</p>
 					<p>When users place new orders, they can simultaneously be able to see the work that's already been done, without navigating away from their own unfinished orders and losing their work.</p>
 					<div class="print-only page-break"></div>
@@ -308,7 +308,7 @@
 					</div>
 				</div>
 				<div class="sixteen columns">
-					<h5>5.2.2 Make It Easy to Find the Right Orders</h5>
+					<h4>5.2.2 Make It Easy to Find the Right Orders</h4>
 					<p>Naming orders can be a challenge, because tests and procedures can have several commonly-used names. Different organizations may use different names for the same test. The physician ordering procedures might not be familiar with precise names listed in the EHR order catalog. The EHR might formally call a chest x-ray "XR chest". A physician, however, might look for it under:
 						<ul class="disc">
 							<li>chest x-ray (or variant spellings like “xray”)</li>
@@ -321,11 +321,11 @@
 						</ul></p>
 					<p>These are all correct ways to name a chest x-ray. Thus, the interface could allow physicians to find tests and procedures listed under their various commonly-used designations.</p>
 
-					<h5>5.2.3 Preconfigure Orders with as Much Detail as Possible</h5>
+					<h4>5.2.3 Preconfigure Orders with as Much Detail as Possible</h4>
 					<p>Tests physicians order in ER or urgent care scenarios are often high priority and need done STAT. Routine tests physicians order in primary care settings will almost always be lower-priority. They'll need completed today, in the near future, or at some specified future time. An EHR that could be easily configured to a specific care setting, one that established default "priority" settings for the orders it processed, would be a powerful support tool.</p>
 					<div class="quicktip" id="">
 						<div class="sidebar cf">
-							<h5>Setting the Date for Orders: Using Fuzzy Dates</h5>
+							<h4>Setting the Date for Orders: Using Fuzzy Dates</h4>
 							<p class="preview">Sometimes orders demand a precise date and time.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Sometimes orders demand a precise date and time. Repeating a Prothrombin Time (PT) lab test in exactly 3 days helps assure safe dosing of warfarin, a clot-preventer.</p>
@@ -356,11 +356,11 @@
 					</div>
 				</div>
 				<div class="sixteen columns">
-					<h5>5.2.4 Assign the Correct Diagnosis for an Order or Prescription</h5>
+					<h4>5.2.4 Assign the Correct Diagnosis for an Order or Prescription</h4>
 					<p>The EHR can make the problem and diagnosis lists readily available to physicians entering orders. It could also allow users to add new diagnoses on the fly, without having to exit the ordering tool to add them.</p>
 					<p>The EHR can provide clinical decision support by suggesting probable diagnoses based on patients' list entries and lab results.Some orders are almost exclusively associated with a single diagnosis, and in these cases the system could assign this diagnosis to these orders by default. For instance an order for a A hemoglobin A1c lab test will almost always be associated with a diagnosis of diabetes or hyperglycemia.</p>
 					
-					<h5>5.2.5 EHRs Can Adapt to Users, Not Users to EHRs</h5>
+					<h4>5.2.5 EHRs Can Adapt to Users, Not Users to EHRs</h4>
 					<p>An adaptable EHR can let physicians “add to the shopping cart” (<a href="#fig-5-9">Figure 5.9</a>), then “continue shopping” without checking out right away. This allows the physicians and patients to make preliminary decisions, and act on them immediately, but also allows them to make adjustments as the visit unfolds.</p>
 					<div class="example" id="fig-5-9">
 						<div class="ex-title">
@@ -371,7 +371,7 @@
 							<img src="./assets/images/examples/eRx/neworders.png" class="scale-with-grid" alt="Figure 5.9 - EHRs must offer users the option of building sets or collections of orders to facilitate their workflow." /></a>
 					</div>
 
-					<h5>5.2.6 Building Groups of Related Orders Function like Checklists</h5>
+					<h4>5.2.6 Building Groups of Related Orders Function like Checklists</h4>
 					<p>EHRs must offer users the option of building sets or collections of orders to facilitate their workflow. This offers users personalized clinical decision support and frees them from having to depend on their memories or external reference materials to complete involved tasks. Well Child Visits, for example, follow predictable patterns. They involve immunizations at regular, predetermined intervals, specific counseling (anticipatory guidance), and set follow-up visits. </p>
 					<p>A four-month-old's Well Child Visit would include:
 						<ul>

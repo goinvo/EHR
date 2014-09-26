@@ -59,7 +59,7 @@
 						<div class="print-only page-break"></div>
 						<h3>7.1 How People Perceive</h3>
 					</div>
-					<h5 id="expectations">7.1.1 Our Eyes Have Expectations </h5>
+					<h4 id="expectations">7.1.1 Our Eyes Have Expectations </h4>
 					<p class="spacetop"><strong>Our eyes are drawn to familiar patterns. Sometimes we even see patterns we know and expect instead of what's actually there.</strong></p>
 					<p>Your eyes take in data, but your brain 'perceives' this data and parses it into meaningful visual information. Our brains create shortcuts to help us make sense of the estimated 40 million sensory inputs they receive per second. They use our expectations, past experiences, associations, and learned rules of thumb to make guesses about what it is we're looking at. Everyone has seen something at a glance and thought it was a certain object, and then focused on it and realized it was actually something else.</p>
 					<div class="example" id="fig-7-1">
@@ -129,11 +129,11 @@
 					</div>
 					<p>Affordances tell users at a glance that particular elements of the graphical user interface are functional devices. Well-designed affordances also give users an idea of what will happen when they use them.</p>
 					
-					<h5 id="gestalts">7.1.2 We See in Gestalts</h5>
+					<h4 id="gestalts">7.1.2 We See in Gestalts</h4>
 					<p class="spacetop"><strong>People perceive whole shapes, or gestalts, rather than disconnected forms.</strong></p>
 					<p>Gestalt is a German word for form or shape. In English, it has come to have connotations of ‘wholeness.’ When you walk into a room, you immediately form an overall sense of what's going on therein and its corresponding emotional tone. Most people understand when they've come in and interrupted a fight, even if they heard none of the previous conversation. When you view a webpage for the first time, you get a similar overall impression of it. You can say pretty quickly whether you think the site looks cluttered or appealing, modern or out of date. Several design elements feed into our gestalt impressions of sites and applications.</p>
 					<div class="print-only page-break"></div>
-					<h5 id="proximity">Proximity</h5>
+					<h4 id="proximity">Proximity</h4>
 					<p>The distance between objects determines what we perceive the relationships between those objects to be. If things are close together, we assume that's significant and 'group' them in our minds. If elements in a designed object are grouped together, we assume this was intentional and is meaningful.</p>
 				</div>
 				<div class="one-half column">
@@ -168,7 +168,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="Figure 7.10 - Ambulatory Medication Reconciliation Workflow - Items in the center are most alike, and those at the sides are most different. Items in between need clarification." /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5 id="closure">Closure</h5>
+					<h4 id="closure">Closure</h4>
 					<p>Our brains fill in visual blanks for us and draw conclusions with less than complete information. This helps us make sense of the world quickly. Sometimes we can draw the wrong conclusions, misleading our users. We need to keep the advantages and shortcomings of this perceptual habit in mind when we design systems. Designers can make use of our brains' tendency to fill in the blanks to help users to quickly understand a whole idea based on a partial picture, but design can also accidentally lead users to unintended and unhelpful 'false' gestalt impressions.</p>
 					<p><strong>Example:</strong> Our minds take lines or curves and build objects out of them. This is how we can know we're looking at something that's supposed to represent a person when it's a stick figure. Even though the lines below don't add up into a circle and a rectangle, people can still see and identify both shapes.</p>
 					<div class="example" id="fig-7-11">
@@ -180,7 +180,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" class="scale-with-grid" alt="Figure 7.11 - Closure" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5 id="similarity">Similarity</h5>
+					<h4 id="similarity">Similarity</h4>
 					<p>We perceive visual elements that look <strong>similar</strong> as parts of a group. Designers can indicate that two objects are similar, and thus related, by giving the objects the same sizes, shapes or colors. Interfaces that visually group related items are easier to use than those that don't. As a general rule, items that users must process together could be grouped together, while items that need to be processed separately are not.</p>
 					<div class="example" id="fig-7-12">
 						<div class="ex-title">
@@ -201,7 +201,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" alt="Figure 7.13 - Color creates new groups" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5 id="symmetry">Symmetry</h5>
+					<h4 id="symmetry">Symmetry</h4>
 					<p>Our minds like to make sense of complex visual fields by assigning them a perceived center and attendant <strong>symmetry</strong>.</p>
 					<p><strong>Example</strong>: <a href="#fig-7-14">Figure 7.14</a> shows us how our minds like to see two symmetrical diamonds rather than other, equally possible (but less pleasingly symmetrical) shapes.</p>
 					<div class="example" id="fig-7-14">
@@ -223,7 +223,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" alt="Figure 7.15 - Symmetry in Medication Reconciliation" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5 id="figure-ground">Figure / Ground</h5>
+					<h4 id="figure-ground">Figure / Ground</h4>
 					<p>Our brains perceive objects either as figures in the foreground or as part of the background. Whatever we're focusing on becomes the figure, and everything else shifts into the background accordingly.</p>
 					<p><strong>Example</strong>: In <a href="#fig-7-16">Figure 7.16</a> below, the ampersand is the figure, distinct from the blue rectangle that serves as its ground or background. As the designer intended, users understand the figure to be more important than the ground.</p>
 					<div class="example" id="fig-7-16">
@@ -245,7 +245,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" class="scale-with-grid" alt="Figure 7.17 - Ambiguous Figure/Ground Relationship" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5 id="continuity">Continuity</h5>
+					<h4 id="continuity">Continuity</h4>
 					<p>In day to day life, our perception combines and relies on all of these components. Alignment creates groupings of items, and these groupings are said to have <strong>continuity</strong>. Our brains expect and try to reconcile contours into continuous objects.</p>
 					<div class="example" id="gal-7-1">
 						<div class="ex-title">
@@ -287,7 +287,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="Figure 7.18 - Continuity in Medication Reconciliation" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<h5>7.1.3 I Can't See It but I Use It</h5>
+					<h4>7.1.3 I Can't See It but I Use It</h4>
 					<p><strong>We use our peripheral vision to get a big picture of what we're seeing, and we use that big picture to help us decide what to focus on.</strong></p>
 					<p>Our visual system consists of our eyes and the brain processes that work with them. This system does an amazing job of seeking out and providing us with visual information. It does so mostly without our being consciously aware of it. We are barely aware that only the very central part of our vision provides us with a sharp-focused image, detail rich, with color information. The periphery of our vision (outside of the central “peephole”) is fuzzy, and drained of color. That peripheral part of the vision is, however, able to detect features such as motion, edge, and contrast. These features guide our brains in making their "visual query" of the views before us.</p>
 					<p>Rapid eye movement enables our brains to sample the environment. The task we're trying to accomplish determines the details we unconsciously seek out. If we're looking for a friend, we notice faces in the crowd. If we're trying to find our way through the crowd, we notice the gaps between people.</p>
@@ -330,7 +330,7 @@
 					<p>A peripheral glance tells people where they are and what to expect, helping us decide what to focus on. We can only truly see what we focus on. The display can only effectively convey that information at any given time.</p>
 					<p><strong>Design tip:</strong> Feedback and error messages can pop up near an area people will already be focusing on. While we do use our peripheral vision to orient ourselves and scan for things, we also tend to ignore our peripheral vision when we're trying to focus on the task at hand.</p>
 					<div class="print-only page-break"></div>
-					<h5 id="preattentive-attributes">7.1.4 Preattentive Attributes</h5>
+					<h4 id="preattentive-attributes">7.1.4 Preattentive Attributes</h4>
 					<p class="spacetop"><strong>Little, visual things people notice and understand quickly</strong></p>
 					<p>We notice some visual features, such as color, size, shape, orientation, and motion, more quickly than others. We call the things that especially stand out to us <strong>preattentive attributes</strong>. Before we fully process visual information, our minds prompt us to focus on these attributes. Things that stand out from the rest of their environment, as in <a href="#fig-7-20">Figure 7.20</a> below, do so because of their attention-catching preattentive attributes.</p>
 					<div class="print-only page-break"></div>
@@ -354,7 +354,7 @@
 						<div class="print-only page-break"></div>
 						<h3>7.2 How People Think</h3>
 					</div>
-					<h5>7.2.1 The Two Ways People Think</h5>
+					<h4>7.2.1 The Two Ways People Think</h4>
 					<p><strong>Everyone has two modes of thinking. There's a rapid mode that requires little conscious effort and a slower mode that requires focus.</strong></p>
 					<p>If a system is easy to understand and work with, users don't have to engage with it via their 'slow, focused' mode of thinking. They can just use their rapid mode and save their mental energy for more important matters. Daniel Kahneman wrote a great book about these modes, and our thinking builds on his work.</p>
 					<p>The rapid mode of thinking is automatic and almost effortless. People often don't experience a sense of voluntary control over it. This mode allows us to:
@@ -384,7 +384,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt=" Figure 7.21 - The Twinlist Prototype Facilitates Fast Thinking" /></a>
 					</div>
 
-					<h5 id="working memory">7.2.2 Working Memory</h5>
+					<h4 id="working memory">7.2.2 Working Memory</h4>
 					<p><strong>Working memory demands effort and is limited. Try to design systems that place limited demands on users' working memory.</strong></p>
 					<p>Working memory, or short-term memory, holds items like phone numbers until we can write them down or punch them into our phones. This type of memory stores information for less than a minute and demands focused thinking.</p>
 					<p><strong>Design tip</strong>: Try not to ask people to look at information on one screen, remember it, and then enter it into another field on another screen.</p>
@@ -397,7 +397,7 @@
 						</div>
 					<p>The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it can allow them to enter these with or without the intervening hyphens or parentheses. It could display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design has done all it can to alleviate this, the interface can then 'chunk' its information in the manner of the phone number example.</p>
 
-					<h5 id="cognitive-load">7.2.3 Cognitive Load</h5>
+					<h4 id="cognitive-load">7.2.3 Cognitive Load</h4>
 					<p><strong>Loads are heavy, even mental ones. Help lighten the user’s load.</strong></p>
 					<p>Our brains manage motor, visual and cognitive loads. The strain of managing and manipulating items within our working memory generates cognitive load. Motor load is the easiest for the brain to manage, while cognitive load is the most difficult.</p>
 					<p>Designers seeking to lighten users' cognitive loads need to bear these details in mind:
@@ -437,7 +437,7 @@
 					</div>
 				
 
-					<h5 id="chunk">7.2.4 Everybody Likes a Chunk</h5>
+					<h4 id="chunk">7.2.4 Everybody Likes a Chunk</h4>
 					<p><strong>Breaking information down into small, digestible chunks helps people make sense of it.</strong></p>
 					<p>Human brains can only apply focused thought to a relatively small amount of information at a time. Interfaces must break information into chunks. They can give users information in manageable, controlled courses, like a formal dinner.</p>
 					<p><strong>Progressive disclosure</strong> gives people the information they need when they need it. The interface gradually provides users with more and more detail. Designers need to develop a good knowledge of how their users will be working to understand what information they could begin with, and then what details can be introduced at successive stages. Keep in mind that people can only hold three to four things in their mind at once.</p>
@@ -451,12 +451,12 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Figure 7.25 - Progressive Disclosure in an Allergy List" /></a>
 					</div>
 				
-					<h5 id"decision-making">7.2.5 Goal, Execute, and Evaluate!</h5>
+					<h4 id"decision-making">7.2.5 Goal, Execute, and Evaluate!</h4>
 					<p><strong>Humans have a thought cycle that guides decision making and it is 'Goal, Execute and Evaluate.'</strong></p>
 					<p>How do we get anything done? No, really. We start by forming a goal: get some food, edit a word document, impress our boss with our design skills, etc. Next we choose and execute actions that we think will help us accomplish that goal. Finally, we evaluate how well our actions worked. Were we able to accomplish our goal, or to at least make progress towards accomplishing it?</p>
 					<p>Interfaces can support clinical decision making if their designers establish a shared understanding of goals with physicians. The interfaces must then provide users with clear paths by which to accomplish these goals, useful 'action' choices, and the feedback they need to quickly and accurately make choices and evaluate their progress. If interfaces don't provide appropriate or sufficient feedback, users make errors and find the interface unsatisfying to use. This is a common problem with interfaces.</p>
 				
-					<h5 id="flow-states">7.2.6 Go with the Flow</h5>
+					<h4 id="flow-states">7.2.6 Go with the Flow</h4>
 					<p><strong>People like to get into flow states; if we're engrossed in what we're doing, everything else falls away</strong></p>
 					<p>We've all had moments where we get so involved in what we're doing that we lose track of time and get a lot done. This situation is called a 'flow state,' and you can enter it doing professional or (more likely) recreational tasks. No one likes having their flow state interrupted.</p>
  					<p>Interfaces can help users get into and stay in flow states. Some facts to remember:
@@ -489,7 +489,7 @@
 						<div class="print-only page-break"></div>
 						<h3>7.3 How People Manage Information</h3>
 					</div>
- 					<h5 id="info-chaos">7.3.1 Information Chaos</h5>
+ 					<h4 id="info-chaos">7.3.1 Information Chaos</h4>
 					<blockquote>Too much information going through my brain, too much information driving me insane. <br/><span class="quote-author">- The Police</span></blockquote>
 					<p>Five things lead to a state John Beasley and his colleagues have called information chaos: information overload, information underload, information conflict, erroneous information, and information scatter.</p>
 					<p><strong>Information overload</strong> happens when we're being asked to make sense of information quickly, but there's too much information for us to do so. This makes us tired and even anxious. It also reduces our situational awareness. Without good situational awareness, we can miss important information because we're 'unable to hear the signal for the noise.'</p>
@@ -510,7 +510,7 @@
 						<div class="credit"><p>Reproduced by permission of the American Board of Family Medicine</p></div>
 					</div>
 				
-					<h5 id="situational-awareness">7.3.2 Situational Awareness</h5>
+					<h4 id="situational-awareness">7.3.2 Situational Awareness</h4>
 					<p><strong>Interfaces must help users put all the elements of complex situations into perspective so they can make good choices</strong></p>
 					<p>Situational awareness is an important component of everything from ordinary tasks like driving a car to emergency services. Effective EHR displays can improve users' situational awareness by presenting them with key information without disrupting their work.</p>
 					<p>It's difficult to design EHRs that can improve users' situational awareness, however, because the information users need varies depending on both the user and the task at hand. What's important for the user to know about one patient may not be important for them to know about another. Yet despite the situation's complexity, designers can meet this challenge. If a patient has a chronic disease such as diabetes or hypertension, an interface can help users quickly assess and manage these conditions. The interface need never force users to stop, for example, writing up an e-prescription to go look for the lab result they need in order to calculate a proper dose. Designers need to strike a balance between giving users lots of information to boost their situational awareness, and overwhelming them (see information overload).</p>

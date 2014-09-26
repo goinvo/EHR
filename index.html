@@ -17,6 +17,16 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4028512-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -36,7 +46,7 @@
 					<li><a href="./timeline/" target="blank">Timeline</a></li>
 					<li><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="blank">Twinlist</a></li>
 					<li><a href="https://github.com/goinvo/EHR" target="blank">GitHub</a></li>
-					<li><a href="./Inspired_EHRs_Designing_for_Clinicians.pdf" target="blank" onclick="_gaq.push(['_trackEvent','Download','PDF',this.href]);">PDF</a></li>
+					<li><a href="./Inspired_EHRs_Designing_for_Clinicians.pdf" target="_blank" onclick="ga('send','event','Download PDF','click',this.href);">PDF</a></li>
 					<li><a href="./designing-for-clinicians/feedback.php">Feedback</a></li>
 					<li><a href="./designing-for-clinicians/impact.php">Impact</a></li>
 				</ul>
@@ -120,14 +130,5 @@
 		
 	</div>
 </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-4028512-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>

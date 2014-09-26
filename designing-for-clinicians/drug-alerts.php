@@ -50,7 +50,7 @@
 					<h3>6.1 Drug Allergy Alerts</h3>
 					<p>Drug allergy alerts inform physicians that their patient may be allergic to whatever they’ve just prescribed. The physician may have accidentally overlooked the allergy. They’ll need to weigh the drug’s potential risks against its potential benefits, and either go forward with the prescription or cancel it. Let’s look at a simple clinical scenario.</p>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Drug Allergy Alert</h5>						
+						<h4>Clinical Scenario &mdash; Drug Allergy Alert</h4>						
 						<p>Mr. Martin is a 60-year-old who, barring one exception, was in good health until a decade ago when he was hospitalized after a severe automobile accident. At that time, he had a documented allergy (generalized hives, itching, and facial swelling) to the IV drug Unasyn, an antibiotic drug combination that contains sulbactam and ampicillin, which is a member of the penicillin family.</p>
 						<p>Today he is visiting Dr. Barnes, his primary care doctor, with symptoms of acute sinusitis. The problem has been going on for almost two weeks and is not improving. Dr. Barnes’s first choice of treatment is Augmentin (clavulanate plus amoxicillin, which is also a member of the pencillin family). She glances at the allergy list in the patient header, looking for the word “penicillin” but does not see it. The term “Unasyn” did not catch her attention, perhaps because she wasn’t thinking about compounds that contained drugs closely related to penicillin. She enters an e-prescription for Augmentin, but then a drug alert interrupts her workflow. The alert identifies the patient’s allergy to Unasyn, the symptoms and severity, and Unasyn’s chemical similarity to Augmentin. Dr. Barnes reconsiders her decision and chooses doxycycline, a different antibiotic.</p>
 					</div>
@@ -100,7 +100,7 @@
 					<h3>6.2 Drug-Drug Interaction Alerts</h3>
 					<p>Drug interactions are far more complex than drug allergies. A drug allergy either exists or doesn't, though there is some room for doubt about whether an allergy was truly the issue at the time, whether the allergy still persists, and what the nature of the reaction was. With drug interactions, there are more variables: the strength of scientific evidence for the interaction, the severity category for the interaction (usually 3-5 levels from mild to severe), the organizational threshold for displaying alerts based on alert severity, and patient variables (age, weight, pregnancy, and renal function).</p>
 					<div class="scenario">
-						<h5>Clinical Scenario - Severe Drug Interaction</h5>
+						<h4>Clinical Scenario - Severe Drug Interaction</h4>
 						<p>Mr. Martin, our 60-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed him with a bladder infection. As she started to order the antibiotic ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
 					</div>
 					<div class="print-only page-break"></div>
@@ -175,7 +175,7 @@
 					<h3>6.4 Customizing Alerts for Individual Physicians</h3>
 					<p>Some alerts will be predictably and safely dismissed 100% of the time, and can reasonably be eliminated. Perhaps a patient has been taking a medication for a long time without incident, but an alert still appears every time the prescription is renewed. Here are some common examples:</p>
 					<div class="scenario">
-						<h5></h5>
+						<h4></h4>
 						<p>The patient is allergic to sulfa, but has been taking a distant chemical relative of sulfa drugs, such as the diuretics hydrochlorothiazide or chlorthalidone (both very commonly prescribed), without incident for some time. In this context, the EHR need never again warn the physician about this particular patient’s allergy to sulfa.</p>
 						<p>Lisinopril (an ACE inhibitor) gives this patient a cough, and an alert appears when the physician tries to prescribe an ARB such as losartan or valsartan, because these two classes of drugs are somewhat related. However, ARBs are known to never cause the cough that ACE inhibitors may cause. The EHR need never again warn the physician about this particular side-effect for any patient.</p>
 					</div>
@@ -191,7 +191,7 @@
 					</div>
 					<div class="quicktip" id="">
 						<div class="sidebar cf">
-							<h5>Collecting Feedback about the Usefulness of Alerts</h5>
+							<h4>Collecting Feedback about the Usefulness of Alerts</h4>
 							<p class="preview">Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR <span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Let data drive the rules for alerts. Currently, EHRs can collect structured data about the reason for alert overrides, but no EHR we know of can systematically collect data about whether prescribers consider particular alerts useful.</p>
@@ -220,7 +220,7 @@
 						<hr/>
 						<div class="print-only page-break"></div>
 					</div>
-					<h5>6.5 Multiple Drug Alerts</h5>
+					<h4>6.5 Multiple Drug Alerts</h4>
 					<p>Sometimes an EHR needs to present multiple alerts to the user. These may be multiple alerts for a single medication, or several alerts for a number of different medications. Would the EHR display these alerts one at a time, or all at once? If they’re displayed all at once, physicians can see the big picture: all of the drug-allergies and drug-drug interactions in play. Without having to navigate to read each alert, physician’s can run down the list and make decisions for each item. Showing all the alerts simultaneously, however, may visually overwhelm the users. It might also be difficult to simultaneously show both all the alerts and the clinical information that physicians need to act on these alerts.</p>
 					<p><a href="#fig-6-8">Figure 6.8</a> shows one possible way of presenting multiple alerts on a single screen. This design shows each alert’s severity using small icons in the left column. New drug orders and either the allergy or interacting drug are displayed just after the severity icons. The rightmost column shows the actions that a physician can take to address each alert. The action buttons include both the actions and the drug names (e.g., Stop Augmentin) to help the physician understand what each button does. The design uses bold text on action buttons to show recommended actions for each alert. <a href="#fig-6-9">Figure 6.9</a> shows the display after the user has made decisions about the first two alerts. The Continue button activates after the user addresses all the alerts (<a href="#fig-6-10">Figure 6.10</a>).
 					<p>It’s more challenging to display multiple alerts on small mobile devices. <a href="#gal-6-1">Gallery 6.1</a> shows a way to displayed and address multiple alerts on a mobile phone. The first screen presents an overview of all of the alerts, grouped by type. Tapping an alert brings up details about it, as well as possible actions the physician can take.</p>
@@ -329,11 +329,11 @@
 					<p>Additional Resources</p>
 					<div class="section_cite">
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
-						<h5>EHR Safety Enhanced Design Briefs</h5>
+						<h4>EHR Safety Enhanced Design Briefs</h4>
 						<p><a target="_blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
 						<p><a href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu04.htm" target="_blank" class="link">Clinical Decision Support</a></p>
 
-						<h5>EHR Usability</h5>
+						<h4>EHR Usability</h4>
 						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="_blank" class="link">Designing for Usability</a></p>
 					</div>
 					<hr />

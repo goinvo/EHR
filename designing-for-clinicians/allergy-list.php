@@ -48,7 +48,7 @@
 					
 					<div class="quicktip" id="other_allergies">
 						<div class="sidebar cf">
-							<h5>Other Kinds of Allergies</h5>
+							<h4>Other Kinds of Allergies</h4>
 							<p class="preview">Inhalant allergies (such as asthma, hay fever, or allergies to dust and mold) are usually not included in the Allergy List, but rather<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Inhalant allergies (such as asthma, hay fever, or allergies to dust and mold) are usually not included in the Allergy List, but rather in the Problem List. Very few food allergies could have an effect on prescriptions. A few injectable medications use peanut oil, glucosamine tablets may be derived from shellfish, and patients with egg or soy allergies should not be prescribed propofol.</p>
@@ -87,7 +87,7 @@
 						<h3>4.2 Glancing at the Allergy List</h3>
 					</div>
 					<div class="scenario" id="">
-						<h5>Clinical Scenario &mdash; Considering a New Prescription</h5>
+						<h4>Clinical Scenario &mdash; Considering a New Prescription</h4>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
 					<p>Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask patients if they are allergic to the drugs in question.</p>
@@ -142,7 +142,7 @@
 					</div>
 					<p>Sometimes a physician wants to know a bit more detail about a drug allergy on the list. How accurate is the information? Are the potential risks of using the drug outweighed by strong benefits, such as increased effectiveness or significantly lower costs?</p>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Reviewing Allergy Details</h5>
+						<h4>Clinical Scenario &mdash; Reviewing Allergy Details</h4>
 						<p>Dr. Barnes is seeing a 38-year-old father of four. For the last two days, the patient's throat has been getting increasingly sore. Five days ago, one of his children came home from school with a fever and headache. The patient’s rapid strep test indicates that he has strep throat.</p>
 						<p>Dr. Barnes would usually prescribe penicillin because it's cheap and effective. A few years ago, however, the patient had a severe reaction to penicillin, which included hives and a swelling of the lips. The physician's next choice would be cephalexin (Keflex). Because penicillin and cephalexin are chemically similar, if the patient's allergic reaction to penicillin was truly severe, he might also have an allergic reaction to cephalexin. Other times it may perfectly safe to prescribe.</p>
 						<p>Cephalexin can be perfectly safe for people with a mild penicillin allergy. However people with a severe penicillin allergy should avoid cephalexin. The third-choice alternatives would be clindamycin or azithromycin (Z-Pak), both of which are more expensive.</p>
@@ -182,7 +182,7 @@
 					
 					<div class="quicktip" id="">
 						<div class="sidebar cf">
-							<h5>What Allergy List details are important to physicians?</h5>
+							<h4>What Allergy List details are important to physicians?</h4>
 							<p class="preview">Know your user and their needs. We sent a convenience-sample survey to mostly academic health center physician faculty members<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Know your user and their needs. We sent a convenience-sample survey to mostly academic health center physician faculty members and residents at several institutions, asking what they felt was important to include in a Medication Allergy List. We had 52 responses. Our survey didn't consider regulatory requirements, which might change over time.</p>
@@ -213,13 +213,13 @@
 						<h3>4.4 Changing the Allergy List (Adding and Editing)</h3>
 					</div>
 					<div class="scenario">
-						<h5>Clinical Scenario &mdash; Modifying the Allergy List</h5>
+						<h4>Clinical Scenario &mdash; Modifying the Allergy List</h4>
 						<p>Dr. Barnes is seeing an adult patient who has had a sinus infection for the past two weeks. Dr. Barnes would like to prescribe the antibiotic Augmentin. As she prepares to do so, she asks the patient whether he has any drug allergies, while simultaneously glancing at the patient's allergy list in the demographic banner.</p>
 						<p>The patient's allergy list currently includes Augmentin, but gives no details about his reaction to the drug. Dr. Barnes decides to take advantage of this opportunity to add some detail to the medication allergy list.</p>
 						<p>The patient reports that he took Augmentin years ago and became nauseated. During their conversation, the patient reveals that, since then, he has taken amoxicillin with no ill effects. Augmentin and amoxicillin are both in the penicillin family, and thus Augmentin should be safe to prescribe.</p>
 						<p>To correct the allergy list, Dr. Barnes will recategorize the Augmentin allergy as a side effect.</p>
 					</div>
-					<h5>4.4.1 Editing the Allergy List</h5>
+					<h4>4.4.1 Editing the Allergy List</h4>
 					<p>Our physician wants to quickly edit two parts of the EHR's entry for the patient's reaction to Augmentin. She wants to provide information about the patient's symptom, nausea, and to change the reaction's category from allergy to side-effect. The doctor wants to work quickly, because other clinical tasks demand her attention. The developer’s task is to make adding and removing substances from the Allergy List quick and intuitive. Here are some details for developers to keep in mind while creating EHRs that meet physicians' needs:
 						<ul class="disc">
 							<li>Physicians often take on new patients and need to add several allergies to their lists, so make adding entries quick and effortless.</li>
@@ -282,7 +282,7 @@
 				<div class="sixteen columns">
 					<p>Our "after" example (Figure 4.11) only includes the necessary data fields. The shaded section at the bottom offers physicians the ability to enter optional details. Our "after" design exemplifies the <a href="./human-factors.php#how-people-perceive">principle of least effort</a>.</p>
 					
-					<h5>4.4.2 Adding to the Allergy List</h5>
+					<h4>4.4.2 Adding to the Allergy List</h4>
 					<p>When adding new entries to the Allergy Lists, nurses and physicians might:
 						<ol>
 							<li>Find the name of the drug or substance from a list of possible choices.</li>
@@ -319,7 +319,7 @@
 						</div>
 					</div><!--end gallery 4.1-->
 					<p>The simplified example's design (see <a href="#gal-4-1-c">Gallery 4.1 c</a>) can be faster and easier to use. It has a clear visual sequence, which makes it easier to navigate and thus more likely to be completed.</p>
-					<h5>4.4.3 Predictive Search Fields</h5>
+					<h4>4.4.3 Predictive Search Fields</h4>
 					<p>Predictive search fields can substantially reduce the mental effort and time it takes physicians to add entries to an Allergy List. Pushing the most likely results to the top of the list of predictive search results will make it easier for users to find what they're looking for. Users are far more likely to want to enter a simple description, like "cough," than they are to want to enter a more detailed result, such as "whooping cough" or "smoker's cough."</p>
 				</div>
 				<div class="one-half column">

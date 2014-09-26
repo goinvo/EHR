@@ -145,7 +145,7 @@
 						<hr/>
 						<h3>9.3 Recommended Reading</h3>
 					</div>
-					<h5>9.3.1 Usability and EHR</h5>
+					<h4>9.3.1 Usability and EHR</h4>
 					<p><strong>Health Information Management Systems Society (HIMSS)</strong>
 						<br/><a href="http://himss.org/usability" target="blank" class="link">EHR Usability Basics</a></p>
 					<p><strong>HIMSS</strong> is a global, cause-based, not-for-profit organization that focuses on improving healthcare through improving and distributing information technology (IT). This site includes resources related to EHR usability evaluation and design.</p>
@@ -167,7 +167,7 @@
 						</ul></p>
 					<p><a href="http://www.usability.gov" class="link" target="blank">Usability.gov</a> This is a valuable general resource on usability methods and principles.</p>
 
-					<h5>9.3.2 Usability in General</h5>
+					<h4>9.3.2 Usability in General</h4>
 					<p>Norman, D. (2013). <em>The Design of Everyday Things: Revised and Expanded Edition</em>. (Originally published: <em>The Psychology of Everyday Things</em>). New York, NY: Basic Books</p>
 					<p>Shneiderman, S. B., &amp; Plaisant, C. (2010). <em>Designing the User Interface</em> (4th ed.). Reading, MA: Addison-Wesley Publ. Co.</p>
 					<p>Rogers, Y., Sharp, H., &amp; Preece, J. (2011). <em>Interaction Design: Beyond Human-Computer Interaction</em>. Hoboken, NJ: John Wiley &amp; Sons.</p>
@@ -177,7 +177,7 @@
 					<p>Rubin, J., &amp; Chisnell, D. (2008). <em>Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests</em>. Hoboken, NJ: John Wiley &amp; Sons.</p>
 					<p>Krug, S. (2014). <em>Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</em>. Berkeley, CA: New Riders.</p>
 
-					<h5>9.3.3 Design</h5>
+					<h4>9.3.3 Design</h4>
 					<p>Weischenk, S.M. (2011). <em>100 Things Every Designer Needs to Know about People</em>. Berkeley, CA: New Riders.</p>
 					<p>Few, S. (2009). <em>Now You See It: Simple Visualization Techniques for Quantitative Analysis</em>. Oakland, CA: Analytics Press.</p>
 					<p>Ware, C. (2005). Visual Queries: The Foundation of Visual Thinking. <em>In Knowledge and Information Visualization</em>, (pp. 27-35). Springer Berlin Heidelberg.</p>

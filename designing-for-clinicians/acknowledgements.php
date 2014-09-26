@@ -46,7 +46,7 @@
 					<p>Several members of the Electronic Health Records Association (EHRA) and other HealthIT professionals participated in the three design workshops we organized during the course of the project. Others read early drafts of the book and provided feedback and suggestions.</p>
 					<p>Finally we thank the California HealthCare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT for supporting this project.</p>
 					
-					<h5>Advisory Panel</h5>
+					<h4>Advisory Panel</h4>
 						<ul class="disc">
 							<li>John Beasley, MD - Professor of Medicine and Industrial &amp; Systems Engineering at the University of Wisconsin-Madison</li>
 							<li>Elmer V. Bernstam, MD, MSE - Professor and Associate Dean for Research, School of Biomedical Informatics; Professor of Internal Medicine, Medical School, The University of Texas Health Sciences Center at Houston</li>
@@ -62,7 +62,7 @@
 							<li>Linsey Steege, PhD - Human Factors Engineer, Assistant Professor,  School of Nursing at the University of Wisconsin-Madison</li>
 						</ul>
 
-					<h5>Health IT Vendors</h5>
+					<h4>Health IT Vendors</h4>
 					<p><strong>Workshop Participants</strong></p>
 						<ul>
 							<li>Leslea Carey - Clinical UI Analyst, NextGen Healthcare</li>
@@ -84,7 +84,7 @@
 							<li>Lynda Hoeksema, MSN, FNP-BC, RN-BC - Clinical Transformation Manager - Spectrum Health</li>
 						</ul>
 
-					<h5>Additional Acknowledgements</h5>
+					<h4>Additional Acknowledgements</h4>
 					<p>The authors wish to thank the following people for their contribution to this book.</p>
 						<ul>
 							<li><strong>Erin Horáková, MA</strong> is a doctoral candidate in the English department at Queen Mary, University of London. Horáková has published academic work and has written for popular publications including <a href="http://www.tor.com/" target="blank">Tor.com</a>, the LA Review of Books, and Strange Horizons. She has served as an editor and/or researcher for a variety of publishing houses, universities, creative projects, legal firms and other organizations.</li>
@@ -93,10 +93,10 @@
 							<li><strong>Tiffany Chao</strong> and <strong>Johnny Wu</strong>, graduate students at the University of Maryland,  developed the Twinlist prototype, under the supervision of Catherine Plaisant and Ben Shneiderman.</li>
 						</ul>
 
-					<h5>Electronic Health Records Association</h5>
+					<h4>Electronic Health Records Association</h4>
 					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshops and dissemination efforts.</p>
 					
-					<h5>Funding Supporters</h5>
+					<h4>Funding Supporters</h4>
 					<p><a href="http://www.chcf.org/" target="blank">California HealthCare Foundation</a><br/>
 						The California HealthCare Foundation, based in Oakland, California, works as a catalyst to fulfill the promise of better healthcare for all Californians. The Foundation supports ideas and innovations that improve the quality, increase the efficiency, and lower the costs of care. For more information, visit <a href="www.chcf.org">www.chcf.org</a>.</p>
 
