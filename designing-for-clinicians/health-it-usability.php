@@ -19,7 +19,26 @@
 	<![endif]-->
 </head>
 <body class="health-it-usability">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="health-it-usability">
+						<a href="./design-principles.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./health-it-usability.php"> <span class="ch-name">Health IT Usability</span></a> 
+						<a href="./authors.php"><span class="next"></span><span class="next-text">Next</span></a>
+						<div class="section-nav">
+							<ul>
+								<li><a href="./health-it-usability.php#usability">9.1 Usability</a></li>
+								<li><a href="./health-it-usability.php#methodologies">9.2 Methodologies</a></li>
+								<li><a href="./health-it-usability.php#recommended-reading">9.3 Recommended Reading</a></li>
+							</ul>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -188,6 +207,26 @@
 			</div>
 		</section><!--end section terminology-->
 		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="health-it-usability">
+							<a class="prev-ch" href="./design-principles.php"><span class="prev"></span><span class="ch-name">Design Principles</span></a> 
+							<a class="next-ch" href="./authors.php"><span class="next"></span><span class="ch-name">Authors</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

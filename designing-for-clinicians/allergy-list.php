@@ -22,7 +22,28 @@
 	<![endif]-->
 </head>
 <body class="allergy-list">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="allergy-list">
+					<a href="./medication-reconciliation.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+					<a href="./allergy-list.php"><span class="ch-name">Allergy List</span></a> 
+					<a href="./e-prescribing.php"><span class="next"></span><span class="next-text">Next</span></a>
+					<div class="section-nav">
+						<ul>
+							<li><a href="./allergy-list.php#three-tasks">4.1 Three Main Tasks</a></li>
+							<li><a href="./allergy-list.php#glancing">4.2 Glancing at the Allergy List</a></li>
+							<li><a href="./allergy-list.php#exploring-the-details">4.3 Exploring the Details</a></li>
+							<li><a href="./allergy-list.php#changing-the-allergy-list">4.4 Changing the Allergy List</a></li>
+							<li><a href="./allergy-list.php#summary">4.5 Summary</a></li>
+						</ul>
+					</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -370,6 +391,26 @@
 			</div>
 		</section><!--end section review-->
 		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="allergy-list">
+				<a class="prev-ch" href="./medication-reconciliation.php"><span class="prev"></span><span class="ch-name">Medication Reconciliation</span></a> 
+				<a class="next-ch" href="./e-prescribing.php"><span class="next"></span><span class="ch-name">E-Prescribing</span></a></li>
+			</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

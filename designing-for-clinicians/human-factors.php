@@ -21,7 +21,27 @@
 	<![endif]-->
 </head>
 <body class="human-factors">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="human-factors">
+						<a href="./drug-alerts.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./human-factors.php"><span class="ch-name">Human Factors</span></a> 
+						<a href="./design-principles.php"><span class="next"></span><span class="next-text">Next</span></a>
+						<div class="section-nav">
+							<ul>
+								<li><a href="./human-factors.php#how-people-perceive">7.1 How People Perceive</a></li>
+								<li><a href="./human-factors.php#how-people-think">7.2 How People Think</a></li>
+								<li><a href="./human-factors.php#manage-information">7.3 How People Manage Information</a></li>
+								<li><a href="./human-factors.php#summary">7.4 Summary</a></li>
+							</ul>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -540,6 +560,26 @@
 		</section>
 
 		<div class="print-only page-break"></div>
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="human-factors">
+							<a class="prev-ch" href="./drug-alerts.php"><span class="prev"></span><span class="ch-name">Drug Alerts</span></a> 
+							<a class="next-ch" href="./design-principles.php"><span class="next"></span><span class="ch-name">Design Principles</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

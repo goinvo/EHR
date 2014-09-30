@@ -1,4 +1,4 @@
-<footer class="chapterEnd">
+<!--<footer class="chapterEnd">
 	<div class="container">
 		<div class="sixteen columns">
 			<div class="sectionStart">
@@ -50,7 +50,7 @@
 		</div>
 		</div>
 	</nav>
-</footer>
+</footer>-->
 
 
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>

@@ -19,7 +19,19 @@
 	<![endif]-->
 </head>
 <body class="authors-ch">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="authors-ch">
+						<a href="./health-it-usability.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+						<a href="./authors.php"> <span class="ch-name">Authors</span></a> 
+						<a href="./acknowledgements.php"><span class="next"></span><span class="next-text">Next</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -74,6 +86,26 @@
 			</div>
 		</section>
 
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="authors-ch">
+				<a class="prev-ch" href="./health-it-usability.php"><span class="prev"></span><span class="ch-name">Health IT Usability</span></a>
+				<a class="next-ch" href="./acknowledgements.php"><span class="next"></span><span class="ch-name">Acknowledgements</span></a></li>
+			</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

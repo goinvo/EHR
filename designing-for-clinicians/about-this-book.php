@@ -19,7 +19,19 @@
 	<![endif]-->
 </head>
 <body class="about-this-book">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="about-this-book">
+						<a href="./foreword.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./about-this-book.php"><span class="ch-name">About this Book</span></a> 
+						<a href="./medication-list.php"><span class="next"></span><span class="next-text">Next</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> 
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -72,6 +84,26 @@
 			</div>
 		</section>
 
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="about-this-book">
+				<a class="prev-ch" href="./foreword.php"><span class="prev"></span><span class="ch-name">Foreword</span></a> 
+				<a class="next-ch" href="./medication-list.php"><span class="next"></span><span class="ch-name">Medication List</span></a></li>
+			</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 		
 					</div>

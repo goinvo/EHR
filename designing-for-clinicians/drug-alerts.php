@@ -21,7 +21,29 @@
 	<![endif]-->
 </head>
 <body class="drug-alerts">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="drug-alerts">
+						<a href="./e-prescribing.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./drug-alerts.php"><span class="ch-name">Drug Alerts</span></a> 
+						<a href="./human-factors.php"><span class="next"></span><span class="next-text">Next</span></a>
+						<div class="section-nav">
+							<ul>
+								<li><a href="./drug-alerts.php#drug-allergy-alerts">6.1 Drug Allergy Alerts</a></li>
+								<li><a href="./drug-alerts.php#alert-fatigue">6.2 Drug-Drug Interaction Alerts</a></li>
+								<li><a href="./drug-alerts.php#user-preferences">6.3 User Preferences to Dismiss Future Alerts</a></li>
+								<li><a href="./drug-alerts.php#customizing">6.4 Customizing Alerts for Individual Physicians</a></li>
+								<li><a href="./drug-alerts.php#multiple-alerts">6.5 Multiple Drug Alerts</a></li>
+								<li><a href="./drug-alerts.php#summary">6.6 Summary</a></li>
+							</ul>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -321,6 +343,26 @@
 			</div>
 		</section>
 		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="drug-alerts">
+								<a class="prev-ch" href="./e-prescribing.php"><span class="prev"></span><span class="ch-name">E-Prescribing</span></a> 
+								<a class="next-ch" href="./human-factors.php"><span class="next"></span><span class="ch-name">Human Factors</span></a></li>
+							</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

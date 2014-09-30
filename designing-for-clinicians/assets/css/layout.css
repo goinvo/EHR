@@ -481,7 +481,6 @@
 	}
 	nav.main ul {
 		width: 500px;
-		border: solid red 1px;
 	}
 	.toc-link {
 		float: left;
@@ -735,7 +734,6 @@
 	.sidebar-table#patients thead tr th:not(:first-child),
 	.sidebar-table#patients tbody tr td:not(:first-child) {
 		width: 80px;
-		background: solid red 1px;
 	}
 	.sidebar-table#patient-adherence thead th,
 	.sidebar-table#patient-adherence tbody td {

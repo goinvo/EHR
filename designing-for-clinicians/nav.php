@@ -119,7 +119,7 @@
 			<a href="./acknowledgements.php"> <span class="ch-name">Acknowledgements</span></a> 
 			<a href="../"><span class="next"></span><span class="next-text">Next</span></a></li>
 	</ul>
-	<a  class="feedback-link" href="./feedback.php" >Feedback</a>
+	<a class="feedback-link" href="./feedback.php" >Feedback</a>
 	</div>
 	</div>
 </nav>

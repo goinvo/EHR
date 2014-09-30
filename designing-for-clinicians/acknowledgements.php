@@ -19,7 +19,19 @@
 	<![endif]-->
 </head>
 <body class="acknowledgements">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="acknowledgements">
+						<a href="./authors.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+						<a href="./acknowledgements.php"> <span class="ch-name">Acknowledgements</span></a> 
+						<a href="../"><span class="next"></span><span class="next-text">Next</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -107,6 +119,26 @@
 			</div>
 		</section>
 
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="acknowledgements">
+				<a class="prev-ch" href="./authors.php"><span class="prev"></span><span class="ch-name">Authors</span></a>
+				<a class="next-ch" href="../"><span class="next"></span><span class="ch-name">Home</span></a></li>
+		</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 					</div>

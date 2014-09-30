@@ -21,7 +21,26 @@
 	<![endif]-->
 </head>
 <body class="medication-reconciliation">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="medication-reconciliation">
+						<a href="./medication-list.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./medication-reconciliation.php"><span class="ch-name">Medication Reconciliation</span></a> 
+						<a href="./allergy-list.php"><span class="next"></span><span class="next-text">Next</span></a>
+						<div class="section-nav">
+							<ul>
+								<li><a href="./medication-reconciliation.php#inpatient">3.1 Inpatient Medication Reconciliation</a></li>
+								<li><a href="./medication-reconciliation.php#ambulatory">3.2 Ambulatory Medication Reconciliation</a></li>
+								<li><a href="./medication-reconciliation.php#summary">3.3 Summary</a></li>
+							</ul>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -450,6 +469,26 @@
 			</div>
 		</section><!--end section review-->
 		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="medication-reconciliation">
+								<a class="prev-ch" href="./medication-list.php"><span class="prev"></span><span class="ch-name">Medication List</span></a> 
+								<a class="next-ch" href="./allergy-list.php"><span class="next"></span><span class="ch-name">Allergy List</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 
 						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project webpage</a>.</Twinlist>

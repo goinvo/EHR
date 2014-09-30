@@ -21,7 +21,30 @@
 	<![endif]-->
 </head>
 <body class="design-principles">
-	<?php include './nav.php'; ?>
+	<!--php include './nav.php';-->
+	<nav class="main">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul>
+					<li class="design-principles">
+						<a href="./human-factors.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
+						<a href="./design-principles.php"><span class="ch-name">Design Principles</span></a> 
+						<a href="./health-it-usability.php"><span class="next"></span><span class="next-text">Next</span></a>
+						<div class="section-nav">
+							<ul>
+								<li><a href="./design-principles.php#mental-model">8.1 Mental Models</a></li>
+								<li><a href="./design-principles.php#removing-complexity">8.2 Removing Complexity</a></li>
+								<li><a href="./design-principles.php#terminology">8.3 Terminology</a></li>
+								<li><a href="./design-principles.php#emphasis">8.4 Emphasis</a></li>
+								<li><a href="./design-principles.php#typography">8.5 Typography</a></li>
+								<li><a href="./design-principles.php#color">8.6 Color</a></li>
+								<li><a href="./design-principles.php#dark-side-of-color">8.7 The Dark Side of Color</a></li>
+							</ul>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 <div class="wrapper">
 	<?php include './header.php'; ?>
@@ -186,6 +209,26 @@
 			</div>
 		</section><!--end section color-->
 		
+		<footer class="chapterEnd">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="sectionStart">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<nav class="footer">
+				<div class="container">
+					<div class="sixteen columns">
+						<ul>
+							<li class="design-principles">
+							<a class="prev-ch" href="./human-factors.php"><span class="prev"></span><span class="ch-name">Human Factors</span></a> 
+							<a class="next-ch" href="./health-it-usability.php"><span class="next"></span><span class="ch-name">Health IT Usability</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 		<?php include './footer.php'; ?>
 		
 					</div>
