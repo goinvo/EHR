@@ -22,7 +22,7 @@
 </head>
 <body class="design-principles">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -50,7 +50,7 @@
 	<?php include './header.php'; ?>
 		
 	<section id="ch-8" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>8</h2>
@@ -58,7 +58,7 @@
 					<div class="subheader"><p>Design is a response to specific problem. You are given a problem and then you let the problem itself tell you what your solution is.</p><p class="quote_author"> - Chipp Kidd</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section id="mental-model" class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -209,7 +209,7 @@
 			</div>
 		</section><!--end section color-->
 		
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -217,7 +217,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -228,7 +228,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 		
 					</div>

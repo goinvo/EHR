@@ -22,7 +22,7 @@
 </head>
 <body class="e-prescribing">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -46,7 +46,7 @@
 	<?php include './header.php'; ?>
 		
 	<section id="ch-2" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>5</h2>
@@ -54,7 +54,7 @@
 					<div class="subheader"><p>E-Prescribing offers an opportunity to improve user accuracy and efficiency, a satisfying experience.</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 
 		<section id="e-prescribing">
 			<div class="container">
@@ -134,14 +134,14 @@
 					<p>An EHR that provides these details reduces the mental effort a physician needs to expend to accomplish this task, and thus reduces their cognitive load. This EHR can also enhance patients' safety by eliminating physicians' distractions and reducing the margin for error.</p>
 					<div class="quicktip" id="considerations">
 						<div class="sidebar cf">
-							<h4></h4>
+							<h4>Prescription Details</h4>
 							<p class="preview">Some of the details of the prescription will depend on a patient’s preferences<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Some of the details of the prescription will depend on a patient’s preferences:</p>
 								<table class="sidebar-table" id="">
 									<thead>
 										<tr>
-											<th></th>
+											<td></td>
 											<th>Physician Considerations</th>
 											<th>Developer Challenges</th>
 										</tr>
@@ -274,7 +274,7 @@
 						</div>
 					</div>
 					<p>A bar graph data visualization (<a href="#fig-5-4">Figure 5.4</a> below) displaying “renewal due dates” reduces users' cognitive load.. It allows physicians to note which items need to be managed during the current visit by doing a quick visual scan. The physicians recognize what medications they need to focus on by picking out preattentive attributes, such as color and line length, rather than by having to do complex mental calculations involving reading dates, quantities, and number of refills.</p>
-					<div class="example" class="fig-5-4">
+					<div class="example" id="fig-5-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.4</span>
 							<span class="ex-caption">Icons for “Refills Remaining” <span class="capt-desc">&mdash; Icons use preattentive attributes to reduce cognitive load during the medication renewal process</span></span>
@@ -430,7 +430,7 @@
 			</div>
 		</section>
 
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -438,7 +438,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -449,7 +449,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

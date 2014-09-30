@@ -20,7 +20,7 @@
 </head>
 <body class="authors-ch">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -37,13 +37,13 @@
 	<?php include './header.php'; ?>
 				
 	<section id="authors-ch" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>Authors</h2>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section class="section" id="authors">
 			<div class="container">
 				<div class="sixteen columns">
@@ -86,7 +86,7 @@
 			</div>
 		</section>
 
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -105,7 +105,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

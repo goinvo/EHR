@@ -22,7 +22,7 @@
 </head>
 <body class="drug-alerts">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -50,7 +50,7 @@
 
 		
 	<section id="ch-6" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>6</h2>
@@ -58,7 +58,7 @@
 					<div class="subheader"><p>Effective alerts increase patient safety while reducing physicians’ cognitive load</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section id="drug-allergy-alerts">
 			<div class="container">
 				<div class="sixteen columns">
@@ -197,7 +197,7 @@
 					<h3>6.4 Customizing Alerts for Individual Physicians</h3>
 					<p>Some alerts will be predictably and safely dismissed 100% of the time, and can reasonably be eliminated. Perhaps a patient has been taking a medication for a long time without incident, but an alert still appears every time the prescription is renewed. Here are some common examples:</p>
 					<div class="scenario">
-						<h4></h4>
+						<h4>Clinical Scenario &emdash; Patient Can Tolerate Medications Related to an Allergy</h4>
 						<p>The patient is allergic to sulfa, but has been taking a distant chemical relative of sulfa drugs, such as the diuretics hydrochlorothiazide or chlorthalidone (both very commonly prescribed), without incident for some time. In this context, the EHR need never again warn the physician about this particular patient’s allergy to sulfa.</p>
 						<p>Lisinopril (an ACE inhibitor) gives this patient a cough, and an alert appears when the physician tries to prescribe an ARB such as losartan or valsartan, because these two classes of drugs are somewhat related. However, ARBs are known to never cause the cough that ACE inhibitors may cause. The EHR need never again warn the physician about this particular side-effect for any patient.</p>
 					</div>
@@ -343,7 +343,7 @@
 			</div>
 		</section>
 		
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -351,7 +351,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -362,7 +362,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

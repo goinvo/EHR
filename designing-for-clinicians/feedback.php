@@ -23,14 +23,14 @@
 	<?php include './header.php'; ?>
 				
 	<section class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>Feedback</h2>
 					<div class="subheader">for Inspired EHRs: Desinging for Clinicians</div>
 				</div>
 			</div>
-		</header>
+		</div>
 
 		<section class="section" id="acknowledgements-sect">
 			<div class="container">

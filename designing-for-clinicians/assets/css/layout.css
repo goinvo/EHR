@@ -81,7 +81,7 @@
 	h4 { font-size: 22px; line-height: 28px; margin-bottom: 22px; margin-top:30px;}
 	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
 	h5.grey, p.grey {color: #696969;}
-	.subheader { font-style: italic; color: #828282; }
+	.subheader { font-style: italic; color: #585858; }
 	.jarring {color: #cb1484;}
 	p.spacetop {
 		margin-top: 14px;
@@ -117,7 +117,7 @@
 
 /* #Links
 ================================================== */
-	.a, a { color: #3681af; text-decoration: none; outline: 0; }
+	.a, a { color: #0f74b2; text-decoration: none; outline: 0; }
 	.a:hover, .a:focus, a:hover, a:focus { color: #444; text-decoration: underline;}
 	p a, p a:visited { line-height: inherit; }
 
@@ -636,7 +636,7 @@
 	}
 	.version {
 		font-size: 14px;
-		color: #828282;
+		color: #585858;
 	}
 	
 	/*menu*/
@@ -672,7 +672,7 @@
 		border: solid #dedede 1px;
 		border-radius: 5px;
 		overflow: hidden;*/
-		color: #828282;
+		color: #585858;
 		border-top: solid #6ea5d7 2px;
 		border-bottom: solid #6ea5d7 2px;
 		display: block;
@@ -758,7 +758,7 @@
 		/*font: 14px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		margin: 20px 0px 50px 0px;
 	}
-	.ex-type { color: #999; font-size: 12px; }
+	.ex-type { color: #585858; font-size: 12px; }
 	.ex-caption { font-weight: bold; }
 	.capt_desc, .capt-desc { font-weight: normal; }
 	.example img { margin-top: 10px; }
@@ -799,17 +799,17 @@
 	#prevCh a, #nextCh a {
 		text-decoration: none;
 	}
-	footer .prev, footer .next {
+	.chapterEnd .prev, .chapterEnd .next {
 		height: 20px; 
 		width: 9px; 
 		margin: 6px 16px 0px 16px;
 		background: url('../images/next.svg') no-repeat;
 		display: block-inline;
 	}
-	footer .next {
+	.chapterEnd .next {
 		float: right;
 	}
-	footer .prev {
+	.chapterEnd .prev {
 		float: left;
 		transform:rotate(180deg);
 		-ms-transform:rotate(180deg); /* IE 9 */
@@ -825,7 +825,7 @@
 	.scenario {
 		font-size: 16px;
 		line-height: 24px;
-		color: #828282;
+		color: #585858;
 		border-top: solid #6ea5d7 2px;
 		border-bottom: solid #6ea5d7 2px;
 		display: block;
@@ -833,7 +833,7 @@
 		
 	}
 	.scenario h5 {
-		color: #828282;
+		color: #585858;
 	}
 	.scenario p {
 		font-style: italic;
@@ -850,10 +850,10 @@
 	}
 	/*.scenario p{
 		font-style:italic;
-		color: #828282;
+		color: #585858;
 	}
 	.scenario h5 {
-		color: #828282;
+		color: #585858;
 	}*/
 	.feedback {
 		font-size: 14px;
@@ -865,7 +865,7 @@
 		margin-bottom: 40px;
 	}
 	.citations p, .citations li {
-		color: #828282;
+		color: #585858;
 	}
 	.citations ol li {
 		font-size: 12px;
@@ -905,7 +905,7 @@
 	.disclaimer {
 		font-size: 12px;
 		line-height: 18px;
-		color: #828282;
+		color: #585858;
 	}
 	
 	.print-only, .page-break {display:none;	}
@@ -936,7 +936,7 @@
 		font-size: 12px;
 	}
 	#interactives:first-child {
-		color: #b4b4b4;
+		color: #585858;
 	}
 	#interactives a, #toc a {
 		text-decoration: none;
@@ -949,7 +949,7 @@
 		display: inline-block;
 		margin-right: 10px;
 		font-size: 14px;
-		color: #b4b4b4;
+		color: #585858;
 		min-width: 10px;
 	}
 	#interactives ul, #toc ul {
@@ -963,7 +963,7 @@
 		color: #b3b3b3;	
 	}
 	/*medication reconciliation*/
-	video.twinlist {
+	object.twinlist, object.twinlist embed{
 		width: 768px;
 		height: 576px;
 	}
@@ -1116,7 +1116,7 @@
 	@media only screen and (max-width: 767px) {
 		/*.container {border: solid orange 1px;}*/
 		.quicktip { width: 300px;}
-		video.twinlist {
+		object.twinlist, object.twinlist embed {
 			width: 300px;
 			height: 225px;
 		}
@@ -1167,7 +1167,7 @@
 		.quicktip .qt-content {
 			width: 400px;
 		}
-		video.twinlist {
+		object.twinlist, object.twinlist embed {
 			width: 420px;
 			height: 315px;
 		}
@@ -1218,7 +1218,7 @@
 		.quicktip .qt-content {
 			width: 300px;
 		}
-		video.twinlist {
+		object.twinlist, object.twinlist embed {
 			width: 300px;
 			height: 225px;
 		}

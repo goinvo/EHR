@@ -158,7 +158,7 @@ s.clearfix:before, .clearfix:after,
 #top #task_list ul{
 	display: none;
 }
-#top div { display: table-cell; }
+#top div, #top nav { display: table-cell; }
 #top ul li {
 	display: inline;
 	padding: 2px 14px 3px 0px;

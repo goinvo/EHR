@@ -22,7 +22,7 @@
 </head>
 <body class="human-factors">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -47,7 +47,7 @@
 	<?php include './header.php'; ?>
 		
 	<section id="ch-7" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>7</h2>
@@ -55,7 +55,7 @@
 					<div class="subheader"><p>Systems that complement how we see, read, think and decide can improve our performance.</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section id="human-factors-engineering" class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -560,7 +560,7 @@
 		</section>
 
 		<div class="print-only page-break"></div>
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -568,7 +568,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -579,7 +579,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

@@ -23,7 +23,7 @@
 </head>
 <body class="allergy-list">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -49,7 +49,7 @@
 	<?php include './header.php'; ?>
 		
 	<section id="ch-4" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>4</h2>
@@ -57,7 +57,7 @@
 					<div class="subheader"><p>Streamline data entry and create clear, uncluttered displays to highlight important allergies.</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section id="allergy-list" class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -391,7 +391,7 @@
 			</div>
 		</section><!--end section review-->
 		
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -399,7 +399,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -410,7 +410,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

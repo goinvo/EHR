@@ -22,7 +22,7 @@
 </head>
 <body class="medication-reconciliation">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -46,7 +46,7 @@
 	<?php include './header.php'; ?>
 		
 	<section id="ch-3" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>3</h2>
@@ -54,7 +54,7 @@
 					<div class="subheader"><p>Exploit human factors principles to facilitate this difficult but important task.</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section id="medication-reconciliation" class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -92,26 +92,34 @@
 							<span class="ex-type">Video 3.1</span>
 							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
 						</div>
+						<!--<iframe width="960" height="720" src="//www.youtube.com/embed/YXkq9hQppOw" frameborder="0" allowfullscreen></iframe>-->
+						<object class="twinlist" width="960" height="720"><param name="movie" value="//www.youtube.com/v/YXkq9hQppOw?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/YXkq9hQppOw?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="960" height="720" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+					</div>
+					<!--<div class="example" id="vid-3-1">
+						<div class="ex-title">
+							<span class="ex-type">Video 3.1</span>
+							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
+						</div>
 						<video controls class="twinlist">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
 							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
 							<p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="_blank">YouTube</a></p>
 						</video>
-					</div>
+					</div>-->
 					<div class="print-only page-break"></div>
 					<p>If you’d like to explore Twinlist in more detail, try the interactive prototype:</p>
 					<div class="example" id="int-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 3.1</span>
-							<span class="ex-caption"><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank">Demo of Twinlist</a> <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
+							<span class="ex-caption">Demo of Twinlist <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
 						</div>
 						<!--<a class="fancybox" href="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" title="Interactive 3.1 - Twinlist Interactive Demo">
 							<img src="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" class="scale-with-grid" alt="Interactive 3.1 - Twinlist Interactive Demo" /></a>-->
 					</div>
 					<div class="quicktip" id="learn-more-twinlist">
 						<div class="sidebar cf">
-							<h4></h4>
+							<h4>Learn More</h4>
 							<p class="preview">To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project on the University of Maryland website</a>.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>To learn more about Twinlist, visit the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project on the University of Maryland website</a>. You will find additional videos there that demonstrate advanced features and design variants. You can also experiment using <a href="http://tinyurl.com/k5b4kmx" class="link" target="_blank">Twinlist with larger datasets</a>.</p>
@@ -138,7 +146,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png" class="scale-with-grid" alt="Figure 3.1 - The Two Lists Side by Side - Before Twinlist starts matching similar drugs" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-2">
+					<div class="example" id="fig-3-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.2</span>
 							<span class="ex-caption">The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides <span class="capt-desc">&mdash; Similar drugs (e.g. Aricept and donepezil) have aligned below these, while the differences between the similar drugs highlighted in yellow.</span></span>
@@ -147,7 +155,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png" class="scale-with-grid" alt="Figure 3.2 - The Identical Drugs Have Now Moved to the Center, While the Unique Drugs Have Moved to Their Respective Sides" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-3">
+					<div class="example" id="fig-3-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.3</span>
 							<span class="ex-caption">Pointer Hovers over a Drug <span class="capt-desc">&mdash; (Amaryl) That drug is highlighted with a dark background. Similar drugs are also highlighted (glimepiride). Additional details of the drug appear at the bottom of the screen.</span></span>
@@ -166,7 +174,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png" class="scale-with-grid" alt="Figure 3.4 - The drug becomes bright green when selected" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-5">
+					<div class="example" id="fig-3-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.5</span>
 							<span class="ex-caption">The Final Reconciled Medication List Can Be Reviewed <span class="capt-desc">&mdash; Look at all the <a href="./design-principles.php#dark-side-of-color">bright green</a><span class="print-only"> (See The Dark Side of Color in the Design Principles chapter)</span> selected drugs, and it’s clear what lists they’ve come from.</span>
@@ -264,7 +272,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0011_patient_stepmed_taking.png" class="scale-with-grid" alt="Figure 3.7 - Patients selects that they are taking a medication" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-8">
+					<div class="example" id="fig-3-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.8</span>
 							<span class="ex-caption">The Patient May Not Be Taking a Drug for Various Reasons <span class="capt-desc">&mdash; A physician countermanded that order, the patient did not tolerate the medication, never filled the prescription, etc.</span></span>
@@ -273,7 +281,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Figure 3.8 - Patient selects that they are not taking a medication" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-9">
+					<div class="example" id="fig-3-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.9</span>
 							<span class="ex-caption">“Yes, I’m taking but not as directed.” <span class="capt-desc">&mdash; The answer is enough to prompt the physician to start a conversation about adherence.</span></span>
@@ -282,7 +290,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0013_patient_stepmed_takingbut.png" class="scale-with-grid" alt="Figure 3.9 - Patient selects that they are taking a medication, but not as directed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-10">
+					<div class="example" id="fig-3-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.10</span>
 							<span class="ex-caption">The patient may be unsure about a particular medication. <span class="capt-desc">&mdash; She may not recognize the medication name, may be unsure about the exact dose, or may be unsure about something else.</span></span>
@@ -291,7 +299,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0014_patient_notsure.png" class="scale-with-grid" alt="Figure 3.10 - Patient selects that they are taking a medication, but not as directed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-11">
+					<div class="example" id="fig-3-11">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.11</span>
 							<span class="ex-caption">The Patient Has Reviewed All the Medications <span class="capt-desc">&mdash; The prompt reminds her to add missing prescriptions. It also prompts her to add any other items she might be taking. The interface allows for fuzzy misspelling and suggests appropriate possible names as the patient begins to type.</span></span>
@@ -300,7 +308,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0003_patient_addmed.png" class="scale-with-grid" alt="Figure 3.11 - The patient adds medications they are taking that haven't been listed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-12">
+					<div class="example" id="fig-3-12">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.12</span>
 							<span class="ex-caption">Final Review from the Patient's Perspective <span class="capt-desc">&mdash; The patient can review the entire list, and can add comments and mark the medications she needs the physician to renew.</span></span>
@@ -379,7 +387,7 @@
 							<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0006_physician_list_movemed.png" class="scale-with-grid" alt="The Physician Can Move Medications" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" id="#fig-3-16">
+					<div class="example" id="fig-3-16">
 						<div class="ex-title">
 							<span class="ex-type">Figure 3.16</span>
 							<span class="ex-caption">The Physician Has the Option to Confirm the Status of All or Some of the Medications</span>
@@ -469,7 +477,7 @@
 			</div>
 		</section><!--end section review-->
 		
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -477,7 +485,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
@@ -488,7 +496,7 @@
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project webpage</a>.</Twinlist>

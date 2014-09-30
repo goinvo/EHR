@@ -20,7 +20,7 @@
 </head>
 <body class="foreword">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -37,14 +37,14 @@
 	<?php include './header.php'; ?>
 				
 	<section id="foreword-ch" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
-					<h2>Foreword</h2>
+					<h1>Foreword</h1>
 					<div class="subheader"><p>This book is dedicated to the development community working tirelessly to computerize the world of medicine, and to the patients and physicians who will benefit.</p></div>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -74,7 +74,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>

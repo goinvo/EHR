@@ -20,7 +20,7 @@
 </head>
 <body class="about-this-book">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -37,14 +37,14 @@
 	<?php include './header.php'; ?>
 				
 	<section id="about-ch" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>1</h2>
 					<h2>About This Book</h2>
 				</div>
 			</div>
-		</header>
+		</div>
 		<section class="section">
 			<div class="container">
 				<div class="sixteen columns">
@@ -84,7 +84,7 @@
 			</div>
 		</section>
 
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -92,18 +92,18 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
 							<li class="about-this-book">
-				<a class="prev-ch" href="./foreword.php"><span class="prev"></span><span class="ch-name">Foreword</span></a> 
-				<a class="next-ch" href="./medication-list.php"><span class="next"></span><span class="ch-name">Medication List</span></a></li>
-			</ul>
+								<a class="prev-ch" href="./foreword.php"><span class="prev"></span><span class="ch-name">Foreword</span></a> 
+								<a class="next-ch" href="./medication-list.php"><span class="next"></span><span class="ch-name">Medication List</span></a></li>
+						</ul>
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 		
 					</div>

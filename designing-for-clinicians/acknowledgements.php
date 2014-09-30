@@ -20,7 +20,7 @@
 </head>
 <body class="acknowledgements">
 	<!--php include './nav.php';-->
-	<nav class="main">
+	<nav class="main" role="navigation">
 		<div class="container">
 			<div class="sixteen columns">
 				<ul>
@@ -37,13 +37,13 @@
 	<?php include './header.php'; ?>
 				
 	<section id="acknowledgement-ch" class="chapter">
-		<header class="chapterStart">
+		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>Acknowledgements</h2>
 				</div>
 			</div>
-		</header>
+		</div>
 
 		<section class="section" id="acknowledgements-sect">
 			<div class="container">
@@ -58,7 +58,7 @@
 					<p>Several members of the Electronic Health Records Association (EHRA) and other HealthIT professionals participated in the three design workshops we organized during the course of the project. Others read early drafts of the book and provided feedback and suggestions.</p>
 					<p>Finally we thank the California HealthCare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT for supporting this project.</p>
 					
-					<h4>Advisory Panel</h4>
+					<h3>Advisory Panel</h3>
 						<ul class="disc">
 							<li>John Beasley, MD - Professor of Medicine and Industrial &amp; Systems Engineering at the University of Wisconsin-Madison</li>
 							<li>Elmer V. Bernstam, MD, MSE - Professor and Associate Dean for Research, School of Biomedical Informatics; Professor of Internal Medicine, Medical School, The University of Texas Health Sciences Center at Houston</li>
@@ -74,7 +74,7 @@
 							<li>Linsey Steege, PhD - Human Factors Engineer, Assistant Professor,  School of Nursing at the University of Wisconsin-Madison</li>
 						</ul>
 
-					<h4>Health IT Vendors</h4>
+					<h3>Health IT Vendors</h3>
 					<p><strong>Workshop Participants</strong></p>
 						<ul>
 							<li>Leslea Carey - Clinical UI Analyst, NextGen Healthcare</li>
@@ -96,7 +96,7 @@
 							<li>Lynda Hoeksema, MSN, FNP-BC, RN-BC - Clinical Transformation Manager - Spectrum Health</li>
 						</ul>
 
-					<h4>Additional Acknowledgements</h4>
+					<h3>Additional Acknowledgements</h3>
 					<p>The authors wish to thank the following people for their contribution to this book.</p>
 						<ul>
 							<li><strong>Erin Horáková, MA</strong> is a doctoral candidate in the English department at Queen Mary, University of London. Horáková has published academic work and has written for popular publications including <a href="http://www.tor.com/" target="blank">Tor.com</a>, the LA Review of Books, and Strange Horizons. She has served as an editor and/or researcher for a variety of publishing houses, universities, creative projects, legal firms and other organizations.</li>
@@ -105,10 +105,10 @@
 							<li><strong>Tiffany Chao</strong> and <strong>Johnny Wu</strong>, graduate students at the University of Maryland,  developed the Twinlist prototype, under the supervision of Catherine Plaisant and Ben Shneiderman.</li>
 						</ul>
 
-					<h4>Electronic Health Records Association</h4>
+					<h3>Electronic Health Records Association</h3>
 					<p>We are deeply grateful for the Electronic Health Record Association (EHRA)’s support and encouragement for this project. Although the EHRA’s participation in this project does not constitute their endorsement of the content of the book, we appreciate that throughout the project, the EHRA has engaged with our work and provided feedback. In addition, the EHRA provided our authors with opportunities to present our project’s progress. Their volunteer participants also supported us by contributing to our design workshops and dissemination efforts.</p>
 					
-					<h4>Funding Supporters</h4>
+					<h3>Funding Supporters</h3>
 					<p><a href="http://www.chcf.org/" target="blank">California HealthCare Foundation</a><br/>
 						The California HealthCare Foundation, based in Oakland, California, works as a catalyst to fulfill the promise of better healthcare for all Californians. The Foundation supports ideas and innovations that improve the quality, increase the efficiency, and lower the costs of care. For more information, visit <a href="www.chcf.org">www.chcf.org</a>.</p>
 
@@ -119,7 +119,7 @@
 			</div>
 		</section>
 
-		<footer class="chapterEnd">
+		<div class="chapterEnd">
 			<div class="container">
 				<div class="sixteen columns">
 					<div class="sectionStart">
@@ -127,18 +127,18 @@
 					</div>
 				</div>
 			</div>
-			<nav class="footer">
+			<nav class="footer" role="navigation">
 				<div class="container">
 					<div class="sixteen columns">
 						<ul>
 							<li class="acknowledgements">
-				<a class="prev-ch" href="./authors.php"><span class="prev"></span><span class="ch-name">Authors</span></a>
-				<a class="next-ch" href="../"><span class="next"></span><span class="ch-name">Home</span></a></li>
-		</ul>
+								<a class="prev-ch" href="./authors.php"><span class="prev"></span><span class="ch-name">Authors</span></a>
+								<a class="next-ch" href="../"><span class="next"></span><span class="ch-name">Home</span></a></li>
+						</ul>
 					</div>
 				</div>
 			</nav>
-		</footer>
+		</div>
 		<?php include './footer.php'; ?>
 
 					</div>

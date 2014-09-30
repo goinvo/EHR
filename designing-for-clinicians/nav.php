@@ -1,4 +1,4 @@
-<nav class="main">
+<nav class="main" role="navigation">
 	<div class="container">
 	<div class="sixteen columns">
 	<a class="toc-link" href="../">Table of Contents</a>
