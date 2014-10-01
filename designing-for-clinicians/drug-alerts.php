@@ -87,7 +87,7 @@
 					<p><a href="#fig-6-1">Figure 6.1</a> demonstrates how a typical alert in current EHRs address these questions. This design doesn’t direct the user’s eye to the information she needs to answer the questions. The alert contains a lot of text, but since it is all roughly the same size and none of it has been given any emphasis, it looks like all the information is equally (un)important. Some text (such as the window title, “Medication Clinical Decision Support” and “The new order has been created…”) convey little to no relevant information. The visual elements, such as the alignment of text and the arrangement of the page’s white space, do little to direct the eye. The page contains three hyperlinks, but two of these lead to the same reference information, which is unlikely to aid the decision-making process.</p>
 				</div>
 				<div class="one-half column">
-					<div class="example" class="fig-6-1">
+					<div class="example" id="fig-6-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.1</span>
 							<span class="ex-caption">Before: A Penicillin Family Drug-Allergy Alert</span>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<div class="one-half column">
-					<div class="example" class="fig-6-2">
+					<div class="example" id="fig-6-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.2</span>
 							<span class="ex-caption">After: A Penicillin Family Drug-Allergy <span class="capt-desc">&mdash; A simplified design with fewer options and concise text.</span></span>
@@ -126,7 +126,7 @@
 						<p>Mr. Martin, our 60-year-old who was involved in a motor vehicle accident, suffers from chronic pain. The problem requires a multi-pronged treatment approach which includes several different medications. He is taking the muscle relaxant tizanidine to treat his low back spasms. In the past two days, Mr. Martin has needed to urinate frequently and urgently, and urination has been painful. Dr. Barnes diagnosed him with a bladder infection. As she started to order the antibiotic ciprofloxacin, a passive, non-intrusive alert appeared in the corner of the screen (<a href="#fig-6-3">see Figure 6.3</a>). Rather than completing the prescription details and selecting the pharmacy, she stopped and chose a different antibiotic for which there were no drug interactions.</p>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-3">
+					<div class="example" id="fig-6-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.3</span>
 							<span class="ex-caption">A Passive Alert</span>
@@ -138,7 +138,7 @@
 					<p>The passive alert appears in the corner of the EHR screen, but does not interrupt the physician’s workflow. The yellow bar with an alert icon that appears in the user's peripheral vision is a salient visual signal because it is based on preattentive attributes. Without reading it, the physician can detect both the alert's existence and it's degree of severity.</p>
 					<p>If the physician completes the order, selects a pharmacy, and sends an e-prescription, an interruptive alert will pop up to ensure patient safety. The interruptive alert stops the physician’s workflow completely, demanding the physician’s full attention. The physician must select one of the three available choices before the system activates the “Continue” button to allow the physician to move forward (<a href="#fig-6-4">Figure 6.4</a>). After making a selection, the physician confirms her choice by hitting the keyboard “Enter” key or clicking the aforementioned “Continue” button (<a href="#fig-6-5">Figure 6.5</a>). This additional step allows the physician a chance to correct a mistake.</p>
 					<p>Interruptive alerts annoy physicians and reduce the overall effectiveness of such alerts, which causes physicians to miss alerts that truly are important. Interruptive alerts can be used sparingly. Some EHRs allow users to customize what alerts appear to what healthcare providers. Thus the EHR might use interruptive alerts only for truly serious alerts when a physician is working with it and use both serious and mild alerts when the dispensing pharmacist is working with it. One empirical study of alerting systems suggests that physicians are more likely to comply with a tiered alert system (passive for lower risk and interruptive for higher risk alerts)<sup>1</sup>.</p>
-					<div class="example" class="fig-6-4">
+					<div class="example" id="fig-6-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.4</span>
 							<span class="ex-caption">An Interruptive Alert <span class="capt-desc">&mdash; Requires the user to make a choice before dismissing the alert.</span></span>
@@ -147,7 +147,7 @@
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0004_drug-drug-interaction-unselected-annotated.png" class="scale-with-grid" alt="Figure 6.4 - An Interruptive Alert - Requires the user to make a choice before dismissing the alert." /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-5">
+					<div class="example" id="fig-6-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.5</span>
 							<span class="ex-caption">Once the Physician Makes a Choice, the System Enables the 'Continue' Button <span class="capt-desc">&mdash; Giving users a chance to confirm their choice, but also adds an extra step, so it is best used when overriding higher severity alerts and can be customized with user preferences.</span></span>
@@ -203,7 +203,7 @@
 					</div>
 					<p>It would be safe to allow physicians to permanently suppress alerts in the two circumstances above (<a href="#fig-6-6">Figure 6.6</a>). It is more challenging to define rules for drug interactions or drug-disease interactions when the dosing or disease severity can vary over time.</p>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-6">
+					<div class="example" id="fig-6-6">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.6</span>
 							<span class="ex-caption">Allow Users to Customize Certain Drug Alerts</span>
@@ -223,7 +223,7 @@
 						</div>
 						<div class="tip"></div>
 					</div>
-					<div class="example" class="fig-6-7">
+					<div class="example" id="fig-6-7">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.7</span>
 							<span class="ex-caption">Allow Users to Offer Feedback about the Usefulness of Particular Drug Alerts</span>
@@ -247,7 +247,7 @@
 					<p><a href="#fig-6-8">Figure 6.8</a> shows one possible way of presenting multiple alerts on a single screen. This design shows each alert’s severity using small icons in the left column. New drug orders and either the allergy or interacting drug are displayed just after the severity icons. The rightmost column shows the actions that a physician can take to address each alert. The action buttons include both the actions and the drug names (e.g., Stop Augmentin) to help the physician understand what each button does. The design uses bold text on action buttons to show recommended actions for each alert. <a href="#fig-6-9">Figure 6.9</a> shows the display after the user has made decisions about the first two alerts. The Continue button activates after the user addresses all the alerts (<a href="#fig-6-10">Figure 6.10</a>).
 					<p>It’s more challenging to display multiple alerts on small mobile devices. <a href="#gal-6-1">Gallery 6.1</a> shows a way to displayed and address multiple alerts on a mobile phone. The first screen presents an overview of all of the alerts, grouped by type. Tapping an alert brings up details about it, as well as possible actions the physician can take.</p>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-8">
+					<div class="example" id="fig-6-8">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.8</span>
 							<span class="ex-caption">Presenting All Alerts in a Single Screen <span class="capt-desc">&mdash; Bold type indicates preferable, safer choices</span></span>
@@ -256,7 +256,7 @@
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0006_multiple-alerts.png" class="scale-with-grid" alt="Figure 6.8 - Presenting all alerts in a single screen. Bold type indicates preferable, safer choices" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-9">
+					<div class="example" id="fig-6-9">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.9</span>
 							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc">&mdash; After the physician has made some choices, the system visually shows his selections</span></span>
@@ -265,7 +265,7 @@
 							<img src="./assets/images/examples/drug-alerts/Um_Ehr_0007_multiple-alerts-some-selected.png" class="scale-with-grid" alt="Figure 6.9 - Multiple alert screen after the physician has made some choices. The system visually shows his selections" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-6-10">
+					<div class="example" id="fig-6-10">
 						<div class="ex-title">
 							<span class="ex-type">Figure 6.10</span>
 							<span class="ex-caption">Multiple Alert Screen <span class="capt-desc">&mdash; Once the physician has addressed all alerts, the system activates the Continue button</span></span>

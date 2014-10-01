@@ -92,7 +92,7 @@
 					</div>
 					<p>Most people read the following as “The cat,” even though the middle letter in each word is exactly the same, and neither is a perfect H or A. Our perceptual system uses context (the letters around the middle letter) and expectations (predicated on our familiarity with common English words) to allow us to cope with and make sense of imperfect, noisy input. But the same properties that make our perceptual system robust can also lead us astray. For instance, can you name the first drug on this prescription (<a href="#fig-7-2">Figure 7.2</a>)?</p>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-2">
+					<div class="example" id="fig-7-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.2</span>
 							<span class="ex-caption">Handwritten Prescription <span class="capt-desc">&mdash; Name the first drug on the list <span class="smaller">(from <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/" target="_blank" class="link">Western Journal of Medicine</a>).</span></span></span>
@@ -103,7 +103,7 @@
 					<p>The cardiologist who prescribed the medication wrote 'Isordil,' but the pharmacist read it as 'Plendil.' After taking the prescribed medication for two days, the patient had a heart attack. Several days after that, he died<sup>1</sup>. In this case, the pharmacist was led astray by the very same perceptual system that enabled him to do his job correctly most of the time. Our perceptual system makes assumptions so automatically that we often don’t even realize that it is doing so.</p>
 					<p>Users come to computers with expectations (mental models) based on what they have seen before, and with a built-in tendency to make assumptions about what it is they're seeing. When we scan a screen, we look for digestible chunks: familiar things like navigation bars, buttons and logos. We also tend to look at the center of the screen rather than at the edges, because we expect the edges to display less important things, like logos and tools not relevant to the task at hand. We expect the core components of an interface to be front and center, easy to find.</p>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-3">
+					<div class="example" id="fig-7-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.3</span>
 							<span class="ex-caption">An Unclear Layout <span class="capt-desc">&mdash; Adding allergies without good workflow guidance from the interface.</span></span>
@@ -112,7 +112,7 @@
 						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="Figure 7.3 - An Unclear Layout - Adding allergies without good ‘workflow’ guidance from the interface" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-4">
+					<div class="example" id="fig-7-4">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.4</span>
 							<span class="ex-caption">Meeting Our Expectations <span class="capt-desc">&mdash; We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.</span></span>
@@ -121,7 +121,7 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Figure 7.4 - Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order."/></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-5">
+					<div class="example" id="fig-7-5">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.5</span>
 							<span class="ex-caption">A Few Common Affordances <span class="capt-desc">&mdash; 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.</span></span>
@@ -130,7 +130,7 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Figure 7.5 - A few common affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it." /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-6">
+					<div class="example" id="fig-7-6">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.6</span>
 							<span class="ex-caption">Disclosure Arrow Affordance <span class="capt-desc">&mdash; In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information.</span></span>
@@ -139,7 +139,7 @@
 							<img src="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" class="scale-with-grid" alt="Figure 7.6 - Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information" /></a>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-7-7">
+					<div class="example" id="fig-7-7">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.7</span>
 							<span class="ex-caption">Sort Arrow Affordance <span class="capt-desc">&mdash; Here, the arrow indicates the ability to sort the list by different columns.</span></span>
@@ -395,7 +395,7 @@
 						</ul>
 					<p>When creating an application, ask yourself whether you have any opportunities to convert tasks that require focused thinking into tasks that only require rapid thinking. Making the application perform complex calculations, sort information, and concisely present key details can free people up to do the focused thinking that only humans can.</p>
 					<p>The Twinlist medication reconciliation prototype, <a href="#fig-7-21">Figure 7.21</a>, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sorts them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
-					<div class="example" if="fig-7-21">
+					<div class="example" id="fig-7-21">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.21</span>
 							<span class="ex-caption">The Twinlist Prototype Facilitates Fast Thinking</span>
@@ -443,7 +443,7 @@
 							<span class="ex-caption">Sort by Diagnosis <span class="capt-desc">&mdash; Makes it easier to search for hypertension medications</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" title="Figure 7.23 - Sort by Diagnosis - Makes it easier to search for hypertension medications">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" title-"Figure 7.23 - Sort by Diagnosis - Makes it easier to search for hypertension medications" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" alt="Figure 7.23 - Sort by Diagnosis - Makes it easier to search for hypertension medications" /></a>
 					</div>
 					<p>If the interface can indicate whether a medication has reached the maximum dose, this will save the doctor the effort of making a series of annoying calculations.</p>
 					<p><strong>Example</strong>: Auto-complete functions can also lighten users' cognitive loads. Users typing in the name of a drug in a window with a predictive text function can employ low-impact recognition mental processes rather than more difficult recollection processes. If users employ rapid thinking at this stage of the proceedings, however, there's a danger that they might mistake similarly-named drugs. Employ tallman lettering to alert users to be aware that a similar-looking drug exists.</p>

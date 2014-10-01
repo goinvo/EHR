@@ -48,7 +48,7 @@
 		line-height: 1;
 		background: #fff;
 		font-family: 'OpenSansRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #4d4d4d;
+		color: #202020;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 	}
@@ -401,7 +401,7 @@ table.main_table.simple-list {
 table.main_table thead{
 	background:#e2e2e2;
 	font-size: 12px;
-	color: #989898;
+	color: #747474;
 }
 table.main_table thead tr th{
 	padding: 5px 8px 4px 10px;
@@ -410,7 +410,7 @@ table.main_table thead tr th{
 }
 table.main_table tbody tr {
 	font-size: 12px;
-	color: #4d4d4d;
+	color: #202020;
 	background: #fff;
 }
 table.main_table tbody tr:nth-child(even) {
@@ -429,7 +429,7 @@ tr.active_to td {
 
 /* #Page Styles */
 tr td .dose, tr td.instructions{
-	color: #929292;
+	color: #747474;
 	font-weight: normal;
 }
 	/* #Tablet (Portrait) Note: Design for a width of 768px */

@@ -458,7 +458,7 @@
 ================================================== */
 	/*type*/
 	span.grey {
-		color: #989898;
+		color: #585858;
 	}
 	.tooltip {
 		display: none;
@@ -680,7 +680,7 @@
 		padding: 0px 20px 0px 20px;
 	}
 	.sidebar h5, .sidebar h3{
-		color: #989898;
+		color: #585858;
 	}
 	.sidebar ol {
 		margin-left: 28px;
@@ -728,6 +728,7 @@
 	}
 	.sidebar-table thead th {
 		background: #f3f3f3;
+		color: #585858;
 	}
 	.sidebar-table#prescribers thead tr th:not(:first-child),
 	.sidebar-table#prescribers tbody tr td:not(:first-child),
@@ -748,7 +749,7 @@
 		padding: 5px;
 	}
 	#methodologies-table .sidebar-table th {
-		color: #989898;
+		color: #585858;
 	}
 	#methodologies-table .sidebar-table td:first-child {
 		font-size: 12px;
@@ -1018,8 +1019,8 @@
 	.feedback-pg h3 .note {
 		font-size: 14px;
 	}
-	.feedback-pg .citations, .feedback-pg nav,
-	.impact-pg .citations, .impact-pg nav {
+	.feedback-pg .citations,
+	.impact-pg .citations {
 		display: none;
 	}
 
@@ -1080,13 +1081,11 @@
 	}
 
 	#contact-area label {
-		color: #adadad;
+		color: #585858;
 		font-family: Helvetica, sans-serif;
 		font-weight: normal;
 		margin-right: 15px;
-		width: 100px;
 		padding-top: 5px;
-		
 	}
 
 	

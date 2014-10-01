@@ -24,7 +24,7 @@
 
 /*Typography*/
 	h1, h2, h3, h4, h5, h6 {
-		color: #989898;
+		color: #747474;
 		font-weight: normal; 
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -48,8 +48,8 @@
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 /*Links*/
-	a, a:visited { color: #929292; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #4d4d4d; }
+	a, a:visited { color: #747474; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #202020; text-decoration: underline;}
 	p a, p a:visited { line-height: inherit; }
 
 /*Lists*/
@@ -111,7 +111,7 @@
 		color: #444; }
 
 /*Clearing */
-s.clearfix:before, .clearfix:after,
+.clearfix:before, .clearfix:after,
 .row:before, .row:after {
 	content: '\0020';
 	display: block;
@@ -213,7 +213,7 @@ section {	margin: 20px 15px 10px 15px; }
   	box-shadow:         0px 1px 4px 0px #dadada;
 }
 .header {
-	color: #989898;
+	color: #747474;
 	font-size: 11px;
 	margin: 10px 20px 0px 20px;
 }
