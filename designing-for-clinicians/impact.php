@@ -53,7 +53,7 @@
 						<hr>
 						<div class="impact">
 							<p>"With your permission, I'd like to link to your GitHub repo and homepage.  Your work has been invaluable to my team. We are actually building a product which will make your work invaluable to a lot of developers, so linking to your stuff will be great."</p>
-							<p class="quote-author"><em>&mdash; Doctrly startup, an API to allow developers to easily create EHR applications</em></p>
+							<p class="quote-author">&mdash; Devin Goodman - <em>Doctrly startup, an API to allow developers to easily create EHR applications</em></p>
 						</div>
 						<hr>
 					</div>

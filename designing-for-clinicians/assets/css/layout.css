@@ -501,6 +501,13 @@
 		margin: 6px 16px 0px 16px;
 		background: url('../images/next.svg') no-repeat;	
 	}
+	nav.main a:focus, nav.main a:focus .next,
+	nav.footer a:focus {
+		border-bottom: 1px solid #0f74b2 ;
+	}
+	nav.main a:focus .prev{
+		border-top: 1px solid #0f74b2 ;
+	}
 	nav.main .prev {
 		float: left;
 		transform:rotate(180deg);
@@ -514,7 +521,7 @@
 		float: right;	
 	}
 	nav.main .prev-text, nav.main .next-text {
-		display:none;
+		visibility: hidden;
 	}
 	nav.main ul { 
 		margin: 0; 
@@ -785,6 +792,18 @@
 	}
 	.quicktip .preview.hide { /*.elipsis.hide{*/
 		display: none;
+	}
+	.quicktip a:focus {
+		text-decoration: underline;
+		color: #434343;
+	}
+	.example a:focus {
+		text-decoration: underline;
+		color: #434343;
+	}
+	.example .cbp-fwslider li a:focus {
+		text-decoration: underline;
+		color: #434343;
 	}
 	.chapterStart {
 		text-align: center;
