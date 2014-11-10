@@ -77,10 +77,10 @@
 						</div>
 							<?php
 								//form data
-								$name = $_POST['name'];	
-								$email = $_POST['email'];
-								$message = $_POST['message'];
-								$blank = $_POST['blank'];
+								$name = Trim(stripslashes($_POST['name']));	
+								$email = Trim(stripslashes($_POST['email']));
+								$message = Trim(stripslashes($_POST['message']));
+								$blank = Trim(stripslashes($_POST['blank']));
 								$to = 'impact@inspiredehrs.org';
 								//$from = $email;
 								$from = 'impact@inspiredehrs.org';
@@ -91,6 +91,10 @@
 								$body = "From: " . $name . "\n";
 								$body .= "Email: " . $email . "\n \n"; 
 								$body .= "Message: \n" . $message . "\n";
+								if(!empty($blank)){
+									$body .= "This message made it past our meager spam filter: ";
+									$body .= $blank;
+								}
 
 								$headers = "From:" . $from . "\r\n";
 								$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
@@ -121,7 +125,7 @@
 										echo "<p>Sorry, your message looks like spam, so it was not sent.</p>";
 									}
 
-									if ($formok = true && mail($to, $subject, $body, $headers)) {
+									if ($formok == true && mail($to, $subject, $body, $headers)) {
 										echo "<p>Thanks for your email. We'll get back to you ASAP</p>";
 									} else {
 										echo "<p>There was an issue, try sending again.</p>";
