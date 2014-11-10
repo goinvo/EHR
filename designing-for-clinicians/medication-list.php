@@ -382,7 +382,7 @@
 							<span class="ex-caption">List with a Column for the "Maximum Dose" Icon</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_dose-max.png" title="Figure 2.7 - List with a Column for the 'Maximum Dose' Icon">
-						<img src="./assets/images/examples/medication-list/UM_EHR_0007_dose-max.png" class="scale-with-grid" alt="Medication table with a row of grey and dark squares to denote whether a dose is max" /></a>
+						<img src="./assets/images/examples/medication-list/UM_EHR_0007_dose-max.png" class="scale-with-grid" alt="Medication table with a row of grey and dark squares to denote whether dose is max" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example">
@@ -403,7 +403,7 @@
 							<span class="ex-caption">Interactive Table Prototype &mdash; <a href="../medication-list/" target="_blank" class="button">Try it out!</a></span>
 						</div>
 						<a href="../interactive-table/interactive-table.html" target="_blank" title="Interactive 2.2 - Interactive Table Prototype">
-							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" alt="Interactive 2.2 - Interactive Table Prototype" /></a>
+							<img src="./assets/images/examples/medication-list/UM_EHR_0000_table.png" class="scale-with-grid" alt="Interactive Table Prototype" /></a>
 						<div class="print-only">
 							<p>Try it out: <a>InspiredEHRs.org/medication-list/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
@@ -448,7 +448,7 @@
 							<span class="ex-caption">Show All Medications (Active &amp; Inactive)<span class="capt-desc"> &mdash; Lisinopril had been stopped.</span> <a href="../timeline/" class="button" target="_blank">Try it out!</a></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" title="Figure 2.9 - Show All Medications (Active and Inactive) - Lisinopril had been stopped">
-							<img src="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" class="scale-with-grid" alt="Figure 2.9 - Show All Medications (Active and Inactive) - Lisinopril had been stopped" /></a>
+							<img src="./assets/images/examples/medication-list/UM_EHR_0007_lisinopril-stopped.png" class="scale-with-grid" alt="Show All Medications and see what had been stopped" /></a>
 						<div class="print-only">
 							<p>Try it out: <a>InspiredEHRs.org/timeline/</a></p>
 							<p>Download the code: <a>github/goinvo/ehr</a></p>
@@ -458,12 +458,12 @@
 				
 
 					<div class="example" id="fig-2-10">
-						<div class="ex-title">
+						<div class="ex-title">ing
 							<span class="ex-type">Figure 2.10 </span>
 							<span class="ex-caption">Zoom in to See Granular Details like Gaps in Medication Adherence</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0008_zoom-in.png" title="Figure 2.10 - Zoom in to See Granular Details like Gaps in Medication Adherence">
-							<img src="./assets/images/examples/medication-list/UM_EHR_0008_zoom-in.png" class="scale-with-grid" alt="Figure 2.10 - Zoom in to See Granular Details like Gaps in Medication Adherence" /></a>
+							<img src="./assets/images/examples/medication-list/UM_EHR_0008_zoom-in.png" class="scale-with-grid" alt="Zoom in to See Granular Details like Gaps in Medication Adherence" /></a>
 					</div>
 
 					<p>A timeline offers a complete overview. At the top level, a timeline conveys details about when a patient starts and stops taking a medication, when that medication's dose changes, whether that change is an increase or decrease, and whether the dosage taken is the maximum one.</p>
@@ -481,18 +481,18 @@
 								<li><div>
 									<div class="caption"><span class="ex-type">2.4 a</span> Medication Timeline Showing Drug Dosages for "Today"</div>
 									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="Gallery 2.4 a - Medication Timeline Showing Drug Dosages for 'Today'">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Gallery 2.4 a - Medication Timeline Showing Drug Dosages for Today" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Medication Timeline Showing Drug Dosages for Today" /></a>
 								</div></li>
 								<li><div>
 									<div class="caption"><span class="ex-type">2.4 b</span> How to Read the Timeline</div>
 									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-list/UM_EHR_0010_notated.png" title="Gallery 2.4 b - How to Read the Timeline">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0010_notated.png" class="scale-with-grid" alt="Gallery 2.4 b - How to Read the Timeline" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0010_notated.png" class="scale-with-grid" alt="How to Read the Timeline" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.4 c</span> Special Cases <span class="capt-desc">&mdash; PRN (as needed) medications and medications with no fixed maximum dose</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-6" href="./assets/images/examples/medication-list/UM_EHR_0011_notated-2.png" title="Gallery 2.4 c - Special Cases - PRN (as needed) medications and medications with no fixed maximum dose">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0011_notated-2.png" class="scale-with-grid" alt="Gallery 2.4 c - Special Cases - PRN medications with no fixed maximum dose" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0011_notated-2.png" class="scale-with-grid" alt="PRN medications have no fixed maximum dose" /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -516,49 +516,49 @@
 								<li><div>
 									<div class="caption"><span class="ex-type">2.5 a</span> Instructions on How to Read the Timeline</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0001_tutorial.png" title="Gallery 2.5 a - Instructions on how to read the timeline">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0001_tutorial.png" class="scale-with-grid" alt="Gallery 2.5 a - Instructions on how to read the timeline" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0001_tutorial.png" class="scale-with-grid" alt="Instructions on how to read the timeline" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 b</span> Active Medications in the Timeline</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="Gallery 2.5 b - Active Medications in the Timeline">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Gallery 2.5 b - Active Medications in the Timeline" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Active Medications in the Timeline" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 c</span> Grab the Scrubber <span class="capt-desc">&mdash; Drag it across the timeline to look at more details about certain dates.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" title="Gallery 2.5 c - Grab the Scrubber - Drag it across the timeline to look at more details about certain dates">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" class="scale-with-grid" alt="Gallery 2.5 c - Grab the Scrubber - Drag it across the timeline to look at more details about certain dates" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0002_drag.png" class="scale-with-grid" alt="Drag scrubber to look at more details about certain dates" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 d</span> Dragging the Scrubber Further Back in Time <span class="capt-desc">&mdash; Medications not yet prescribed appear as grayed out names, and the labels disappear.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" title="Gallery 2.5 d - Dragging the Scrubber Further Back in Time - Medications not yet prescribed appear as grayed out names, and the labels disappear">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" class="scale-with-grid" alt="Gallery 2.5 d - Dragging the Scrubber Further Back in Time - Medications not yet prescribed appear as grayed out names, and the labels disappear" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0003_drag2.png" class="scale-with-grid" alt="Drag Scrubber Back in time. Medications not yet prescribed grayed out names and labels disappear" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 e</span> Show All Medications <span class="capt-desc">&mdash; Active medications are at the top, inactive medications are at the bottom.</span></div>
-									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" title="Gallery 2.5 e - Show All Medications - Active medications are at the top, inactive medications are at the bottom.">
+									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" title="Gallery 2.5 e - Show All Medications - Active medications are at the top, inactive medications are at the bottom">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0004_show-all.png" class="scale-with-grid" alt="Active medications are at the top, inactive medications are at the bottom" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 f</span> Tap on a Medication Line to See More Details</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0005_hover.png" title="Gallery 2.5 f - Tap on a Medication Line to See More Details">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0005_hover.png" class="scale-with-grid" alt="Gallery 2.5 f - Tap on a Medication Line to See More Details" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0005_hover.png" class="scale-with-grid" alt="Tap on a Medication Line to See More Details" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 g </span>Expanding a Bar Reveals Details that Influenced a Patient’s History with a Medication <span class="capt-desc">&mdash; Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.</div>
-									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" title="Gallery 2.5 g - Expanding a Bar Reveals the Details that Influenced a Patient’s History with a Medication - Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table">
+									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" title="Expand a Bar to Reveal Details on a Patient’s History with a Medication">
 									<img src="./assets/images/examples/medication-list/UM_EHR_0013_tap1.png" class="scale-with-grid" alt="Click to expand a bar"/></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">2.5 h </span>Back to Where We Started</div>
 									<a class="fancybox" data-fancybox-group="gallery-7" href="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" title="Gallery 2.5 h - Back to Where We Started - Active medications in the timeline">
-									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Gallery 2.5 h - Back to Where We Started - Active medications in the timeline" /></a>
+									<img src="./assets/images/examples/medication-list/UM_EHR_0000_Annotated-Timeline.png" class="scale-with-grid" alt="Active medications in the timeline" /></a>
 								</div></li>
 							</ul>
 						</div>

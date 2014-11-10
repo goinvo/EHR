@@ -125,7 +125,7 @@
 							<span class="ex-caption">Before: Glancing at the List <span class="capt-desc">&mdash; A design that hides key details</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="fancybox" data-fancybox-group="gallery-0" title="Figure 4.1 - Before: Glancing at the List – A design that hides key details">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="scale-with-grid" alt="Figure 4.1 - Before: Glancing at the List – A design that hides key details" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0001_med-list-bad.png" class="scale-with-grid" alt="A design that hides key details" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -135,7 +135,7 @@
 							<span class="ex-caption">After: Glancing at the List <span class="capt-desc">&mdash; A design that brings key details to the forefront</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="fancybox" data-fancybox-group="gallery-0" title="Figure 4.2 - After: Glancing at the List - A design that brings key details to the forefront" >
-							<img src="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="scale-with-grid" alt="Figure 4.2 - After: Glancing at the List – A design that brings key details to the Forefront" /></a>
+							<img src="./assets/images/examples/allergy-list/UM_EHR_0002_med-list-better.png" class="scale-with-grid" alt="Bring key details to the forefront of the design" /></a>
 					</div>
 				</div><!--end Before and After 4.1, 4.2-->
 
@@ -148,7 +148,7 @@
 							<span class="ex-caption">Add Prescriptions</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0003_add-orders.png" title="Figure 4.3 - Add Prescriptions">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0003_add-orders.png" class="scale-with-grid" alt="Figure 4.3 Add Prescriptions" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0003_add-orders.png" class="scale-with-grid" alt="Add Prescriptions" /></a>
 					</div>		
 				</div>
 			</div>
@@ -176,7 +176,7 @@
 							<span class="ex-caption">Patient Demographic Banner <span class="capt-desc">&mdash; Shows only medication names.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" title="Figure 4.4 - Patient Demographic Banner - Shows only medication names.">
-							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" alt="Figure 4.4 - Patient Demographic Banner - Shows only medication names." /></a>
+							<img src="./assets/images/examples/allergy-list/UM_EHR_0013_patient-banner.png" class="scale-with-grid" alt="Patient banner shows only medication names." /></a>
 					</div>
 					
 					<p>To get this additional information, the physician will have to use the detailed table view (<a href="#fig-4-5">Figure 4.5</a>).</p>
@@ -187,7 +187,7 @@
 							<span class="ex-caption">Medication Allergy List <span class="capt-desc">&mdash; Table view shows details.</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" title="Figure 4.5 - Medication Allergy List - Table view shows details.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" alt="Figure 4.5 - Medication Allergy List - Table view shows details." /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0000_allergies.png" class="scale-with-grid" alt="Allergy table shows details." /></a>
 					</div>
 					
 					<p>With this list (<a href="#fig-4-5">Figure 4.5</a>), the physician or nurse can see the information they need. More important information is on the left, and less important information is on the right. The table is simple and effective. It shows limited information and reduces the visual load on the user. By drilling a step deeper, the user can access further details.</p>
@@ -198,7 +198,7 @@
 							<span class="ex-caption">Users Can Click Rows to Either Edit Them or to See More Details</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" title="Figure 4.6 - Users Can Click Rows to Either Edit Them or to See More Details">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Figure 4.6 - Users Can Click Rows to Either Edit Them or to See More Details" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Click Rows to Edit or See More Details" /></a>
 					</div>
 					
 					<div class="quicktip" id="">
@@ -214,7 +214,7 @@
 										<span class="ex-caption">What Allergy List Details are Important to You?</span>
 									</div>
 									<a class="fancybox" href="./assets/images/examples/allergy-list/chart.png" title="Figure 4.7 - What Allergy List Details are Important to You?">
-										<img src="./assets/images/examples/allergy-list/chart.png" class="scale-with-grid" alt="Figure 4.7 - What Allergy List Details are Important to You?" /></a>
+										<img src="./assets/images/examples/allergy-list/chart.png" class="scale-with-grid" alt="Priority of Allergy List Details" /></a>
 								</div>
 								<p>These users don't often need to know about inactive allergies, allergies' dates of onset, or the source of the EHR's information about these allergies. It's safe to hide this information in the course of regular usage.</p>
 							</div>
@@ -262,7 +262,7 @@
 							<span class="ex-caption">Before: Adding an Allergy to a Visually Busy Dialog</span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="fancybox" data-fancybox-group="gallery-1" title="Figure 4.8 - Before: Visually busy dialog when adding an allergy">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="Figure 4.8 - Before: Visually busy dialog when adding an allergy" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="Visually busy dialog when adding an allergy" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -272,7 +272,7 @@
 							<span class="ex-caption">After: Simplified Dialog Requires Only Key Details <span class="capt-desc">&mdash; Removes less important information to a box in the lower screen.</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="fancybox" data-fancybox-group="gallery-1" title="Figure 4.9 - After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" >
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Figure 4.9 - After: Simplified dialog requires only key details (removes less important information to a box in the lower screen)" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Simplified dialog requires only key details" /></a>
 					</div>
 				</div><!--end Before and After 4.1, 4.2-->
 
@@ -287,7 +287,7 @@
 							<span class="ex-caption">Before: Essential Data Elements Are Highlighted for Adding a Drug Allergy</span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_highlighted2.png" title="Figure 4.10 - Before: Essential Data Elements Are Highlighted for Adding a Drug Allergy" >
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_highlighted2.png" class="scale-with-grid" alt="Figure 4.10 - Before: Essential data elements are highlighted" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0005_highlighted2.png" class="scale-with-grid" alt="Essential data elements are highlighted" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -297,7 +297,7 @@
 							<span class="ex-caption">After: Simple, Sequential Design for Adding a Drug Allergy</span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="Figure 4.11 - After: Simple, Sequential Design for Adding a Drug Allergy">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Figure 4.11 - After: Simple, Sequential Design for Adding a Drug Allergy" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Simple, Sequential Design for Adding a Drug Allergy" /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -322,19 +322,19 @@
 								<li><div>
 									<div class="caption"><span class="ex-type">4.1 a</span> Before: First, Find the Name of the Drug or Substance</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0002_visual-queries-1.png" title="Gallery 4.1 a - Before: First, Find the Name of the Drug or Substance">
-										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0002_visual-queries-1.png" class="scale-with-grid" alt="Gallery 4.1 a - Before: First, Find the Name of the Drug or Substance - It is nearly impossible to find the name of the drug or substance" /></a>
+										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0002_visual-queries-1.png" class="scale-with-grid" alt="impossible to find the name of the drug or substance" /></a>
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">4.1 b</span> Before: Next, Add the Reaction Symptoms</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_visual-queries-2.png" title="Gallery 4.1 b - Before: Next, Add the Reaction Symptoms">
-										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_visual-queries-2.png" class="scale-with-grid" alt="Gallery 4.1 b - Before: Next, Add the Reaction Symptoms - Adding reaction symptoms is difficult too" /></a>
+										<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0003_visual-queries-2.png" class="scale-with-grid" alt="Adding reaction symptoms is difficult" /></a>
 								</div></li>
 								<li id="gal-4-1-c"><div>
 								<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">4.1 c</span> After: Simplified Visual Path with Fewer Fields when Adding Allergies</div>
 									<a class="fancybox" data-fancybox-group="gallery-3" href="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" title="Gallery 4.1 c - After: Simplified Visual Path with Fewer Fields when Adding Allergies">
-										<img src="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" class="scale-with-grid" alt="Gallery 4.1 c - After: Simplified Visual Path with Fewer Fields when Adding Allergies" /></a>
+										<img src="./assets/images/examples/allergy-list/Um_Ehr_0007_add-allergy-visual.png" class="scale-with-grid" alt="Simplified Visual Path with Fewer Fields" /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -350,7 +350,7 @@
 							<span class="ex-caption">Before: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; The search result listing shows the primary term, "cough," far down a visually busy list.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" title="Figure 4.12 - Before: Searching Symptoms to Add a New Allergy - The search result listing shows the primary term, 'cough,' far down a visually busy list.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="Figure 4.12 - Before: Searching Symptoms to Add a New Allergy - The search result listing shows the primary term, 'cough,' far down a visually busy list." /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="searching symptoms results in a visually busy list" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -360,7 +360,7 @@
 							<span class="ex-caption">After: Searching Symptoms to Add a New Allergy <span class="capt-desc">&mdash; List displays fewer results and pushes simpler, more frequently-chosen results to the top.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-4" href="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" title="Figure 4.13 - After: Searching Symptoms to Add a New Allergy - List displays fewer results and pushes simpler, more frequently-chosen results to the top.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="Figure 4.13 - After: Searching Symptoms to Add a New Allergy - List displays fewer results and pushes simpler, more frequently-chosen results to the top." /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0008_add-allergy-after.png" class="scale-with-grid" alt="simpler search results pushes fewer, frequently-chosen results to the top" /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">

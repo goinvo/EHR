@@ -88,7 +88,7 @@
 							<span class="ex-caption">Read the Following Words: <span class="capt-desc">Tae Cat looks like The Cat when the tops of the A's are cut off</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/thecat.png" title="Figure 7.1 - Read the Following Words - Tae Cat looks like The Cat when the tops of the A's are cut off">
-							<img src="./assets/images/examples/human-factors/thecat.png" class="scale-with-grid" alt="Figure 7.1 - Tae Cat looks like The Cat when the tops of the A's are cut off" /></a>
+							<img src="./assets/images/examples/human-factors/thecat.png" class="scale-with-grid" alt="Tae Cat looks like The Cat when the tops are cut off" /></a>
 					</div>
 					<p>Most people read the following as “The cat,” even though the middle letter in each word is exactly the same, and neither is a perfect H or A. Our perceptual system uses context (the letters around the middle letter) and expectations (predicated on our familiarity with common English words) to allow us to cope with and make sense of imperfect, noisy input. But the same properties that make our perceptual system robust can also lead us astray. For instance, can you name the first drug on this prescription (<a href="#fig-7-2">Figure 7.2</a>)?</p>
 					<div class="print-only page-break"></div>
@@ -98,7 +98,7 @@
 							<span class="ex-caption">Handwritten Prescription <span class="capt-desc">&mdash; Name the first drug on the list <span class="smaller">(from <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/" target="_blank" class="link">Western Journal of Medicine</a>).</span></span></span>
 						</div>
 						<a href="./assets/images/examples/human-factors/handwritten-prescription.png" class="fancybox" title="Figure 7.2 - Handwritten Prescription - Name the first drug on the list">
-						<img src="./assets/images/examples/human-factors/handwritten-prescription.png" class="scale-with-grid" alt="Figure 7.2 - Handwritten Prescription - Name the first drug on the list" /></a>
+						<img src="./assets/images/examples/human-factors/handwritten-prescription.png" class="scale-with-grid" alt="Handwritten Prescription" /></a>
 					</div>
 					<p>The cardiologist who prescribed the medication wrote 'Isordil,' but the pharmacist read it as 'Plendil.' After taking the prescribed medication for two days, the patient had a heart attack. Several days after that, he died<sup>1</sup>. In this case, the pharmacist was led astray by the very same perceptual system that enabled him to do his job correctly most of the time. Our perceptual system makes assumptions so automatically that we often don’t even realize that it is doing so.</p>
 					<p>Users come to computers with expectations (mental models) based on what they have seen before, and with a built-in tendency to make assumptions about what it is they're seeing. When we scan a screen, we look for digestible chunks: familiar things like navigation bars, buttons and logos. We also tend to look at the center of the screen rather than at the edges, because we expect the edges to display less important things, like logos and tools not relevant to the task at hand. We expect the core components of an interface to be front and center, easy to find.</p>
@@ -109,7 +109,7 @@
 							<span class="ex-caption">An Unclear Layout <span class="capt-desc">&mdash; Adding allergies without good workflow guidance from the interface.</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="fancybox" title="Figure 7.3 - An Unclear Layout - Adding allergies without good workflow guidance from the interface">
-						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="Figure 7.3 - An Unclear Layout - Adding allergies without good ‘workflow’ guidance from the interface" /></a>
+						<img src="./assets/images/examples/allergy-list/Um_Ehr_AllergyList_0004_cough-search.png" class="scale-with-grid" alt="An Unclear Layout" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-7-4">
@@ -118,7 +118,7 @@
 							<span class="ex-caption">Meeting Our Expectations <span class="capt-desc">&mdash; We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.</span></span>
 						</div>
 						<a href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="fancybox" title="Figure 7.4 - Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Figure 7.4 - Meeting Our Expectations - We're still adding an allergy, but now the format is more familiar, and lists the tasks users need to complete in a sequential order."/></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy_2.png" class="scale-with-grid" alt="Meet Expectations with a more familiar format"/></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-7-5">
@@ -127,7 +127,7 @@
 							<span class="ex-caption">A Few Common Affordances <span class="capt-desc">&mdash; 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" title="Figure 7.5 - A Few Common Affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it.">
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Figure 7.5 - A few common affordances - 1) These three words look like buttons, so users understand that if they click one, that will do something. 2) Users understand that the small icon of a calendar will expand into a full calendar menu if they click it." /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0006_add-an-allergy.png" class="scale-with-grid" alt="Affordances including clear selections and icons" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-7-6">
@@ -136,7 +136,7 @@
 							<span class="ex-caption">Disclosure Arrow Affordance <span class="capt-desc">&mdash; In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" title="Figure 7.6 - Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information">
-							<img src="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" class="scale-with-grid" alt="Figure 7.6 - Disclosure Arrow Affordance - In this image, the arrow affordance lets users know that they can expand or collapse the entry to access more information" /></a>
+							<img src="./assets/images/examples/human-factors/Um_Ehr_0010_collapse-affordance.png" class="scale-with-grid" alt="Arrow affordance shows that entries can expand or collapse for more information" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-7-7">
@@ -145,7 +145,7 @@
 							<span class="ex-caption">Sort Arrow Affordance <span class="capt-desc">&mdash; Here, the arrow indicates the ability to sort the list by different columns.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" title="Figure 7.7 - Sort Arrow Affordance - Here, the arrow indicates the ability to sort the list by different columns.">
-							<img src="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" class="scale-with-grid" alt="Figure 7.7 - Sort Arrow Affordance - Here, the arrow indicates the ability to sort the list by different columns." /></a>
+							<img src="./assets/images/examples/human-factors/Um_Ehr_0011_sort-affordance.png" class="scale-with-grid" alt="Arrow indicates the list can be sorted by different columns" /></a>
 					</div>
 					<p>Affordances tell users at a glance that particular elements of the graphical user interface are functional devices. Well-designed affordances also give users an idea of what will happen when they use them.</p>
 					
@@ -163,7 +163,7 @@
 							<span class="ex-caption">Proximity <span class="capt-desc">&mdash; Our eyes notice the distribution of these dots...</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" title="Figure 7.8 - Our eyes notice the distribution of these dots...">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" class="scale-with-grid" alt="Figure 7.8 - Our eyes notice the distribution of these dots..." /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0001_spatial-grouping.png" class="scale-with-grid" alt="Dots in a group with one separate" /></a>
 					</div>
 				</div>
 				<div class="one-half column">
@@ -173,7 +173,7 @@
 							<span class="ex-caption"><span class="capt-desc">... and our brains group the closer objects automatically.</span></span>
 						</div>
 						<a class="fancybox" data-fancybox-group="gallery-0" href="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" title="Figure 7.9 - ... and our brains group the closer objects automatically">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" class="scale-with-grid" alt="Figure 7.9 - ... and our brains group the closer objects automatically" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0002_spatial-grouping-2.png" class="scale-with-grid" alt="Clear isolation of separate dot" /></a>
 					</div>
 				</div>
 				<div class="sixteen columns">
@@ -197,7 +197,7 @@
 							<span class="ex-caption">Closure</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" title="Figure 7.11 - Closure">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" class="scale-with-grid" alt="Figure 7.11 - Closure" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0003_closure.png" class="scale-with-grid" alt="Partially drawn shapes" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h4 id="similarity">Similarity</h4>
@@ -208,7 +208,7 @@
 							<span class="ex-caption">Users Perceive That the Blue Dots Are Associated</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" title="Figure 7.12 - Users Perceive That the Blue Dots Are Associated">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" class="scale-with-grid" alt="Figure 7.12 - Users Perceive That the Blue Dots Are Associated" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0004_similarity.png" class="scale-with-grid" alt="Blue dots with several dark red dots interspersed" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<p><strong>Example</strong>: In the medication reconciliation interface we looked at earlier, <strong>proximity</strong> marked certain groups of items as categories (columns). Now, when we add color, we create new groups (<a href="#fig-7-13">Figure 7.13</a>). Medications the user approves turn green, and medications the user deselects fade to light gray.</p>
@@ -218,7 +218,7 @@
 							<span class="ex-caption">Color Creates New Groups</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" title="Figure 7.13 - Color Creates New Groups">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" alt="Figure 7.13 - Color creates new groups" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0009_the-final-selection-clean.png" class="scale-with-grid" alt="Color creates new groups" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h4 id="symmetry">Symmetry</h4>
@@ -230,7 +230,7 @@
 							<span class="ex-caption">Symmetry <span class="capt-desc">&mdash; Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" title="Figure 7.14 - Symmetry - Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes.">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" class="scale-with-grid" alt="Figure 7.14 - Symmetry - Our brains try to resolve complex visual fields into combinations of simple, symmetrical shapes." /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0005_symmetry.png" class="scale-with-grid" alt="Symmetrical shapes colored in different ways" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<p><strong>Example</strong>: When we first glance at <a href="#fig-7-15">Figure 7.15</a>, below, we see two columns. In fact, a series of individual entries creates the illusion of columns.</p>
@@ -240,7 +240,7 @@
 							<span class="ex-caption">Symmetry in Medication Reconciliation</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" title="Figure 7.15 - Symmetry in Medication Reconciliation">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" alt="Figure 7.15 - Symmetry in Medication Reconciliation" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0005_two-lists-side-by-side-before-matching-clean.png" class="scale-with-grid" alt="Two lists side by side for medication reconciliation" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h4 id="figure-ground">Figure / Ground</h4>
@@ -252,7 +252,7 @@
 							<span class="ex-caption">Figure / Ground</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" title="Figure 7.16 - Figure / Ground" >
-							<img src="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" class="scale-with-grid" alt="Figure 7.16 - Figure / Ground" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0006_figure-ground.png" class="scale-with-grid" alt="two faces or a vase" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<p><strong>Example</strong>: <a href="#fig-7-17">Figure 7.17</a> below is the classic Edgar Rubin image in which viewers see either two faces or a vase, depending on where they focus their attention. Rubin was a practitioner of gestalt psychology.</p>
@@ -262,7 +262,7 @@
 							<span class="ex-caption">Ambiguous Figure/Ground Relationship</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" title="Figure 7.17 - Ambiguous Figure/Ground Relationship">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" class="scale-with-grid" alt="Figure 7.17 - Ambiguous Figure/Ground Relationship" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0007_figure-ground-2.png" class="scale-with-grid" alt="Ambiguous Figure/Ground Relationship" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h4 id="continuity">Continuity</h4>
@@ -277,21 +277,21 @@
 								<li><div>
 									<div class="caption"><span class="ex-type">7.1 a</span> <span class="capt-desc">Though a rectangle 'blocks' parts of this curve...</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" title="Gallery 7.1 a - Though a rectangle 'blocks' parts of this curve..." >
-										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" class="scale-with-grid" alt="Gallery 7.1 a - Though a rectangle 'blocks' parts of this curve..." /></a>
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-1.png" class="scale-with-grid" alt="A curve with portions cut off" /></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">7.1 b</span> <span class="capt-desc">...humans perceive both the curve and the box as whole, uninterrupted entities...</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" title="Gallery 7.1 b - ...humans perceive both the curve and the box as whole, uninterrupted entities...">
-										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" class="scale-with-grid" alt="Gallery 7.1 b - ...humans perceive both the curve and the box as whole, uninterrupted entities..." /></a>
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-2.png" class="scale-with-grid" alt="The cut off portions are actually the outline of a rectangle" /></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">7.1 c</span> <span class="capt-desc">...rather than as a box and some line segments.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" title="Gallery 7.1 c - ...rather than as a box and some line segments." >
-										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" class="scale-with-grid" alt="Gallery 7.1 c - ...rather than as a box and some line segments." /></a>
+										<img src="./assets/images/examples/human-factors/UM_EHR_0008_continuity-3.png" class="scale-with-grid" alt="Rectangle and line separate and whole" /></a>
 								</div></li>
 							</ul>
 						</div>
@@ -304,7 +304,7 @@
 							<span class="ex-caption">Continuity in Medication Reconciliation</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" title="Figure 7.18 - Continuity in Medication Reconciliation" >
-							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="Figure 7.18 - Continuity in Medication Reconciliation" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="Continuity in Medication Reconciliation" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<h4>7.1.3 I Can't See It but I Use It</h4>
@@ -320,7 +320,7 @@
 							<span class="ex-caption">Visual Queries in the Real World</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/visualqueries3.png" title="Figure 7.19 - Visual Queries in the Real World">
-							<img src="./assets/images/examples/human-factors/visualqueries3.png" class="scale-with-grid" alt="Figure 7.19 - Visual Queries in the Real World" /></a>
+							<img src="./assets/images/examples/human-factors/visualqueries3.png" class="scale-with-grid" alt="Visual Queries in the Real World" /></a>
 					</div>
 					<div class="print-only page-break"></div>
 					<p><strong>Example</strong>: When we look at a display like Gallery 7.2 below, we think we see something like the first image. Actually, what we really see at any given instant is something more like the second image. We only focus on a small area at any given moment. Our visual brain first latches onto a preattentive attribute like the red text, and is disproportionately drawn to that element. Then our eyes automatically scan to find the next point of visual interest.</p>
@@ -334,14 +334,14 @@
 								<li><div>
 									<div class="caption"><span class="ex-type">7.2 a</span> We Think We See This</div>
 									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png"  title="Gallery 7.2 a - We Think We See This" >
-									<img src="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png" class="scale-with-grid" alt="Gallery 7.2 a - We Think We See This"/></a>
+									<img src="./assets/images/examples/human-factors/UM_EHR_0000_we-think-we-see-this.png" class="scale-with-grid" alt="A visually busy interface"/></a>
 									
 								</div></li>
 								<li><div>
 									<div class="print-only page-break"></div>
 									<div class="caption"><span class="ex-type">7.2 b</span> ...But We Actually See This</div>
 									<a class="fancybox" data-fancybox-group="gallery-2" href="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png"  title="Gallery 7.2 b - ...But We Actually See This">
-									<img src="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png" class="scale-with-grid" alt="Gallery 7.2 b - ...But We Actually See This" /></a>
+									<img src="./assets/images/examples/human-factors/UM_EHR_0001_but-we-dont-we-see-this.png" class="scale-with-grid" alt="Blurry interface with a red text clear" /></a>
 									
 								</div></li>
 							</ul>
@@ -360,7 +360,7 @@
 							<span class="ex-caption"><span class="capt-desc">How can we use preattentive attributes to facilitate data presentation?</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" title="How can we use preattentive attributes to facilitate data presentation?">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" class="scale-with-grid" alt="How can we use preattentive attributes to facilitate data presentation?" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0009_attributes.png" class="scale-with-grid" alt="preattentive attributes" /></a>
 					</div>
 				</div>
 			</div>
@@ -401,7 +401,7 @@
 							<span class="ex-caption">The Twinlist Prototype Facilitates Fast Thinking</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" title="Figure 7.21 - The Twinlist Prototype Facilitates Fast Thinking">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt=" Figure 7.21 - The Twinlist Prototype Facilitates Fast Thinking" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="The Twinlist Prototype Facilitates Fast Thinking" /></a>
 					</div>
 
 					<h4 id="working memory">7.2.2 Working Memory</h4>
@@ -434,7 +434,7 @@
 							<span class="ex-caption">Scanning for Hypertension Medications</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" title="Figure 7.22 - Scanning for Hypertension Medications">
-							<img src="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" class="scale-with-grid" alt="Figure 7.22 - Scanning for Hypertension Medications" /></a>
+							<img src="./assets/images/examples/medication-list/UM_EHR_0006_mental-work.png" class="scale-with-grid" alt="Scanning for Hypertension Medications" /></a>
 					</div>
 					<p><a href="#fig-7-23">Figure 7.23</a>, below, sorts the list of drugs alphabetically by diagnosis. This allows our physician to access the same information, but costs her far less mental effort. Lightening the effort she has to expend on this task increases the amount of effort she can spend on other more important tasks.</p>
 					<div class="example" id="fig-7-23">
@@ -443,7 +443,7 @@
 							<span class="ex-caption">Sort by Diagnosis <span class="capt-desc">&mdash; Makes it easier to search for hypertension medications</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" title="Figure 7.23 - Sort by Diagnosis - Makes it easier to search for hypertension medications">
-							<img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" alt="Figure 7.23 - Sort by Diagnosis - Makes it easier to search for hypertension medications" /></a>
+							<img src="./assets/images/examples/human-factors/UM_EHR_0010_sort-condition-mental-effort.png" class="scale-with-grid" alt="Sort by Diagnosis" /></a>
 					</div>
 					<p>If the interface can indicate whether a medication has reached the maximum dose, this will save the doctor the effort of making a series of annoying calculations.</p>
 					<p><strong>Example</strong>: Auto-complete functions can also lighten users' cognitive loads. Users typing in the name of a drug in a window with a predictive text function can employ low-impact recognition mental processes rather than more difficult recollection processes. If users employ rapid thinking at this stage of the proceedings, however, there's a danger that they might mistake similarly-named drugs. Employ tallman lettering to alert users to be aware that a similar-looking drug exists.</p>
@@ -453,7 +453,7 @@
 							<span class="ex-caption">Recognizing Rather than Recalling <span class="capt-desc">&mdash; Drug searches that utilize auto-complete functions</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-list/UM_EHR_0010_autocomplete.png" title="Figure 7.24 - Recognizing Rather than Recalling - Drug searches that utilize auto-complete functions" >
-						<img src="./assets/images/examples/medication-list/UM_EHR_0010_autocomplete.png" class="scale-with-grid" alt="Figure 7.24 - Recognizing Rather than Recalling - Drug searches that utilize auto-complete functions" /></a>
+						<img src="./assets/images/examples/medication-list/UM_EHR_0010_autocomplete.png" class="scale-with-grid" alt="Drug searches that utilize auto-complete functions" /></a>
 					</div>
 				
 
@@ -468,7 +468,7 @@
 							<span class="ex-caption">Progressive Disclosure in an Allergy List</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" title="Figure 7.25 - Progressive Disclosure in an Allergy List" >
-							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Figure 7.25 - Progressive Disclosure in an Allergy List" /></a>
+							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Progressive Disclosure in an Allergy List" /></a>
 					</div>
 				
 					<h4 id"decision-making">7.2.5 Goal, Execute, and Evaluate!</h4>
@@ -495,7 +495,7 @@
 							<span class="ex-caption">Tracking Progress via Page Indicators <span class="capt-desc">&mdash; The dots along the bottom of the screen show the user where he is in the process.</span></span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" title="Figure 7.26 - Tracking Progress via Page Indicators - The dots along the bottom of the screen show the user where he is in the process.">
-						<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="Figure 7.26 - Tracking Progress via Page Indicators - The dots along the bottom of the screen show the user where he is in the process." /></a>
+						<img src="./assets/images/examples/medication-reconciliation/UmEhr_MedRec_0012_patient_stepmed_nottaking.png" class="scale-with-grid" alt="dots along the bottom track progress" /></a>
 					</div>
 				</div>
 			</div>
@@ -526,7 +526,7 @@
 							<span class="ex-caption">Information Chaos</span>
 						</div>
 						<a class="fancybox" href="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" title="Figure 7.27 - Information Chaos">
-						<img src="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" class="scale-with-grid" alt="Figure 7.27 - Information Chaos" /></a>
+						<img src="./assets/images/examples/human-factors/UM_EHR_0011_info-chaos.png" class="scale-with-grid" alt="Information Chaos" /></a>
 						<div class="credit"><p>Reproduced by permission of the American Board of Family Medicine</p></div>
 					</div>
 				
