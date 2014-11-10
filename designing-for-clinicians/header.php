@@ -1,7 +1,7 @@
 <header role="banner">
 	<div class="container header">
 		<div class="sixteen columns">
-			<h2 class="title">Inspired EHRs: <span class="sm_title">Designing for Clinicians</span><!--<span class="version">v2, 3-24-2014</span>--></h2>
+			<h1 class="title">Inspired EHRs: <span class="sm_title">Designing for Clinicians</span><!--<span class="version">v2, 3-24-2014</span>--></h1>
 		</div>
 	</div>
 		

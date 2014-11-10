@@ -40,7 +40,7 @@
 		<div class="chapterStart">
 			<div class="container">
 				<div class="sixteen columns">
-					<h1>Foreword</h1>
+					<h2>Foreword</h2>
 					<div class="subheader"><p>This book is dedicated to the development community working tirelessly to computerize the world of medicine, and to the patients and physicians who will benefit.</p></div>
 				</div>
 			</div>
