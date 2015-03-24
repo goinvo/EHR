@@ -168,7 +168,7 @@
 					</div>
 					<h3>6.3 User Preferences to Dismiss Future Alerts</h3>
 					<p>When users are presented with a high frequency of low-value alerts, they develop alert fatigue and begin to dismiss the alerts before they fully read them or consider their implications.</p>
-					<p>Alert fatigue can be mitigated in a variety of ways:
+					<p>Alert fatigue can be mitigated in a variety of ways:</p>
 						<ol>
 							<li>Prevent alerts where possible:
 								<ol>
@@ -182,7 +182,7 @@
 							<li>Allow users to customize their alert settings and turn off alerts that are of no value to them.</li>
 							<li>Make alerts easier to read. Write concise descriptions, put important words first, and use visual features (font size, emphasis, color, whitespace, alignment, and spatial grouping) to indicate the importance and relationships among the information.</li>
 						</ol>
-					</p>
+					
 				</div>
 			</div>
 		</section>
@@ -301,7 +301,7 @@
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 d</span> A Drug-Drug Interaction Alert with Three Possible Actions <span class="capt-desc">&mdash; Stop the first drug, stop the second, or continue both.</div>
+									<div class="caption"><span class="ex-type">6.1 d</span> A Drug-Drug Interaction Alert with Three Possible Actions <span class="capt-desc">&mdash; Stop the first drug, stop the second, or continue both.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" title="Gallery 6.1 d - A Drug-Drug Interaction Alert with Three Possible Actions - Stop the first drug, stop the second, or continue both.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0003_dd1.png" class="scale-with-grid" alt="A Drug-Drug Interaction Alert with Three Possible Actions" /></a>
 								</div></li>
@@ -313,7 +313,7 @@
 								</div></li>
 								<li><div>
 								<div class="print-only page-break"></div>
-									<div class="caption"><span class="ex-type">6.1 e</span> After the Physician Has Addressed All the Alerts <span class="capt-desc">&mdash; He can use the final review screen to look over and modify his decisions.</div>
+									<div class="caption"><span class="ex-type">6.1 e</span> After the Physician Has Addressed All the Alerts <span class="capt-desc">&mdash; He can use the final review screen to look over and modify his decisions.</span></div>
 									<a class="fancybox" data-fancybox-group="gallery-1" href="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" title="Gallery 6.1 f - After the Physician Has Addressed All the Alerts - He can use the final review screen to look over and modify his decisions.">
 										<img src="./assets/images/examples/drug-alerts/UM_EHR_0005_final.png" class="scale-with-grid" alt="After Addressing All Alerts, have a final chance to review and modify decisions" /></a>
 								</div></li>
@@ -371,19 +371,19 @@
 					<p>Additional Resources</p>
 					<div class="section_cite">
 						<p><em>From the National Center for Cognitive Informatics &amp; Decision Making in Healthcare</em></p>
-						<h4>EHR Safety Enhanced Design Briefs</h4>
+						<h5>EHR Safety Enhanced Design Briefs</h5>
 						<p><a target="_blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu01.htm">Drug-drug, drug-allergy interaction checks</a></p>
 						<p><a href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu04.htm" target="_blank" class="link">Clinical Decision Support</a></p>
 
-						<h4>EHR Usability</h4>
+						<h5>EHR Usability</h5>
 						<p><a href="https://sbmi.uth.edu/nccd/ehrusability/" target="_blank" class="link">Designing for Usability</a></p>
 					</div>
 					<hr />
-					<p>References</p>
 					<div class="section_cite">
+						<h6>References</h6>
 						<ol>
 							<li>Paterno, Marilyn D., Saverio M. Maviglia, Paul N. Gorman, Diane L. Seger, Eileen Yoshida, Andrew C. Seger, David W. Bates, and Tejal K. Gandhi. “Tiering Drug-Drug Interaction Alerts by Severity Increases Compliance Rates.” <em>Journal of the American Medical Informatics Association </em>: JAMIA 16, no. 1 (2009): 40–46. doi:10.1197/jamia.M2808.</li>
-							<li><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA">http://www.google.com/url?q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC2605599%2F&sa=D&sntz=1&usg=AFQjCNGCnHZaRKIsBZNG1yq2NJBxXlkMNA</a></li>
+							<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2605599/</a></li>
 						</ol>
 					</div>
 				</div>
@@ -397,11 +397,22 @@
 	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">
-		$(function() {
+		$(document).ready(function() {
 			$( '#cbp-fwslider' ).cbpFWSlider();
 			$( '#cbp-fwslider-2' ).cbpFWSlider();
 			$( '#cbp-fwslider-3' ).cbpFWSlider();
 			$( '#cbp-fwslider-4' ).cbpFWSlider();
+
+			var destination = document.URL;
+			var index = destination.indexOf('#');
+			
+			if(index >= 0) {
+				var navHeight = $('nav.main').height() + 40;
+				destination = destination.substring(index);
+				destination = $(destination).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-navHeight}, 500);
+			}
+			
 		});
 	</script>
 	<script type="text/javascript">

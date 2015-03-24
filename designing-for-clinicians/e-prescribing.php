@@ -122,14 +122,14 @@
 					</div>
 					<h4>5.1.1 Prescribing a New Medication</h4>
 					<p>Once a physician finds the medication she's looking for, she needs to manage additional details like adding or reviewing the dosage strength, instructions, quantity to dispense, and number of refills to authorize. A thoughtful design will pre-populate fields associated with the medication with, possibly, the instructions for the usual starting dose. The EHR system could recommend a physician’s frequently-used choices or favorites. For a returning patient, it could recommend their chosen pharmacy.</p>
-					<p>In the United States, health insurance plans often include drug formularies, which are a list of prescription drugs that will be covered by the insurance plan. Within the formulary, the drugs are grouped into a tier assignment that determines the patient’s portion of the drug cost. A typical plan includes 3 or 4 tiers:
+					<p>In the United States, health insurance plans often include drug formularies, which are a list of prescription drugs that will be covered by the insurance plan. Within the formulary, the drugs are grouped into a tier assignment that determines the patient’s portion of the drug cost. A typical plan includes 3 or 4 tiers:</p>
 						<ul class="disc">
 							<li>Tier 1 usually includes generic medications (the least expensive)</li>
 							<li>Tier 2 usually includes “preferred” brand name medications</li>
 							<li>Tier 3 usually includes “non-preferred” brand name medications</li>
 							<li>Tier 4 usually includes specialty medications (the most expensive)</li>
 						</ul>
-					</p>
+					
 					<p>If the system knows the patient’s pharmacy benefit plan, it can display the associated formulary information, indicating the tier information at a glance. Also, the system can allow the prescriber to view more detail on demand.</p>
 					<p>An EHR that provides these details reduces the mental effort a physician needs to expend to accomplish this task, and thus reduces their cognitive load. This EHR can also enhance patients' safety by eliminating physicians' distractions and reducing the margin for error.</p>
 					<div class="quicktip" id="considerations">
@@ -138,7 +138,7 @@
 							<p class="preview">Some of the details of the prescription will depend on a patient’s preferences<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
 							<div class="qt-content show">
 								<p>Some of the details of the prescription will depend on a patient’s preferences:</p>
-								<table class="sidebar-table" id="">
+								<table class="sidebar-table" id="challenges">
 									<thead>
 										<tr>
 											<td></td>
@@ -189,7 +189,7 @@
 				
 					<h4>5.1.4 Changing the Current Order to a New Order</h4>
 					<p>Discarding an old prescription and starting over can require a lot of time and mental effort, and can introduce the risk of error. Often, the physician only needs to change the strength of the tablet. An EHR that allows users to pick from a list of the strengths for a medication can save time. A physician may also need to adjust the number of tablets she has prescribed. Occasionally, the patient may choose to use a different pharmacy, or may request a two to four week prescription that they can fill locally while awaiting a mail-order 90 day supply.</p>
-					<div class="example" class="fig-5-1">
+					<div class="example" id="fig-5-1">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.1</span>
 							<span class="ex-caption">Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication <span class="capt-desc">&mdash; These include strength, instructions, quantity, and number of refills.</span></span>
@@ -200,7 +200,7 @@
 				
 					<h4>5.1.5 Allow Association of a Diagnosis or Chronic Problem</h4>
 					<p>Users often want to filter and sort medication list displays by diagnosis. Some medications are prescribed to alleviate multiple problems, and an EHR thus may need to be able to associate medications with multiple diagnoses. The 'multiple diagnosis' function also helps patients understand the roles of multi-purpose medications in their care plan. It also informs a variety of caregivers of all the reasons someone prescribed this medication. If a subsequent physician is considering changing a medication's dose or stopping it entirely, they'll need to know this information.</p>
-					<div class="quicktip" id="">
+					<div class="quicktip" id="therapeutic-class">
 						<div class="sidebar cf">
 							<h4>Why Automatically Assigning a Therapeutic Class Won’t Work</h4>
 							<p class="preview">Some EHR vendors may be tempted to use a drug’s therapeutic class instead of relying on physician-assigned diagnoses.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
@@ -212,7 +212,7 @@
 						<div class="tip"></div>
 					</div>
 					<div class="print-only page-break"></div>
-					<div class="example" class="fig-5-2">
+					<div class="example" id="fig-5-2">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.2</span>
 							<span class="ex-caption">Allow Association of One or More Diagnoses per Medication</span>
@@ -222,7 +222,7 @@
 					</div>
 				
 					<h4>5.1.6 Stopping a Medication</h4>
-					<p>Removing a medication from the list can be easy. It could also be easy (though optional) for a user to record why a physician or patient stopped a medication. Common reasons for stopping a medication include:
+					<p>Removing a medication from the list can be easy. It could also be easy (though optional) for a user to record why a physician or patient stopped a medication. Common reasons for stopping a medication include:</p>
 						<ol>
 							<li>The medication's high cost, which can take the form of coverage, co-pays, or cash out-of-pocket</li>
 							<li>The medication's inefficacy</li>
@@ -231,9 +231,9 @@
 							<li>Patients don't understand the medication's possible benefits</li>
 							<li>Patients or physicians don't trust whoever prescribed the medication</li>
 
-						</ol></p>
+						</ol>
 					<p>Medication timelines are richer and more informative when they capture why medications were stopped. Timelines that give users insight into patients' history with given medications can eliminate the need for time-consuming searching, paging through progress notes, or laboriously exploring historical medication list entries.</p>
-					<div class="example" class="fig-5-3">
+					<div class="example" id="fig-5-3">
 						<div class="ex-title">
 							<span class="ex-type">Figure 5.3</span>
 							<span class="ex-caption">Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar</span>
@@ -328,7 +328,7 @@
 				</div>
 				<div class="sixteen columns">
 					<h4>5.2.2 Make It Easy to Find the Right Orders</h4>
-					<p>Naming orders can be a challenge, because tests and procedures can have several commonly-used names. Different organizations may use different names for the same test. The physician ordering procedures might not be familiar with precise names listed in the EHR order catalog. The EHR might formally call a chest x-ray "XR chest". A physician, however, might look for it under:
+					<p>Naming orders can be a challenge, because tests and procedures can have several commonly-used names. Different organizations may use different names for the same test. The physician ordering procedures might not be familiar with precise names listed in the EHR order catalog. The EHR might formally call a chest x-ray "XR chest". A physician, however, might look for it under:</p>
 						<ul class="disc">
 							<li>chest x-ray (or variant spellings like “xray”)</li>
 							<li>chest XR</li>
@@ -337,12 +337,12 @@
 							<li>Chest x-ray 2 views</li>
 							<li>Chest x-ray PA and Lateral</li>
 							<li>CXR (fastest way to hand-write the order)</li>
-						</ul></p>
+						</ul>
 					<p>These are all correct ways to name a chest x-ray. Thus, the interface could allow physicians to find tests and procedures listed under their various commonly-used designations.</p>
 
 					<h4>5.2.3 Preconfigure Orders with as Much Detail as Possible</h4>
 					<p>Tests physicians order in ER or urgent care scenarios are often high priority and need done STAT. Routine tests physicians order in primary care settings will almost always be lower-priority. They'll need completed today, in the near future, or at some specified future time. An EHR that could be easily configured to a specific care setting, one that established default "priority" settings for the orders it processed, would be a powerful support tool.</p>
-					<div class="quicktip" id="">
+					<div class="quicktip" id="fuzzy-date">
 						<div class="sidebar cf">
 							<h4>Setting the Date for Orders: Using Fuzzy Dates</h4>
 							<p class="preview">Sometimes orders demand a precise date and time.<span class="elipsis">.. &nbsp;<span class="a">Read more</span></span></p>
@@ -392,16 +392,17 @@
 
 					<h4>5.2.6 Building Groups of Related Orders Function like Checklists</h4>
 					<p>EHRs must offer users the option of building sets or collections of orders to facilitate their workflow. This offers users personalized clinical decision support and frees them from having to depend on their memories or external reference materials to complete involved tasks. Well Child Visits, for example, follow predictable patterns. They involve immunizations at regular, predetermined intervals, specific counseling (anticipatory guidance), and set follow-up visits. </p>
-					<p>A four-month-old's Well Child Visit would include:
+					<p>A four-month-old's Well Child Visit would include:</p>
 						<ul>
 							<li>scheduling the next visit, at six months</li>
-							<li>administering several specific vaccines<ul>
+							<li>administering several specific vaccines
+							<ul>
 								<li>hemophilus B</li>
 								<li>rotavirus</li>
 								<li>pneumococcal 13-valent</li>
 								<li>combination of diphtheria / hepatitis B / pertussis - acellular / polio / tetanus.</li>
 							</ul></li>
-						</ul></p>
+						</ul>
 				</div>
 			</div>
 		</section>
@@ -414,7 +415,7 @@
 						<div class="print-only page-break"></div>
 					</div>
 					<h3>5.3 Summary</h3>
-					<p>EHRs can:
+					<p>EHRs can:</p>
 						<ol>
 							<li>Make it easy for users to select new orders by offering a predictive search function that suggests appropriate results.</li>
 							<li>Fill in the blanks with probable default settings (such as 30 or 90 day prescription supplies) where possible. </li>
@@ -425,7 +426,7 @@
 							<li>Allow users to modify existing orders without forcing them to start over from scratch.</li>
 							<li>Allow users to personalize the interface and build detail-rich collections of related orders that function like checklists.</li>
 							<li>Allow users to select specific or flexible dates for new lab orders.</li>
-						</ol></p>
+						</ol>
 				</div>
 			</div>
 		</section>
@@ -462,8 +463,9 @@
 						  <a target="_blank" class="link" href="https://sbmi.uth.edu/nccd/SED/Briefs/sedb-mu05.htm">Preventing Electronic Medication Order Errors (E-Prescribing)</a></p>
 					</div>
 					<hr />
-					<p>References</p>
+					
 					<div class="section_cite">
+						<h6>References</h6>
 						<ol>
 							<li>Choudhry NK, Fischer MA, Avorn J, et al. The Implications of Therapeutic Complexity on Adherence to Cardiovascular Medications. Arch Intern Med.2011;171(9):814-822. doi:10.1001/archinternmed.2010.495.</li>
 							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" target="_blank">David Amsler</a></li>
@@ -480,11 +482,22 @@
 	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">
-		$(function() {
+		$(document).ready(function() {
 			$( '#cbp-fwslider' ).cbpFWSlider();
 			$( '#cbp-fwslider-2' ).cbpFWSlider();
 			$( '#cbp-fwslider-3' ).cbpFWSlider();
 			$( '#cbp-fwslider-4' ).cbpFWSlider();
+
+			var destination = document.URL;
+			var index = destination.indexOf('#');
+			
+			if(index >= 0) {
+				var navHeight = $('nav.main').height() + 40;
+				destination = destination.substring(index);
+				destination = $(destination).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-navHeight}, 500);
+			}
+			
 		});
 	</script>
 	<script type="text/javascript">

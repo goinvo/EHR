@@ -346,12 +346,14 @@
 								</div></li>
 							</ul>
 						</div>
+
 					</div>
 					<p>A peripheral glance tells people where they are and what to expect, helping us decide what to focus on. We can only truly see what we focus on. The display can only effectively convey that information at any given time.</p>
 					<p><strong>Design tip:</strong> Feedback and error messages can pop up near an area people will already be focusing on. While we do use our peripheral vision to orient ourselves and scan for things, we also tend to ignore our peripheral vision when we're trying to focus on the task at hand.</p>
 					<div class="print-only page-break"></div>
 					<h4 id="preattentive-attributes">7.1.4 Preattentive Attributes</h4>
 					<p class="spacetop"><strong>Little, visual things people notice and understand quickly</strong></p>
+					
 					<p>We notice some visual features, such as color, size, shape, orientation, and motion, more quickly than others. We call the things that especially stand out to us <strong>preattentive attributes</strong>. Before we fully process visual information, our minds prompt us to focus on these attributes. Things that stand out from the rest of their environment, as in <a href="#fig-7-20">Figure 7.20</a> below, do so because of their attention-catching preattentive attributes.</p>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-7-20">
@@ -368,6 +370,7 @@
 		
 		<section id="how-people-think" class="section">
 			<div class="container">
+
 				<div class="sixteen columns">
 					<div class="sectionStart">
 						<hr/>
@@ -377,7 +380,7 @@
 					<h4>7.2.1 The Two Ways People Think</h4>
 					<p><strong>Everyone has two modes of thinking. There's a rapid mode that requires little conscious effort and a slower mode that requires focus.</strong></p>
 					<p>If a system is easy to understand and work with, users don't have to engage with it via their 'slow, focused' mode of thinking. They can just use their rapid mode and save their mental energy for more important matters. Daniel Kahneman wrote a great book about these modes, and our thinking builds on his work.</p>
-					<p>The rapid mode of thinking is automatic and almost effortless. People often don't experience a sense of voluntary control over it. This mode allows us to:
+					<p>The rapid mode of thinking is automatic and almost effortless. People often don't experience a sense of voluntary control over it. This mode allows us to:</p>
 						<ul class="disc">
 							<li>See that something is larger than something else</li>
 							<li>Answer simple computations, like 2+2 = 4</li>
@@ -385,7 +388,7 @@
 							<li>Understand simple sentences</li>
 							<li>Make rapid and simple associations, such as stereotypes (positive or negative)</li>
 							<li>Notice preattentive attributes</li>
-						</ul></p>
+						</ul>
 					<p>Our focused mode of thinking is effortful and allows us to perform more complex mental activities. We associate this mode of thinking with our experiences of agency, choice, and concentration: in short, with our 'consciousness.' This mode allows us to:</p>
 						<ul class="disc">
 							<li>Focus on listening to one voice in a noisy room</li>
@@ -395,6 +398,7 @@
 						</ul>
 					<p>When creating an application, ask yourself whether you have any opportunities to convert tasks that require focused thinking into tasks that only require rapid thinking. Making the application perform complex calculations, sort information, and concisely present key details can free people up to do the focused thinking that only humans can.</p>
 					<p>The Twinlist medication reconciliation prototype, <a href="#fig-7-21">Figure 7.21</a>, makes the focused task of scanning two lists and finding similar drugs into a rapid one. The prototype identifies similar drugs and sorts them onto the same row. Twinlist also makes it easy for users to see the differences between similar drugs by highlighting these differences in yellow. A slow, visually and cognitively demanding search task involving two separate lists becomes a matter of brisk perception with Twinlist.</p>
+					
 					<div class="example" id="fig-7-21">
 						<div class="ex-title">
 							<span class="ex-type">Figure 7.21</span>
@@ -404,7 +408,7 @@
 							<img src="./assets/images/examples/human-factors/UM_EHR_0008_the-drug-becomes-bright-green-when-selected-clean.png" class="scale-with-grid" alt="The Twinlist Prototype Facilitates Fast Thinking" /></a>
 					</div>
 
-					<h4 id="working memory">7.2.2 Working Memory</h4>
+					<h4 id="working-memory">7.2.2 Working Memory</h4>
 					<p><strong>Working memory demands effort and is limited. Try to design systems that place limited demands on users' working memory.</strong></p>
 					<p>Working memory, or short-term memory, holds items like phone numbers until we can write them down or punch them into our phones. This type of memory stores information for less than a minute and demands focused thinking.</p>
 					<p><strong>Design tip</strong>: Try not to ask people to look at information on one screen, remember it, and then enter it into another field on another screen.</p>
@@ -415,18 +419,18 @@
 							<p><span class="grey">Easier: </span> <span class="phoneno">912-188-9874</span></p>
 							<p><span class="grey">Easiest: </span><span class="phoneno">(912) 188-9874</span></p>
 						</div>
-					<p>The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it can allow them to enter these with or without the intervening hyphens or parentheses. It could display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design has done all it can to alleviate this, the interface can then 'chunk' its information in the manner of the phone number example.</p>
+					<p >The first phone number is difficult to even just dial. If the interface asks users to enter phone numbers, it can allow them to enter these with or without the intervening hyphens or parentheses. It could display them, however, in the easy-to-read format. When the interface needs to display an unmanageable amount of information, and the design has done all it can to alleviate this, the interface can then 'chunk' its information in the manner of the phone number example.</p>
 
 					<h4 id="cognitive-load">7.2.3 Cognitive Load</h4>
 					<p><strong>Loads are heavy, even mental ones. Help lighten the user’s load.</strong></p>
 					<p>Our brains manage motor, visual and cognitive loads. The strain of managing and manipulating items within our working memory generates cognitive load. Motor load is the easiest for the brain to manage, while cognitive load is the most difficult.</p>
-					<p>Designers seeking to lighten users' cognitive loads need to bear these details in mind:
+					<p>Designers seeking to lighten users' cognitive loads need to bear these details in mind:</p>
 						<ul class="disc">
 							<li>Focused thinking causes greater cognitive strain than rapid thinking. People can give a task about ten minutes of focused attention, but then they'll need a short break, unless they're particularly interested in the task or are in a flow state.</li>
 							<li>People can’t truly multi-task. We can only attend to one task at a time. When we think we’re multitasking, we’re actually rapidly switching tasks, start-stop-start-stop-start-stop. This can tire us out and cause us to make mistakes.</li>
 							<li>Recognizing is easy, remembering is difficult. We can recognize complex things like a map of Europe instantly, but most of us would likely have a hard time drawing such a map ourselves. Likewise, we find it easier to recognize patients' names than to recall them.</li>
 							<li>Problem-solving and calculating are hard, while learning from experience and performing learned actions is easy.</li>
-						</ul></p>
+						</ul>
 					<p><strong>Example</strong>: <a href="#fig-7-22">Figure 7.22</a> below demonstrates the mental work a doctor does when she reviews a medication list to try to understand what medications a patient is taking to control his blood pressure. She must read the list, recognize drugs' names, remember whether given drugs are prescribed for hypertension, recall from memory what the maximum doses for these medications are, and then check whether the patient has reached the maximum dosages for these medications. That's a lot of mental effort!</p>
 					<div class="example" id="fig-7-22">
 						<div class="ex-title">
@@ -471,7 +475,7 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Progressive Disclosure in an Allergy List" /></a>
 					</div>
 				
-					<h4 id"decision-making">7.2.5 Goal, Execute, and Evaluate!</h4>
+					<h4 id="decision-making">7.2.5 Goal, Execute, and Evaluate!</h4>
 					<p><strong>Humans have a thought cycle that guides decision making and it is 'Goal, Execute and Evaluate.'</strong></p>
 					<p>How do we get anything done? No, really. We start by forming a goal: get some food, edit a word document, impress our boss with our design skills, etc. Next we choose and execute actions that we think will help us accomplish that goal. Finally, we evaluate how well our actions worked. Were we able to accomplish our goal, or to at least make progress towards accomplishing it?</p>
 					<p>Interfaces can support clinical decision making if their designers establish a shared understanding of goals with physicians. The interfaces must then provide users with clear paths by which to accomplish these goals, useful 'action' choices, and the feedback they need to quickly and accurately make choices and evaluate their progress. If interfaces don't provide appropriate or sufficient feedback, users make errors and find the interface unsatisfying to use. This is a common problem with interfaces.</p>
@@ -479,14 +483,14 @@
 					<h4 id="flow-states">7.2.6 Go with the Flow</h4>
 					<p><strong>People like to get into flow states; if we're engrossed in what we're doing, everything else falls away</strong></p>
 					<p>We've all had moments where we get so involved in what we're doing that we lose track of time and get a lot done. This situation is called a 'flow state,' and you can enter it doing professional or (more likely) recreational tasks. No one likes having their flow state interrupted.</p>
- 					<p>Interfaces can help users get into and stay in flow states. Some facts to remember:
+ 					<p>Interfaces can help users get into and stay in flow states. Some facts to remember:</p>
  					<ul class="disc">
 						<li>People like being in control of themselves. Giving them control over their activities will help them get into the flow.</li>
 						<li>Distractions, in the form of noisy interfaces or interruptions from co-workers, interrupt peoples' flow.</li>
 						<li>People like goals that are challenging but achievable.</li>
 						<li>Break difficult tasks down like you would unmanageable amounts of information. Allow users to complete long or difficult tasks in clearly-defined stages.</li>
 						<li>Give users feedback on their progress. Seeing how far they've come and how far they still have to go can motivate people.</li>
-					</ul></p>
+					</ul>
 					<div class="print-only page-break"></div>
 					<p><strong>Example</strong>: <a href="#fig-7-26">Figure 7.26</a> shows a medication list that a patient is in the process of updating. The page indicator on the bottom shows the patient that he's on step 2 of 22. This information about his progress may help the user get into a flow.</p>
 					<div class="example" id="fig-7-26">
@@ -586,7 +590,7 @@
 					<hr/>
 					<p class="grey">References</p>
 					<section class="section_cite" id="cite-1">
-						<p class="grey"><strong>Our Eyes have Expectations</strong></p>
+						<h6 class="grey"><strong>Our Eyes have Expectations</strong></h6>
 						<ol class="cite">
 							<li>Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em> 172, no. 2 (February 2000): 80</li>
 							<li>Kannengiesser, U., &amp; Gero, J. S. (2012). A process framework of affordances in design. <em>Design Issues</em>, 28(1), 50-62.</li>
@@ -597,7 +601,7 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-2">
-						<p class="grey"><strong>Images</strong></p>
+						<h6 class="grey"><strong>Images</strong></h6>
 						<ol class="cite">
 							<li><em>Figure 7.2,</em> Charatan, Fred. “Compensation Awarded for Death after Illegible Prescription.” <em>Western Journal of Medicine</em>. 172, no. 2 (February 2000): 80. from: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070756/</li>
 							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="_blank">pedronchi</a></li>
@@ -605,7 +609,7 @@
 					</section>
 					
 					<section class="section_cite" id="cite-3">
-						<p class="grey"><strong>We See in Gestalts</strong></p>
+						<h6 class="grey"><strong>We See in Gestalts</strong></h6>
 						<ol class="cite">
 							<li>Wolfe, J. M., Kluender, K., R.; Levi, D, M., Bartoshuk, L, M., Herz, R. S., Klatzky, R, L., Lederman, S. J. (2008). Gestalt Grouping Principles <em>Sensation and Perception</em> (2nd ed.). Sunderland, MA: Sinauer Associates. </li>
 							<li>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</li>
@@ -613,7 +617,7 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-4">
-						<p class="grey"><strong>Images</strong></p>
+						<h6 class="grey"><strong>Images</strong></h6>
 						<ol class="cite">
 							<li><em>Figure 7.11,</em> <em>Gestalt_closure</em> [SVG file]. (2008). Retrieved January 28, 2014 from: http://en.wikipedia.org/wiki/File:Gestalt_closure.svg</li>
 							<li><em>Figure 7.17,</em> Ruben, E. (psychologist). (1921). <em>Faces-Vase</em> [SVG file], Retrieved January 28,2014 from: http://en.wikipedia.org/wiki/File:Cup_or_faces_paradox.svg</li>
@@ -622,7 +626,7 @@
 					</section>
 
 					<section class="section_cite" id="cite-5">
-						<p class="grey"><strong>I Can’t See It, but I Use It</strong></p>
+						<h6 class="grey"><strong>I Can’t See It, but I Use It</strong></h6>
 						<ol class="cite">
 							<li>Larson, A., &amp; Loschky, l. (2009). The contributions of central versus peripheral vision to scene gist recognitions. <em>Journal of Vision</em>, 9 (10:6), 1-16.</li>
 							<li>Johnson, J (2010). <em>Simple guide to understanding user interface design rules: Designing with the mind in mind.</em> Burlington, MA: Morgan Kaufman.</li>
@@ -631,7 +635,7 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-6">
-						<p class="grey"><strong>Preattentive Attributes</strong></p>
+						<h6 class="grey"><strong>Preattentive Attributes</strong></h6>
 						<ol>
 							<li>Atienza, M., Cantero, J. L., &amp; Escera, C. (2001). Auditory information processing during human sleep as revealed by event-related brain potentials. <em>Clinical Neurophysiology</em>, 112(11), 2031-2045.</li>
 							<li>Appelbaum, L. G., &amp; Norcia, A. M. (2009). Attentive and preattentive aspects of figural processing. <em>Journal of Vision</em>, 9(11), 1-12.</li>
@@ -643,13 +647,13 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-7">
-						<p class="grey"><strong>Images</strong></p>
+						<h6 class="grey"><strong>Images</strong></h6>
 						<ol>
 							<li><em>Figure 7.20 </em>Few, S. (2004). Data Presentation: Tapping the power of visual perception. <em>Information Week</em>. Retrieved from: http//www.informationweek.com/software/information-management/data-presentation-tapping-the-power-of-visual-perception/d/d-id/1026932?</li>
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-8">
-						<p class="grey"><strong>The Two Ways People Think</strong></p>
+						<h6 class="grey"><strong>The Two Ways People Think</strong></h6>
 						<ol>
 							<li>Evans, J., &amp; Frankish, K. (Eds.) (2009). <em>In two minds: Dual processes and beyond</em>. New York, NY: Oxford University Press.</li>
 							<li>Evans, J. (2008). Dual-processing accounts of reasoning, judgment, and social cognition. <em>Annual Review of Psychology</em> 59: 255-78.</li>
@@ -658,7 +662,7 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-9">
-						<p class="grey"><strong>Working Memory</strong></p>
+						<h6 class="grey"><strong>Working Memory</strong></h6>
 						<ol>
 							<li>Cowan, Nelson (2008). What are the differences between long-term, short-term, and working memory? <em>Progressive Brain Research</em>. 169 (169): 323–338.</li>
 							<li>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". <em>Behavioral and Brain Sciences</em> 24: 87–185.</li>
@@ -668,7 +672,7 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-10">
-						<p class="grey"><strong>Cognitive Load</strong></p>
+						<h6 class="grey"><strong>Cognitive Load</strong></h6>
 						<ol>
 							<li>Cowan, Nelson (2010). The Magical Mystery Four How Is Working Memory Capacity Limited, and Why? <em>Current Directions in Psychological Science</em>, 19 (1): 51-57.</li>
 							<li>DeLeeuw, K.E., &amp; Mayer, R.E. (2008). "A comparison of three measures of cognitive load: Evidence for separable measures of intrinsic, extraneous, and germane load". <em>Journal of Educational Psychology</em> 100 (1): 223–234.</li>
@@ -678,35 +682,35 @@
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-11">
-						<p class="grey"><strong>Everybody Likes a Chunk</strong></p>
+						<h6 class="grey"><strong>Everybody Likes a Chunk</strong></h6>
 						<ol>
 							<li>Keller, J. M. (1987). Development and use of the ARCS model of instructional design. Journal of instructional development, 10(3), 2-10.</li>
 							<li>Cowan, Nelson (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity". Behavioral and Brain Sciences, 24: 87–185.</li>
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-12">
-						<p class="grey"><strong>Goal Execute and Evaluate</strong></p>
+						<h6 class="grey"><strong>Goal Execute and Evaluate</strong></h6>
 						<ol>
 							<li>Card, S. K., Moran, T. P., &amp; Newell, A. (Eds.). (1986). The psychology of human-computer interaction. CRC Press.</li>
 							<li>Norman, D. A. (1988). The Design of Everyday Things. New York, Doubleday/Currency Ed.</li>
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-13">
-						<p class="grey"><strong>Go with the Flow</strong></p>
+						<h6 class="grey"><strong>Go with the Flow</strong></h6>
 						<ol>
 							<li>Csikszentmihalyi, M. (1997). Flow and the Psychology of Discovery and Invention. Harper Perennial, New York.</li>
 							<li>Csikszentmihalyi, M. (2008). Flow: The Psychology of Optimal Experience. New York: Harper and Row.</li>
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-14">
-						<p class="grey"><strong>Information Chaos</strong></p>
+						<h6 class="grey"><strong>Information Chaos</strong></h6>
 						<ol>
 							<li>Beasley, J. W., Wetterneck, T. B., Temte, J., Lapin, J. A., Smith, P., Rivera-Rodriguez, A. J., &amp; Karsh, B. T. (2011). Information chaos in primary care: implications for physician performance and patient safety. The Journal of the American Board of Family Medicine, 24(6), 745-751.</li>
 							<li>Misra, S., &amp; Stokols, D. (2012). Psychological and health outcomes of perceived information overload. Environment and behavior, 44(6), 737-759.</li>
 						</ol>
 					</section>
 					<section class="section_cite" id="cite-15">
-						<p class="grey"><strong>Situational Awareness</strong></p>
+						<h6 class="grey"><strong>Situational Awareness</strong></h6>
 						<ol>
 							<li>Banbury, S., &amp; Tremblay, S. (Eds.). (2004). A cognitive approach to situation awareness: theory and application. Ashgate Publishing, Ltd..</li>
 							<li>Bolstad, C. A., Cuevas, H., Gonzalez, C., &amp; Schneider, M. (2005, May). Modeling shared situation awareness. In Proceedings of the 14th Conference on Behavior Representation in Modeling and Simulation (BRIMS), Los Angles, CA.</li>
@@ -726,11 +730,22 @@
 	<script type="text/javascript" src="./assets/js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">
-		$(function() {
+		$(document).ready(function() {
 			$( '#cbp-fwslider' ).cbpFWSlider();
 			$( '#cbp-fwslider-2' ).cbpFWSlider();
 			$( '#cbp-fwslider-3' ).cbpFWSlider();
 			$( '#cbp-fwslider-4' ).cbpFWSlider();
+
+			var destination = document.URL;
+			var index = destination.indexOf('#');
+			
+			if(index >= 0) {
+				var navHeight = $('nav.main').height() + 40;
+				destination = destination.substring(index);
+				destination = $(destination).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-navHeight}, 500);
+			}
+			
 		});
 	</script>
 	<script type="text/javascript">

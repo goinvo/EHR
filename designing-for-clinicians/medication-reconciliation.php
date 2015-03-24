@@ -13,7 +13,7 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/Slider/component.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/jquery.fancybox.css?v=2.1.5" />
 	<link rel="stylesheet" type="text/css" media="print" href="./assets/css/print.css">
 
 	<!--[if lt IE 9]>
@@ -79,43 +79,28 @@
 						<p>Examining Mr. Jones, the hospital physician found moderate pulmonary congestion, but no EKG changes. He tested negative for Troponin. Because of his past medical history and the strong history of Myocardial infarction (MI) in his family, he was admitted and treated. By Wednesday afternoon, Mr. Jones is ready to leave and can be discharged from the hospital. One of the medical house officers is discharging Mr. Jones and as part of this process, reconciling his medications.</p>
 					</div>
 					<h4>3.1.1 A Prototype for Medication Reconciliation</h4>
-					<p>In this scenario, the physician discharging the patient has to actively compare two lists:
+					<p>In this scenario, the physician discharging the patient has to actively compare two lists:</p>
 						<ol>
 							<li>The list of medications the patient was taking at home (e.g. recorded by an intake nurse when the patient arrived at the hospital, or obtained from a different EHR system)</li>
 							<li>The list of medications on the last day of the patient’s hospital stay</li>
 						</ol>
-					</p>
+					
 					<p>Our physician will then decide which medications could be continued after the patient is discharged and which should be stopped.</p>
 					<p>Let’s watch a short video about a prototype called “Twinlist,” an award-winning demonstration of a proposed medication interface.</p>
 					<div class="example" id="vid-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Video 3.1</span>
-							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
+							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&amp;feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
 						</div>
-						<!--<iframe width="960" height="720" src="//www.youtube.com/embed/YXkq9hQppOw" frameborder="0" allowfullscreen></iframe>-->
 						<object class="twinlist" width="960" height="720"><param name="movie" value="//www.youtube.com/v/YXkq9hQppOw?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/YXkq9hQppOw?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="960" height="720" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 					</div>
-					<!--<div class="example" id="vid-3-1">
-						<div class="ex-title">
-							<span class="ex-type">Video 3.1</span>
-							<span class="ex-caption"><a href="http://www.youtube.com/watch?v=YXkq9hQppOw&feature=youtu.be" class="link" target="_blank">Watch the TwinList Demo Video</a> <span class="capt_desc">(2:10)</span></span>
-						</div>
-						<video controls class="twinlist">
-							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
-							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.webm" type="video/webm; codecs=vp8,vorbis">
-							<source src="./assets/images/examples/medication-reconciliation/Twinlistdemo.ogv"  type="video/ogg; codecs=theora,vorbis">
-							<p>Your browser does not support HTML5 video, but you can still check out this demo on <a href="https://www.youtube.com/watch?v=YoSxlKl0pCo" target="_blank">YouTube</a></p>
-						</video>
-					</div>-->
 					<div class="print-only page-break"></div>
 					<p>If you’d like to explore Twinlist in more detail, try the interactive prototype:</p>
 					<div class="example" id="int-3-1">
 						<div class="ex-title">
 							<span class="ex-type">Interactive 3.1</span>
-							<span class="ex-caption">Demo of Twinlist <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
+							<span class="ex-caption">Demo of Twinlist <span class="print-only a">(http://tinyurl.com/kljlkhs)</span><a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&amp;version=__VERSION_FULL__&amp;animate=__AUTO_ANIMATE_ON__" target="_blank" class="button">Try it out!</a> (Preferred browsers: Chrome and Safari)</span>
 						</div>
-						<!--<a class="fancybox" href="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" title="Interactive 3.1 - Twinlist Interactive Demo">
-							<img src="./assets/images/examples/medication-reconciliation/Twinlist_interactive.png" class="scale-with-grid" alt="Twinlist Interactive Demo" /></a>-->
 					</div>
 					<div class="quicktip" id="learn-more-twinlist">
 						<div class="sidebar cf">
@@ -127,14 +112,14 @@
 						</div>
 						<div class="tip"></div>
 					</div>
-					<p>Here are some of Twinlist’s features that make it an effective interface
+					<p>Here are some of Twinlist’s features that make it an effective interface:</p>
 						<ol>
 							<li><a href="./human-factors.php#gestalts">Spatial grouping</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span>: The closer things are, the more alike they are.</li>
 							<li>Animation: Users can quickly learn how the drugs were grouped.</li>
 							<li>Highlighting: Key differences are visible and facilitate decision-making.</li>
 							<li>Rapid selection: The largest rectangular buttons that list drug information are easy to click.</li>
 						</ol>
-					</p>
+					
 					<div class="print-only page-break"></div>
 					<p>Let's look through some individual images of Twinlist (<a href="#fig-3-1">Figure 3.1</a> to <a href="#fig-3-5">3.5</a>) to review the details. This illustrates medication reconciliation during hospital discharge.</p>
 					<div class="example" id="fig-3-1">
@@ -237,11 +222,11 @@
 						<div class="print-only page-break"></div>
 						<h3>3.2 Ambulatory Medication Reconciliation</h3>
 					</div>
-					<p>Physicians use two medication lists to reconcile medications in an ambulatory setting: 
+					<p>Physicians use two medication lists to reconcile medications in an ambulatory setting: </p>
 					<ol>
 						<li>What it says in the EHR</li>
 						<li>What the patients report they actually take</li>
-					</ol></p>
+					</ol>
 					<p>Healthcare team members can collect information about patients’ adherence to their medication regimens either by interviewing the patients or by giving the patients a form to fill out. The latter option may save the office staff time. The diagram below shows a simplified workflow for medication reconciliation in the outpatient setting.</p>
 					<div class="example" id="fig-3-6">
 						<div class="ex-title">
@@ -333,12 +318,12 @@
 						<div class="tip"></div>
 					</div>
 					<div class="quicktip">
-						<div class="sidebar cf" id="medication-adherence">
+						<div class="sidebar cf" id="stop-taking">
 							<h4>Why Patients Stop Taking Their Medication</h4>
 
 							<p class="preview">Why don’t people take the medications prescribed for them?<span class="elipsis"> <span class="a">Read more</span></span></p>
 							<div class="qt-content show">
-								<p>Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:
+								<p>Why don’t people take the medications prescribed for them? They may simply never fill the prescription. Sometimes they fill the prescription but don’t take the medication. On other occasions they take the medication for a while, but then stop. Here are a few common reasons behind patients’ non adherence:</p>
 									<ol>
 										<li>The patient did not purchase the medication because it was costly.</li>
 										<li>The patient stopped taking the medication after experiencing side-effects.</li>
@@ -349,7 +334,7 @@
 										<li>The patient misunderstood the expected benefits of the medication.</li>
 										<li>The patient didn’t trust the physician who prescribed the medication.</li>
 									</ol>
-								</p>
+								
 								<p>Knowing why patients do not take their medication can help physicians make well informed decisions. The physician doesn’t want to increase a patient’s dose of antihypertensive medication if non-adherence is behind uncontrolled blood pressure.</p>
 							</div>
 						</div>
@@ -357,7 +342,7 @@
 					</div>
 
 					<h4>3.2.2 After the Patient Annotates Her List, the Physician Reviews It</h4>
-					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&version=__VERSION_FULL__&animate=__AUTO_ANIMATE_ON__" target="_blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations. Entirely different interfaces are also possible.</p>
+					<p>Now let’s examine the workflow of physicians as they review and reconcile a patient’s medication list after the patient has annotated it. The patient’s list could be displayed via an interface similar to <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/dev/indev/ipad/index.html?case=__DATASET_APPENDECTOMY__&amp;version=__VERSION_FULL__&amp;animate=__AUTO_ANIMATE_ON__" target="_blank">Twinlist</a><span class="print-only"> (http://tinyurl.com/kljlkhs)</span>, or the physician can work with whatever single-list interface the patient just used to review the entire list and enter annotations. Entirely different interfaces are also possible.</p>
 					<p>The list is ready for the physician to review, with the patient's annotations included. Let's look at our design example. (<a href="#fig-3-13">Figures 3.13</a> to <a href="#fig-3-16">3.16</a>)</p>
 					<div class="print-only page-break"></div>
 					<div class="example" id="fig-3-13">
@@ -461,7 +446,7 @@
 						<h3>3.3 Summary</h3>
 					</div>
 					<ol>
-						<li>Algorithms that <a href="./human-factors.php#gestalts" taret="blank">group or align</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span> drugs to help physicians recognize their similarities and differences reduce cognitive load.</li>
+						<li>Algorithms that <a href="./human-factors.php#gestalts" target="blank">group or align</a><span class="print-only"> (See Gestalts in the Human Factors chapter)</span> drugs to help physicians recognize their similarities and differences reduce cognitive load.</li>
 						<li>Make lists easy to scan visually. Don’t truncate medication names or important details in table views.</li>
 						<li>Add <a href="./human-factors.php#expectations" target="_blank">typographic emphasis</a><span class="print-only"> (See Our Eyes Have Expectations in the Human Factors chapter)</span> by using bold or larger font where appropriate.</li>
 						<li>Allow medication sorting and filtering (e.g. by prescriber, by diagnosis and/or renewal status)</li>
@@ -499,11 +484,12 @@
 		</div>
 		<?php include './footer.php'; ?>
 
-						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project webpage</a>.</Twinlist>
+						<p>For information about the empirical testing of Twinlist see the <a href="http://www.cs.umd.edu/hcil/sharp/twinlist/" class="link" target="_blank">Twinlist project webpage</a>.</p>
 					</div>
 					<hr />
-					<p>References</p>
+					
 					<div class="section_cite">
+						<h6>References</h6>
 						<ol>
 							<li>Bosworth, Hayden B., Bradi B. Granger, Phil Mendys, Ralph Brindis, Rebecca Burkholder, Susan M. Czajkowski, Jodi G. Daniel, et al. “Medication Adherence: A Call for Action.” <em>American Heart Journal</em> 162, no. 3 (September 2011): 412–24. doi:10.1016/j.ahj.2011.06.007.</li>
 							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/amslerpix/" class="link" target="_blank">David Amsler</a></li>

@@ -79,6 +79,7 @@
 	h5 { font-size: 20px; line-height: 30px; margin-bottom: 4px;}
 	h4 { font-size: 22px; line-height: 28px; margin-bottom: 22px; margin-top:30px;}
 	h6 { font-size: 18px; line-height: 21px; font-weight: bold; font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; }
+	.section_cite h6 { font-size: 14px; line-height: 21px; font-family: "Georgia", "Times New Roman", serif; }
 	h5.grey, p.grey {color: #696969;}
 	.title_page h1 { font-size: 42px; line-height: 50px; margin-bottom: 10px;}
 	.subheader { font-style: italic; color: #585858; }
@@ -632,7 +633,7 @@
 	
 	/*header*/
 	.header {
-		margin-top: 45px;
+		margin-top: 75px;
 		padding: 6px 0px 14px 0px;
 	}
 	.title, .title .version {
@@ -991,6 +992,13 @@
 		height: 576px;
 	}
 	/*allergy list*/
+	.allergy-list .header {
+		margin-top: 105px;
+	}
+	/*drug alerts*/
+	.drug-alerts .header {
+		margin-top: 105px;
+	}
 	/*human factors*/
 	#numeric-strings p {
 		margin: 0;
@@ -1031,12 +1039,24 @@
 	.ex-item p {
 		margin-top: 100px;
 	}
+	/*design principles*/
+	.design-principles .header {
+		margin-top: 105px;
+	}
+	/*authors*/
 	.authors-ch .author {
 		margin-bottom: 40px;
 	}
-
+	.authors-ch .header {
+		margin-top: 30px;
+	}
+	/*acknowledgements*/
+	.acknowledgements .header {
+		margin-top: 30px;
+	}
+	/*feedback*/
 	.feedback-pg .header, .impact-pg .header{
-		margin-top: 20px;
+		margin-top: -20px;
 	}
 	.feedback-pg h3 .note {
 		font-size: 14px;

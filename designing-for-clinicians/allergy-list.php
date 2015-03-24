@@ -107,7 +107,7 @@
 						<div class="print-only page-break"></div>
 						<h3>4.2 Glancing at the Allergy List</h3>
 					</div>
-					<div class="scenario" id="">
+					<div class="scenario" id="new-script">
 						<h4>Clinical Scenario &mdash; Considering a New Prescription</h4>
 						<p>A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.</p>
 					</div>
@@ -201,7 +201,7 @@
 							<img src="./assets/images/examples/allergy-list/Um_Ehr_0005_allergies-details.png" class="scale-with-grid" alt="Click Rows to Edit or See More Details" /></a>
 					</div>
 					
-					<div class="quicktip" id="">
+					<div class="quicktip" id="important-details">
 						<div class="sidebar cf">
 							<h4>What Allergy List details are important to physicians?</h4>
 							<p class="preview">Know your user and their needs. We sent a convenience-sample survey to mostly academic health center physician faculty members<span class="elipsis">... &nbsp;<span class="a">Read more</span></span></p>
@@ -241,7 +241,7 @@
 						<p>To correct the allergy list, Dr. Barnes will recategorize the Augmentin allergy as a side effect.</p>
 					</div>
 					<h4>4.4.1 Editing the Allergy List</h4>
-					<p>Our physician wants to quickly edit two parts of the EHR's entry for the patient's reaction to Augmentin. She wants to provide information about the patient's symptom, nausea, and to change the reaction's category from allergy to side-effect. The doctor wants to work quickly, because other clinical tasks demand her attention. The developer’s task is to make adding and removing substances from the Allergy List quick and intuitive. Here are some details for developers to keep in mind while creating EHRs that meet physicians' needs:
+					<p>Our physician wants to quickly edit two parts of the EHR's entry for the patient's reaction to Augmentin. She wants to provide information about the patient's symptom, nausea, and to change the reaction's category from allergy to side-effect. The doctor wants to work quickly, because other clinical tasks demand her attention. The developer’s task is to make adding and removing substances from the Allergy List quick and intuitive. Here are some details for developers to keep in mind while creating EHRs that meet physicians' needs:</p>
 						<ul class="disc">
 							<li>Physicians often take on new patients and need to add several allergies to their lists, so make adding entries quick and effortless.</li>
 							<li>Younger patients often have no known medication allergies, so make it equally quick and effortless to record, “No known medication allergies.”</li>
@@ -251,7 +251,7 @@
 							<li>Make it easy to find out who made entries or edits to the Allergy List. This field can be auto-populated with the active user’s name. Trustworthiness of the given information can vary depending on the source.</li>
 							<li>Allow drug allergies on the list to be inactivated and removed. Otherwise, physicians will need to repeatedly override drug-allergy alerts while prescribing medications, even when no allergies or adverse effects exist.</li>
 						</ul>
-					</p>					
+										
 					<p>Take a look at how these two displays enable users to add allergies (<a href="fig-4-8">Figures 4.8</a> and <a href="#fig-4-9">4.9</a>). Which one looks easier? Why? Are they both equally safe?</p>
 				</div>
 					<!--Before and After 4.1, 4.2-->
@@ -304,12 +304,12 @@
 					<p>Our "after" example (Figure 4.11) only includes the necessary data fields. The shaded section at the bottom offers physicians the ability to enter optional details. Our "after" design exemplifies the <a href="./human-factors.php#how-people-perceive">principle of least effort</a>.</p>
 					
 					<h4>4.4.2 Adding to the Allergy List</h4>
-					<p>When adding new entries to the Allergy Lists, nurses and physicians might:
+					<p>When adding new entries to the Allergy Lists, nurses and physicians might:</p>
 						<ol>
 							<li>Find the name of the drug or substance from a list of possible choices.</li>
 							<li>Find the symptoms that characterized the patient's reaction from a list of symptom choices.</li>
 							<li>If desired, add additional details such as the type of reaction, the dates it occurred on, the source of this information, etc.</li>
-						</ol></p>
+						</ol>
 					<p>Compare two examples of ways to add new allergies to lists below (<a href="#gal-4-1">Gallery 4.1</a>):</p>
 							
 					<div class="example" id="gal-4-1">
@@ -378,7 +378,7 @@
 						<div class="print-only page-break"></div>
 						<h3>4.5 Summary</h3>
 					</div>
-					<p><ol>
+					<ol>
 						<li>Consider the users and their tasks. This will help you decide what details and functions to incorporate in a particular Allergy List view.</li>
 						<li>Create a clear, uncluttered navigation path through the form physicians use to input allergy information.</li>
 						<li>Reduce information chaos by eliminating unnecessary details and amount of reading users must do to accomplish the targeted task.</li>
@@ -386,7 +386,7 @@
 						<li>Make adding the details of reactions (such as symptoms, dates and severity) optional.</li>
 						<li>Make recording that a patient has "no known medication allergies" effortless.</li>
 						<li>Make correcting erroneous information from previous entries easy.</li>
-					</ol></p>					
+					</ol>					
 				</div>
 			</div>
 		</section><!--end section review-->
@@ -404,10 +404,10 @@
 					<div class="sixteen columns">
 						<ul>
 							<li class="allergy-list">
-				<a class="prev-ch" href="./medication-reconciliation.php"><span class="prev"></span><span class="ch-name">Medication Reconciliation</span></a> 
-				<a class="next-ch" href="./e-prescribing.php"><span class="next"></span><span class="ch-name">E-Prescribing</span></a></li>
-			</ul>
-					</div>
+								<a class="prev-ch" href="./medication-reconciliation.php"><span class="prev"></span><span class="ch-name">Medication Reconciliation</span></a> 
+								<a class="next-ch" href="./e-prescribing.php"><span class="next"></span><span class="ch-name">E-Prescribing</span></a></li>
+						</ul>
+					</div>		
 				</div>
 			</nav>
 		</div>
@@ -415,8 +415,9 @@
 
 					</div>
 					<hr />
-					<p>References</p>
+					
 					<div class="section_cite">
+						<h6>References</h6>
 						<ol>
 							<li>Profile photo in interfaces by <a href="https://www.flickr.com/photos/pedronchi/" class="link" target="_blank">pedronchi</a></li>
 						</ol>
@@ -436,10 +437,21 @@
 	
 	<script type="text/javascript" src="./assets/js/jquery.cbpFWSlider.js"></script>
 	<script type="text/javascript">
-		$(function() {
+		$(document).ready(function() {
 			$( '#cbp-fwslider' ).cbpFWSlider();
 			$( '#cbp-fwslider-2' ).cbpFWSlider();
 			$( '#cbp-fwslider-3' ).cbpFWSlider();
+
+			var destination = document.URL;
+			var index = destination.indexOf('#');
+			
+			if(index >= 0) {
+				var navHeight = $('nav.main').height() + 40;
+				destination = destination.substring(index);
+				destination = $(destination).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-navHeight}, 500);
+			}
+			
 		});
 	</script>
 	<script type="text/javascript">
