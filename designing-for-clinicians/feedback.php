@@ -27,7 +27,7 @@
 			<div class="container">
 				<div class="sixteen columns">
 					<h2>Feedback</h2>
-					<div class="subheader">for Inspired EHRs: Desinging for Clinicians</div>
+					<div class="subheader">for Inspired EHRs: Designing for Clinicians</div>
 				</div>
 			</div>
 		</div>
