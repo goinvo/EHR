@@ -18,10 +18,10 @@
 	<![endif]-->
 </head>
 <body class="feedback-pg">
-	
+
 <div class="wrapper">
 	<?php include './header.php'; ?>
-				
+
 	<section class="chapter">
 		<div class="chapterStart">
 			<div class="container">
@@ -38,41 +38,39 @@
 					<div class="sectionStart">
 						<hr/>
 					</div>
-					<h3>Take the <a href="https://missouri.qualtrics.com/SE/?SID=SV_4NjrNF849ussTB3" class="link" target="_blank">survey</a></h3>
-					<p>This short survey should take about 5 minutes, if you've already looked at the book. We'll use this information to assess how well we met our goals of making a useful product for EHR development teams, and to plan future similar work.</p>
-					<p>Or send us an email with your feedback.</p>
+					<p>We'd love to hear what you have to say! Send us an email with your feedback!</p>
 					<div id="contact-area">
 						<form method="post" action="feedback.php">
-							<label for="name">Your Name</label>
+							<label for="name">Your name</label>
 							<input type="text" name="name" id="name" required />
-				
-							<label for="email">Your Email</label>
+
+							<label for="email">Your email</label>
 							<input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" required />
-							
-							<label for="message">Let Us Know What You Think</label><br />
+
+							<label for="message">Let us know what you think</label><br />
 							<textarea name="message" rows="20" cols="20" id="message" required></textarea>
 
 							<input type="text" name="blank" style="display: none;">
 
 							<input type="submit" name="submit" value="Submit" class="button" />
 						</form>
-						
+
 						</div>
 						<?php
 							//form data
-							$name = Trim(stripslashes($_POST['name']));	
+							$name = Trim(stripslashes($_POST['name']));
 							$email = Trim(stripslashes($_POST['email']));
 							$message = Trim(stripslashes($_POST['message']));
 							$blank = Trim(stripslashes($_POST['blank']));
-							$to = 'feedback@inspiredehrs.org';
+							$to = 'jeffbelden+feedback@gmail.com';
 							//$from = $email;
-							$from = 'feedback@inspiredehrs.org';
+							$from = 'jeffbelden+feedback@gmail.com';
 							$subject = 'Feedback for Inspired EHRs: Designing for Clinicians';
 							$formok = true;
-							
+
 
 							$body = "From: " . $name . "\n";
-							$body .= "Email: " . $email . "\n \n"; 
+							$body .= "Email: " . $email . "\n \n";
 							$body .= "Message: \n" . $message . "\n";
 							if(!empty($blank)){
 								$body .= "This message made it past our meager spam filter: ";
@@ -81,23 +79,23 @@
 							}
 
 							$headers = "From:" . $from . "\r\n";
-							$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
+							$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n";
 
-							
+
 
 							if($_POST['submit']){
 								if(empty($name)){
 									$formok = false;
 									echo "<p>You have not entered a name.</p>";
 								}
-								
+
 								//validate email address is not empty
 								if(empty($email)){
 									$formok = false;
 									echo "<p>You have not entered a valid email address.</p>";
 								//validate email address is valid
 								}
-								
+
 								//validate message is not empty
 								if(empty($message)){
 									$formok = false;
@@ -114,7 +112,7 @@
 								} else {
 									echo "<p>There was an issue, try sending again.</p>";
 								}
-								
+
 							}
 						?>
 					</div>
@@ -122,7 +120,7 @@
 				</div>
 			</div>
 		</section>
-		
+
 		<?php include './footer.php'; ?>
 
 					</div>

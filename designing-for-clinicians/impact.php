@@ -18,10 +18,10 @@
 	<![endif]-->
 </head>
 <body class="impact-pg">
-	
+
 <div class="wrapper">
 	<?php include './header.php'; ?>
-				
+
 	<section class="chapter">
 		<div class="chapterStart">
 			<div class="container">
@@ -40,7 +40,7 @@
 					</div>
 
 					<div id="impact-stories">
-						
+
 						<div class="impact">
 							<p>"I sent this around to our User Experience team here, and there was a lot of discussion and appreciation for the work you’ve done."</p>
 							<p class="quote-author">&mdash; Janet Campbell - <em>Epic Software Developer</em></p>
@@ -63,10 +63,10 @@
 						<form method="post" action="impact.php">
 							<label for="name">Your Name</label>
 							<input type="text" name="name" id="name" required />
-				
+
 							<label for="email">Your Email</label>
 							<input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" required />
-							
+
 							<label for="message">Tell Us Your Story</label><br />
 							<textarea name="message" rows="20" cols="20" id="message" required></textarea>
 
@@ -77,19 +77,19 @@
 						</div>
 							<?php
 								//form data
-								$name = Trim(stripslashes($_POST['name']));	
+								$name = Trim(stripslashes($_POST['name']));
 								$email = Trim(stripslashes($_POST['email']));
 								$message = Trim(stripslashes($_POST['message']));
 								$blank = Trim(stripslashes($_POST['blank']));
-								$to = 'impact@inspiredehrs.org';
+								$to = 'jeffbelden+impact@gmail.com';
 								//$from = $email;
-								$from = 'impact@inspiredehrs.org';
+								$from = 'jeffbelden+impact@gmail.com';
 								$subject = 'Impact story about Inspired EHRs: Designing for Clinicians';
 								$formok = true;
-								
+
 
 								$body = "From: " . $name . "\n";
-								$body .= "Email: " . $email . "\n \n"; 
+								$body .= "Email: " . $email . "\n \n";
 								$body .= "Message: \n" . $message . "\n";
 								if(!empty($blank)){
 									$body .= "This message made it past our meager spam filter: ";
@@ -97,23 +97,23 @@
 								}
 
 								$headers = "From:" . $from . "\r\n";
-								$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
+								$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n";
 
-								
+
 
 								if($_POST['submit']){
 									if(empty($name)){
 										$formok = false;
 										echo "<p>You have not entered a name.</p>";
 									}
-									
+
 									//validate email address is not empty
 									if(empty($email)){
 										$formok = false;
 										echo "<p>You have not entered a valid email address.</p>";
 									//validate email address is valid
 									}
-									
+
 									//validate message is not empty
 									if(empty($message)){
 										$formok = false;
@@ -130,7 +130,7 @@
 									} else {
 										echo "<p>There was an issue, try sending again.</p>";
 									}
-									
+
 								}
 							?>
 						</div>
