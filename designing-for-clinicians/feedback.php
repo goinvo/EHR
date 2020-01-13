@@ -62,9 +62,9 @@
 							$email = Trim(stripslashes($_POST['email']));
 							$message = Trim(stripslashes($_POST['message']));
 							$blank = Trim(stripslashes($_POST['blank']));
-							$to = 'jeffbelden+feedback@gmail.com';
+							$to = 'inspiredehrs@goinvo.com';
 							//$from = $email;
-							$from = 'jeffbelden+feedback@gmail.com';
+							$from = 'inspiredehrs@goinvo.com';
 							$subject = 'Feedback for Inspired EHRs: Designing for Clinicians';
 							$formok = true;
 
