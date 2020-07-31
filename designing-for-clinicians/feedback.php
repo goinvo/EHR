@@ -10,7 +10,12 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	 <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
 	<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/layout.css">
 
 	<!--[if lt IE 9]>
@@ -52,7 +57,8 @@
 
 							<input type="text" name="blank" style="display: none;">
 
-							<input type="submit" name="submit" value="Submit" class="button" />
+							<input type="submit" name="submit" value="Submit" class="button g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit'  data-action='submit' />
+
 						</form>
 
 						</div>
