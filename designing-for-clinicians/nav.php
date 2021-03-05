@@ -5,15 +5,15 @@
 	<ul>
 		<li class="foreword">
 			<a href="../"><span class="prev"></span><span class="prev-text">Previous</span></a>
-			<a href="./foreword.php"><span class="ch-name">Foreword</span></a> 
+			<a href="./foreword.php"><span class="ch-name">Foreword</span></a>
 			<a href="./about-this-book.php"><span class="next"></span><span class="next-text">Next</span></a></li>
 		<li class="about-this-book">
-			<a href="./foreword.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./about-this-book.php"><span class="ch-name">About this Book</span></a> 
+			<a href="./foreword.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./about-this-book.php"><span class="ch-name">About this Book</span></a>
 			<a href="./medication-list.php"><span class="next"></span><span class="next-text">Next</span></a></li>
 		<li class="medication-list">
-			<a href="./about-this-book.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./medication-list.php"><span class="ch-name">Medication List</span></a> 
+			<a href="./about-this-book.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./medication-list.php"><span class="ch-name">Medication List</span></a>
 			<a href="./medication-reconciliation.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -24,8 +24,8 @@
 				</ul>
 			</div></li>
 		<li class="medication-reconciliation">
-			<a href="./medication-list.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./medication-reconciliation.php"><span class="ch-name">Medication Reconciliation</span></a> 
+			<a href="./medication-list.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./medication-reconciliation.php"><span class="ch-name">Medication Reconciliation</span></a>
 			<a href="./allergy-list.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -35,8 +35,8 @@
 				</ul>
 			</div></li>
 		<li class="allergy-list">
-			<a href="./medication-reconciliation.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./allergy-list.php"><span class="ch-name">Allergy List</span></a> 
+			<a href="./medication-reconciliation.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./allergy-list.php"><span class="ch-name">Allergy List</span></a>
 			<a href="./e-prescribing.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -48,8 +48,8 @@
 				</ul>
 			</div></li>
 		<li class="e-prescribing">
-			<a href="./allergy-list.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./e-prescribing.php"><span class="ch-name">E-Prescribing</span></a> 
+			<a href="./allergy-list.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./e-prescribing.php"><span class="ch-name">E-Prescribing</span></a>
 			<a href="./drug-alerts.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -59,8 +59,8 @@
 				</ul>
 			</div></li>
 		<li class="drug-alerts">
-			<a href="./e-prescribing.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./drug-alerts.php"><span class="ch-name">Drug Alerts</span></a> 
+			<a href="./e-prescribing.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./drug-alerts.php"><span class="ch-name">Drug Alerts</span></a>
 			<a href="./human-factors.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -73,8 +73,8 @@
 				</ul>
 			</div></li>
 		<li class="human-factors">
-			<a href="./drug-alerts.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./human-factors.php"><span class="ch-name">Human Factors</span></a> 
+			<a href="./drug-alerts.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./human-factors.php"><span class="ch-name">Human Factors</span></a>
 			<a href="./design-principles.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -85,8 +85,8 @@
 				</ul>
 			</div></li>
 		<li class="design-principles">
-			<a href="./human-factors.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./design-principles.php"><span class="ch-name">Design Principles</span></a> 
+			<a href="./human-factors.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./design-principles.php"><span class="ch-name">Design Principles</span></a>
 			<a href="./health-it-usability.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -100,8 +100,8 @@
 				</ul>
 			</div></li>
 		<li class="health-it-usability">
-			<a href="./design-principles.php"><span class="prev"></span><span class="prev-text">Previous</span></a> 
-			<a href="./health-it-usability.php"> <span class="ch-name">Health IT Usability</span></a> 
+			<a href="./design-principles.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
+			<a href="./health-it-usability.php"> <span class="ch-name">Health IT Usability</span></a>
 			<a href="./authors.php"><span class="next"></span><span class="next-text">Next</span></a>
 			<div class="section-nav">
 				<ul>
@@ -112,14 +112,14 @@
 			</div></li>
 		<li class="authors-ch">
 			<a href="./health-it-usability.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
-			<a href="./authors.php"> <span class="ch-name">Authors</span></a> 
+			<a href="./authors.php"> <span class="ch-name">Authors</span></a>
 			<a href="./acknowledgements.php"><span class="next"></span><span class="next-text">Next</span></a></li>
 		<li class="acknowledgements">
 			<a href="./authors.php"><span class="prev"></span><span class="prev-text">Previous</span></a>
-			<a href="./acknowledgements.php"> <span class="ch-name">Acknowledgements</span></a> 
+			<a href="./acknowledgements.php"> <span class="ch-name">Acknowledgements</span></a>
 			<a href="../"><span class="next"></span><span class="next-text">Next</span></a></li>
 	</ul>
-	<a class="feedback-link" href="./feedback.php" >Feedback</a>
+	<a class="feedback-link"  href="mailto:inspiredehrs@goinvo.com?Subject=EHR%20feedback" target="_top">Contact</a>
 	</div>
 	</div>
 </nav>

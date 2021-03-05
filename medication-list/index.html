@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="./assets/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.dataTables.css">
 	<style type="text/css" class="init">
-		
+
 	</style>
 
 	<script type="text/javascript" language="javascript" src="./assets/js/jquery-1.11.1.min.js"></script>
@@ -58,7 +58,7 @@
 
 		$(document).ready(function() {
 			$('.interactive_content').html( '<table cellpadding="0" cellspacing="0" border="0" class="display main_table" id="med_table"></table>' );
- 
+
 			//plug in your own medication list by replacing url in "ajax" call
 			var table = $('#med_table').DataTable( {
 				"ajax": "./data/medications.txt",
@@ -71,7 +71,7 @@
 						"title": "Medication",
 						"sClass": "expand" },
 					{ "data": "brand",
-						"title": "Brand", 
+						"title": "Brand",
 						"visible": false,
 						"sClass": "expand" },
 					{ "data": "dose",
@@ -123,7 +123,7 @@
 				],
 				"order": [[0, 'asc']]
 			} );
-			
+
 			// Add event listener for opening and closing details
 			$('#med_table tbody').on('click', 'td.details-control, td.expand', function () {
 				var tr = $(this).parents('tr');
@@ -149,7 +149,7 @@
 				var rowIdx = table
 			        .cell( this )
 			        .index().row;
-			 
+
 				if($(this).hasClass('active')){
 					table
 				        .rows( rowIdx )
@@ -172,7 +172,7 @@
 			} );
 
 			//uses brand filter to toggle on and off brand column
-			//to add other columns, target with 
+			//to add other columns, target with
 			$('a.toggle-vis').on( 'click', function (e) {
 				e.preventDefault();
 
@@ -184,7 +184,7 @@
 			} );
 		} );
 	</script>
-	
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -217,7 +217,7 @@
 					<li class="active">Interactive Table</li>
 					<li><a href="../timeline/">Timeline</a></li>
 					<li><a href="../designing-for-clinicians/medication-list.php#interactive-table" target="blank">Back to the Medication List chapter</a></li>
-					<li><a href="../designing-for-clinicians/feedback.php">Feedback</a></li>
+					<li><a href="mailto:inspiredehrs@goinvo.com?Subject=EHR%20feedback" target="_top">Contact</a></li>
 					<li><a href="../designing-for-clinicians/impact.php">Impact</a></li>
 					<!--<li id="task_list">Task List
 						<ol>
